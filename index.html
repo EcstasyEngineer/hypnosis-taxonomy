@@ -1,317 +1,1821 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>v7 Influence Taxonomy — Graph</title>
+<title>v7 Influence Taxonomy — Filament</title>
 <style>
   :root {
     color-scheme: light;
-    --surface-0: #f4f4f2;
-    --surface-1: #fcfcfb;
-    --line:      #e2e2dd;
-    --ink-1:     #0b0b0b;
-    --ink-2:     #52514e;
-    --ink-3:     #86857f;
-    --sel-1:     #2a78d6;
-    --sel-2:     #eb6834;
-    --sel-3:     #1baf7a;
-    --node:      #86857f;
-    --edge:      #cfcfc8;
+    --surface-0:#f4f4f2; --surface-1:#fcfcfb; --surface-2:#eeeeea;
+    --line:#e2e2dd; --line-2:#d3d3cc;
+    --ink-1:#0b0b0b; --ink-2:#52514e; --ink-3:#86857f; --ink-4:#a9a89f;
+    --blue:#2a78d6; --orange:#eb6834; --aqua:#1baf7a;
+    --ghost:rgba(11,11,11,.085);
+    --node-neutral:#9b9a92;
+    --edge:#c6c5bd;
+    /* disc = the family body plate. A step DARKER than the stage in light mode,
+       a step LIGHTER in dark mode — selected per theme, never an alpha flip. */
+    --disc:#edece7; --disc-edge:#dedcd4; --hollow:#fcfcfb;
+    --shadow:0 6px 24px rgba(0,0,0,.13);
+    --shadow-lg:0 18px 48px rgba(0,0,0,.16);
   }
   @media (prefers-color-scheme: dark) {
     :root:where(:not([data-theme="light"])) {
       color-scheme: dark;
-      --surface-0: #121211; --surface-1: #1a1a19; --line: #33332f;
-      --ink-1: #ffffff; --ink-2: #c3c2b7; --ink-3: #8a8a80;
-      --sel-1: #3987e5; --sel-2: #d95926; --sel-3: #199e70;
-      --node: #6f6f68; --edge: #3a3a35;
+      --surface-0:#101010; --surface-1:#191918; --surface-2:#232322;
+      --line:#302f2c; --line-2:#403f3a;
+      --ink-1:#f7f7f4; --ink-2:#bbbab0; --ink-3:#84837a; --ink-4:#5f5e58;
+      --blue:#3987e5; --orange:#d95926; --aqua:#199e70;
+      --ghost:rgba(247,247,244,.075);
+      --node-neutral:#66655e;
+      --edge:#403f39;
+      --disc:#1f1f1e; --disc-edge:#2b2b29; --hollow:#191918;
+      --shadow:0 6px 24px rgba(0,0,0,.5);
+      --shadow-lg:0 18px 48px rgba(0,0,0,.6);
     }
   }
   :root[data-theme="dark"] {
     color-scheme: dark;
-    --surface-0: #121211; --surface-1: #1a1a19; --line: #33332f;
-    --ink-1: #ffffff; --ink-2: #c3c2b7; --ink-3: #8a8a80;
-    --sel-1: #3987e5; --sel-2: #d95926; --sel-3: #199e70;
-    --node: #6f6f68; --edge: #3a3a35;
+    --surface-0:#101010; --surface-1:#191918; --surface-2:#232322;
+    --line:#302f2c; --line-2:#403f3a;
+    --ink-1:#f7f7f4; --ink-2:#bbbab0; --ink-3:#84837a; --ink-4:#5f5e58;
+    --blue:#3987e5; --orange:#d95926; --aqua:#199e70;
+    --ghost:rgba(247,247,244,.075);
+    --node-neutral:#66655e;
+    --edge:#403f39;
+    --disc:#1f1f1e; --disc-edge:#2b2b29; --hollow:#191918;
+    --shadow:0 6px 24px rgba(0,0,0,.5);
+    --shadow-lg:0 18px 48px rgba(0,0,0,.6);
   }
 
-  * { box-sizing: border-box; }
-  body {
-    margin: 0; background: var(--surface-0); color: var(--ink-1);
-    font: 15px/1.5 ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:var(--surface-0); color:var(--ink-1);
+    font:15px/1.5 ui-sans-serif,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing:antialiased;
   }
-  header { padding: 22px 24px 0; max-width: 1400px; margin: 0 auto; }
-  h1 { margin: 0 0 4px; font-size: 21px; font-weight: 620; letter-spacing: -.01em; }
-  .sub { color: var(--ink-2); font-size: 13.5px; margin: 0 0 16px; }
-  .wrap { max-width: 1400px; margin: 0 auto; padding: 0 24px 40px; }
+  .wrap{max-width:1400px;margin:0 auto;padding:0 24px 56px}
+  header{max-width:1400px;margin:0 auto;padding:26px 24px 0;
+    display:flex;flex-wrap:wrap;align-items:flex-end;gap:14px 22px}
+  h1{margin:0;font-size:22px;font-weight:640;letter-spacing:-.015em}
+  .sub{color:var(--ink-2);font-size:13.5px;margin:3px 0 0}
+  /* Grafted from the tile candidate: a quantitative anchor for the landing view.
+     Uses the same aqua/hollow/orange risk encoding as the map, so it reads as one
+     system rather than a second, competing legend. */
+  .riskmix{display:flex;align-items:center;gap:7px;margin:7px 0 0;flex-wrap:wrap}
+  .riskmix .track{display:flex;height:7px;width:210px;border-radius:999px;overflow:hidden;
+    border:1px solid var(--line-2);background:var(--surface-1)}
+  .riskmix .seg{height:100%}
+  .riskmix .seg.low{background:var(--aqua)}
+  .riskmix .seg.med{background:repeating-linear-gradient(90deg,var(--aqua) 0 2px,transparent 2px 4px)}
+  .riskmix .seg.high{background:var(--orange)}
+  .riskmix .rl{font-size:11.5px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+  @media (max-width:560px){ .riskmix .track{width:150px} }
+  .sub b{color:var(--ink-1);font-weight:600;font-variant-numeric:tabular-nums}
+  .hgrow{flex:1 1 auto}
 
-  .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
-  .chip {
-    border: 1px solid var(--line); background: var(--surface-1); color: var(--ink-2);
-    border-radius: 999px; padding: 5px 13px; font-size: 13px; cursor: pointer;
-    font-family: inherit; display: inline-flex; align-items: center; gap: 7px;
+  /* ---- controls ---- */
+  .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:18px 0 12px}
+  .chip{
+    border:1px solid var(--line-2); background:var(--surface-1); color:var(--ink-2);
+    border-radius:999px; padding:6px 13px; font:inherit; font-size:13px; cursor:pointer;
+    display:inline-flex; align-items:center; gap:7px; white-space:nowrap;
+    transition:border-color .15s,color .15s,background .15s;
   }
-  .chip:hover { border-color: var(--ink-3); color: var(--ink-1); }
-  .chip[aria-pressed="true"] { border-color: currentColor; color: var(--ink-1); font-weight: 560; }
-  .dot { width: 9px; height: 9px; border-radius: 50%; background: currentColor; flex: none; }
-  .spacer { flex: 1 1 auto; }
+  .chip:hover{border-color:var(--ink-3);color:var(--ink-1)}
+  .chip:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+  .chip[aria-pressed="true"]{background:var(--ink-1);border-color:var(--ink-1);color:var(--surface-1);font-weight:560}
+  .chip .n{font-variant-numeric:tabular-nums;color:var(--ink-4);font-size:12px}
+  .chip[aria-pressed="true"] .n{color:var(--surface-2);opacity:.75}
+  .chip .gl{width:11px;height:11px;flex:none;background:currentColor;opacity:.85}
+  .chip .gl.sq{border-radius:3px}
+  .chip .gl.ci{border-radius:50%}
+  .grow{flex:1 1 auto}
 
-  .stage { position: relative; background: var(--surface-1); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
-  svg { display: block; width: 100%; height: min(70vh, 720px); touch-action: none; }
-  .edge { stroke: var(--edge); fill: none; }
-  .node { cursor: pointer; }
-  .node circle { stroke: var(--surface-1); stroke-width: 2; }
-  .lbl { font-size: 10.5px; fill: var(--ink-2); pointer-events: none; paint-order: stroke;
-         stroke: var(--surface-1); stroke-width: 3px; stroke-linejoin: round; }
-
-  .tip {
-    position: absolute; pointer-events: none; opacity: 0; transition: opacity .1s;
-    background: var(--surface-1); border: 1px solid var(--line); border-radius: 9px;
-    padding: 10px 12px; max-width: 330px; font-size: 13px; line-height: 1.45;
-    box-shadow: 0 6px 22px rgba(0,0,0,.13); z-index: 5;
+  .search{
+    position:relative;display:inline-flex;align-items:center;
+    border:1px solid var(--line-2);background:var(--surface-1);border-radius:999px;
+    padding:0 6px 0 12px;transition:border-color .15s;
   }
-  .tip b { display: block; font-size: 13.5px; margin-bottom: 3px; color: var(--ink-1); }
-  .tip .m { color: var(--ink-2); }
-  .tip .r { color: var(--ink-3); font-size: 12px; margin-top: 5px; }
+  .search:focus-within{border-color:var(--blue)}
+  .search input{
+    border:0;background:transparent;color:var(--ink-1);font:inherit;font-size:13px;
+    padding:6px 4px;width:172px;outline:none;
+  }
+  .search input::placeholder{color:var(--ink-4)}
+  /* suppress the UA's own search clear button — we render our own */
+  .search input::-webkit-search-cancel-button,
+  .search input::-webkit-search-decoration{-webkit-appearance:none;appearance:none}
+  .search button{
+    border:0;background:transparent;color:var(--ink-3);cursor:pointer;font:inherit;
+    font-size:15px;line-height:1;padding:4px 6px;border-radius:50%;
+  }
+  .search button:hover{color:var(--ink-1)}
 
-  .legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px; font-size: 13px; color: var(--ink-2); }
-  .legend span { display: inline-flex; align-items: center; gap: 6px; }
-  .note { color: var(--ink-3); font-size: 12.5px; margin-top: 14px; max-width: 70ch; }
-  details { margin-top: 18px; }
-  summary { cursor: pointer; color: var(--ink-2); font-size: 13.5px; }
-  table { border-collapse: collapse; margin-top: 10px; font-size: 13px; width: 100%; }
-  th, td { text-align: left; padding: 5px 10px; border-bottom: 1px solid var(--line); }
-  th { color: var(--ink-2); font-weight: 560; }
-  a { color: inherit; }
+  /* ---- stage ---- */
+  .stage{
+    position:relative; background:var(--surface-1);
+    border:1px solid var(--line); border-radius:14px; overflow:hidden;
+    height:min(72vh,760px); min-height:440px; touch-action:none;
+  }
+  .stage canvas,.stage svg.ovl{position:absolute;inset:0;width:100%;height:100%;display:block}
+  .stage svg.ovl{pointer-events:none}
+  .stage:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+
+  .ghostword{
+    font-size:44px;font-weight:700;letter-spacing:-.02em;
+    fill:var(--ink-1);opacity:.085;text-transform:lowercase;
+  }
+  .famlbl{
+    font-size:11px;font-weight:560;fill:var(--ink-2);
+    paint-order:stroke;stroke:var(--surface-1);stroke-width:3.5px;stroke-linejoin:round;
+  }
+  .famlbl.dim{opacity:.28}
+  .leader{stroke:var(--ink-4);stroke-width:.8;opacity:.5;fill:none}
+
+  /* ---- tooltip ---- */
+  .tip{
+    position:absolute;pointer-events:none;opacity:0;transform:translateY(3px);
+    transition:opacity .12s,transform .12s;
+    background:var(--surface-1);border:1px solid var(--line-2);border-radius:10px;
+    padding:9px 12px;max-width:290px;font-size:13px;line-height:1.45;
+    box-shadow:var(--shadow);z-index:6;
+  }
+  .tip.on{opacity:1;transform:translateY(0)}
+  .tip b{display:block;font-size:13.5px;margin-bottom:2px;color:var(--ink-1)}
+  .tip .m{color:var(--ink-2);font-size:12.5px}
+  .tip .r{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+
+  .pill{
+    display:inline-flex;align-items:center;gap:5px;font-size:11.5px;line-height:1;
+    padding:3px 7px;border-radius:999px;border:1px solid currentColor;white-space:nowrap;
+  }
+  .pill.risk-high{color:var(--orange)}
+  .pill.risk-medium{color:var(--orange);opacity:.92}
+  .pill.risk-low{color:var(--aqua)}
+  .pill.neutral{color:var(--ink-3)}
+  .pill .gl{width:8px;height:8px;border-radius:50%;background:currentColor;flex:none}
+
+  /* ---- detail rail ---- */
+  .rail{
+    position:absolute;top:12px;right:12px;width:302px;max-height:calc(100% - 24px);
+    background:var(--surface-1);border:1px solid var(--line-2);border-radius:12px;
+    box-shadow:var(--shadow-lg);padding:14px 15px 15px;overflow:auto;z-index:7;
+    opacity:0;transform:translateY(8px) scale(.985);pointer-events:none;
+    transition:opacity .18s,transform .18s;
+  }
+  .rail.on{opacity:1;transform:none;pointer-events:auto}
+  .rail h2{margin:0 26px 3px 0;font-size:15.5px;font-weight:620;letter-spacing:-.01em;line-height:1.3}
+  .rail .path{color:var(--ink-2);font-size:12.5px;margin:0 0 10px}
+  .rail .close{
+    position:absolute;top:9px;right:9px;border:0;background:transparent;cursor:pointer;
+    color:var(--ink-3);font:inherit;font-size:17px;line-height:1;padding:3px 6px;border-radius:6px;
+  }
+  .rail .close:hover{color:var(--ink-1);background:var(--surface-2)}
+  .rail .flags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+  .rail h3{margin:0 0 7px;font-size:11px;font-weight:620;letter-spacing:.07em;
+    text-transform:uppercase;color:var(--ink-3)}
+  .linkbtn{
+    display:block;width:100%;text-align:left;border:1px solid var(--line);
+    background:var(--surface-2);color:var(--ink-1);border-radius:8px;
+    padding:7px 9px;font:inherit;font-size:12.5px;cursor:pointer;margin-bottom:5px;
+    transition:border-color .14s,background .14s;
+  }
+  .linkbtn:hover{border-color:var(--blue)}
+  .linkbtn:focus-visible{outline:2px solid var(--blue);outline-offset:1px}
+  .linkbtn .k{display:block;color:var(--ink-3);font-size:11px;margin-top:2px}
+  .rail .none{color:var(--ink-3);font-size:12.5px;margin:0}
+
+  /* ---- legend ---- */
+  .legend{
+    display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:13px;
+    font-size:12.5px;color:var(--ink-2);align-items:center;
+  }
+  .legend .it{display:inline-flex;align-items:center;gap:9px}
+  .legend .it .lg{margin:0 1px}
+  .lg{width:12px;height:12px;flex:none;display:inline-block}
+  .lg.dot{border-radius:50%}
+  .lg.sq{border-radius:3.5px}
+  .lg.ring{border-radius:50%;background:transparent;border:2px solid var(--orange)}
+  .lg.line{width:22px;height:0;border-top:2px solid var(--edge);border-radius:0}
+  .lg.line.dash{border-top-style:dashed}
+  .legend .sep{width:1px;height:14px;background:var(--line-2);flex:none}
+
+  .note{color:var(--ink-3);font-size:12.5px;margin:16px 0 0;max-width:76ch;line-height:1.6}
+  .note em{font-style:normal;color:var(--ink-2)}
+
+  /* ---- table ---- */
+  details{margin-top:20px;border-top:1px solid var(--line);padding-top:14px}
+  summary{cursor:pointer;color:var(--ink-2);font-size:13.5px;font-weight:540;
+    list-style:none;display:flex;align-items:center;gap:7px}
+  summary::-webkit-details-marker{display:none}
+  summary::before{content:"";width:0;height:0;flex:none;
+    border-left:5px solid var(--ink-3);border-top:4px solid transparent;border-bottom:4px solid transparent;
+    transition:transform .15s}
+  details[open] summary::before{transform:rotate(90deg)}
+  summary:focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:4px}
+  .tscroll{overflow-x:auto;margin-top:12px;-webkit-overflow-scrolling:touch}
+  table{border-collapse:collapse;font-size:13px;width:100%;min-width:640px}
+  th,td{text-align:left;padding:6px 12px 6px 0;border-bottom:1px solid var(--line);white-space:nowrap}
+  th{color:var(--ink-2);font-weight:600;font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;
+     position:sticky;top:0;background:var(--surface-0)}
+  th button{border:0;background:transparent;color:inherit;font:inherit;cursor:pointer;padding:0;
+    display:inline-flex;gap:5px;align-items:center;text-transform:inherit;letter-spacing:inherit}
+  th button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+  td.num{font-variant-numeric:tabular-nums}
+  td .pill{font-size:11px}
+  tbody tr:hover{background:var(--surface-2)}
+
+  .msg{padding:14px 16px;border:1px solid var(--line-2);border-radius:10px;
+    background:var(--surface-2);color:var(--ink-2);font-size:13.5px;margin-top:12px}
+
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  .skip{position:absolute;left:-9999px;top:0;background:var(--surface-1);color:var(--ink-1);
+    padding:9px 14px;border-radius:0 0 8px 0;z-index:20;border:1px solid var(--line-2)}
+  .skip:focus{left:0}
+
+  .empty{
+    position:absolute;inset:0;display:none;place-items:center;text-align:center;
+    z-index:4;pointer-events:none;padding:24px;
+  }
+  .empty.on{display:grid}
+  .empty .in{pointer-events:auto;max-width:330px}
+  .empty p{margin:0 0 12px;color:var(--ink-2);font-size:14px}
+  .empty .qs{display:flex;flex-wrap:wrap;gap:7px;justify-content:center}
+
+  @media (max-width:860px){
+    .rail{
+      top:auto;left:8px;right:8px;bottom:8px;width:auto;max-height:56%;
+      transform:translateY(14px);border-radius:14px;
+    }
+    .rail.on{transform:none}
+  }
+  @media (max-width:640px){
+    header{padding:16px 16px 0;gap:8px 14px}
+    .wrap{padding:0 16px 44px}
+    h1{font-size:19px}
+    .sub{font-size:12.5px}
+    .stage{height:min(66vh,560px);min-height:400px;border-radius:12px}
+    .bar{gap:6px;margin:10px 0 8px;flex-wrap:nowrap}
+    .chip{padding:6px 11px;font-size:12.5px}
+    /* The five macroclass chips wrapped to three rows and pushed the graph below
+       the fold; on narrow screens they collapse into one select instead. */
+    #controls .chip{display:none}
+    #controls .macsel{display:inline-flex}
+    .search{flex:1 1 auto;min-width:0}
+    .search input{width:100%;flex:1 1 auto;min-width:0}
+    .legend{gap:7px 14px;font-size:12px}
+    .legend .sep{display:none}
+  }
+  .macsel{display:none;align-items:center;border:1px solid var(--line-2);
+    background:var(--surface-1);border-radius:999px;padding:0 6px 0 11px;flex:none}
+  .macsel select{border:0;background:transparent;color:var(--ink-1);font:inherit;
+    font-size:12.5px;padding:6px 2px;outline:none;max-width:130px}
+  .macsel:focus-within{border-color:var(--blue)}
+  @media (prefers-reduced-motion:reduce){
+    *{transition-duration:0ms!important;animation-duration:0ms!important}
+  }
 </style>
 
+<a class="skip" href="#tablepanel">Skip to data table</a>
+
 <header>
-  <h1>v7 Influence Taxonomy</h1>
-  <p class="sub"><span id="ncount">—</span> techniques · <span id="ecount">—</span> semantic links · grouped by family</p>
+  <div>
+    <h1>v7 Influence Taxonomy</h1>
+    <p class="sub"><b id="ncount">804</b> techniques · <b id="fcount">35</b> families ·
+      <b id="ecount">68</b> reading links · hue shows <b>risk</b></p>
+    <div class="riskmix" id="riskmix"></div>
+  </div>
+  <div class="hgrow"></div>
+  <div class="bar" style="margin:0" id="utility"></div>
 </header>
 
 <div class="wrap">
-  <div class="controls" id="controls"></div>
+  <div class="bar" id="controls" role="group" aria-label="Filter by macroclass"></div>
 
-  <div class="stage">
-    <svg id="g"></svg>
-    <div class="tip" id="tip"></div>
+  <div class="stage" id="stage">
+    <canvas id="cv"></canvas>
+    <svg class="ovl" id="ovl" aria-hidden="true"></svg>
+    <div class="tip" id="tip" role="status" aria-live="polite"></div>
+    <div class="empty" id="empty"><div class="in">
+      <p id="emptymsg">No technique matches that.</p>
+      <div class="qs" id="suggest"></div>
+    </div></div>
+    <aside class="rail" id="rail" aria-label="Technique detail" hidden></aside>
   </div>
+  <div id="graphdesc" class="sr" aria-live="polite"></div>
+  <div class="sr" id="kbdhint">Graph. Press Tab to enter, arrow keys to move between techniques, Enter for detail, Escape to clear.</div>
 
   <div class="legend" id="legend"></div>
 
   <p class="note">
-    Nodes are techniques, placed by family. Links are authored <em>see&nbsp;also</em> and
-    <em>contrasts&nbsp;with</em> relations — the semantic layer only. The taxonomy also
-    records ~1,240 <em>do-not-merge</em> links (pairs checked and ruled distinct); those are
-    curation evidence rather than reading paths, so they are hidden by default.
+    Each dot is one technique, grouped into its <em>family</em>; families are positioned by a
+    force simulation over the <em>see&nbsp;also</em> and <em>contrasts&nbsp;with</em> links that
+    cross between them, so families that share reading paths settle together. Colour encodes
+    <em>risk</em>, not category — category is shown by position and by the large background words.
+    The taxonomy also records 221 <em>distinct-from</em> pairs (checked and ruled apart); those are
+    curation evidence rather than reading paths and never influence the layout.
   </p>
 
-  <details>
-    <summary>Table view</summary>
-    <table id="tbl"><thead><tr><th>Technique</th><th>Family</th><th>Macroclass</th><th>Risk</th><th>Links</th></tr></thead><tbody></tbody></table>
+  <details id="tablepanel">
+    <summary>Table view — all <span id="tcount">804</span> techniques</summary>
+    <div id="tmsg"></div>
+    <div class="tscroll">
+      <table id="tbl">
+        <thead><tr>
+          <th><button data-sort="name">Technique</button></th>
+          <th><button data-sort="family">Family</button></th>
+          <th><button data-sort="macroclass">Macroclass</button></th>
+          <th><button data-sort="risk">Risk</button></th>
+          <th><button data-sort="flags">Flags</button></th>
+          <th><button data-sort="deg">Links</button></th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
   </details>
 </div>
 
 <script>
-const SEL = ['--sel-1','--sel-2','--sel-3'];
-let DATA = null, MAC = null, SHOWDNM = false, NODES = [], EDGES = [];
+"use strict";
+/* ============================================================================
+   FILAMENT — family-scale force layout for the v7 influence taxonomy.
+   Vanilla JS, canvas + SVG overlay, no dependencies, no network beyond graph.json.
+   ========================================================================== */
 
-const svg = document.getElementById('g');
-const tip = document.getElementById('tip');
-const cssv = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const SEMANTIC = { see_also: 1, contrasts_with: 1 };
+const CURATION = { distinct_from: 1, do_not_merge_claim: 1 };
+/* Doing-to classes render as circles; internal-state classes as rounded squares. */
+const SQUARE_CLASSES = { absorption: 1, dissociation: 1 };
+const MACRO_ORDER = ['suggestion','influence','craft','absorption','dissociation'];
 
-fetch('graph.json').then(r => r.json()).then(d => { DATA = d; init(); });
+const RM = matchMedia('(prefers-reduced-motion: reduce)');
+const reduced = () => RM.matches;
 
-function init(){
-  document.getElementById('ncount').textContent = DATA.nodes.length.toLocaleString();
-  const sem = DATA.edges.filter(e => e.k !== 'do_not_merge_claim');
-  document.getElementById('ecount').textContent = sem.length.toLocaleString();
+const el = id => document.getElementById(id);
+const stage = el('stage'), cv = el('cv'), ovl = el('ovl'), tip = el('tip'), rail = el('rail');
+const ctx = cv.getContext('2d');
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+/* getComputedStyle is expensive and render() reads tokens thousands of times per
+   frame; cache per frame and invalidate whenever the theme can have changed. */
+let _cssCache = new Map();
+const cssv = n => {
+  let v = _cssCache.get(n);
+  if (v === undefined){
+    v = getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+    _cssCache.set(n, v);
+  }
+  return v;
+};
+const cssFlush = () => { _cssCache = new Map(); };
+const clamp = (v,a,b) => v < a ? a : v > b ? b : v;
+const now = () => performance.now();
 
-  const macs = [...new Set(DATA.nodes.map(n => n.macroclass).filter(Boolean))]
-    .sort((a,b) => count(b) - count(a));
-  const c = document.getElementById('controls');
-  c.innerHTML = '';
-  addChip(c, 'All', null);
-  macs.forEach(m => addChip(c, m, m));
-  const sp = document.createElement('span'); sp.className = 'spacer'; c.appendChild(sp);
-
-  const dnm = document.createElement('button');
-  dnm.className = 'chip'; dnm.textContent = 'Show curation links';
-  dnm.setAttribute('aria-pressed','false');
-  dnm.onclick = () => { SHOWDNM = !SHOWDNM; dnm.setAttribute('aria-pressed', SHOWDNM); draw(); };
-  c.appendChild(dnm);
-
-  const th = document.createElement('button');
-  th.className = 'chip'; th.textContent = 'Theme';
-  th.onclick = () => {
-    const cur = document.documentElement.getAttribute('data-theme');
-    const dark = cur ? cur === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-    document.documentElement.setAttribute('data-theme', dark ? 'light' : 'dark');
-    draw();
+/* Seeded PRNG — byte-identical layout on every load. */
+function mulberry(seed){
+  return function(){
+    seed |= 0; seed = seed + 0x6D2B79F5 | 0;
+    let t = Math.imul(seed ^ seed >>> 15, 1 | seed);
+    t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
+    return ((t ^ t >>> 14) >>> 0) / 4294967296;
   };
-  c.appendChild(th);
+}
 
+/* ---------------------------------------------------------------- state --- */
+let DATA = null, NODES = [], BY_ID = new Map();
+let SEM = [], CUR = [], ADJ = new Map();
+let FAMS = [], FAM_BY_NAME = new Map(), MACRO_REGIONS = [];
+let MAC_FILTER = null, SHOW_CURATION = false, QUERY = '';
+let HOVER = null, PINNED = null, KBFOCUS = null;
+let TERRITORY_OK = true;
+
+const view = { x:0, y:0, k:1 };
+let W = 1000, H = 640, DPR = 1;
+let reveal = 1;              // 0..1 animation from initial scatter -> solved
+let stipple = 1;             // 0..1 node fade-in
+let raf = null, dirty = true;
+/* Bumped on every layout change; in-flight reflow animations check it and abort so
+   a stale callback cannot overwrite a newer solve or rebuild GRID for a dead layout.
+   Declared here (not beside gather) so solve() can bump it without a TDZ error. */
+let LAYOUT_GEN = 0;
+let animQueue = [];          // active tweens
+let GRID = null;             // spatial hash for hit-testing
+
+/* per-node animated values */
+function tweenTo(obj, key, target, ms, ease){
+  if (reduced()){ obj[key] = target; dirty = true; return; }
+  const from = obj[key] ?? target, t0 = now();
+  animQueue = animQueue.filter(a => !(a.o === obj && a.k === key));
+  animQueue.push({ o:obj, k:key, from, to:target, t0, ms, ease: ease || easeOutCubic });
+  kick();
+}
+const easeOutCubic = t => 1 - Math.pow(1 - t, 3);
+const easeInOutCubic = t => t < .5 ? 4*t*t*t : 1 - Math.pow(-2*t + 2, 3) / 2;
+
+/* -------------------------------------------------------------- loading --- */
+fetch('graph.json')
+  .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+  .then(d => { boot(d); })
+  .catch(err => failSoft(err));
+
+function failSoft(err){
+  stage.style.display = 'none';
+  el('legend').style.display = 'none';
+  const p = el('tablepanel');
+  p.open = true;
+  el('tmsg').innerHTML = '<div class="msg">The interactive graph could not load (' +
+    esc(err && err.message || 'network error') + '). The full taxonomy is listed below.</div>';
+  el('tcount').textContent = '0';
+}
+
+/* ------------------------------------------------------------------ boot --- */
+function boot(d){
+  DATA = d;
+
+  NODES = d.nodes.map((n, i) => ({
+    id:n.id, name:n.name,
+    family:n.family || 'unclassified',
+    macro:n.macroclass || 'unclassified',
+    risk:n.risk || 'unknown',
+    consent:!!n.consent, bounded:!!n.bounded,
+    weight:+n.weight || 0,
+    idx:i, x:0, y:0, hx:0, hy:0,          // hx/hy = home (solved) position
+    sx:0, sy:0,                            // scatter (pre-reveal) position
+    a:1, s:1, ring:0                       // animated alpha / scale / neighbour-ring
+  }));
+  BY_ID = new Map(NODES.map(n => [n.id, n]));
+
+  /* Dedup undirected edges; split semantic (layout-bearing) from curation (evidence). */
+  const seen = new Set();
+  for (const e of d.edges){
+    const a = BY_ID.get(e.s), b = BY_ID.get(e.t);
+    if (!a || !b || a === b) continue;
+    const key = (a.id < b.id ? a.id + ':' + b.id : b.id + ':' + a.id) + ':' + e.k;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    const rec = { a, b, k:e.k };
+    if (SEMANTIC[e.k]) SEM.push(rec);
+    else if (CURATION[e.k]) CUR.push(rec);
+  }
+  for (const e of SEM){
+    if (!ADJ.has(e.a.id)) ADJ.set(e.a.id, []);
+    if (!ADJ.has(e.b.id)) ADJ.set(e.b.id, []);
+    ADJ.get(e.a.id).push({ n:e.b, k:e.k });
+    ADJ.get(e.b.id).push({ n:e.a, k:e.k });
+  }
+
+  /* ---- family bodies ---- */
+  const famMap = new Map();
+  for (const n of NODES){
+    let f = famMap.get(n.family);
+    if (!f){ f = { name:n.family, members:[], macro:n.macro, x:0, y:0, vx:0, vy:0, r:0 }; famMap.set(n.family, f); }
+    f.members.push(n);
+  }
+  FAMS = [...famMap.values()];
+  for (const f of FAMS){
+    /* a family's macroclass = its plurality macroclass */
+    const tally = {};
+    for (const m of f.members) tally[m.macro] = (tally[m.macro] || 0) + 1;
+    f.macro = Object.keys(tally).sort((a,b) => tally[b] - tally[a])[0];
+    f.pure = tally[f.macro] / f.members.length;
+  }
+  FAMS.sort((a,b) => b.members.length - a.members.length || a.name.localeCompare(b.name));
+  FAM_BY_NAME = new Map(FAMS.map(f => [f.name, f]));
+
+  /* ---- aggregate cross-family springs ---- */
+  const springMap = new Map();
+  for (const e of SEM){
+    if (e.a.family === e.b.family) continue;
+    const A = FAM_BY_NAME.get(e.a.family), B = FAM_BY_NAME.get(e.b.family);
+    const key = A.name < B.name ? A.name + '|' + B.name : B.name + '|' + A.name;
+    const s = springMap.get(key);
+    if (s) s.c++; else springMap.set(key, { A, B, c:1 });
+  }
+  const SPRINGS = [...springMap.values()];
+
+  el('ncount').textContent = NODES.length.toLocaleString();
+  el('fcount').textContent = FAMS.length.toLocaleString();
+  el('ecount').textContent = SEM.length.toLocaleString();
+  el('tcount').textContent = NODES.length.toLocaleString();
+  buildRiskMix();
+
+  buildControls();
+  buildLegend();
   buildTable();
-  layout();
-  draw();
-  addEventListener('resize', () => { layout(); draw(); });
+  buildSuggestions();
+
+  resize(true);
+  solve(SPRINGS);
+  window.SPRINGS = SPRINGS;
+
+  wireEvents();
+
+  /* reveal animation: bodies at solved positions, nodes stipple in */
+  if (reduced()){ reveal = 1; stipple = 1; dirty = true; kick(); }
+  else {
+    reveal = 0; stipple = 0;
+    const t0 = now();
+    const run = () => {
+      const t = (now() - t0) / 900;
+      reveal = easeOutCubic(clamp(t, 0, 1));
+      stipple = clamp((now() - t0 - 220) / 620, 0, 1);
+      dirty = true;
+      if (t < 1.05) requestAnimationFrame(run); else { reveal = 1; stipple = 1; dirty = true; }
+    };
+    requestAnimationFrame(run);
+  }
+  kick();
+  announce();
 }
-const count = m => DATA.nodes.filter(n => n.macroclass === m).length;
 
-function addChip(parent, label, val){
-  const b = document.createElement('button');
-  b.className = 'chip';
-  b.setAttribute('aria-pressed', String(MAC === val));
-  b.innerHTML = (val ? '<span class="dot"></span>' : '') + label +
-    (val ? ` <span style="color:var(--ink-3)">${count(val)}</span>` : '');
-  b.onclick = () => {
-    MAC = MAC === val ? null : val;
-    [...parent.children].forEach(x => x.setAttribute && x.setAttribute('aria-pressed','false'));
-    b.setAttribute('aria-pressed', String(MAC === val));
-    draw();
-  };
-  parent.appendChild(b);
-}
+/* ------------------------------------------------------------ simulation --- */
+/* 35 bodies, plain O(n^2) velocity-Verlet. n=35 makes Barnes-Hut pointless. */
+function solve(SPRINGS, ticks){
+  const rnd = mulberry(20260725);
+  const N = FAMS.length;
+  const cx = W / 2, cy = H / 2;
+  const area = W * H;
+  /* radius from member count, scaled so total disc area ~ 30% of canvas */
+  let unit = 1;
+  {
+    let sum = 0;
+    for (const f of FAMS) sum += f.members.length;
+    unit = Math.sqrt(area * 0.30 / (Math.PI * sum));
+  }
+  for (const f of FAMS){
+    f.r = clamp(Math.sqrt(f.members.length) * unit, 20, 150);
+  }
 
-/* Family-clustered layout: families on a ring, members in a disc around their
-   family centre. Deterministic — the same taxonomy always draws the same map. */
-function layout(){
-  const W = svg.clientWidth || 1000, H = svg.clientHeight || 640;
-  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
-  /* Two-level radial layout: macroclass sectors, families packed inside their sector.
-     A single 35-family ring cannot avoid collisions at any sensible canvas size (the
-     largest family needs ~60px radius against a ~49px arc), and macroclass grouping
-     is the more meaningful structure anyway — it is the taxonomy's own top level. */
-  const macs = [...new Set(DATA.nodes.map(n => n.macroclass || 'other'))].sort();
-  const size = {};
-  DATA.nodes.forEach(n => { const f = n.family || 'other'; size[f] = (size[f]||0) + 1; });
-  const rad = f => 7 + Math.sqrt(size[f]) * 5.4;
-
-  const famsOf = {};
-  DATA.nodes.forEach(n => {
-    const m = n.macroclass || 'other', f = n.family || 'other';
-    (famsOf[m] ||= new Set()).add(f);
+  /* seeded scatter, biased to the family's macroclass sector so the sim starts
+     near a sane basin (pure random start makes territories non-contiguous) */
+  FAMS.forEach((f) => {
+    const mi = Math.max(0, MACRO_ORDER.indexOf(f.macro));
+    const a = (mi + 0.5) / MACRO_ORDER.length * Math.PI * 2 + (rnd() - .5) * 0.9;
+    const rr = (0.30 + rnd() * 0.55) * Math.min(W, H) * 0.42;
+    f.x = cx + Math.cos(a) * rr * 1.35;
+    f.y = cy + Math.sin(a) * rr;
+    f.vx = f.vy = 0;
+    f.ix = f.x; f.iy = f.y;
   });
 
-  const cx = W/2, cy = H/2;
-  const Rout = Math.min(W, H) * 0.40;
-  const fc = {};
-  macs.forEach((m, mi) => {
-    const list = [...famsOf[m]].sort((a,b) => size[b] - size[a]);
-    const a0 = (mi / macs.length) * Math.PI*2 - Math.PI/2;
-    const span = (Math.PI*2 / macs.length) * 0.86;   // gap between sectors
-    list.forEach((f, fi) => {
-      const ring = fi % 2 ? 0.60 : 1.0;
-      const t = list.length === 1 ? 0.5 : (Math.floor(fi/2) + 0.5) / Math.ceil(list.length/2);
-      const a = a0 + (t - 0.5) * span;
-      fc[f] = { x: cx + Math.cos(a)*Rout*ring, y: cy + Math.sin(a)*Rout*ring };
-    });
-  });
+  /* macroclass centroid targets — weak cohesion so classes form territories */
+  const macCenter = new Map();
 
-  /* Relax family centres so discs stop overlapping. Seeded from the sector layout
-     above (so macroclasses stay grouped and the result is deterministic), then
-     pushed apart pairwise and nudged back toward the canvas. Hand-tuned radii could
-     not clear 35 families at mobile widths; this can. */
-  const famList = Object.keys(fc);
-  const pad = 9;
-  for (let iter = 0; iter < 260; iter++){
-    for (let i = 0; i < famList.length; i++){
-      for (let j = i+1; j < famList.length; j++){
-        const A = fc[famList[i]], B = fc[famList[j]];
-        const need = rad(famList[i]) + rad(famList[j]) + pad;
+  const TICKS = ticks || 600;
+  const dt = 1;
+  for (let t = 0; t < TICKS; t++){
+    /* recompute macroclass centroids */
+    macCenter.clear();
+    for (const f of FAMS){
+      let c = macCenter.get(f.macro);
+      if (!c){ c = { x:0, y:0, n:0 }; macCenter.set(f.macro, c); }
+      c.x += f.x * f.members.length; c.y += f.y * f.members.length; c.n += f.members.length;
+    }
+    for (const c of macCenter.values()){ c.x /= c.n; c.y /= c.n; }
+
+    for (const f of FAMS){ f.fx = 0; f.fy = 0; }
+
+    /* pairwise repulsion */
+    for (let i = 0; i < N; i++){
+      const A = FAMS[i];
+      for (let j = i + 1; j < N; j++){
+        const B = FAMS[j];
         let dx = B.x - A.x, dy = B.y - A.y;
-        let dist = Math.hypot(dx, dy) || 0.01;
-        if (dist < need){
-          const push = (need - dist) / dist * 0.5;
-          dx *= push; dy *= push;
-          A.x -= dx; A.y -= dy; B.x += dx; B.y += dy;
+        let d2 = dx*dx + dy*dy;
+        let d = Math.sqrt(d2);
+        if (d < 1){ d = 1; d2 = 1; dx = (rnd() - .5); dy = (rnd() - .5); }
+        const rr = A.r + B.r;
+        const F = -0.85 * (rr * rr) / d2;
+        const ux = dx / d, uy = dy / d;
+        A.fx += F * ux; A.fy += F * uy;
+        B.fx -= F * ux; B.fy -= F * uy;
+      }
+    }
+
+    /* aggregate cross-family springs */
+    for (const s of SPRINGS){
+      const A = s.A, B = s.B;
+      let dx = B.x - A.x, dy = B.y - A.y;
+      let d = Math.hypot(dx, dy) || 0.01;
+      const rest = A.r + B.r + 30;
+      const k = 0.020 * Math.log(1 + s.c);
+      const F = k * (d - rest);
+      const ux = dx / d, uy = dy / d;
+      A.fx += F * ux; A.fy += F * uy;
+      B.fx -= F * ux; B.fy -= F * uy;
+    }
+
+    /* Same-macroclass cohesion, annealed upward. Early ticks let the aggregate
+       springs shape local structure; later ticks pull each class into a contiguous
+       territory so the ghost words are honest. Without the ramp the classes stay
+       interleaved and the purity check (rightly) suppresses the words entirely. */
+    const coh = 0.004 + 0.020 * (t / TICKS);
+    for (const f of FAMS){
+      const c = macCenter.get(f.macro);
+      if (!c) continue;
+      const dx = c.x - f.x, dy = c.y - f.y;
+      f.fx += dx * coh; f.fy += dy * coh;
+    }
+    /* mild inter-class separation so adjacent territories do not smear together */
+    for (const [ma, ca] of macCenter){
+      for (const [mb, cb] of macCenter){
+        if (ma >= mb) continue;
+        let dx = cb.x - ca.x, dy = cb.y - ca.y;
+        const d = Math.hypot(dx, dy) || 1;
+        if (d < 300){
+          const push = (300 - d) / d * 0.010;
+          for (const f of FAMS){
+            if (f.macro === ma){ f.fx -= dx * push; f.fy -= dy * push; }
+            else if (f.macro === mb){ f.fx += dx * push; f.fy += dy * push; }
+          }
         }
       }
     }
-    for (const f of famList){         // keep inside the canvas
-      const r = rad(f) + 6;
-      fc[f].x = Math.max(r, Math.min(W - r, fc[f].x));
-      fc[f].y = Math.max(r + 10, Math.min(H - r, fc[f].y));
+
+    /* centring gravity, weaker on x so the solved graph stretches to fill 1400px */
+    for (const f of FAMS){
+      f.fx += (cx - f.x) * 0.0015 * 0.55;
+      f.fy += (cy - f.y) * 0.0015;
+    }
+
+    /* integrate */
+    const damp = 0.86;
+    for (const f of FAMS){
+      f.vx = (f.vx + f.fx * dt) * damp;
+      f.vy = (f.vy + f.fy * dt) * damp;
+      const sp = Math.hypot(f.vx, f.vy);
+      if (sp > 12){ f.vx *= 12 / sp; f.vy *= 12 / sp; }
+      f.x += f.vx * dt; f.y += f.vy * dt;
+    }
+
+    /* hard collision pass */
+    for (let p = 0; p < 2; p++){
+      for (let i = 0; i < N; i++){
+        const A = FAMS[i];
+        for (let j = i + 1; j < N; j++){
+          const B = FAMS[j];
+          let dx = B.x - A.x, dy = B.y - A.y;
+          let d = Math.hypot(dx, dy) || 0.01;
+          const need = A.r + B.r + 13;
+          if (d < need){
+            const push = (need - d) / d * 0.5;
+            const mx = dx * push, my = dy * push;
+            A.x -= mx; A.y -= my; B.x += mx; B.y += my;
+          }
+        }
+      }
+    }
+
+    /* viewport clamp */
+    const padTop = 26;
+    for (const f of FAMS){
+      f.x = clamp(f.x, f.r + 8, W - f.r - 8);
+      f.y = clamp(f.y, f.r + padTop, H - f.r - 10);
     }
   }
-  const seen = {};
-  NODES = DATA.nodes.map(n => {
-    const f = n.family || 'other';
-    const k = seen[f] = (seen[f]||0) + 1;
-    const members = DATA.nodes.filter(m => (m.family||'other') === f).length;
-    const rr = 8 + Math.sqrt(members) * 7.0;
-    const a  = (k / Math.max(members,1)) * Math.PI*2;
-    const spiral = rr * (0.35 + 0.65 * (k / Math.max(members,1)));
-    return { ...n, x: fc[f].x + Math.cos(a)*spiral, y: fc[f].y + Math.sin(a)*spiral, fam: f };
-  });
-  const byId = Object.fromEntries(NODES.map(n => [n.id, n]));
-  EDGES = DATA.edges.map(e => ({ ...e, a: byId[e.s], b: byId[e.t] })).filter(e => e.a && e.b);
+
+  /* Final fit pass: the class-separation term biases the system off-centre, so
+     recentre and scale the solved layout to fill the canvas. This is the direct
+     fix for "huge empty centre / graph squeezed into part of a wide canvas". */
+  fitToCanvas();
+  measureTerritories();
+  placeNodes();
+  LAYOUT_GEN++;   // invalidate any in-flight reflow animation
 }
 
-function draw(){
-  const activeEdges = EDGES.filter(e => SHOWDNM || e.k !== 'do_not_merge_claim');
-  const on = n => !MAC || n.macroclass === MAC;
-  const hue = cssv(SEL[0]);
-
-  let s = '<g>';
-  for (const e of activeEdges){
-    const lit = on(e.a) && on(e.b);
-    s += `<path class="edge" d="M${e.a.x.toFixed(1)} ${e.a.y.toFixed(1)}Q${((e.a.x+e.b.x)/2).toFixed(1)} ${((e.a.y+e.b.y)/2-18).toFixed(1)} ${e.b.x.toFixed(1)} ${e.b.y.toFixed(1)}"
-      stroke-width="${e.k==='contrasts_with'?1.6:1.1}" opacity="${lit?(MAC?0.5:0.34):0.07}"
-      ${e.k==='contrasts_with'?'stroke-dasharray="3 3"':''}/>`;
+function fitToCanvas(){
+  if (!FAMS.length) return;
+  let x1 = Infinity, y1 = Infinity, x2 = -Infinity, y2 = -Infinity;
+  for (const f of FAMS){
+    x1 = Math.min(x1, f.x - f.r); x2 = Math.max(x2, f.x + f.r);
+    y1 = Math.min(y1, f.y - f.r); y2 = Math.max(y2, f.y + f.r);
   }
-  s += '</g><g>';
+  const padX = 16, padY = 22;
+  const bw = x2 - x1, bh = y2 - y1;
+  if (bw <= 0 || bh <= 0) return;
+  /* Uniform scale sets the disc size (radii must not distort), then a bounded
+     anisotropic spread of the CENTRES only fills the remaining axis. This is what
+     removes the dead column on wide canvases without turning circles into ovals. */
+  const s = Math.min((W - padX * 2) / bw, (H - padY * 2) / bh);
+  const ox = (W - bw * s) / 2 - x1 * s, oy = (H - bh * s) / 2 - y1 * s;
+  for (const f of FAMS){
+    f.x = f.x * s + ox;
+    f.y = f.y * s + oy;
+    f.r *= s;
+  }
+  /* recompute the scaled bbox, then spread centres about the canvas centre */
+  x1 = Infinity; y1 = Infinity; x2 = -Infinity; y2 = -Infinity;
+  for (const f of FAMS){
+    x1 = Math.min(x1, f.x - f.r); x2 = Math.max(x2, f.x + f.r);
+    y1 = Math.min(y1, f.y - f.r); y2 = Math.max(y2, f.y + f.r);
+  }
+  const spread = (lo, hi, size, pad, get, set) => {
+    const span = hi - lo;
+    if (span <= 0) return;
+    const want = size - pad * 2;
+    let k = clamp(want / span, 1, 1.6);
+    if (k <= 1.001) return;
+    const mid = (lo + hi) / 2, c = size / 2;
+    for (const f of FAMS) set(f, c + (get(f) - mid) * k);
+    /* re-separate: stretching centres can only increase gaps, but clamp to canvas */
+    for (const f of FAMS){
+      f.x = clamp(f.x, f.r + 6, W - f.r - 6);
+      f.y = clamp(f.y, f.r + 24, H - f.r - 8);
+    }
+  };
+  spread(x1, x2, W, padX, f => f.x, (f, v) => f.x = v);
+  spread(y1, y2, H, padY, f => f.y, (f, v) => f.y = v);
+}
+
+/* Territory purity: the ghost macroclass words are only honest if each class
+   occupies a contiguous-ish region. If purity is poor, drop them (risk #2). */
+function measureTerritories(){
+  MACRO_REGIONS = [];
+  const groups = new Map();
+  for (const f of FAMS){
+    let g = groups.get(f.macro);
+    if (!g){ g = { macro:f.macro, fams:[], n:0, x:0, y:0 }; groups.set(f.macro, g); }
+    g.fams.push(f); g.n += f.members.length;
+    g.x += f.x * f.members.length; g.y += f.y * f.members.length;
+  }
+  let intrusions = 0, total = 0;
+  for (const g of groups.values()){
+    g.x /= g.n; g.y /= g.n;
+    /* spread = weighted rms distance from own centroid */
+    let s2 = 0;
+    for (const f of g.fams) s2 += f.members.length * ((f.x - g.x) ** 2 + (f.y - g.y) ** 2);
+    g.spread = Math.sqrt(s2 / g.n);
+    MACRO_REGIONS.push(g);
+  }
+  /* Place each ghost word at the emptiest point inside its own territory rather
+     than at the raw centroid — the centroid is usually buried under a disc, which
+     is what made the words unreadable. Coarse grid search maximising distance to
+     any disc, penalised by distance from the territory centroid. */
+  /* Search only within the territory's own footprint (bounded by its spread), so
+     the word labels its cluster instead of drifting into a far empty corner. */
+  for (const g of MACRO_REGIONS){
+    let best = null, bs = -Infinity;
+    const reach = Math.max(90, g.spread * 1.15);
+    for (let gx = 0; gx <= 30; gx++){
+      for (let gy = 0; gy <= 22; gy++){
+        const x = g.x + (gx / 30 - 0.5) * 2 * reach;
+        const y = g.y + (gy / 22 - 0.5) * 2 * reach;
+        if (x < 80 || x > W - 80 || y < 40 || y > H - 30) continue;
+        let ownD = Math.hypot(x - g.x, y - g.y);
+        if (ownD > reach) continue;
+        let foreign = false;
+        for (const h of MACRO_REGIONS){
+          if (h === g) continue;
+          if (Math.hypot(x - h.x, y - h.y) < ownD * 1.02){ foreign = true; break; }
+        }
+        if (foreign) continue;
+        let clear = Infinity;
+        for (const f of FAMS) clear = Math.min(clear, Math.hypot(x - f.x, y - f.y) - f.r);
+        /* prefer clear space, but strongly prefer staying near the centroid */
+        const score = Math.min(clear, 60) - ownD * 0.55;
+        if (score > bs){ bs = score; best = { x, y, clear }; }
+      }
+    }
+    g.lx = best ? best.x : g.x;
+    g.ly = best ? best.y : g.y;
+    g.clear = best ? best.clear : 30;
+  }
+  /* count families sitting closer to a foreign centroid than their own */
+  for (const f of FAMS){
+    total++;
+    const own = groups.get(f.macro);
+    const dOwn = Math.hypot(f.x - own.x, f.y - own.y);
+    for (const g of groups.values()){
+      if (g === own) continue;
+      if (Math.hypot(f.x - g.x, f.y - g.y) < dOwn * 0.82){ intrusions++; break; }
+    }
+  }
+  TERRITORY_OK = total > 0 && (intrusions / total) <= 0.20;
+}
+
+/* Vogel / sunflower phyllotaxis — equal-area, seamless, no crescent.
+   Then a bounded relaxation so it reads organic rather than machined. */
+function placeNodes(){
+  const GA = Math.PI * (3 - Math.sqrt(5));   // 137.508deg
+  const rnd = mulberry(991);
+
+  /* Derive the mark scale from the tightest family: a disc of radius R holding m
+     members gives each member ~pi*R^2/m of area, so a comfortable mark radius is
+     ~0.42*sqrt(R^2/m). Take the minimum across families so no disc overflows. */
+  NODE_SCALE = 1;
+  let need = Infinity;
+  for (const f of FAMS){
+    const per = 0.42 * Math.sqrt((f.r * f.r) / Math.max(f.members.length, 1));
+    need = Math.min(need, per);
+  }
+  if (isFinite(need)){
+    /* unit radius at scale 1 is ~3.5px on average */
+    NODE_SCALE = clamp(need / 3.5, 0.55, 1.35);
+  }
+
+  for (const f of FAMS){
+    const m = f.members.length;
+    /* stable member order so layout is deterministic */
+    const mem = f.members.slice().sort((a,b) => a.id - b.id);
+    const R = f.r - nodeR(mem[0]) - 2.5;
+
+    for (let k = 0; k < m; k++){
+      const n = mem[k];
+      const th = k * GA + f.name.length * 0.7;
+      const rr = R * Math.sqrt((k + 0.5) / m);
+      n.hx = f.x + Math.cos(th) * rr;
+      n.hy = f.y + Math.sin(th) * rr;
+      n.fam = f;
+    }
+
+    /* pull linked nodes 0.25 toward the rim facing their partner family, so
+       filaments visibly originate from the nodes that own them */
+    for (const n of mem){
+      const links = ADJ.get(n.id);
+      if (!links || !links.length) continue;
+      let tx = 0, ty = 0, c = 0;
+      for (const l of links){
+        const of_ = FAM_BY_NAME.get(l.n.family);
+        if (!of_ || of_ === f) continue;
+        tx += of_.x; ty += of_.y; c++;
+      }
+      if (!c) continue;
+      tx /= c; ty /= c;
+      let dx = tx - f.x, dy = ty - f.y;
+      const d = Math.hypot(dx, dy) || 1;
+      const rimX = f.x + dx / d * R, rimY = f.y + dy / d * R;
+      n.hx += (rimX - n.hx) * 0.25;
+      n.hy += (rimY - n.hy) * 0.25;
+    }
+
+    /* 30 ticks of local jitter-relaxation, clamped inside the disc */
+    for (const n of mem){ n.jx = (rnd() - .5) * 1.2; n.jy = (rnd() - .5) * 1.2; }
+    for (let t = 0; t < 30; t++){
+      for (let i = 0; i < mem.length; i++){
+        const A = mem[i];
+        for (let j = i + 1; j < mem.length; j++){
+          const B = mem[j];
+          let dx = B.hx - A.hx, dy = B.hy - A.hy;
+          let d = Math.hypot(dx, dy);
+          const need = nodeR(A) + nodeR(B) + 2.2;
+          if (d < need && d > 0.0001){
+            const push = (need - d) / d * 0.42;
+            A.hx -= dx * push; A.hy -= dy * push;
+            B.hx += dx * push; B.hy += dy * push;
+          }
+        }
+      }
+      for (const n of mem){
+        let dx = n.hx - f.x, dy = n.hy - f.y;
+        const d = Math.hypot(dx, dy), lim = f.r - nodeR(n) - 1.5;
+        if (d > lim && d > 0.0001){ n.hx = f.x + dx / d * lim; n.hy = f.y + dy / d * lim; }
+      }
+    }
+  }
+
+  /* scatter start for the reveal: from the family centre, so nodes appear to
+     condense out of the body rather than flying in from nowhere */
+  const rs = mulberry(4242);
   for (const n of NODES){
-    const lit = on(n);
-    const r = 3.4 + Math.min(4.6, Math.sqrt(Math.max(n.weight,1))/13);
-    const fill = lit && MAC ? hue : (lit ? cssv('--node') : cssv('--node'));
-    s += `<g class="node" data-id="${n.id}"><circle cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${r.toFixed(1)}"
-      fill="${fill}" opacity="${lit?1:0.16}"/>`;
-    if (n.risk === 'high' && lit)
-      s += `<circle cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${(r+3).toFixed(1)}" fill="none" stroke="${cssv('--sel-2')}" stroke-width="1.3" opacity=".85"/>`;
-    s += `</g>`;
+    const a = rs() * Math.PI * 2, d = rs() * 26;
+    n.sx = n.fam.x + Math.cos(a) * d;
+    n.sy = n.fam.y + Math.sin(a) * d;
+    n.x = n.hx; n.y = n.hy;
   }
-  s += '</g><g>';
-  const fams = {};
-  NODES.forEach(n => { (fams[n.fam] ||= []).push(n); });
-  for (const [f, ns] of Object.entries(fams)){
-    if (MAC && !ns.some(on)) continue;
-    const mx = ns.reduce((a,n)=>a+n.x,0)/ns.length;
-    const my = Math.min(...ns.map(n=>n.y)) - 9;
-    s += `<text class="lbl" x="${mx.toFixed(1)}" y="${my.toFixed(1)}" text-anchor="middle">${esc(f)}</text>`;
-  }
-  s += '</g>';
-  svg.innerHTML = s;
-
-  svg.querySelectorAll('.node').forEach(g => {
-    g.addEventListener('pointerenter', ev => {
-      const n = NODES.find(x => x.id === +g.dataset.id);
-      const deg = activeEdges.filter(e => e.s === n.id || e.t === n.id).length;
-      tip.innerHTML = `<b>${esc(n.name)}</b>
-        <span class="m">${esc(n.family||'—')} · ${esc(n.macroclass||'—')}</span>
-        <span class="r">risk ${esc(n.risk||'—')}${n.consent?' · consent required':''}${n.bounded?' · bounded':''} · ${deg} link${deg===1?'':'s'}</span>`;
-      const b = svg.getBoundingClientRect();
-      tip.style.left = Math.min(ev.clientX - b.left + 14, b.width - 345) + 'px';
-      tip.style.top  = Math.max(ev.clientY - b.top - 12, 6) + 'px';
-      tip.style.opacity = 1;
-    });
-    g.addEventListener('pointerleave', () => { tip.style.opacity = 0; });
-  });
-
-  const lg = document.getElementById('legend');
-  lg.innerHTML =
-    `<span><span class="dot" style="color:${MAC?hue:cssv('--node')}"></span>${MAC?esc(MAC):'technique'}</span>` +
-    `<span><svg width="22" height="9"><circle cx="11" cy="4.5" r="3" fill="none" stroke="${cssv('--sel-2')}" stroke-width="1.3"/></svg>high risk</span>` +
-    `<span><svg width="24" height="8"><line x1="1" y1="4" x2="23" y2="4" stroke="${cssv('--edge')}" stroke-width="1.1"/></svg>see also</span>` +
-    `<span><svg width="24" height="8"><line x1="1" y1="4" x2="23" y2="4" stroke="${cssv('--edge')}" stroke-width="1.6" stroke-dasharray="3 3"/></svg>contrasts with</span>`;
+  buildGrid();
 }
 
+/* Node radius scales with the layout so marks never outgrow their disc on a small
+   canvas (the mobile failure: fixed-size nodes inside shrunken discs spilled over
+   the rim and collided across families). NODE_SCALE is set from the solved layout. */
+let NODE_SCALE = 1;
+const nodeR = n => (2.9 + Math.min(3.4, Math.sqrt(Math.max(n.weight, 1)) / 15)) * NODE_SCALE;
+
+/* ------------------------------------------------------ spatial hit grid --- */
+function buildGrid(){
+  const CELL = 40;
+  const g = new Map();
+  for (const n of NODES){
+    const key = ((n.hx / CELL) | 0) + ',' + ((n.hy / CELL) | 0);
+    let b = g.get(key); if (!b){ b = []; g.set(key, b); }
+    b.push(n);
+  }
+  GRID = { cell:CELL, map:g };
+}
+function pick(px, py){
+  if (!GRID) return null;
+  /* The grid indexes solved (hx/hy) positions, but during the reveal nodes are
+     painted at interpolated positions — picking then would target marks that are
+     not under the cursor. The reveal is 900ms and non-interactive by design. */
+  if (reveal < 1) return null;
+  const C = GRID.cell, gx = (px / C) | 0, gy = (py / C) | 0;
+  let best = null, bd = 18 * 18;
+  for (let i = -1; i <= 1; i++) for (let j = -1; j <= 1; j++){
+    const b = GRID.map.get((gx + i) + ',' + (gy + j));
+    if (!b) continue;
+    for (const n of b){
+      if (!visible(n)) continue;
+      const d = (n.hx - px) ** 2 + (n.hy - py) ** 2;
+      const rr = Math.max(nodeR(n) + 6, 9);
+      if (d < rr * rr && d < bd){ bd = d; best = n; }
+    }
+  }
+  return best;
+}
+
+/* ------------------------------------------------------------- filtering --- */
+function matchesQuery(n){
+  if (!QUERY) return true;
+  const q = QUERY;
+  return n.name.toLowerCase().includes(q) ||
+         n.family.toLowerCase().includes(q) ||
+         n.macro.toLowerCase().includes(q);
+}
+function inFilter(n){ return !MAC_FILTER || n.macro === MAC_FILTER; }
+function visible(n){ return inFilter(n) && matchesQuery(n); }
+
+/* Drop any hover/focus/pin that the current filter has hidden. Without this a node
+   hovered before a filter keeps its 1.6x tween forever and activeSet() forces it to
+   paint at full strength inside an otherwise dimmed graph. */
+function revalidateActive(){
+  if (HOVER && !visible(HOVER)){ HOVER.s = 1; HOVER = null; }
+  if (KBFOCUS && !visible(KBFOCUS)) KBFOCUS = null;
+  if (PINNED && !visible(PINNED)) closeRail();
+}
+
+function activeSet(){
+  const a = PINNED || HOVER || KBFOCUS;
+  if (!a) return null;
+  const s = new Set([a.id]);
+  for (const l of (ADJ.get(a.id) || [])) s.add(l.n.id);
+  return { node:a, set:s };
+}
+
+/* ----------------------------------------------------------- rendering ---- */
+function resize(initial){
+  const r = stage.getBoundingClientRect();
+  W = Math.max(320, Math.round(r.width));
+  H = Math.max(320, Math.round(r.height));
+  DPR = Math.min(window.devicePixelRatio || 1, 2);
+  cv.width = Math.round(W * DPR); cv.height = Math.round(H * DPR);
+  cv.style.width = W + 'px'; cv.style.height = H + 'px';
+  ovl.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+  dirty = true;
+  if (!initial && FAMS.length){ solve(window.SPRINGS || [], 600); kick(); }
+}
+
+function kick(){ if (!raf) raf = requestAnimationFrame(frame); }
+
+function frame(){
+  raf = null;
+  let running = false;
+  if (animQueue.length){
+    const t = now();
+    const keep = [];
+    for (const a of animQueue){
+      const p = clamp((t - a.t0) / a.ms, 0, 1);
+      a.o[a.k] = a.from + (a.to - a.from) * a.ease(p);
+      if (p < 1) keep.push(a);
+    }
+    animQueue = keep;
+    dirty = true;
+    running = animQueue.length > 0;
+  }
+  if (reveal < 1 || stipple < 1) running = true;
+  if (dirty){ render(); dirty = false; }
+  if (running) kick();
+}
+
+/* Risk is ordinal (low < medium < high), so it gets an ordered encoding, not two
+   categorical hues. low = aqua fill; medium = hollow aqua-ink ring (reads as a step
+   down in weight, no new hue); high = orange fill + orange ring. Only 299 of 804
+   land on the caution channel, so the field stays legible instead of alarming. */
+function colFor(n){
+  if (n.risk === 'high') return cssv('--orange');
+  if (n.risk === 'low') return cssv('--aqua');
+  if (n.risk === 'medium') return cssv('--aqua');
+  return cssv('--node-neutral');
+}
+
+function render(){
+  const g = ctx;
+  g.save();
+  g.setTransform(DPR, 0, 0, DPR, 0, 0);
+  g.clearRect(0, 0, W, H);
+  g.translate(view.x, view.y); g.scale(view.k, view.k);
+
+  const act = activeSet();
+  const dimAll = !!act;
+  const surface = cssv('--surface-1');
+  const blue = cssv('--blue'), orange = cssv('--orange');
+  const edgeCol = cssv('--edge');
+  const lerp = (a,b,t) => a + (b - a) * t;
+
+  /* ---- ghost macroclass words, painted BEHIND the discs on the canvas ----
+     (the SVG overlay always paints on top, which buried them under node fields) */
+  ovlParts.length = 0;
+  if (TERRITORY_OK && view.k < 2.2 && W >= 560){
+    g.save();
+    g.textAlign = 'center'; g.textBaseline = 'middle';
+    g.fillStyle = cssv('--ink-1');
+    for (const r of MACRO_REGIONS){
+      const size = clamp(22 + (r.clear || 0) * 0.55, 24, 44);
+      g.font = '650 ' + size.toFixed(0) + 'px ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif';
+      g.globalAlpha = 0.16 * stipple;
+      /* keep the word fully on canvas in screen space */
+      const half = g.measureText(r.macro).width / 2;
+      const sxw = r.lx * view.k + view.x, syw = r.ly * view.k + view.y;
+      const minX = (half * view.k + 10 - view.x) / view.k;
+      const maxX = (W - half * view.k - 10 - view.x) / view.k;
+      const minY = (size * 0.7 * view.k + 8 - view.y) / view.k;
+      const maxY = (H - size * 0.7 * view.k - 8 - view.y) / view.k;
+      void sxw; void syw;
+      g.fillText(r.macro, clamp(r.lx, minX, maxX), clamp(r.ly, minY, maxY));
+    }
+    g.restore();
+    g.globalAlpha = 1;
+  }
+
+  /* ---- family bodies: soft discs so regions read even before nodes land ----
+     Kept translucent so the ghost territory words stay readable beneath them. */
+  g.lineWidth = 1;
+  for (const f of FAMS){
+    const anyVis = f.members.some(visible);
+    g.beginPath();
+    g.arc(f.x, f.y, f.r, 0, Math.PI * 2);
+    g.fillStyle = cssv('--disc');
+    g.globalAlpha = (anyVis ? 1 : 0.4) * (dimAll ? 0.5 : 1);
+    g.fill();
+    g.globalAlpha = (anyVis ? 0.75 : 0.3) * (dimAll ? 0.5 : 1) * (1 - stipple * 0.4);
+    g.strokeStyle = cssv('--disc-edge');
+    g.stroke();
+  }
+  g.globalAlpha = 1;
+
+  /* ---- curation hairlines (evidence; never influence layout) ---- */
+  if (SHOW_CURATION){
+    g.strokeStyle = edgeCol; g.lineWidth = 0.6; g.globalAlpha = 0.20 * stipple;
+    g.beginPath();
+    for (const e of CUR){
+      if (!visible(e.a) || !visible(e.b)) continue;
+      g.moveTo(px(e.a).x, px(e.a).y); g.lineTo(px(e.b).x, px(e.b).y);
+    }
+    g.stroke(); g.globalAlpha = 1;
+  }
+
+  /* ---- semantic filaments ---- */
+  for (const e of SEM){
+    const va = visible(e.a), vb = visible(e.b);
+    if (!va && !vb) continue;
+    const lit = act && (act.set.has(e.a.id) && act.set.has(e.b.id));
+    const A = px(e.a), B = px(e.b);
+    const mx = (A.x + B.x) / 2, my = (A.y + B.y) / 2 - Math.min(30, Math.hypot(B.x-A.x, B.y-A.y) * 0.14);
+    g.beginPath();
+    g.moveTo(A.x, A.y); g.quadraticCurveTo(mx, my, B.x, B.y);
+    g.strokeStyle = lit ? blue : edgeCol;
+    g.lineWidth = lit ? 2.1 : (e.k === 'contrasts_with' ? 1.5 : 1.05);
+    if (e.k === 'contrasts_with') g.setLineDash([4, 3]); else g.setLineDash([]);
+    g.globalAlpha = (lit ? 0.95 : (dimAll ? 0.10 : (va && vb ? 0.45 : 0.12))) * stipple;
+    g.stroke();
+  }
+  g.setLineDash([]); g.globalAlpha = 1;
+
+  /* ---- nodes ---- */
+  for (const n of NODES){
+    const p = px(n);
+    const vis = visible(n);
+    const isAct = act && act.node === n;
+    const isNb  = act && !isAct && act.set.has(n.id);
+    let alpha = vis ? 1 : 0.14;
+    if (QUERY && !matchesQuery(n)) alpha = 0.13;
+    if (dimAll && !isAct && !isNb) alpha = Math.min(alpha, 0.16);
+    if (isAct || isNb) alpha = 1;
+    alpha *= stipple;
+    if (alpha <= 0.02) continue;
+
+    const base = nodeR(n);
+    const r = base * (n.s || 1) * (isAct ? 1.6 : isNb ? 1.35 : 1);
+    g.globalAlpha = alpha;
+    /* Blue is reserved for selection + its link neighbourhood, so the selected node
+       and everything it links to take the blue fill outright — a ring alone was too
+       quiet to find among 800 marks. */
+    g.fillStyle = (isAct || isNb) ? blue : (vis ? colFor(n) : cssv('--node-neutral'));
+
+    /* selection/neighbour state overrides the risk fill, so it is never hollow */
+    const hollow = vis && n.risk === 'medium' && !isAct && !isNb;
+
+    if (SQUARE_CLASSES[n.macro]) roundRect(g, p.x - r, p.y - r, r * 2, r * 2, r * 0.42);
+    else { g.beginPath(); g.arc(p.x, p.y, r, 0, Math.PI * 2); }
+
+    if (hollow){
+      /* medium risk: hollow mark — an ordered step between low and high that costs
+         no extra hue and survives greyscale. Filled with the DISC colour (not the
+         stage) so it reads as hollow rather than as a hole punched through. */
+      g.fillStyle = cssv('--disc'); g.fill();
+      g.lineWidth = 1.6; g.strokeStyle = colFor(n); g.globalAlpha = alpha; g.stroke();
+    } else {
+      g.fill();
+      /* surface ring keeps overlapping marks separable */
+      g.lineWidth = 1.4; g.strokeStyle = surface; g.globalAlpha = alpha * 0.9; g.stroke();
+    }
+
+    /* risk redundancy: high risk gets a stroked ring, never hue alone */
+    if (n.risk === 'high' && vis && !isAct && !isNb){
+      g.beginPath(); g.arc(p.x, p.y, r + 2.4, 0, Math.PI * 2);
+      g.strokeStyle = orange; g.lineWidth = 1.1; g.globalAlpha = alpha * 0.55; g.stroke();
+    }
+    /* consent-required: orange is the caution channel throughout */
+    if (n.consent && vis && (isAct || isNb || view.k > 2)){
+      g.beginPath(); g.arc(p.x, p.y, r + 4.6, 0, Math.PI * 2);
+      g.strokeStyle = orange; g.lineWidth = 1; g.globalAlpha = alpha * 0.55;
+      g.setLineDash([2, 2]); g.stroke(); g.setLineDash([]);
+    }
+    if (isNb){
+      g.beginPath(); g.arc(p.x, p.y, r + 3.4, 0, Math.PI * 2);
+      g.strokeStyle = blue; g.lineWidth = 1.8; g.globalAlpha = alpha; g.stroke();
+    }
+    if (isAct){
+      g.beginPath(); g.arc(p.x, p.y, r + 5, 0, Math.PI * 2);
+      g.strokeStyle = blue; g.lineWidth = 2.4; g.globalAlpha = 1; g.stroke();
+    }
+    if (n === KBFOCUS){
+      g.beginPath(); g.arc(p.x, p.y, r + 8, 0, Math.PI * 2);
+      g.strokeStyle = blue; g.lineWidth = 3; g.globalAlpha = 1; g.stroke();
+    }
+  }
+  g.globalAlpha = 1;
+  g.restore();
+
+  paintOverlay();
+}
+
+/* animated position: scatter -> home during reveal */
+function px(n){
+  if (reveal >= 1) return n;
+  return { x: lerp2(n.sx, n.hx, reveal), y: lerp2(n.sy, n.hy, reveal) };
+}
+const lerp2 = (a, b, t) => a + (b - a) * t;
+
+function roundRect(g, x, y, w, h, r){
+  g.beginPath();
+  g.moveTo(x + r, y);
+  g.arcTo(x + w, y, x + w, y + h, r);
+  g.arcTo(x + w, y + h, x, y + h, r);
+  g.arcTo(x, y + h, x, y, r);
+  g.arcTo(x, y, x + w, y, r);
+  g.closePath();
+}
+
+/* ------------------------------------------------------ label overlay ----- */
+const ovlParts = [];
+function paintOverlay(){
+  /* Greedy collision resolver: largest family first, 8 candidate offsets,
+     then a leader line to a free slot. */
+  const placed = [];
+  const small = W < 640;
+  const scaleInv = 1 / view.k;
+  const list = FAMS.slice().sort((a,b) => b.members.length - a.members.length);
+  const CAND = [
+    [0, -1], [0, 1], [1, -0.55], [-1, -0.55],
+    [1, 0.55], [-1, 0.55], [1, 0], [-1, 0]
+  ];
+  /* A label must clear other labels AND every family disc — the previous resolver
+     only tested label-vs-label, which is why labels landed on top of node fields. */
+  const discs = FAMS.map(f => ({
+    x: f.x * view.k + view.x, y: f.y * view.k + view.y, r: f.r * view.k
+  }));
+  const hitsDisc = (box, own) => {
+    for (let i = 0; i < discs.length; i++){
+      if (FAMS[i] === own) continue;
+      const d = discs[i];
+      const nx = clamp(d.x, box.x1, box.x2), ny = clamp(d.y, box.y1, box.y2);
+      if ((nx - d.x) ** 2 + (ny - d.y) ** 2 < (d.r + 1) ** 2) return true;
+    }
+    return false;
+  };
+
+  for (const f of list){
+    const anyVis = f.members.some(visible);
+    if (small && f.members.length < 26 && !(HOVER && HOVER.fam === f) && !(PINNED && PINNED.fam === f)) continue;
+    if (MAC_FILTER && !anyVis) continue;
+
+    const sx = f.x * view.k + view.x, sy = f.y * view.k + view.y;
+    const rr = f.r * view.k;
+    const txt = f.name;
+    const wpx = txt.length * 5.6 + 6, hpx = 13;
+    let put = null;
+
+    for (const [ox, oy] of CAND){
+      const cxp = sx + ox * (rr + wpx * 0.5 + 5);
+      const cyp = sy + oy * (rr + 10);
+      if (cxp - wpx/2 < 3 || cxp + wpx/2 > W - 3 || cyp - hpx < 2 || cyp + 4 > H - 2) continue;
+      const box = { x1:cxp - wpx/2, y1:cyp - hpx, x2:cxp + wpx/2, y2:cyp + 4 };
+      if (!placed.some(p => overlap(p, box)) && !hitsDisc(box, f)){
+        put = { box, x:cxp, y:cyp, leader:null }; break;
+      }
+    }
+    if (!put){
+      /* leader-line fallback: search a ring of free slots outward */
+      for (let ring = 1; ring <= 5 && !put; ring++){
+        for (let a = 0; a < 16; a++){
+          const th = a / 16 * Math.PI * 2 - Math.PI / 2;
+          const cxp = sx + Math.cos(th) * (rr + 15 + ring * 13);
+          const cyp = sy + Math.sin(th) * (rr + 13 + ring * 12);
+          if (cxp - wpx/2 < 3 || cxp + wpx/2 > W - 3 || cyp - hpx < 2 || cyp + 4 > H - 2) continue;
+          const box = { x1:cxp - wpx/2, y1:cyp - hpx, x2:cxp + wpx/2, y2:cyp + 4 };
+          if (!placed.some(p => overlap(p, box)) && !hitsDisc(box, f)){
+            put = { box, x:cxp, y:cyp, leader:[sx + Math.cos(th) * rr, sy + Math.sin(th) * rr] };
+            break;
+          }
+        }
+      }
+    }
+    /* Last resort: sit on the family's own disc centre rather than drop the label.
+       A label overlapping its OWN nodes is legible (stroke halo carries it); a
+       silently missing label is a hole in the map. */
+    if (!put){
+      const box = { x1:sx - wpx/2, y1:sy - hpx, x2:sx + wpx/2, y2:sy + 4 };
+      if (!placed.some(p => overlap(p, box)) &&
+          sx - wpx/2 > 3 && sx + wpx/2 < W - 3 && sy > 12 && sy < H - 6){
+        put = { box, x:sx, y:sy + 3, leader:null, onself:true };
+      }
+    }
+    if (!put) continue;
+    placed.push(put.box);
+    const dim = (MAC_FILTER && !anyVis) || (QUERY && !f.members.some(matchesQuery));
+    if (put.leader){
+      ovlParts.push('<path class="leader" d="M' + put.leader[0].toFixed(1) + ' ' + put.leader[1].toFixed(1) +
+        'L' + put.x.toFixed(1) + ' ' + (put.y - 3).toFixed(1) + '"/>');
+    }
+    ovlParts.push('<text class="famlbl' + (dim ? ' dim' : '') + '" x="' + put.x.toFixed(1) +
+      '" y="' + put.y.toFixed(1) + '" text-anchor="middle">' + esc(txt) + '</text>');
+  }
+  ovl.innerHTML = ovlParts.join('');
+}
+function overlap(a, b){
+  return !(a.x2 + 3 < b.x1 || b.x2 + 3 < a.x1 || a.y2 + 2 < b.y1 || b.y2 + 2 < a.y1);
+}
+
+/* ---------------------------------------------------------------- chrome --- */
+/* Risk mix summary. Counts are derived from NODES, never hardcoded, so the bar
+   cannot silently drift from the data the map is drawing. */
+function buildRiskMix(){
+  const host = el('riskmix');
+  if (!host) return;
+  const n = NODES.length;
+  if (!n) { host.innerHTML = ''; return; }
+  const c = { low:0, medium:0, high:0 };
+  for (const d of NODES) if (c[d.risk] !== undefined) c[d.risk]++;
+  const pct = k => (c[k] / n * 100);
+  const order = [['low','low'], ['medium','med'], ['high','high']];
+  host.innerHTML =
+    '<span class="track" role="img" aria-label="Risk mix: ' +
+      order.map(([k]) => c[k] + ' ' + k).join(', ') + ' of ' + n + ' techniques">' +
+    order.map(([k, cls]) =>
+      '<span class="seg ' + cls + '" style="width:' + pct(k).toFixed(2) + '%"></span>').join('') +
+    '</span>' +
+    '<span class="rl">' + order.map(([k]) =>
+      c[k].toLocaleString() + ' ' + k).join(' · ') + '</span>';
+}
+
+function buildControls(){
+  const c = el('controls');
+  c.innerHTML = '';
+  const counts = {};
+  for (const n of NODES) counts[n.macro] = (counts[n.macro] || 0) + 1;
+  const macs = MACRO_ORDER.filter(m => counts[m]);
+  for (const k of Object.keys(counts)) if (!macs.includes(k)) macs.push(k);
+
+  const mk = (label, val, count) => {
+    const b = document.createElement('button');
+    b.className = 'chip'; b.type = 'button';
+    b.setAttribute('aria-pressed', String(MAC_FILTER === val));
+    if (val){
+      const gl = document.createElement('span');
+      gl.className = 'gl ' + (SQUARE_CLASSES[val] ? 'sq' : 'ci');
+      b.appendChild(gl);
+    }
+    b.appendChild(document.createTextNode(label));
+    if (count != null){
+      const s = document.createElement('span'); s.className = 'n'; s.textContent = count;
+      b.appendChild(s);
+    }
+    b.onclick = () => {
+      MAC_FILTER = MAC_FILTER === val ? null : val;
+      [...c.querySelectorAll('.chip')].forEach(x => x.setAttribute('aria-pressed', 'false'));
+      if (MAC_FILTER === val) b.setAttribute('aria-pressed', 'true');
+      else c.querySelector('.chip').setAttribute('aria-pressed', 'true');
+      const s2 = c.querySelector('.macsel select');
+      if (s2) s2.value = MAC_FILTER || '';
+      gather();
+      announce();
+    };
+    c.appendChild(b);
+    return b;
+  };
+  mk('All', null, null).setAttribute('aria-pressed', String(MAC_FILTER === null));
+  for (const m of macs) mk(m, m, counts[m]);
+
+  /* Narrow-screen equivalent of the chip row (CSS decides which one shows). */
+  const ms = document.createElement('span');
+  ms.className = 'macsel';
+  const sel = document.createElement('select');
+  sel.setAttribute('aria-label', 'Filter by macroclass');
+  sel.innerHTML = '<option value="">All ' + NODES.length + '</option>' +
+    macs.map(m => '<option value="' + esc(m) + '">' + esc(m) + ' ' + counts[m] + '</option>').join('');
+  sel.onchange = () => {
+    MAC_FILTER = sel.value || null;
+    [...c.querySelectorAll('.chip')].forEach(x => x.setAttribute('aria-pressed', 'false'));
+    const want = [...c.querySelectorAll('.chip')].find(x => x.textContent.startsWith(MAC_FILTER || 'All'));
+    if (want) want.setAttribute('aria-pressed', 'true');
+    gather(); announce();
+  };
+  ms.appendChild(sel);
+  c.appendChild(ms);
+
+  const sp = document.createElement('span'); sp.className = 'grow'; c.appendChild(sp);
+
+  const s = document.createElement('div');
+  s.className = 'search';
+  s.innerHTML = '<input type="search" id="q" placeholder="Search techniques" aria-label="Search techniques">' +
+                '<button type="button" id="qclear" aria-label="Clear search" hidden>&times;</button>';
+  c.appendChild(s);
+
+  /* utility row (top-right of header) */
+  const u = el('utility');
+  const cur = document.createElement('button');
+  cur.className = 'chip'; cur.type = 'button'; cur.setAttribute('aria-pressed', 'false');
+  cur.textContent = 'Curation links';
+  cur.onclick = () => {
+    SHOW_CURATION = !SHOW_CURATION;
+    cur.setAttribute('aria-pressed', String(SHOW_CURATION));
+    dirty = true; kick();
+  };
+  u.appendChild(cur);
+
+  const th = document.createElement('button');
+  th.className = 'chip'; th.type = 'button';
+  th.textContent = 'Theme';
+  th.onclick = () => {
+    const c0 = document.documentElement.getAttribute('data-theme');
+    const isDark = c0 ? c0 === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
+    cssFlush(); buildLegend();
+    dirty = true; kick();
+  };
+  u.appendChild(th);
+}
+
+function buildLegend(){
+  /* CSS-drawn swatches only — no inline SVG (that is what produced the stray glyph) */
+  const L = el('legend');
+  const item = (cls, style, label) =>
+    '<span class="it"><span class="lg ' + cls + '"' + (style ? ' style="' + style + '"' : '') + '></span>' + label + '</span>';
+  L.innerHTML =
+    item('dot', 'background:var(--aqua)', 'low risk') +
+    item('dot', 'background:var(--disc);border:2px solid var(--aqua)', 'medium risk') +
+    item('dot', 'background:var(--orange);box-shadow:0 0 0 2px var(--surface-1),0 0 0 3px var(--orange)', 'high risk') +
+    '<span class="sep"></span>' +
+    item('dot', 'background:var(--ink-3)', 'acts on another') +
+    item('sq', 'background:var(--ink-3)', 'internal state') +
+    '<span class="sep"></span>' +
+    item('line', '', 'see also') +
+    item('line dash', '', 'contrasts with') +
+    item('dot', 'background:var(--blue)', 'selected + linked');
+}
+
+function buildSuggestions(){
+  const box = el('suggest');
+  box.innerHTML = '';
+  for (const q of ['amnesia', 'safety', 'framing']){
+    const b = document.createElement('button');
+    b.className = 'chip'; b.type = 'button'; b.textContent = q;
+    b.onclick = () => { const i = el('q'); i.value = q; applyQuery(q); i.focus(); };
+    box.appendChild(b);
+  }
+}
+
+/* ------------------------------------------------------------ detail rail -- */
+let railHideT = null;
+function openRail(n){
+  PINNED = n;
+  hideTip();          // the rail supersedes the tooltip; never show both
+  clearTimeout(railHideT);
+  rail.hidden = false;
+  const links = (ADJ.get(n.id) || []);
+  const flag = (cls, label) => '<span class="pill ' + cls + '"><span class="gl"></span>' + label + '</span>';
+  let h = '<button class="close" type="button" aria-label="Close detail">&times;</button>';
+  h += '<h2>' + esc(n.name) + '</h2>';
+  h += '<p class="path">' + esc(n.family) + ' &middot; ' + esc(n.macro) + '</p>';
+  h += '<div class="flags">';
+  h += flag('risk-' + (n.risk === 'low' ? 'low' : n.risk === 'high' ? 'high' : 'medium'), esc(n.risk) + ' risk');
+  if (n.consent) h += flag('risk-high', 'explicit consent');
+  if (n.bounded) h += flag('neutral', 'bounded');
+  h += flag('neutral', links.length + ' link' + (links.length === 1 ? '' : 's'));
+  h += '</div>';
+  h += '<h3>Linked techniques</h3>';
+  if (!links.length) h += '<p class="none">No authored reading links. Related techniques share this family.</p>';
+  else for (const l of links){
+    h += '<button class="linkbtn" type="button" data-goto="' + l.n.id + '">' + esc(l.n.name) +
+         '<span class="k">' + (l.k === 'contrasts_with' ? 'contrasts with' : 'see also') +
+         ' &middot; ' + esc(l.n.family) + ' &middot; ' + esc(l.n.risk) + ' risk</span></button>';
+  }
+  rail.innerHTML = h;
+  /* Flip the rail to whichever side does not cover the selected node (and its
+     neighbourhood) — otherwise clicking a right-hand node hides the very links
+     the panel is describing. */
+  if (window.innerWidth > 860){
+    let cx0 = n.hx * view.k + view.x;
+    for (const l of links) cx0 = (cx0 + (l.n.hx * view.k + view.x)) / 2;
+    const onRight = cx0 > W * 0.55;
+    rail.style.right = onRight ? 'auto' : '12px';
+    rail.style.left  = onRight ? '12px' : 'auto';
+  } else { rail.style.left = ''; rail.style.right = ''; }
+  requestAnimationFrame(() => rail.classList.add('on'));
+  rail.querySelector('.close').onclick = closeRail;
+  rail.querySelectorAll('[data-goto]').forEach(b => {
+    b.onclick = () => {
+      const t = BY_ID.get(+b.dataset.goto);
+      if (t) flyTo(t);
+    };
+  });
+  dirty = true; kick();
+  announce(n);
+}
+function closeRail(){
+  PINNED = null;
+  rail.classList.remove('on');
+  /* Cancel any pending hide when reopening — a reopen inside the 200ms fade left
+     the rail with hidden=true, so its buttons became unreachable. */
+  clearTimeout(railHideT);
+  railHideT = setTimeout(() => { if (!PINNED) rail.hidden = true; }, 200);
+  dirty = true; kick();
+}
+
+function flyTo(n){
+  const targetK = clamp(2.4, 0.5, 6);
+  const tx = W / 2 - n.hx * targetK, ty = H / 2 - n.hy * targetK;
+  if (reduced()){ view.x = tx; view.y = ty; view.k = targetK; openRail(n); dirty = true; kick(); return; }
+  const from = { x:view.x, y:view.y, k:view.k }, t0 = now();
+  const step = () => {
+    const p = clamp((now() - t0) / 600, 0, 1), e = easeInOutCubic(p);
+    view.x = from.x + (tx - from.x) * e;
+    view.y = from.y + (ty - from.y) * e;
+    view.k = from.k + (targetK - from.k) * e;
+    dirty = true; kick();
+    if (p < 1) requestAnimationFrame(step); else openRail(n);
+  };
+  requestAnimationFrame(step);
+}
+
+/* --------------------------------------------------------------- events ---- */
+function toLocal(ev){
+  const b = cv.getBoundingClientRect();
+  return {
+    x: ((ev.clientX - b.left) - view.x) / view.k,
+    y: ((ev.clientY - b.top) - view.y) / view.k,
+    cx: ev.clientX - b.left, cy: ev.clientY - b.top
+  };
+}
+
+function wireEvents(){
+  let drag = null, moved = 0;
+  const pts = new Map();
+  let pinch0 = null;
+  /* The detail rail lives inside the stage, so its own scrolling and button
+     presses must not be hijacked by the graph's pan/zoom gestures. */
+  const fromRail = ev => rail.contains(ev.target);
+
+  stage.addEventListener('pointermove', ev => {
+    if (fromRail(ev)) return;
+    if (drag && drag.id !== undefined && ev.pointerId !== drag.id) return;
+    if (drag){
+      const dx = ev.clientX - drag.px, dy = ev.clientY - drag.py;
+      moved += Math.abs(dx) + Math.abs(dy);
+      view.x += dx; view.y += dy;
+      drag.px = ev.clientX; drag.py = ev.clientY;
+      dirty = true; kick();
+      return;
+    }
+    const p = toLocal(ev);
+    const hit = pick(p.x, p.y);
+    if (hit !== HOVER){
+      if (HOVER) tweenTo(HOVER, 's', 1, 120);
+      HOVER = hit;
+      if (HOVER) tweenTo(HOVER, 's', 1.6, 120);
+      dirty = true; kick();
+    }
+    /* When a node is pinned the rail already shows its detail — a tooltip on top
+       of it is redundant chrome, so only tip on un-pinned exploration. */
+    if (hit && !PINNED) showTip(hit, p.cx, p.cy); else hideTip();
+    stage.style.cursor = hit ? 'pointer' : (drag ? 'grabbing' : 'default');
+  });
+
+  stage.addEventListener('pointerdown', ev => {
+    if (fromRail(ev)) return;
+    if (ev.button !== 0 && ev.pointerType === 'mouse') return;
+    /* Only the FIRST pointer drives the pan. A second finger starts a pinch and
+       must not retarget the drag anchor, which made pointer 1 pan using pointer
+       2's coordinates. */
+    if (drag) return;
+    stage.setPointerCapture(ev.pointerId);
+    drag = { id:ev.pointerId, px:ev.clientX, py:ev.clientY }; moved = 0;
+  });
+  const endDrag = ev => {
+    try { stage.releasePointerCapture(ev.pointerId); } catch (e) {}
+    if (drag && drag.id === ev.pointerId) drag = null;
+  };
+  stage.addEventListener('pointerup', ev => {
+    if (fromRail(ev)) return;
+    const wasDrag = moved > 6, wasPinch = pts.size > 1;
+    endDrag(ev);
+    if (wasDrag || wasPinch) return;
+    const p = toLocal(ev);
+    const hit = pick(p.x, p.y);
+    if (hit){ KBFOCUS = hit; openRail(hit); }
+    else closeRail();
+  });
+  /* pointercancel previously never cleared drag, leaving the graph stuck panning */
+  stage.addEventListener('pointercancel', endDrag);
+  stage.addEventListener('pointerleave', () => { hideTip(); if (HOVER){ tweenTo(HOVER, 's', 1, 120); HOVER = null; dirty = true; kick(); } });
+
+  stage.addEventListener('wheel', ev => {
+    if (fromRail(ev)) return;      // let the rail scroll itself
+    ev.preventDefault();
+    const b = cv.getBoundingClientRect();
+    const mx = ev.clientX - b.left, my = ev.clientY - b.top;
+    const k0 = view.k;
+    const k1 = clamp(k0 * Math.exp(-ev.deltaY * 0.0016), 0.5, 6);
+    view.x = mx - (mx - view.x) * (k1 / k0);
+    view.y = my - (my - view.y) * (k1 / k0);
+    view.k = k1;
+    dirty = true; kick();
+  }, { passive:false });
+
+  /* pinch (pts/pinch0 declared above so the drag handler can see them) */
+  stage.addEventListener('pointerdown', ev => { if (!fromRail(ev)) pts.set(ev.pointerId, ev); });
+  stage.addEventListener('pointermove', ev => {
+    if (!pts.has(ev.pointerId)) return;
+    pts.set(ev.pointerId, ev);
+    if (pts.size === 2){
+      const [a, b] = [...pts.values()];
+      const d = Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+      if (!pinch0) pinch0 = { d, k:view.k };
+      else {
+        view.k = clamp(pinch0.k * (d / pinch0.d), 0.5, 6);
+        dirty = true; kick();
+      }
+    }
+  });
+  const clearPt = ev => { pts.delete(ev.pointerId); if (pts.size < 2) pinch0 = null; };
+  stage.addEventListener('pointerup', clearPt);
+  stage.addEventListener('pointercancel', clearPt);
+
+  /* keyboard */
+  stage.tabIndex = 0;
+  stage.setAttribute('role', 'application');
+  stage.setAttribute('aria-describedby', 'kbdhint');
+  stage.addEventListener('focus', () => {
+    if (!KBFOCUS) KBFOCUS = NODES.find(visible) || NODES[0];
+    dirty = true; kick(); announce(KBFOCUS);
+  });
+  stage.addEventListener('blur', () => { KBFOCUS = null; dirty = true; kick(); });
+  stage.addEventListener('keydown', ev => {
+    const K = ev.key;
+    if (K === 'Escape'){ closeRail(); hideTip(); ev.preventDefault(); return; }
+    if (K === 'Enter' || K === ' '){ if (KBFOCUS) openRail(KBFOCUS); ev.preventDefault(); return; }
+    const dirs = { ArrowRight:0, ArrowDown:90, ArrowLeft:180, ArrowUp:270 };
+    if (!(K in dirs)) return;
+    ev.preventDefault();
+    if (!KBFOCUS){ KBFOCUS = NODES.find(visible); dirty = true; kick(); return; }
+    const want = dirs[K] * Math.PI / 180;
+    let best = null, bs = Infinity;
+    for (const n of NODES){
+      if (n === KBFOCUS || !visible(n)) continue;
+      const dx = n.hx - KBFOCUS.hx, dy = n.hy - KBFOCUS.hy;
+      const d = Math.hypot(dx, dy);
+      if (d < 0.5) continue;
+      let da = Math.atan2(dy, dx) - want;
+      while (da > Math.PI) da -= Math.PI * 2;
+      while (da < -Math.PI) da += Math.PI * 2;
+      if (Math.abs(da) > Math.PI / 3) continue;
+      const score = d * (1 + Math.abs(da) * 1.6);
+      if (score < bs){ bs = score; best = n; }
+    }
+    if (best){ KBFOCUS = best; ensureVisible(best); dirty = true; kick(); announce(best); }
+  });
+
+  /* search */
+  const q = el('q'), qc = el('qclear');
+  let qt = null;
+  q.addEventListener('input', () => {
+    clearTimeout(qt);
+    qt = setTimeout(() => applyQuery(q.value), 110);
+  });
+  qc.onclick = () => { q.value = ''; applyQuery(''); q.focus(); };
+
+  /* table sorting */
+  document.querySelectorAll('#tbl th button').forEach(b => {
+    b.onclick = () => sortTable(b.dataset.sort);
+  });
+
+  addEventListener('resize', debounce(() => resize(false), 180));
+  RM.addEventListener && RM.addEventListener('change', () => { dirty = true; kick(); });
+
+  /* Theme can also change from outside this script (OS preference, or a host
+     setting data-theme directly) — repaint from fresh tokens either way. */
+  const onTheme = () => { cssFlush(); buildLegend(); dirty = true; kick(); };
+  new MutationObserver(onTheme).observe(document.documentElement, {
+    attributes: true, attributeFilter: ['data-theme']
+  });
+  const mq = matchMedia('(prefers-color-scheme: dark)');
+  mq.addEventListener ? mq.addEventListener('change', onTheme) : mq.addListener(onTheme);
+}
+
+function ensureVisible(n){
+  const sx = n.hx * view.k + view.x, sy = n.hy * view.k + view.y;
+  const m = 40;
+  let moved = false;
+  if (sx < m){ view.x += m - sx; moved = true; }
+  if (sx > W - m){ view.x -= sx - (W - m); moved = true; }
+  if (sy < m){ view.y += m - sy; moved = true; }
+  if (sy > H - m){ view.y -= sy - (H - m); moved = true; }
+  if (moved) dirty = true;
+}
+
+/* The empty state depends on BOTH the query and the macroclass filter, so it is
+   recomputed from the combined predicate whenever either changes — filtering after
+   a search used to leave a stale (or missing) empty message. */
+function refreshEmptyState(){
+  const hits = NODES.filter(n => matchesQuery(n) && inFilter(n));
+  const none = hits.length === 0 && (QUERY || MAC_FILTER);
+  el('empty').classList.toggle('on', !!none);
+  if (none){
+    el('emptymsg').textContent = QUERY
+      ? 'Nothing matches “' + QUERY + '”' + (MAC_FILTER ? ' in ' + MAC_FILTER : '') + '. Try:'
+      : 'Nothing to show. Try:';
+  }
+  return hits;
+}
+
+function applyQuery(v){
+  QUERY = String(v || '').trim().toLowerCase();
+  el('qclear').hidden = !QUERY;
+  revalidateActive();
+  const hits = refreshEmptyState();
+  /* matches pulse once */
+  if (QUERY && hits.length && hits.length < 120){
+    for (const n of hits){ tweenTo(n, 's', 1.5, 150); setTimeout(() => tweenTo(n, 's', 1, 150), 155); }
+  }
+  dirty = true; kick();
+  announce();
+}
+
+/* macroclass filter: non-members contract; the sim runs extra ticks so the
+   chosen macroclass visibly gathers rather than merely recolouring. */
+function gather(){
+  const gen = ++LAYOUT_GEN;
+  revalidateActive();
+  refreshEmptyState();
+  if (!MAC_FILTER){
+    solve(window.SPRINGS || [], 600);
+    dirty = true; kick();
+    return;
+  }
+  /* extra ticks with strengthened cohesion for the selected class */
+  const keep = FAMS.map(f => ({ f, x:f.x, y:f.y }));
+  for (let t = 0; t < 120; t++){
+    let cx0 = 0, cy0 = 0, n0 = 0;
+    for (const f of FAMS) if (f.macro === MAC_FILTER){ cx0 += f.x; cy0 += f.y; n0++; }
+    if (!n0) break;
+    cx0 /= n0; cy0 /= n0;
+    for (const f of FAMS){
+      if (f.macro === MAC_FILTER){
+        f.x += (W / 2 - f.x) * 0.006 + (cx0 - f.x) * 0.004;
+        f.y += (H / 2 - f.y) * 0.006 + (cy0 - f.y) * 0.004;
+      }
+    }
+    for (let i = 0; i < FAMS.length; i++){
+      const A = FAMS[i];
+      for (let j = i + 1; j < FAMS.length; j++){
+        const B = FAMS[j];
+        let dx = B.x - A.x, dy = B.y - A.y;
+        const d = Math.hypot(dx, dy) || 0.01, need = A.r + B.r + 13;
+        if (d < need){
+          const push = (need - d) / d * 0.5;
+          A.x -= dx * push; A.y -= dy * push; B.x += dx * push; B.y += dy * push;
+        }
+      }
+    }
+    for (const f of FAMS){
+      f.x = clamp(f.x, f.r + 8, W - f.r - 8);
+      f.y = clamp(f.y, f.r + 26, H - f.r - 10);
+    }
+  }
+  measureTerritories();
+
+  /* Capture where each node currently sits BEFORE placeNodes() overwrites hx/hy,
+     then interpolate start -> target. (placeNodes() also sets x=hx, so reading x
+     afterwards yields the target and the tween collapses to a no-op.) */
+  const startN = NODES.map(n => ({ n, x0:n.hx, y0:n.hy }));
+  const startF = keep.map(o => ({ f:o.f, x0:o.x, y0:o.y }));
+  placeNodes();
+  if (reduced()){ dirty = true; kick(); return; }
+
+  const targetN = startN.map(s => ({ s, x1:s.n.hx, y1:s.n.hy }));
+  const targetF = startF.map(s => ({ s, x1:s.f.x, y1:s.f.y }));
+  for (const t of targetF){ t.s.f.x = t.s.x0; t.s.f.y = t.s.y0; }
+  for (const t of targetN){ t.s.n.hx = t.s.x0; t.s.n.hy = t.s.y0; }
+
+  const t0 = now();
+  const step = () => {
+    if (gen !== LAYOUT_GEN) return;          // a newer layout superseded this one
+    const p = clamp((now() - t0) / 400, 0, 1), e = easeOutCubic(p);
+    for (const t of targetF){
+      t.s.f.x = t.s.x0 + (t.x1 - t.s.x0) * e;
+      t.s.f.y = t.s.y0 + (t.y1 - t.s.y0) * e;
+    }
+    for (const t of targetN){
+      t.s.n.hx = t.s.x0 + (t.x1 - t.s.x0) * e;
+      t.s.n.hy = t.s.y0 + (t.y1 - t.s.y0) * e;
+    }
+    dirty = true; kick();
+    if (p < 1) requestAnimationFrame(step);
+    else {
+      for (const t of targetF){ t.s.f.x = t.x1; t.s.f.y = t.y1; }
+      for (const t of targetN){ t.s.n.hx = t.x1; t.s.n.hy = t.y1; t.s.n.x = t.x1; t.s.n.y = t.y1; }
+      buildGrid();
+    }
+  };
+  requestAnimationFrame(step);
+}
+
+/* ------------------------------------------------------------- tooltip ---- */
+function showTip(n, cx, cy){
+  const deg = (ADJ.get(n.id) || []).length;
+  const rc = n.risk === 'low' ? 'risk-low' : n.risk === 'high' ? 'risk-high' : 'risk-medium';
+  tip.innerHTML = '<b>' + esc(n.name) + '</b>' +
+    '<span class="m">' + esc(n.family) + ' &middot; ' + esc(n.macro) + '</span>' +
+    '<span class="r"><span class="pill ' + rc + '"><span class="gl"></span>' + esc(n.risk) + ' risk</span>' +
+    (n.consent ? '<span class="pill risk-high"><span class="gl"></span>consent</span>' : '') +
+    (n.bounded ? '<span class="pill neutral"><span class="gl"></span>bounded</span>' : '') +
+    '<span class="pill neutral">' + deg + ' link' + (deg === 1 ? '' : 's') + '</span></span>';
+  tip.classList.add('on');
+  const tw = tip.offsetWidth, th2 = tip.offsetHeight;
+  let x = cx + 16, y = cy - 10;
+  if (x + tw > W - 8) x = cx - tw - 16;           // edge-flip
+  if (y + th2 > H - 8) y = H - th2 - 8;
+  tip.style.left = Math.max(6, x) + 'px';
+  tip.style.top = Math.max(6, y) + 'px';
+}
+function hideTip(){ tip.classList.remove('on'); }
+
+/* -------------------------------------------------------------- a11y ------ */
+function announce(n){
+  const d = el('graphdesc');
+  if (n) d.textContent = n.name + ', family ' + n.family + ', ' + n.macro + ', ' + n.risk + ' risk, ' +
+    (ADJ.get(n.id) || []).length + ' links.';
+  else {
+    const c = NODES.filter(visible).length;
+    d.textContent = c + ' of ' + NODES.length + ' techniques shown' +
+      (MAC_FILTER ? ', macroclass ' + MAC_FILTER : '') + (QUERY ? ', matching ' + QUERY : '') + '.';
+  }
+}
+
+/* -------------------------------------------------------------- table ----- */
+let sortKey = 'deg', sortDir = -1;
 function buildTable(){
   const deg = {};
-  DATA.edges.filter(e=>e.k!=='do_not_merge_claim').forEach(e => { deg[e.s]=(deg[e.s]||0)+1; deg[e.t]=(deg[e.t]||0)+1; });
-  const tb = document.querySelector('#tbl tbody');
-  tb.innerHTML = DATA.nodes.slice().sort((a,b)=>(deg[b.id]||0)-(deg[a.id]||0)).map(n =>
-    `<tr><td>${esc(n.name)}</td><td>${esc(n.family||'—')}</td><td>${esc(n.macroclass||'—')}</td><td>${esc(n.risk||'—')}</td><td>${deg[n.id]||0}</td></tr>`
-  ).join('');
+  for (const e of SEM){ deg[e.a.id] = (deg[e.a.id] || 0) + 1; deg[e.b.id] = (deg[e.b.id] || 0) + 1; }
+  for (const n of NODES) n.deg = deg[n.id] || 0;
+  sortTable('deg', true);
 }
-const esc = s => String(s??'').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function sortTable(key, initial){
+  if (!initial){ if (key === sortKey) sortDir = -sortDir; else { sortKey = key; sortDir = key === 'deg' ? -1 : 1; } }
+  else sortKey = key;
+  const rank = { low:0, medium:1, high:2 };
+  const val = n => {
+    if (key === 'deg') return n.deg;
+    if (key === 'risk') return rank[n.risk] ?? -1;
+    if (key === 'flags') return (n.consent ? 2 : 0) + (n.bounded ? 1 : 0);
+    return String(n[key] === undefined ? n.name : n[key]).toLowerCase();
+  };
+  const rows = NODES.slice().sort((a, b) => {
+    const va = val(a), vb = val(b);
+    if (va < vb) return -sortDir;
+    if (va > vb) return sortDir;
+    return a.name.localeCompare(b.name);
+  });
+  const rc = r => r === 'low' ? 'risk-low' : r === 'high' ? 'risk-high' : 'risk-medium';
+  document.querySelector('#tbl tbody').innerHTML = rows.map(n =>
+    '<tr><td>' + esc(n.name) + '</td><td>' + esc(n.family) + '</td><td>' + esc(n.macro) +
+    '</td><td><span class="pill ' + rc(n.risk) + '"><span class="gl"></span>' + esc(n.risk) + '</span></td><td>' +
+    (n.consent ? 'consent ' : '') + (n.bounded ? 'bounded' : '') + (!n.consent && !n.bounded ? '—' : '') +
+    '</td><td class="num">' + n.deg + '</td></tr>').join('');
+  document.querySelectorAll('#tbl th button').forEach(b => {
+    b.closest('th').setAttribute('aria-sort',
+      b.dataset.sort === sortKey ? (sortDir > 0 ? 'ascending' : 'descending') : 'none');
+  });
+}
+
+function debounce(fn, ms){ let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
 </script>

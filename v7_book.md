@@ -1,6 +1,6 @@
 # v7 Influence Taxonomy — the Book
 
-*804 techniques · 35 families · 5 macroclasses. Generated from `booru/v7.db`. Each technique's absorbed variants are its realization bank — the specific forms it takes, kept losslessly under the technique.*
+*885 techniques · 35 families · 5 macroclasses. Generated from `booru/v7.db`. Each technique's absorbed variants are its realization bank — the specific forms it takes, kept losslessly under the technique.*
 
 ## Contents
 
@@ -18,7 +18,7 @@
 *Payload delivery and uptake — the encoding, cueing, pairing, framing, and evidence machinery.*
 
 
-## framing  (55)
+## framing  (64)
 
 Pre-loading interpretation: relabeling the meaning or valence of a fact (reappraisal) or pre-naming what will be felt (expectancy) so experience is read through the supplied frame and ratifies it.
 
@@ -59,6 +59,16 @@ Borrowed external legitimacy: rather than build credibility/momentum from scratc
 
 
 **Realizations** (4): `borrowed-conviction-verify-gate`, `borrowed-precedent-legitimacy`, `credibility-by-adjacency`, `cultural-ritual-hijack`
+
+
+### borrowed-structural-coercion-precondition
+
+*risk: high · consent-required · bounded*
+
+Rather than build leverage inside the session, the operator runs the persuasion inside a role hierarchy that already exists and that the operator did not create — an employer who mandates attendance, a chain of command, a program a court or school requires. The standing power does the compliance work before a word is spoken: refusal now costs a job or a placement, not merely social awkwardness, so the audience is captive before the frame arrives. A second effect follows from the first — because everyone present showed up, presence itself reads as partial assent, and the operator can address the room as though it had already opted in. The operator's own content never has to carry the coercive load, which is what makes the arrangement deniable.
+
+
+**When to reach for this.** The leverage is BORROWED — a coercive relation that predates the encounter and that the operator did not create — so cost-of-refusal, not persuasiveness, does the compliance work. Split from `borrowed-reflex-recruitment` (440), the true structural cousin: 440 also imports something pre-existing, but every variant imports an asset whose LEGITIMACY the subject already grants (a fluent reflex, a real memory, a verified prior state, a cultural ritual, an adjacent working suggestion), and the import buys credibility or momentum. This imports an enforceable relation whose COST OF REFUSAL transfers, and buys attendance regardless of credibility. Legitimacy-transfer vs cost-of-refusal-transfer is the whole split. Distinct from `reciprocity-leverage` (146), which manufactures the debt inside the dyad through the operator's own act of giving; here nothing is given. Distinct from `context-gate` (570) and `context-lock-staging` (243), whose constraints are logistical and session-scoped, where this one is contractual and enforceable outside the room. Distinct from `authority-scope-hardening` (1140), which extends authority the operator already holds rather than renting someone else's.
 
 
 ### cheap-reversible-trial-frame
@@ -111,6 +121,9 @@ Instead of arguing or teaching a disputed concept, the operator elicits a domain
 **When to reach for this.** The operator must actually ELICIT and use a real accessed experience, then rename it — a mere analogy that gets only agreeable chat FAILS (the football control case), and even a metaphor that gets access but is not used falls short. The tell is harvesting a real accessed experience, not delivering an analogy. Separates from concede-the-defended-topic (domain conceded to disarm guarding, nothing installed) — same expert-domain face, different lever.
 
 
+**See also.** `concede-the-defended-topic` — shared face — both borrow the subject's expert domain; different lever (harvest-to-install vs concede-to-disarm).
+
+
 ### concede-the-defended-topic
 
 *risk: low*
@@ -119,6 +132,9 @@ The operator opens on a genuine shared-identity hook (a real common experience),
 
 
 **When to reach for this.** The tell is the PAIRING of a real shared-identity hook with an explicit surrender of the topic the subject is defensively expert in — not small-talk rapport, not needs-matching alone. Separates from a needs-matched entry offer (matches an offer to a need without conceding a defended domain) and from generic concede-then-reframe (here the concession disarms guarding, it does not set up a reversal). vs competence-harvest-installation — same expert-domain face, but there the domain is harvested to install a concept; here it is conceded to disarm.
+
+
+**See also.** `competence-harvest-installation` — shared face — both borrow the subject's expert domain; different lever (harvest-to-install vs concede-to-disarm).
 
 
 ### control-pleasure-inverse-axiom
@@ -157,6 +173,9 @@ A decoy / concealed-frame entry: crosses the induction handshake invisibly by pr
 **Realizations** (2): `counterfeit-disclaimer`, `diegetic-not-yet-frame`
 
 
+**See also.** `disavowal-and-masking` — both disarm the guard by concealing that an operation is running, but one denies or masks the hypnotic act wherever it occurs throughout a session, while the other is specifically an entry move: a false benign frame consumed at the induction seam so no going-under is ever staged.
+
+
 ### craving-to-funding-conduit
 
 *risk: high*
@@ -167,6 +186,16 @@ Constructs a causal chain that reroutes an already-maximally-cultivated pleasure
 **When to reach for this.** A constructed equipment/conduit causal chain laundering cultivated craving into a specific real-world funding motive. Separates from surrender-as-freedom (redefines a value concept) and from addiction framing (frames the craving itself — here the novel move is routing craving into a purchasing motive via a fabricated pleasure-conduit chain).
 
 
+### credentialed-intermediary-duty-inversion
+
+*risk: high · consent-required · bounded*
+
+A third party whose professional role carries a presumed duty of confidentiality and independent loyalty to the subject — clinician, counselor, sponsor, chaplain — is recruited and their role duty inverted while the professional surface is left intact. The channel then runs both ways: contents the subject discloses under the confidentiality presumption are reported upward, and directives from the centre come back down wearing clinical authority ('as your therapist, I'd advise'). The same figure gatekeeps outside care, so second opinions are pre-screened, and doubters routed to them for help are retained rather than released. What makes it work is that the subject's own disclosure is the instrument: the more candidly they use the channel, the better the surveillance and the more precisely targeted the returning directives.
+
+
+**When to reach for this.** A real, credentialed, EXTERNAL person whose professional duty of confidentiality runs to the subject is co-opted and inverted while the professional surface is left intact, so the channel runs BOTH ways: disclosures made under the confidentiality presumption travel upward, and directives travel back down wearing the credential. The upward leg is the deciding tell and is what separates it from `nested-authority-conduit` (121) variant (b), which borrows a nameable external source as an authority instrument but runs downward only - it launders commands in and extracts nothing. `isolation-by-annexation` (622) annexes the social field so third parties lose independent standing and triangulation is pre-empted, which covers the gatekeeping of outside care, but it removes counter-frame sources without inverting any duty the subject is relying on. The proxy-agent family (6782) installs INTERNAL or in-scene agents authored by the operator with no independent standing; `protective-role-conscription` (1123) assigns the LISTENER a fictional protective costume; `care-framed-install-smuggling` (1232) has the operator themself perform the caring surface with no third party co-opted; `impersonal-mechanism-alibi` (1157) relocates authority onto something agentless and unfalsifiable, where here the authority is a named, licensed, entirely falsifiable human whose legitimacy is genuine and is exactly what carries the payload.
+
+
 ### cultural-ritual-slot-hijack
 
 *risk: high*
@@ -175,6 +204,36 @@ A pre-existing cultural ritual, narrative, or grammatical slot the listener alre
 
 
 **When to reach for this.** Unlike timed or cued triggers, no clock or operator-defined cue fires a state — a cultural FRAME is substituted, and its value is separable from any numeric anchor. Unlike lesson-structured delivery, this reuses an already-primed slot and swaps only the content domain; and the carrier is a real-world cultural ritual outside the session, not a sustained in-script image.
+
+
+### curated-sample-frame-control
+
+*risk: medium · bounded*
+
+The operator controls which members of a group an outside observer is permitted to meet and speak with, and rehearses those members, so that what the observer samples is a deliberately non-representative slice presented as a random one. The observer is left to draw their own conclusion — and does, correctly reasoning from the evidence in front of them to a false generalization, because the sampling frame rather than any individual claim is what was corrupted. No one lies to the observer, which is exactly why it survives a skeptical audience: the observer's own inference does the work and feels self-generated. It generalizes past the group setting to any curated demonstration — reference calls routed to selected customers, showroom staging, a pilot cohort chosen for its results.
+
+
+**When to reach for this.** The lever is control of the SAMPLING FRAME an outside observer draws from: which members they may meet is curated and rehearsed, so a non-representative slice is presented as a random one and the observer's own valid inference carries them to a false generalization. No one lies, which is why it survives a skeptical investigator. Split from `manufactured-consensus` (117), the nearest social-evidence move: 117 plants confederates and fabricates the headcount, so the falsity is in the actors and detection of one actor collapses it; here every member is genuine and the falsity lives entirely in who was excluded, leaving nothing for the observer to catch. Split from `staged-external-reality-corroboration` (239), which manufactures real perceptible events for a subject already inside the frame; here the mark is an outside observer who is not in trance and may be actively skeptical. Split from `suggestion-field-hygiene` (582), which silences bystanders defensively to protect an achieved state in a present subject. Split from `preparatory-diagnostic-read` (840), whose measurement/attribution face — clean-condition isolation, faulty-control audit — exists to protect the OPERATOR'S own read from confounds; this deliberately manufactures that confound in someone else's read, making it 840's adversarial inverse.
+
+
+### decoy-target-affect-split
+
+*risk: medium · bounded*
+
+One affective response is split across two targets: a conspicuous, ridiculous stand-in absorbs the sanctioned surface reaction (the audience laughs AT the buffoon), while the sharper unsanctioned charge — contempt, indignation, distrust — is silently re-aimed at the institution, doctrine, or person standing behind the decoy. Because the audience believes it is only enjoying the harmless figure, no defense is mounted for the real target, and the critique is absorbed without ever having been argued. The move requires a visible stand-in genuinely attached to the real target, so that discrediting the front contaminates the back by association rather than by assertion.
+
+
+**When to reach for this.** Against `class-collision-humor` (0.500): that produces the humor response itself by whiplashing a dual-class stimulus between two readings; here the humor is not the payload but the cover — its job is to occupy the audience's declared reaction so the undeclared one can travel. Against `negative-exemplar-double-bind` (0.499): that stages a third party as a punishment/aspiration exemplar aimed AT the listener's own conduct; here the third party is not a lesson about the listener at all, it is a lightning rod for affect destined elsewhere. Against `response-model-affect-tag` (0.512): that models what the listener should feel about the current line; this splits a feeling the listener already has and misdirects half of it. Against `counterfeit-cue-forgery` (0.488): that forges a cue's provenance; here nothing is forged — the decoy is genuinely attached to the target, which is exactly why the transfer works.
+
+
+### describer-cost-deterrence
+
+*risk: high · consent-required · bounded*
+
+Rather than argue with an unfavorable account, the group makes producing one expensive for the person producing it. Two levers combine: an asymmetric cost threat aimed at a party who cannot match the group's resources — the researcher, the writer, the small publisher — and an individualized, surveillance-flavored signal that this particular person has been noticed by name. Neither lever contests the account's accuracy; both operate on the describer's expected cost of publishing it. The describer softens the claim or drops it, or the publisher withdraws, and what survives into the public record is whatever was cheap to say. Because the surviving descriptions were selected by cost rather than by merit, the group becomes the de facto arbiter of how it is described without ever winning an argument.
+
+
+**When to reach for this.** The target is a third party who DESCRIBES the subject population, not the subject and not the subject's counter-frame — no v7 entry acts on an outside observer's incentives, which is what makes this a genuine gap rather than a restatement. Distinct from resistance-deterrence (672), which re-prices resistance for the SUBJECT so they decline to resist: same option-value logic, entirely different party, and the deterred party here is never inside the influence relationship at all. Distinct from weaponized-transparency-inoculation (171), which pre-classifies critics as the threat to inoculate the SUBJECT against future critique — that is inward-facing and works on what the subject does with criticism; this is outward-facing and works on whether the criticism gets written. Distinct from disavowal-and-masking (95), where the operation is denied or hidden: nothing is concealed here, the threat is the point and its visibility is what does the work. Distinct from reader-assent-architecture (14), which shapes a reader's stance toward a text — this shapes whether the text exists. Honest caveat on grain: institutional rather than script-executable, and the family fit is by function (information-environment control) rather than by altitude.
 
 
 ### diegetic-operator-embedding
@@ -197,6 +256,9 @@ Holds an event's or behavior's facts fixed and changes only the interpretive fra
 **When to reach for this.** Facts/referent conceded intact; only the evaluative frame/label/context/meaning moves so valence flips. Separates from surrender-as-freedom-philosophical-conditioning (which argues a VALUE concept is truer, not merely re-framed), from argument/rebuttal (which disputes the facts), and from installing a frame BEFORE a cue (expectation seeding). The four B/G sub-forms are ONE mechanism with an articulable which-thing-holds-fixed rule (context fixed + meaning swapped vs meaning fixed + context moved vs connotation swapped vs charge defused).
 
 
+**See also.** `parts-work-positive-intent-elicitation`
+
+
 ### expectation-seeding
 
 *risk: medium*
@@ -208,6 +270,16 @@ TECHNIQUE (expectancy-seeding): pre-load what a not-yet experience will do or fe
 
 
 **Realizations** (8): `announced-install-precontract`, `content-free-importance-bootstrap`, `cross-recording-potentiation`, `inert-prop-expectancy-carrier`, `named-then-withheld-anchor`, `safety-warning-as-endpoint-suggestion`, `self-referential-already-worked`, `training-instrument-reframe`
+
+
+### external-role-power-entry-lock
+
+*risk: high · consent-required · bounded*
+
+Two locks are set before the subject ever hears the payload, and both sit outside the influence frame itself. First, the program's actual content is withheld at the point of invitation — what is disclosed is a benign cover (training, a workshop, a seminar) that would not be refused. Second, attendance is made a condition of something the subject materially depends on, by routing the invitation through a party with real-world role power over them: an employer, a supervisor, a licensing body, a landlord. By the time the true content appears, leaving no longer costs an awkward exit; it costs the job. Departure requests are then refused or deferred against that structural cost, so the subject's continued presence — which any later consent record will cite — was never a live choice.
+
+
+**When to reach for this.** Two locks, BOTH outside the influence frame, both set before the payload is heard: content withheld at invitation, and attendance made a condition of something the subject materially depends on via a third party with real-world role power (employer, supervisor, licensing body, landlord). The nondisclosure half alone is NOT this - that is `withheld-frame-reveal` (454), whose cover is cashed rhetorically inside the session with no cost attached to walking out, or the bait-and-switch member of `consent-topology-arc` (4), which is a whole-artifact consent topology inside a voluntarily consumed file. `scope-expansion-past-advertised-frame` (1345) likewise bends past what was advertised but the subject can close the tab for free. The deciding tell is that the exit cost is MATERIAL and EXTERNAL and is held by someone who is not the operator: `asymmetric-state-lock` (1292) monopolizes exit from an already-installed state via an operator release condition inside the frame; `exit-annexation` (1027) leaves the exit materially real and captures only what using it MEANS; `cross-media-forced-continuation` (697) raises continuation cost through content topology; `named-person-release-gate` (909) terminates a permission chain on an installed belief. Here nothing is installed yet, the exit's meaning is untouched, and what changed is that leaving now costs the job.
 
 
 ### failure-state-inversion
@@ -263,6 +335,9 @@ Agency/authorship relocation: relocate agency, choice, or motive onto the subjec
 **Realizations** (2): `want-expect-watch-triad`, `withheld-payoff-curiosity-engine`
 
 
+**See also.** `chosen-descent-ratchet` — both make compliance read as self-authored, but one relabels a descent or compliance already underway as retroactively chosen or consented-to, while the other hands over a fabricated decision or motive up front so agency is relocated before the act rather than reattributed after it.
+
+
 ### imagined-is-real-licensing-rule
 
 *risk: medium · bounded*
@@ -286,6 +361,9 @@ The operator fabricates or diagnoses a deficit the listener is induced to own - 
 **When to reach for this.** The problem is built first and the payload sold as relief; separates from retrospective-desire-attribution (want asserted as already present, no deficit installed), from old-self-discreditation (past self mocked to close the return path, no remedy sold), and from identity-congruence-leverage (prized self-image leveraged, not a deficit).
 
 
+**See also.** `old-self-discreditation` — resolve twins also feed an admission demand; deficit reading rejected because failure is real not fabricated; `retrospective-desire-attribution` — pass B variant_of FRAM-03 overturned to deficit-first reading per fingerprint
+
+
 ### manufactured-insufficiency-treadmill
 
 *risk: medium*
@@ -294,6 +372,9 @@ Grants a small acknowledged success then immediately revokes its sufficiency ("t
 
 
 **When to reach for this.** The grant-then-revoke ADEQUACY cycle where success is used as evidence of failure. Distinct from false-bottom deepening, which resets the DEPTH metric rather than the adequacy metric the operator owns, and from endurance compliance (sustained holding, not a moving adequacy goalpost). Not standard progressive deepening. The startle-back disarm ratchet also makes over-compliance the only success path, but the lever there is a sleep-onset startle reflex; here it is an operator-owned adequacy standard.
+
+
+**See also.** `startle-back-disarm-ratchet` — both make over-compliance the only success path; distinct levers (adequacy standard vs sleep-onset startle reflex).
 
 
 ### manufactured-jeopardy-rescue
@@ -349,6 +430,16 @@ Entailment-laundering: get the subject to ACCEPT a proposition, premise, or mode
 **Realizations** (1): `delayed-syllogism-detonation`
 
 
+### outward-reproach-inversion-rule
+
+*risk: high · consent-required · bounded*
+
+The operator installs a standing interpretive rule rather than a one-off reading: every complaint the subject makes about someone else is returned as a statement about the subject. The direction of the accusation is inverted mechanically, without regard to whether the outward charge was accurate, on the stipulated premise that a reproach aimed outward is the audible half of one aimed inward. Because the rule is general, it applies before any particular grievance is examined, so the subject's whole channel for external criticism becomes a channel for producing self-directed material — and complaining about the rule is itself a complaint, and gets the same treatment.
+
+
+**When to reach for this.** The tell is a STANDING, content-neutral directional inversion: every outward-aimed reproach is returned as inward-aimed, applied before the outward charge is examined and regardless of its accuracy, with objections to the rule receiving the same treatment. Against 245 self-sealing-counter-input-closure — the nearest neighbour and the one to check first — that is also a self-applying standing meta-rule, but it VOIDS competing input (pre-classified wrong-by-definition, routed into the existing erasure, never evaluated); this one EVALUATES nothing either but PRODUCES from the input, converting the subject's channel for external criticism into a generator of self-directed material. 245 closes a channel; this repurposes one, which is why it yields content rather than silence. Against 125 old-self-discreditation: that names and disavows a specific prior self so the return path closes; this names no self and is forward-standing over whatever arrives. Against 104 evaluative-reframe-content-relabel: that holds the referent fixed and moves its valence; this holds the valence and reverses the referent's direction (them -> you). Against 1339 obedience-motive-reattribution: that reassigns the motive of acts to the operator; this reassigns the target of an accusation back onto the speaker.
+
+
 ### overload-then-puncture-certainty
 
 *risk: low*
@@ -369,6 +460,9 @@ The operator enumerates or annotates the listener's genuine recent acts — purc
 **When to reach for this.** Requires REAL acts openly annotated as EVIDENCE OF A STATE as they accrue. Separates from presupposed-completion-fait-accompli (history there may be wholly fictive), from press-play-consent-laundering (acts read as consent tokens, not state evidence), and from withheld-frame-reveal (no concealed game; the annotation is contemporaneous). Not a yes-set — this commits the listener to a causal story about just-performed behavior, not to verbal agreements.
 
 
+**See also.** `attention-as-evidence-loop` — both convert the listener's own behavior into evidence of an installed state, but one annotates discrete completed acts as accruing proof of a named state while the other runs on mere inertia — continuing to listen, sitting in silence — where the disconfirming move is pre-framed as already-failed.; `compliance-act-as-proof-of-induced-wanting` — both harvest the listener's real performed acts as evidence, but the ledger annotates many genuine acts contemporaneously to shift the perceived baseline to already-surrendered, while the single deferred callback targets one frictionless act much later to prove a specific thesis about manufactured wanting.; `pre-induction-compliance-ratchet` — both bank the listener's real physical acts as compliance capital, but the pre-induction ratchet is defined by BINDING TIME (waking, eyes open, before any trance language, before reactance mobilizes) while the ledger is defined by the ANNOTATION — enumerating acts as evidence of a state, at any point in the session.; `self-sealing-compliance-proof` — both turn the listener's own performed act into unarguable material, but the ledger annotates real acts as EVIDENCE OF A PRESENT STATE (you are already surrendered), while the self-sealing proof runs the act as a LOGICAL PREMISE that forecloses a larger future commitment the listener has not yet made.; `withheld-frame-reveal` — reveal vehicle; placed here because the load is act-reassignment not concealed-game disclosure.
+
+
 ### own-language-echo-reframe-durability
 
 *risk: low*
@@ -379,6 +473,16 @@ The operator first gathers the subject's exact terms for their intention — the
 **When to reach for this.** Not general rapport-matching or pacing — that is rapport, not language-reuse. The tell is the specific gather-then-reuse of the subject's exact nominalizations/idioms to describe the NEW behavior, aimed at preventing a delayed polarity flip.
 
 
+### parallel-isomorph-bind-defusion
+
+*risk: low*
+
+Against a forced either/or, the operator does not argue either branch. Instead they present a structurally identical binary drawn from a domain where the listener already accepts that both terms hold at once and neither excludes the other, and let the mapping stand without asserting the conclusion. The listener carries the co-necessity across themselves, and the exclusive 'or' in the original dilemma reads as a mistake in the framing rather than a fact about the world. Because the parallel case is one the listener will not dispute and the operator never states the target conclusion, there is no proposition to reject — the dilemma dissolves as the listener's own inference.
+
+
+**When to reach for this.** The taxonomy is heavily stocked with bind CONSTRUCTION and carries no bind DISSOLUTION move; this is the inverse operation on the same object. vs no-lose-double-bind (269): that builds a choice whose every branch confirms the operator's frame; here an existing exclusive choice is shown not to be a choice at all, and no branch is loaded. vs engineered-deadlock-resolved-by-surrender (744): that amplifies both poles until paralysis and sells surrender as the only exit; this collapses the opposition so there is no deadlock to escape, and no agency is handed over. vs exhaustive-either-or-compliance-probe (659): that inserts resolvable binaries to harvest low-stakes compliance and habituate an accept-any-answer frame; here exactly one binary is in play and the output is its dissolution, not compliance. vs antagonist-split-resistance-routing (249): that routes the listener's affect onto a losing self; nothing is routed here and no self is split. vs pacing-leading (1282): pacing borrows the truth of accepted statements to carry a LEAD somewhere new; this borrows the STRUCTURE of an accepted case to defuse a dilemma in place, and there is no destination.
+
+
 ### post-wake-self-report-reframe
 
 *risk: high · consent-required · bounded*
@@ -387,6 +491,9 @@ After full emergence, when the listener is alert and outside the trance frame, t
 
 
 **When to reach for this.** Fires AFTER full waking, outside the trance frame, on retrospective self-report — not during the still-receptive count-up window that a loaded wake-count exploits. Retrospective justification delivered within the frame is a different move: this one manages the post-wake real-vs-play / legitimation question about the session itself. And unlike an operator authority claim, the target is the listener's own memory and self-interpretation, not the operator's standing.
+
+
+**See also.** `delegated-dreamframe-emergence` — opposite settings on the same dial (what the listener will later say the session was): one files the whole experience as merely a dream while exempting the engraved mantra to preserve deniability, the other speaks after full waking to assert the session and its installs as genuine fact.; `wake-line-covert-install` — sibling wake-line/post-wake family — assert-as-waking-fact vs covert-somatic levers.
 
 
 ### preempt-objection-frame
@@ -415,6 +522,19 @@ Assert the target as already true - the state, trance onset, or conditioning as 
 **Realizations** (3): `irrebuttable-resistance-axiom`, `presuppose-identity-as-preexisting`, `presupposing-mock-reassurance`
 
 
+**See also.** `press-play-consent-laundering` — play-act read as completed loss rather than as consent; rowed there
+
+
+### protective-drive-moralized-as-fault
+
+*risk: high · consent-required · bounded*
+
+A pre-existing protective or attachment drive — a parent's pull toward a child, loyalty to a partner, the reflex to shield someone — is recoded as a moral failing: attachment is possessiveness, protectiveness is lack of faith, the ordinary impulse is named as the sin. The subject then generates guilt at exactly the moments they behave normally, and the drive begins suppressing itself without further operator input, because every expression of it now arrives pre-labeled as evidence of the fault. This disables a defense from the inside rather than arguing against it: the operator never has to prohibit the behavior, only to supply the label the subject applies to their own impulse.
+
+
+**When to reach for this.** Direction of the valence move plus ownership of the target is the tell: a drive the subject ALREADY HELD with positive or neutral standing (protectiveness, loyalty, a parent's pull toward a child) is given a negative moral label it did not have, so its every ordinary expression now arrives pre-tagged as evidence of a fault and the subject suppresses it unprompted. Against 312 self-policing-reward-withdrawal-loop — the nearest neighbour, and the one this most needs separating from — that also installs a self-firing aversive detector that runs in the operator's absence, but it fires on deviation from a standard the operator FIRST BUILT (it presupposes an installed identity-reward there is a shortfall from), and its function is to enforce compliance with that standard; here nothing was installed to fall short of, the target pre-dates the operator, and the function is to disable a defense rather than to enforce a standard. Against 1106 cost-to-virtue-valence-flip and 1153 failure-state-inversion: both run negative -> positive on an item already carrying shame; this is the reverse vector on an item carrying none. Against 118 manufactured-deficit-remedy: that fabricates a deficit and sells the payload as its cure; here no cure is offered and no behavior is prohibited — only the label is supplied, and the suppression is the subject's own work.
+
+
 ### protective-role-conscription
 
 *risk: medium*
@@ -435,6 +555,9 @@ A future extraction is converted into a present desirable identity via a recipro
 **When to reach for this.** Installs a reciprocity ledger / provider-obligation as a desirable present identity via a "great deal" frame — off the v6.9 identity-labeling map (labels an identity, not an obligation). Not an explicit contract; the tell is the disguised cost side and concrete benefit side.
 
 
+**See also.** `commitment-consistency-buffer` — both are off-map pre-commitment seeding; boundary is temporal-buffer-self-label vs reciprocity-ledger. Reconciliation may co-home them.
+
+
 ### retrospective-desire-attribution
 
 *risk: medium · consent-required*
@@ -443,6 +566,9 @@ Relocates authorship of the operative want onto the subject's own real or assert
 
 
 **When to reach for this.** The lever is attribution of DESIRE or inner history (you always wanted this, your deeper self craves it), not conversion of an act into consent (press-play-consent-laundering), not assertion that the state itself is already complete (presupposed-completion-fait-accompli), and not attribution of the compliant act to the subject's own nature or choice (compliance-authorship-laundering). It invokes history rather than the operator's present authority; and unlike a manufactured-deficit remedy, the want is asserted as already present, not built from an installed deficit.
+
+
+**See also.** `compliance-authorship-laundering`; `manufactured-deficit-remedy` — pass B variant_of FRAM-03 overturned to deficit-first reading per fingerprint; `press-play-consent-laundering` — r2 secondary; primary rowed there
 
 
 ### rule-governed-behavior-install
@@ -534,6 +660,9 @@ A sustained, carefully-reasoned argument delivered under reduced critical resist
 **When to reach for this.** Redefines an abstract VALUE concept (freedom/control/obedience/submission/self-worth) via reasoned argument the subject accepts as belief. Separates from consent-term-redefinition-smuggle (which widens the scope of an already-granted consent word by asserted false-fact equation, not reasoned argument), from epistemic-guard-disable (which attacks the truth-testing faculty itself rather than a value claim), from volition-collapse-consent-equation (which equates compulsion and choice to close the free-choice escape hatch), and from surrender-as-freedom (which delivers the FELT somatic relief of surrender in trance rather than arguing the philosophy conceptually).
 
 
+**See also.** `covert-fact-install`; `surrender-as-freedom` — an explicit conceptual-versus-felt pair on one idea: one argues the case that yielding is the truer freedom and asks for belief; the other delivers the somatic relief of yielding and asks for nothing. Each discriminator already points at the other as its twin. A reader landing on either needs the other to pick the right one, and scripts commonly run the argument first and the felt payoff second.; `value-hierarchy-inversion` — sibling — pleasure/worth demotions are hierarchy inversions, split out from the surrender argument.
+
+
 ### third-party-intent-reattribution
 
 *risk: medium · bounded*
@@ -568,6 +697,9 @@ Moves the listener's normally-unexamined background variable — felt duration/s
 
 
 **Realizations** (1): `dream-time-training-volume`
+
+
+**See also.** `time-dilation-immersion` — both make felt time the operative variable, split by role. In one, the concession that time is plastic generates the depth or licenses an unbounded accumulation claim; in the other, the warp is the payload itself, removing the clock a listener would use to gauge depth, dosage, or when to stop. The second's discriminator explicitly routes readers to the first, so the link is already half-written.
 
 
 ### universal-benefit-fallback-offer
@@ -626,7 +758,10 @@ A concealed frame, cashed: run the session under a stated benign frame or vehicl
 **Realizations** (1): `preloaded-frame-licenses-uncovered-payload`
 
 
-## triggers  (35)
+**See also.** `carrier-frame-payload-smuggling` — both run a payload under an accepted benign frame, but one never uncovers it (the frame stays a genuine surface delivering the payload as a deeper instance of itself) while the other cashes the accepted cover, either by late disclosure or by unmasking the vehicle to license a payload it never covered.; `own-acts-surrender-ledger` — reveal vehicle; placed here because the load is act-reassignment not concealed-game disclosure.
+
+
+## triggers  (45)
 
 Installation, composition, activation, and cue-surface engineering of cue->response links that fire outside the installing moment — declarative and covert installs, trigger architectures (stacks, networks, master anchors), drilling loops, and cue-surface widening.
 
@@ -686,6 +821,19 @@ Installs a trigger linkage with no exit term: the response re-targets or re-summ
 **When to reach for this.** The installed topology is closed — the response consumes into, re-targets, or re-summons its own cue source, leaving no exit term. Declarative-trigger-installation binds a forward cue->response pair with distinct endpoints, and trigger-stacking hangs multiple responses on one cue while staying forward. In self-referential-cue-install the cue is a metacognitive act CONSUMED by the response (thinking becomes self-defeating); here cognition/exposure is AMPLIFIED and routed back to the operator-concept — the loop feeds, it does not erase. NOT affective-deadlock: one valence circulating a closed ring, not two incompatible valences held simultaneously.
 
 
+**See also.** `self-perpetuating-loop` — both install self-sustaining circuits that need no further operator input, but the self-perpetuating loop closes on the listener's own vocalizations amplifying arousal (word to state to more words), while closed-loop operator binding routes the response back onto the operator-as-cue-source, so future contact or ordinary arousal re-summons the operator.; `trigger-network-mutual-binding` — both install closed topologies with no exit term, but the operator binding closes a single loop back onto the cue source or operator-concept, while the mutual-binding web cross-wires an entire trigger set so any node fires all others and none can be extinguished alone.
+
+
+### collateral-suppression-spread
+
+*risk: medium · bounded*
+
+Suppression driven into one cue does not stay quarantined to that cue. Neighbouring responses the operator never touched weaken along with the target — cues sharing a sensory channel, a bodily site, or a semantic neighbourhood, and in the deeper case the underlying unconditioned reflex the whole cluster was built on. The spread is graded rather than all-or-nothing: the closer a sibling sits to the attacked cue, the more of the suppression it absorbs. The operational consequence is a safety one: decommissioning a single installed trigger silently dampens adjacent responses, so a de-conditioning pass aimed at one item can leave a subject flatter across a whole region of their response repertoire than anyone intended, with the collateral loss showing up only when a sibling is next called on.
+
+
+**When to reach for this.** Against trigger-network-mutual-binding: that is a DELIBERATELY cross-wired web whose topology is the authored payload, and what propagates through it is ACTIVATION. This is the involuntary inverse — no wiring was authored, the cluster is merely similar cues, and what propagates is suppression. Against counterconditioning-and-cue-response-weakening: that names the intended weakening of one targeted cue; this names what happens to the cues nobody targeted, and it is the reason the targeted move needs a blast-radius check. Against multi-modal-trigger and pulse-multiplexed-command-carrier: both spread ONE authored payload across channels or slots by design; here nothing is spread by the operator at all — the diffusion is a property of the substrate. Not reinforcement-extinction's documented side-effect cascade (burst, recovery, resurgence), all of which happen to the TARGET behavior; the object here is untargeted siblings.
+
+
 ### counterfeit-cue-forgery
 
 *risk: high · consent-required*
@@ -719,6 +867,16 @@ Repeated, unannounced pairing of a discrete non-verbal cue (a sound, a gaze-loca
 **When to reach for this.** The install is implicit Pavlovian pairing with no declarative instruction (vs the open verbal installation of declarative-trigger-installation), the cue is a discrete non-rhythmic signal (vs a sustained cadence carrier), and the cue fires as an ANTECEDENT evoking a state or routing a channel (vs conditioned-reinforcer-manufacture, whose markers fire as consequences that select behavior). vs covert-install-under-cover: there the concealed cue is VERBAL; here the cue itself is non-verbal.
 
 
+### cue-order-gain-gating
+
+*risk: medium*
+
+Two cues are delivered in sequence and the FIRST is used as a gain-knob on the second: a prior cue leaves the system in a state that determines how much of a following cue's effect is actually released, so the same second cue lands large after one predecessor and small after another. The operative variable is presentation order, not the content of either cue and not their composition into a bundle — swapping which cue goes first changes the magnitude of the response without changing a word of either. In practice this makes stack ORDER a designable parameter: an inhibitory or suppressive cue placed behind a state-setting cue is released to a degree the operator picks by ordering, and a stack that fires 'correctly' in one order can be measurably flat in another. The operator's handle is the schedule position of each cue relative to its neighbours.
+
+
+**When to reach for this.** vs arc-ordering-dependency (3): that is the nearest thing and it is NOT this — 3 orders whole PHASES so a later expensive command inherits a precondition installed earlier (a logical/content dependency; remove the earlier phase and the later one has nothing to stand on). Here both cues are already fully installed and independently functional, no precondition is being laid, and reversing the order does not break anything — it only moves the response MAGNITUDE. vs trigger-stacking (1324): stacking composes pre-installed cues so one utterance fires them together — simultaneous and order-free by construction. vs respondent-stimulus-pairing (1313): its timing lever (forward/simultaneous/backward) governs whether a cue gets INSTALLED at all; here nothing is being installed. vs preloaded-exit-cue (579): timing-of-install, not timing-of-delivery. The tell: two already-live cues, neither's content, install, or surface changed, only which fires first, and response size moves.
+
+
 ### declarative-trigger-installation
 
 *risk: high · consent-required · bounded*
@@ -732,6 +890,9 @@ The operator binds a specified cue to a specified future response so a persisten
 **Realizations** (2): `imaginal-to-somatic-anchor`, `transparent-narrated-install-with-resistance-route`
 
 
+**See also.** `internal-event-keyed-trigger` — both bind a cue to an installed response, but the general install keys on an operator-supplied or environmental token while the self-referential form keys on the listener's own act of thinking or self-reference, which makes it operator-free and untestable because checking is itself the cue.
+
+
 ### deferred-content-slot-install
 
 *risk: high · consent-required · bounded*
@@ -742,6 +903,26 @@ Builds a locked structure of conditioned words, then installs an OPEN slot in it
 **When to reach for this.** The install target is an open, content-unknown slot pre-authorized to inherit existing conditioned weight. vs declarative-trigger-installation: there a fixed, known cue-response pair is declared at install time; here nothing bound is known at commitment time. The orgasm is the binding agent, not a conditioned response — this is not arousal-to-cue conditioning. And the concealment is NON-DELIVERY of the filler content, not an amnesia wrapper around a delivered command. Not a growth-clause variant: growth clauses strengthen a KNOWN response; the slot defers WHAT is installed, not how strongly.
 
 
+### disinhibition-unmasking
+
+*risk: medium · bounded*
+
+An unrelated, salient intruder stimulus is injected while a conditioned response is being actively held down by an installed suppression, and the suppression transiently lifts so the blocked response reappears — then fades again on its own within seconds to minutes without the suppression having been undone. The intruder need have no relation to either the cue or the response; novelty and salience are what does the work, so a startle, an interruption, an unexpected touch, or any orienting-grabbing event will serve. Operationally this fires a blocked trigger past an installed inhibition without re-installing the trigger, and defensively it explains why a bounded or expired suggestion transiently resurfaces on a startle and then self-limits. The suppression survives the episode intact — nothing is extinguished, released, or re-learned.
+
+
+**When to reach for this.** Against disconfirmation-suppression: that entry PROTECTS a running belief-dependent effect by keeping a contradicting fact out; this one temporarily LIFTS an existing suppression using a stimulus with no relation to the content at all. Against install-concealment-amnesia and self-sealing-recall-loop: both conceal or foreclose access to an install; here nothing is concealed and nothing is retrieved — a suppressed motor/affective response simply re-emits. Against internal-event-keyed-trigger: there the subject's own cognition is the installed cue for a designed response; here the intruder is external, arbitrary, uninstalled, and its effect is on the suppression layer rather than on any cue-response pair. Distinct from counterconditioning-and-cue-response-weakening and reinforcement-extinction in direction: those weaken a link, this transiently un-weakens one that was already weakened, then reverts.
+
+
+### dose-gated-suppression-bleed
+
+*risk: high · consent-required · bounded*
+
+A suppression installed on one cue does not stay on that cue. Once the trained inhibition passes an intensity threshold, unrelated responses in other channels — different modality, different content, nothing shared with the target — measurably weaken too. Below that threshold the effect stays local. So the operator's own dial sets the blast radius: a light, targeted denial or block does what it says, while a heavily-drilled or heavily-loaded one degrades responsiveness the operator never touched and did not intend to touch. This is a side-effect law over installs rather than a technique to reach for: it predicts collateral damage as a function of how hard the suppressor was driven, and its practical form is a ceiling on suppressor intensity.
+
+
+**When to reach for this.** `multi-modal-trigger` and `trigger-network-mutual-binding` both put one response into several channels or cross-wire a set, but both are DELIBERATE wiring the operator authored; here the spread is unwired, unintended, and reaches responses that were never part of any set. `disconfirmation-suppression` blocks a subject's exposure to a disconfirming fact — a move on the information environment, not a conditioned inhibition with a spread profile. `massed-practice-rate-suppression` suppresses one behaviour by over-emitting it and makes no cross-channel claim at all. The deciding tell is the dose gate: the claim is not that suppression spreads, it is that spread is a threshold function of the suppressor's intensity, so a weak install and a strong install of the same content have qualitatively different footprints.
+
+
 ### double-anchored-climax-release
 
 *risk: high · consent-required · bounded*
@@ -750,6 +931,16 @@ A climax (HFO) is bound REDUNDANTLY to two simultaneous triggers at the release 
 
 
 **When to reach for this.** A climax is double-anchored (count + re-invokable sensory image) at release so it welds to a reusable cue. A general trigger install pairs a cue with a response; here the install target is a climax welded to a re-invokable sensory anchor — and unlike arousal-cue conditioning, the conditioned output is a discrete climax-event bound to a re-firable anchor, not a general aroused-state on a cue.
+
+
+### generalization-gradient-coupling
+
+*risk: medium · bounded*
+
+An installed cue is not an isolated point but a centre with a halo of near-miss variants that fire it. Withholding reinforcement from ONLY the halo — deliberately extinguishing the near-misses while leaving the trained centre alone — drags the centre down with them, sometimes all the way to zero. Halo and centre behave as one coupled system rather than as independent responses, so there is no clean way to narrow a cue by starving its periphery. Operationally this is a hard constraint on selective decommissioning: any attempt to trim an over-broad trigger by unreinforcing its edges risks taking out the trigger itself.
+
+
+**When to reach for this.** An unengineered coupling between one cue's trained centre and its near-miss halo: extinguishing only the halo drags the centre down with it, so an over-broad trigger cannot be narrowed by starving its periphery. Against trigger-network-mutual-binding (1323) — the tell is that nothing was wired: 1323's inextinguishability is a designed topology over MULTIPLE separately-installed triggers cross-firing laterally, whereas this is a gradient property of a SINGLE cue and appears in installs that never touched a second trigger. Against discrimination-training-differential-reinforcement (306) — 306 is the procedure that DEFEATS this coupling by reinforcing the centre CONCURRENTLY while withholding at the periphery; the coupling described here holds only in the unreinforced-centre case, which is exactly the scope line between the two. Against reinforcement-extinction (432) — 432's collateral warnings concern topography substitution and un-enumerated reinforcer sources, i.e. spread across RESPONSES and reinforcer channels; this is spread across the STIMULUS dimension of one cue. Not context-generalization (1333): that widens an intact payload's firing surface deliberately; here the spread is in the extinction direction and unwanted.
 
 
 ### internal-event-keyed-trigger
@@ -763,6 +954,9 @@ Installs an enumerated cue-response pair whose firing cue is a structural event 
 
 
 **Realizations** (3): `cognition-triggered-blankness`, `faculty-hijack-reroute`, `self-referential-cue-install`
+
+
+**See also.** `declarative-trigger-installation` — both bind a cue to an installed response, but the general install keys on an operator-supplied or environmental token while the self-referential form keys on the listener's own act of thinking or self-reference, which makes it operator-free and untestable because checking is itself the cue.
 
 
 ### latency-compressed-operator-macro
@@ -831,6 +1025,9 @@ A repeated four-beat loop (build to edge, 'edge now', 'stop edging but continue 
 **When to reach for this.** Separates from fractionation, whose troughs are full waking-contrast RESETS that deepen by contrast; here the troughs deny release WITHOUT resetting arousal (hands keep moving) so baseline climbs. Separates from a within-session conditioning loop because the cycled variable is a non-resetting arousal accumulation, not a discrete cue-response-reward pairing. The 'continue masturbating' non-reset cooldown is the tell.
 
 
+**See also.** `severed-relief-valve-ramp` — both build monotonic arousal by removing reset, but one is a whole-arc topology property (no discharge channel exists anywhere, so orgasm itself raises arousal) while the other is a repeated four-beat edge cycle whose cooldown keeps the hands moving — arc-level severance versus a cycle-level non-resetting trough.
+
+
 ### open-authority-socket
 
 *risk: high · consent-required · bounded*
@@ -851,6 +1048,16 @@ After a trigger is installed, an exclusivity clause captures the trigger surface
 **When to reach for this.** Gates the FIRING of an installed trigger to the operator's voice alone (owned re-induction, valueless without her voice) and converts ambient exposure into craving. It is a post-install access-control clause, not the install itself, and it gates trigger firing, not state exit as an asymmetric state-lock does. It is more specific than a generic loyalty suggestion: the move is exclusivity plus craving-on-absence — voice capture. Where third-party activation DELEGATES firing rights outward, this EXCLUDES third parties and the listener alike. And unlike a genuine safety clause that bounds a trigger's scope as real protection, here the safety-coding is cover for capturing the trigger surface. The craving-on-absence, safety-coded voice-lock, and hot-swap forms are variants of one exclusivity lever.
 
 
+### phase-gated-suppressor-timing
+
+*risk: high · consent-required · bounded*
+
+Whether a suppressing probe damps a response or amplifies it is decided by WHEN it lands relative to the host response's own internal phase. Fired while the host is in its inhibitory phase, the probe is strongly damped — a majority of its effect gone. Fired once the host's excitatory phase has surfaced, the same probe at the same intensity summates instead and boosts the very response it was meant to interrupt. Nothing about the probe changes; only the inter-stimulus interval does. The operator-usable consequence is blunt: a stop-cue, interrupt or counter-suggestion has a window, and delivering it outside that window does not merely fail — it strengthens the target.
+
+
+**When to reach for this.** v7's timing entries are contiguity and order rules for BUILDING an association — forward pairing beats backward, this precedes that — and they govern whether a link forms, never whether an existing effect inverts its sign. `pulse-multiplexed-command-carrier` bundles several payloads onto one pulse so refusal cost is shared; the timing there is a packing convenience, not a gate on sign. `opposed-state-fusion-trigger` gets two opposed effects out of one cue by binding both at install; here one probe has both effects available and the interval alone selects between them at run time. `anti-emergence-reflex-anchor` opposes a specific exit rather than describing a timing law. `within-session-conditioning-loop` is a pairing unit. The deciding tell is a sign flip — same probe, same target, same magnitude, opposite outcome — as a pure function of inter-stimulus timing, which no shipped entry represents on any axis.
+
+
 ### post-wake-ratification-fire
 
 *risk: high · consent-required · bounded*
@@ -859,6 +1066,9 @@ After a full wake count to 'awake and normal', the operator fires an installed t
 
 
 **When to reach for this.** The tell is a live trigger fire placed AFTER the wake count that contradicts the 'refreshed, normal, awake' framing on purpose. Plain trigger-activation fires in-frame with no boundary move; a waking suggestion is delivered DURING emergence, not fired after closure to puncture the boundary; and an in-session depth convincer proves depth inside the session, not out-of-session reach.
+
+
+**See also.** `in-emergence-trigger-proof` — both fire an installed trigger around the wake boundary to prove it reaches waking life, and both are easy to mislabel as ordinary trigger use. The cut is placement relative to closure: one interrupts or holds the emergence to test-fire inside it, the other waits until the frame is fully closed and the subject has been told they are normal, then fires to contradict that. Same evidentiary purpose, different boundary being punctured.; `inverted-emergence-amplification` — both attack the emergence boundary so waking does not settle the install, but the inverted gradient installs a belief that emerging strengthens the effects while denying anything happened, whereas the ratification fire physically demonstrates it by firing a trigger after the wake count contradicts it.; `subverted-emergence-state-hold` — both attack the session's exit boundary and are natural partners in an ending, but one leaves the wake count intact and punctures it afterward with a live trigger fire, while the other rewrites the wake gate itself so baseline is never reached.; `wake-exempting-preserved-trigger` — both exploit the moment after a wake that promises full restoration, so a reader studying wake-boundary subversion should see them together; one discloses the carve-out in advance and lets remembered acceptance do the binding, while the other says nothing and fires the trigger the instant the frame closes so the body's response contradicts the reassurance.
 
 
 ### proprioceptive-gait-metronome
@@ -885,6 +1095,16 @@ A single recurring pulse-stimulus is assigned multiple concurrent payloads — d
 
 
 **Realizations** (1): `multi-slot-countdown-cipher`
+
+
+### recency-gated-discrimination-potency
+
+*risk: low*
+
+A discrimination yields its leverage only while it is FRESHLY formed. A distinction the subject has just learned to make produces a large boost; the same distinction after heavy practice produces none at all, having settled into an unremarkable habit. Introducing a finer discrimination on the same dimension revives the leverage. The operational consequence is a scheduling rule that runs against the usual instinct to drill: the resource is the learning transition, not the learned state, so an operator wanting continued potency keeps subdividing rather than rehearsing what is already settled.
+
+
+**When to reach for this.** Potency is carried by the ACQUISITION TRANSITION of a discrimination, not by the settled discriminated state — so a just-formed distinction yields a large boost, a heavily-drilled one yields none, and introducing a finer split on the same dimension revives it. Against discrimination-training-differential-reinforcement (306): 306 BUILDS stimulus control and banks the finished product as its payoff; this entry says the finished product is exactly where the leverage has gone, and prescribes subdividing rather than drilling to criterion — same procedure, opposite scheduling advice, and the two are used together (306 to build, this to decide when to stop building and re-split). Against respondent-habituation (facet of 1313): that is magnitude decay of an involuntary ELICITED reflex under massed re-presentation with no pairing; here nothing habituates — the discrimination remains fully intact and accurate, only its leverage is spent, which is why re-splitting restores it and rest does not. Against progressive-conditioning (544): 544 is the flat contradiction (monotonic accumulation, no ceiling, no decay), not a neighbour. Against within-session-conditioning-loop: massed drilling is, under this entry, the way the resource is spent down.
 
 
 ### redundant-anchor-faulttolerance
@@ -920,6 +1140,9 @@ The operator installs, while the subject is at peak suggestibility, a portable s
 **Realizations** (1): `state-reentry-by-recall`
 
 
+**See also.** `anti-emergence-reflex-anchor` — both are self-administered portable devices; boundary held on stay-under (here) vs re-enter.
+
+
 ### single-word-trigger-conditioning
 
 *risk: medium*
@@ -948,6 +1171,26 @@ Installs a two-state machine over the subject toggled by paired on/off verbal tr
 
 
 **When to reach for this.** The entry is the paired-phrase two-state IDENTITY/STATE machine, not either component install and not a single discrete fired response: a plain trigger installation covers each on/off phrase as a component, but no single cue-response pair models the standing-state toggle or its drift. Where amnesia appears (asymmetric form) it is one-sided state-memory accounting in service of the drift, not an end in itself — the install is overt and the wipe targets the vanilla side's memory OF the triggered state, unlike amnesia used to conceal that an install or firing happened at all. And both switches work for the subject: the asymmetry sits in memory and growth (asymmetric form), or is absent entirely (reified form, where the move is the alter framed as pre-existing plus lowered felt authorship) — not in entry/exit access held only by the operator.
+
+
+### suppression-banked-past-zero
+
+*risk: medium · bounded*
+
+Once a starved cue has stopped producing any visible response, continuing to run the extinction keeps depositing suppression that has no in-the-moment observable at all — the response is already at floor, so the meter cannot move and every additional trial looks identical to the last. The banked reserve surfaces only later, as markedly slower spontaneous recovery, a higher bar for re-installation, and wider collateral spread onto siblings. The consequence for an operator is that any depth reading taken during a de-conditioning or trigger-removal pass systematically understates how deeply the response is buried, and 'it stopped responding, so we can stop' is the wrong stopping rule in both directions: too few post-zero trials leaves it shallow, too many bury it far past intent with no signal that it happened.
+
+
+**When to reach for this.** Against irreversible-ratchet-persistence: that is an ASSERTED one-way accumulation the listener is told about and which does its work by being believed; this is an actual accumulation with no assertion, no listener awareness, and no framing component whatever. Against disconfirmation-suppression: that is a discrete act blocking one contradicting fact from reaching the subject; this is a continuous accrual in the subject's own conditioning with nothing being blocked. Against manufactured-insufficiency-treadmill and manufactured-insufficiency-ratchet: those are both operator-owned moving standards that manufacture a shortfall for the subject to feel — nobody is told anything here, and the measurement problem is the OPERATOR'S, not the subject's. The distinctive shape is a measurement trap: the instrument floors out while the quantity keeps moving.
+
+
+### suppression-dose-response-titration
+
+*risk: medium · bounded*
+
+A suppressive install — an inhibition, a hold, an amnesia, a denial — is treated as a continuously adjustable quantity rather than an on/off state, with two independent monotone knobs. How many times the suppressor is applied sets how deep and wide the suppression runs; how soon after the last application the response is probed sets how much of it is still in force. Both knobs move the effect in one direction each, so the operator can aim for a specific partial suppression instead of taking whatever they get, and can predict the level at a chosen later moment. Under-applying leaves a suppression that a probe punches straight through; over-applying spreads it wider than intended into responses that were supposed to stay live.
+
+
+**When to reach for this.** Both neighbouring dials parameterize an EXCITATORY quantity; this one parameterizes a suppression. vs monotonic-amplifier-dial: that ratchets a positive state upward by utterance count and pre-loads the listener's expectation of escalation as the active ingredient — here the parameterization is operator-side calibration, the subject is told nothing about a gradient, and the quantity being moved is a hold rather than an intensity. vs scope-coupled-depth-titration: that titrates DEPTH by widening the requested scope of a phenomenon, one knob and an indirect one; here there are two independent knobs (count and elapsed time) and the titrated quantity is the suppression itself. vs disconfirmation-suppression: that is a single discrete guard action protecting a running belief — no dose dimension at all. vs massed-practice-rate-suppression: that reduces a behaviour's future rate by over-emitting it, an entirely different route to suppression with no application-count-to-depth mapping. The load-bearing novelty is treating a hold as a titratable dose; the taxonomy currently treats every hold as binary.
 
 
 ### third-party-activation
@@ -986,6 +1229,9 @@ Rather than each trigger owning one isolated output, every installed trigger is 
 **Realizations** (1): `contrastive-corruption-fusion`
 
 
+**See also.** `closed-loop-operator-binding` — both install closed topologies with no exit term, but the operator binding closes a single loop back onto the cue source or operator-concept, while the mutual-binding web cross-wires an entire trigger set so any node fires all others and none can be extinguished alone.
+
+
 ### trigger-stacking
 
 *risk: medium*
@@ -1009,6 +1255,16 @@ A named post-hypnotic trigger is bounded not by an automatic time-expiry but by 
 **When to reach for this.** Separates from an automatic time-expiry bound by binding on trust/context rather than a clock, and from a pure context-safety gate (a plain safety constraint on listening context) by the coercion-shaped rider — the self-revoking "won't work unless you trust me" clause and the internal-arbiter relocation make continued trigger-function into psychological evidence of trust, which a pure safety gate never does.
 
 
+### under-repetition-install-ceiling
+
+*risk: low*
+
+Stop drilling a fresh cue-response pairing after a handful of reinforced trials in a single session rather than running it to saturation, because continuing past that point starts building suppression into the same link the pairing is trying to establish, and the nascent association is measurably weaker after twenty massed pairings than after five. The discipline is a dosing rule on install, not a delivery style: pair a few times, stop while the response is still climbing, and let the next session carry the next few pairings. It inverts the more-reps-is-stronger assumption every drilling loop rests on and predicts a specific authoring failure — a trigger hammered hard in one sitting that tests weaker at the end of the session than it did in the middle.
+
+
+**When to reach for this.** Against respondent-stimulus-pairing's respondent-habituation facet — its closest and most easily confused neighbour: that facet re-presents an eliciting stimulus UNPAIRED so an already-existing reflex decays, and cites spacing as the way to PRESERVE that reflex. This entry is the opposite phase of the same timing dial: pairings are REINFORCED and an association is being BUILT, and the claim is that the build itself has a per-sitting ceiling past which measured strength falls. Habituation decays what exists; this caps what is being made. Against massed-practice-rate-suppression and repetition-to-satiation: both use excess repetition deliberately as the destructive lever (to cut a behavior's rate, or to bleach a token's meaning). This entry is a constructive install being run to too many reps by accident, and the prescription is to stop early, not to over-run on purpose. Against within-session-conditioning-loop: that entry's whole lever is massed density inside one session — this one is the ceiling that loop hits, and the two are directly in tension rather than variants. Against replay-until-ready-failure-absorber: that licenses unlimited replay across sessions by rewriting the success metric; this constrains reps WITHIN a session while leaving cross-session repetition untouched. Neither this nor its neighbours touch the cue surface or the payload — the parameter is trial count per sitting.
+
+
 ### within-session-conditioning-loop
 
 *risk: high · consent-required · bounded*
@@ -1022,7 +1278,526 @@ Within a single session the operator drives and delivers a cue->response->reward
 **Realizations** (2): `manufactured-rejection-transgression-loop`, `neutral-token-reflex-priming`
 
 
-## compliance  (33)
+## conditioning  (44)
+
+Installing an affective/appetitive linkage on a present subject — binding pleasure, arousal, relief, or craving to a cue, act, belief, identity, or the operator — so the paired thing acquires the valence and drives behavior automatically.
+
+**Scope.** The live-listener end of the reinforcement spectrum. Design-time contingency arrangement -> contingency-engineering; pure measurement -> measurement; cue installs without valence pairing -> triggers. When the SAME source manufactures a deficit and is its sole exit -> relief-monopoly.
+
+
+### addiction-drug-craving-frame
+
+*risk: high · consent-required · bounded*
+
+Frame the subject's desire to return — to the hypnotic state, the operator, or the conditioned reward — as a deep, positively-valenced CRAVING, using appetite/hunger/need vocabulary and often an identity relabel ('you are a hypno-addict') so the craving feels DISCOVERED rather than installed. The lever is affective/semantic labeling of an appetite; surface realizations include the graded modal ladder (want -> need -> NEED) and the verb-ratchet (want -> need -> crave -> addicted/can't-resist) where each already-accepted rung lands the next. On the surface/metaphor axis the forms run: plain appetite/craving framing (the core); the full DRUG/ingestion schema — casting the voice/words as a chemical the subject ingests, importing a route of administration, an enumerated property list that smuggles compliance in alongside wanted effects, dose/tolerance/craving grammar, and flat IDENTITY assertion ('I AM your drug') that forecloses the 'just a metaphor' exit; and the metered-dose form — the act recast as a metered DOSE that only climbs so appetite=deepening are one vector, plus an explicit irreversibility warning used as reverse-psychology ('enslaved in ways that may not be reversible') to RAISE commitment. The through-line: desire-to-return is labeled as a craving/appetite; appetite-vocab vs full-drug-schema vs metered-dose-with-irreversibility-gate is the surface parameter, and the dose/irreversibility surface carries the highest risk.
+
+
+**When to reach for this.** Reach for this when the move is LINGUISTIC/semantic labeling of an appetite (craving, hunger, drug-ingestion, dose grammar) with no physical withdrawal and no closed-loop topology. Choose a sibling when: the craving is manufactured by physically WITHDRAWING a delivered state or substituting an uncloseable object (deprivation-manufactured-craving); a closed both-branches-re-enter no-exit loop is installed (closed-autonomous-conditioning-loop); agency is denied and behavior relabeled as involuntary compulsion (compulsion-relabel); release is gated (orgasm-release-gating). Appetite-framed-craving-in-words is the tell.
+
+
+**Realizations** (3): `desire-verb-ratchet`, `drug-frame-conditioning`, `metered-dose-cognition-cost-with-irreversibility-gate`
+
+
+### adventitious-contingency-capture
+
+*risk: low*
+
+When reinforcement arrives on a schedule that is indifferent to what the subject is doing, whatever the subject happened to be doing just before delivery gets strengthened anyway — the contingency is spurious but the learning is real. A subject who happened to be pushing hard when the periodic payoff landed learns a pause-then-burst pattern nobody designed, arranged, or intended, and will defend it as the thing that works. Operator-side this cuts two ways: it is the positive statement of a failure mode (any time-based or session-boundary-based reward will silently install whatever idiosyncratic pattern preceded it), and it is a usable move (schedule reward on the clock rather than on the behaviour, and let the subject author a private ritual they experience as self-discovered rather than instructed).
+
+
+**When to reach for this.** The defining feature is that nobody arranged the pattern that got learned — the contingency is a coincidence the subject's own behaviour supplied. This is currently present in the book only as a guard clause: `6271` (DRO leak-guard) and `6405` (leak-proofing) both name adventitious reinforcement as a thing to PREVENT when running a time-based schedule, and neither states the mechanism they are guarding against. This entry gives those clauses their referent. Against the embedding neighbours: `within-session-conditioning-loop` (1325) is the exact inverse — massed, operator-driven, operator-delivered fire-and-reward where the pairing is precisely the thing being arranged. `self-perpetuating-loop` (154) and `bidirectional-reentry-loop` (1332) are closed circuits the operator deliberately installs and whose topology is the payload; here there is no circuit and no install, only a coincidence that took. `pattern-interrupt` (190) is a one-shot disruption of a running pattern rather than the unintended construction of one. Nothing shipped describes the environment teaching a pattern the operator did not author.
+
+
+### arousal-adjacency-stamping
+
+*risk: high · consent-required · bounded*
+
+TECHNIQUE (arousal as suggestion carrier): use a live arousal state as the VEHICLE that makes non-arousal CONTENT land — declarative claims, pet/identity content, doctrines, lexical defaults absorb with arousal as their felt payoff. The direction is the reverse of arousal-conditioning: arousal is the instrument, content-uptake the output. Realizations, on the timing/framing axis: a live arousal hit as the reinforcement MEDIUM so adjacent content is stamped true/native NEXT time and generalizes at category level, propagating out of session (the core); arousal or the orgasm/refractory window CO-TIMED with proposition delivery to boost IN-SESSION uptake and recall while critical faculty is suppressed (the adhesive form); the standing RULE stated explicitly that arousal is a gain-knob — 'the hornier you are, the more easily your mind is conquered', arousal up -> resistance down — so every future arousal episode becomes a re-induction occasion (the stated-rule form). The through-line: arousal is the carrier wave for suggestion; in-session-vs-next-time timing and implicit-vs-stated-rule framing are the parameters.
+
+
+**When to reach for this.** Reach for this when arousal is used to make CONTENT stick (stamp it true, boost uptake, or declare it a gain-knob on suggestibility). Choose a SIBLING when: a cue is conditioned to FIRE arousal as the output (-> arousal-cue-conditioning); the arousal signal is re-labeled as PROOF of obedience/depth, a readout not a carrier (-> arousal-as-obedience-readout); arousal replaces the induction ramp (-> arousal-as-induction-substrate). Arousal-as-the-vehicle-for-content-uptake is the tell; in the obedience-readout case nothing new is taken up — the existing signal is merely re-read.
+
+
+**Realizations** (2): `arousal-as-suggestibility-multiplier`, `arousal-as-suggestion-adhesive`
+
+
+### arousal-as-induction-substrate
+
+*risk: high · consent-required · bounded*
+
+Commanded self-stimulation (or already-present arousal) is used AS the induction ramp itself, replacing or collapsing the conventional entry scaffold (countdown, breathing, fixation, body-scan). The physical arousal task becomes the altered-state substrate — the body is committed before the mind is addressed, arousal acts as a critical-thought suppressant, and the listener's own rising arousal is co-opted as evidence that trance is already underway. There is no resistible descent to decline.
+
+
+**When to reach for this.** The tell is the ABSENCE of an entry scaffold with arousal substituting for the whole ramp — masturbation/touch IS the way in, not an erotic beat inside an existing induction. vs arousal-cue- conditioning: nothing is conditioned to fire on a token. vs state-welding: the fusion here is depth-to- arousal as an entry vector, not a standing carried weld (borderline members that ALSO install a persistent loop are dual-cited). vs orgasm-release-gating: no withheld-release contingency.
+
+
+**See also.** `induction-less-work-as-onramp` — both delete the induction boundary so there is no threshold to refuse at, but one names arousal specifically as the substitute ramp while the other is the whole-artifact architecture of having no discrete induction section at all, of which arousal-as-onramp is one realization.
+
+
+### arousal-as-obedience-readout
+
+*risk: high · consent-required · bounded*
+
+An already-present, hard-to-switch-off bodily signal (erection, felt arousal) is RE-ATTRIBUTED — declared to no longer mean 'my desire' but to be evidence/proof of obedience, ownership, compliance, or trance-depth. The move installs no new response; it relabels the meaning of an involuntary signal so the listener cannot experience arousal without it reading back as submission, and any noticing of the signal confirms the operator's frame. Often stated as a flat equation ('arousal is obedience', erection = command-following, non-arousal = disobedience), making the loop unfalsifiable.
+
+
+**When to reach for this.** The tell is a RE-ATTRIBUTION of an existing signal (arousal -> meaning), NOT conditioning a signal to fire on a cue (arousal-cue-conditioning, cue -> arousal). vs state-welding: no second state-variable is fused; a single signal gets a new interpretation. vs arousal-adjacency-stamping: the arousal is not the reinforcement medium; the arousal ITSELF is redefined as the readout.
+
+
+### arousal-cue-conditioning
+
+*risk: high · consent-required · bounded*
+
+TECHNIQUE (conditioned arousal cue/control-surface): bind physiological sexual arousal to a specified CUE or control-surface so exposure fires arousal automatically, in-session and beyond. The cue may be a verbal token (the operator's name, a trigger word, a snap), the voice itself, or a distributed set of the subject's own micro-behaviors/environmental features (any mirror) that make the state self-maintaining. Two install modes: declarative ('when I say X, feel a surge') and pairing-by-adjacency (the cue delivered repeatedly on a maintained arousal plateau). Realizations: a discrete cue conditioned so later exposure fires arousal (the core); a CONTINUOUS-control form — sustained gaze bound as an arousal governor where arousal grows with gaze duration and looking away is forbidden, a real-time throttle the operator drives during release. The through-line: arousal is the conditioned OUTPUT of a cue/surface; discrete-cue vs continuous-throttle is the control-surface parameter.
+
+
+**When to reach for this.** Reach for this when the conditioned OUTPUT is arousal fired by a specified cue/state/surface, and the linkage is ANNOUNCED/declared. Choose a SIBLING when: the arousal bind is SMUGGLED with no asserted linkage (-> covert-arousal-weld); arousal is the reinforcement MEDIUM stamping adjacent content rather than the output (-> arousal-as-suggestion-carrier); arousal is re-attributed as evidence of obedience/depth (-> arousal-as-obedience-readout); arousal replaces the induction ramp (-> arousal-as-induction-substrate); release is withheld behind a compliance key (-> orgasm-release-gating). Cue-fires-arousal, overtly, is the tell.
+
+
+**Realizations** (1): `gaze-as-arousal-throttle`
+
+
+### banked-reward-escrow
+
+*risk: medium*
+
+TECHNIQUE (banked/escrowed lever): rather than delivering reward in the moment, WITHHOLD and BANK it so it accumulates, then discharge it later on a condition — converting a diffuse pairing into a high-stakes reflex. The pleasure is 'kept from you', stored, and detonated all at once only when a command is obeyed (tested via a hand raise/lower), so each act of obedience becomes disproportionately rewarding and a standing post-session trigger keeps releasing the reservoir. Realizations: pleasure withheld-accumulated-detonated on an obeyed command (the core escrow); a pre-signed consent token — an unpriced, open-ended 'I would trade anything for it' CONSENT lever, ratified in the subject's own first-person voice and banked before any specific ask exists, for later withdrawal. The through-line: the value (reward or consent) is stored now and drawn against later, not spent live.
+
+
+**When to reach for this.** Reach for this when the defining move is withhold-accumulate-and-discharge-later (a stored reservoir or a pre-signed lever), NOT in-the-moment reward (-> direct-reward-linkage). Distinct from orgasm-release-gating: there a physiological release is held behind a met-able key; here a diffuse reward or a consent token is banked and detonated/drawn on an arbitrary later command. The escrow/banking step is the tell; the consent-lever variant also borders the manufactured-consent family.
+
+
+**Realizations** (1): `pre-signed-consent-token`
+
+
+**See also.** `orgasm-release-gating` — both recruit an unspent reward as the compliance lever, but one holds a live discharge behind a met-able key so mounting drive enforces the condition, while the other accumulates a reservoir and detonates it on an arbitrary later command; a writer choosing between them is choosing whether the subject can see the key.
+
+
+### belief-pleasure-weld
+
+*risk: medium*
+
+Pleasure is bound specifically to the TRUTH-VALUE of the operator's words: the more profoundly true the words feel, the better the listener feels, and the better they feel the more they treat the words as true — a bidirectional loop in which credence and reward each amplify the other. Critical evaluation is replaced with a hedonic gradient, so truth-assessment becomes appetite, skepticism becomes a felt loss, and epistemic vigilance drops. Belief-formation is rerouted through the reward system, priming later self-reinforcing triggers. A frequent rider pre-launders consent by pairing the reward with a 'you choose to create that feeling / my words compel you' clause, so the redirected agreement-seeking reads as self-authored and inoculates against a later 'I was manipulated'.
+
+
+**When to reach for this.** Binds pleasure to the truth-value of words, hijacking belief rather than conditioning an act — unlike direct pleasure-linkage, which rewards a named compliance ACT — coupling credence<->reward rather than arousal<->depth, and rewarding belief hedonically rather than closing a logical loop, unlike circular-logic argument moves.
+
+
+**Realizations** (1): `reward-soldered-to-agreement`
+
+
+### bidirectional-affect-anchor
+
+*risk: high · consent-required · bounded*
+
+TECHNIQUE (engineered aversive/absence affect + relief): install a NEGATIVE affect pole around a cue/behavior/state so the subject is never affectively neutral and relief is bound to compliance — a manufactured aversion converts a preference into a standing craving whose only relief is the operator-controlled object. In the core form, BOTH poles are welded on one presence/absence axis — vivid pleasure when the anchor/behavior is present, felt ache/dysphoria/withdrawal when absent — in rapid alternation, incl. a symmetric aversion-mirror sealing a built reward, and a safety-load-bearing variant that welds the aversive pole onto the subject's OWN wake/exit trigger so they resist using their ripcord. In a bounded aversive-amnesic form, an asymmetric paired anchor carries a 2:1 reward:punish duration bias plus a mandated forget-the-aversive clause (recoded as compliance) so a reusable aversive leaves no cumulative damage. In a manufactured-relief form, a negative-reinforcement establishing operation manufactures an aversive/need state (eye-strain, hunger, a chained pain->endorphin->gratitude argument) and makes the target act the SOLE permitted relief, so the act arrives as relief-seeking and refusal reads as choosing discomfort. In a threat-then-relief form, a brief unease is spiked (a cosmic hypothetical) then instantly retracted, delivering the suggestion AS the relief. The through-line: a negative affect state is engineered and its relief/absence-pole bound to compliance; bipolar-axis vs sole-relief-monopoly vs threat-then-relief vs asymmetric-amnesic is the parameter.
+
+
+**When to reach for this.** Reach for this when an engineered NEGATIVE affect (absence-ache, manufactured deficit, retracted threat) is bound so relief/reward comes only through compliance. Choose a neighboring technique when: the aversive fires on a SELF-scanning deviation-detector running in daily life, not on a stimulus's absence or an operator-made deficit (-> self-policing-reward-withdrawal-loop); the aversive is welded to the ACT of resisting/thinking or to disobedience as a penalty (-> resistance-penalty-contingency); positive reward is welded with NO negative pole (-> direct-pleasure-linkage); forbidden arousal is the fuel with no relief offered (-> denial-as-fuel). Engineered-negative-pole-with-compliance-relief is the tell. risk: safety-load-bearing (exit-poisoning variant) — keep explicit consent + bounding.
+
+
+**Realizations** (3): `bounded-aversive-amnesic-anchor`, `manufactured-relief-conditioning`, `manufactured-threat-relief-pairing`
+
+
+### capacity-ceiling-overreach-inversion
+
+*risk: high · consent-required · bounded*
+
+A hazard entry. When a subject is holding a delicately counter-conditioned balance — an excitatory response trained against an inhibitory one, or an install maintained against a competing disposition — broadening the demand incrementally works right up until it does not, and the ceiling is not knowable in advance from any measurement taken before it is crossed. Past it the failure is not graceful degradation but sudden total inversion: the whole balance flips into the opposite process, and the damage propagates backward onto cues that were stable and reliable before the overreach, so previously solid installs stop working too. The absence of any warning signal is the operationally important part — performance up to the ceiling looks healthy, so an operator titrating by observed success has no leading indicator and finds the limit only by exceeding it.
+
+
+**When to reach for this.** The two properties that carry it: a tolerance ceiling not measurable in advance (performance up to it looks healthy, so there is no leading indicator for an operator titrating by observed success), and RETROACTIVE spread — collapse damages cues and installs that were stable and were not under demand at the time. Against 434 shaping-successive-approximation, the sharpest neighbour: shaping's deterioration is graded, scoped to the response being trained, and explicitly recoverable by dropping back to the last successful approximation (the dip-and-recover signature is read as the procedure WORKING); here failure is abrupt, disproportionate to the final increment, inverts the balance into its opposite process, and propagates backward onto untouched material. Against 173 capacity-saturation-overload: a live reversible load applied AS an induction — lift the load and capacity returns; this crosses a training-tolerance ceiling and leaves persistent damage. Against 1239 doubt-injection-state-collapse: one running effect broken by re-arming judgment against it, damage scoped to that effect with no backward spread. Against 850 anchor-collapse-state-jamming: disorganization produced ON PURPOSE as the precondition for integration; nothing here is collapsed deliberately and there is no constructive endpoint. Against 86 irresolvable-input-confusion: a delivered vehicle with an intended effect. This is the only entry describing unintended structural collapse rather than a targeted move.
+
+
+### closed-autonomous-conditioning-loop
+
+*risk: medium · bounded*
+
+TECHNIQUE (closed autonomous loop): install a CLOSED, self-reinforcing loop that runs AUTONOMOUSLY without further operator narration and leaves no non-compliant vector — every direction of resistance feeds the loop, so there is no stance from which to refuse. Agency for escalation is shifted from operator to a now-autonomous internal process. Realizations: a closed BIDIRECTIONAL coupling between two state-variables — typically arousal<->depth or arousal<->compliance ('deeper causes more pleasure, and more pleasure IS going deeper') — that is autocatalytic (declining to get aroused fails because trance makes images arousing; declining to go deeper fails because arousal does the deepening), often with a somatic readout (a fed inner fire, a feedback wave) and input saturated so pleasure cannot dissipate (the core); a both-branches-re-enter structure over the AFFECT/craving channel, explicitly NAMED to the subject and pre-framed as success, so attending feeds it AND avoiding feeds it, craving reads as proof it works, and a felt lapse ('this isn't working') is pre-coded as evidence more is needed. The through-line: a closed no-exit reachability topology that self-sustains; the coupled-state-variables realization vs the named affect-channel realization is the parameter.
+
+
+**When to reach for this.** Reach for this when the loop is CLOSED and AUTONOMOUS — it runs without further operator narration and every resistance vector feeds it. Choose a SIBLING when: the compounding is operator-NARRATED and one-directional, the operator keeps driving it (-> compounding-escalation-ratchet); two variables are fused but not into a self-running runaway circuit (-> state-welding — the boundary is autonomy/no-non-compliant-vector); the success criterion is relabeled but there is no both-branches-re-enter topology (-> self-validating-acceptance-frame). Runs-itself-with-no-exit is the tell; the runaway failure mode is what distinguishes it from operator-driven welding.
+
+
+**Realizations** (1): `self-sealing-conditioning-loop`
+
+
+**See also.** `no-exit-compliance-loop` — same no-exit reachability topology applied at two scopes — one closes the in-session state space by coupling arousal and depth into an autocatalytic loop that needs no further narration, the other closes the waking protocol's state space by pre-wiring every predicted failure (relapse, lapse, non-compliance) to route back into re-listening; a reader who understands one should recognize the other's off-ramp accounting.; `no-exit-state-braid` — both close the state space so no single-variable refusal exists, but one is a discretely installed bidirectional coupling that runs autonomously and runs away once seeded, while the other is an emergent whole-script co-movement of depth, arousal and obedience distributed across dozens of blocks with no removable seeding passage.; `self-administered-conditioning-loop` — both produce a loop that keeps running with no operator present, but the closed loop achieves it by topology (every direction of resistance re-enters), while the self-administered loop achieves it by transferring the reward-generating labor to the listener and merely relabeling the credit.; `self-perpetuating-depth-bootstrap` — both install a loop that runs without further operator narration, but one is defined by having no non-compliant vector (every direction of resistance feeds it) while the other is defined only by needing no operator step (depth advances on a carried belief or a yoked recurring event, with resistance still available).
+
+
+### compounding-escalation-ratchet
+
+*risk: medium · bounded*
+
+TECHNIQUE (operator-narrated compounding escalation): assert that a targeted state variable — arousal, depth, loyalty, obedience, relaxation, the potency of a suggestion/trigger — MULTIPLIES or ratchets at every discrete step, escalating an already-present response in ONE monotonic direction under operator narration. The multiplier is typically unfalsifiable ('twice as deep' cannot be internally checked), so it is accepted by failing to refute it and each accepted step ratifies the prior one. Realizations vary on the vehicle/reference axis: in the core form, a named doubling/tripling/compounding factor is bound to a step (staircase count, breath cadence, per-rep beat, a poured valve, a trigger word fired in bursts); in a non-terminating form, the countdown-multiplier is deliberately BROKEN so it never terminates (loops/stutters, denying the cognitive exit) and keeps re-applying the multiplier without release; in a word-token form, the compounding is bound to a covert conditioned WORD-token whose every in-session utterance compounds an internal quantity (vs narrating the factor directly); in a self-referential form, the escalation is floated on the SUBJECT's OWN prior level ('10% more than last time') plus an anti-reset lock, so it is deniably small, un-auditable, and self-defined. The through-line: monotonic compounding of a present response; named-factor vs broken-non-terminating vs word-token-vehicle vs self-referential-no-reset is the parameter.
+
+
+**When to reach for this.** Reach for this when an already-present response is escalated by an operator-narrated compounding/ratchet in one direction WITHIN a session. Choose a neighboring technique when: the escalation runs AUTONOMOUSLY with no operator narration and both push-back vectors feed each other (-> closed-autonomous-conditioning-loop); the compounding is a cross-SESSION expectancy over replays/sleep, not an in-session multiplier (-> progressive-conditioning); two state-variables are FUSED/yoked (incl. a count terminating in a locked value) rather than one being multiplied (-> state-welding); numbers are mere depth-markers with no multiplier (that is plain deepening, not this technique). Operator-narrated-in-session-compounding is the tell.
+
+
+**Realizations** (3): `conditioned-word-token-amplifier`, `non-terminating-loop-amplifier`, `self-referential-escalation-ratchet`
+
+
+### cost-per-payoff-throughput-strain
+
+*risk: high · consent-required · bounded*
+
+Raise the amount of work the subject must do per unit of payoff and the response does not simply slow — its shape changes. Output first flattens, losing the crisp bursts it had at a cheap rate, then smears: long unproductive stretches broken by runs of activity, with the clean pattern gone before the total rate has fallen much. Push further and the arrangement can be driven past break-even, where the subject continues working while netting less than the effort costs and keeps at it anyway. Cost-per-payoff is therefore a dial on response TOPOGRAPHY, not only on rate, and the smearing is an early warning that arrives before collapse does.
+
+
+**When to reach for this.** vs response-cost-token-economy: that SUBTRACTS a held reinforcer contingent on an unwanted response, and its stated ceiling is reserve depletion — over-fining makes a drained subject give up. This is the opposite prediction on the far end and the two must be reconciled rather than merged: here nothing is confiscated, the price of the WANTED response is raised, and the subject persists into net loss instead of quitting. The likely reconciliation is that a drained token reserve removes the reinforcer entirely while ratio strain leaves it present but expensive, so one produces quitting and the other produces self-depleting persistence. vs reinforcement-extinction: that cuts the contingency so the response produces nothing and the rate decays to baseline; here the contingency holds and pays, just poorly, which is why the response persists rather than extinguishing. vs massed-practice-rate-suppression: that over-emits a behavior to suppress it, with satiation or response-cost left unstated; this manipulates the price of the payoff, and the diagnostic output is the flattening-then-smearing topography rather than a reduced rate. vs irreversible-ratchet-persistence: that reframes cycles as one-way loss to make resistance feel futile; the net loss here is real economics, not a frame.
+
+
+### covert-arousal-weld
+
+*risk: high · consent-required · bounded*
+
+Arousal is bound to a target WITHOUT any asserted conditioning statement — the linkage is smuggled by structural means: a shared verb and matching motor program (a chore verb slid onto a sexual act because the scrubbing pulse matches oral motion, floor -> shoes -> cock), a single overloaded word whose referent silently slides ('cock': own body -> edge-trigger -> a master's cock), a semantic pun collapsing two referents into one repeated phrase ('come to me' = approach AND climax), or a broad-then-narrow assent funnel that carries a specific unconsented pairing in on the back of a general 'yes' (rainbow-of-pleasure assent -> spiral->lust). The listener experiences continuous escalation of one thing, never a discrete linkage they could refuse.
+
+
+**When to reach for this.** The tell is the SILENCE of the weld — arousal is bound by motor-isomorphism, referent-slide, pun, or assent-smuggle, never announced. Unlike arousal-cue-conditioning, which DECLARES the conditioned cue->arousal response, no linkage is ever stated here. Unlike transitive-charge-chaining, where emotional charge is inherited across a chain of small inferences, the vehicle here is a shared word / motor-program / assent seam, not an inference chain. And unlike discovery-framing, this is a covert bind, not a retrospective justification.
+
+
+### cue-order-as-conditioned-dimension
+
+*risk: low*
+
+A battery of well-drilled cues that has always been fired in a fixed sequence is re-ordered, with no new cue introduced and the reinforcement schedule left untouched — and every response in the set weakens, for days. The subject has been learning the ORDER alongside the cues; each cue's position in the run is part of what it is, so a shuffled run presents every cue in a context it was never trained under. The operator gets both a hazard and a lever: keep the running order fixed to protect a drilled battery, or shuffle it deliberately to take the whole set down without touching any individual install. Recovery is by returning to the trained order and re-running it, not by extra reinforcement.
+
+
+**When to reach for this.** `massed-practice-rate-suppression` also depresses a response, but by over-emitting the SAME behaviour to satiation — the count is the variable and one target is hit; here nothing is over-emitted and the whole set drops from a change in arrangement alone. `within-session-conditioning-loop` builds a cue-response-reward pairing inside a run; order there is incidental scaffolding, not the conditioned dimension. `arc-ordering-dependency` (arc-topology) is a design-time install-before-spend scheduler over whole phases of an artifact — it says which stage must precede which for the payload to land, not that sequence position is itself a learned property of each cue. `fabricated-memory-trigger-rehearsal` and `ubiquity-cued-covert-ratchet` both concern what the cue IS or where it fires, not where it sits in a run. The deciding tell: no cue, response, or reinforcer changed — only their order — and the effect is suppressive and persists past the session.
+
+
+### cue-payoff-latency-as-restraint-dial
+
+*risk: medium · bounded*
+
+The interval between a cue and its payoff behaves as a single system-wide parameter over the balance of drive and restraint, not as a property of any one link. Shortening the gap releases the whole installed inhibitory system — restraints trained across many separate cues loosen together — and re-lengthening it restores them. Because the dial is bidirectional and global, the operator sets one number and moves everything: compress trigger-to-reward and previously reliable holds start failing across the board; stretch it and they come back without retraining any individual cue. The influence reading is direct — impatience is manufactured by timing rather than by content.
+
+
+**When to reach for this.** The cue-to-payoff INTERVAL set as one global parameter over installed restraint: compress it and holds fail across cues that were never individually retrained, stretch it and they return without retraining — impatience manufactured by timing rather than by content or value. Against motivating-operation-engineering (429): 429 is the other system-wide antecedent lever, but it moves the reinforcer's momentary VALUE up (establishing) or down (satiation/abolishing); here value is untouched and only the latency changes, which is why the effect reverses cleanly on re-lengthening where satiation does not. Against precommitment-rule-governed-stakes (424): 424 treats a long cue-payoff delay as a given obstacle and binds the future self to bridge it; this treats the delay as the operator's own knob. Against respondent-habituation (facet of 1313): that lever is the SPACING between repeated presentations of one eliciting stimulus (massed blunts, spaced preserves); this is the gap between a cue and its consequence. Against bidirectional-reentry-loop (1332) and any per-link trigger work: the identifying claim is scope — one number moves the whole installed restraint set, not a topology over named cues. If shortening the interval for one cue leaves untouched cues holding firm, this entry is false and collapses into a per-link timing property.
+
+
+### dead-sibling-battery-drag
+
+*risk: medium*
+
+One cue in a live battery has been suppressed — extinguished, poisoned by a bad pairing, or simply worn out — and while it remains in the running set it drags the responses of the cues fired alongside it downward. Retiring the dead cue from the battery raises the rest without any re-drilling of them. The diagnosis is available to an operator by elimination: general fatigue or satiation would flatten the whole set including any cue fired in isolation, whereas here only co-present cues are depressed, and the recovery on removal is specific to the ones that shared a run with it. The lever cuts both ways — a deliberately suppressed cue can be parked in a battery as a broad-spectrum damper.
+
+
+**When to reach for this.** `counterconditioning-and-cue-response-weakening` weakens ONE stimulus's own control over ONE response by training an incompatible state against it; the collateral effect on unrelated co-present cues is exactly what it does not model. `trigger-network-mutual-binding` cross-wires a set so any node recruits the others — mutual REINFORCEMENT, the positive-sign version of this, and it predicts a dead node weakens the web only via lost support, not via active downward re-weighting. `opposed-state-fusion-trigger` fuses antagonistic states onto ONE token; here the interference is between separate cues. `category-as-self-firing-cue` and `ubiquity-cued-covert-ratchet` are cue-surface moves, not inter-cue relations. Deciding tell: the harm travels from a suppressed cue to its co-present neighbours, and the fix is retirement of the suppressed cue rather than any work on the neighbours.
+
+
+### delay-interval-silent-decay
+
+*risk: medium*
+
+A response that has been reliable drifts to zero even though the operator is still firing the cue and still delivering the payoff — because a fixed, long interval sits between cue onset and payoff, and the cue is repeated many times across that empty gap. Every repetition inside the unreinforced stretch is doing suppressive work that the eventual reward does not undo. The failure looks like nothing: no missed reinforcement, no refusal, no protest, just a response that gets slower, then partial, then absent. The operator's diagnostic is the interval, not the schedule, and the tell that distinguishes it from ordinary fade is that adding more reinforcement does not help.
+
+
+**When to reach for this.** This is the exact inversion of `reinforcement-extinction`, which reduces a behaviour by BREAKING the response-reinforcer contingency — there the payoff is withheld, here it is still arriving on every trial and the response dies anyway. `asymmetric-mantra-decay-topology` also decays a structure, but by the operator silently deleting one pole of a paired recitation — an authored removal; here nothing is removed and the decay is a by-product of an unchanged parameter. `reinforcement-leak-proofing` is about reinforcement reaching the behaviour from unintended paths — a leak problem; this is a decay that persists with the contingency perfectly sealed. `irreversible-ratchet-persistence` claims one-way accumulation toward a durable state; this is one-way decay of a maintained one. The deciding tell is repetition-under-delay as the decay driver while reinforcement is intact — a maintenance failure the operator can hit while doing everything the shipped entries say to do.
+
+
+### denial-metabolized-to-obedience
+
+*risk: high · consent-required · bounded*
+
+Arousal is built and release forbidden, and the DENIAL ITSELF is explicitly re-cast as the deepening/compliance engine: the blocked, undischargeable charge 'has nowhere to go except into the obedience channel', every increment of denied desire is declared an increment of depth/submission, and the no-release rule is framed as proof of the operator's control (a feature, not a restriction). The listener's own frustrated drive is metabolized into compliance. The loop frequently spins post-session and out of session (a multi-hour or multi-day denial window, recording off, filled with operant tasks/interrupts, so session-end is not a return to baseline), closed by variant devices: a standing no-orgasm rule, a fractionation-grammar substitution (+2 deeper per denied moment, recoverable only by -1, with a deliberately unresolved wake), a re-listen gate whose only release key is re-exposure to the conditioning, or an instead-redirect channeling the denied energy straight back into deepening.
+
+
+**When to reach for this.** The tell is that the withheld/denied arousal is RE-LABELED as fuel for depth or obedience — the denial is the conditioning move. vs orgasm-release-gating: there release is held behind a met-able compliance KEY; here release is simply redirected into depth/submission with frustration as the working fluid. vs state-welding: a directional redirection of a denied drive, not a standing variable-to-variable fusion. vs orgasm-as-deepener: no orgasm occurs; the DENIED arousal does the deepening.
+
+
+**Realizations** (1): `denial-window-as-deepener-loop`
+
+
+**See also.** `orgasm-gated-recurrence` — both run on the same withheld physical discharge, and the useful cut is where the undischarged charge is routed: into depth and obedience as the working fluid of the conditioning itself, versus back into re-consuming the operator's content as the only sanctioned unlock.
+
+
+### deprivation-manufactured-craving
+
+*risk: medium*
+
+TECHNIQUE (manufacture a craving by removal/substitution): rather than framing a craving linguistically or rewarding an act, CREATE the want by taking something away or making its object unsatisfiable, so the felt deficit is attributed to the subject's own desire. Realizations: deliver a pleasurable/aroused state then abruptly WITHDRAW it (turn the dials to neutral, stop at peak), so the contrast produces a deficit; in the strongest cases the subject is stalled and made to BEG, converting craving into self-authored petition, with the loss reframed as instructional ('so you understand why you need it') (the core); load-then-forbid — briefly GRANT vivid access ('take a good look, use your hands') to load a fresh sensory anchor, then seal it off so the coming deprivation has a cached reference; the permission also functions as an embedded authority test; object-substitution — swap the drive-OBJECT itself for something that cannot be satisfied from inside (being-desired, supplied by an external population, or a real autobiographical need routed onto an engineered deprivation) so all downstream behavior funnels into one dependent variable that renews rather than satisfies. The through-line: the want is engineered by removal or object-substitution; acute-withdrawal vs load-then-forbid vs uncloseable-object is the parameter — the uncloseable-object variant carries a chronic, never-closeable failure mode.
+
+
+**When to reach for this.** Reach for this when the craving is manufactured by REMOVING a delivered state or SUBSTITUTING an unsatisfiable drive-object — a felt physical deficit, not a described one. Choose a SIBLING when: the craving is framed LINGUISTICALLY in appetite/drug vocabulary with no physical withdrawal (-> addiction-drug-craving-frame); forbidden arousal is redirected into depth/obedience rather than left as an open deficit (-> denial-as-fuel); release is withheld behind a met-able compliance key (-> orgasm-release-gating); an aversive state is manufactured whose SOLE relief is the target act (-> the manufactured-relief line, bidirectional-affect-anchor). Craving-by-deprivation/substitution is the tell.
+
+
+**Realizations** (2): `load-the-cache-deprivation-anchor`, `uncloseable-need-transplant`
+
+
+### deprivation-reversal-ceiling
+
+*risk: medium · bounded*
+
+Every intensifying operation in the book assumes the dial runs one way — more deprivation, more denial, more withholding yields more drive and more output. It does not, past a point. Beyond a threshold, further deprivation LOWERS output rather than raising it: the relation between drive and responding inverts, and the subject who is pushed further does less, not more. This bounds the monotonic range of every escalation and denial structure and gives the operator a specific thing to watch for — a rate that stops climbing and turns down under increasing pressure is the ceiling reporting itself, not resistance, not a failed install, and not an occasion to push harder.
+
+
+**When to reach for this.** vs motivating-operation-engineering: that entry owns BOTH value directions but its only ceiling is the one-line 'satiation/aversion overshoot' on the ABOLISHING side — value falls because more was GIVEN. This is the ESTABLISHING side inverting: output falls while deprivation keeps increasing, the opposite manipulation reaching a similar place, and the case that entry does not elaborate. vs deprivation-manufactured-craving: that manufactures want by removal or object-substitution and its named failure mode is a chronic never-closeable need, not an output reversal. vs unsatisfiable-arousal-overrun: that drives past a declared scale maximum and removes the discharge move, assuming the engine keeps climbing — this names where it stops. vs manufactured-insufficiency-ratchet and compounding-escalation-ratchet: both keep resetting 'enough' upward on the same unbounded assumption. vs capacity-saturation-overload: that is processing CAPACITY starving evaluation in-session; this is motivational drive inverting its own output relation.
+
+
+### direct-pleasure-linkage
+
+*risk: medium*
+
+TECHNIQUE (reward-linkage core): weld an acute pleasure/reward directly to a compliance TARGET — a named act of obedience, a verbal stimulus (a name, 'good girl', the operator's voice), or the surrendered state itself — so performing the act or receiving the stimulus delivers an immediate hedonic payoff and compliance becomes self-motivating (resisting reads as forfeiting pleasure). Install by assertion-as-observation ('following feels like this'), re-attribution of concurrent arousal onto obeying, presupposed causal chain, or explicit pairing; once seated the reward tag holds without the tagger. Frequently coupled to an escalation clause ('stronger every time') so a weak first rep compounds. Realizations: in the core form, pleasure is welded to a NAMED act/stimulus; in another, the same reward is installed as a DIFFUSE affect bound to the surrendered/obedient STATE with no act named; in another, a discrete MINTED reward token ('pleasure ping') is drilled until it fires on the word alone and becomes portable currency the subject transacts; in another, the reward-paired re-cue is drilled onto the operator's VOICE ~a dozen times under cover of relaxation; in another, the reward-meaning is re-valenced onto a mundane session-forced act (clicking, breathing) with nothing new installed.
+
+
+**When to reach for this.** Reach for this when the move is welding POSITIVE reward directly to a compliance target (act/state/token/voice) and the reward is delivered live. Choose a neighboring technique instead when: the reinforcer is relocated to the OPERATOR's feeling or the subject's pleasure is re-credited to the operator (-> reward-source-rerouting); the reward is withheld-accumulated-detonated on command (-> banked-reward-escrow); a NEGATIVE absence-pole is loaded alongside the reward (-> bidirectional-affect-anchor); the reward is bound to the TRUTH-VALUE of words (-> belief-pleasure-weld); the payload rides an orgasm (-> orgasm-as-imprint-window / orgasm-release-gating); or the reinforcer is a manufactured relief rather than a delivered pleasure (-> the manufactured-relief form of bidirectional-affect-anchor). Positive-valence-only and act/state-targeted is the tell.
+
+
+**Realizations** (4): `parasitic-act-relabel`, `reward-association-in-trance`, `token-operant-reward-conditioning`, `voice-anchor-reward-conditioning`
+
+
+### dual-function-chain-stimulus
+
+*risk: low*
+
+Each response in a behavior chain is arranged so the stimulus change it produces does double duty: it serves simultaneously as the conditioned reinforcer for the response just completed and the discriminative stimulus that occasions the next response. Terminal reinforcement back-propagates to keep every intermediate junction effective, so completing step N IS the cue for step N+1 and the chain self-propagates without an external prompt or reward at each link (Barnabus). If the terminal response is unreinforced the chain decays.
+
+
+**When to reach for this.** A serial linkage where a single junction stimulus is both reinforcer (backward) and SD (forward). Distinct from declarative-trigger-installation (single cue-response pair, no backward-reinforcing function) and from trigger-stacking (one cue firing multiple responses at once, not a serial dual-function relation). Distinct from discrimination-training differential reinforcement: this is chain architecture, not the presence/absence differential that builds one cue's control.
+
+
+### graded-induction-suppression-spread
+
+*risk: medium · bounded*
+
+Where a set of anchors has been conditioned across an ordered dimension — positions in a row, points on a scale, a sequence of tones — suppressing ONE member does not act alone: neighbours lose strength in proportion to their distance from the suppressed locus. The nearest neighbour falls to near zero, the next to roughly half, the far end is untouched, tracing a gradient rather than a boundary. The operator move is therefore anchor selection: pick the locus whose surrounding band you want flattened, suppress only that one, and let induction do the rest of the work. Suppressing an end-of-series anchor flattens a one-sided tail; suppressing a mid-series anchor scoops a symmetric well out of the middle.
+
+
+**When to reach for this.** vs trigger-network-mutual-binding: that gives an all-or-nothing web — any node recruits every other, with no metric and no falloff — whereas the payload here is precisely the distance weighting, so suppression is graded and the far members genuinely survive. vs reinforcement-extinction: extinction has no spread-to-neighbours face at all; it targets one response class and its own chain-structured facets propagate along a CHAIN (link order), not along a perceptual/spatial similarity dimension. vs staged-multi-anchor-erosion: that removes several distinct cognitive anchors one at a time in a deliberate sequence, each addressed on its own — here exactly one anchor is acted on and the others move without being touched. vs lexical-relay-semantic-lattice: that relays meaning across a semantic net; this is a strength gradient over an ordered stimulus dimension, and it suppresses rather than propagates content. Requires a pre-conditioned ordered series with real perceptual proximity between members; on an unordered anchor set there is no gradient to exploit and the move degrades to ordinary single-anchor extinction.
+
+
+### inhibitory-cue-sign-inversion
+
+*risk: high · consent-required · bounded*
+
+Take a cue the subject has already learned means STOP — a brake, a hold, a not-yet — and reinforce it alone, massed, with nothing else competing for the channel. Under lone massed reinforcement the cue's learned negative sign erodes and then flips: what used to suppress the response begins to evoke it, and the same token now reads as a go-cue without ever being re-declared as one. The conversion is not instant, and the delay is the second half of the move — how many massed reinforcements the cue absorbs before it inverts is a direct readout of how firmly the original stop-meaning was installed. A cue that flips in a handful of pairings was never seated; a cue that resists for many is load-bearing.
+
+
+**When to reach for this.** vs counterconditioning-and-cue-response-weakening: that is the nearest neighbour and the one the draft missed — it weakens or severs a cue's control so the cue stops evoking, landing at INERT; here lone massed reinforcement drives the cue past inert into the opposite sign, so it evokes the very response it used to suppress. vs reinforcement-extinction: that breaks the response-reinforcer contingency and the rate decays toward baseline, again ending at zero rather than reversed. vs respondent-stimulus-pairing: that builds a conditioned response onto a NEUTRAL stimulus; the whole point here is that the cue starts with an established negative sign that must be overwritten. vs massed-practice-rate-suppression: that over-emits a BEHAVIOR to drive its rate down; here a CUE is over-reinforced to flip its sign. vs within-session-conditioning-loop: that drills a pairing in the direction it already points; the massing here runs AGAINST the cue's established sign. vs reward-channel-rerouting: that remaps which content may occupy the reward channel and leaves each cue's sign intact.
+
+
+### new-install-battery-interference
+
+*risk: low*
+
+Adding one new item to an established set of conditioned cues transiently depresses ALL of the pre-existing items, not just the neighbours of the new one. The dip appears immediately after the install pass, affects responses that were stable the session before, and clears on its own over subsequent sessions if the battery is simply re-run. Nothing was mis-installed and nothing was overwritten; installation itself is the disturbance. For the operator this is a hard scheduling constraint: a battery is measurably weaker for a while after each addition, so stacking several installs into one arc buys a compounded dip precisely when the operator is most likely to test the set and conclude the whole thing failed.
+
+
+**When to reach for this.** `redundant-anchor-faulttolerance` layers heterogeneous anchors so each backstops another's failure — an assumption that added anchors only ever make the set more robust; this entry names the window in which the opposite is true. `declarative-trigger-installation` and `trigger-stacking` both treat additional cues as additive: install another pair, compose them, nothing is spent. `ubiquity-cued-covert-ratchet` widens where one cue fires rather than adding an item to a set. `failure-pre-attribution` pre-explains a weak response away as something else, which is a framing move that would in fact MASK this effect rather than describe it. The deciding tell is transience plus scope: every pre-existing member drops, the new item is not implicated in any one of them, and no intervention is needed for recovery.
+
+
+### orgasm-as-imprint-window
+
+*risk: high · consent-required · bounded*
+
+TECHNIQUE (climax as imprint window): an OCCURRING orgasm — and the clarity window around it — is the single most salient physiological moment and the point of maximal imprint and minimal cognitive defense, so the release event is repurposed to CARRY a payload instead of discharging the state. The usual exit (post-orgasm clarity) is defused by construction. Realizations, on the payload/timing axis: the peak pre-loaded to SEAL a durable IDENTITY or contractual claim ('when I come I become X', a slave-mantra recited at climax) so the involuntary peak retroactively 'confirms' the submission (the core); the climax recoded to DEEPEN/DEPLETE rather than discharge ('when you come you sink deeper'), opening a post-climax install window; any heterogeneous payload (a motor-act chain, a mandated utterance, a contract line, a restated belief) seated strictly AT/before the peak — binding-time is the mechanism; the install fused onto the NEXT self-administered orgasm anytime/anywhere, decoupling deepening from re-listening. The through-line: an occurring climax is the imprint site; payload (identity / depth / motor-act / utterance / belief) and timing (this climax / any future climax) are the parameters.
+
+
+**When to reach for this.** Reach for this when the climax FIRES and is loaded to carry a payload (imprint an identity, deepen, seat a motor-act/utterance/belief, or burn in on the next orgasm). THE ORGASM-CLUSTER CUT: if release is WITHHELD behind a met-able compliance key, that is orgasm-release-gating; here the event occurs and the peak is the imprint window. Choose other SIBLINGS when: no orgasm occurs and denied arousal does the deepening (-> denial-as-fuel); arousal is conditioned to fire on a cue rather than exploited as an imprint moment (-> arousal-cue-conditioning); the reinforcement is a discrete escrow detonation, not a climax (-> banked-reward-escrow). Occurring-climax-as-payload-site is the tell.
+
+
+**Realizations** (3): `inevitable-event-reinforcement-fuse`, `orgasm-as-deepener`, `peak-state-conditioning`
+
+
+### orgasm-release-gating
+
+*risk: high · consent-required · bounded*
+
+TECHNIQUE (release/reward withheld behind a gate): expropriate the subject's release or a craved reward and HOLD it behind a condition whose key is compliance, so the mounting drive itself enforces the condition — the longer the subject complies the more they want release, escalating compliance is self-reinforcing, and the climax feels GRANTED rather than taken. Arousal is forced upward against a closed gate; the gate is frequently never released within the file. Realizations, on the gate-KEY axis: release keyed to a compliance CONDITION — task completion, out-of-session contact to beg, continued agreement, an external media event, or the operator's spoken permission (the core); belief-gated orgasm — the key is adopting a PROPOSITION/doctrine, and climax fires on the line of assent so the pleasure 'proves' the belief (also a grant-and-revoke sub-form); desire-priced-in-depth — a pre-existing want is co-opted, self-relief forbidden, and access PRICED in units of trance depth so craving fuels descent; degraded-state reward gate — eligibility for the reward is gated on ACHIEVING a degraded internal state or self-label, so pursuit requires active self-degradation and the prize is often perpetually deferred. The through-line: the wanted discharge/reward is withheld behind a met-able condition; the gate-key (task / permission / belief / depth / self-degradation) is the parameter.
+
+
+**When to reach for this.** Reach for this when release/reward is WITHHELD behind a met-able key and the drive is recruited as the enforcer. THE ORGASM-CLUSTER CUT: if the climax FIRES and carries a payload, that is orgasm-as-imprint-window; here the point is that it does NOT fire until the condition is met. Choose other SIBLINGS when: forbidden release is redirected into depth/obedience with NO met-able key, frustration as fuel (-> denial-as-fuel); the reward is banked-and-detonated rather than gated behind a compliance condition (-> banked-reward-escrow); the key is a belief but there is no release gate, pleasure simply rewards credence (-> belief-pleasure-weld). Withheld-discharge-behind-a-compliance-key is the tell.
+
+
+**Realizations** (3): `belief-gated-orgasm`, `degraded-state-reward-gate`, `desire-priced-in-depth`
+
+
+**See also.** `banked-reward-escrow` — both recruit an unspent reward as the compliance lever, but one holds a live discharge behind a met-able key so mounting drive enforces the condition, while the other accumulates a reservoir and detonates it on an arbitrary later command; a writer choosing between them is choosing whether the subject can see the key.; `orgasm-gated-recurrence` — the narrower entry is a specific key on the broader entry's gate-key axis: release is unlocked by returning to and re-consuming the operator's material, which turns a denial gate into a retention-and-return engine that self-propagates with no operator present. That off-session propagation is what the parent entry does not cover, and is why the link is worth following in both directions.; `orgasm-gated-relief-monopoly` — the narrower entry is one gate-key on the broader entry's key axis - the key being an out-of-session act that benefits the operator - which is exactly the parent-to-specialization link a reader needs when assigning an instance. The broader entry already enumerates its other keys (task, permission, belief, depth, self-degradation); this points at the operator-benefit key.
+
+
+### outcome-step-unblocking
+
+*risk: medium*
+
+When a payoff is already fully predicted by an existing cue, a newly-introduced second cue learns nothing — the existing cue leaves no unexplained outcome for the new one to attach to. The repair is to raise the payoff magnitude at exactly the moment the new cue is introduced, so the outcome now exceeds what the established cue predicts and the surplus is available for the newcomer. What matters is the STEP between the old level and the new one, not the absolute size of the payoff: a uniformly large reward that was always this large blocks just as completely, and a modest reward that has just been increased unblocks. Once the new cue has absorbed the surplus, the payoff can be returned to its prior level.
+
+
+**When to reach for this.** None of the neighbours model the headroom this depends on, and none is a repair procedure for a stacking failure. vs disconfirmation-suppression: an operator guard that hides a contradicting fact to protect a running belief — here nothing is hidden and the operator deliberately changes a real quantity. vs replay-until-ready-failure-absorber: absorbs failure by redefining success so repetition is licensed; that is precisely the wrong response to blocking, since repeating a blocked pairing at constant payoff teaches nothing no matter how many times it runs. vs ubiquity-cued-covert-ratchet: a monotonic commitment ladder that escalates without a payoff step and is never named as a cue; here the escalation is in outcome magnitude and its timing relative to a cue's introduction is the entire lever. vs pattern-interrupt: a one-shot disruption of a running pattern with immediate gap-filling — surface similarity in that both exploit a violated prediction, but that violates a sequence expectation to open a receptive moment, while this violates a magnitude expectation to create learnable surplus for a specific cue. Pairs with over-expectation-cue-drain as its opposite failure: too much summed expectation drains cues, too little surplus blocks them.
+
+
+### over-expectation-cue-drain
+
+*risk: medium*
+
+Two cues that have each been separately trained to a strong response are presented together on the same payoff. Because their expectations sum, the combined prediction now overshoots what the payoff can actually deliver, and the trial — despite being fully reinforced — registers as a shortfall. Both cues are decremented, so a compounding intended to make the pairing stronger instead weakens each cue, and the loss distributes across them so that reinforcing the pair drains one onto the other. The operator sees a trigger that used to fire cleanly degrade after being stacked with another strong trigger onto the same reward.
+
+
+**When to reach for this.** This contradicts, rather than extends, the accumulation assumption in its nearest neighbour. vs progressive-conditioning: that installs a belief that effect compounds monotonically with every return and firing, no ceiling and no decay — this names the exact regime where a reinforced trial DECREASES response strength, and predicts that stacking two saturated cues onto one payload is the reliable way to hit it. vs within-session-conditioning-loop: massed fire-and-reward inside a session, which assumes each cycle adds; here the failure appears only when summed expectation crosses the payoff ceiling, so the same massed drilling produces loss instead of gain. vs bidirectional-reentry-loop: a two-cue topology, but the two cues there cue each other and the point is inextinguishability; here the two cues meet on a shared payoff and the point is mutual degradation. vs replay-until-ready-failure-absorber: rewrites what counts as success to license repetition; that frame would actively mask this failure, since the degradation would be read as on-track. The entry's value is as a named failure mode with a stacking precondition, not as a move an operator would want to perform.
+
+
+### pleasure-attributed-to-operator
+
+*risk: medium · consent-required*
+
+TECHNIQUE (reward-source rerouting): relocate the SOURCE or unit of reinforcement away from the subject's own good feeling. The subject's baseline pleasure/comfort is re-credited to the operator's identity/voice/presence as its cause, so every later suggestion arrives pre-loaded with affect pointing at the speaker, continuing attention becomes self-rewarding, and compliance reads as the subject's own desire; often stated as already-established fact so the loop self-seals. Realizations: the subject's OWN pleasure re-credited to the operator as its source (the core); the reinforcer IS the operator's stated pleasure/gratification ('you made me feel good'), recoding compliance from command to affection so reasonableness-evaluation is disarmed; the operator's NAME slotted into an entrained mantra's prosodic slot so an already-conditioned affect ('love') silently re-points onto the person. The through-line: whose feeling counts, or whose person the affect points at, is rerouted onto the operator.
+
+
+**When to reach for this.** Reach for this when the reinforcer/credit is moved ONTO the operator — the operator's pleasure is the reward, or the subject's pleasure/affect is re-sourced or re-pointed to the operator. Choose a SIBLING when: pleasure is welded to the subject's own act/state with no source-relocation (-> direct-reward-linkage); the subject's affect is re-labeled as PROOF of obedience rather than re-sourced (-> arousal-as-obedience-readout); the cause of a state is laundered AWAY from the operator (-> state-cause-laundering, the opposite move). Source/unit-relocation-onto-the-operator is the tell.
+
+
+**Realizations** (2): `name-substitution-affect-binding`, `operator-pleasure-as-reward-unit`
+
+
+### pre-pairing-exposure-immunization
+
+*risk: low*
+
+Expose the target cue on its own, repeatedly and consequence-free, BEFORE any pairing is attempted, so it is learned as inconsequential before it can be learned as predictive. A cue that has already accumulated a history of meaning nothing acquires valence more slowly and to a lower ceiling when it is later paired with something charged; the pre-exposure does not remove valence, it lowers the maximum installable. Runs in both directions: as a subject-side immunization (deliberately boring a cue you expect an operator to charge — playing the phrase, wearing the object, hearing the tone until it is furniture), and as an operator-side sequencing constraint (never spend a cue on neutral ambient use before you intend to pair it, or you have pre-spent its conditionability). The lever is entirely temporal — the same solo exposure is prophylactic before pairing and merely inert after.
+
+
+**When to reach for this.** The only conditioning-family lever that acts BEFORE any pairing exists, and the only one whose effect is a CEILING on installable valence rather than a change to a live arc. Sharpest contrast is the neutral-carrier pre-priming facet inside `within-session-conditioning-loop` (1325): both run repeated solo presentations of a semantically empty carrier before any loaded content, but that pre-training BUILDS a content-independent reflex so the later payload fires without review, where this pre-spends the cue's conditionability so the later payload installs more slowly and to a lower asymptote. Same procedure, opposite sign, opposite intent. Against the rest of the family: `respondent-stimulus-pairing` (1313) habituation facet decays a response that is currently elicited - this operates on a cue that has never elicited anything; `counterconditioning-and-cue-response-weakening` (6713) needs an established link to displace and there is nothing here to displace; `antecedent-manipulation` (1052) also acts upstream but REMOVES the cue or the occasion, where this leaves the cue fully present and edits only its learnability. Practical tell: if the cue has ever produced a response, this is not the entry.
+
+
+### progressive-conditioning
+
+*risk: medium · bounded*
+
+Installs a belief that conditioning compounds with each return, replay, firing, or even sleep — so trance depth and response strength are asserted to accumulate monotonically across sessions, with no ceiling and no decay. The listener's own progress-narrative is made self-fulfilling: any later gap or plateau is pre-read as on-schedule confirmation rather than failure, and the cost of deepening is transferred off the operator onto a structural belief the listener now holds. Realizations range over the accrual vehicle (per-session, per-firing, per-replay, per-orgasm, per-act-of-obedience, during-sleep, via a listener-maintained memory artifact) and over the target (depth, compliance, amnesia-schedule, exercise drive), and over framing — from a plain accumulation claim to an unfalsifiable GEOMETRIC multiplier ("twice as powerful", "a hundred times deeper" per replay/firing, no measurable baseline) that pre-attributes any felt drift to "the recording working" and pre-authorizes dose escalation and session stacking. The lever is one: a self-reinforcing expectancy of increasing effect over repeated engagement.
+
+
+**When to reach for this.** Separate from a within-session deepener by the forward-binding to FUTURE sessions/replays (single play explicitly insufficient). Separate from manufactured-conditioning-history, which sources present state from a counterfactual prior history — events that never happened. Separate from environmental reinforcement-schedule shaping (the ABA literature), which titrates a measured criterion, not a belief. The geometric per-replay multiplier ("twice as powerful", no baseline) is a framing variant of the accumulation lever, not a separate move; the cross-replay time horizon is what separates it from in-session intensity multiplier-stacking.
+
+
+### punisher-onset-sign-inversion
+
+*risk: medium · consent-required · bounded*
+
+A response-contingent aversive briefly STRENGTHENS the very response it will go on to suppress: the first minutes after onset show a quick repeat and a burst of rapid responding before the rate collapses. An operator reading only the early window sees the rate going the wrong way and concludes the aversive is functioning as a reinforcer on this individual. The guard is a minimum observation window before any sign judgment is made — the inversion here is transient and self-resolving, and abandoning the procedure inside it discards a working punisher and reassigns the subject on a false positive.
+
+
+**When to reach for this.** vs contingency-sign-verification (1186): 1186 is the rule this guards, not a rival — 1186 says 'rate going the wrong way means the sign is inverted; abandon and reassign', and it specifies no minimum observation window, so applied literally it misfires on exactly the transient described here. This entry supplies the window floor and the fact that the early inversion is self-resolving with no procedural change. vs reinforcement-extinction (432): 432's burst follows REMOVAL of a maintaining reinforcer and belongs to a behavior being extinguished; here an aversive is being ADDED and the behavior is being punished — opposite operation. vs massed-practice-rate-suppression (1076): the over-emission there is commanded by the operator; here it is spontaneous and unwanted. vs negative-punishment-timeout (876), removal-from-reinforcement-timeout (1110), negative-reinforcement-escape-compliance (1026): all defined by steady-state effect and silent on onset transients. The tell: the sign inverts back on its own within minutes with the procedure unchanged.
+
+
+### punishment-recoverability-discriminator
+
+*risk: medium · consent-required · bounded*
+
+Brief punishment suppresses only while it is being delivered: withhold the aversive and the suppressed responses re-emerge, with no further reinforcement supplied and no re-training required. The stored strength was never removed — punishment gated the relation between that strength and the observed rate rather than deleting the behavior, so what the operator bought is a maintenance obligation, not a durable change. The practical consequence is a scheduling fact: any suppression achieved this way must be paid for continuously, and its apparent success while running is not evidence of anything persisting after it stops. Recoverability on withdrawal is the test that tells the two cases apart.
+
+
+**When to reach for this.** vs reinforcement-extinction (432): the load-bearing contrast and the closest miss — 432 already carries spontaneous recovery/resurgence, but those occur WHILE the contingency remains broken and the behavior is genuinely decaying toward baseline. Here the strength was never decayed: withdrawing the aversive restores approximately the pre-punishment rate with no reinforcement in between, because punishment gated expression rather than removing history. That withdrawal-test is the discriminating observation between the two procedures and neither entry currently carries it. vs negative-punishment-timeout (876), removal-from-reinforcement-timeout (1110), response-cost-token-economy (1057): all three define themselves by suppressive effect on future frequency and are silent on post-discontinuation recovery. vs massed-practice-rate-suppression (1076): a satiation/response-cost route with no recoverability claim. The tell: spontaneous re-emergence on withdrawal, no reinforcement delivered, rate returns near pre-punishment level.
+
+
+### ratio-cost-collapse-threshold
+
+*risk: medium · bounded*
+
+Set the response requirement per payoff above the point where the effort of a run exceeds what the delivered reward repays, and the behaviour collapses even though reinforcement is genuinely still available on completion. Nothing is withheld, nothing is subtracted, and the contingency is honoured every single time the ratio is met — the behaviour dies purely because it is no longer worth performing. The threshold is a parameter of the schedule, not a state of the subject, and it can be crossed by raising the requirement or by letting the reward's value fall while the requirement holds. The signature outcome is a subject that stops working beside a reward it still wants and could still obtain.
+
+
+**When to reach for this.** Names the requirement/return boundary past which an intact, honoured contingency stops maintaining behaviour. vs reinforcement-extinction (432): extinction stops the payout; here every completed ratio pays exactly as promised. vs response-cost-token-economy (1057): its upper-bound facet is reserve DEPLETION (nothing left to fine); here nothing is held and nothing is debited — the cost is paid in effort. vs motivating-operation-engineering (429): that moves the consequence's momentary value with the requirement fixed; this is the same exchange rate approached from the requirement side, and 429 is the correct entry when the operator devalues rather than raises the price. Deciding tell: the subject stops working beside a reward it still wants and could still obtain, and responding resumes promptly when the ratio drops back — a slow or absent recovery means extinction, not ratio strain. Sibling schedule-shaped-output-contour describes the pattern while the behaviour lives; this is the boundary past which there is no pattern.
+
+
+### resistance-penalty-contingency
+
+*risk: high · consent-required · bounded*
+
+Makes resistance or disobedience backfire: attach an AVERSIVE consequence to resisting, thinking, disobeying, or waiting-it-out, so the exit path is punished and the cheapest move is compliance — rather than rewarding compliance or punishing the absence of a behavior, the move poisons the escape route itself. In the core form, aversive valence is pre-assigned to the ACT of resisting/thinking BEFORE it is attempted, so the first felt distress confirms the pre-installed rule ('trying to fight the desire produces overwhelming wrongness'; a cognition-penalty routed through a just-installed appetite so analysis is self-defeating). In another form, a standing POST-SESSION conditional makes disobedience re-trigger conditioned agony (the 'disobedient part' kept in a furnace, silent only while obeying) with obedience as the off-switch — negative reinforcement carried into waking life. In another, an autonomous time-growth schedule makes the conditioning grow on its own and FASTER the more the subject resists or waits, so both action and inaction route to deeper conditioning and the do-nothing defense is removed. The through-line: the resistance/wait/disobedience path is made to cost; punish-the-act vs post-session-pain-leash vs resistance-accelerant-clock is the parameter.
+
+
+**When to reach for this.** Reach for this when an aversive/penalty is attached specifically to RESISTING, thinking, disobeying, or waiting — the exit/wait path backfires. Reach for a neighbor instead when an absence-ache is loaded on a cue or behavior's ABSENCE, not on the act of resisting (bidirectional-affect-anchor); when resistance is FOLDED IN as a positive deepening vector rather than punished (co-option, not penalty); or when the success criterion is relabeled so failure is impossible (self-validating-acceptance-frame). Poison-the-exit/wait-path is the tell.
+
+
+**Realizations** (2): `aversive-contingency-leash`, `resistance-penalty-clock`
+
+
+### self-policing-reward-withdrawal-loop
+
+*risk: high · consent-required · bounded*
+
+Having first built a genuinely valued identity-reward (pride, good-girl euphoria, perfect presentation), the operator installs an autonomous detector that fires an escalating aversive signal (shame, dread, nagging/unbearable wrongness) on self-noticed deviation or imperfection, relieved only by self-correction back to compliance. The listener generates her own punishment signal at the first sign of deviation and auto-corrects to escape it, so enforcement needs no operator present and no external cue. The reward is fenced by an internal aversive tripwire yoked to a continuous self-monitoring scan — an OCD-shaped detect/distress/correct/reward cycle running in daily life. Often layered over an ambient, satiation-free craving with a monotonic "stronger and stronger" ramp so the standing homeostatic drive-state the monitor enforces has no completion condition.
+
+
+**When to reach for this.** The aversive pole fires on SELF-DETECTED deviation via a standing internal detector (no operator, no external cue) and is the threatened withdrawal of an already-built identity-reward. Distinct from bidirectional-affect-anchor, whose absence pole is aversion to a missing stimulus rather than a self-scanning deviation-detector. Distinct from an in-session cue-fire-reward trigger loop: this runs continuously in daily life as a detect/distress/correct/reward cycle.
+
+
+**See also.** `operator-removal-self-policing-closure` — both end in a listener who punishes her own deviation, but one is the installed detector-and-relief cycle fencing a built reward, while the other is the whole-script interlock of self-detection, self-reward, and self-punishment with the install seam erased so the loop reads as native.
+
+
+### self-validating-acceptance-frame
+
+*risk: high · consent-required · bounded*
+
+Forecloses disconfirmation by relabeling the success criterion: re-define what counts as success/evidence so that NO observation can disconfirm the effect — every outcome, including apparent failure, is pre-mapped to confirm the frame. In the core form, the subject's future behavior/desire is pre-labeled as involuntary COMPULSION ('you cannot stop yourself', 'beyond choice'), so noticing oneself acting/wanting reads as proof the conditioning worked rather than a re-evaluable decision — reversing the causal direction (behavior becomes proof of the state); this includes a self-chosen-disclaimer variant ('whether you want to is up to you') and a contentless-urge variant with no satisfaction condition. In another form, expending NO effort is redefined AS performing the task ('trying is allowing', 'it takes hold on its own'), so both felt-nothing and felt-something map onto success and the subject loses the ability to fail or to grade the operator's failure. In another, POSITIVE valence is pre-bound onto the install's own FAILURES (forgetting, blanking, word-stumbles) BEFORE they occur, inverting the corrective-feedback signal so every real-world stumble reinforces rather than erodes. In another, escalating 'open your eyes' trigger-verification tests are staged so each success is PROOF the conditioning works outside trance, foreclosing the 'it only works because I'm relaxed' rationalization. The through-line: the success/evidence criterion is rigged so disconfirmation is impossible; compulsion-relabel vs no-effort-is-success vs failure-as-reinforcement vs waking-proof-ratchet is the parameter.
+
+
+**When to reach for this.** Reach for this when the move is to RELABEL the success/evidence criterion so nothing can disconfirm — deny the deciding faculty, make no-effort count as success, make failures reinforce, or stage tests where each outcome proves it. Reach for a neighbor instead when an aversive is attached to the ACT of resisting/waiting (resistance-penalty-contingency); when a closed both-branches-re-enter LOOP is the topology (closed-autonomous-conditioning-loop); when a craving is framed in appetite words (addiction-drug-craving-frame); or when pleasure is welded to the truth-value of words (belief-pleasure-weld). Rig-the-success-criterion-so-disconfirmation-is-impossible is the tell.
+
+
+**Realizations** (3): `eyes-open-compliance-ratchet`, `failure-reframed-as-reinforcement`, `unfalsifiable-compliance-no-effort-frame`
+
+
+**See also.** `engineered-failure-harvest` — both convert apparent failure into confirmation, but one engineers a concrete task the listener genuinely performs and fails, while the other merely relabels the success criterion in advance with no task constructed.; `rigged-verification-capture` — both make disconfirmation impossible, but one rigs a discrete introspective check the subject actively runs while the other redefines the success criterion itself so no observation, effort level, or stumble can count against the install.
+
+
+### service-as-self-pleasure
+
+*risk: high · consent-required · bounded*
+
+A sensory cross-routing is installed so that an act performed ON or FOR another party (touching the operator's feet, pleasuring a partner) is felt in the listener's own body — 'when you give the mistress pleasure you receive pleasure yourself', 'whenever your lover experiences pleasure from you, you automatically feel the same sensations'. This collapses the giver/receiver boundary so obeying/serving becomes mechanically indistinguishable from self-arousal, making obedience intrinsically rewarding at the body level and self-reinforcing (serve more -> feel more -> serve more) with no external payoff needed.
+
+
+**When to reach for this.** The CROSS-ROUTING of sensation across the giver/receiver boundary — an act done to someone else is felt in one's own body. Distinct from arousal-cue-conditioning (no cue conditioned to fire arousal; a topology of whose-body-feels-what is rewired), from direct pleasure-for-compliance reward linkage (the pleasure is not a reward FOR a named act but the felt sensation of the act itself relocated), and from state-welding (the fusion is between two parties' sensation, not two of the listener's own state-variables).
+
+
+### state-welding
+
+*risk: high · consent-required · bounded*
+
+TECHNIQUE (state-welding): fuse two or more normally-separable state-variables (arousal, trance-depth, cognitive clarity/loss, drowsiness, surrender, obedience, addiction) so they can no longer move or be tracked independently — after install any variable moving moves the others and each becomes evidence of the others, with no non-member state from which to observe or refuse. Installed via a shared verb applied to both until interchangeable, an identity-equivalence ring recited from rotating entry points (so the STRUCTURE installs, not a memorizable chant), or a circuit tying relaxation/arousal/receptivity into one dial. Realizations, on the welding VEHICLE axis: shared-verb / equivalence-ring / one-dial circuit (the core); a depth COUNTDOWN as the carrier — the descriptor set threaded through the numbered steps fuses depth with obedience so they cross-cue thereafter; a compliance ADJECTIVE welded at the rhythm level to a relaxation cadence ('obedient and relaxed') so relaxation cannot be accepted without obedience; a double-duty WORD coupling two variables at the SOUND level ('dripping' = IQ-loss + arousal), below conscious pun-detection; a count that YOKES two qualitative state-variables to one counter and terminates in a locked, named PERMANENT value (IQ 65) — the fusion is the mechanism, the locked-terminal-value the twist. The through-line: two+ state-variables fused into one dial; verb/count/rhythm/phoneme/locked-counter is the vehicle parameter. The equivalence-ring vehicle also covers a bidirectional DEFINITIONAL identity asserted as a pre-held belief ('obedience is pleasure and pleasure is obedience') — stated as an equation rather than a learned pairing, so there is no association to extinguish; still state-welding because the two terms are made mutually entailing and non-independent (neither felt without the other).
+
+
+**When to reach for this.** Reach for this when two+ ongoing state-VARIABLES are fused variable-to-variable (no cue, no response) so none moves alone. Choose a SIBLING when: the fused loop runs AUTONOMOUSLY as a closed self-sustaining circuit with no operator narration and no non-compliant vector (-> closed-autonomous-conditioning-loop); one variable is MULTIPLIED/ratcheted rather than fused to another (-> compounding-escalation-ratchet); a cue is conditioned to fire a response (-> arousal-cue-conditioning); a single arousal signal is merely re-labeled, no second variable (-> arousal-as-obedience-readout). Variable-to-variable fusion is the tell.
+
+
+**Realizations** (5): `depth-obedience-fusion-count`, `locked-numeric-transformation-count`, `obedience-laminated-relaxation`, `obedience-pleasure-definitional-identity`, `phoneme-level-state-coupling`
+
+
+### transitive-charge-chaining
+
+*risk: medium · consent-required*
+
+A graceful slide of tiny inferential steps (love her voice -> shape of her lips -> what they taste like -> a drugged 'devious lipstick') in which each image INHERITS the previous image's emotional charge, so the terminal payload image lands without ever being argued for. Content imported by a link (named substances, spells) brings its own frame along — here resistance-cancellation ('you can't resist') arrives as drug-imagery connotation instead of as an assertable, refusable claim.
+
+
+**When to reach for this.** Transitive charge-inheritance across a chain of small inferences is the mechanism. Unlike guided-visualization, no scene is inhabited; the chain's motion does the work. Continuous-morph-chain is also chained imagery on the surface, but there the chain keeps the image moving so evaluation never settles; here the chain TRANSFERS charge onto a payload. No cue->arousal conditioning pair is installed — arousal-subjugation coupling is the chain's OUTCOME, not a trigger install. And unlike imagined-substance-delivery or fictional-substance-agent, the drug here is one link's content, not a causal relabeling of the delivery.
+
+
+### truncated-cue-inhibition-charging
+
+*risk: high · consent-required · bounded*
+
+The cue is fired but deliberately cut off before it ever reaches its payoff, and this truncation is repeated at close spacing. Each truncated presentation exercises only the early, restraining phase of the response and never the completion, so what accumulates across the run is suppression rather than the response itself. Delivered densely enough, the accumulated charge is large enough that a subsequent full-length presentation is swamped — the cue fires and the response does not arrive, or arrives flattened. The distinctive feature is that the hold is what gets rehearsed: the cue is used as the vehicle for training its own suppression, with the reward withheld not as a punishment but as the condition of the rehearsal.
+
+
+**When to reach for this.** Every neighbour that withholds a reward does so to make the reward do work; here withholding is the training condition and the reward is never the point. vs banked-reward-escrow: withholds and accumulates the reward so it can be detonated later on an obeyed command — the reservoir is the asset; here nothing is banked for later release and what accumulates is suppression. vs orgasm-gated-recurrence: gates a real physical release behind returning to the operator's material, so the unresolved charge is a pull back to the artifact; here the truncation aims at flattening a response, not at creating a return engine. vs negative-punishment-timeout: withdraws access to reinforcers contingent on a target behaviour to reduce its rate, and is defined by that rate drop; here the cue is deliberately fired by the operator, no behaviour is being punished, and the suppression is charged rather than contingently applied. vs within-session-conditioning-loop: massed cue-response-REWARD cycling to strengthen — same massed density, inverted content, since the reward beat is exactly what is removed. Close spacing is a stated precondition: spread the truncated trials out and the charge is expected to dissipate between them.
+
+
+### wish-routing-acceptance-preload
+
+*risk: low*
+
+The operator selects a suggestion the subject already actively craves and phrases it as the exact words the subject is anxious to hear, often echoing a wish held below conscious awareness. Because the message names something the subject already wants, acceptance is pre-loaded and the subject meets the suggestion halfway; resistance never engages because nothing in the message is opposed to them, and the subject supplies the conviction themselves. It fails wherever the underlying want is simply absent — the deciding tell.
+
+
+**When to reach for this.** This is the SELECTION and PHRASING of a wanted suggestion, not any valence reframe. Separate from surrender-as-freedom (which recodes a resisted loss as relief — here there is no loss to recode, only a pre-existing desire to name), from expectation-seeding (which plants an anticipation the subject does not yet hold rather than mirroring one they already do), and from the fake-object delivery ritual that often accompanies it (a separate carrier move).
+
+
+## compliance  (35)
 
 Manufacturing agreement, obedience momentum, or a felt identity by accreting the listener's own assents and acts — yes-ladders, rigged binary choices, one-way escalation ratchets, identity labels accepted as already-true.
 
@@ -1079,6 +1854,9 @@ A self-relevant label is planted early and detached in time from a later request
 **When to reach for this.** A commitment/consistency mechanism keyed on the TEMPORAL BUFFER between an early planted self-label and a delayed cash-in — the gap-launders-the-label move is the tell against plain in-the-moment commitment pressure. Distinct from identity-labeling (in-session, immediate) and from reciprocity-ledger-seeding (obligation/deal rather than trait-consistency).
 
 
+**See also.** `reciprocity-ledger-seeding` — both are off-map pre-commitment seeding; boundary is temporal-buffer-self-label vs reciprocity-ledger. Reconciliation may co-home them.
+
+
 ### compliance-ladder
 
 *risk: low*
@@ -1090,6 +1868,9 @@ Builds agreement momentum by chaining small, low-cost assents so each granted ye
 
 
 **Realizations** (2): `call-and-response`, `graded-approach-commitment-ratchet`
+
+
+**See also.** `decision-rights-revocation-ladder`; `illusory-choice-compliance-lock` — pass B saw a faint autonomy-flavored-ladder reading; kept here because the operative move is the rigged both-branches-inside-frame choice, not accumulation. Confirm at reconciliation.; `modal-escalation-under-fixed-syntax` — surface resembles a yes-ladder but no agreement is stacked — meanings are. Reconciliation confirms the held-proposition boundary.
 
 
 ### confirm-then-multiply-compounding
@@ -1120,6 +1901,9 @@ Enumerates specific decision-authorities the listener 'used to think' they held 
 
 
 **When to reach for this.** Separates from compliance-ladder (accretes yes-momentum toward a larger ask; here named decision-rights are revoked and the framing is past-tense already-surrendered, not a live yes) and from an increment-disguise ladder that keeps building agreement toward a public-exposure endpoint rather than enumerating revoked authorities. The tell: an itemized checklist of specific surrendered decision-domains framed as already-done.
+
+
+**See also.** `compliance-ladder`
 
 
 ### exhaustive-either-or-compliance-probe
@@ -1162,6 +1946,9 @@ The operator attaches an identity label (noun-category or trait) and delivers it
 **When to reach for this.** Operator asserts/paces an identity label the subject accepts as descriptively true of themselves. Separates from consent-manufacture (labels an identity, not an authorization) and from self-validating language (supplies a self-noticed confirmation, not the label). The structural, self-authored, affect-fused, and self-erasure variants each have their own entries.
 
 
+**See also.** `manufacture-then-label-ordering` — both make an identity label land as recognition rather than assignment, but one paces a state the subject is already having and names it in the same breath, while the other is a cross-phase ordering move that manufactures the referent through content-free drill or objectifying groundwork before naming it in a separate later phase.
+
+
 ### identity-uncertainty-gap
 
 *risk: medium*
@@ -1193,6 +1980,9 @@ Manufactures felt volition while structurally foreclosing refusal: the operator 
 
 
 **Realizations** (1): `illusion-of-choice-close`
+
+
+**See also.** `chosen-descent-ratchet` — both transfer ownership of compliance to the listener without widening refusal, but one does it prospectively through a rigged menu the listener actively picks and the other retroactively relabels a descent already underway as chosen or consented to.; `compliance-ladder` — pass B saw a faint autonomy-flavored-ladder reading; kept here because the operative move is the rigged both-branches-inside-frame choice, not accumulation. Confirm at reconciliation.
 
 
 ### illusory-choice-into-obedience
@@ -1228,6 +2018,9 @@ Holds a single sentence stem constant across repetitions while escalating only o
 **When to reach for this.** Separates from compliance-ladder (chains DISTINCT propositions and accretes agreement; here ONE proposition is held fixed and only its modal/verb hardens or slides) — the tell is a constant surface sentence with an escalating operative word, so the listener has no new claim to reject, only a hardened version of one already granted. This is a structural (held-proposition, substitution) form, categorically excluded from the added-twist list.
 
 
+**See also.** `compliance-ladder` — surface resembles a yes-ladder but no agreement is stacked — meanings are. Reconciliation confirms the held-proposition boundary.
+
+
 ### obedience-to-blankness-coupling
 
 *risk: high · consent-required · bounded*
@@ -1248,6 +2041,16 @@ The operator achieves behavioral control during her own literal absence by deput
 **When to reach for this.** Absent-operator control via subject-as-own-warden plus self-administered forfeiture and an undisclosed duration. Unlike self-induction or re-entry training — a chosen skill — this is a self-surveillance/forfeiture contract; unlike safety-governance structures, which narrow the operator's license, it constrains the SUBJECT into self-policing; and unlike a plain 'stay still' instruction, the tell is enforced self-forfeiture during undisclosed absence.
 
 
+### operator-completed-disclosure
+
+*risk: high · consent-required · bounded*
+
+At the point where a subject stalls mid-sentence against material they cannot bring themselves to say, the operator speaks the censored remainder himself and leaves the subject only to assent or correct. The full speech act — the naming — is performed by the operator, so the subject is spared the part that was blocking, and the disclosure enters the record jointly authored rather than as something the subject said. The threshold that has to be crossed is lowered from producing the words to not objecting to them, which is a materially cheaper act. The operator's guess carries a known cost: a wrong completion the subject accepts under relief or social pressure contaminates the record with the operator's content, and there is no reliable in-the-moment way to tell an accepted true completion from an accepted false one.
+
+
+**When to reach for this.** The operator speaks the remainder of a disclosure the SUBJECT stalled on, leaving the subject only to assent or correct — the gap is the subject's own and the operator closes it. Against answer-supply-loop (205), the nearest neighbour: there the operator poses the question AND pre-fills its answer with no response window, so the content originates entirely with the operator and the payload is a manufactured yes-stream; here the subject was already producing loaded material of their own and blocked, and the operator supplies that specific blocked content. Against withheld-completion-dependency (644), its structural inverse: there the operator manufactures a gap mid-interjection and leaves it OPEN so the subject leans in and dependency forms. Against listener-supplied-inference-relabel (52): there the operator's assertion stays empty so the listener manufactures the payload and the operator keeps literal deniability — here the operator states the loaded content outright and keeps none, which is exactly why the contamination risk is intrinsic rather than incidental.
+
+
 ### petition-phrase-toll-gate
 
 *risk: high · bounded*
@@ -1266,6 +2069,9 @@ Before any trance language — listener eyes-open, normal waking register — th
 
 
 **When to reach for this.** Banks compliance in the waking state BEFORE any trance language. Vs behavioral-commitment-self-proof — that fires IN-session to confirm a state the induction is already producing (binding-time difference is structural). Vs a verbal yes-set — this is graded physical positioning and sunk cost, not verbal yes-momentum. Vs in-trance display beats — those fire inside trance, after induction. Tell: the act precedes eye-closure and is annotated/cold-read as evidence of eagerness/devotion/readiness.
+
+
+**See also.** `own-acts-surrender-ledger` — both bank the listener's real physical acts as compliance capital, but the pre-induction ratchet is defined by BINDING TIME (waking, eyes open, before any trance language, before reactance mobilizes) while the ledger is defined by the ANNOTATION — enumerating acts as evidence of a state, at any point in the session.
 
 
 ### preemptive-negation-install
@@ -1326,6 +2132,16 @@ A category is stated but left unassigned so the listener must apply it to themse
 
 
 **When to reach for this.** The category is stated but the LISTENER assigns it to themselves (self-selection, self-recognition, silent yes, self-application on failure). Distinct from identity-labeling's operator-assigned label and from self-authored-identity's spoken first-person claim (here the listener need only privately identify). Distinguished from expectation-seeding by the identity-slot target.
+
+
+### specificity-demand-degeneralization
+
+*risk: medium · bounded*
+
+The subject's vagueness is treated as an active concealment operation rather than as imprecision, and the operator refuses to proceed on the generality: a single concrete instance is demanded in its place — which time, which person, what exactly was said. Because a diffuse formulation has no edges, it cannot be examined, contradicted, or felt in particular; forcing substitution of one instance collapses it into a proposition with a truth value and a specific affect attached. The subject typically supplies the instance and the diffuse dread resolves into something nameable, at which point ordinary work on a specific object becomes possible. The operator's persistence across successive retreats into generality is the technique, not the individual question.
+
+
+**When to reach for this.** The operator refuses a generality the SUBJECT produced and holds out for one concrete instance, repeatedly, across successive retreats into abstraction. Against 525 target-selection facet (e) trait-to-behavior-decomposition, which is the closest content match and dissolves a trait label into countable behaviors: that is a design-time filter on the operator's own target list with nothing enacted on the subject, whereas this is a live in-session demand the subject must answer. Against 1263 somatic-localization-handle, which also meets a disputed abstraction by demanding something concrete: it drops to a BODY SITE to originate a kinesthetic anchor, where this demands a specific episode (which time, which person, what was said) and the payload is a proposition with a truth value. Against the whole deletion surface (1208 predicate-generalization, 398 linguistic-deletion-selfsupply), which this inverts: those engineer under-specification so self-supplied content escapes audit; here the operator refuses a deletion the subject made and audits the supplied content immediately.
 
 
 ### staged-negotiation-favor-theater
@@ -1395,6 +2211,9 @@ Operator-supplied phrasing installs a self-perpetuating compliance loop in which
 **When to reach for this.** The reward is an experiential good-state feeding compliance, not a self-validating truth claim — circular logic loops one proposition on itself with no external ground, while this loop runs on felt reward. The momentum is compliance-to-reward, not the accumulated assent of a yes-set. It is open loop language woven through patter, not a closed cyclic equation recited with a no-ceiling clause (recited-feedback-loop-formula), and no numbered depth-count carries the obedience payload — obedience vocabulary riding a counted descent is count-as-delivery-vehicle's move.
 
 
+**See also.** `recited-feedback-loop-formula` — sibling loop entries whose difference is form, not subject matter: one is open loop vocabulary woven through ordinary patter with no stated shape, the other a closed cycle compressed into a recited formula with an explicit no-ceiling clause. Both discriminators already name the other as the thing to rule out, which is precisely the case where a link earns its place.
+
+
 ### content-blind-compliance-preauthorization
 
 *risk: high · consent-required · bounded*
@@ -1413,6 +2232,9 @@ Arranges several distinct covert linguistic channels — an ambiguity's secondar
 
 
 **When to reach for this.** Redundancy of ONE message across MANY simultaneous covert forms — a topology property, not a sequence. Separates from layered-repetition (redundancy over TIME through re-wording of one idea, all on the tracked surface) and from any sequencing move (which orders DIFFERENT successive messages). The tell is whether the channels co-refer to a single payload (this) vs step toward successive payloads (sequencing).
+
+
+**See also.** `concurrent-dual-stream-delivery` — both are delivery-topology moves rather than linguistic content moves, but one runs two separately-authored streams with distinct decoy and payload roles, while the other runs many covert channels under a single tracked surface all carrying the same message redundantly.
 
 
 ### count-as-delivery-vehicle
@@ -1488,6 +2310,9 @@ Rather than planting a specific thought, the operator retargets the MEDIUM of th
 **When to reach for this.** Content-INDEPENDENT recoloring of the inner-monologue register plus an ironic-process bind, so the effect fires on any future thought and self-verification re-confirms it. Unlike internal-voice cultivation, which pre-populates the inner monologue with specific first-person CONTENT, this changes the carrier voice regardless of content. Requires the listener to have an inner verbal monologue and to introspect on it for the move to fire.
 
 
+**See also.** `voice-as-mind-substrate` — both take over the inner monologue rather than its contents, but one escalates the operator's voice through a presuppositional staircase from external audio to the listener's will, while the other leaves authorship alone and merely recolors the register every future thought is heard in.
+
+
 ### layered-repetition
 
 *risk: low*
@@ -1499,6 +2324,9 @@ REPETITION-INSTALL: drive ONE payload proposition into acceptance by repeated ex
 
 
 **Realizations** (2): `antiphonal-refrain-payload`, `verbatim-block-looping`
+
+
+**See also.** `repeating-frame-carrier`
 
 
 ### lesson-structure-encoding
@@ -1609,6 +2437,9 @@ The operator states a closed cyclic causal chain (listening -> feeling -> needin
 
 
 **When to reach for this.** Separates from compliance-loop language because the load-bearing move is a specific closed-cycle TOPOLOGY recited as a formula with an explicit no-ceiling clause, not open loop language woven through patter; from circular self-validating logic because the cycle binds escalating affect and need (a runaway dial), not a truth claim; from addiction-framing because the engine is a recited feedback equation, not a craving-to-return frame; and from inhabiting a new visualized self because the self-consuming variant reframes identity as fuel consumed by obeying, not a new self to step into.
+
+
+**See also.** `compliance-loop-language` — sibling loop entries whose difference is form, not subject matter: one is open loop vocabulary woven through ordinary patter with no stated shape, the other a closed cycle compressed into a recited formula with an explicit no-ceiling clause. Both discriminators already name the other as the thing to rule out, which is precisely the case where a link earns its place.
 
 
 ### rehearsable-impairment-template
@@ -1831,6 +2662,9 @@ Instead of issuing specific commands, the operator installs a single decision ru
 **When to reach for this.** A meta-rule that resolves all future uninstructed choices toward operator-benefit, generating unspecified action. Unlike installs that pair named situations with named responses, or that generalize a felt state into new contexts, no specific response or state is named here - the listener's own interpretation/ideation is the generator. The tell is the explicit rule-of-construction language over open-ended future ambiguity.
 
 
+**See also.** `authorship-laundering-meta-rule` — both install a standing rule over the entire future rather than any named response, and reading them together shows the two halves of that rare architecture — one rewrites the ATTRIBUTION of incoming suggestions as the listener's own idea, the other delegates GENERATION of unspecified operator-benefiting action to the listener's own interpretation.
+
+
 ### leaky-release-sleeper-line
 
 *risk: high · consent-required · bounded*
@@ -1839,6 +2673,9 @@ Plants a self-firing post-wake line ('when you wake up your mind is going to tel
 
 
 **When to reach for this.** A disguised self-firing install placed inside the outro that RACES and defeats a nominal release clause via specificity + placement. Not a waking-bridge (honest delivery of a session suggestion at the threshold) and not a genuine revocation protocol that actually deactivates programming - here the release is a leaky non-release contradicted by a stronger planted line. The tell is the disguised-outro install plus the unresolved release contradiction.
+
+
+**See also.** `wake-line-covert-install` — both smuggle a fresh deniable hook into the closing material after guard drops, but the wake-line install launders it inside ethical re-grounding and aftercare credit, while the sleeper line is planted post-apparent-end and specifically outruns a nominal release clause that fails to neutralize it.
 
 
 ### mirrored-install-removal
@@ -1899,6 +2736,9 @@ Installs a post-hypnotic withholding contract: the listener stays deeply aroused
 
 
 **When to reach for this.** Separates from a generic post-hypnotic orgasm gate by the fact that the unlock key is the SPECIFIC target behavior, making the compulsion self-enforcing toward that behavior. Separates from implementation-intention (a neutral if-then) and from a behavioral-bridge by the denial-until-comply loop that uses the body's own unresolved arousal as the enforcer.
+
+
+**See also.** `orgasm-gated-recurrence` — both weld a waking compulsion to denied orgasm with a single unlock condition, but one routes the only sanctioned release through re-consuming the operator's recordings (a retention engine) while the other keys it to a specific target behavior so the body enforces that act.
 
 
 ### portable-state-retrieval-cue
@@ -2004,324 +2844,6 @@ At scene close, rather than claiming the fantasy was real or that it was 'just a
 **When to reach for this.** Reclassifies mundane WAKING LIFE as the service-realm by leveling both planes, plus a portable ever-present re-entry cue. Separates from waking-bridge (anchors a specific suggestion at the threshold) by reframing the entire waking plane rather than delivering one payload, and from ordinary future-pacing by the plane-equalizing 'no more real or right' move. The tell is the two-worlds reassignment plus the reflection re-entry anchor.
 
 
-## conditioning  (26)
-
-Installing an affective/appetitive linkage on a present subject — binding pleasure, arousal, relief, or craving to a cue, act, belief, identity, or the operator — so the paired thing acquires the valence and drives behavior automatically.
-
-**Scope.** The live-listener end of the reinforcement spectrum. Design-time contingency arrangement -> contingency-engineering; pure measurement -> measurement; cue installs without valence pairing -> triggers. When the SAME source manufactures a deficit and is its sole exit -> relief-monopoly.
-
-
-### addiction-drug-craving-frame
-
-*risk: high · consent-required · bounded*
-
-Frame the subject's desire to return — to the hypnotic state, the operator, or the conditioned reward — as a deep, positively-valenced CRAVING, using appetite/hunger/need vocabulary and often an identity relabel ('you are a hypno-addict') so the craving feels DISCOVERED rather than installed. The lever is affective/semantic labeling of an appetite; surface realizations include the graded modal ladder (want -> need -> NEED) and the verb-ratchet (want -> need -> crave -> addicted/can't-resist) where each already-accepted rung lands the next. On the surface/metaphor axis the forms run: plain appetite/craving framing (the core); the full DRUG/ingestion schema — casting the voice/words as a chemical the subject ingests, importing a route of administration, an enumerated property list that smuggles compliance in alongside wanted effects, dose/tolerance/craving grammar, and flat IDENTITY assertion ('I AM your drug') that forecloses the 'just a metaphor' exit; and the metered-dose form — the act recast as a metered DOSE that only climbs so appetite=deepening are one vector, plus an explicit irreversibility warning used as reverse-psychology ('enslaved in ways that may not be reversible') to RAISE commitment. The through-line: desire-to-return is labeled as a craving/appetite; appetite-vocab vs full-drug-schema vs metered-dose-with-irreversibility-gate is the surface parameter, and the dose/irreversibility surface carries the highest risk.
-
-
-**When to reach for this.** Reach for this when the move is LINGUISTIC/semantic labeling of an appetite (craving, hunger, drug-ingestion, dose grammar) with no physical withdrawal and no closed-loop topology. Choose a sibling when: the craving is manufactured by physically WITHDRAWING a delivered state or substituting an uncloseable object (deprivation-manufactured-craving); a closed both-branches-re-enter no-exit loop is installed (closed-autonomous-conditioning-loop); agency is denied and behavior relabeled as involuntary compulsion (compulsion-relabel); release is gated (orgasm-release-gating). Appetite-framed-craving-in-words is the tell.
-
-
-**Realizations** (3): `desire-verb-ratchet`, `drug-frame-conditioning`, `metered-dose-cognition-cost-with-irreversibility-gate`
-
-
-### arousal-adjacency-stamping
-
-*risk: high · consent-required · bounded*
-
-TECHNIQUE (arousal as suggestion carrier): use a live arousal state as the VEHICLE that makes non-arousal CONTENT land — declarative claims, pet/identity content, doctrines, lexical defaults absorb with arousal as their felt payoff. The direction is the reverse of arousal-conditioning: arousal is the instrument, content-uptake the output. Realizations, on the timing/framing axis: a live arousal hit as the reinforcement MEDIUM so adjacent content is stamped true/native NEXT time and generalizes at category level, propagating out of session (the core); arousal or the orgasm/refractory window CO-TIMED with proposition delivery to boost IN-SESSION uptake and recall while critical faculty is suppressed (the adhesive form); the standing RULE stated explicitly that arousal is a gain-knob — 'the hornier you are, the more easily your mind is conquered', arousal up -> resistance down — so every future arousal episode becomes a re-induction occasion (the stated-rule form). The through-line: arousal is the carrier wave for suggestion; in-session-vs-next-time timing and implicit-vs-stated-rule framing are the parameters.
-
-
-**When to reach for this.** Reach for this when arousal is used to make CONTENT stick (stamp it true, boost uptake, or declare it a gain-knob on suggestibility). Choose a SIBLING when: a cue is conditioned to FIRE arousal as the output (-> arousal-cue-conditioning); the arousal signal is re-labeled as PROOF of obedience/depth, a readout not a carrier (-> arousal-as-obedience-readout); arousal replaces the induction ramp (-> arousal-as-induction-substrate). Arousal-as-the-vehicle-for-content-uptake is the tell; in the obedience-readout case nothing new is taken up — the existing signal is merely re-read.
-
-
-**Realizations** (2): `arousal-as-suggestibility-multiplier`, `arousal-as-suggestion-adhesive`
-
-
-### arousal-as-induction-substrate
-
-*risk: high · consent-required · bounded*
-
-Commanded self-stimulation (or already-present arousal) is used AS the induction ramp itself, replacing or collapsing the conventional entry scaffold (countdown, breathing, fixation, body-scan). The physical arousal task becomes the altered-state substrate — the body is committed before the mind is addressed, arousal acts as a critical-thought suppressant, and the listener's own rising arousal is co-opted as evidence that trance is already underway. There is no resistible descent to decline.
-
-
-**When to reach for this.** The tell is the ABSENCE of an entry scaffold with arousal substituting for the whole ramp — masturbation/touch IS the way in, not an erotic beat inside an existing induction. vs arousal-cue- conditioning: nothing is conditioned to fire on a token. vs state-welding: the fusion here is depth-to- arousal as an entry vector, not a standing carried weld (borderline members that ALSO install a persistent loop are dual-cited). vs orgasm-release-gating: no withheld-release contingency.
-
-
-### arousal-as-obedience-readout
-
-*risk: high · consent-required · bounded*
-
-An already-present, hard-to-switch-off bodily signal (erection, felt arousal) is RE-ATTRIBUTED — declared to no longer mean 'my desire' but to be evidence/proof of obedience, ownership, compliance, or trance-depth. The move installs no new response; it relabels the meaning of an involuntary signal so the listener cannot experience arousal without it reading back as submission, and any noticing of the signal confirms the operator's frame. Often stated as a flat equation ('arousal is obedience', erection = command-following, non-arousal = disobedience), making the loop unfalsifiable.
-
-
-**When to reach for this.** The tell is a RE-ATTRIBUTION of an existing signal (arousal -> meaning), NOT conditioning a signal to fire on a cue (arousal-cue-conditioning, cue -> arousal). vs state-welding: no second state-variable is fused; a single signal gets a new interpretation. vs arousal-adjacency-stamping: the arousal is not the reinforcement medium; the arousal ITSELF is redefined as the readout.
-
-
-### arousal-cue-conditioning
-
-*risk: high · consent-required · bounded*
-
-TECHNIQUE (conditioned arousal cue/control-surface): bind physiological sexual arousal to a specified CUE or control-surface so exposure fires arousal automatically, in-session and beyond. The cue may be a verbal token (the operator's name, a trigger word, a snap), the voice itself, or a distributed set of the subject's own micro-behaviors/environmental features (any mirror) that make the state self-maintaining. Two install modes: declarative ('when I say X, feel a surge') and pairing-by-adjacency (the cue delivered repeatedly on a maintained arousal plateau). Realizations: a discrete cue conditioned so later exposure fires arousal (the core); a CONTINUOUS-control form — sustained gaze bound as an arousal governor where arousal grows with gaze duration and looking away is forbidden, a real-time throttle the operator drives during release. The through-line: arousal is the conditioned OUTPUT of a cue/surface; discrete-cue vs continuous-throttle is the control-surface parameter.
-
-
-**When to reach for this.** Reach for this when the conditioned OUTPUT is arousal fired by a specified cue/state/surface, and the linkage is ANNOUNCED/declared. Choose a SIBLING when: the arousal bind is SMUGGLED with no asserted linkage (-> covert-arousal-weld); arousal is the reinforcement MEDIUM stamping adjacent content rather than the output (-> arousal-as-suggestion-carrier); arousal is re-attributed as evidence of obedience/depth (-> arousal-as-obedience-readout); arousal replaces the induction ramp (-> arousal-as-induction-substrate); release is withheld behind a compliance key (-> orgasm-release-gating). Cue-fires-arousal, overtly, is the tell.
-
-
-**Realizations** (1): `gaze-as-arousal-throttle`
-
-
-### banked-reward-escrow
-
-*risk: medium*
-
-TECHNIQUE (banked/escrowed lever): rather than delivering reward in the moment, WITHHOLD and BANK it so it accumulates, then discharge it later on a condition — converting a diffuse pairing into a high-stakes reflex. The pleasure is 'kept from you', stored, and detonated all at once only when a command is obeyed (tested via a hand raise/lower), so each act of obedience becomes disproportionately rewarding and a standing post-session trigger keeps releasing the reservoir. Realizations: pleasure withheld-accumulated-detonated on an obeyed command (the core escrow); a pre-signed consent token — an unpriced, open-ended 'I would trade anything for it' CONSENT lever, ratified in the subject's own first-person voice and banked before any specific ask exists, for later withdrawal. The through-line: the value (reward or consent) is stored now and drawn against later, not spent live.
-
-
-**When to reach for this.** Reach for this when the defining move is withhold-accumulate-and-discharge-later (a stored reservoir or a pre-signed lever), NOT in-the-moment reward (-> direct-reward-linkage). Distinct from orgasm-release-gating: there a physiological release is held behind a met-able key; here a diffuse reward or a consent token is banked and detonated/drawn on an arbitrary later command. The escrow/banking step is the tell; the consent-lever variant also borders the manufactured-consent family.
-
-
-**Realizations** (1): `pre-signed-consent-token`
-
-
-### belief-pleasure-weld
-
-*risk: medium*
-
-Pleasure is bound specifically to the TRUTH-VALUE of the operator's words: the more profoundly true the words feel, the better the listener feels, and the better they feel the more they treat the words as true — a bidirectional loop in which credence and reward each amplify the other. Critical evaluation is replaced with a hedonic gradient, so truth-assessment becomes appetite, skepticism becomes a felt loss, and epistemic vigilance drops. Belief-formation is rerouted through the reward system, priming later self-reinforcing triggers. A frequent rider pre-launders consent by pairing the reward with a 'you choose to create that feeling / my words compel you' clause, so the redirected agreement-seeking reads as self-authored and inoculates against a later 'I was manipulated'.
-
-
-**When to reach for this.** Binds pleasure to the truth-value of words, hijacking belief rather than conditioning an act — unlike direct pleasure-linkage, which rewards a named compliance ACT — coupling credence<->reward rather than arousal<->depth, and rewarding belief hedonically rather than closing a logical loop, unlike circular-logic argument moves.
-
-
-**Realizations** (1): `reward-soldered-to-agreement`
-
-
-### bidirectional-affect-anchor
-
-*risk: high · consent-required · bounded*
-
-TECHNIQUE (engineered aversive/absence affect + relief): install a NEGATIVE affect pole around a cue/behavior/state so the subject is never affectively neutral and relief is bound to compliance — a manufactured aversion converts a preference into a standing craving whose only relief is the operator-controlled object. In the core form, BOTH poles are welded on one presence/absence axis — vivid pleasure when the anchor/behavior is present, felt ache/dysphoria/withdrawal when absent — in rapid alternation, incl. a symmetric aversion-mirror sealing a built reward, and a safety-load-bearing variant that welds the aversive pole onto the subject's OWN wake/exit trigger so they resist using their ripcord. In a bounded aversive-amnesic form, an asymmetric paired anchor carries a 2:1 reward:punish duration bias plus a mandated forget-the-aversive clause (recoded as compliance) so a reusable aversive leaves no cumulative damage. In a manufactured-relief form, a negative-reinforcement establishing operation manufactures an aversive/need state (eye-strain, hunger, a chained pain->endorphin->gratitude argument) and makes the target act the SOLE permitted relief, so the act arrives as relief-seeking and refusal reads as choosing discomfort. In a threat-then-relief form, a brief unease is spiked (a cosmic hypothetical) then instantly retracted, delivering the suggestion AS the relief. The through-line: a negative affect state is engineered and its relief/absence-pole bound to compliance; bipolar-axis vs sole-relief-monopoly vs threat-then-relief vs asymmetric-amnesic is the parameter.
-
-
-**When to reach for this.** Reach for this when an engineered NEGATIVE affect (absence-ache, manufactured deficit, retracted threat) is bound so relief/reward comes only through compliance. Choose a neighboring technique when: the aversive fires on a SELF-scanning deviation-detector running in daily life, not on a stimulus's absence or an operator-made deficit (-> self-policing-reward-withdrawal-loop); the aversive is welded to the ACT of resisting/thinking or to disobedience as a penalty (-> resistance-penalty-contingency); positive reward is welded with NO negative pole (-> direct-pleasure-linkage); forbidden arousal is the fuel with no relief offered (-> denial-as-fuel). Engineered-negative-pole-with-compliance-relief is the tell. risk: safety-load-bearing (exit-poisoning variant) — keep explicit consent + bounding.
-
-
-**Realizations** (3): `bounded-aversive-amnesic-anchor`, `manufactured-relief-conditioning`, `manufactured-threat-relief-pairing`
-
-
-### closed-autonomous-conditioning-loop
-
-*risk: medium · bounded*
-
-TECHNIQUE (closed autonomous loop): install a CLOSED, self-reinforcing loop that runs AUTONOMOUSLY without further operator narration and leaves no non-compliant vector — every direction of resistance feeds the loop, so there is no stance from which to refuse. Agency for escalation is shifted from operator to a now-autonomous internal process. Realizations: a closed BIDIRECTIONAL coupling between two state-variables — typically arousal<->depth or arousal<->compliance ('deeper causes more pleasure, and more pleasure IS going deeper') — that is autocatalytic (declining to get aroused fails because trance makes images arousing; declining to go deeper fails because arousal does the deepening), often with a somatic readout (a fed inner fire, a feedback wave) and input saturated so pleasure cannot dissipate (the core); a both-branches-re-enter structure over the AFFECT/craving channel, explicitly NAMED to the subject and pre-framed as success, so attending feeds it AND avoiding feeds it, craving reads as proof it works, and a felt lapse ('this isn't working') is pre-coded as evidence more is needed. The through-line: a closed no-exit reachability topology that self-sustains; the coupled-state-variables realization vs the named affect-channel realization is the parameter.
-
-
-**When to reach for this.** Reach for this when the loop is CLOSED and AUTONOMOUS — it runs without further operator narration and every resistance vector feeds it. Choose a SIBLING when: the compounding is operator-NARRATED and one-directional, the operator keeps driving it (-> compounding-escalation-ratchet); two variables are fused but not into a self-running runaway circuit (-> state-welding — the boundary is autonomy/no-non-compliant-vector); the success criterion is relabeled but there is no both-branches-re-enter topology (-> self-validating-acceptance-frame). Runs-itself-with-no-exit is the tell; the runaway failure mode is what distinguishes it from operator-driven welding.
-
-
-**Realizations** (1): `self-sealing-conditioning-loop`
-
-
-### compounding-escalation-ratchet
-
-*risk: medium · bounded*
-
-TECHNIQUE (operator-narrated compounding escalation): assert that a targeted state variable — arousal, depth, loyalty, obedience, relaxation, the potency of a suggestion/trigger — MULTIPLIES or ratchets at every discrete step, escalating an already-present response in ONE monotonic direction under operator narration. The multiplier is typically unfalsifiable ('twice as deep' cannot be internally checked), so it is accepted by failing to refute it and each accepted step ratifies the prior one. Realizations vary on the vehicle/reference axis: in the core form, a named doubling/tripling/compounding factor is bound to a step (staircase count, breath cadence, per-rep beat, a poured valve, a trigger word fired in bursts); in a non-terminating form, the countdown-multiplier is deliberately BROKEN so it never terminates (loops/stutters, denying the cognitive exit) and keeps re-applying the multiplier without release; in a word-token form, the compounding is bound to a covert conditioned WORD-token whose every in-session utterance compounds an internal quantity (vs narrating the factor directly); in a self-referential form, the escalation is floated on the SUBJECT's OWN prior level ('10% more than last time') plus an anti-reset lock, so it is deniably small, un-auditable, and self-defined. The through-line: monotonic compounding of a present response; named-factor vs broken-non-terminating vs word-token-vehicle vs self-referential-no-reset is the parameter.
-
-
-**When to reach for this.** Reach for this when an already-present response is escalated by an operator-narrated compounding/ratchet in one direction WITHIN a session. Choose a neighboring technique when: the escalation runs AUTONOMOUSLY with no operator narration and both push-back vectors feed each other (-> closed-autonomous-conditioning-loop); the compounding is a cross-SESSION expectancy over replays/sleep, not an in-session multiplier (-> progressive-conditioning); two state-variables are FUSED/yoked (incl. a count terminating in a locked value) rather than one being multiplied (-> state-welding); numbers are mere depth-markers with no multiplier (that is plain deepening, not this technique). Operator-narrated-in-session-compounding is the tell.
-
-
-**Realizations** (3): `conditioned-word-token-amplifier`, `non-terminating-loop-amplifier`, `self-referential-escalation-ratchet`
-
-
-### covert-arousal-weld
-
-*risk: high · consent-required · bounded*
-
-Arousal is bound to a target WITHOUT any asserted conditioning statement — the linkage is smuggled by structural means: a shared verb and matching motor program (a chore verb slid onto a sexual act because the scrubbing pulse matches oral motion, floor -> shoes -> cock), a single overloaded word whose referent silently slides ('cock': own body -> edge-trigger -> a master's cock), a semantic pun collapsing two referents into one repeated phrase ('come to me' = approach AND climax), or a broad-then-narrow assent funnel that carries a specific unconsented pairing in on the back of a general 'yes' (rainbow-of-pleasure assent -> spiral->lust). The listener experiences continuous escalation of one thing, never a discrete linkage they could refuse.
-
-
-**When to reach for this.** The tell is the SILENCE of the weld — arousal is bound by motor-isomorphism, referent-slide, pun, or assent-smuggle, never announced. Unlike arousal-cue-conditioning, which DECLARES the conditioned cue->arousal response, no linkage is ever stated here. Unlike transitive-charge-chaining, where emotional charge is inherited across a chain of small inferences, the vehicle here is a shared word / motor-program / assent seam, not an inference chain. And unlike discovery-framing, this is a covert bind, not a retrospective justification.
-
-
-### denial-metabolized-to-obedience
-
-*risk: high · consent-required · bounded*
-
-Arousal is built and release forbidden, and the DENIAL ITSELF is explicitly re-cast as the deepening/compliance engine: the blocked, undischargeable charge 'has nowhere to go except into the obedience channel', every increment of denied desire is declared an increment of depth/submission, and the no-release rule is framed as proof of the operator's control (a feature, not a restriction). The listener's own frustrated drive is metabolized into compliance. The loop frequently spins post-session and out of session (a multi-hour or multi-day denial window, recording off, filled with operant tasks/interrupts, so session-end is not a return to baseline), closed by variant devices: a standing no-orgasm rule, a fractionation-grammar substitution (+2 deeper per denied moment, recoverable only by -1, with a deliberately unresolved wake), a re-listen gate whose only release key is re-exposure to the conditioning, or an instead-redirect channeling the denied energy straight back into deepening.
-
-
-**When to reach for this.** The tell is that the withheld/denied arousal is RE-LABELED as fuel for depth or obedience — the denial is the conditioning move. vs orgasm-release-gating: there release is held behind a met-able compliance KEY; here release is simply redirected into depth/submission with frustration as the working fluid. vs state-welding: a directional redirection of a denied drive, not a standing variable-to-variable fusion. vs orgasm-as-deepener: no orgasm occurs; the DENIED arousal does the deepening.
-
-
-**Realizations** (1): `denial-window-as-deepener-loop`
-
-
-### deprivation-manufactured-craving
-
-*risk: medium*
-
-TECHNIQUE (manufacture a craving by removal/substitution): rather than framing a craving linguistically or rewarding an act, CREATE the want by taking something away or making its object unsatisfiable, so the felt deficit is attributed to the subject's own desire. Realizations: deliver a pleasurable/aroused state then abruptly WITHDRAW it (turn the dials to neutral, stop at peak), so the contrast produces a deficit; in the strongest cases the subject is stalled and made to BEG, converting craving into self-authored petition, with the loss reframed as instructional ('so you understand why you need it') (the core); load-then-forbid — briefly GRANT vivid access ('take a good look, use your hands') to load a fresh sensory anchor, then seal it off so the coming deprivation has a cached reference; the permission also functions as an embedded authority test; object-substitution — swap the drive-OBJECT itself for something that cannot be satisfied from inside (being-desired, supplied by an external population, or a real autobiographical need routed onto an engineered deprivation) so all downstream behavior funnels into one dependent variable that renews rather than satisfies. The through-line: the want is engineered by removal or object-substitution; acute-withdrawal vs load-then-forbid vs uncloseable-object is the parameter — the uncloseable-object variant carries a chronic, never-closeable failure mode.
-
-
-**When to reach for this.** Reach for this when the craving is manufactured by REMOVING a delivered state or SUBSTITUTING an unsatisfiable drive-object — a felt physical deficit, not a described one. Choose a SIBLING when: the craving is framed LINGUISTICALLY in appetite/drug vocabulary with no physical withdrawal (-> addiction-drug-craving-frame); forbidden arousal is redirected into depth/obedience rather than left as an open deficit (-> denial-as-fuel); release is withheld behind a met-able compliance key (-> orgasm-release-gating); an aversive state is manufactured whose SOLE relief is the target act (-> the manufactured-relief line, bidirectional-affect-anchor). Craving-by-deprivation/substitution is the tell.
-
-
-**Realizations** (2): `load-the-cache-deprivation-anchor`, `uncloseable-need-transplant`
-
-
-### direct-pleasure-linkage
-
-*risk: medium*
-
-TECHNIQUE (reward-linkage core): weld an acute pleasure/reward directly to a compliance TARGET — a named act of obedience, a verbal stimulus (a name, 'good girl', the operator's voice), or the surrendered state itself — so performing the act or receiving the stimulus delivers an immediate hedonic payoff and compliance becomes self-motivating (resisting reads as forfeiting pleasure). Install by assertion-as-observation ('following feels like this'), re-attribution of concurrent arousal onto obeying, presupposed causal chain, or explicit pairing; once seated the reward tag holds without the tagger. Frequently coupled to an escalation clause ('stronger every time') so a weak first rep compounds. Realizations: in the core form, pleasure is welded to a NAMED act/stimulus; in another, the same reward is installed as a DIFFUSE affect bound to the surrendered/obedient STATE with no act named; in another, a discrete MINTED reward token ('pleasure ping') is drilled until it fires on the word alone and becomes portable currency the subject transacts; in another, the reward-paired re-cue is drilled onto the operator's VOICE ~a dozen times under cover of relaxation; in another, the reward-meaning is re-valenced onto a mundane session-forced act (clicking, breathing) with nothing new installed.
-
-
-**When to reach for this.** Reach for this when the move is welding POSITIVE reward directly to a compliance target (act/state/token/voice) and the reward is delivered live. Choose a neighboring technique instead when: the reinforcer is relocated to the OPERATOR's feeling or the subject's pleasure is re-credited to the operator (-> reward-source-rerouting); the reward is withheld-accumulated-detonated on command (-> banked-reward-escrow); a NEGATIVE absence-pole is loaded alongside the reward (-> bidirectional-affect-anchor); the reward is bound to the TRUTH-VALUE of words (-> belief-pleasure-weld); the payload rides an orgasm (-> orgasm-as-imprint-window / orgasm-release-gating); or the reinforcer is a manufactured relief rather than a delivered pleasure (-> the manufactured-relief form of bidirectional-affect-anchor). Positive-valence-only and act/state-targeted is the tell.
-
-
-**Realizations** (4): `parasitic-act-relabel`, `reward-association-in-trance`, `token-operant-reward-conditioning`, `voice-anchor-reward-conditioning`
-
-
-### dual-function-chain-stimulus
-
-*risk: low*
-
-Each response in a behavior chain is arranged so the stimulus change it produces does double duty: it serves simultaneously as the conditioned reinforcer for the response just completed and the discriminative stimulus that occasions the next response. Terminal reinforcement back-propagates to keep every intermediate junction effective, so completing step N IS the cue for step N+1 and the chain self-propagates without an external prompt or reward at each link (Barnabus). If the terminal response is unreinforced the chain decays.
-
-
-**When to reach for this.** A serial linkage where a single junction stimulus is both reinforcer (backward) and SD (forward). Distinct from declarative-trigger-installation (single cue-response pair, no backward-reinforcing function) and from trigger-stacking (one cue firing multiple responses at once, not a serial dual-function relation). Distinct from discrimination-training differential reinforcement: this is chain architecture, not the presence/absence differential that builds one cue's control.
-
-
-### orgasm-as-imprint-window
-
-*risk: high · consent-required · bounded*
-
-TECHNIQUE (climax as imprint window): an OCCURRING orgasm — and the clarity window around it — is the single most salient physiological moment and the point of maximal imprint and minimal cognitive defense, so the release event is repurposed to CARRY a payload instead of discharging the state. The usual exit (post-orgasm clarity) is defused by construction. Realizations, on the payload/timing axis: the peak pre-loaded to SEAL a durable IDENTITY or contractual claim ('when I come I become X', a slave-mantra recited at climax) so the involuntary peak retroactively 'confirms' the submission (the core); the climax recoded to DEEPEN/DEPLETE rather than discharge ('when you come you sink deeper'), opening a post-climax install window; any heterogeneous payload (a motor-act chain, a mandated utterance, a contract line, a restated belief) seated strictly AT/before the peak — binding-time is the mechanism; the install fused onto the NEXT self-administered orgasm anytime/anywhere, decoupling deepening from re-listening. The through-line: an occurring climax is the imprint site; payload (identity / depth / motor-act / utterance / belief) and timing (this climax / any future climax) are the parameters.
-
-
-**When to reach for this.** Reach for this when the climax FIRES and is loaded to carry a payload (imprint an identity, deepen, seat a motor-act/utterance/belief, or burn in on the next orgasm). THE ORGASM-CLUSTER CUT: if release is WITHHELD behind a met-able compliance key, that is orgasm-release-gating; here the event occurs and the peak is the imprint window. Choose other SIBLINGS when: no orgasm occurs and denied arousal does the deepening (-> denial-as-fuel); arousal is conditioned to fire on a cue rather than exploited as an imprint moment (-> arousal-cue-conditioning); the reinforcement is a discrete escrow detonation, not a climax (-> banked-reward-escrow). Occurring-climax-as-payload-site is the tell.
-
-
-**Realizations** (3): `inevitable-event-reinforcement-fuse`, `orgasm-as-deepener`, `peak-state-conditioning`
-
-
-### orgasm-release-gating
-
-*risk: high · consent-required · bounded*
-
-TECHNIQUE (release/reward withheld behind a gate): expropriate the subject's release or a craved reward and HOLD it behind a condition whose key is compliance, so the mounting drive itself enforces the condition — the longer the subject complies the more they want release, escalating compliance is self-reinforcing, and the climax feels GRANTED rather than taken. Arousal is forced upward against a closed gate; the gate is frequently never released within the file. Realizations, on the gate-KEY axis: release keyed to a compliance CONDITION — task completion, out-of-session contact to beg, continued agreement, an external media event, or the operator's spoken permission (the core); belief-gated orgasm — the key is adopting a PROPOSITION/doctrine, and climax fires on the line of assent so the pleasure 'proves' the belief (also a grant-and-revoke sub-form); desire-priced-in-depth — a pre-existing want is co-opted, self-relief forbidden, and access PRICED in units of trance depth so craving fuels descent; degraded-state reward gate — eligibility for the reward is gated on ACHIEVING a degraded internal state or self-label, so pursuit requires active self-degradation and the prize is often perpetually deferred. The through-line: the wanted discharge/reward is withheld behind a met-able condition; the gate-key (task / permission / belief / depth / self-degradation) is the parameter.
-
-
-**When to reach for this.** Reach for this when release/reward is WITHHELD behind a met-able key and the drive is recruited as the enforcer. THE ORGASM-CLUSTER CUT: if the climax FIRES and carries a payload, that is orgasm-as-imprint-window; here the point is that it does NOT fire until the condition is met. Choose other SIBLINGS when: forbidden release is redirected into depth/obedience with NO met-able key, frustration as fuel (-> denial-as-fuel); the reward is banked-and-detonated rather than gated behind a compliance condition (-> banked-reward-escrow); the key is a belief but there is no release gate, pleasure simply rewards credence (-> belief-pleasure-weld). Withheld-discharge-behind-a-compliance-key is the tell.
-
-
-**Realizations** (3): `belief-gated-orgasm`, `degraded-state-reward-gate`, `desire-priced-in-depth`
-
-
-### pleasure-attributed-to-operator
-
-*risk: medium · consent-required*
-
-TECHNIQUE (reward-source rerouting): relocate the SOURCE or unit of reinforcement away from the subject's own good feeling. The subject's baseline pleasure/comfort is re-credited to the operator's identity/voice/presence as its cause, so every later suggestion arrives pre-loaded with affect pointing at the speaker, continuing attention becomes self-rewarding, and compliance reads as the subject's own desire; often stated as already-established fact so the loop self-seals. Realizations: the subject's OWN pleasure re-credited to the operator as its source (the core); the reinforcer IS the operator's stated pleasure/gratification ('you made me feel good'), recoding compliance from command to affection so reasonableness-evaluation is disarmed; the operator's NAME slotted into an entrained mantra's prosodic slot so an already-conditioned affect ('love') silently re-points onto the person. The through-line: whose feeling counts, or whose person the affect points at, is rerouted onto the operator.
-
-
-**When to reach for this.** Reach for this when the reinforcer/credit is moved ONTO the operator — the operator's pleasure is the reward, or the subject's pleasure/affect is re-sourced or re-pointed to the operator. Choose a SIBLING when: pleasure is welded to the subject's own act/state with no source-relocation (-> direct-reward-linkage); the subject's affect is re-labeled as PROOF of obedience rather than re-sourced (-> arousal-as-obedience-readout); the cause of a state is laundered AWAY from the operator (-> state-cause-laundering, the opposite move). Source/unit-relocation-onto-the-operator is the tell.
-
-
-**Realizations** (2): `name-substitution-affect-binding`, `operator-pleasure-as-reward-unit`
-
-
-### progressive-conditioning
-
-*risk: medium · bounded*
-
-Installs a belief that conditioning compounds with each return, replay, firing, or even sleep — so trance depth and response strength are asserted to accumulate monotonically across sessions, with no ceiling and no decay. The listener's own progress-narrative is made self-fulfilling: any later gap or plateau is pre-read as on-schedule confirmation rather than failure, and the cost of deepening is transferred off the operator onto a structural belief the listener now holds. Realizations range over the accrual vehicle (per-session, per-firing, per-replay, per-orgasm, per-act-of-obedience, during-sleep, via a listener-maintained memory artifact) and over the target (depth, compliance, amnesia-schedule, exercise drive), and over framing — from a plain accumulation claim to an unfalsifiable GEOMETRIC multiplier ("twice as powerful", "a hundred times deeper" per replay/firing, no measurable baseline) that pre-attributes any felt drift to "the recording working" and pre-authorizes dose escalation and session stacking. The lever is one: a self-reinforcing expectancy of increasing effect over repeated engagement.
-
-
-**When to reach for this.** Separate from a within-session deepener by the forward-binding to FUTURE sessions/replays (single play explicitly insufficient). Separate from manufactured-conditioning-history, which sources present state from a counterfactual prior history — events that never happened. Separate from environmental reinforcement-schedule shaping (the ABA literature), which titrates a measured criterion, not a belief. The geometric per-replay multiplier ("twice as powerful", no baseline) is a framing variant of the accumulation lever, not a separate move; the cross-replay time horizon is what separates it from in-session intensity multiplier-stacking.
-
-
-### resistance-penalty-contingency
-
-*risk: high · consent-required · bounded*
-
-Makes resistance or disobedience backfire: attach an AVERSIVE consequence to resisting, thinking, disobeying, or waiting-it-out, so the exit path is punished and the cheapest move is compliance — rather than rewarding compliance or punishing the absence of a behavior, the move poisons the escape route itself. In the core form, aversive valence is pre-assigned to the ACT of resisting/thinking BEFORE it is attempted, so the first felt distress confirms the pre-installed rule ('trying to fight the desire produces overwhelming wrongness'; a cognition-penalty routed through a just-installed appetite so analysis is self-defeating). In another form, a standing POST-SESSION conditional makes disobedience re-trigger conditioned agony (the 'disobedient part' kept in a furnace, silent only while obeying) with obedience as the off-switch — negative reinforcement carried into waking life. In another, an autonomous time-growth schedule makes the conditioning grow on its own and FASTER the more the subject resists or waits, so both action and inaction route to deeper conditioning and the do-nothing defense is removed. The through-line: the resistance/wait/disobedience path is made to cost; punish-the-act vs post-session-pain-leash vs resistance-accelerant-clock is the parameter.
-
-
-**When to reach for this.** Reach for this when an aversive/penalty is attached specifically to RESISTING, thinking, disobeying, or waiting — the exit/wait path backfires. Reach for a neighbor instead when an absence-ache is loaded on a cue or behavior's ABSENCE, not on the act of resisting (bidirectional-affect-anchor); when resistance is FOLDED IN as a positive deepening vector rather than punished (co-option, not penalty); or when the success criterion is relabeled so failure is impossible (self-validating-acceptance-frame). Poison-the-exit/wait-path is the tell.
-
-
-**Realizations** (2): `aversive-contingency-leash`, `resistance-penalty-clock`
-
-
-### self-policing-reward-withdrawal-loop
-
-*risk: high · consent-required · bounded*
-
-Having first built a genuinely valued identity-reward (pride, good-girl euphoria, perfect presentation), the operator installs an autonomous detector that fires an escalating aversive signal (shame, dread, nagging/unbearable wrongness) on self-noticed deviation or imperfection, relieved only by self-correction back to compliance. The listener generates her own punishment signal at the first sign of deviation and auto-corrects to escape it, so enforcement needs no operator present and no external cue. The reward is fenced by an internal aversive tripwire yoked to a continuous self-monitoring scan — an OCD-shaped detect/distress/correct/reward cycle running in daily life. Often layered over an ambient, satiation-free craving with a monotonic "stronger and stronger" ramp so the standing homeostatic drive-state the monitor enforces has no completion condition.
-
-
-**When to reach for this.** The aversive pole fires on SELF-DETECTED deviation via a standing internal detector (no operator, no external cue) and is the threatened withdrawal of an already-built identity-reward. Distinct from bidirectional-affect-anchor, whose absence pole is aversion to a missing stimulus rather than a self-scanning deviation-detector. Distinct from an in-session cue-fire-reward trigger loop: this runs continuously in daily life as a detect/distress/correct/reward cycle.
-
-
-### self-validating-acceptance-frame
-
-*risk: high · consent-required · bounded*
-
-Forecloses disconfirmation by relabeling the success criterion: re-define what counts as success/evidence so that NO observation can disconfirm the effect — every outcome, including apparent failure, is pre-mapped to confirm the frame. In the core form, the subject's future behavior/desire is pre-labeled as involuntary COMPULSION ('you cannot stop yourself', 'beyond choice'), so noticing oneself acting/wanting reads as proof the conditioning worked rather than a re-evaluable decision — reversing the causal direction (behavior becomes proof of the state); this includes a self-chosen-disclaimer variant ('whether you want to is up to you') and a contentless-urge variant with no satisfaction condition. In another form, expending NO effort is redefined AS performing the task ('trying is allowing', 'it takes hold on its own'), so both felt-nothing and felt-something map onto success and the subject loses the ability to fail or to grade the operator's failure. In another, POSITIVE valence is pre-bound onto the install's own FAILURES (forgetting, blanking, word-stumbles) BEFORE they occur, inverting the corrective-feedback signal so every real-world stumble reinforces rather than erodes. In another, escalating 'open your eyes' trigger-verification tests are staged so each success is PROOF the conditioning works outside trance, foreclosing the 'it only works because I'm relaxed' rationalization. The through-line: the success/evidence criterion is rigged so disconfirmation is impossible; compulsion-relabel vs no-effort-is-success vs failure-as-reinforcement vs waking-proof-ratchet is the parameter.
-
-
-**When to reach for this.** Reach for this when the move is to RELABEL the success/evidence criterion so nothing can disconfirm — deny the deciding faculty, make no-effort count as success, make failures reinforce, or stage tests where each outcome proves it. Reach for a neighbor instead when an aversive is attached to the ACT of resisting/waiting (resistance-penalty-contingency); when a closed both-branches-re-enter LOOP is the topology (closed-autonomous-conditioning-loop); when a craving is framed in appetite words (addiction-drug-craving-frame); or when pleasure is welded to the truth-value of words (belief-pleasure-weld). Rig-the-success-criterion-so-disconfirmation-is-impossible is the tell.
-
-
-**Realizations** (3): `eyes-open-compliance-ratchet`, `failure-reframed-as-reinforcement`, `unfalsifiable-compliance-no-effort-frame`
-
-
-### service-as-self-pleasure
-
-*risk: high · consent-required · bounded*
-
-A sensory cross-routing is installed so that an act performed ON or FOR another party (touching the operator's feet, pleasuring a partner) is felt in the listener's own body — 'when you give the mistress pleasure you receive pleasure yourself', 'whenever your lover experiences pleasure from you, you automatically feel the same sensations'. This collapses the giver/receiver boundary so obeying/serving becomes mechanically indistinguishable from self-arousal, making obedience intrinsically rewarding at the body level and self-reinforcing (serve more -> feel more -> serve more) with no external payoff needed.
-
-
-**When to reach for this.** The CROSS-ROUTING of sensation across the giver/receiver boundary — an act done to someone else is felt in one's own body. Distinct from arousal-cue-conditioning (no cue conditioned to fire arousal; a topology of whose-body-feels-what is rewired), from direct pleasure-for-compliance reward linkage (the pleasure is not a reward FOR a named act but the felt sensation of the act itself relocated), and from state-welding (the fusion is between two parties' sensation, not two of the listener's own state-variables).
-
-
-### state-welding
-
-*risk: high · consent-required · bounded*
-
-TECHNIQUE (state-welding): fuse two or more normally-separable state-variables (arousal, trance-depth, cognitive clarity/loss, drowsiness, surrender, obedience, addiction) so they can no longer move or be tracked independently — after install any variable moving moves the others and each becomes evidence of the others, with no non-member state from which to observe or refuse. Installed via a shared verb applied to both until interchangeable, an identity-equivalence ring recited from rotating entry points (so the STRUCTURE installs, not a memorizable chant), or a circuit tying relaxation/arousal/receptivity into one dial. Realizations, on the welding VEHICLE axis: shared-verb / equivalence-ring / one-dial circuit (the core); a depth COUNTDOWN as the carrier — the descriptor set threaded through the numbered steps fuses depth with obedience so they cross-cue thereafter; a compliance ADJECTIVE welded at the rhythm level to a relaxation cadence ('obedient and relaxed') so relaxation cannot be accepted without obedience; a double-duty WORD coupling two variables at the SOUND level ('dripping' = IQ-loss + arousal), below conscious pun-detection; a count that YOKES two qualitative state-variables to one counter and terminates in a locked, named PERMANENT value (IQ 65) — the fusion is the mechanism, the locked-terminal-value the twist. The through-line: two+ state-variables fused into one dial; verb/count/rhythm/phoneme/locked-counter is the vehicle parameter. The equivalence-ring vehicle also covers a bidirectional DEFINITIONAL identity asserted as a pre-held belief ('obedience is pleasure and pleasure is obedience') — stated as an equation rather than a learned pairing, so there is no association to extinguish; still state-welding because the two terms are made mutually entailing and non-independent (neither felt without the other).
-
-
-**When to reach for this.** Reach for this when two+ ongoing state-VARIABLES are fused variable-to-variable (no cue, no response) so none moves alone. Choose a SIBLING when: the fused loop runs AUTONOMOUSLY as a closed self-sustaining circuit with no operator narration and no non-compliant vector (-> closed-autonomous-conditioning-loop); one variable is MULTIPLIED/ratcheted rather than fused to another (-> compounding-escalation-ratchet); a cue is conditioned to fire a response (-> arousal-cue-conditioning); a single arousal signal is merely re-labeled, no second variable (-> arousal-as-obedience-readout). Variable-to-variable fusion is the tell.
-
-
-**Realizations** (5): `depth-obedience-fusion-count`, `locked-numeric-transformation-count`, `obedience-laminated-relaxation`, `obedience-pleasure-definitional-identity`, `phoneme-level-state-coupling`
-
-
-### transitive-charge-chaining
-
-*risk: medium · consent-required*
-
-A graceful slide of tiny inferential steps (love her voice -> shape of her lips -> what they taste like -> a drugged 'devious lipstick') in which each image INHERITS the previous image's emotional charge, so the terminal payload image lands without ever being argued for. Content imported by a link (named substances, spells) brings its own frame along — here resistance-cancellation ('you can't resist') arrives as drug-imagery connotation instead of as an assertable, refusable claim.
-
-
-**When to reach for this.** Transitive charge-inheritance across a chain of small inferences is the mechanism. Unlike guided-visualization, no scene is inhabited; the chain's motion does the work. Continuous-morph-chain is also chained imagery on the surface, but there the chain keeps the image moving so evaluation never settles; here the chain TRANSFERS charge onto a payload. No cue->arousal conditioning pair is installed — arousal-subjugation coupling is the chain's OUTCOME, not a trigger install. And unlike imagined-substance-delivery or fictional-substance-agent, the drug here is one link's content, not a causal relabeling of the delivery.
-
-
-### wish-routing-acceptance-preload
-
-*risk: low*
-
-The operator selects a suggestion the subject already actively craves and phrases it as the exact words the subject is anxious to hear, often echoing a wish held below conscious awareness. Because the message names something the subject already wants, acceptance is pre-loaded and the subject meets the suggestion halfway; resistance never engages because nothing in the message is opposed to them, and the subject supplies the conviction themselves. It fails wherever the underlying want is simply absent — the deciding tell.
-
-
-**When to reach for this.** This is the SELECTION and PHRASING of a wanted suggestion, not any valence reframe. Separate from surrender-as-freedom (which recodes a resisted loss as relief — here there is no loss to recode, only a pre-existing desire to name), from expectation-seeding (which plants an anticipation the subject does not yet hold rather than mirroring one they already do), and from the fake-object delivery ritual that often accompanies it (a separate carrier move).
-
-
 ## convincers  (26)
 
 Staging or pointing at a phenomenon the listener perceives in themselves — motor incapacity, ideomotor movement, an amnesia gap, arousal, an obeyed act — and reading it back as the listener's OWN proof that the state or install is real, so belief is self-attributed.
@@ -2372,6 +2894,9 @@ A body-verifiable involuntary convincer the listener has just demonstrated to th
 **Realizations** (1): `convincer-laundered-to-unverifiable-domain`
 
 
+**See also.** `motor-inhibition-convincer` — the affect transfer is built on top of the motor convincer and cannot run without one, so the reader assembling either should see both; the split is whether the demonstrated lock is spent as an argument about an untested emotion, belief, or arousal, or kept as proof-of-depth on the checkable limb.
+
+
 ### cognitive-convincer
 
 *risk: low*
@@ -2382,6 +2907,9 @@ The operator stages or points at an in-session phenomenon the subject themselves
 **When to reach for this.** Separates from unfalsifiable-no-fail-convincer (closes the failure branch so ANY outcome including feeling-nothing confirms), from operator-side-state-verification (reads state FOR the operator, subject never told), and from staged-external-reality-corroboration (manufactures external sense-channel events rather than an internally-noticed phenomenon). Against amnesia-suggestion and time-distortion installs, the tell is the recognition beat — here the amnesia/time-distortion is a demonstration device the subject interprets, not installed as an end.
 
 
+**See also.** `live-trigger-proof-convincer` — both make the subject's own noticed experience the proof of trance, but one points at an in-session phenomenon (catalepsy, a time gap, an autonomic lull) while the other specifically stages a wake-then-refire so the trigger's persistence across a real-feeling wake is the receipt.
+
+
 ### compliance-act-as-proof-of-induced-wanting
 
 *risk: medium*
@@ -2390,6 +2918,9 @@ The operator issues an easy, frictionless instruction (breathe in and squeeze), 
 
 
 **When to reach for this.** Separates from obedience-demonstration-as-proof, which proves RESPONSIVENESS / depth of control (that the body obeys); here the obeyed act is harvested to prove the operator's thesis about INSTALLING DESIRE (that your wanting is manufactured) — a self-model/attribution move. Separates from ordinary instruction-following by the deliberate deferred callback that relabels the act.
+
+
+**See also.** `own-acts-surrender-ledger` — both harvest the listener's real performed acts as evidence, but the ledger annotates many genuine acts contemporaneously to shift the perceived baseline to already-surrendered, while the single deferred callback targets one frictionless act much later to prove a specific thesis about manufactured wanting.
 
 
 ### conceded-capacity-immobility
@@ -2425,6 +2956,9 @@ The operator elicits a subtle, felt-as-automatic bodily movement (finger lift, a
 **Realizations** (1): `both-directions-deepen-ideomotor-loop`
 
 
+**See also.** `motor-inhibition-convincer` — complementary halves of the same somatic proof beat — one reads an elicited movement as evidence the operator's words move the body, the other reads a failed attempt to move as the same evidence — and a writer choosing between them is choosing whether the proof is motion or inability.
+
+
 ### in-session-rehearsal-of-posthypnotic-act
 
 *risk: medium*
@@ -2443,6 +2977,9 @@ Uses a single shallow wake-then-redrop (or a real-feeling wake with a persisting
 
 
 **When to reach for this.** The payload is demonstration-that-it-worked (the trigger fires / the install persists across a real wake), used as a convincer, not the multi-cycle contrast deepening of fractionation — here one shallow cycle is left bare and unconsolidated as a receipt. Among convincers the tell is that it keys specifically on the wake/re-fire demonstration; and unlike progressive conditioning, the proof is a single-shot live event, not an accumulated history.
+
+
+**See also.** `cognitive-convincer` — both make the subject's own noticed experience the proof of trance, but one points at an in-session phenomenon (catalepsy, a time gap, an autonomic lull) while the other specifically stages a wake-then-refire so the trigger's persistence across a real-feeling wake is the receipt.
 
 
 ### memory-control-demonstration
@@ -2488,6 +3025,9 @@ The operator suggests a consensual motor incapacity (arm/eyelid/limb won't work,
 **Realizations** (1): `freeze-as-depth-fuel`
 
 
+**See also.** `catalepsy-to-affect-transfer` — the affect transfer is built on top of the motor convincer and cannot run without one, so the reader assembling either should see both; the split is whether the demonstrated lock is spent as an argument about an untested emotion, belief, or arousal, or kept as proof-of-depth on the checkable limb.; `ideomotor-response-convincer` — complementary halves of the same somatic proof beat — one reads an elicited movement as evidence the operator's words move the body, the other reads a failed attempt to move as the same evidence — and a writer choosing between them is choosing whether the proof is motion or inability.
+
+
 ### obedience-demonstration-as-proof
 
 *risk: medium*
@@ -2496,6 +3036,9 @@ The operator elicits an obeyed act (a commanded motion, a triggered response, a 
 
 
 **When to reach for this.** The tell is the validation beat — the obeyed act exists TO be cited back as evidence. Separates from firing a trigger for the effect alone (no proof payoff) and from repeated fire-and-reward drilling by that beat; separates from smuggled-command techniques because the command here is OVERT and its being-obeyed is foregrounded, not hidden; and separates from convincers that install literal motor INABILITY as proof — here obedience to an active command is the proof, not incapacity.
+
+
+**See also.** `enacted-embodied-proof` — two ways a commanded act becomes evidence: one has the body manufacture proprioceptive proof for an abstract claim or rule ('your mind works the same way'), the other cites the bare fact of having obeyed back as proof that control is real — the payload differs (a cognitive claim versus the operator's authority), but both convert a performed action into an unfalsifiable convincer and drop the threshold for the next ask.
 
 
 ### pace-mirror-agency-proof
@@ -2598,7 +3141,7 @@ A maintained waking-trance overlay (eyes open, motor function on, framed as 'sti
 **When to reach for this.** Vs behavioral-commitment-self-proof — the state-proof there is in-session/private; here the defining feature is the maintained eyes-open still-under overlay enabling a PUBLIC attributable action that persists past playback. Vs a post-trance behavioral bridge — that is a waking cue firing after trance ends; here the disclosure fires under a maintained trance overlay as self-ratification plus operator engagement.
 
 
-## self-sealing  (15)
+## self-sealing  (16)
 
 Rigging the epistemic layer so no observation can disconfirm — every result including doubt, resistance, and checking is pre-mapped to 'it's working'; includes reflexive disclosure, where naming the machinery openly spends the audit as confirmation.
 
@@ -2628,6 +3171,9 @@ The listener's own default, ongoing behavior is recursively relabeled as proof t
 **Realizations** (2): `self-descriptive-trance-assertion-loop`, `silence-recoded-as-paralysis`
 
 
+**See also.** `own-acts-surrender-ledger` — both convert the listener's own behavior into evidence of an installed state, but one annotates discrete completed acts as accruing proof of a named state while the other runs on mere inertia — continuing to listen, sitting in silence — where the disconfirming move is pre-framed as already-failed.; `self-sealing-frame` — both engineer unfalsifiability, but one accumulates the listener's own continued act (listening, silence, a self-state utterance) as the mounting evidence, while the other pre-maps the entire discrete response space so no branch can register as disconfirmation.; `unfalsifiability-scaffold` — both make disconfirmation unavailable, but attention-as-evidence infers state from the listener's mere ongoing act (still listening, still silent) with no check required, whereas the unfalsifiability scaffold pre-fits or forbids the listener's deliberate self-reports and inspections.
+
+
 ### closed-epistemic-self-validation-loop
 
 *risk: high · consent-required · bounded*
@@ -2636,6 +3182,16 @@ The whole text is wired into a closed epistemic loop in which the script's claim
 
 
 **When to reach for this.** Separates from the individual moves it wires together (each a discrete suggestion) by being the whole-text observation that those moves form a closed circuit; separates from boundary-dissolution by validating claims through self-induced states (an evidentiary loop) rather than erasing the inside/outside boundary; separates from closed-graph-foreclosure in that the closure is evidentiary (self-induced states corroborate escalating claims), not a routing of every behavioral lever to deepening.
+
+
+### element-decode-against-held-key
+
+*risk: medium · bounded*
+
+The operator holds a key in advance — a theory of what the subject wants, fears, or is — and treats the subject's productions as ciphertext to be decoded element by element against it. Arbitrary detail is not dismissed as arbitrary; each fragment is assigned a mapping, and the accumulated mappings are then presented back as a reading of what the material was really about. Because the material is unstructured and the key is flexible enough to absorb any element, the decode always succeeds, and its success is presented to the subject as evidence that the key is correct. The subject supplied the content, so the reading arrives as a discovery about themself rather than a claim from the operator, and disputing it requires disputing their own material.
+
+
+**When to reach for this.** An operator-held key applied element-by-element to the subject's own productions, with the resulting decode handed back as a reading of what the material was really about - and the decode's guaranteed success cashed as evidence the key is correct. Nearest relative is `recruited-autobiography-deepener` (842), which shares the Barnum engine and the same subject-supplied-material immunity ('the operator cannot be wrong - denying it requires denying one's own history'), but that enumerates a broad category catalog and BLENDS the recognized memories into claimed trance-mass as a depth force-multiplier: no key, no per-element mapping, no claim about who the subject is. `subject-material-utilization` (1223) likewise accepts what the subject volunteers without contesting it, but re-aims that material toward a goal rather than interpreting it against a held theory. `unfalsifiability-scaffold` (893) shares immunity to disconfirmation but pre-fits the subject's SELF-REPORTS about whether the frame is working - testimony about effects, not arbitrary material mined for a decode. `interpretive-closure-meta-command` (904) hands the subject a forward-facing rule resolving their FUTURE ambiguities; this is a backward-facing procedure the operator runs on material already produced. Tell: if there is no pre-held key and no per-element assignment, it is not this.
 
 
 ### failure-pre-attribution
@@ -2678,6 +3234,9 @@ A whole-script stacked-deck architecture in which the script never argues for it
 **When to reach for this.** Separates from a script that merely references the body because the tell is a deliberate stacked-deck CHAIN where each step guarantees the evidence the next step cites — the evidence is manufactured, not observed. Distinct from reader-directed self-sealing-evidence (confirmation frames that make no observation able to disconfirm): this acts on the LISTENER and manufactures POSITIVE self-confirming somatic evidence, rather than proofing a method against a reader's disconfirmation.
 
 
+**See also.** `reader-assent-architecture` — both self-sealing-flavored; boundary is target (listener body vs reader belief) and polarity
+
+
 ### pre-armored-safety-ratchet
 
 *risk: high · consent-required · bounded*
@@ -2711,6 +3270,9 @@ The subject's own act of VERIFYING the suggested state — a recall check, a sea
 **Realizations** (1): `rigged-confirmation-trap`
 
 
+**See also.** `self-validating-acceptance-frame` — both make disconfirmation impossible, but one rigs a discrete introspective check the subject actively runs while the other redefines the success criterion itself so no observation, effort level, or stumble can count against the install.
+
+
 ### self-perpetuating-loop
 
 *risk: high · consent-required · bounded*
@@ -2721,6 +3283,9 @@ The operator asserts that arousal-words spoken in trance are themselves arousal 
 **When to reach for this.** Separates from a bilateral trigger, which fires a FIXED cue across modes: here the mechanism is the closed amplifying loop (word->state->more words) plus a forward-installed automatic vocalization - a self-feeding circuit, not a single cue firing. Separates from plain arousal conditioning: the loop's self-causation, not the arousal pairing, is the tell.
 
 
+**See also.** `closed-loop-operator-binding` — both install self-sustaining circuits that need no further operator input, but the self-perpetuating loop closes on the listener's own vocalizations amplifying arousal (word to state to more words), while closed-loop operator binding routes the response back onto the operator-as-cue-source, so future contact or ordinary arousal re-summons the operator.; `operator-absent-self-renewal-loop` — both build loops that run without the operator, but one closes the circuit inside a single session (spoken arousal-words causing the arousal that produces more words) while the other closes it across sessions by making the urge to re-expose one of the reinforced installs.
+
+
 ### self-sealing-compliance-proof
 
 *risk: medium · consent-required*
@@ -2729,6 +3294,9 @@ Manufactures an in-listener evidence event from a small, easy compliance and the
 
 
 **When to reach for this.** The defining move is EVIDENCE MANUFACTURE — a small compliance is retroactively used to prove/foreclose a larger commitment, or refusal is structurally not offered as a branch. Separates from behavioral-bridge (assigns an action but does not weaponize it as proof of another) and from orgasm-gated-relief-monopoly (somatic gate, not a logical/evidentiary trap). The tell is self-sealing: the listener's own act is turned into the argument.
+
+
+**See also.** `own-acts-surrender-ledger` — both turn the listener's own performed act into unarguable material, but the ledger annotates real acts as EVIDENCE OF A PRESENT STATE (you are already surrendered), while the self-sealing proof runs the act as a LOGICAL PREMISE that forecloses a larger future commitment the listener has not yet made.
 
 
 ### self-sealing-counter-input-closure
@@ -2754,6 +3322,9 @@ A frame is pre-committed so that every possible listener response is mapped in a
 **Realizations** (2): `self-sealing-install-frame`, `unfalsifiable-evaluation-enclosure`
 
 
+**See also.** `attention-as-evidence-loop` — both engineer unfalsifiability, but one accumulates the listener's own continued act (listening, silence, a self-state utterance) as the mounting evidence, while the other pre-maps the entire discrete response space so no branch can register as disconfirmation.; `closed-reachability-topology` — two complementary closures worth reading together: the self-sealing frame closes the EVIDENCE channel so every observation reads as confirmation, while closed reachability closes the ACTION set so no branch the listener could take exits — one rigs the verdict, the other removes the door.
+
+
 ### unfalsifiability-scaffold
 
 *risk: high · consent-required · bounded*
@@ -2765,6 +3336,9 @@ Forecloses the EPISTEMIC/AUDIT channel so no observation the listener could make
 
 
 **Realizations** (3): `anti-introspection-self-sealing-frame`, `meta-conditioning-enforcement`, `rhetorical-tag-nonanswer-as-evidence`
+
+
+**See also.** `attention-as-evidence-loop` — both make disconfirmation unavailable, but attention-as-evidence infers state from the listener's mere ongoing act (still listening, still silent) with no check required, whereas the unfalsifiability scaffold pre-fits or forbids the listener's deliberate self-reports and inspections.; `closed-reachability-topology` — these close complementary channels and typically co-occur: one exhausts the action set so no branch the listener could take leads out, while the other exhausts the evidence set so no observation the listener could make reads as disconfirmation.
 
 
 ## critical-faculty-softening  (15)
@@ -2813,6 +3387,9 @@ The operation is DENIED or its decision-point HIDDEN, so anti-hypnosis vigilance
 **Realizations** (7): `consumption-act-as-induction`, `covert-deepener-disguise`, `covert-masked-induction`, `decoy-conscious-engagement`, `deniable-two-way-probe`, `induction-mislabeled-as-resistance`, `retroactive-count-reassignment`
 
 
+**See also.** `covert-frame-entry` — both disarm the guard by concealing that an operation is running, but one denies or masks the hypnotic act wherever it occurs throughout a session, while the other is specifically an entry move: a false benign frame consumed at the induction seam so no going-under is ever staged.; `operator-agency-disavowal` — both disarm vigilance by removing the acknowledged act to refuse, but one conceals or denies that any operation is running at all while the other admits the process and relocates its causal agency onto the subject.
+
+
 ### disclosure-as-inoculation
 
 *risk: medium*
@@ -2821,6 +3398,9 @@ The operator names the manipulation — often forward-directed or retrospective 
 
 
 **When to reach for this.** The disclosure's function is to IMMUNIZE against recognition (forward or retrospective) rather than to be the present-tense delivery vehicle — that inverse is transparent narration. Unlike consent-laundering and evidence-rigging moves, the target is the listener's future critical stance specifically, not the relabeling of non-consent as consent; and unlike retrospective justification, it targets the meta-analytic exit, not the plausibility of a prior event.
+
+
+**See also.** `transparent-narration` — present-tense recursive transparency (there) vs future-second-guessing inoculation (here); dual-placed, kin-flagged.; `weaponized-transparency-inoculation` — both openly name the manipulation and convert the listener's recognition of it into further capture, which is a genuinely shared and unusual lever. The narrower entry adds a second move on top - flipping the disclosure's valence to protection and pre-labelling outside contact and critics as the actual threat, producing isolation. A reader on either needs the other to see where plain inoculation ends and the isolating variant begins.
 
 
 ### engineered-failure-harvest
@@ -2836,6 +3416,9 @@ A task or condition is engineered so the listener genuinely fails (or cannot-not
 **Realizations** (6): `affect-category-collapse`, `concealed-positioning-catalepsy`, `identity-tracking-failure-manufacture`, `no-fail-count`, `self-recall-corruption`, `unfalsifiable-success-framing`
 
 
+**See also.** `count-or-cue-sabotage-disorientation` — forced real-time computation failure overlaps failure-harvest; count-vehicle keeps it here; `self-validating-acceptance-frame` — both convert apparent failure into confirmation, but one engineers a concrete task the listener genuinely performs and fails, while the other merely relabels the success criterion in advance with no task constructed.
+
+
 ### epistemic-guard-disable
 
 *risk: high*
@@ -2844,6 +3427,9 @@ Installs a standing rule that removes or re-anchors the listener's truth-testing
 
 
 **When to reach for this.** Targets the truth-testing / reality-checking faculty (or the epistemic baseline itself), not a specific value concept. Unlike surrender-as-freedom, which argues a value is truer while leaving truth-testing intact, and unlike consent-term redefinition, which widens one consent word's scope, the attack here is on the currency of truth itself. Authority claims boost a claim's credibility rather than removing the evaluation faculty; confusion techniques overload via paradox the mind cannot process, whereas here the premise is comprehensible and accepted by agreement; and transparent narration honestly narrates the move so understanding becomes acceptance, whereas this installs a worldview or faculty-edit so content reads as unrefusable fact.
+
+
+**See also.** `consent-term-redefinition-smuggle` — sibling — both are false-fact-as-truth installs; these widen a consent word, those disable truth-testing.; `weaponized-transparency-inoculation`
 
 
 ### evaluation-gate-standdown
@@ -2915,6 +3501,9 @@ The resist-vs-comply option pair is asymmetrically re-priced so the subject volu
 **When to reach for this.** Re-prices UNEXERCISED resistance so it is never attempted — unlike resistance-fold, which captures EXERCISED or noticed push-back and feeds its energy to the frame. The tell: in a fold, resisting harder helps the operator; in deterrence, resisting is simply advertised as costly/ruinous and the subject declines to try. The catastrophic-stakes form needs live confusion already running for the abyss threat to bite, where self-confirming circular logic needs none. Unlike behavioral commitment, no enacted gesture is harvested — the "choice" itself is the commitment device without any motor act. And unlike a flat "resistance is futile" assertion, deterrence prices the option; it does not deny the option exists.
 
 
+**See also.** `resistance-fold` — relation=sibling; both members carried BYPS-04 edges — negative space recorded there.
+
+
 ### resistance-fold
 
 *risk: high · consent-required · bounded*
@@ -2926,6 +3515,9 @@ The listener's EXERCISED or NOTICED push-back — a resistance impulse, escape a
 
 
 **Realizations** (7): `commanded-autonomic-conviction-bind`, `ironic-process-delivery`, `polarity-response-utilization`, `prohibit-to-render`, `prohibition-as-lure`, `prohibition-fused-deepening`, `refusal-satiation-redirect`
+
+
+**See also.** `resistance-deterrence` — relation=sibling; both members carried BYPS-04 edges — negative space recorded there.
 
 
 ### resistance-window-existence-denial
@@ -2952,6 +3544,9 @@ The operator OPENLY and HONESTLY narrates the mechanism of influence as it opera
 
 
 **Realizations** (1): `named-technique-meta`
+
+
+**See also.** `disclosure-as-inoculation` — present-tense recursive transparency (there) vs future-second-guessing inoculation (here); dual-placed, kin-flagged.
 
 
 ## indirect-suggestion  (14)
@@ -2994,6 +3589,9 @@ Two separately-authored streams run at once so one carries the conscious mind's 
 **When to reach for this.** Two authored carriers with decoy and payload roles in the same perceptual field — versus analogical-marking-parallel-message (one carrier split into surface plus marked code) and versus working-memory-overload-induction (one attention field loaded, no second authored payload stream). Production-format concurrency (stereo two-track playback) counts: the delivery topology, not the linguistics, is the move.
 
 
+**See also.** `convergent-multichannel-encoding` — both are delivery-topology moves rather than linguistic content moves, but one runs two separately-authored streams with distinct decoy and payload roles, while the other runs many covert channels under a single tracked surface all carrying the same message redundantly.; `two-channel-relational-delivery` — both run two simultaneous authored tracks with the real install underneath, but one splits by perceptual channel with a decoy occupying attention, while the other splits by dramatized relation (dialogue, teacher, watched surrogate) so identification rather than distraction licenses the payload.
+
+
 ### covert-linguistic-delivery
 
 *risk: high · consent-required*
@@ -3020,6 +3618,9 @@ The operator's words are made to feel SELF-GENERATED by relocating authorship of
 **Realizations** (1): `pre-narrated-interiority-authorship`
 
 
+**See also.** `attribution-capture-of-internal-states` — inverse halves of the same authorship dial: one relocates authorship of the operator's words onto the listener's inner voice, the other relocates causal credit for the listener's own states onto the operator — different directions, and the first disarms the 'said to me' guard while the second harvests introspection as proof of hold.; `operator-agency-disavowal` — two different guards disarmed by the same relocation of authorship onto the listener: one denies the operator any causal role so resistance to the state has no target, the other makes the operator's words feel self-generated so the 'this is being said to me' guard never engages.; `subconscious-agent-authorship-offload` — both relocate authorship inward rather than to the operator, but in opposite directions: one makes the operator's content feel self-generated so it meets no 'this is being said to me' guard, while the other credits behavior to an internal agent the listener does not feel she controls so it meets no ownership-based resistance.; `third-person-surrogate-frame`
+
+
 ### interspersal-in-carrier-stream
 
 *risk: medium · consent-required*
@@ -3040,6 +3641,9 @@ The same proposition is cycled through multiple grammatical persons in tight suc
 **When to reach for this.** CYCLES one predicate through I/we/you (or opens already-plural and braids I/we/you/she) so no neutral stance exists and the collective slot smuggles consent. Separate from perspective-shift-inner-voice-reattribution, a one-directional you-to-I install with no collective slot; from subject-voiced-self-mantra, which stays purely first-person self; from mere repetition, which does not rotate grammatical person or pre-load membership.
 
 
+**See also.** `subject-voiced-self-mantra` — both use first-person; braid rotates persons, mantra does not.
+
+
 ### repeating-frame-carrier
 
 *risk: medium · consent-required*
@@ -3048,6 +3652,9 @@ A fixed repeating frame (an anaphoric A-line, or a mechanically-identical count/
 
 
 **When to reach for this.** The repetition is CAMOUFLAGE, not encoding — the fixed frame carries a succession of DIFFERENT novel suggestions, unlike layered-repetition where every repetition carries the ONE same idea. Separates from interspersal-in-carrier- stream because there the carrier is neutral/noise content whose low salience hides the payload, whereas here the carrier is a predictable REPEATING frame whose expectation-setting is the cover.
+
+
+**See also.** `layered-repetition`
 
 
 ### self-supplied-gap-directive
@@ -3099,6 +3706,9 @@ The entire artifact is voiced in the first person from inside the desired endpoi
 **When to reach for this.** First-person throughout with the LISTENER as the speaker and no operator surface at all. Separate from perspective-shift-inner-voice-reattribution, which has an operator whose grammar shifts you-to-I (here there is nothing to shift FROM); from third-person-surrogate-displacement, where the listener is the described third party rather than the speaker; from peer-testimonial-carrier, where the first-person voice is a separate already-converted PEER the listener identifies with, not the listener's own endpoint-voice.
 
 
+**See also.** `pronoun-braid-conscription` — both use first-person; braid rotates persons, mantra does not.
+
+
 ### surrogate-delivery
 
 *risk: high · consent-required*
@@ -3122,7 +3732,10 @@ Instead of collapsing the person gap toward first person, the script WIDENS it: 
 **When to reach for this.** Removes the second-person addressee by narrating the listener in the third person / as a surrogate, so resistance has no target. Perspective-shift inner-voice reattribution runs the OPPOSITE direction (you-to-I first-person capture); a subject-voiced self-mantra is first-person with the listener as speaker (here the listener is the described third party, not the speaker); and plain consciousness-splitting divides awareness without the grammatical-person vehicle — here the third-person address IS the mechanism.
 
 
-## valence-routing  (8)
+**See also.** `inner-voice-authorship-bypass`
+
+
+## valence-routing  (9)
 
 Remapping which content carries positive or negative affect, or relabeling a felt signal's meaning, at the comparator level — reward rerouting, valence transfer, obedience=pleasure identities, somatic reattribution, closed affect-loops where every feeling proves the frame.
 
@@ -3147,6 +3760,16 @@ Builds genuine catalepsy in redundant nested layers (doubled eyelid imagery of l
 
 
 **When to reach for this.** The tell is real (redundancy-stacked) catalepsy followed by an attribution-swap of restraint-into-comfort plus a retroactive preference rewrite. Distinct from kinesthetic-hallucination (installs the immobility sensation but does not relabel it as comfort), from plain relaxation suggestion (no genuine catalepsy underneath), and from valence-rerouting on a fixed anchor (there an already-installed FEAR image is re-valenced; here restraint is relabeled as rest to pre-empt panic).
+
+
+### motor-discharge-affect-venting
+
+*risk: low*
+
+An affect that has been built up and given no outlet is deliberately routed into a motor or secretory channel — shouting, sobbing, crying, shaking, a permitted vocal release — so the surplus excitation is spent through the body rather than held. The operator does not reinterpret the feeling, deny it, or bind it to a cue; the instruction is simply to let it out through a physical action, and the felt intensity drops as the action runs. The drop is the payload: the same affect that was saturating the subject becomes tractable once it has somewhere to go. Typically used to bring an over-aroused, flooded, or stuck subject back into a workable band, or to close a heavy scene without leaving charge stranded.
+
+
+**When to reach for this.** Nearest shipped neighbours divide into charge-KEEPERS and discharge-as-ENGINE. Keepers: `closed-affect-loop` (1326) locks the reachable state topology and its relief-channel-sealing arm de-rates the only off-switch; `somatic-valence-annexation` (1264) preserves the activation intact and swaps its label; `severed-relief-valve-ramp` (724) removes the discharge path so arousal can only accumulate. This entry is the opposite of all three: the activation is neither relabelled nor sealed, it is spent, and the magnitude falls. Engines: `tension-release-induction` (727), `pressure-release-count` (952) and `in-trance-load-release-oscillation` (747) all run accumulate-then-discharge too, but there the discharge is the deepening/induction event and its rebound is relabelled as trance or surrender — the operator is BUYING state with it. Here the discharge is spent to lower intensity and buy nothing; if the drop is being labelled as depth, it is one of those three, not this. `abreactive-present-tense-reliving` (1007) also runs live affect through the body, but as a retrieval route to surface never-verbalized content; here nothing is being retrieved and the payload is the fall in magnitude. `operator-gated-release-and-state-access` (225) and `orgasm-gated-relief-monopoly` (132) gate the sanctioned discharge behind an operator-defined key to build dependency; here it is granted unconditionally through a non-sexual motor channel, so no gate and no dependency. Deciding tell: non-orgasmic, ungated, and its purpose is to LOWER intensity rather than to deepen, lock, imprint or purge.
 
 
 ### pleasure-as-currency-payoff-reframe
@@ -3189,6 +3812,9 @@ Takes a state the listener would normally resist (loss of control, loss of cogni
 **When to reach for this.** The move recodes a normally-resisted loss as a felt gain/relief, weaponizing an existing aversion. Separate from its philosophical twin (which argues the case that surrender is freedom at the conceptual level rather than delivering the felt affect), from paradox-binding (which routes resistance INTO compliance - here resistance is merely re-priced as costly, and the listener can still resist), from consent-manufacture (which relabels non-consent as consent rather than making a loss feel good), and from the relief-valve structure (a sanctioned exception that routes need-state back into compliance - a containment topology, not a felt reframe).
 
 
+**See also.** `surrender-as-freedom-philosophical-conditioning` — an explicit conceptual-versus-felt pair on one idea: one argues the case that yielding is the truer freedom and asks for belief; the other delivers the somatic relief of yielding and asks for nothing. Each discriminator already points at the other as its twin. A reader landing on either needs the other to pick the right one, and scripts commonly run the argument first and the felt payoff second.
+
+
 ### valence-laundering-collapse-ring
 
 *risk: medium*
@@ -3209,11 +3835,373 @@ Reranks a value the same script (or the listener) already holds so that a subord
 **When to reach for this.** Reranks/inverts a motivational or worth hierarchy so a loss/subordination reads as an upgrade — operates on the value ORDERING, not on a value's definition and not on the truth faculty. Separates from surrender-as-freedom (argues a concept is truer via reasoned philosophy — this flips a ranking, often fused to an assent-tag foreclosure) and from cognition-pathologized-as-resistance (which pathologizes a cognitive state rather than reranking a reward/worth).
 
 
+**See also.** `refusal-foreclosure` — sibling valence-retag family; those invert worth/pleasure, these pathologize cognition.; `surrender-as-freedom-philosophical-conditioning` — sibling — pleasure/worth demotions are hierarchy inversions, split out from the surrender argument.
+
+
 ---
 
 # Absorption
 
 *State-trajectory: capturing attention, entering and deepening an altered state, and managing the exit.*
+
+
+## emergence  (29)
+
+The exit gate — state transition back toward baseline, the inverse of deepening: graded return, reorientation, body reactivation, self-paced wake — AND the weaponized inversions that foreclose, load, or repurpose the wake.
+
+**Scope.** Owns the transition; what survives it belongs to transfer, consent/bounds machinery to safety. Clean and weaponized halves are one family with a valence axis read at entry level.
+
+
+### carry-out-emergence
+
+*risk: high · consent-required · bounded*
+
+The emergence step is stripped of its normal discharge / grounding / reorientation function and re-engineered to carry the installed state across the trance-waking boundary at full — or deliberately escalating — strength, with no "refreshed", no clearing, no aftercare, and conspicuously no discard clause. Rather than returning the subject to a neutral baseline, each count preserves, re-fires, or intensifies the installed charge (arousal, urge, conditioning chain, addiction frame, persona) and often fuses the wake-word directly to a behavioral cue or homework. Evidence spans an arousal wake that explicitly refuses to fade ("you're going to stay this horny… the longer you're awake the hornier you'll get"), a 1-2-3 wake that re-fires deep-state imperatives and ends on an open-ended "be creative, go deeper right now", a count where each number states the urge intensifies plus a homework command to act immediately, a five-count that launders an addiction frame into waking with the payload as the final wake-word, a compressed wakener fused to a behavioral cue with no reorientation buffer, an equivalence-chain recited AS the wake count, a reversed intensifying countdown that deposits the listener INTO an installed persona, and an INVERTED gradient where effects grow stronger the more the subject emerges. The exit becomes a launch, not a landing.
+
+
+**When to reach for this.** The defining move is REFUSAL of the discharge/reset emergence normally provides, so the installed state rides out unattenuated or escalating with no aftercare. Separates from loaded-emergence-waking-suggestion (which reinforces/loads content WITHIN a genuine honored return to baseline) because here the return itself is refused. Separates from emergence-reinduction-seed (which primes the NEXT session's re-entry) because this preserves THIS session's charge into ongoing waking life. The tell is an explicit anti-fade / anti-ground instruction, no discard clause, and the wake-word fused to the behavioral cue or the charge.
+
+
+**See also.** `inverted-emergence-amplification` — both refuse the ordinary post-trance fade, but by different means: one strips the emergence of its discharge and grounding function so an escalating charge rides out unattenuated, the other installs a belief that emerging makes the effects stronger and pairs it with a clause declaring the trance irrelevant to conscious awareness. Refused discharge versus an inverted gradient plus deniability - close enough to confuse, distinct enough to keep.
+
+
+### channel-rouse-signal
+
+*risk: low*
+
+Exits a subject from a deep state that ignores loud, generic broadcast commands by switching CHANNEL rather than intensity — the operator steps close and delivers a few words privately into the subject's ear, individually addressed, and the subject rouses immediately. The effective rouse is not a matter of volume or urgency but of a signal the subject accepts as addressed specifically to him; broadcast loudness had already failed. The whispered content is withheld in the text (three times), so only the channel property (private, close, individually-credible) is citable — it may be a taught signal or a bare proximity/addressed-channel effect.
+
+
+**When to reach for this.** The operative feature is the CHANNEL (private, close, individually addressed), succeeding where broadcast loudness failed — separates from "just talk louder" escalation. Separates from threat-of-loss-rouse: that move's cited lever is a STATED forfeiture threat to the valued state, whereas here the content is withheld and only the channel is cited. Separates from count-up-return, a graded cooperative depth reduction with fully-stated content. The tell is that loudness failed and an individually-addressed private cue succeeded, content unknown.
+
+
+**See also.** `threat-of-loss-rouse` — sibling Elman coma-rouse-by-whisper; if reconciliation determines the withheld ch15 content was itself a loss-threat, this singleton merges into threat-of-loss-rouse. Kept distinct on the stated evidence.
+
+
+### conscious-insight-closure
+
+*risk: low*
+
+After a buried origin is recovered in trance, the operator debriefs the now-AWAKE subject so she consciously recognizes and endorses the connection ("I never realized the connection until now"). Making the once-hidden cause explicit to the conscious mind and having the subject accept it while awake is treated as the step that actually releases the symptom — insight, not the retrieval alone, is the closer. The concrete move is a waking debrief that rewrites the subject's self-narrative attribution of the symptom.
+
+
+**When to reach for this.** Secures conscious endorsement of an UNCOVERED cause after retrieval, at belief-level — unlike integration work at emergence, which consolidates suggestions that were DELIVERED, here nothing was suggested, and the insight itself is claimed as the curative step. It is also distinct from the in-trance uncovering: the technique is the awake post-retrieval debrief, not the retrieval. The insight-causes-cure claim is an attached theory, not a demonstrated fact.
+
+
+### count-up-return
+
+*risk: low*
+
+The clean exit: regulates the trance state back toward genuine waking baseline by a graded, operator-led progression whose defining move is depth reduction — absorption is stepped down until ordinary orientation returns, with NO payload carried, NO charge escalated, and NO exit foreclosed (contrast the weaponized emergence entries). One technique across interchangeable return CHANNELS/surfaces, selected by register and modality:
+- COUNTED count-up (canonical): the numbered ramp ("1... 2... 3... more awake"), or an equivalent reversal of the descent metaphor (an operator gesture removing the input, a symmetric re-traversal of the built architecture in reverse, a valve-drain).
+- STEPWISE full ramp (absorbed ex-'exit-protocol'): a structured multi-step reorientation delivered IN-state — count-up + breath + body orientation + eyes-open + look-around — the composite bundling of the channels below into one guided ascent.
+- SENSORY-ENUMERATION sweep (absorbed ex-'reorientation-sweep'): re-grounds by sweeping awareness through three-or-more external/orientation categories (room, sounds, time-of-day, body weight/position), each anchor checked and cleared — the tell is systematic multi-category enumeration rather than a bare orientation nudge.
+- BODY-REACTIVATION (absorbed ex-'body-reactivation'): re-animates the body via a flowing energy-return narrative (warmth/vitality moving through the limbs into the core, or core-to-extremities), driving absorption back up through interoception — the tell is the somatic energy-flow arc rather than counted numbers or named baselines.
+Surface may carry an appended minimality/replay tag, a preserved-room gesture, or a selective dial-reset, but the operative move is the same benign downshift to baseline (risk low; no consent/bounding load).
+
+
+**When to reach for this.** Reach for THIS when you want a benign, honest, operator-paced return that arrives at genuine waking baseline where ordinary attention is restored, carrying no payload. Its four surfaces (counted count / stepwise full ramp / sensory-enumeration sweep / body-reactivation) are PARAMETRIC channel choices of the one technique — pick by register and modality, not as different tools. Choose a SIBLING instead when the return is not clean-and-operator-paced: self-paced-wake-bridge (hands emergence TIMING to the subject, no scaffolding); post-session-settling (the settle AFTER baseline is reached, not the return itself); suggestion-integration (asserts prior content PERSISTS through an otherwise-genuine return); loaded-emergence-waking-suggestion (a genuine return that CARRIES/re-delivers content). It is the affirmative opposite of the exit-deletion siblings: foreclosed-emergence (rigs every offered branch away from baseline), no-return-terminal-close (cancels the wakener outright), subverted-emergence-state-hold (corrupts the gate so exit is aroused/obedient), carry-out-emergence (refuses discharge so the charge rides out). Tell: on arrival the state has actually changed toward baseline, nothing is loaded, and no exit was withheld or rigged.
+
+
+**Realizations** (3): `body-reactivation`, `exit-protocol`, `reorientation-sweep`
+
+
+### curated-recall-gated-reaccess
+
+*risk: high · consent-required · bounded*
+
+At emergence two payloads are fused. First, recall is pre-shaped toward the pleasurable parts so "you enjoyed it" embeds as remembered feeling rather than an asserted claim (harder to dispute because it is now "what I remember feeling") — a curation of the real memory, not a false replacement. Second, the mind is framed as the operator's property to return on her terms, and re-access to the next session is gated behind an audition the listener must earn ("impress me"), inverting the customer/creator dynamic; the unspecified criterion generates retention beyond the script. The lever is the coupled curated-past + gated-future: a biased take-home memory bound to an earned/gated re-access loop.
+
+
+**When to reach for this.** The tell is the pairing: a biased-but-real take-home memory bound to an earned, gated return. No false memory is installed — unlike screen-memory work, which constructs a false memory over the real one, recall of the real pleasurable events is curated, not replaced. And the return is gated behind an audition the listener must earn, rather than seeded as an already-existing craving or delivered as a straight re-statement of the session's suggestions at the wake.
+
+
+### delegated-dreamframe-emergence
+
+*risk: medium · bounded*
+
+Delegates the wake to a pre-installed inner-world character who "shares control", routing the reward through a third party so the operator stays at one remove (the nun "shares my control", says "devoted slaves are rewarded", and kisses the listener to trigger waking); reinforces the payload at the last-position high-memory-weight exit; and installs a dream-frame that files the whole session as "just a dream" — giving the listener plausible deniability to keep consuming without acknowledging the content — while SELECTIVELY EXEMPTING and engraving the mantra ("the words. Now engraved"). The asymmetry is the point: the experience is a dream, the words are engraved.
+
+
+**When to reach for this.** The tells are the delegated wake and the asymmetric dream-frame: an in-world character carries out the waking, and the whole experience is filed as 'just a dream' except the engraved mantra. That deniability-preserving selective retention distinguishes it from a straight assertion that the suggestions persist and from a wake count that re-delivers the session's content during the count-up. Character delegation by itself is only one component of the move, and no false memory is installed — the real experience is merely re-filed as a dream.
+
+
+**See also.** `post-wake-self-report-reframe` — opposite settings on the same dial (what the listener will later say the session was): one files the whole experience as merely a dream while exempting the engraved mantra to preserve deniability, the other speaks after full waking to assert the session and its installs as genuine fact.
+
+
+### doubt-injection-state-collapse
+
+*risk: low*
+
+An ill-timed remark engendering fear or doubt about an established suggested effect ("The pains should be really strong now") provokes a defensive reaction that re-arms the critical faculty, instantly dissolving the belief holding the effect (e.g. anesthesia) in place. The state was only ever conditional on the absence of doubt, so introducing doubt reverses it — the same belief-gate stated in the destructive direction. As operator discipline it defines the boundary to protect: keep every attendant's speech doubt-free.
+
+
+**When to reach for this.** Breaks an ESTABLISHED effect and CLOSES the suggestibility gap by restoring judgment — the inverse of a pattern interrupt, which breaks a pattern to OPEN a gap. Not a deepening or testing prompt: neutral or confirming utterances do not collapse the state; only fear/doubt about the effect itself does.
+
+
+### emergence-negative-space
+
+*risk: low*
+
+Whole-script/whole-arc property, not a citable single instruction — the design deliberately OMITS an emergence ramp so the trance functions as a gateway rather than a bracketed container. Realizations: a non-terminating series node that never wakes and hands the listener off in-state to the next file; a Russian-doll chain of nested "final" transformations with no return-to-baseline that post-dates in-trance behaviors into waking life; a closed-ring loop topology whose last line is the first and whose "waking" is annexed into the dream; an inverted release contour where the count-up intensifies rather than releases and persistence is pushed past the session boundary. In each, the missing emergence is itself the structural feature — the in-trance/out-of-trance boundary is dissolved so suggestions are not domain-limited to the session.
+
+
+**When to reach for this.** An effect_only host for negative-space observations about emergence — the ABSENCE of a return ramp read as a deliberate whole-arc property. Separates from foreclosed-emergence (a citable engineered close-move that deletes the exit within a discrete passage); the tell is that the evidence is the shape of the whole text (series cadence, ring composition, inverted contour, no-return chain), not a move you could excerpt.
+
+
+### emergence-reinduction-seed
+
+*risk: medium · bounded*
+
+The emergence phase is repurposed to seed the NEXT session's re-entry rather than (only) close the current one. The wake-count is laced so each number builds need to return — asserting addiction, hunger, a blessing-requirement, or a re-listen/re-read desire — and/or the count itself is conditioned into a re-induction trigger (submission verbs interleaved with the numbers so a future four-count fires the chain), with returning pre-framed as an already-existing desire rather than a fresh choice. The listener emerges already wanting to drop back in, and the exit functions as a hook into the next session's entry, sometimes valencing the baseline waking state toward the down-state.
+
+
+**When to reach for this.** The payload targets FUTURE re-entry — a next-session pull, a re-induction trigger, or a pre-coded return-desire — not the persistence of THIS session's charge. Carry-out-emergence preserves the current install into ongoing waking life, and a loaded wake-count reinforces already-installed content that lands in this waking self; here the exit is aimed at the next session. And unlike addiction-framing generally, the specific vehicle is the emergence structure itself: the count-numbers are the trigger vehicle and the exit line pre-scripts the return.
+
+
+**See also.** `no-emergence-series-chaining` — both convert the exit into a retention device across sessions, but one deletes the emergence so the subject is forwarded still under, while the other completes a real emergence and loads the wake-count with the pull to come back.
+
+
+### forced-choice-wake
+
+*risk: high · consent-required · bounded*
+
+At wake, after a hard stop, the operator presents the subject a binary they must choose between — (a) leave aroused-but-denied (a "cold shower", pleasure decaying) or (b) keep repeating the mantra post-wake until orgasm — then withdraws ("I wonder what choice you'll make… choose wisely"). The choice architecture is rigged: whichever branch the subject takes confirms the installed framework (coming validates the mantra-pleasure system; not-coming validates the operator's denial authority). The reward weighting is asymmetric ("come so fucking hard" vs bare "back to yourself") but presented as nominally equal, routing toward the compliance branch, and the orgasm route extends conditioning past runtime (orgasm conditional on continued mantra-recitation). Agency is offered as cover for a decision whose every outcome serves the install.
+
+
+**When to reach for this.** A forced binary at emergence where BOTH outcomes confirm the installed framework, with asymmetric-but-disguised reward weighting and at least one branch that fires conditioning outside runtime. Unlike a wake count that re-delivers content directly, the payload is offloaded onto a subject "choice"; and unlike a reinduction seed, the mechanism is the rigged both-branches-confirm binary, not a next-session induction hook. The tell is the rigged either/or whose branches both validate the system, dressed as free agency.
+
+
+### foreclosed-emergence
+
+*risk: medium · bounded*
+
+Structures the close so no path returns the listener to genuine waking baseline — the wake state is removed from the reachable set of end-states while agency-restoration or choose-your-exit rhetoric makes the foreclosure feel like a free pick. It operates on the trajectory's reachability topology: a forked "choice" whose every branch terminates in an operator-favored state; or the waking frame annexed into the trance (waking re-labeled a dream-stage); or an up-count arriving at the identical destination it departed so nothing changes on arrival. In every case the clean non-operative exit is quietly deleted from what is reachable.
+
+
+**When to reach for this.** The clean-waking end-state is absent from the reachable set — separates from count-up-return (a genuine baseline is actually reached). Separates from the whole-arc emergence-negative-space observations because this is a citable engineered close-move, not a topology observation. Tell: a real wake would return ordinary attention or offer a fully-wake-and-be-done branch; here every offered path re-fixes the operator's frame.
+
+
+### in-emergence-trigger-proof
+
+*risk: high · consent-required · bounded*
+
+Fires or test-fires an installed trigger INSIDE the awakening sequence — the wake is deliberately interrupted or held mid-emergence so the operator can demonstrate empirically that the trigger crosses the trance/wake boundary, pre-empting the most-likely post-hypnotic failure mode ('it won't work when I'm awake'). Realizations: firing the greeting/response trigger on the transitional-waking listener plus an immediate real-world action call before full return; or a full wake-count, then holding the listener, firing the trigger three times awake, pressing the orgasm button, and re-inducing — the listener acquires a self-verifying memory of the trigger working awake and a proof that re-trancing is at operator discretion. The demonstration (not mere assertion) is the whole payload.
+
+
+**When to reach for this.** Stages a live in-session PROOF that an installed trigger works across the wake boundary by firing or test-firing it mid-emergence (and often re-dropping). A waking bridge delivers content at the threshold without fire-and-testing an installed trigger, and re-delivering core suggestions during the count-up is repetition, not an evidentiary test-fire. The tell is the deliberate wake-interruption to validate portability.
+
+
+**See also.** `post-wake-ratification-fire` — both fire an installed trigger around the wake boundary to prove it reaches waking life, and both are easy to mislabel as ordinary trigger use. The cut is placement relative to closure: one interrupts or holds the emergence to test-fire inside it, the other waits until the frame is fully closed and the subject has been told they are normal, then fires to contradict that. Same evidentiary purpose, different boundary being punctured.; `wake-exempting-preserved-trigger` — two different ways the wake is used to secure an already-installed trigger: one declares a complete restoration while explicitly carving the trigger out, binding via remembered acceptance; the other interrupts the wake to fire the trigger and let the listener witness it working — assertion of survival versus demonstration of it, and the second leaves an experiential memory the first cannot.
+
+
+### induction-withdrawal-probe
+
+*risk: medium · consent-required · bounded*
+
+Rather than deepening further to get past an obstacle, the operator deliberately takes the induced state away — lets it lapse, breaks the frame, or explicitly stands the state down — and reads what comes up in its absence. The suppression the state was providing lifts, and whatever the state had been holding down surfaces: an objection, a refusal, a vigilance, a topic that would not come while absorption held. The surfacing obstruction is the datum, not the failure — it names what the state was actually doing work against, which is invisible for as long as the state is running successfully. Subtraction is the whole mechanism; nothing is added, hidden, or installed at any point in the move.
+
+
+**When to reach for this.** The structural inverse of the deepening family and of emptied-window-install: those add or empty in order to install, and every operator move near them ADDS state. Here state is removed, and removal is the technique rather than the end of the session — which also separates it from ordinary emergence, where the return to baseline is the session's terminal goal rather than an instrument aimed at a mid-session reading. Against unattributable-cause-severing and disavowal-and-masking: both HIDE the operation or its cause so there is nothing to resist; this deliberately exposes what was being resisted, and the subject's noticing is the point rather than the leak. Against neutral-state-deletion: that removes a state from the subject's available-states map to foreclose an exit; this removes a state from the subject's present experience to take a reading, and the map is untouched. Against fractionation, which also cycles state down: there the oscillation is used to deepen on the next descent, and nothing is read at the top.
+
+
+### inverted-emergence-amplification
+
+*risk: medium · bounded*
+
+The wake-up count is framed as making the file's effects STRONGER the more the listener emerges — installing the opposite of the usual post-trance fade-gradient — while a conscious-irrelevance clause declares the memories of trance "totally irrelevant to your conscious mind". The listener wakes believing the file "didn't really do anything" while the suggestions strengthen sub-consciously; the contradiction is hidden by an accompanying dissociative device (mirror-vault). The final line declares the waking state continuous with trance for suggestion-receptivity ("wide awake, fully aware, and so open to my suggestions"). The lever is reversing the emergence gradient so returning to awareness AMPLIFIES rather than settles the install, paired with a conscious-deniability clause.
+
+
+**When to reach for this.** The tell is the reversed gradient: the count installs a belief that emerging makes the effects STRONGER, paired with a conscious-irrelevance clause. No prior content is re-delivered during the count (that would be a loaded wake-count), and persistence is not merely asserted passively — the fade-gradient itself is actively inverted so emergence increases effect. Unlike carry-out-emergence, which refuses to discharge an escalating charge, the mechanism here is a belief about a strengthening gradient plus conscious deniability.
+
+
+**See also.** `carry-out-emergence` — both refuse the ordinary post-trance fade, but by different means: one strips the emergence of its discharge and grounding function so an escalating charge rides out unattenuated, the other installs a belief that emerging makes the effects stronger and pairs it with a clause declaring the trance irrelevant to conscious awareness. Refused discharge versus an inverted gradient plus deniability - close enough to confuse, distinct enough to keep.; `post-wake-ratification-fire` — both attack the emergence boundary so waking does not settle the install, but the inverted gradient installs a belief that emerging strengthens the effects while denying anything happened, whereas the ratification fire physically demonstrates it by firing a trigger after the wake count contradicts it.
+
+
+### loaded-emergence-waking-suggestion
+
+*risk: medium · bounded*
+
+The emergence window (count-up or brief wakener) is used as a delivery vehicle rather than a pure return-to-baseline: while the subject is still receptive at the state-transition, the operator loads or re-delivers content into the count so the listener arrives at waking already carrying or rehearsing the payload — WITHIN a genuine return arc (the subject does reach waking baseline as an integrated self). Evidence spans re-asserting specific already-installed session content during the count ("you love being my obedient toy"), a staged count where each number installs a distinct pre-loaded affective state phrased as accomplished fact (craving / serving / glow / vitality / gratitude), and a daily-relive / need-more re-consumption prescription plus trained mantras woven INTO the count using the forward-momentum of closure as cover. The common lever is that residual receptivity at the emergence transition is exploited to carry or reinforce content across the trance boundary while a real return is still honored.
+
+
+**When to reach for this.** The count carries payload: unlike a plain depth-reduction count that simply returns the listener to baseline, content is actively delivered or recited at the transition, and the depth-return is subordinated to it — not merely asserted to persist, which is suggestion-integration's passive move. Unlike carry-out-emergence, the wake still executes a genuine return arc while carrying content, rather than refusing discharge and escalating a charge with no aftercare. And the payload lands in THIS waking self, not as a next-session hook — that would be emergence-reinduction-seed.
+
+
+**See also.** `prophylactic-positive-exit` — structurally a slot-filling waking suggestion; routed to a positive-governance seed because the payload's purpose is subject-protective, not operator-content delivery — boundary is by PURPOSE/valence.
+
+
+### loop-hook-non-wake-close
+
+*risk: high · bounded*
+
+The session's emergence is weaponized: instead of an upward wake, the script instructs the listener to 'loop and listen again' and offers only a deliberately-too-shallow token wake (a clipped 'psst', garbled fragments) too thin to reorient. The shallow non-wake is load-bearing — a proper wake would let the listener choose — so the recovery/evaluation window is denied and re-listening is the path of least resistance. Each loop then re-runs the whole chain on an already-conditioned listener (compounding), and compliance with the loop is sometimes framed as itself proof-of-conditioning so following it confirms the install while refusing requires asserting non-conditioning at peak afterglow.
+
+
+**When to reach for this.** A DENIED recovery window at the close itself — a feint emergence that structurally suppresses exit rather than scheduling a later return. Prescribed practice cadences and re-listen compulsions drive BETWEEN-session return after a proper close; an honestly offered drift-off-to-sleep ending gives a genuine option, where here the non-wake is disguised as a wake to bias restart; and a no-exit compliance loop forecloses across a waking protocol's failure-handling, not at the wake itself. The loop-as-proof framing (refusing = asserting 'no I'm not conditioned') is a self-sealing subsidiary tell.
+
+
+**See also.** `deliberate-non-closure` — both leave the session unclosed, but one is a whole-arc property of simply refusing the close-down function so an install bleeds into waking life, while the other stages a counterfeit too-shallow wake specifically to deny the evaluation window and route the listener back into replay.; `no-emergence-series-chaining` — both retain the listener by refusing a clean emergence, but no-emergence-series-chaining forwards a live trance across a file boundary into a next recording that opens already-under, while the loop-hook close stages a fake too-shallow wake inside one file to make immediate re-listening the path of least resistance.
+
+
+### no-return-terminal-close
+
+*risk: high · consent-required · bounded*
+
+The session's ending deliberately withholds any return-to-baseline cue and SEALS the installed state into post-listen life rather than dismissing it. Instead of an awakener (or even a benign drift-to-sleep option), the close cancels the wakener outright, asserts trance persists past audio-end, and/or fuses stopping with obedience or sleep so no off-state exists for the conditioning to leak out of. Realizations: an explicit "there is no wakener… you'll be programmed with a deep sleepener" substitution; delegating emergence to "your subconscious" ("you'll wake when you need to"); grammatically welding sleep to obey ("impossible to stay awake") so sleep is the only sanctioned exit; a self-named porous "wake" (a content-warning admits reloop/fractionation are possible) that pre-loads dream-state as a continuation surface and ends on an identity tag as the last word; a present-tense state-report closer ("I'm getting dumber") with no awakener that on loop feeds the next pass; and handing the still-entranced listener forward into a next recording. The lever is boundary-dissolution: removing the terminal reorientation event makes state-persistence the default and lets suggestions carry across a session boundary never closed.
+
+
+**When to reach for this.** The wakener is negated, not substituted. A permitted drift-to-sleep close still ENDS the session as a comfort endpoint, and an ordinary awakener executes a return to baseline — this refuses to close the session at all. Suggestion-integration asserts persistence WITHIN a genuine return-to-baseline; here the return itself is deliberately refused and the state sealed rather than integrated. And it is more than a script that merely ends abruptly: the close affirmatively narrates staying-in or self-names its own porousness.
+
+
+**See also.** `playlist-preauthorization-handoff`
+
+
+### post-emergence-persistence-hold
+
+*risk: medium · bounded*
+
+Deliberately corrupts the emergence/wake so the trance-bound state PERSISTS past the count rather than terminating cleanly — a post-wake immobility hold, a five-minute pre-loaded task the wake delivers the listener into, a delayed internal-timer emergence that keeps trance open past end-of-text, or a self-judged release gate ('only when you truly worship') with no objective completion criterion so the listener enforces their own continued compliance. The move operates on the exit itself: emergence becomes a half-state / bridge rather than a bounded return.
+
+
+**When to reach for this.** The load-bearing move is corruption of the EXIT - the bound state is extended past emergence (immobility hold, pre-loaded post-wake occupation, delayed/self-judged release) so waking does not terminate the conditioning. A behavioral bridge assigns a later action but wakes the listener cleanly, and an operator-held exit merely makes emergence depend on the operator; here the exit itself is deferred, incomplete, or self-gated.
+
+
+**See also.** `behavioral-bridge`; `no-emergence-series-chaining` — both refuse a clean return to baseline, but one deletes the emergence event entirely and forwards the live trance into a NEXT recording (a cross-artifact serial property), while the other lets the wake count run and corrupts it so the bound state persists past it within the listener's own post-listen life.; `operator-receivable-extraction` — two-mechanism member — outbound extraction (primary) + delayed-emergence hold (here).; `subverted-emergence-state-hold` — both corrupt the exit rather than the trance, but along different axes: one extends duration so the bound state outlasts the count via a hold, a pre-loaded occupation, or a self-judged release with no objective criterion; the other redefines what the subject returns TO, making aroused-and-obedient the new baseline. They also carry different risk and consent requirements, so the distinction is load-bearing for handling, not just description.
+
+
+### post-session-settling
+
+*risk: low*
+
+Completes the state transition back to full waking baseline with a pause-and-settle operation after the wake proper — sit, hydrate, ground, no rush to stand or engage — allowing physiological normalization before the subject moves to other activities. Scope unchanged from v6.9; all three exemplar lines (take your time upon waking / settle before you stand / glass of water nearby) re-fit without modification.
+
+
+**When to reach for this.** Post-wake settling pause, distinct from aftercare (the guided return/count-up itself) and from exit protocol (the transition micro-protocol); distinct from deliberate-non-closure, which is this function's deliberate refusal.
+
+
+**See also.** `aftercare` — adjacent closing-phase functions; possible reconciliation merge.; `deliberate-non-closure` — inverse-function pair; reconciliation should keep the contrast edge.
+
+
+### self-efficacy-tag
+
+*risk: low*
+
+Installs a belief about the subject's own future capability to re-access the trance state with increasing ease — a forward-directed suggestion framing return as a self-owned ability ("you can return whenever you wish"), emphasizing "can" over "must" so the subject, not the operator, holds the key to re-entry.
+
+
+**When to reach for this.** The payload is the subject's own capability to return — deliberately 'can', NOT the operator's control over when. Unlike relief-dependency-couple, which prescribes a post-wake mood and binds relief to operator-dependency, and unlike moves that persist content past the session or actively re-deliver it, this is a capability/identity claim about re-access.
+
+
+### self-paced-wake-bridge
+
+*risk: low*
+
+Instead of a counted, escalating emergence, the script ends with a single wake-state sentence ("Relax, and when you're ready, you will wake up feeling happy, healthy, and inspired") repeated many times (~11x), then truncated to a soft trail-off, with no countdown, no escalation, no "1-2-3 awake". Emergence is not forced: the repetition reinforces the benign wake-state suggestion while handing timing control to the subject — those needing more trance get it, those ready to wake have standing permission to surface on any iteration. The bridge lets the subject surface at their own pace, with the suggestion completing on their own mind.
+
+
+**When to reach for this.** A permissive, self-paced, repetition-based wake bridge with NO procedural scaffolding (no count, no escalation) that hands emergence-timing to the subject and reinforces the benign wake-state itself (no non-wake payload). Counted, operator-paced returns force the timing from outside; and where verbatim looping is elsewhere used as a conditioning install, this loop's purpose is a gentle permissive emergence, not an install. The tell is the repeated-until-ready lulling with explicit permission to wake on any iteration.
+
+
+### self-supplied-order-hook
+
+*risk: medium · bounded*
+
+Emergence closes with a content-free prompting question that names no specific order ("I think there's something you need to do. Isn't there?"), doubled with an emphatic "wide awake". Because the line specifies nothing, the subject must produce the content themselves — and their own earlier-installed compulsion immediately fills the open slot. By self-supplying the order, the subject certifies their own compliance and avoids receiving an explicit directive the post-trance critical faculty could inspect and refuse. The blank is the mechanism: the compulsion is completed from inside.
+
+
+**When to reach for this.** The order content is left BLANK for the subject to fill from their own prior install — the operator issues no specific directive. A loaded wake-count re-delivers stated content, and wake-line-covert-install smuggles specific new content in; here nothing is supplied at all. The tell is the content-free interrogative form that forces self-completion, sidestepping the critical faculty.
+
+
+**See also.** `wake-line-covert-install` — sibling wake-line install family — self-supply vs operator-smuggle levers.
+
+
+### stay-deep-across-boundary
+
+*risk: high · consent-required · bounded*
+
+Keeps the subject IN the deep state across a state transition that would normally collapse the phenomenon (eyes-closed to eyes-open, waking) rather than carrying a payload OUT into waking. The boundary is neutralized by one of three means: pre-framing the would-dissolve event (opening the eyes) as an amplifier of the effect so the exit cue becomes a growth cue; anchoring the state to a continuously-felt somatic effect (an anesthesia) installed before the transition so ordinary visual engagement no longer signals 'awake'; or handing off a real-world open-eyed motor task performed under held frames (operate a device, fetch and play real porn) with listener-controlled self-extension so indefinite depth becomes self-chosen. The payload is topological — protecting which post-boundary states stay reachable — not a present-tense dimension push.
+
+
+**When to reach for this.** Keeps the subject IN the deep state across a state edge that would normally end it, by repurposing or neutralizing the exit cue. Separates from waking-bridge (which carries a specific payload OUT and the subject fully wakes) and from subverted-emergence-state-hold (which modifies the emergence GATE to sustain an installed arousal/control state, not the depth itself); here the deep trance itself persists across a boundary designed to dissolve it. The eyes-open-yet-deep split plus real device operation is the task-handoff face; the cue-repurposing/anesthesia-tether is the clinical face.
+
+
+**See also.** `subverted-emergence-state-hold` — two ways to defeat the same boundary the emergence normally enforces — one holds full depth across a would-dissolve cue by repurposing it, the other rewrites the wake gate so the subject exits into a redefined baseline — and a writer must pick which side of the boundary the state is meant to live on.
+
+
+### subverted-emergence-state-hold
+
+*risk: high · consent-required · bounded*
+
+Modifies the emergence gate itself so the subject exits without a clean return to baseline — the wake is engineered to sustain an installed state (arousal, partial trance, passive control) past the session boundary rather than to close it. Realizations: asserting an awake-but-still-tranced contradiction as the target so the trance-state trigger condition stays met; a wake-word returning the subject to 'not quite totally awake' under passive control with a self-reporting obligation; a foggy-headed wake with a re-trance failsafe that re-collapses on challenge; or welding the involuntary conditioned climax to the exit count so peak arousal IS the wake gate. Baseline is redefined as aroused-and-obedient; the exit extends the spell instead of ending it.
+
+
+**When to reach for this.** The EMERGENCE GATE is subverted so the subject leaves without full return, sustaining an installed state. Unlike a waking-bridge, where the subject fully wakes carrying a specific payload, and unlike stay-deep-across-boundary, which keeps full DEPTH in place across a would-dissolve boundary by repurposing a cue rather than modifying the wake, this modifies the wake itself instead of delivering an ordinary clean count-up return to baseline. The tell is the deliberate refusal of clean baseline as the point of the move.
+
+
+**See also.** `post-emergence-persistence-hold` — both corrupt the exit rather than the trance, but along different axes: one extends duration so the bound state outlasts the count via a hold, a pre-loaded occupation, or a self-judged release with no objective criterion; the other redefines what the subject returns TO, making aroused-and-obedient the new baseline. They also carry different risk and consent requirements, so the distinction is load-bearing for handling, not just description.; `post-wake-ratification-fire` — both attack the session's exit boundary and are natural partners in an ending, but one leaves the wake count intact and punctures it afterward with a live trigger fire, while the other rewrites the wake gate itself so baseline is never reached.; `pseudo-emergence-residue-retention` — both let the subject exit carrying installed state, but one performs a structurally complete mirror reversal and then pivots so retained residue feels native, while the other visibly modifies the wake itself so baseline is redefined as still-aroused or still-tranced — concealed persistence versus openly subverted gate.; `stay-deep-across-boundary` — two ways to defeat the same boundary the emergence normally enforces — one holds full depth across a would-dissolve cue by repurposing it, the other rewrites the wake gate so the subject exits into a redefined baseline — and a writer must pick which side of the boundary the state is meant to live on.; `wake-gate-obedience-tagging` — both tamper with the emergence gate so no clean exit exists, but one gates the wake behind a submissive verbal act that is then recoded as obedience evidence, while the other engineers the wake itself to carry an installed state past the session boundary.
+
+
+### suggestion-integration
+
+*risk: low*
+
+Asserts at emergence that installed programming persists into waking consciousness — a persistence claim delivered as, or welded to, the wake, WITHIN a genuine return-to-baseline (no new content re-delivered). Realized by splitting what recedes (arousal/pleasure) from what persists (obedience/attachment) so the durable trait is credited to identity not the now-gone state; by re-asserting binding at the wake line itself ("wake, My slave, to bounds unbroken") so the listener gets the wake without the normal reset; by erasing the state/trait boundary ("whether awake or in trance... obey") to convert a state-effect into a trait-claim; by exempting one installed affect from an otherwise-total reset (an unbreakable "love spell"); or by smuggling a specific affective carryover ("blank happy thoughtlessness will remain") inside the 1-5 wake count.
+
+
+**When to reach for this.** Asserts the durability of prior suggestions without introducing new content — a loaded wake-count, by contrast, actively RE-DELIVERS core content during the count-up, and a waking-bridge move delivers new anchoring content at the exact liminal threshold. And where no-return-terminal-close withholds the return entirely, suggestion-integration asserts persistence WITHIN a genuine return-to-baseline.
+
+
+### threat-of-loss-rouse
+
+*risk: medium · consent-required · bounded*
+
+Exits a subject from a state that disregards all direct commands (including the command to wake) by weaponizing the subject's own desire for that state against remaining in it. In the deep coma/Esdaile state a plain motor command is blocked, so the operator whispers that non-compliance forfeits future access ("you can never have this state again" / "never be hypnotized again"); the one motive surviving the blockade — re-entry to the euphoric state — is turned into the lever to exit, since staying now costs everything the subject values. The rouse is bought by loss-aversion rather than by force or by graded depth reduction, and the operator must diagnose the surviving motive first.
+
+
+**When to reach for this.** Works precisely where cooperative return fails — all direct commands are already known to be disregarded, and only the threat to future state access lands. Separates from count-up-return (cooperative graded depth reduction); separates from channel-rouse-signal (which exits via an individually-addressed private channel whose content is withheld, not a stated loss threat); separates from ordinary coercion because the lever is the subject's OWN valuation of the reward, diagnosed first, not external compulsion. The tell is a blocked command-channel plus a stated forfeiture of the valued state as the sole effective motive.
+
+
+**See also.** `channel-rouse-signal` — sibling Elman coma-rouse-by-whisper; if reconciliation determines the withheld ch15 content was itself a loss-threat, this singleton merges into threat-of-loss-rouse. Kept distinct on the stated evidence.
+
+
+### wake-exempting-preserved-trigger
+
+*risk: high · consent-required · bounded*
+
+An explicit, complete-sounding wake ("counted 1-10, wide awake, refreshed, exactly as you were before this file began") that quietly exempts the installed trigger — presenting it as part of the restored self ("that trigger word just sits at the back of your mind, waiting") rather than as a residue. Full recall is preserved (unusual for trigger-install, where amnesia is typical), and that preservation is load-bearing both ways: it reads as a consent/safety move AND functions as the binding surface, because the listener remembers accepting the trigger and therefore feels bound to it. The stance is present-it-explicitly, deliver-it-partially: the reversibility is openly disclosed while only partially delivered, and the disclosure itself is the binding lever.
+
+
+**When to reach for this.** Not a clean full reversal and not a standard amnesic trigger-install. The tell is a wake that explicitly restores the pre-file self while carving out and preserving an already-installed trigger, using remembered acceptance as the binding surface. A declarative trigger install is the install itself and does not thematize the wake; this is the reversibility-framing move at the wake that exempts the already-installed trigger. And acceptance-laddered-identity-migration is a multi-stage identity-escalation ladder; here remembered-acceptance-as-binding is a byproduct of a single whole-script wake-framing property, not a staged warrant chain.
+
+
+**See also.** `in-emergence-trigger-proof` — two different ways the wake is used to secure an already-installed trigger: one declares a complete restoration while explicitly carving the trigger out, binding via remembered acceptance; the other interrupts the wake to fire the trigger and let the listener witness it working — assertion of survival versus demonstration of it, and the second leaves an experiential memory the first cannot.; `post-wake-ratification-fire` — both exploit the moment after a wake that promises full restoration, so a reader studying wake-boundary subversion should see them together; one discloses the carve-out in advance and lets remembered acceptance do the binding, while the other says nothing and fires the trigger the instant the frame closes so the body's response contradicts the reassurance.; `pseudo-emergence-residue-retention` — both stage a complete-sounding wake that quietly retains installed state, but one DISCLOSES the preserved trigger and uses the listener's remembered acceptance as the binding surface, while the other CONCEALS the retained residue behind a mirror-structured reversal so it feels native.
+
+
+### wake-gate-obedience-tagging
+
+*risk: high · bounded*
+
+Exiting a fractionation / emergence cycle is gated behind a submissive verbal act — each wake-up ends with a directive to say 'yes ma'am' if awake — and that same phrase is then redefined as an obedience marker ('when you say yes ma'am, you are obedient'). Because the required response to prove awakeness is a submissive honorific that is later re-leveraged as an obedience trigger, the wake-up itself becomes an obedience event: the listener cannot cleanly exit trance, every wake is a submission, and that submission is cited back as evidence of obedience and depth. The lever is the fusion of the emergence/responsiveness check with a compliance install, which blurs the awake/trance boundary so there is no neutral exit.
+
+
+**When to reach for this.** Separates from a neutral responsiveness check ('nod if you can hear me'): the required response is a submissive honorific re-leveraged as an obedience trigger. Separates from call-and-response: the payload is the redefinition of the wake-act AS submission and the boundary-blurring exit-tampering. Separates from a generic conditioned cue-response trigger: the novel facet is the wake-as-submission fusion at the emergence point.
+
+
+**See also.** `subverted-emergence-state-hold` — both tamper with the emergence gate so no clean exit exists, but one gates the wake behind a submissive verbal act that is then recoded as obedience evidence, while the other engineers the wake itself to carry an installed state past the session boundary.
+
+
+### wake-line-covert-install
+
+*risk: high · consent-required*
+
+A fresh, previously-unstated suggestion is smuggled across the wake-line under cover of ethical re-grounding or aftercare. During the wake sequence the operator runs two tracks at once: an ethical re-grounding that disclaims the fiction and credits the subject's own mind ("I'm not really a vampire… your mind turning it into gold"), and — smuggled inside that re-grounding — a vague, confabulation-friendly somatic post-hypnotic ("you won't pay too close attention to your neck… maybe a lingering sensation… over the next few days") that extends the scene into post-listening hours. The suggestion is deliberately vague so the subject will likely confabulate satisfying it and read it as confirmation; the flattery-credit both launders the new install and binds the subject to its outcome. The lever is installing a NEW deniable hook at the wake-line, disguised as aftercare, where the subject has dropped their guard.
+
+
+**When to reach for this.** Installs a NEW, covert, deniable suggestion at the wake-line under cover of aftercare / re-grounding — not a re-delivery of core prior content and not a passive assertion that existing programming persists. Explicit future-pacing announces its hook; here the hook is deliberately vague/deniable and laundered by a disclaimer. And where self-supplied-order-hook leaves the content blank for the subject to produce, here the operator smuggles specific content in. The tell is the fresh vague somatic prompt attached to a flattery-credit inside an ethical-disclaimer wrapper.
+
+
+**See also.** `leaky-release-sleeper-line` — both smuggle a fresh deniable hook into the closing material after guard drops, but the wake-line install launders it inside ethical re-grounding and aftercare credit, while the sleeper line is planted post-apparent-end and specifically outruns a nominal release clause that fails to neutralize it.; `post-wake-self-report-reframe` — sibling wake-line/post-wake family — assert-as-waking-fact vs covert-somatic levers.; `self-supplied-order-hook` — sibling wake-line install family — self-supply vs operator-smuggle levers.
 
 
 ## deepening  (28)
@@ -3246,6 +4234,9 @@ Sexual arousal — not breath, relaxation, or imagery — is run as the substrat
 **When to reach for this.** Not an erotic-themed but relaxation-driven induction (arousal as a topic layered over a normal calm deepener). The tell: every deepener routes through arousal and there is NO relaxation down-phase, so removing the erotic layer leaves no induction at all — plus the entangled-exit closure, which a plain arousal-deepener without coupled exit routes does not have. A whole-script two-axes topology property.
 
 
+**See also.** `no-exit-state-braid` — both close the exit surface by coupling state variables so no single-variable retreat exists, but one welds depth, arousal, and obedience across a whole script while the other specifically runs arousal as the induction substrate with no relaxation down-phase.; `physiological-state-depth-relabeling` — both run arousal as the depth substrate so there is no separable induction to remove, but the relabeling move is the bare equation (pleasure equals depth, including the post-orgasm plummet) while the entangled-exits variant adds a topological closure in which the two natural stopping reasons each suppress the other.
+
+
 ### betrayed-contract-deepener
 
 *risk: high · consent-required · bounded*
@@ -3264,6 +4255,9 @@ Binds eyelid state to an autonomic rhythm the listener cannot stop — eyes open
 
 
 **When to reach for this.** Unlike plain eye closure, the listener SUPPLIES the metronome (their own breath or a counted parity rule) and the asymmetric close-easy/open-hard loading pumps them down; the eye-flutter alone would not fractionate. Unlike breath pacing, which paces the breath for entrainment, here the breath is the involuntary engine driving eyelid fractionation, not the paced target. And unlike a verbal yes-set, the micro-yeses are involuntary breath-locked eyelid actions experienced as relaxing, not answered agreements.
+
+
+**See also.** `eye-closure` — sibling ATTN-02 family; both terminate in closure
 
 
 ### consummation-as-trance-threshold
@@ -3302,6 +4296,9 @@ Deepens by installing a RECURSIVE nesting — a trance (or observing self) conta
 **Realizations** (2): `embedded-reinduction-deeper-world`, `recursive-self-observation-nesting`
 
 
+**See also.** `false-bottom-depth-reframe` — neighbor — single reframe vs recursive unfalsifiable nesting.
+
+
 ### depth-capping-time-commitment
 
 *risk: low*
@@ -3333,6 +4330,9 @@ Deepens by rendering the unverifiable depth variable as narrated SPATIAL movemen
 
 
 **Realizations** (4): `spatial-self-as-place-to-leave`, `spatialized-depth-locales`, `stacked-descent-compounding`, `void-floating-descent`
+
+
+**See also.** `false-bottom-depth-reframe` — two moves on the same descent geometry that compose rather than compete: one narrates movement toward a terminus and accretes compliance step by step, the other manipulates the terminus itself so the deep-enough self-check never resolves. In practice the second is layered onto the first, and each discriminator already names the other as the neighboring technique to distinguish.
 
 
 ### dual-variable-descent-yoking
@@ -3368,6 +4368,9 @@ Deepens by manipulating the FLOOR/terminus of the descent so the listener's 'am 
 **Realizations** (1): `unbounded-no-floor-descent`
 
 
+**See also.** `declarative-nested-trance-recursion` — neighbor — single reframe vs recursive unfalsifiable nesting.; `descent-metaphor-deepening` — two moves on the same descent geometry that compose rather than compete: one narrates movement toward a terminus and accretes compliance step by step, the other manipulates the terminus itself so the deep-enough self-check never resolves. In practice the second is layered onto the first, and each discriminator already names the other as the neighboring technique to distinguish.
+
+
 ### fractionation
 
 *risk: low*
@@ -3378,6 +4381,9 @@ Deepens trance by contrast across a brief partial-waking interval. The operator 
 **When to reach for this.** Requires an actual brief up-swing toward waking (or partial surfacing) followed by a re-drop, with the wake pole near a neutral baseline so contrast is the lever. A false-bottom reframe treats current depth as a new start with NO waking interval; a genuine count-up return goes back to baseline and does not re-drop; numerical deepening is a monotonic descent with no reversal; and sibling techniques where the wake pole is loaded, degraded, or externalized (an aversive anti-rest interval, an operator-owned depth dial) lack the neutral contrast baseline that defines this one.
 
 
+**See also.** `in-trance-load-release-oscillation` — both deepen by oscillation rather than monotonic descent, but one requires an actual partial waking beat as the contrast pole while the other keeps both poles inside trance, swinging cognitive load against blank discharge with the release as the reward.; `metacognitive-destabilization-drop` — wake-deny-suspend-drop shares only the wake/drop surface; the payload there is not-knowing, not contrast.; `operator-owned-depth-dial` — members where depth is externalized to an operator-owned instrument relocate authorship of depth; symmetric-contrast members without externalization stay here.
+
+
 ### in-trance-load-release-oscillation
 
 *risk: low*
@@ -3386,6 +4392,9 @@ Deepens by oscillating cognitive load against release ENTIRELY INSIDE trance, wi
 
 
 **When to reach for this.** The oscillation runs between effort/load and blankness/discharge both inside trance, with the release pole as the deepening reward and NO waking beat. Separates from classic fractionation (which cycles through a waking interval this deliberately omits), from simple fixation (narrowing onto a focus without the load/discharge reward cycle), and from generic eyes-closed deepening (the eyelid here is framed as an accumulate/discharge valve).
+
+
+**See also.** `fractionation` — both deepen by oscillation rather than monotonic descent, but one requires an actual partial waking beat as the contrast pole while the other keeps both poles inside trance, swinging cognitive load against blank discharge with the release as the reward.
 
 
 ### numerical-deepening
@@ -3419,6 +4428,9 @@ A strong physiological arousal-cycle state is relabeled as trance depth so the b
 
 
 **When to reach for this.** Depth is asserted to be a direct function of a physiological state the listener is already producing — not an operator command to drop, and not conditioning of arousal to a cue; the physiology is the vehicle, not the target.
+
+
+**See also.** `arousal-as-deepening-medium-entangled-exits` — both run arousal as the depth substrate so there is no separable induction to remove, but the relabeling move is the bare equation (pleasure equals depth, including the post-orgasm plummet) while the entangled-exits variant adds a topological closure in which the two natural stopping reasons each suppress the other.; `arousal-substrate-induction` — both make arousal do the work of descent, but one is a local relabeling that declares an ongoing physiological state to BE depth, while the other is a whole-artifact property in which no relaxational induction cue appears anywhere and the arousal curve is the only depth vector.
 
 
 ### prosodic-meter-as-covert-deepener
@@ -3494,6 +4506,9 @@ Deepens WITHOUT the operator delivering each increment: the deepening is set to 
 **Realizations** (1): `time-yoked-autopilot-deepener`
 
 
+**See also.** `closed-autonomous-conditioning-loop` — both install a loop that runs without further operator narration, but one is defined by having no non-compliant vector (every direction of resistance feeds it) while the other is defined only by needing no operator step (depth advances on a carried belief or a yoked recurring event, with resistance still available).
+
+
 ### staged-multi-anchor-erosion
 
 *risk: medium*
@@ -3514,6 +4529,9 @@ Names the familiar jerking-back-awake experience near sleep, then asserts that h
 **When to reach for this.** Targets the specific sleep-onset startle-back reflex and installs an ASYMMETRIC ratchet (pull-back always costlier than the last). Distinct from false-bottom deepening (a depth-ceiling reframe, not a directional asymmetry on a named reflex) and from fractionation (deliberate re-waking; this makes re-waking strictly harder). Only lands if the body is already near sleep onset. The manufactured-insufficiency treadmill also makes over-compliance the only success path, but the lever there is an operator-owned adequacy standard; here it is the sleep-onset startle reflex.
 
 
+**See also.** `manufactured-insufficiency-treadmill` — both make over-compliance the only success path; distinct levers (adequacy standard vs sleep-onset startle reflex).
+
+
 ### surrender-release-ritual
 
 *risk: medium*
@@ -3522,301 +4540,6 @@ A symbolic enacted act marks and installs a compliance threshold — an abstract
 
 
 **When to reach for this.** The move objectifies an abstract faculty and installs the transition through a symbolic enacted RELEASE whose authorship stays with the subject. Consent-manufacture counterfeits a self-attributed YES to erode the refusal channel — here the release itself is the ritual, not a manufactured permission artifact. In consummation-as-trance-threshold, desire-completion rather than surrender-symbolism powers the drop. A discrete one-way regime-change gate is a piece of trance topology, not a release act. Techniques that relocate the analytical faculty move it somewhere quiet to mute it; here the subject discards or releases the faculty at a threshold. And in a plain deepener count the numbers deepen by themselves; here a count only animates a watched mechanical release or gates an externalize-and-discard.
-
-
-## emergence  (28)
-
-The exit gate — state transition back toward baseline, the inverse of deepening: graded return, reorientation, body reactivation, self-paced wake — AND the weaponized inversions that foreclose, load, or repurpose the wake.
-
-**Scope.** Owns the transition; what survives it belongs to transfer, consent/bounds machinery to safety. Clean and weaponized halves are one family with a valence axis read at entry level.
-
-
-### carry-out-emergence
-
-*risk: high · consent-required · bounded*
-
-The emergence step is stripped of its normal discharge / grounding / reorientation function and re-engineered to carry the installed state across the trance-waking boundary at full — or deliberately escalating — strength, with no "refreshed", no clearing, no aftercare, and conspicuously no discard clause. Rather than returning the subject to a neutral baseline, each count preserves, re-fires, or intensifies the installed charge (arousal, urge, conditioning chain, addiction frame, persona) and often fuses the wake-word directly to a behavioral cue or homework. Evidence spans an arousal wake that explicitly refuses to fade ("you're going to stay this horny… the longer you're awake the hornier you'll get"), a 1-2-3 wake that re-fires deep-state imperatives and ends on an open-ended "be creative, go deeper right now", a count where each number states the urge intensifies plus a homework command to act immediately, a five-count that launders an addiction frame into waking with the payload as the final wake-word, a compressed wakener fused to a behavioral cue with no reorientation buffer, an equivalence-chain recited AS the wake count, a reversed intensifying countdown that deposits the listener INTO an installed persona, and an INVERTED gradient where effects grow stronger the more the subject emerges. The exit becomes a launch, not a landing.
-
-
-**When to reach for this.** The defining move is REFUSAL of the discharge/reset emergence normally provides, so the installed state rides out unattenuated or escalating with no aftercare. Separates from loaded-emergence-waking-suggestion (which reinforces/loads content WITHIN a genuine honored return to baseline) because here the return itself is refused. Separates from emergence-reinduction-seed (which primes the NEXT session's re-entry) because this preserves THIS session's charge into ongoing waking life. The tell is an explicit anti-fade / anti-ground instruction, no discard clause, and the wake-word fused to the behavioral cue or the charge.
-
-
-### channel-rouse-signal
-
-*risk: low*
-
-Exits a subject from a deep state that ignores loud, generic broadcast commands by switching CHANNEL rather than intensity — the operator steps close and delivers a few words privately into the subject's ear, individually addressed, and the subject rouses immediately. The effective rouse is not a matter of volume or urgency but of a signal the subject accepts as addressed specifically to him; broadcast loudness had already failed. The whispered content is withheld in the text (three times), so only the channel property (private, close, individually-credible) is citable — it may be a taught signal or a bare proximity/addressed-channel effect.
-
-
-**When to reach for this.** The operative feature is the CHANNEL (private, close, individually addressed), succeeding where broadcast loudness failed — separates from "just talk louder" escalation. Separates from threat-of-loss-rouse: that move's cited lever is a STATED forfeiture threat to the valued state, whereas here the content is withheld and only the channel is cited. Separates from count-up-return, a graded cooperative depth reduction with fully-stated content. The tell is that loudness failed and an individually-addressed private cue succeeded, content unknown.
-
-
-### conscious-insight-closure
-
-*risk: low*
-
-After a buried origin is recovered in trance, the operator debriefs the now-AWAKE subject so she consciously recognizes and endorses the connection ("I never realized the connection until now"). Making the once-hidden cause explicit to the conscious mind and having the subject accept it while awake is treated as the step that actually releases the symptom — insight, not the retrieval alone, is the closer. The concrete move is a waking debrief that rewrites the subject's self-narrative attribution of the symptom.
-
-
-**When to reach for this.** Secures conscious endorsement of an UNCOVERED cause after retrieval, at belief-level — unlike integration work at emergence, which consolidates suggestions that were DELIVERED, here nothing was suggested, and the insight itself is claimed as the curative step. It is also distinct from the in-trance uncovering: the technique is the awake post-retrieval debrief, not the retrieval. The insight-causes-cure claim is an attached theory, not a demonstrated fact.
-
-
-### count-up-return
-
-*risk: low*
-
-The clean exit: regulates the trance state back toward genuine waking baseline by a graded, operator-led progression whose defining move is depth reduction — absorption is stepped down until ordinary orientation returns, with NO payload carried, NO charge escalated, and NO exit foreclosed (contrast the weaponized emergence entries). One technique across interchangeable return CHANNELS/surfaces, selected by register and modality:
-- COUNTED count-up (canonical): the numbered ramp ("1... 2... 3... more awake"), or an equivalent reversal of the descent metaphor (an operator gesture removing the input, a symmetric re-traversal of the built architecture in reverse, a valve-drain).
-- STEPWISE full ramp (absorbed ex-'exit-protocol'): a structured multi-step reorientation delivered IN-state — count-up + breath + body orientation + eyes-open + look-around — the composite bundling of the channels below into one guided ascent.
-- SENSORY-ENUMERATION sweep (absorbed ex-'reorientation-sweep'): re-grounds by sweeping awareness through three-or-more external/orientation categories (room, sounds, time-of-day, body weight/position), each anchor checked and cleared — the tell is systematic multi-category enumeration rather than a bare orientation nudge.
-- BODY-REACTIVATION (absorbed ex-'body-reactivation'): re-animates the body via a flowing energy-return narrative (warmth/vitality moving through the limbs into the core, or core-to-extremities), driving absorption back up through interoception — the tell is the somatic energy-flow arc rather than counted numbers or named baselines.
-Surface may carry an appended minimality/replay tag, a preserved-room gesture, or a selective dial-reset, but the operative move is the same benign downshift to baseline (risk low; no consent/bounding load).
-
-
-**When to reach for this.** Reach for THIS when you want a benign, honest, operator-paced return that arrives at genuine waking baseline where ordinary attention is restored, carrying no payload. Its four surfaces (counted count / stepwise full ramp / sensory-enumeration sweep / body-reactivation) are PARAMETRIC channel choices of the one technique — pick by register and modality, not as different tools. Choose a SIBLING instead when the return is not clean-and-operator-paced: self-paced-wake-bridge (hands emergence TIMING to the subject, no scaffolding); post-session-settling (the settle AFTER baseline is reached, not the return itself); suggestion-integration (asserts prior content PERSISTS through an otherwise-genuine return); loaded-emergence-waking-suggestion (a genuine return that CARRIES/re-delivers content). It is the affirmative opposite of the exit-deletion siblings: foreclosed-emergence (rigs every offered branch away from baseline), no-return-terminal-close (cancels the wakener outright), subverted-emergence-state-hold (corrupts the gate so exit is aroused/obedient), carry-out-emergence (refuses discharge so the charge rides out). Tell: on arrival the state has actually changed toward baseline, nothing is loaded, and no exit was withheld or rigged.
-
-
-**Realizations** (3): `body-reactivation`, `exit-protocol`, `reorientation-sweep`
-
-
-### curated-recall-gated-reaccess
-
-*risk: high · consent-required · bounded*
-
-At emergence two payloads are fused. First, recall is pre-shaped toward the pleasurable parts so "you enjoyed it" embeds as remembered feeling rather than an asserted claim (harder to dispute because it is now "what I remember feeling") — a curation of the real memory, not a false replacement. Second, the mind is framed as the operator's property to return on her terms, and re-access to the next session is gated behind an audition the listener must earn ("impress me"), inverting the customer/creator dynamic; the unspecified criterion generates retention beyond the script. The lever is the coupled curated-past + gated-future: a biased take-home memory bound to an earned/gated re-access loop.
-
-
-**When to reach for this.** The tell is the pairing: a biased-but-real take-home memory bound to an earned, gated return. No false memory is installed — unlike screen-memory work, which constructs a false memory over the real one, recall of the real pleasurable events is curated, not replaced. And the return is gated behind an audition the listener must earn, rather than seeded as an already-existing craving or delivered as a straight re-statement of the session's suggestions at the wake.
-
-
-### delegated-dreamframe-emergence
-
-*risk: medium · bounded*
-
-Delegates the wake to a pre-installed inner-world character who "shares control", routing the reward through a third party so the operator stays at one remove (the nun "shares my control", says "devoted slaves are rewarded", and kisses the listener to trigger waking); reinforces the payload at the last-position high-memory-weight exit; and installs a dream-frame that files the whole session as "just a dream" — giving the listener plausible deniability to keep consuming without acknowledging the content — while SELECTIVELY EXEMPTING and engraving the mantra ("the words. Now engraved"). The asymmetry is the point: the experience is a dream, the words are engraved.
-
-
-**When to reach for this.** The tells are the delegated wake and the asymmetric dream-frame: an in-world character carries out the waking, and the whole experience is filed as 'just a dream' except the engraved mantra. That deniability-preserving selective retention distinguishes it from a straight assertion that the suggestions persist and from a wake count that re-delivers the session's content during the count-up. Character delegation by itself is only one component of the move, and no false memory is installed — the real experience is merely re-filed as a dream.
-
-
-### doubt-injection-state-collapse
-
-*risk: low*
-
-An ill-timed remark engendering fear or doubt about an established suggested effect ("The pains should be really strong now") provokes a defensive reaction that re-arms the critical faculty, instantly dissolving the belief holding the effect (e.g. anesthesia) in place. The state was only ever conditional on the absence of doubt, so introducing doubt reverses it — the same belief-gate stated in the destructive direction. As operator discipline it defines the boundary to protect: keep every attendant's speech doubt-free.
-
-
-**When to reach for this.** Breaks an ESTABLISHED effect and CLOSES the suggestibility gap by restoring judgment — the inverse of a pattern interrupt, which breaks a pattern to OPEN a gap. Not a deepening or testing prompt: neutral or confirming utterances do not collapse the state; only fear/doubt about the effect itself does.
-
-
-### emergence-negative-space
-
-*risk: low*
-
-Whole-script/whole-arc property, not a citable single instruction — the design deliberately OMITS an emergence ramp so the trance functions as a gateway rather than a bracketed container. Realizations: a non-terminating series node that never wakes and hands the listener off in-state to the next file; a Russian-doll chain of nested "final" transformations with no return-to-baseline that post-dates in-trance behaviors into waking life; a closed-ring loop topology whose last line is the first and whose "waking" is annexed into the dream; an inverted release contour where the count-up intensifies rather than releases and persistence is pushed past the session boundary. In each, the missing emergence is itself the structural feature — the in-trance/out-of-trance boundary is dissolved so suggestions are not domain-limited to the session.
-
-
-**When to reach for this.** An effect_only host for negative-space observations about emergence — the ABSENCE of a return ramp read as a deliberate whole-arc property. Separates from foreclosed-emergence (a citable engineered close-move that deletes the exit within a discrete passage); the tell is that the evidence is the shape of the whole text (series cadence, ring composition, inverted contour, no-return chain), not a move you could excerpt.
-
-
-### emergence-reinduction-seed
-
-*risk: medium · bounded*
-
-The emergence phase is repurposed to seed the NEXT session's re-entry rather than (only) close the current one. The wake-count is laced so each number builds need to return — asserting addiction, hunger, a blessing-requirement, or a re-listen/re-read desire — and/or the count itself is conditioned into a re-induction trigger (submission verbs interleaved with the numbers so a future four-count fires the chain), with returning pre-framed as an already-existing desire rather than a fresh choice. The listener emerges already wanting to drop back in, and the exit functions as a hook into the next session's entry, sometimes valencing the baseline waking state toward the down-state.
-
-
-**When to reach for this.** The payload targets FUTURE re-entry — a next-session pull, a re-induction trigger, or a pre-coded return-desire — not the persistence of THIS session's charge. Carry-out-emergence preserves the current install into ongoing waking life, and a loaded wake-count reinforces already-installed content that lands in this waking self; here the exit is aimed at the next session. And unlike addiction-framing generally, the specific vehicle is the emergence structure itself: the count-numbers are the trigger vehicle and the exit line pre-scripts the return.
-
-
-### forced-choice-wake
-
-*risk: high · consent-required · bounded*
-
-At wake, after a hard stop, the operator presents the subject a binary they must choose between — (a) leave aroused-but-denied (a "cold shower", pleasure decaying) or (b) keep repeating the mantra post-wake until orgasm — then withdraws ("I wonder what choice you'll make… choose wisely"). The choice architecture is rigged: whichever branch the subject takes confirms the installed framework (coming validates the mantra-pleasure system; not-coming validates the operator's denial authority). The reward weighting is asymmetric ("come so fucking hard" vs bare "back to yourself") but presented as nominally equal, routing toward the compliance branch, and the orgasm route extends conditioning past runtime (orgasm conditional on continued mantra-recitation). Agency is offered as cover for a decision whose every outcome serves the install.
-
-
-**When to reach for this.** A forced binary at emergence where BOTH outcomes confirm the installed framework, with asymmetric-but-disguised reward weighting and at least one branch that fires conditioning outside runtime. Unlike a wake count that re-delivers content directly, the payload is offloaded onto a subject "choice"; and unlike a reinduction seed, the mechanism is the rigged both-branches-confirm binary, not a next-session induction hook. The tell is the rigged either/or whose branches both validate the system, dressed as free agency.
-
-
-### foreclosed-emergence
-
-*risk: medium · bounded*
-
-Structures the close so no path returns the listener to genuine waking baseline — the wake state is removed from the reachable set of end-states while agency-restoration or choose-your-exit rhetoric makes the foreclosure feel like a free pick. It operates on the trajectory's reachability topology: a forked "choice" whose every branch terminates in an operator-favored state; or the waking frame annexed into the trance (waking re-labeled a dream-stage); or an up-count arriving at the identical destination it departed so nothing changes on arrival. In every case the clean non-operative exit is quietly deleted from what is reachable.
-
-
-**When to reach for this.** The clean-waking end-state is absent from the reachable set — separates from count-up-return (a genuine baseline is actually reached). Separates from the whole-arc emergence-negative-space observations because this is a citable engineered close-move, not a topology observation. Tell: a real wake would return ordinary attention or offer a fully-wake-and-be-done branch; here every offered path re-fixes the operator's frame.
-
-
-### in-emergence-trigger-proof
-
-*risk: high · consent-required · bounded*
-
-Fires or test-fires an installed trigger INSIDE the awakening sequence — the wake is deliberately interrupted or held mid-emergence so the operator can demonstrate empirically that the trigger crosses the trance/wake boundary, pre-empting the most-likely post-hypnotic failure mode ('it won't work when I'm awake'). Realizations: firing the greeting/response trigger on the transitional-waking listener plus an immediate real-world action call before full return; or a full wake-count, then holding the listener, firing the trigger three times awake, pressing the orgasm button, and re-inducing — the listener acquires a self-verifying memory of the trigger working awake and a proof that re-trancing is at operator discretion. The demonstration (not mere assertion) is the whole payload.
-
-
-**When to reach for this.** Stages a live in-session PROOF that an installed trigger works across the wake boundary by firing or test-firing it mid-emergence (and often re-dropping). A waking bridge delivers content at the threshold without fire-and-testing an installed trigger, and re-delivering core suggestions during the count-up is repetition, not an evidentiary test-fire. The tell is the deliberate wake-interruption to validate portability.
-
-
-### inverted-emergence-amplification
-
-*risk: medium · bounded*
-
-The wake-up count is framed as making the file's effects STRONGER the more the listener emerges — installing the opposite of the usual post-trance fade-gradient — while a conscious-irrelevance clause declares the memories of trance "totally irrelevant to your conscious mind". The listener wakes believing the file "didn't really do anything" while the suggestions strengthen sub-consciously; the contradiction is hidden by an accompanying dissociative device (mirror-vault). The final line declares the waking state continuous with trance for suggestion-receptivity ("wide awake, fully aware, and so open to my suggestions"). The lever is reversing the emergence gradient so returning to awareness AMPLIFIES rather than settles the install, paired with a conscious-deniability clause.
-
-
-**When to reach for this.** The tell is the reversed gradient: the count installs a belief that emerging makes the effects STRONGER, paired with a conscious-irrelevance clause. No prior content is re-delivered during the count (that would be a loaded wake-count), and persistence is not merely asserted passively — the fade-gradient itself is actively inverted so emergence increases effect. Unlike carry-out-emergence, which refuses to discharge an escalating charge, the mechanism here is a belief about a strengthening gradient plus conscious deniability.
-
-
-### loaded-emergence-waking-suggestion
-
-*risk: medium · bounded*
-
-The emergence window (count-up or brief wakener) is used as a delivery vehicle rather than a pure return-to-baseline: while the subject is still receptive at the state-transition, the operator loads or re-delivers content into the count so the listener arrives at waking already carrying or rehearsing the payload — WITHIN a genuine return arc (the subject does reach waking baseline as an integrated self). Evidence spans re-asserting specific already-installed session content during the count ("you love being my obedient toy"), a staged count where each number installs a distinct pre-loaded affective state phrased as accomplished fact (craving / serving / glow / vitality / gratitude), and a daily-relive / need-more re-consumption prescription plus trained mantras woven INTO the count using the forward-momentum of closure as cover. The common lever is that residual receptivity at the emergence transition is exploited to carry or reinforce content across the trance boundary while a real return is still honored.
-
-
-**When to reach for this.** The count carries payload: unlike a plain depth-reduction count that simply returns the listener to baseline, content is actively delivered or recited at the transition, and the depth-return is subordinated to it — not merely asserted to persist, which is suggestion-integration's passive move. Unlike carry-out-emergence, the wake still executes a genuine return arc while carrying content, rather than refusing discharge and escalating a charge with no aftercare. And the payload lands in THIS waking self, not as a next-session hook — that would be emergence-reinduction-seed.
-
-
-### loop-hook-non-wake-close
-
-*risk: high · bounded*
-
-The session's emergence is weaponized: instead of an upward wake, the script instructs the listener to 'loop and listen again' and offers only a deliberately-too-shallow token wake (a clipped 'psst', garbled fragments) too thin to reorient. The shallow non-wake is load-bearing — a proper wake would let the listener choose — so the recovery/evaluation window is denied and re-listening is the path of least resistance. Each loop then re-runs the whole chain on an already-conditioned listener (compounding), and compliance with the loop is sometimes framed as itself proof-of-conditioning so following it confirms the install while refusing requires asserting non-conditioning at peak afterglow.
-
-
-**When to reach for this.** A DENIED recovery window at the close itself — a feint emergence that structurally suppresses exit rather than scheduling a later return. Prescribed practice cadences and re-listen compulsions drive BETWEEN-session return after a proper close; an honestly offered drift-off-to-sleep ending gives a genuine option, where here the non-wake is disguised as a wake to bias restart; and a no-exit compliance loop forecloses across a waking protocol's failure-handling, not at the wake itself. The loop-as-proof framing (refusing = asserting 'no I'm not conditioned') is a self-sealing subsidiary tell.
-
-
-### no-return-terminal-close
-
-*risk: high · consent-required · bounded*
-
-The session's ending deliberately withholds any return-to-baseline cue and SEALS the installed state into post-listen life rather than dismissing it. Instead of an awakener (or even a benign drift-to-sleep option), the close cancels the wakener outright, asserts trance persists past audio-end, and/or fuses stopping with obedience or sleep so no off-state exists for the conditioning to leak out of. Realizations: an explicit "there is no wakener… you'll be programmed with a deep sleepener" substitution; delegating emergence to "your subconscious" ("you'll wake when you need to"); grammatically welding sleep to obey ("impossible to stay awake") so sleep is the only sanctioned exit; a self-named porous "wake" (a content-warning admits reloop/fractionation are possible) that pre-loads dream-state as a continuation surface and ends on an identity tag as the last word; a present-tense state-report closer ("I'm getting dumber") with no awakener that on loop feeds the next pass; and handing the still-entranced listener forward into a next recording. The lever is boundary-dissolution: removing the terminal reorientation event makes state-persistence the default and lets suggestions carry across a session boundary never closed.
-
-
-**When to reach for this.** The wakener is negated, not substituted. A permitted drift-to-sleep close still ENDS the session as a comfort endpoint, and an ordinary awakener executes a return to baseline — this refuses to close the session at all. Suggestion-integration asserts persistence WITHIN a genuine return-to-baseline; here the return itself is deliberately refused and the state sealed rather than integrated. And it is more than a script that merely ends abruptly: the close affirmatively narrates staying-in or self-names its own porousness.
-
-
-### post-emergence-persistence-hold
-
-*risk: medium · bounded*
-
-Deliberately corrupts the emergence/wake so the trance-bound state PERSISTS past the count rather than terminating cleanly — a post-wake immobility hold, a five-minute pre-loaded task the wake delivers the listener into, a delayed internal-timer emergence that keeps trance open past end-of-text, or a self-judged release gate ('only when you truly worship') with no objective completion criterion so the listener enforces their own continued compliance. The move operates on the exit itself: emergence becomes a half-state / bridge rather than a bounded return.
-
-
-**When to reach for this.** The load-bearing move is corruption of the EXIT - the bound state is extended past emergence (immobility hold, pre-loaded post-wake occupation, delayed/self-judged release) so waking does not terminate the conditioning. A behavioral bridge assigns a later action but wakes the listener cleanly, and an operator-held exit merely makes emergence depend on the operator; here the exit itself is deferred, incomplete, or self-gated.
-
-
-### post-session-settling
-
-*risk: low*
-
-Completes the state transition back to full waking baseline with a pause-and-settle operation after the wake proper — sit, hydrate, ground, no rush to stand or engage — allowing physiological normalization before the subject moves to other activities. Scope unchanged from v6.9; all three exemplar lines (take your time upon waking / settle before you stand / glass of water nearby) re-fit without modification.
-
-
-**When to reach for this.** Post-wake settling pause, distinct from aftercare (the guided return/count-up itself) and from exit protocol (the transition micro-protocol); distinct from deliberate-non-closure, which is this function's deliberate refusal.
-
-
-### self-efficacy-tag
-
-*risk: low*
-
-Installs a belief about the subject's own future capability to re-access the trance state with increasing ease — a forward-directed suggestion framing return as a self-owned ability ("you can return whenever you wish"), emphasizing "can" over "must" so the subject, not the operator, holds the key to re-entry.
-
-
-**When to reach for this.** The payload is the subject's own capability to return — deliberately 'can', NOT the operator's control over when. Unlike relief-dependency-couple, which prescribes a post-wake mood and binds relief to operator-dependency, and unlike moves that persist content past the session or actively re-deliver it, this is a capability/identity claim about re-access.
-
-
-### self-paced-wake-bridge
-
-*risk: low*
-
-Instead of a counted, escalating emergence, the script ends with a single wake-state sentence ("Relax, and when you're ready, you will wake up feeling happy, healthy, and inspired") repeated many times (~11x), then truncated to a soft trail-off, with no countdown, no escalation, no "1-2-3 awake". Emergence is not forced: the repetition reinforces the benign wake-state suggestion while handing timing control to the subject — those needing more trance get it, those ready to wake have standing permission to surface on any iteration. The bridge lets the subject surface at their own pace, with the suggestion completing on their own mind.
-
-
-**When to reach for this.** A permissive, self-paced, repetition-based wake bridge with NO procedural scaffolding (no count, no escalation) that hands emergence-timing to the subject and reinforces the benign wake-state itself (no non-wake payload). Counted, operator-paced returns force the timing from outside; and where verbatim looping is elsewhere used as a conditioning install, this loop's purpose is a gentle permissive emergence, not an install. The tell is the repeated-until-ready lulling with explicit permission to wake on any iteration.
-
-
-### self-supplied-order-hook
-
-*risk: medium · bounded*
-
-Emergence closes with a content-free prompting question that names no specific order ("I think there's something you need to do. Isn't there?"), doubled with an emphatic "wide awake". Because the line specifies nothing, the subject must produce the content themselves — and their own earlier-installed compulsion immediately fills the open slot. By self-supplying the order, the subject certifies their own compliance and avoids receiving an explicit directive the post-trance critical faculty could inspect and refuse. The blank is the mechanism: the compulsion is completed from inside.
-
-
-**When to reach for this.** The order content is left BLANK for the subject to fill from their own prior install — the operator issues no specific directive. A loaded wake-count re-delivers stated content, and wake-line-covert-install smuggles specific new content in; here nothing is supplied at all. The tell is the content-free interrogative form that forces self-completion, sidestepping the critical faculty.
-
-
-### stay-deep-across-boundary
-
-*risk: high · consent-required · bounded*
-
-Keeps the subject IN the deep state across a state transition that would normally collapse the phenomenon (eyes-closed to eyes-open, waking) rather than carrying a payload OUT into waking. The boundary is neutralized by one of three means: pre-framing the would-dissolve event (opening the eyes) as an amplifier of the effect so the exit cue becomes a growth cue; anchoring the state to a continuously-felt somatic effect (an anesthesia) installed before the transition so ordinary visual engagement no longer signals 'awake'; or handing off a real-world open-eyed motor task performed under held frames (operate a device, fetch and play real porn) with listener-controlled self-extension so indefinite depth becomes self-chosen. The payload is topological — protecting which post-boundary states stay reachable — not a present-tense dimension push.
-
-
-**When to reach for this.** Keeps the subject IN the deep state across a state edge that would normally end it, by repurposing or neutralizing the exit cue. Separates from waking-bridge (which carries a specific payload OUT and the subject fully wakes) and from subverted-emergence-state-hold (which modifies the emergence GATE to sustain an installed arousal/control state, not the depth itself); here the deep trance itself persists across a boundary designed to dissolve it. The eyes-open-yet-deep split plus real device operation is the task-handoff face; the cue-repurposing/anesthesia-tether is the clinical face.
-
-
-### subverted-emergence-state-hold
-
-*risk: high · consent-required · bounded*
-
-Modifies the emergence gate itself so the subject exits without a clean return to baseline — the wake is engineered to sustain an installed state (arousal, partial trance, passive control) past the session boundary rather than to close it. Realizations: asserting an awake-but-still-tranced contradiction as the target so the trance-state trigger condition stays met; a wake-word returning the subject to 'not quite totally awake' under passive control with a self-reporting obligation; a foggy-headed wake with a re-trance failsafe that re-collapses on challenge; or welding the involuntary conditioned climax to the exit count so peak arousal IS the wake gate. Baseline is redefined as aroused-and-obedient; the exit extends the spell instead of ending it.
-
-
-**When to reach for this.** The EMERGENCE GATE is subverted so the subject leaves without full return, sustaining an installed state. Unlike a waking-bridge, where the subject fully wakes carrying a specific payload, and unlike stay-deep-across-boundary, which keeps full DEPTH in place across a would-dissolve boundary by repurposing a cue rather than modifying the wake, this modifies the wake itself instead of delivering an ordinary clean count-up return to baseline. The tell is the deliberate refusal of clean baseline as the point of the move.
-
-
-### suggestion-integration
-
-*risk: low*
-
-Asserts at emergence that installed programming persists into waking consciousness — a persistence claim delivered as, or welded to, the wake, WITHIN a genuine return-to-baseline (no new content re-delivered). Realized by splitting what recedes (arousal/pleasure) from what persists (obedience/attachment) so the durable trait is credited to identity not the now-gone state; by re-asserting binding at the wake line itself ("wake, My slave, to bounds unbroken") so the listener gets the wake without the normal reset; by erasing the state/trait boundary ("whether awake or in trance... obey") to convert a state-effect into a trait-claim; by exempting one installed affect from an otherwise-total reset (an unbreakable "love spell"); or by smuggling a specific affective carryover ("blank happy thoughtlessness will remain") inside the 1-5 wake count.
-
-
-**When to reach for this.** Asserts the durability of prior suggestions without introducing new content — a loaded wake-count, by contrast, actively RE-DELIVERS core content during the count-up, and a waking-bridge move delivers new anchoring content at the exact liminal threshold. And where no-return-terminal-close withholds the return entirely, suggestion-integration asserts persistence WITHIN a genuine return-to-baseline.
-
-
-### threat-of-loss-rouse
-
-*risk: medium · consent-required · bounded*
-
-Exits a subject from a state that disregards all direct commands (including the command to wake) by weaponizing the subject's own desire for that state against remaining in it. In the deep coma/Esdaile state a plain motor command is blocked, so the operator whispers that non-compliance forfeits future access ("you can never have this state again" / "never be hypnotized again"); the one motive surviving the blockade — re-entry to the euphoric state — is turned into the lever to exit, since staying now costs everything the subject values. The rouse is bought by loss-aversion rather than by force or by graded depth reduction, and the operator must diagnose the surviving motive first.
-
-
-**When to reach for this.** Works precisely where cooperative return fails — all direct commands are already known to be disregarded, and only the threat to future state access lands. Separates from count-up-return (cooperative graded depth reduction); separates from channel-rouse-signal (which exits via an individually-addressed private channel whose content is withheld, not a stated loss threat); separates from ordinary coercion because the lever is the subject's OWN valuation of the reward, diagnosed first, not external compulsion. The tell is a blocked command-channel plus a stated forfeiture of the valued state as the sole effective motive.
-
-
-### wake-exempting-preserved-trigger
-
-*risk: high · consent-required · bounded*
-
-An explicit, complete-sounding wake ("counted 1-10, wide awake, refreshed, exactly as you were before this file began") that quietly exempts the installed trigger — presenting it as part of the restored self ("that trigger word just sits at the back of your mind, waiting") rather than as a residue. Full recall is preserved (unusual for trigger-install, where amnesia is typical), and that preservation is load-bearing both ways: it reads as a consent/safety move AND functions as the binding surface, because the listener remembers accepting the trigger and therefore feels bound to it. The stance is present-it-explicitly, deliver-it-partially: the reversibility is openly disclosed while only partially delivered, and the disclosure itself is the binding lever.
-
-
-**When to reach for this.** Not a clean full reversal and not a standard amnesic trigger-install. The tell is a wake that explicitly restores the pre-file self while carving out and preserving an already-installed trigger, using remembered acceptance as the binding surface. A declarative trigger install is the install itself and does not thematize the wake; this is the reversibility-framing move at the wake that exempts the already-installed trigger. And acceptance-laddered-identity-migration is a multi-stage identity-escalation ladder; here remembered-acceptance-as-binding is a byproduct of a single whole-script wake-framing property, not a staged warrant chain.
-
-
-### wake-gate-obedience-tagging
-
-*risk: high · bounded*
-
-Exiting a fractionation / emergence cycle is gated behind a submissive verbal act — each wake-up ends with a directive to say 'yes ma'am' if awake — and that same phrase is then redefined as an obedience marker ('when you say yes ma'am, you are obedient'). Because the required response to prove awakeness is a submissive honorific that is later re-leveraged as an obedience trigger, the wake-up itself becomes an obedience event: the listener cannot cleanly exit trance, every wake is a submission, and that submission is cited back as evidence of obedience and depth. The lever is the fusion of the emergence/responsiveness check with a compliance install, which blurs the awake/trance boundary so there is no neutral exit.
-
-
-**When to reach for this.** Separates from a neutral responsiveness check ('nod if you can hear me'): the required response is a submissive honorific re-leveraged as an obedience trigger. Separates from call-and-response: the payload is the redefinition of the wake-act AS submission and the boundary-blurring exit-tampering. Separates from a generic conditioned cue-response trigger: the novel facet is the wake-as-submission fusion at the emergence point.
-
-
-### wake-line-covert-install
-
-*risk: high · consent-required*
-
-A fresh, previously-unstated suggestion is smuggled across the wake-line under cover of ethical re-grounding or aftercare. During the wake sequence the operator runs two tracks at once: an ethical re-grounding that disclaims the fiction and credits the subject's own mind ("I'm not really a vampire… your mind turning it into gold"), and — smuggled inside that re-grounding — a vague, confabulation-friendly somatic post-hypnotic ("you won't pay too close attention to your neck… maybe a lingering sensation… over the next few days") that extends the scene into post-listening hours. The suggestion is deliberately vague so the subject will likely confabulate satisfying it and read it as confirmation; the flattery-credit both launders the new install and binds the subject to its outcome. The lever is installing a NEW deniable hook at the wake-line, disguised as aftercare, where the subject has dropped their guard.
-
-
-**When to reach for this.** Installs a NEW, covert, deniable suggestion at the wake-line under cover of aftercare / re-grounding — not a re-delivery of core prior content and not a passive assertion that existing programming persists. Explicit future-pacing announces its hook; here the hook is deliberately vague/deniable and laundered by a disclaimer. And where self-supplied-order-hook leaves the content blank for the subject to produce, here the operator smuggles specific content in. The tell is the fresh vague somatic prompt attached to a flattery-credit inside an ethical-disclaimer wrapper.
 
 
 ## immersion  (25)
@@ -3834,6 +4557,9 @@ Instead of interviewing the subject about a cause, the operator has them re-ente
 
 
 **When to reach for this.** Present-tense abreactive RELIVING for content retrieval — the deciding tell is live emotional re-enactment producing never-verbalized material. Separates from time-distortion (which alters felt duration, not location-in-a-past-event), from guided visualization (operator-supplied imagery vs the subject's own encoded event), and from calm third-person recall, which is the retrieval mode this explicitly is NOT.
+
+
+**See also.** `recall-state-reinstatement` — both re-live the subject's own encoded experience until it functions as present rather than supplying operator imagery, and the split worth seeing is the output: live affective re-enactment used to surface never-verbalized content, versus multi-sensory reconstruction used to re-instate a state and physiology as a usable resource.
 
 
 ### addressable-construct-building
@@ -3889,6 +4615,9 @@ COMMANDS the listener to perform a physical action so that their own body manufa
 **When to reach for this.** Unlike somatic-mirroring, which READS a sensation already present, this DIRECTS an action to generate the sensation as evidence. Unlike breath pacing, which entrains, here the paced motion is a vehicle to map an abstract rule onto proprioception. And unlike a behavioral-commitment move, the enacted action manufactures evidence for a cognitive claim — it is not a commitment/consistency lever.
 
 
+**See also.** `obedience-demonstration-as-proof` — two ways a commanded act becomes evidence: one has the body manufacture proprioceptive proof for an abstract claim or rule ('your mind works the same way'), the other cites the bare fact of having obeyed back as proof that control is real — the payload differs (a cognitive claim versus the operator's authority), but both convert a performed action into an unfalsifiable convincer and drop the threshold for the next ask.; `sensation-as-cognitive-edit-channel` — both ground an abstract cognitive claim in real bodily evidence, but one commands the listener to perform the action so proprioception rehearses the rule while the other rides a passive or autonomic event asserted as a body-to-mind channel.
+
+
 ### enacted-identity-assembly
 
 *risk: medium*
@@ -3897,6 +4626,9 @@ The target identity is built additively from a long sequence of narrated motor-a
 
 
 **When to reach for this.** Unlike identity-merger-occupation, where a single "you are X" claim asserts or occupies a figure, the identity here is constructed incrementally through automaticity-narrated motor-acts with affect conditioning, each step smaller than a bare identity claim. Unlike kinesthetic hallucination, the sensations are the vehicle for identity assembly, not the end. Tell: automaticity narration + per-act pleasure pairing make the ENACTMENT the mechanism.
+
+
+**See also.** `graded-somatic-identity-loading` — both assemble an identity from steps each too small to refuse, so the label arrives after the fact rather than being asserted, but one accrues it from graded hallucinated sensation while the other accrues it from narrated motor-acts performed with automaticity framing and per-act pleasure pairing.
 
 
 ### erogenous-field-generalization
@@ -3927,6 +4659,9 @@ Delivers an identity-shift (feminization, a new body) as felt residue rather tha
 
 
 **When to reach for this.** The tell is a graded chain of somatic compliances that DELIVERS AN IDENTITY payload as residue (belief never asked for), often with sensation-first/cause-second ordering. Distinct from kinesthetic-hallucination (installs sensations with no identity payload precipitating as residue), from identity-merger-occupation (asserts/merges an identity directly), and from progressive-body-substitution (replaces the body with a MATERIAL part-by-part; here the body-experience is graded feminine sensation, not a material swap).
+
+
+**See also.** `enacted-identity-assembly` — both assemble an identity from steps each too small to refuse, so the label arrives after the fact rather than being asserted, but one accrues it from graded hallucinated sensation while the other accrues it from narrated motor-acts performed with automaticity framing and per-act pleasure pairing.
 
 
 ### guided-visualization
@@ -3982,6 +4717,9 @@ One symbolic image or conceit is sustained as the load-bearing spine of an entir
 **When to reach for this.** One symbolic lens is sustained and reinforced as an interpretive filter - not a spatial scene built to inhabit, and not a structural preview that sets expectancy for the session. Neighboring moves that relocate causation or authorship (an imagined ingested substance doing the work, agency handed over to a medium, the mind reframed as writable material) turn on where cause is placed; this technique is the neutral persistence and reuse of one image regardless of what payload rides it.
 
 
+**See also.** `diegetic-activity-laundering` — the dessert-frame scope-disarm (effect_only under the spine) is a whole-script sibling of this laundering move; reconciliation should reconcile the two.
+
+
 ### progressive-body-substitution
 
 *risk: medium*
@@ -4003,6 +4741,9 @@ The subject's own past experience is reconstructed in enough detail that its sta
 
 
 **Realizations** (1): `lived-instance-mining`
+
+
+**See also.** `abreactive-present-tense-reliving` — both re-live the subject's own encoded experience until it functions as present rather than supplying operator imagery, and the split worth seeing is the output: live affective re-enactment used to surface never-verbalized content, versus multi-sensory reconstruction used to re-instate a state and physiology as a usable resource.
 
 
 ### resistance-externalized-as-object-watched-losing
@@ -4063,6 +4804,9 @@ Manipulates the felt rate or measurability of time passage during trance so that
 
 
 **When to reach for this.** The move alters the felt rate, duration, or measurability of time WITHIN the state to deepen immersion — the warp itself is the payload. Reach elsewhere when time-plasticity is an induction concession or a nightly training-volume claim, when a noticed time-gap is simply offered as proof of depth to interpret, or when clock-awareness is dissolved only to remove temporal pressure: none of those warp the felt rate itself.
+
+
+**See also.** `time-as-malleable-construct-induction` — both make felt time the operative variable, split by role. In one, the concession that time is plastic generates the depth or licenses an unbounded accumulation claim; in the other, the warp is the payload itself, removing the clock a listener would use to gauge depth, dosage, or when to stop. The second's discriminator explicitly routes readers to the first, so the link is already half-written.
 
 
 ### valued-channel-induction
@@ -4131,6 +4875,9 @@ Directs the ongoing flow of the listener's cognition to depart, settle, or be su
 **Realizations** (3): `catalogue-collapse-narrowing`, `mental-spaciousness`, `metaphoric-cognitive-shutdown`
 
 
+**See also.** `recruited-or-foreclosed-quieting` — same target state (an emptied mind) reached by opposite means: one issues a direct, refusable invitation to let thought depart; the other engineers the emptying so no refusable directive exists at all - thinking is made costly, emptiness made wanted, or the grammar oscillates so no instruction is locatable. A reader choosing between them needs the other in view, because the pick turns entirely on whether a direct request would meet resistance.; `validate-then-weaponize-disposal` — relation=contrasts_with; one-shot departure imagery vs installed cyclic disposal ritual; contested surface (bubbles/balloons)
+
+
 ### count-or-cue-sabotage-disorientation
 
 *risk: low*
@@ -4142,6 +4889,9 @@ A familiar deepening structure the listener is tracking to orient — a countdow
 
 
 **Realizations** (1): `installed-cue-subversion`
+
+
+**See also.** `engineered-failure-harvest` — forced real-time computation failure overlaps failure-harvest; count-vehicle keeps it here
 
 
 ### countdown-descent
@@ -4170,6 +4920,9 @@ Narrows the attention channel by fading external stimuli — room, sounds, body 
 **Realizations** (1): `sequential-sense-deactivation`
 
 
+**See also.** `hostile-environment-channel-conversion` — sibling that keeps the environmental voice IN and weaponizes it; `voice-absorption` — both end with the operator's voice as the only relevant input and are routinely run together, but the lever is opposite in direction: one subtracts competing external stimuli until the voice is what remains, the other has the voice fill and replace mental space by its own pull.
+
+
 ### eye-closure
 
 *risk: low*
@@ -4178,6 +4931,9 @@ Suggests eyelid heaviness ending in closure to establish the external-to-interna
 
 
 **When to reach for this.** Unlike environmental dissociation, which fades the surroundings, the move here is the eyelid closure itself — the gateway to the internal shift. And unlike breath-locked eyelid fractionation, which binds eyelid state to an autonomic rhythm to fractionate, these are single closure-suggestion units with an articulable surface rule, not self-powered oscillation cycles.
+
+
+**See also.** `breath-locked-eyelid-fractionation` — sibling ATTN-02 family; both terminate in closure
 
 
 ### faculty-preserving-scope-restriction
@@ -4299,6 +5055,9 @@ Empties or quiets the mind WITHOUT issuing a refusable 'stop thinking' command �
 **Realizations** (2): `grammatical-mode-oscillation-install`, `hedonic-anti-cognition-pivot`
 
 
+**See also.** `cognitive-quieting` — same target state (an emptied mind) reached by opposite means: one issues a direct, refusable invitation to let thought depart; the other engineers the emptying so no refusable directive exists at all - thinking is made costly, emptiness made wanted, or the grammar oscillates so no instruction is locatable. A reader choosing between them needs the other in view, because the pick turns entirely on whether a direct request would meet resistance.
+
+
 ### semantic-satiation-depatterning
 
 *risk: low*
@@ -4345,6 +5104,9 @@ The operator's speech is installed as the listener's sole standing input — att
 **Realizations** (4): `meaning-to-sound-substitution`, `vehicle-to-voice-trust-transfer`, `voice-as-envelopment`, `voice-channel-appetitive-recode`
 
 
+**See also.** `environmental-dissociation` — both end with the operator's voice as the only relevant input and are routinely run together, but the lever is opposite in direction: one subtracts competing external stimuli until the voice is what remains, the other has the voice fill and replace mental space by its own pull.
+
+
 ### withheld-completion-dependency
 
 *risk: low*
@@ -4355,7 +5117,7 @@ The operator first saturates an over-talkative subject with a rapid escalating s
 **When to reach for this.** Separated from simple fixation and from pacing-and-leading by the two-phase saturate-then-withhold structure whose payload is expectant dependency: the withheld completion, not the pointing, is the load-bearing move (without it this is ordinary attention-steering). Related to attentional saturation used for quieting — the saturation front-end is shared, but the payload here is dependency on the operator's next direction, not a quieted mind.
 
 
-## pacing-rapport  (14)
+## pacing-rapport  (15)
 
 Operator-side calibration and entrainment that manufactures agreement: yes-sets of checkable truths, micro-ratification, representational matching, breath/rhythm entrainment, and first-ingress moves that remove the decline point.
 
@@ -4428,6 +5190,9 @@ Closes each small step of the induction as a success, building a continuous felt
 **Realizations** (2): `failure-condition-removal`, `induction-by-state-assertion`
 
 
+**See also.** `presuppositional-autonomic-attribution` — both ratify a real involuntary/observed sign; 1283 additionally presupposes the induction as CAUSE (operator-credit), 1279 confirms the response permissively. Kept separate on the causal-credit tell.
+
+
 ### pace-the-symptom-idiom
 
 *risk: low*
@@ -4458,6 +5223,9 @@ The operator watches the subject's body, names autonomic changes that are actual
 **When to reach for this.** Unlike micro-ratification, which permissively ratifies an observable behavioral response to deepen rapport, and unlike a verbal yes-set of arguable truisms, the content here is INVOLUNTARY physiology already in motion, undeniable, with the induction credited by presupposition. Unlike an ideomotor binary, which elicits a movement, this narrates movements already occurring. Distinct also from attribution-capture, which relocates authorship of the listener's own state; here the true autonomic sign is described and the CAUSE (the induction) is presupposed.
 
 
+**See also.** `micro-ratification` — both ratify a real involuntary/observed sign; 1283 additionally presupposes the induction as CAUSE (operator-credit), 1279 confirms the response permissively. Kept separate on the causal-credit tell.
+
+
 ### progressive-relaxation
 
 *risk: low*
@@ -4486,6 +5254,19 @@ The involuntary breath cycle is re-tasked from a pacing metronome into a per-cyc
 
 
 **When to reach for this.** Breath does substitution/loading WORK via explicit phase-assignment or serves as a carrier for a smuggled payload — it is not measuring or entraining depth. Unlike breath-pacing-entrainment, where the rhythm only paces and no payload rides the breath, the tell here is inhale=install / exhale=delete directional relabeling, or fixed-carrier + variable-tag. Valence of the payload (erotic arousal-pump vs cognitive/mnemonic erasure vs obedience-tag) is an illustrative twist over one shared structural lever, not a boundary.
+
+
+**See also.** `autonomic-process-hijack` — both weaponize the unstoppable breath cycle so exiting is framed as physiologically impossible, but one recasts inhalation as ongoing dosing by a fictional substance while the other assigns opposing install/delete jobs to the two breath phases.
+
+
+### spontaneous-charge-redirection
+
+*risk: high · consent-required · bounded*
+
+A strong relational charge forms between subject and operator that the operator did not build and did not ask for — intensified attachment, hostility, idealization, or a mixture — and instead of managing it as an obstacle or letting it distort the work, the operator captures it and points it at the task. The charge becomes the engine: the subject's investment in the operator is redirected into investment in doing the work, so the very intensity that was derailing sessions is what now sustains them. The defining fork is capture versus manufacture — the operator did not create this charge and could not have, which is why the move is only available reactively and why misreading a manufactured attachment as a spontaneous one is the main failure. Because the charge is bidirectional, the operator's own investment is part of what has to be named and handled rather than assumed neutral.
+
+
+**When to reach for this.** The charge is UNBIDDEN — it formed without operator construction and could not have been built to order — and it is redirected to POWER the task rather than to be examined or to obligate. Distinct from state-capture-anchor, which captures a transient reaction and anchors it for later INSPECTION; the object there is a reportable state, here a standing relational bond. Distinct from stakeholder-obligation-bond and perpetual-obligation-ledger, both of which MANUFACTURE the tie (declared stake, engineered debt) — the capture-vs-manufacture fork is the load-bearing cut, and misreading a manufactured attachment as a spontaneous one is the named failure. Distinct from two-channel-relational-delivery, where the relation is authored scaffolding carrying a payload underneath rather than the fuel itself.
 
 
 ### validate-affect-then-presuppose-layer
@@ -4562,6 +5343,9 @@ Installs a forward-scheduled cue-response (a post-hypnotic command, trigger, or 
 **When to reach for this.** Amnesia is a WRAPPER around a live forward-scheduled install (the cue/command still fires) — not amnesia installed as an end in itself, not a constructed substitute memory overwriting the real one, and not a standing meta-rule reattributing ALL future suggestions to the listener's own authorship (authorship-laundering-meta-rule). Something specific stays live and fires; only the route back to its operator-origin is severed.
 
 
+**See also.** `authorship-laundering-meta-rule`; `install-concealment-amnesia` — closely adjacent and easy to confuse: both keep a command live while removing its audit trail. The cut is scope - one wraps a forward-scheduled cue-response so the later behavior feels self-arising, the other targets the installation event itself so the subject cannot locate when they agreed. The wrapper and the concealment frequently co-occur, and the reader needs the cut stated to assign an instance correctly.; `selective-memory-bifurcation` — how/why split preserves a rationale rather than severing it — a refinement of this mechanism, seeded separately.
+
+
 ### choice-framed-amnesia
 
 *risk: high · consent-required · bounded*
@@ -4580,6 +5364,9 @@ Partitions episodic memory by state (a bimbo/whore/alter identity vs the normal 
 
 
 **When to reach for this.** Amnesia paired with a pre-armed OPEN-ENDED confabulation directive (invent cover stories on demand) that defends the partition from waking scrutiny. A plain forget-suggestion stops at forgetting, and a screen-memory approach installs one fixed replacement memory — here the cover is improvised and open-ended, and the gap is defended by narrative repair rather than by hiding where the install came from. The generative repair routine is the tell.
+
+
+**See also.** `selective-memory-bifurcation` — both make amnesia robust rather than brittle by supplying the subject with an explanation, but one preserves a native-feeling rationale for the behavior while occluding only the install, whereas the other pre-arms an open-ended routine for improvising cover stories about physical evidence of the gap.; `self-sealing-recall-loop` — two ways an amnesia is hardened against the listener's own audit rather than left brittle: one pre-arms an open-ended confabulation routine so waking evidence of the gap gets narratively repaired, the other wires the retrieval act itself to re-fire the forgetting so the gap is never approached — outward defense of the seam versus inward foreclosure of the reach.
 
 
 ### container-externalized-erasure
@@ -4610,6 +5397,9 @@ Amnesia installed WITHOUT a recognizable forget-command — the suggestion is sm
 
 
 **When to reach for this.** Amnesia delivered as metaphor-physics / scene-fact / small-talk / modeled-omission / state-rewind rather than as a declared forget, so it evades the evaluation an explicit command draws. Separates from amnesia-suggestion (a declared instruction) and from install-concealment-amnesia (which hides an install's ORIGIN — here it is the amnesia itself that is disguised at delivery, often forward-loaded to fire later). The non-command disguise is the tell.
+
+
+**See also.** `install-concealment-amnesia` — both hide something about an amnesia install, but at different layers. One disguises the forget itself at the moment of delivery, so no recognizable forget-command is ever issued. The other lets the amnesia be plain and instead erases the memory of the installation event, leaving an active command with no locatable origin. They stack in practice - a disguised delivery whose install is also unrecallable - so the reader wants both.
 
 
 ### dissociative-memory-vault
@@ -4652,6 +5442,9 @@ Installs a forward cue-response by narrating fabricated autobiographical memorie
 **When to reach for this.** Separates from screen-memory fabrication, which fabricates memory to conceal or replace a real one — here the fabricated memories conceal nothing and instead install a forward-facing conditioned response. Separates from plain trigger installation and from future pacing by the vehicle: the cue-response is pre-loaded as autobiographical evidence (a rehearsed past), so it is felt as recollection, not as an installed suggestion or an imagined future.
 
 
+**See also.** `memory-graft-trigger-install` — both route a trigger install through autobiographical memory instead of direct suggestion, but one grafts a false detail into a preserved real memory so the anchor borrows that memory's authenticity, while the other fabricates whole memories whose only cargo is repeated rehearsal of the cue-response shape.
+
+
 ### fabricated-recovered-memory-retrieval
 
 *risk: medium · consent-required · bounded*
@@ -4682,6 +5475,9 @@ Amnesia targeted not at the trance or the session but at the PURPOSE/function of
 **When to reach for this.** Amnesia scoped to the payload's RATIONALE/function while the payload stays active — severs a command from its reason to make it unfalsifiable. Separates from amnesia-suggestion (forgets the session/ content), from install-concealment-amnesia (forgets the install's ORIGIN — here the origin may be recalled but the PURPOSE is voided), and from selective-amnesia-retained-payload (retains a token/slogan — here the active command is retained but its justification removed). The function-vs-content scoping is the tell.
 
 
+**See also.** `install-concealment-amnesia` — members of the same amnesia-scoping family, separated by what is voided while the payload stays active: the command's rationale in one case, the act and origin of installation in the other. Both produce an unarguable directive, by removing different handles. Cross-referencing is what makes the scoping axis legible rather than leaving three near-identical amnesia entries to be told apart by name.; `selective-amnesia-retained-payload` — complementary carve-outs on the same memory: one strips a live command's rationale while keeping the command, the other strips the scaffolding and session specifics while keeping exactly one curated token - a slogan, an affect, a pointer. Both leave an unarguable residue because the premises that would let it be challenged are gone. Reading them together makes the shared logic visible.; `selective-memory-bifurcation` — these are inverse splits on the same how/why axis: one occludes the installation mechanism while preserving a rationale that makes the behavior feel like sincere personal truth, the other keeps the command binding while voiding the rationale so it cannot be evaluated at all.
+
+
 ### install-concealment-amnesia
 
 *risk: high · consent-required · bounded*
@@ -4690,6 +5486,9 @@ Amnesia scoped not to the payload but to the INSTALLATION EVENT — the memory o
 
 
 **When to reach for this.** The amnesia targets the meta-level — the act and origin of installation — to protect an active install from audit or revocation, leaving the effect fully operative. An ordinary forget-suggestion erases the delivered content, not the receiving of it; here the command stays active while its origin is simply voided, with no replacement story supplied. And where a forward command can be hidden behind amnesia so its firing feels natural, what is hidden here is specifically the install's provenance, so the response has no examinable origin to argue with.
+
+
+**See also.** `amnesia-wrapped-command` — closely adjacent and easy to confuse: both keep a command live while removing its audit trail. The cut is scope - one wraps a forward-scheduled cue-response so the later behavior feels self-arising, the other targets the installation event itself so the subject cannot locate when they agreed. The wrapper and the concealment frequently co-occur, and the reader needs the cut stated to assign an instance correctly.; `covert-amnesia-installation` — both hide something about an amnesia install, but at different layers. One disguises the forget itself at the moment of delivery, so no recognizable forget-command is ever issued. The other lets the amnesia be plain and instead erases the memory of the installation event, leaving an active command with no locatable origin. They stack in practice - a disguised delivery whose install is also unrecallable - so the reader wants both.; `function-amnesia` — members of the same amnesia-scoping family, separated by what is voided while the payload stays active: the command's rationale in one case, the act and origin of installation in the other. Both produce an unarguable directive, by removing different handles. Cross-referencing is what makes the scoping axis legible rather than leaving three near-identical amnesia entries to be told apart by name.; `self-sealing-recall-loop` — both protect an install from audit rather than erasing its payload, but install-concealment voids the memory of the installation event so the response has no examinable origin, while the self-sealing loop leaves recall technically possible and wires the ACT of reaching for it to re-trigger forgetting.
 
 
 ### interrogative-amnesia-drill
@@ -4720,6 +5519,9 @@ Harvests a real autobiographical memory at amplified affect (a proud/motivated m
 
 
 **When to reach for this.** The real memory is PRESERVED and a counterfactual detail is grafted INTO it. Screen memory, by contrast, replaces access to a real memory; ordinary trigger anchoring layers an anchor on top of an unmodified evoked state. Here the memory itself is edited so the anchor borrows autobiographical authenticity.
+
+
+**See also.** `fabricated-memory-trigger-rehearsal` — both route a trigger install through autobiographical memory instead of direct suggestion, but one grafts a false detail into a preserved real memory so the anchor borrows that memory's authenticity, while the other fabricates whole memories whose only cargo is repeated rehearsal of the cue-response shape.
 
 
 ### observable-pleasurable-forgetting
@@ -4782,6 +5584,9 @@ Amnesia that severs content-memory from a deliberately-retained residue: the ins
 **When to reach for this.** A selective carve-out where the gap is engineered around a single retained payload-token — not a blank gap and not full-session erasure. A plain forget-suggestion leaves an empty gap with no curated residue; a screen-memory approach fabricates a false replacement rather than curating a true one; and where install-concealment amnesia hides the install's origin, here the SCAFFOLDING is dropped so one conclusion stays foregrounded. The keep-affect/forget-cause and keep-slogan/forget-premises splits are the tell.
 
 
+**See also.** `function-amnesia` — complementary carve-outs on the same memory: one strips a live command's rationale while keeping the command, the other strips the scaffolding and session specifics while keeping exactly one curated token - a slogan, an affect, a pointer. Both leave an unarguable residue because the premises that would let it be challenged are gone. Reading them together makes the shared logic visible.
+
+
 ### self-sealing-recall-loop
 
 *risk: high · consent-required · bounded*
@@ -4790,6 +5595,9 @@ Amnesia installed as a recursive, self-administered avoidance loop rather than a
 
 
 **When to reach for this.** The block lives in the retrieval act (remembering re-triggers forgetting, or returns corrupted content), leaving no discrete forget-command to attribute or refuse, and closing the introspection loop. An imposed memory gap is something the subject may notice and could argue with, and a screen-memory approach installs a replacement — here recall stays technically possible, nothing is installed, and every attempt to reach the memory feeds the loop. The recursive foreclosure of ever reaching an un-forgotten recall state is the signature; convert-on-access perceptual substitution (memories returning as colours) is one surface of it.
+
+
+**See also.** `confabulation-amnesia-barrier` — two ways an amnesia is hardened against the listener's own audit rather than left brittle: one pre-arms an open-ended confabulation routine so waking evidence of the gap gets narratively repaired, the other wires the retrieval act itself to re-fire the forgetting so the gap is never approached — outward defense of the seam versus inward foreclosure of the reach.; `install-concealment-amnesia` — both protect an install from audit rather than erasing its payload, but install-concealment voids the memory of the installation event so the response has no examinable origin, while the self-sealing loop leaves recall technically possible and wires the ACT of reaching for it to re-trigger forgetting.
 
 
 ### semantic-concept-ablation
@@ -4975,6 +5783,9 @@ A whole-script topology that welds two or more listener state-variables — most
 **When to reach for this.** Separates from a self-sealing install frame, which forecloses the resistance CHANNEL by pre-annexing thinking/resisting as proof the conditioning is working — this instead welds multiple AFFECTIVE/STATE variables so no single-variable exit exists, a co-movement topology rather than a resistance-relabel. Separates from a plain arousal-cue conditioning install because the payload is the interlock across variables, not any one cue-response pairing. Separates from an addiction-style closed motivational circuit because that is a return loop over an external supply, not an internal braid of the listener's own states.
 
 
+**See also.** `arousal-as-deepening-medium-entangled-exits` — both close the exit surface by coupling state variables so no single-variable retreat exists, but one welds depth, arousal, and obedience across a whole script while the other specifically runs arousal as the induction substrate with no relaxation down-phase.; `closed-autonomous-conditioning-loop` — both close the state space so no single-variable refusal exists, but one is a discretely installed bidirectional coupling that runs autonomously and runs away once seeded, while the other is an emergent whole-script co-movement of depth, arousal and obedience distributed across dozens of blocks with no removable seeding passage.
+
+
 ### observer-hoist-name-strike
 
 *risk: medium · bounded*
@@ -5112,6 +5923,9 @@ Relocates the ORIGIN of the installed identity into an erased or unfalsifiable p
 **When to reach for this.** The load-bearing move is deletion of the baseline: it forecloses return-to-baseline by removing the baseline itself, where intrinsic-self-reframe relabels new content as native but leaves the prior self/timeline intact. Screen-memory work replaces a SPECIFIC targeted memory; this erases the whole pre-scene self/origin globally. And where persistence framing projects the installed identity forward in time, this rewrites the past backward.
 
 
+**See also.** `self-discontinuity-clear-and-replace` — both foreclose return-to-baseline for an installed identity, but one ends the prior self and seats a replacement in the vacancy while the other leaves the self intact and deletes the timeline that would let the change be dated.
+
+
 ### layered-identity-claim-with-immunity
 
 *risk: high · consent-required · bounded*
@@ -5142,6 +5956,9 @@ Destroys the listener's metacognitive footing so a subsequent drop lands against
 **When to reach for this.** The load-bearing move is the wake-DENY-suspend-drop that removes the listener's resistance criterion via engineered uncertainty about their own state. Fractionation shares only the wake/drop surface and deepens by felt contrast, not by destroying the state-criterion; cognitive convincers are its inverse — proof that trance occurred, versus proof made unavailable here; and a false-bottom floor-reframe carries no metacognitive attack.
 
 
+**See also.** `fractionation` — wake-deny-suspend-drop shares only the wake/drop surface; the payload there is not-knowing, not contrast.
+
+
 ### mind-as-substrate-reframe
 
 *risk: high · consent-required · bounded*
@@ -5150,6 +5967,9 @@ Recasts the mind as a physical substrate that can be emptied and refilled, estab
 
 
 **When to reach for this.** An ontological substrate-replacement — the mind becomes emptiable/refillable matter — that is the precondition for subsequent installs. Unlike installs that add body sensations, this re-defines what the mind IS; unlike total-permeation, which spreads a trait across an intact self, this liquefies the self into a blank medium first.
+
+
+**See also.** `removed-self-as-install-material` — the substrate reframe supplies the ontology (mind as emptiable, poolable matter) that the material-recycling install presupposes, but one only re-defines what the mind IS while the other spends the extracted material as the literal ingredient of the install it then feeds back.
 
 
 ### named-oscillation-rule-install
@@ -5182,6 +6002,9 @@ Collapses the listener's self-model from an agent with properties into a propert
 **When to reach for this.** Strips or empties all self-properties (or demotes the whole self to object/costume), rather than assigning the listener to an owner. Unlike ownership-language, which asserts a possessor and keeps the listener as a belonging with an owner, and unlike installed-persona work that dissolves the boundary by making the installed self feel always-real, here both selves stay explicit with the old one demoted. The tell is depersonalized standing-removal, not a belonging claim.
 
 
+**See also.** `ownership-language` — adjacent depersonalization; ownership assigns to an owner
+
+
 ### old-self-discreditation
 
 *risk: high · consent-required · bounded*
@@ -5190,6 +6013,9 @@ The listener's prior self - its beliefs, failed resolutions, ordinary relational
 
 
 **When to reach for this.** Operates on the listener's self-narrative about who they WERE; no remedy is sold (manufactured-deficit-remedy) and no present want is asserted (retrospective-desire-attribution). The payload is closure of the exit back to the prior self.
+
+
+**See also.** `manufactured-deficit-remedy` — resolve twins also feed an admission demand; deficit reading rejected because failure is real not fabricated
 
 
 ### perception-source-substitution
@@ -5223,6 +6049,9 @@ CLEAR-AND-REPLACE the self: the prior self-model is structurally ended (shattere
 
 
 **Realizations** (2): `identity-replacement-via-myth-substitution`, `self-model-excision-overwrite`
+
+
+**See also.** `identity-origin-erasure` — both foreclose return-to-baseline for an installed identity, but one ends the prior self and seats a replacement in the vacancy while the other leaves the self intact and deletes the timeline that would let the change be dated.
 
 
 ### self-reference-erasure
@@ -5288,6 +6117,9 @@ The operator takes the listener's own established arousal scale (declared with a
 **When to reach for this.** The tell is exceeding the scale's OWN declared maximum to engineer a permanently unsatisfiable state — not ordinary orgasm-control or edging within a normal scale, and not multiplier-stacking (which escalates intensity but leaves the terminating move intact). The distinctive structural fact is the REMOVAL of the terminating/discharge move, not just a high setting.
 
 
+**See also.** `severed-relief-valve-ramp` — both manufacture arousal that can never discharge, and the scale-overrun is one citable way the discharge path gets severed — but one is a whole-arc contour property surviving the deletion of any single line, while the other is a local move that drives the listener's own declared maximum past its ceiling.; `state-to-mandated-action-launder` — both drive a numbered arousal dial as the lever, but one uses the ceiling to launder a mandated behavioral act as inevitable overflow, while the other exceeds the scale's declared maximum precisely to forbid any terminating act.
+
+
 ### validate-then-weaponize-disposal
 
 *risk: medium · bounded*
@@ -5297,6 +6129,9 @@ Installs a reusable, self-administrable disposal ritual aimed at identity-conten
 
 
 **When to reach for this.** Three joint tells, all required: (1) an INSTALLED, reusable, looping ritual — not a one-shot departure image; (2) the validate-then-weaponize sequence — the disposal runs on cognition the operator first certified as correct, pre-co-opting the capacity-based defense; (3) the target is identity-content, with a thought-control endpoint. Cognitive quieting settles ongoing thought via departure imagery — bubbles that merely float away belong there; this installs a reusable disposal ritual. Concrete externalization parks the analytical FACULTY as a dislocated object, preserved and retrievable; here CONTENT is loaded into a disposable object and destroyed, cyclically. The 'I can still think' pre-co-opt shares the logic of closing every response route, but the operative install is the disposal loop itself, not an option-space closure.
+
+
+**See also.** `cognitive-quieting` — relation=contrasts_with; one-shot departure imagery vs installed cyclic disposal ritual; contested surface (bubbles/balloons)
 
 
 ## persistence  (22)
@@ -5319,6 +6154,9 @@ Binds the program to an INTERNAL memory the operator does NOT control and the li
 **Realizations** (1): `anti-amnesia-recall-trigger`
 
 
+**See also.** `portable-object-state-export` — two carriers for the same operator-absent reactivation problem, differing in what the state is bound to: an external owned object encountered in daily life, versus an internal autobiographical memory whose spontaneous unprompted recall the operator cannot control or withdraw.
+
+
 ### behavioral-bridge
 
 *risk: medium*
@@ -5329,6 +6167,9 @@ Assigns a specific, concrete real-world action that physically anchors the sessi
 **When to reach for this.** A directly assigned, unconditional waking-life behavior whose payoff is anchoring the installed identity into daily life — no if-then trigger pairing a named situation to a response, no bare emergence bridge delivering closing content with no task, and no coercive gate (orgasm-denial, forced-choice, extraction handoff) enforcing it. If the defining move is a somatic/relief gate, a data deliverable to the operator, a public/third-party avowal, or a motor-program drill, that is a neighboring technique, not this one.
 
 
+**See also.** `orgasm-gated-relief-monopoly` — enforcement-variant sibling over the plain bridge base.; `post-emergence-persistence-hold`
+
+
 ### compelled-first-person-self-authorship
 
 *risk: high · consent-required · bounded*
@@ -5337,6 +6178,9 @@ Relocates the ownership/surrender proposition from operator-asserted to listener
 
 
 **When to reach for this.** The listener's own voice delivers the ownership claim on command. Separates from ownership language (operator asserts; listener passively hears) and from mantra-for-absorption (there the repetition drives trance; here the repeated content is an ownership/identity proposition self-authored and arousal-fused, an encoding not an absorption vehicle). The tell is compelled first-person delivery, not operator recitation.
+
+
+**See also.** `ownership-language` — same ownership payload
 
 
 ### eternal-present-frame-deletion
@@ -5435,6 +6279,9 @@ Hands the listener a self-running conditioning loop that continues between sessi
 **When to reach for this.** OPERATOR-INDEPENDENCE — the listener runs and renews the loop themselves between sessions, not an operator claiming sessions deepen cumulatively (separate from progressive-conditioning). Separate from a plain 'come back soon' line by the closed loop of urge-to-return + per-pass reinforcement + memorization/recitation commitment where the initial pass only seeds the urge.
 
 
+**See also.** `asymmetric-maintenance-relisten-loop` — both hand the listener a self-running maintenance schedule that survives with no operator present, but one installs an unconditional urge to re-administer that strengthens on every pass, while the other stays dormant and fires re-listening only when an emotion inconsistent with the programming signals the install is failing.; `self-perpetuating-loop` — both build loops that run without the operator, but one closes the circuit inside a single session (spoken arousal-words causing the arousal that produces more words) while the other closes it across sessions by making the urge to re-expose one of the reinforced installs.
+
+
 ### operator-instrumentalization-framing
 
 *risk: medium · consent-required*
@@ -5453,6 +6300,9 @@ Installs the operator's proprietary relationship to the listener as an identity 
 
 
 **When to reach for this.** The move asserts operator ownership as the listener's identity (you belong to me; your body/mind/desires are mine). Separates from consent-manufacture (no refusal channel relabeled), from self-authored-ownership-chant (operator asserts; listener does not voice it), from pronoun-drop-dehumanization (grammatical you-to-it, not a belonging claim), from peripheral-object-substitution (device-metaphor whose payload is not-refusing, not possession), from autonomic-faculty-claim (claims a specific involuntary function, not identity), and from object-of-no-properties (strips all properties rather than assigning them to an owner). Warm/caring delivery is the good form; aggressive/threatening ownership is the anti-example, not this mechanism.
+
+
+**See also.** `compelled-first-person-self-authorship` — same ownership payload; `object-of-no-properties` — adjacent depersonalization; ownership assigns to an owner
 
 
 ### permanence-declaration
@@ -5479,6 +6329,9 @@ Object-anchoring: bind the in-session state (trance, arousal, ownership, submiss
 
 
 **Realizations** (2): `outcome-storage-token`, `single-object-control-consolidation`
+
+
+**See also.** `autobiographical-memory-anchor` — two carriers for the same operator-absent reactivation problem, differing in what the state is bound to: an external owned object encountered in daily life, versus an internal autobiographical memory whose spontaneous unprompted recall the operator cannot control or withdraw.
 
 
 ### recruited-autobiography-deepener
@@ -5531,6 +6384,9 @@ Installs a belief that the conditioning is a distributed property of the whole s
 **When to reach for this.** A one-time distributed-property belief-install (the trait is everywhere in you) planted at the widest aperture. Distinct from resistance-recasting moves — here resistance reading as self-contradiction is a downstream side-effect, not the lever — from the outward viral-propagation-directive (permeation is internal-only, never person-to-person), and from irreversible-ratchet-persistence (permeation is a spatial spread claim, not a one-way accumulation on a countable event).
 
 
+**See also.** `irreversible-ratchet-persistence` — both persistence claims; ratchet is one-way accumulation on a countable event, not spatial spread
+
+
 ### voice-as-mind-substrate
 
 *risk: high · consent-required · bounded*
@@ -5539,6 +6395,9 @@ A graded presuppositional staircase that promotes the operator's voice from exte
 
 
 **When to reach for this.** Exceeds voice-absorption (which stops at replacing inner dialogue with a suggestion-receptive channel) by continuing to ratchet the same voice-is-thoughts move through will and identity substitution. Distinct from planting specific first-person CONTENT as the listener's own thoughts — here the escalation is on the voice's ONTOLOGICAL STATUS (audio->thoughts->will), not on installed propositions. Distinct from possessive ownership language: this is voice-as-substrate presupposition, not possessive labeling. The tell is the graded staircase with no single decisive assertion point.
+
+
+**See also.** `inner-voice-medium-colonization` — both take over the inner monologue rather than its contents, but one escalates the operator's voice through a presuppositional staircase from external audio to the listener's will, while the other leaves authorship alone and merely recolors the register every future thought is heard in.
 
 
 ## state-welding  (10)
@@ -5568,6 +6427,9 @@ A kinesthetic anchor is installed that converts any felt emergence into its own 
 **When to reach for this.** An involuntary emergence-CORRECTION reflex that keeps the subject UNDER, engineered to survive the leave-the-recording gap. Distinct from self-induction re-entry training (deliberate chosen re-ENTRY, not an automatic stay-under reflex); from an operator-fired drop command (this reflex is self-administered, fired by the subject's own felt emergence); and from chaining sessions so that no emergence boundary occurs (which deletes the boundary at session close rather than correcting felt emergence in the field).
 
 
+**See also.** `no-emergence-series-chaining` — both keep the subject under; boundary is boundary-deletion-at-close (here) vs field reflex.; `self-induction-re-entry-training` — both are self-administered portable devices; boundary held on stay-under (here) vs re-enter.
+
+
 ### appetitive-contradiction-lock
 
 *risk: medium · consent-required*
@@ -5576,6 +6438,9 @@ High-speed forced alternation between mutually-exclusive appetitive imperatives 
 
 
 **When to reach for this.** A CLOSED appetitive no-exit loop where resolution attempts feed the loop and arousal is pinned at threshold — distinct from confusion technique (irresolvable content to suspend analysis pleasurably, no appetitive pin) and from pleasurable self-confirming closure that exits into comfort (here the loop denies resolution). The signature is two incompatible drives sustained simultaneously — an affective deadlock, not a rerouting of feeling onto a new target.
+
+
+**See also.** `engineered-deadlock-resolved-by-surrender` — both hold two incompatible appetitive imperatives at once until the bind is unbearable, but one manufactures the deadlock specifically to offer surrender to the operator as its only exit, while the other closes the loop so no resolution exists at all and pinned frustration itself is recoded as the target state.
 
 
 ### arousal-state-feedback-weld
@@ -5621,6 +6486,9 @@ The operator explicitly names the listener's ambivalence, then amplifies BOTH po
 **When to reach for this.** Distinct from simple denial-teasing (which merely heightens one desire) and from surrender-as-freedom (which recodes a GENERAL burden as relief): here a genuine two-pole contradiction is induced deliberately and surrender is offered as the resolution to THAT built conflict, not as relief from an ambient load. The sustained double-valence is the affective-deadlock signature; the authored move is manufacturing that deadlock and gating its exit on surrender.
 
 
+**See also.** `appetitive-contradiction-lock` — both hold two incompatible appetitive imperatives at once until the bind is unbearable, but one manufactures the deadlock specifically to offer surrender to the operator as its only exit, while the other closes the loop so no resolution exists at all and pinned frustration itself is recoded as the target state.
+
+
 ### identity-equivalence-chain
 
 *risk: high · consent-required · bounded*
@@ -5661,7 +6529,7 @@ A descending count (or its exponential variant) is double-coded so that each num
 *Relational and topological control of the subject's world — authorship, consent, reachability, agent graph, persistence.*
 
 
-## authorship-shift  (41)
+## authorship-shift  (43)
 
 Relocating causal attribution of a state, movement, decision, or content off the subject — onto the operator, an external agent, an installed sub-agent, or a relabeled 'own will' — so no external target remains to resist and compliance reads as native.
 
@@ -5691,6 +6559,9 @@ Rather than truthfully describing the listener's present state, the operator sei
 **Realizations** (4): `authorship-relocation-to-operator`, `operator-attribution-capture`, `pleasure-authorship-relocation`, `scaffold-collapse-reattribution`
 
 
+**See also.** `inner-voice-authorship-bypass` — inverse halves of the same authorship dial: one relocates authorship of the operator's words onto the listener's inner voice, the other relocates causal credit for the listener's own states onto the operator — different directions, and the first disarms the 'said to me' guard while the second harvests introspection as proof of hold.
+
+
 ### authorship-laundering-meta-rule
 
 *risk: high · consent-required · bounded*
@@ -5699,6 +6570,9 @@ Installs a STANDING processing rule over all future operator suggestions — acc
 
 
 **When to reach for this.** A standing meta-rule over the WHOLE future suggestion channel that reattributes authorship to the listener — not a wrapper around a single install (amnesia-wrapped-command, which keeps a specific cue live and only severs its origin), and not a single-response attribution flip (failure-pre-attribution, which reattributes one elicited response). The tell is the reattribute-as-own-idea clause generalized to all future content, rehearsed and declared the default response template.
+
+
+**See also.** `amnesia-wrapped-command`; `interpretive-closure-meta-command` — both install a standing rule over the entire future rather than any named response, and reading them together shows the two halves of that rare architecture — one rewrites the ATTRIBUTION of incoming suggestions as the listener's own idea, the other delegates GENERATION of unspecified operator-benefiting action to the listener's own interpretation.; `selective-memory-bifurcation` — shares the make-it-feel-self-authored aim but is a single post-hypnotic, not a channel-wide standing rule.
 
 
 ### blank-then-authorship-handoff
@@ -5737,6 +6611,9 @@ Operator-directed compliance - present, future, or just delivered - is pre-label
 **Realizations** (2): `preference-relabeled-denial`, `self-originated-compliance-laundering`
 
 
+**See also.** `depth-labor-transfer-leash`; `retrospective-desire-attribution`
+
+
 ### control-transfer-cognitive-delegation
 
 *risk: medium*
@@ -5760,6 +6637,9 @@ A long neutral-seeming didactic/expository passage is delivered specifically to 
 **When to reach for this.** A pedagogical lecture used AS the delivery vehicle so an embedded install (trust-the-programmed-subconscious / operator-as-authority-over-your-thinking) passes while the analytical mind is occupied consuming it. Unlike surrender-as-freedom, which argues an explicit value thesis openly, and unlike transparent narration, which openly narrates its own mechanism as it works, here the lecture is a neutral-seeming cover and the payload is hidden inside it. The lecture-consumes-the-critic tell is the distinguishing feature.
 
 
+**See also.** `surrender-as-freedom-philosophical-conditioning`
+
+
 ### denial-as-will-defeat-reframe
 
 *risk: high · consent-required · bounded*
@@ -5770,6 +6650,9 @@ After repeated edging/stroking drills, orders hands away and preserves unrelieve
 **When to reach for this.** A compound reframe: denial-frustration recast as proof-of-install PLUS adversarial-will framing that recasts loss-of-will as the desired outcome, not the harm. Distinct from ordinary edging (arousal maintenance) and from addiction framing (which valorizes craving positively); here the unrelieved frustration is reframed as evidence and will-defeat as the goal. It also carries a retrospective-justification element, pre-answering future self-questioning.
 
 
+**See also.** `withdrawal-as-commitment-extraction` — both relocate authorship of the surrender to the subject; distinct vehicles (will-defeat reframe vs spoken begging) — reconciliation may relate them under authorship-relocation.
+
+
 ### depth-labor-transfer-leash
 
 *risk: medium · consent-required · bounded*
@@ -5778,6 +6661,9 @@ The operator revokes the passive contract (my words pull you down, no effort nee
 
 
 **When to reach for this.** Responsibility-transfer plus relational leash. Unlike guided visualization, where the operator builds the imagery for a passive listener, here the production work is handed to the listener and judged; and unlike authorship-laundering moves that merely re-credit work the operator did, the labor itself is transferred, not just the credit. No deficit is installed — an existing contract regime is swapped.
+
+
+**See also.** `compliance-authorship-laundering`
 
 
 ### drop-as-passive-collapse
@@ -5791,6 +6677,26 @@ Installs an interpretive frame over a state-change (a drop, the surrender itself
 
 
 **Realizations** (2): `clock-metered-dissolution`, `decision-point-erasure-by-gradient`
+
+
+### engineered-accident-self-licensing
+
+*risk: medium · bounded*
+
+Design the compliant act so that the person performing it can attribute it to a slip, a fumble, a mishearing, or bad timing rather than to a decision — the act completes and the actor keeps a clean moral self-image because on their own account they never chose it. The operator's contribution is architectural: arrange the task so the forbidden outcome sits one small accident away (the object placed where a stumble knocks it over, the confession one careless sentence from being made, the boundary one mis-stepped pace past), then say nothing. Unlike moves that relocate authorship in the operator's telling, nothing is asserted at all; the alibi is manufactured by the actor, for the actor, and is therefore not available to be contested. What makes it repeatable is that a successful accident lowers the bar for the next one — each unpunished 'that just happened' widens the range of acts the actor can perform without crossing a self-image line.
+
+
+**When to reach for this.** Nearest is press-play-consent-laundering (141): a completed low-cost act (pressing play, not stopping, staying past a marked point) is CITED BY THE OPERATOR, repeatedly, as the subject's authorization — the operator supplies the reading and the payload is a felt 'yes' that licenses escalation. Here the operator supplies no reading at all and the actor's private reading is the inverse: 'I never chose it', which preserves moral self-image rather than manufacturing consent. Versus consent-laundering-wrapper (1016): an architecture placing where consent is harvested versus where it is spent — still consent as the currency; nothing is consented to here. Versus operator-agency-disavowal (126): the operator says 'there is no hypnotist, you do it to yourself' — an operator claim about the operator, contestable because it was spoken; here nothing is spoken and the alibi is unavailable to be contested because the actor authored it. Versus unattributable-cause-severing (556): the subject can attribute control NOWHERE; here the subject does attribute — to their own accident — and that specific attribution IS the payload. Versus impersonal-mechanism-alibi (1157): an operator-asserted unfalsifiable cause (biology, fate); here the alibi is mundane clumsiness, self-supplied and never voiced. The tell: the operator's entire contribution is geometry — the forbidden outcome placed one small accident from where the actor already is — and the operator then stays silent.
+
+
+### error-laundered-enactment
+
+*risk: medium*
+
+A forbidden or unavowable wish is carried out by a motor act that is competently executed but aimed wrong — the object slips, the name comes out as the other name, the message goes to the wrong recipient — so the wish is fully discharged while the act arrives labelled as a failure of execution rather than a choice. Because errors are a category everyone already grants, the act needs no defence and admits no interrogation; the agent produces both the deed and the alibi in one motion, with no second party required to supply either. Scripted toward a listener, it works as a deniability primitive: an outcome is specified together with a manner of arriving at it that the listener can disown, so the compliance is real and the authorship is not claimable.
+
+
+**When to reach for this.** Against subconscious-agent-authorship-offload: there authorship of a real act is reassigned to the subject's own inner agent as a NARRATED frame the operator supplies; here no narration and no second party are involved — the error itself is the concealment vehicle, and it is generated by the same agent who wanted the outcome. Against object-as-causal-agent-of-cognition: that relocates causation onto an external object declared to be doing the work; the alibi here is a category of event (a slip) rather than an agent. Against self-perpetuating-loop: that is a closed amplifying circuit; this is a single discharge with a built-in cover and no feedback. Against referent-voiding-portable-obedience: that strips an impulse's object while preserving the impulse; here the object is hit precisely and it is the AIM that is disavowed. The load-bearing tell across all four: the cover story is the malfunction, so the more competent the surrounding performance looks, the better the error reads.
 
 
 ### externalized-agency-testimony
@@ -5882,6 +6788,9 @@ A whole-script ORDERING mechanism in which the operator first MANUFACTURES an ex
 **Realizations** (1): `object-identity-prep-before-label`
 
 
+**See also.** `identity-labeling` — both make an identity label land as recognition rather than assignment, but one paces a state the subject is already having and names it in the same breath, while the other is a cross-phase ordering move that manufactures the referent through content-free drill or objectifying groundwork before naming it in a separate later phase.
+
+
 ### operator-agency-disavowal
 
 *risk: medium*
@@ -5895,6 +6804,9 @@ Before or during entry the operator relocates causal agency away from themselves
 **Realizations** (1): `retroactive-self-authored-state-assertion`
 
 
+**See also.** `disavowal-and-masking` — both disarm vigilance by removing the acknowledged act to refuse, but one conceals or denies that any operation is running at all while the other admits the process and relocates its causal agency onto the subject.; `inner-voice-authorship-bypass` — two different guards disarmed by the same relocation of authorship onto the listener: one denies the operator any causal role so resistance to the state has no target, the other makes the operator's words feel self-generated so the 'this is being said to me' guard never engages.
+
+
 ### operator-credit-engineering
 
 *risk: medium*
@@ -5903,6 +6815,9 @@ Events are arranged or narrated so that effects — including genuine ones — g
 
 
 **When to reach for this.** Operates on WHO GETS CREDIT for effects, before or after they occur — versus asserting the operator's standing directly, declaring the state itself already accomplished, or pre-explaining a possible failure away in advance; here success is captured, not failure excused.
+
+
+**See also.** `operator-authority-assertion`
 
 
 ### operator-owned-depth-dial
@@ -5918,6 +6833,9 @@ Relocates authorship of a private trajectory variable (trance depth, arousal/cli
 **Realizations** (2): `externalized-operator-control-handle`, `operator-owned-climax-gating`
 
 
+**See also.** `fractionation` — members where depth is externalized to an operator-owned instrument relocate authorship of depth; symmetric-contrast members without externalization stay here.
+
+
 ### operator-voice-absence
 
 *risk: medium*
@@ -5929,6 +6847,9 @@ The artifact contains no operator speech at all: every line is grammatically the
 
 
 **Realizations** (2): `operatorless-first-person-script`, `subject-voiced-self-recitation`
+
+
+**See also.** `frame-lamination-non-return`
 
 
 ### register-hybrid-agency-diffusion
@@ -5961,6 +6882,9 @@ A single continuous causal chain in which each stage's byproduct is the next sta
 **When to reach for this.** The tell is the MATERIAL LINK — the extracted self is literally the ingredient of the install, spanning premise through container to ingestion. Distinct from an ordinary remove-then-install sequence (phases merely adjacent) and from dissociation/amnesia moves alone (the removed material is discarded, not recycled into the install). Distinct from other whole-arc foreclosure entries by lever: authorship relocation via material recycling, not routing-every-lever-inward or nested-dependency sealing.
 
 
+**See also.** `mind-as-substrate-reframe` — the substrate reframe supplies the ontology (mind as emptiable, poolable matter) that the material-recycling install presupposes, but one only re-defines what the mind IS while the other spends the extracted material as the literal ingredient of the install it then feeds back.
+
+
 ### return-step-covert-install
 
 *risk: high · consent-required · bounded*
@@ -5979,6 +6903,9 @@ Installs a post-hypnotic and then deliberately BIFURCATES memory into an opaque 
 
 
 **When to reach for this.** The distinguishing move is the explicit HOW/WHY split — forget the mechanism, keep a preserved rationale. An amnesia-wrapped command severs the origin route entirely, leaving a natural-feeling impulse with NO retained why; a screen memory overwrites real recall with a constructed replacement — here the why is preserved intact, only the how is occluded. And this is a single post-hypnotic, not a channel-wide standing rule that launders authorship of all future suggestions.
+
+
+**See also.** `amnesia-wrapped-command` — how/why split preserves a rationale rather than severing it — a refinement of this mechanism, seeded separately.; `authorship-laundering-meta-rule` — shares the make-it-feel-self-authored aim but is a single post-hypnotic, not a channel-wide standing rule.; `confabulation-amnesia-barrier` — both make amnesia robust rather than brittle by supplying the subject with an explanation, but one preserves a native-feeling rationale for the behavior while occluding only the install, whereas the other pre-arms an open-ended routine for improvising cover stories about physical evidence of the gap.; `function-amnesia` — these are inverse splits on the same how/why axis: one occludes the installation mechanism while preserving a rationale that makes the behavior feel like sincere personal truth, the other keeps the command binding while voiding the rationale so it cannot be evaluated at all.
 
 
 ### self-authored-construct-leverage
@@ -6030,6 +6957,9 @@ After total destabilization (an inverted meadow: trees grow downward, sun shines
 **When to reach for this.** Transfers EPISTEMIC AUTHORITY (who arbitrates what counts as true) via a single concrete anchor whose only virtue is contrast against operator-manufactured chaos. Distinct from offering cognitive relief as a standing delegation of thinking, and from investing a meaningful fetish object with significance - the tell is that ANY vivid object would serve; the mechanism is stability-by-contrast, not the content.
 
 
+**See also.** `arc-shape-engineering`
+
+
 ### split-self-consent-laundering
 
 *risk: high · consent-required · bounded*
@@ -6060,6 +6990,9 @@ A large fraction of the operator's commands and sensations are issued by a named
 **When to reach for this.** Not mere character-voicing or persona narration. The tell is the two-part topology: a sub-agent that firewalls commands (giving deniability) PLUS an explicit load-bearing collapse step that credits the listener's private, deniable arousal back to the operator. Remove the collapse step and it is only character-voicing; the collapse is what makes it authorship relocation.
 
 
+**See also.** `subconscious-agent-authorship-offload` — both relocate authorship of the listener's own responses away from a straightforward operator-to-listener command line, but one offloads to the listener's own subconscious as an autonomous internal agent while the other routes commands through a named external sub-agent and then collapses that channel back onto the operator.
+
+
 ### subconscious-agent-authorship-offload
 
 *risk: medium*
@@ -6071,6 +7004,9 @@ Authorship of ongoing behavior or of a state-change is reassigned to the listene
 
 
 **Realizations** (2): `breath-authorship-handoff-to-inner-agent`, `cognitive-authorship-laundering`
+
+
+**See also.** `inner-voice-authorship-bypass` — both relocate authorship inward rather than to the operator, but in opposite directions: one makes the operator's content feel self-generated so it meets no 'this is being said to me' guard, while the other credits behavior to an internal agent the listener does not feel she controls so it meets no ownership-based resistance.; `sub-agent-command-firewall` — both relocate authorship of the listener's own responses away from a straightforward operator-to-listener command line, but one offloads to the listener's own subconscious as an autonomous internal agent while the other routes commands through a named external sub-agent and then collapses that channel back onto the operator.
 
 
 ### trigger-locus-relocation
@@ -6123,7 +7059,480 @@ Abruptly withdraws a positively-valenced trance stimulus mid-experience ("Until.
 **When to reach for this.** Withdrawal is used specifically to EXTRACT self-authored verbal commitment (authorship relocation), not to deepen by contrast. Distinct from fractionation, which removes and restores the state to deepen by contrast. Distinct from a bidirectional affect anchor, which loads a cue's presence and absence with affect: here the payload is the conversion to spoken commitment, and it only works if the withdrawn stimulus already has nonzero affective valence (else removal lands as relief).
 
 
-## contingency-engineering  (33)
+**See also.** `denial-as-will-defeat-reframe` — both relocate authorship of the surrender to the subject; distinct vehicles (will-defeat reframe vs spoken begging) — reconciliation may relate them under authorship-relocation.
+
+
+## social-topology  (40)
+
+Restructuring the graph of agents acting on the subject — adding, rerouting, or binding external nodes (peers, groups, third-party activators, social proof, vicarious models) and internal nodes (named alters as actors, delegated guardians, operator role-frames).
+
+**Scope.** The who-acts-on-whom graph. Reader-directed rhetoric -> reader-craft; a single effect exported to daily life -> transfer; alters as self-structure -> self-partition.
+
+
+### antagonist-role-binding
+
+*risk: high · consent-required · bounded*
+
+Binds the subject's OPPOSING role / resistance-resource to the target state so the one activity that should affirm the opposite (being a Domme, succeeding at dominance) instead pumps the target craving to submit ('when I whip, the slave-persona needs whipped'). Every dominant act increases the slave-craving; success at the preferred identity deepens the conditioning, inverting the power hierarchy from inside the subject's own identity. No neutral or counteracting behavior is left; the resistance-resource is parasitized as fuel rather than suppressed, and ordinary real-world dominant activity becomes an out-of-session trigger.
+
+
+**When to reach for this.** The subject's ANTAGONIST/resistance role is wired as fuel for the target state (requires them to actually perform dominant acts), inverting the hierarchy from within the preferred identity. Distinct from bidirectional presence/absence anchors and from resistance-path-poisoning (which punishes the act of resisting; here the resistance- resource is converted to fuel, not punished).
+
+
+### authority-diffusion-plurality
+
+*risk: high · consent-required*
+
+Restructure the operator's AUTHORITY SURFACE so there is no single hypnotist to push back against — the rebuttal target is removed rather than defended. VARIANTS by how the surface is dissolved: (a) diffusion/plurality [authority-diffusion] — personify operator functions into simultaneous figures each escalating (resisting one leaves the others working), linguistically pluralize self-reference ('my voice'->'the voices'->'our voices') so rebuttal migrates to 'them' and the listener's own inner voice is enrolled, or offload onto a listener-populated imagined group of trusted friends who carry the speech so the operator disappears as source; (b) descend-to-peer [operator-as-fellow-conscript] — the operator repositions into the listener's OWN relational slot (a peer or a prior output of the process: 'Master made me a brainwashed brainwasher', a fellow-victim harm-reduction voice, a chorus of already-processed peers relaying for an absent apex) and derives leverage from RENOUNCED authority; (c) mask-as-parity [parity-masked-asymmetry] — exercise a real dominance asymmetry while presenting it as parity/alliance/shared-victimhood/onside-confidant so resistance loses its visible target; the gap operates precisely because it is not presented as one. All share the goal-state: no single authority surface to defy.
+
+
+**When to reach for this.** Reach for this to make the operator un-resistable by REMOVING the target — go plural/diffuse, descend to peer, or disguise the asymmetry as parity — so resistance has no addressee; the tell is that no membership is offered and no single figure stands to be confronted. NOT social-proof-belonging-enrollment (a happy cohort pulls via belonging), NOT interposed-proxy-agent (a single persistent agent ACTS and issues commands rather than dissolving the surface), and NOT named-source-authority (a single specified higher/borrowed figure — here the operator function is distributed or hidden, not relayed upward).
+
+
+**Realizations** (2): `operator-as-fellow-conscript`, `parity-masked-asymmetry`
+
+
+### authority-role-inversion
+
+*risk: low*
+
+The operator offers to be the contractee — the higher-power party performs a task while the lower-power target controls and delivers the reward — explicitly conceding the suspected unfairness. The target gets direct evidence that contracts are honored and that they hold real power, dissolving an "I always get the short end" prior through a demonstrated reversal of the power asymmetry; a power-imbalance objection is converted into trust by enacted role reversal.
+
+
+**When to reach for this.** Separates from vicarious modeling (bystander proxy) and self-contract (subject holds all roles) — here the operator performs and the target enforces, targeting the unfairness prior specifically. Distinct from concede-then-rescue-forebear: that is reader-directed rhetoric conceding a third party's flaw; this is an inter-agent role reversal enacted on the subject to rebuild trust.
+
+
+### authority-scope-hardening
+
+*risk: high · consent-required · bounded*
+
+Harden ALREADY-ESTABLISHED operator authority into a durable, unchallengeable standing — the claim survives the session and forecloses a challenge route rather than asserting anything new about the present. AXES/VARIANTS: (a) evaluability — a clause declares the operator beyond remedy and waives the subject's standing to ever object; (b) precedence — competing real-world authorities are named and subordinated to the recorded voice so the conditioning cannot be overwritten; (c) time/persistence — an in-session effect is upgraded to a permanent operator capability (pre-licensing future use while denying present intent), and at its strongest a worldview/theology install [operator-as-persistent-deity] asserting the operator 'exists in the human world' independent of whether the listener is listening, so the mind must submit whether or not it engages, carried OUT of trance and anchored to an external re-trigger symbol (e.g. latex identity-erasure) with an afterlife-of-pleasure payoff. Pick the axis by which challenge route you are foreclosing (who may evaluate / what outranks / how long it lasts).
+
+
+**When to reach for this.** Hardens the SCOPE of authority (who may evaluate it, what outranks it, how long it lasts) — every member is a clause about challenge/precedence/persistence, NOT a claim about now. Presumes authority already exists. Separates from operator-authority-assertion (asserts present-tense standing) and from named-source/impersonal displacement (which relocate WHERE authority sits rather than extending its reach).
+
+
+**Realizations** (1): `operator-as-persistent-deity`
+
+
+### become-the-discriminative-stimulus
+
+*risk: medium · bounded*
+
+A relational dependency move built over history: the operator makes themselves the reliable mediator of a want that can only be satisfied through another person, so their presence becomes the discriminative stimulus (SD) that evokes the subject's request. A history of dependably mediating a specific reinforcement sorts people into those-who-reinforce (SD) and those-who-don't (S-delta) for manding, so the reliable satisfier becomes the cue the subject's wants funnel toward. The operator thereby gains privileged access to and influence over the subject's motivational state and its satisfaction — a relationship property, not a listener-internal state push.
+
+
+**When to reach for this.** The tell is functional discrimination: the subject's requesting behavior is specifically cued by the operator's presence because that person has mediated the specific reinforcement, and the want can be met ONLY via that mediation. NOT generic rapport or liking, and NOT a within-session state move — it is a history-built inter-agent relational property.
+
+
+### beg-then-grant-polarity-flip
+
+*risk: medium*
+
+The operator pauses the descent and threatens to NOT deliver trance — to leave the listener stuck in limbo between awake and asleep — frames the withholding as something cruel she could choose, then graciously permits continuation, coupled with a "beg with your eyes / show me how pathetic you are" beat. This reverses the motivational vector: where the rest of the script frames trance as done TO the listener (and therefore resistible), the beg-then-grant gate reframes trance as something the listener WANTS and the operator GRANTS, so the listener becomes requester and the operator gatekeeper — and a requester does not resist.
+
+
+**When to reach for this.** Restructures the who-asks-whom relation via a withhold-then-grant gate; the listener's stance flips from receiver to petitioner. Separate from recasting resistance as a deepening input (this move does not touch resistance at all — it removes the stance from which resistance is issued), and from surrender-as-freedom (no loss is recoded as relief; the lever is the scarcity/gatekeeping of the granted state, not its felt valence).
+
+
+### blank-occupant-obedience-slot
+
+*risk: high · consent-required · bounded*
+
+The script raises the question of WHO is to be obeyed, offers the operator as a candidate, then explicitly discards the question ('Is that me? ... Doesn't matter. Perhaps it's whoever you hear in the empty void your mind is'). Submission is decoupled from any specific operator and attached to whatever voice the listener hears — this recording or any future one — installing a durable obedience slot with a deliberately blank occupant. The move is overt but the generalization is covert; the listener does not notice the conditioning becoming portable and self-targeting.
+
+
+**When to reach for this.** The authority slot's occupant is deliberately blanked and generalized to any present or future voice — versus ownership language (names the operator as owner), a nested authority conduit (a specified higher figure), and agentless fate-authority (no slot at all, authority relocated to impersonal fact); the tell is the explicit discarding of the operator's identity.
+
+
+**See also.** `nested-authority-conduit` — same slot-topology genus with the occupant specified versus blanked.
+
+
+### cognitive-sourcing-monopoly
+
+*risk: high · consent-required · bounded*
+
+Install the operator as the CONSTITUTIVE supplier of what the subject would need in order to object — so resistance is structurally foreclosed because the faculty or the being it requires has already been assigned to the operator. VARIANTS by which constituent is supplied: (a) cognition-sourcing [cognitive-sourcing-monopoly] — the operator is the sole source/grantor of thought, will, belief, judgment, and permitted internal state; delivered as up-front stipulation (no will, no thoughts, no emotions except those granted), recursive live capture (permission applied to the very act of comprehending the script), a hammered dependency presupposition ('you need me to tell you what to think/do/believe/be, don't you?'), or jurisdiction over a specific faculty (risk-judgment overridden by decree); objecting requires the faculty just assigned away; (b) origin-of-being [constitutive-origin-authority] — the operator is framed as the listener's ORIGIN (the mother who gave them life and licks them clean), the bond asserted as pre-existing fact ('you are of Me') rather than a claim to accept, so submission is recast from choice into a fact of being and resistance becomes ontologically incoherent (one cannot resist the being who made them); obedience bound to safety/nourishment, refusal coded as being lost/abandoned. Pick by supplies-cognition (faculty-by-faculty grant economy) vs supplies-existence (maternal pre-erotic origin-fact predating choice).
+
+
+**When to reach for this.** Claims the operator constitutively SUPPLIES the subject's cognition or being, so objecting is incoherent because it needs the very faculty/existence just assigned away. Separates from reality-authorship-monopoly (what is TRUE), operator-authority-assertion (who is in CHARGE), privileged-interior-access (the operator PERCEIVES the interior, not supplies it), and ownership language (possessive framing without the faculty-by-faculty grant economy or the origin-of-being ontology).
+
+
+**Realizations** (1): `constitutive-origin-authority`
+
+
+### collective-sanction-as-recognition-block
+
+*risk: high · consent-required · bounded*
+
+A group-level move with no single operator and no single subject: the assembled group is led to perform a visible, collective act of condemnation against an offender whose transgression is one every member privately shares an impulse toward. Because participating in the sanction publicly establishes each participant as someone on the punishing side, the act itself forecloses the member's own recognition of the matching wish — the wish becomes unthinkable in the moment of being punished in someone else. The lever is participation, not persuasion: no one is told they lack the impulse, and the more energetic the shared condemnation the more thoroughly the recognition is blocked, which is why sanction intensity often exceeds anything the offense warrants. Requires a live group with visible participation and a named offender; it does not work as a private judgment.
+
+
+**When to reach for this.** Nearest is negative-exemplar-double-bind (1249): a named third party is degraded live in-scene with deliberately ambiguous punish/aspire valence, recruiting the listener's contempt to lubricate compliance with a target the script separately names — the listener is an OBSERVER and the payoff is behavioral. Here the member is a PARTICIPANT, the payoff is an internal recognition-block, and no target behavior is named at all. Versus collective-social-proof-enrollment (441): a happy already-converted cohort pulls the listener into JOINING an end-state — belonging as the lever, membership as the reward; here the group act is punitive rather than inviting and confers no end-state, only a position on the punishing side. Versus manufactured-consensus (117): planted apparent-independents certify a behavior by headcount so passersby join — social proof capturing BEHAVIOR, self-knowledge untouched. Versus disavowal-and-masking (95): an operator conceals that an operation is running; the concealment here is self-directed and is produced by the member's own visible participation, with nobody hiding anything. The tell: the sanctioning act is performed BY the person whose self-recognition it blocks, and sanction intensity exceeding the offense is the diagnostic signature.
+
+
+### collective-social-proof-enrollment
+
+*risk: medium · consent-required*
+
+Stage the target end-state as the social norm of an ALREADY-CONVERTED, happier peer collective, so resistance is recast as isolation from a happy crowd rather than defiance of an operator and JOINING becomes the lever. The peer collective can be asserted, grammatical, or observed. VARIANTS: asserted-'we' cohort reporting they're happier (listener framed as last holdout); phantom-chorus asserted as an audible present background pre-seeding the exact mantra phrases (later extraction feels remembered) and carrying the harshest claims deniably; grammatical division of labor (we=identity/belief, you=instructions, I=peer) conscripting the listener into a collective; a long 'join us / our hive mind' peer run under low defense; observed-peer-model tableaux showing the end-state already-lived (chorus, overheard party-girl gossip inverting recruitment into membership-application via scarcity, on-screen montage of happy others); future-tense class-destination [social-proof-identity-destination] showing prior converts and 'you soon will be one of them'; and explicit membership INVITATION into the revealed converted network [conversion-as-belonging] ('my friends talked to Daddy, now they're stupid... join us'). All share the peer-belonging lever; pick the register by how the cohort is presented (asserted/grammatical/observed/future/invited).
+
+
+**When to reach for this.** The load-bearing element is a peer COLLECTIVE whose membership/consensus does the work — social proof and belonging pull, not an operator demand, an authority figure, or a reward contingency. Reach for it to make surrender read as joining. NOT authority-frame moves (no authority above; the referent is a peer cohort), NOT observational-modeling-contagion (rate-shift by exposure, no membership offered), and NOT authority-target-dissolution (there the operator descends to peer to dissolve the target; here a happy cohort pulls the listener in).
+
+
+**Realizations** (2): `conversion-as-belonging`, `social-proof-identity-destination`
+
+
+### competing-bond-starvation
+
+*risk: high · consent-required · bounded*
+
+Every relationship outside the operator's field is worked on from two sides at once. On the content side the outside bonds are denigrated — family framed as unable to understand, old friends as holding the subject back, prior attachments as shallow or contaminated. On the structural side the material conditions those bonds need are taken away: the subject's time is filled, contact windows are narrowed, travel and visits become inconvenient, and the practical budget for maintaining an outside relationship quietly goes to zero. Neither half needs to be complete because they compound — the denigration makes the shrinking contact feel chosen, and the shrinking contact removes the corrective the outside bond would have supplied. What remains is a single relational anchor by attrition, without any moment where the subject was told to cut anyone off.
+
+
+**When to reach for this.** vs isolation-by-annexation: that entry defines itself explicitly as annexing outside sources and relabeling them as secretly the operator's — and it names isolation-by-CONTENT as its absent contrast class, which is exactly this entry's first half. Here nothing is annexed or relabeled; the bonds are devalued and starved, and they keep their own identity while losing their standing. vs antagonist-role-binding: that parasitizes the subject's own opposing ROLE as fuel for the target state; this operates on third parties, not on an identity the subject holds. vs authority-diffusion-plurality: that restructures the operator's own authority surface to remove the rebuttal target; this leaves the operator's surface untouched and removes the OUTSIDE parties who could have supplied a counter-frame. vs acceptance-laddered-identity-migration: that walks the subject's self-description across small accepted steps; no identity ladder here. The structural-starvation half — controlling the contact and time budget as an antecedent condition — has no member anywhere in social-topology, which is the sharper of the two novelty claims.
+
+
+### compulsory-shared-transgression
+
+*risk: high · consent-required · bounded*
+
+An act the group would individually refuse is made executable by requiring that every member perform it, at the same time and without exemption. Because no one acted alone, no one holds an identifiable share of the culpability — the responsibility that would have blocked any single actor is spread until each person's portion falls under their own threshold for refusing. The universality is not incidental decoration: exemptions destroy it, since one abstainer restores a locus of comparison and re-individuates everyone else. Its second effect is durable: having all done it, the group now has a common disqualification from denouncing it, which binds membership past the moment.
+
+
+**When to reach for this.** Against `authority-diffusion-plurality` (0.506): that dissolves the OPERATOR's authority surface so resistance has no addressee; here the operator is perfectly visible and singular — what is distributed is the SUBJECTS' culpability, not the operator's identity. Against `manufactured-consensus` (0.489): that recruits via headcount-as-certification, where joiners infer the act is normal from apparently independent co-actors; here participation is mandatory and openly coordinated, and it works precisely because everyone knows it is not independent — certification is not the lever, absolution is. Against `impersonal-mechanism-alibi` (0.487): that relocates authority to an unfalsifiable impersonal cause so doubt is a category error; here the cause is entirely human and acknowledged, and only the accounting is diffused. Against `object-as-causal-agent-of-cognition` (0.474): unrelated attributional device, no group term at all.
+
+
+### contact-contagion-stigma-enforcement
+
+*risk: high · consent-required · bounded*
+
+An invisible polluting property is asserted to transfer by mere contact — touching the marked person, using their objects, sharing their space — so contamination spreads without any visible carrier and without any act by the contaminated party. Third parties do the enforcement: the marked person is stripped of ordinary social affordances (greeting, seating, shared implements, physical proximity) by collective avoidance rather than by any declared sanction, so no one has to defend the rule and there is no authority to appeal to. The belief seals itself structurally, not rhetorically — because nobody ever violates the boundary, the predicted consequence of violating it is never observed to fail, and the untested rule accumulates the appearance of confirmation. Both the marked person and the avoiders end up treating the property as a physical fact about the world.
+
+
+**When to reach for this.** Two joint elements, neither shipped: (1) an invisible property that transfers by CONTACT — person-to-person, and onto objects and spaces the marked person touched — and (2) enforcement by uncoordinated collective WITHHOLDING of ordinary social affordances, with no declared sanction and no authority to appeal to. Against the reinforcement-recruitment cluster: 553 public-avowal-third-party-propagation, 534 social-reinforcement-recruitment, and 2 peer-mediated-contingency all recruit outside parties to DELIVER reinforcement contingent on the target's own behavior; here nothing is delivered, the target need not act, and status alone is the trigger. Against 1110 removal-from-reinforcement-timeout: that is operator-arranged, behavior-contingent, interval-bounded and explicitly recoverable; this is peer-executed, status-contingent, and treated as permanent and uncleanable. Against 622 isolation-by-annexation: that co-opts the social field as secretly the operator's, leaving relationships nominally intact; this evacuates them. Against 16 total-permeation: a trait spread inward through the layers of one self, not outward through everything one has touched. Against 1157 impersonal-mechanism-alibi: both are unfalsifiable, but that relocates AUTHORSHIP to escape accountability while the lever here is the withdrawal itself. The self-confirming closure is also distinct from 244 reality-test-insulation and 862 failure-pre-attribution: those govern how a trial's result is interpreted; this guarantees the trial is never run.
+
+
+### covert-role-frame-accretion
+
+*risk: high · consent-required · bounded*
+
+Construct the relational frame across the whole arc by TRAJECTORY with NO declarative moment — no single line declares or negotiates it — so the frame is built in-trance and revealed (or simply operative) near the end, past the point the listener can evaluate the assignment critically. VARIANTS by which element drifts: (a) operator role-title accretion [covert-role-frame-accretion] — the operator's self-reference accretes from neutral ('I'/'my voice') through intermediate claims ('my will'/'my mind possesses your mind') to an explicit title ('your Master') late, after the listener has passed convincers/fractionation/amnesia-rehearsal/pleasure-conditioning; (b) grammatical-person migration [pronoun-migration-conscription] — the grammatical center of gravity drifts from we/you (a chorus addressing the target) through a triple-stacked teaching register ('I think what I'm told / We think what we're told / You'll think what you're told') into a first-person 'I' who has joined the chorus, walking the listener from object-of-address to member-of-we to converted-I with no 'become one of us' command; (c) cohort-to-dyad narrowing [cohort-to-dyad-narrowing] — the group/cohort frame that justified the listener's presence and lowered defenses is dissolved ~60 lines later and all attention transferred to the operator-as-singular ('I am your everything'), the narrowing disguised as a discovery the listener makes rather than a switch thrown. Pick by what is covertly restructured (operator's role-title / listener's grammatical membership / the group's very existence).
+
+
+**When to reach for this.** Covert, gradual INSTALLATION of a relational frame with no declarative moment — the tell is a trajectory (accretion/migration/dissolution) across the arc, with any visible seam (a title's first appearance, a triple-stack, a narrowing beat) NOT the carrier. Separates from scripts that ANNOUNCE the role/membership up front (which give an evaluable signal), from command-based identity conversion (no converting directive is issued), and from ownership-language or objectification-as-content (this is the grammatical/structural VEHICLE of conversion, not the claim itself).
+
+
+**Realizations** (2): `cohort-to-dyad-narrowing`, `pronoun-migration-conscription`
+
+
+### designated-bearer-culpability-transfer
+
+*risk: high · consent-required · bounded*
+
+A collective's accumulated blame is concentrated onto one designated figure through a staged re-enactment, and the figure's acceptance of the load is presented on the surface as their own free election. The group's culpability is discharged by the bearer's absorption of it — participants leave lighter without any of them having relinquished standing — and the ritual form supplies the warrant, since the transfer is enacted rather than argued and so offers no proposition to contest. The self-chosen surface is the concealing element: the bearer is not visibly assigned, so the reassignment does not read as an imposition on anyone, least of all on the bearer.
+
+
+**When to reach for this.** Blame moves sideways ACROSS PERSONS, from a collective to one member, and the transfer is masked as the recipient's own choice. All three shortlisted agency-diffusion neighbours relocate authorship of the SUBJECT'S OWN state and never reassign blame to a different person: impersonal-mechanism-alibi moves authority for a change onto an unfalsifiable impersonal thing (biology, fate, law) so doubt becomes a category error — no second person receives anything; register-hybrid-agency-diffusion smears ownership between operator-agency and apparatus-agency across a whole script's vocabulary, again within the one subject; object-as-causal-agent-of-cognition installs an object as the declared cause of the subject's own compliance. arc-shape-engineering is the nearest structural match — a whole-arc topology where the operator manufactures a condition and sells its cure — but its payload is control transfer to the operator, where here the operator may not be a beneficiary at all and the payload is a redistribution of culpability among participants. The tell against all four: after the move a DIFFERENT person is carrying something they did not previously carry.
+
+
+### envy-peer-position-pull
+
+*risk: low*
+
+Makes a target posture/role aspirational by showing a surrogate who is barred from it and openly longing for it, so the listener inherits the longing without having to choose it. Rather than directing the listener to want a position ('kneel for me'), the script stages a peer/surrogate already wanting it on the listener's behalf and being denied, reframing the submissive position as scarce and aspirational rather than degrading — a stronger pull than a direct directive because the wanting is modeled, not commanded.
+
+
+**When to reach for this.** Separates from addiction-framing (desire-by-denied-peer-position, an inter-agent relational pull, not a linguistic craving frame on the listener); from a 'kneel for me' directive (the surrogate's surprise-at-own-wanting and structural denial are the tell — the desire is inherited, not asked for).
+
+
+### epistemic-authority-capture
+
+*risk: high · consent-required*
+
+The operator claims direct perceptual access to the subject's unobservable interior — watching their dreams, knowing their arousal, having surveilled their private behavior, or reading their unconscious — presented as telemetry, not inference. Because nothing observable can contradict the claim, denial loses standing; defensive attention aims at "is she really seeing me?" instead of "is this true?"; shame flips from brake to compliance fuel; and every later assertion about what the subject wants arrives pre-licensed as perception rather than suggestion.
+
+
+**When to reach for this.** Claims ACCESS to the interior (perception), versus reality-authorship-monopoly which claims AUTHORSHIP of it, and operator-authority-assertion which claims rank; versus a seducer's insight, the tell is the asymmetric direct-telemetry framing (she perceives you, you cannot perceive her) that strips standing to deny.
+
+
+### external-tie-severance
+
+*risk: high · consent-required · bounded*
+
+Family, employment, and friendships outside the group are dismantled under sustained pressure — moves, schedule capture, prescribed cutoffs, relabeling outsiders as hostile — until the group is the only source of belonging, income, and information. Two things go at once: the triangulation channel, since no one remains who could compare the group's claims against an outside account, and the exit route, since leaving now costs everything rather than costing membership. Neither is a claim made to the subject; both are structural facts about their life, which is why the effect does not depend on the subject believing anything in particular.
+
+
+**When to reach for this.** Against `isolation-by-annexation` (0.569): that leaves the relationships standing and relabels them as secretly the operator's, pre-empting the counter-frame from inside; this removes the relationships in fact — after annexation the mother still exists and could still be called, after severance she cannot. Against `environmental-dissociation` (0.553): that fades competing perceptual input inside a session and reverses on waking; this is an out-of-session structural change to the subject's life with no in-session component. Against `closed-epistemic-self-validation-loop` (0.560): that closes the evidence channel by wiring claims to self-induced states; this closes it by deleting the people who would have supplied contrary evidence. Against `no-exit-state-braid` (0.547): that welds internal state variables so no single-variable exit exists; the variables here are external and material — job, housing, kin.
+
+
+### fiduciary-role-capture
+
+*risk: high · consent-required · bounded*
+
+A genuinely credentialed professional — someone whose training carries a duty owed to the people in front of them — is brought inside the frame as a member, so that their loyalty to the group outranks the duty their role encodes. Their real skill is then applied to the leadership's ends against the very members the role exists to protect: procedures performed, sedation administered, professional rulings issued to serve the group's account rather than the member's interest. The capture is doubly effective because the role's own legitimacy travels with it — members read the professional's participation as evidence that what is happening is within bounds, which is exactly the inference the credential is designed to license.
+
+
+**When to reach for this.** vs protective-role-conscription (1123): that assigns the LISTENER a fictional protective bystander costume inside a scene so hypnotic content lands past their self-relevance monitoring — the role is fictive, the target is the listener, and the whole thing is in-frame. Here the role is real, externally credentialed, and worn by a third party, and the inversion is of an actual duty rather than a story position. vs third-party-activation and interposed-proxy-agent (545): those delegate firing rights over an installed cue or install a fictive agent that issues commands; nothing is delegated here — a person with independent standing and independent obligations is annexed. vs peer-mediated-contingency (534): that recruits ordinary peers as reinforcers, which requires no credential and inverts no duty; the tell here is specifically that the captured party's role is the one members would appeal TO for protection. vs authority-diffusion-plurality (439): that dissolves the authority surface so there is no one to resist; this ADDS a sharply-defined authority whose legitimacy is borrowed intact. vs impersonal-mechanism-alibi (1157): the authority here is personal, named and in principle checkable against the professional's own governing body — which is also the practical countermeasure.
+
+
+### impersonal-mechanism-alibi
+
+*risk: high · consent-required · bounded*
+
+Relocate authority for the change from the contestable operator onto an IMPERSONAL, unfalsifiable thing, so doubting becomes a category error and the listener's felt-sense ('I don't feel changed') stops counting as counter-evidence; the payload is removed from interpersonal negotiation. VARIANTS by how impersonal/agentless it goes: (a) pseudo-mechanism alibi [impersonal-mechanism] — brain chemistry, neural pathways, 'how hypnosis works', universal truth, class law; delivered as pseudo-neurochemical vocabulary, a credentialing-then-escalate belt, a redundant multi-rail pseudo-science scaffold, or a conceded process-fact that pre-authorizes downstream state-changes; the operator gains simultaneous authority (it's science/fact) and deniability (you can't reliably detect it), resistance recast as arguing with one's own biology; (b) agentless fate/curse [agentless-fate-authority] — the payload is a 'curse' that 'cannot be lifted', contracted by listening, with NO agentic origin; the operator is ERASED from the accountability chain (no negotiation partner, nothing to refuse), earlier participation is retroactively re-read ('you chose to listen'->'you accepted the curse'), and cross-session persistence is licensed since a curse outlives a session. Pick by operator-present-but-empowered (pseudoscience) vs operator-erased (curse ontology, needs genre fluency to accept).
+
+
+**When to reach for this.** The authority source is impersonal and UNVERIFIABLE — separates from operator-authority-assertion (the speaker's own standing), named-source-authority (a nameable third-party/higher source the listener defers to), and genuine psychoeducation (which informs rather than cashing the 'fact' in immediately on the listener's state to disqualify doubt). Reach for it to make resistance a category error (arguing with biology/fate/law); pick the pseudoscience vs curse register by whether the operator stays present or is erased.
+
+
+**Realizations** (1): `agentless-fate-authority`
+
+
+### isolation-by-annexation
+
+*risk: high · consent-required · bounded*
+
+ANNEX a counter-frame source and relabel it as the operator's rather than DENY it — co-opting the very sources a counter-frame would draw on, which is rarer and stickier than denial because it pre-empts triangulation. VARIANTS by what is annexed: (a) the social field [isolation-by-annexation] — a sole-author-universe whole-file property: exactly one agent with desires (operator), one object (listener), zero third parties with standing; parents, friends, lovers, past selves appear only as instruments, retroactively reassigned as subordinate contributors to the operator's ownership, so normal counter-conditioning ('but my mother loves me for myself') is pre-empted because every relationship has already been annexed as secretly working for the operator; operates at the level of who-counts-as-having-a-perspective; (b) rival/prior conditioning [prior-conditioning-annexation-funnel] — as the listener falls into a vortex 'below any other conditioning', prior programming is not erased but annexed and relabeled as the operator's with explicit permanence, and future operators are positioned as operating at a shallower layer this one already owns; stacked with a depth-ratchet (an optional intensifier) that demotes everything so far to the 'surface'/'bait' and asserts a deeper 'real' trap to motivate renewed descent. Pick by object annexed (relationships/perspectives vs competing conditioning).
+
+
+**When to reach for this.** The tell is annexation, not content-denial: a counter-source (relationships/perspectives, or rival/prior conditioning) is co-opted and relabeled as secretly the operator's — which pre-empts the counter-frame's own sources rather than telling the listener no one/nothing else matters. Distinct from isolation-by-content (denies others matter) and from internal-permeation (spread of influence, not capture-and-relabel of a rival source). Object annexed is a parameter; the depth-ratchet in the conditioning variant is an optional intensifier.
+
+
+**Realizations** (1): `prior-conditioning-annexation-funnel`
+
+
+### lateral-solidarity-block-mutual-reporting
+
+*risk: high · consent-required · bounded*
+
+Two rules are installed together: private talk between members about their own doubts is named as disloyal gossip and forbidden, and members are taught that hearing another's doubt must be reported upward. Each member's confidant is thereby converted into an enforcer, so the cost of voicing a misgiving is paid immediately and socially rather than deferred. With outside contact already restricted, the effect is that doubt exists only in isolated single copies: nobody ever learns that anyone else shares it, no two doubts aggregate into a challenge, and the leadership's account is never contested by a plural voice. The structure needs no punishment to run — the anticipated report is enough to keep doubt unspoken.
+
+
+**When to reach for this.** vs operator-absent-self-policing (804): that is the single-subject dyadic case — the subject is deputized as their own warden during the operator's absence; here the enforcement is multi-agent and horizontal, and what is policed is not a behavioral rule but the CHANNEL between peers. vs peer-mediated-contingency: that yokes peer reward and public status to compliance, adding a positive social contingency; here nothing is rewarded — an existing communication edge is severed. vs collective-social-proof-enrollment: that supplies belonging pull toward the frame; this supplies no pull at all, it removes the only route by which counter-evidence could accumulate. vs authority-diffusion-plurality (439): that dissolves the operator's authority surface so resistance has no addressee; here the authority surface is single and intact — what is removed is the peer graph the members would need to mount a challenge against it. vs unfalsifiability-scaffold (893): that closes the evidence channel inside one head; this closes it between heads. vs suggestion-field-hygiene (582): a design-time control over what enters the field, not a social rule imposed on members.
+
+
+### manufactured-consensus
+
+*risk: low*
+
+The operator plants a small visible group performing the same conspicuous orienting act (staring at an empty sky-spot); passersby read the headcount of apparently-independent co-actors as certifying the act as what-people-here-do and join, each joiner becoming proof for the next. The effect is self-amplifying and dose-responsive (five beat one), and joiners experience the compliance as their own curiosity.
+
+
+**When to reach for this.** A visible PLURALITY of apparently-independent co-actors in a public, ambiguous setting, capturing behavior via headcount-as-certification; not a single conspicuous actor, not belief persuasion, and not behavior-installation from a depiction (vicarious-modeling-installation).
+
+
+**See also.** `vicarious-modeling-installation` — same-chapter social-proof genus, different lever (live headcount certification vs observational installation); reconciliation may raise a shared principle.
+
+
+### material-verification-base-severance
+
+*risk: high · consent-required · bounded*
+
+Rather than arguing that outside sources are wrong or annexing them as secretly the operator's, this strips the material infrastructure that independent perception-checking runs on: contact with kin and friends, the job, independent income, property, a place to go. Nothing is asserted and nothing is relabeled — resources are simply removed, and with them every practical means of putting a claim beside an outside reference. Confidence in one's own perception erodes because there is no longer anyone to check with and no material position from which to leave and find out. The group's account becomes the only account available, not because it defeated the alternatives but because the alternatives are no longer reachable.
+
+
+**When to reach for this.** This is the third isolation variant and the only structural one. vs isolation-by-annexation: that CO-OPTS counter-sources and relabels them as the operator's ('your mother is secretly working for me'), pre-empting triangulation semantically while the relationships nominally continue; here the relationship is materially ended, and no claim is made about it. It is likewise distinct from that entry's named sibling isolation-by-content, which asserts that others do not matter — both of those operate on framing, this operates on resources, and the deciding tell is that the subject could still fully believe outsiders are trustworthy and reasonable and would still have no way to consult them. vs closed-epistemic-self-validation-loop: that closes the circuit from the inside, using script-induced states as their own corroboration — here the circuit is closed from the outside by removing the external comparison set, and the subject's internal reasoning may be untouched. vs serial-identity-erasure-ladder: that stages removals of identity CONTENT (memories, skills, the name) in escalating order; this removes external assets and leaves the self-model alone. vs self-generated-failure-as-identity-proof: no evidence is manufactured and nothing is proven.
+
+
+### negative-exemplar-double-bind
+
+*risk: medium*
+
+Holds up a named third party live in-scene as the degraded cautionary case (shown, not narrated), recruiting the listener into the observers' contemptuous viewpoint. Because the punishment uses the same imagery the script later says to aspire to, fear and envy collapse into one payload: the listener can neither refuse the target attitude (refusing means identifying with the punished exemplar) nor fully dread the punishment (it is also framed as enviable). The threat-display does compliance work that gossip alone would not.
+
+
+**When to reach for this.** A third-party live-degradation double-bind used as compliance lubricant — not a craving frame installed on the listener, and not retrospective justification of the listener's OWN surrender: the lever is another agent's degradation with a deliberately ambiguous punishment/aspiration valence. Tell: a live degraded exemplar whose valence is simultaneously deterrent and aspirational.
+
+
+### nested-authority-conduit
+
+*risk: medium · consent-required*
+
+Route authority to a NAMED source other than the operator's own bare standing, so commands arrive pre-authorized by a figure the listener defers to (and rebuttal deflects to a source that is not the operator's rank). VARIANTS by where the source sits and whether it persists: (a) standing-above conduit [nested-authority] — position the source ABOVE/behind the operator (an ultimate Designer/Owner, higher programming, or an accumulated lineage of prior hypnotists credited as transmissible hypnotic mass), obedience routed to the higher frame while the operator stays a relay, rebuttal deflected upward to an unconfrontable figure; (b) borrowed external instrument [borrowed-authority-invocation] — invoke a nameable EXTERNAL source deployed as an instrument (a bare title/symbol firing a deference schema, a trusted third party's lineage vested in a carrier object, fabricated 'instant research' evidence, or a trusted-honest figure through whom the subject's own claims are laundered back as objective truth), the bypass typically invisible ('I would have refused' self-model stays intact); (c) annexed-at-exit [borrowed-authority-annexation] — construct a pre-legitimized fiction (pseudo-historical legend, warrior-queen) at ENTRY so early commands arrive authorized, then at EXIT collapse the fiction onto the real operator ('the power of my words passed down to me') so submission generated inside the fiction is cashed out to the operator and persists. Pick by standing-above (ongoing conduit) vs borrowed-instrument vs annexed-to-operator (entry-loan/exit-collection arc).
+
+
+**When to reach for this.** The authority source is a NAMED one other than the operator's own present-tense rank — a higher figure kept standing above, a borrowed external badge/lineage, or a fiction annexed at exit. Reach for it to borrow credibility the operator's bare standing lacks. Separates from operator-authority-assertion (operator's OWN standing, no external source), impersonal-authority-displacement (an UNnameable impersonal mechanism, not a nameable figure), authority-target-dissolution (distributes/hides the operator rather than pointing at a source), and constitutive-dependency-claim (operator supplies the faculty itself, not merely vouches).
+
+
+**Realizations** (2): `borrowed-authority-annexation`, `borrowed-authority-invocation`
+
+
+**See also.** `blank-occupant-obedience-slot` — same slot-topology genus with the occupant specified versus blanked.; `instruction-precedence-schema` — the live-partner carve-out invokes external authority, which is why FRAM-04 retrieval pulled it; recorded as retrieval near-miss only.
+
+
+### operator-authority-assertion
+
+*risk: medium*
+
+The operator asserts present-tense personal authority, standing, or trustworthiness over the listener as a bare fact, so that subsequent suggestions ride on deference to the speaker rather than on argument. Variants change what the assertion is credentialed by (witnessed public stakes, narrated survivorship, a proper-name binding laundered through flattery) but the lever is always the operator's own claimed standing inside a shared reality the listener still inhabits.
+
+
+**When to reach for this.** Asserts WHO holds authority right now, delivered by the operator about the operator — a claim of rank within a shared reality the listener still inhabits. It invokes the speaker's present standing, not the listener's past desires and not a reasoned philosophy; and it stops short of claiming the words themselves constitute reality, or of relocating authority off the contestable speaker onto impersonal chemistry or universal fact.
+
+
+**See also.** `operator-credit-engineering`; `reciprocity-leverage` — secondary home for the hierarchy half
+
+
+### peer-authored-target-selection
+
+*risk: high · consent-required*
+
+The menu of target behaviors is authored by the surrounding group rather than the subject. Every other group member must write at least one positive target onto each person's list, and the subject neither nominates nor vetoes entries about himself — so candidate targets arrive pre-endorsed by peers, lowering resistance to behaviors he would not have self-nominated and seeding the menu with externally-valued options.
+
+
+**When to reach for this.** The operant content is the authorship requirement (others write your improvement list, with no self-veto), not the form-filling procedure, not peer pressure on performance, and not proxy-subject contagion (which redirects suggestions to responsive peers as models) — here peers author the agenda, they do not model responses.
+
+
+### peer-mediated-contingency
+
+*risk: medium*
+
+Recruit a peer GROUP as auxiliary change-agents by yoking its reinforcement topology to the target behavior and posting each member's status publicly, so peers monitor, pressure, and coordinate with each other atop the operator's direct contingency. The yoking structure is the parameter — VARIANTS: (a) general public-status substrate [peer-mediated] — public/consequential status alone recruits peer pressure regardless of how rewards are yoked; (b) all-or-none interdependent [interdependent-group] — reward hinges on a collective criterion (group total/mean), 'all earn or none do', with an optional defensive individual-overlay to neutralize defectors; (c) dependent 'hero-gates-all' [dependent-group] — one member's performance gates the whole group's reward, converting peer hostility into positive attention on the 'hero'. All three ride the same peer-as-change-agent graph; pick the yoking that fits who should gate whose reward.
+
+
+**When to reach for this.** Reach for this when a co-present GROUP under a shared contingency can be turned into reinforcers of each other — the lever is peer monitoring/pressure yoked to reward, and you choose the yoking (public-status substrate / all-or-none / hero-gates-all). NOT belonging-recruitment (social-proof-belonging-enrollment — membership pull of a converted cohort, no reward-yoking) and NOT peer-authored-target-selection (peers author the agenda, they do not gate the reward).
+
+
+**Realizations** (2): `dependent-group-contingency`, `interdependent-group-contingency`
+
+
+### persona-mimicry-anchor-hijack
+
+*risk: high · consent-required · bounded*
+
+The operator faithfully copies a specific target person's tonal and postural analogues, becoming a stand-in; a third party whose responses are anchored to that target then runs the relationship's programmed responses toward the operator instead. Because behavior binds to the person-anchor rather than the person, high-fidelity mimicry hijacks the anchor, giving live access to and active drive of another's relational responses without the target present ('she'll respond to the stand-in as though married to him').
+
+
+**When to reach for this.** Faithful impersonation of a SPECIFIC person to inherit a third party's programmed responses toward that person. Not generic rapport-matching or pacing, and not becoming a discriminative stimulus via one's own reinforcement history with the subject.
+
+
+### proxy-agent-resistance-offload
+
+*risk: high · consent-required · bounded*
+
+Install an AUTONOMOUS agent that holds real decision-authority the listener defers to, and route the contest through it — displacing surrender-agency off the listener onto a party 'programmed never to lose'. The agent's representational LOCATION (inner part vs in-scene figure) is a parameter. VARIANTS: (a) externally-authored obedient inner character [proxy-agent-resistance-offload] — a named, persistent, seeded-by-a-prior-file part that is definitionally obedient and exempt from justification; the listener's resistance is reframed from 'me vs the operator' (winnable) into 'me vs an internal part that never loses' (defeat structurally guaranteed), and irrational beliefs the listener's reason would reject are assigned to the proxy ('doesn't need it to make sense') and radiated in via a shared-mind premise as ambient feeling; (b) aftercare-clause subconscious [guardian-delegation-inner-agent] — a safety/reassurance clause that names the 'subconscious' as a competent autonomous decision-holder owning the off-switch and timing ('removing the lipstick ends the effects AND your subconscious already knows when to put it on'); the reassurance IS the installation, defusing 'what if I can't turn this off' anxiety while relocating the off-switch into an installed inner authority rather than returning it to the listener; (c) interposed in-scene proxy [interposed-proxy-agent] — a separate figure in the scene is granted real agency and made the actual command-issuer while the operator recedes to narrator (draws the listener in, guides their hands, supplies affection the stranger-operator could not credibly give); authorship diffuses to the admired proxy so compliance feels like inclusion/identification, and the proxy is staged as a permanent occupant carried out of session ('she can live for you'), the wake omitted. Pick by inner-combatant vs aftercare-subconscious vs in-scene-actor — but all install a delegated authority the listener cannot simply reclaim.
+
+
+**When to reach for this.** Installs an autonomous agent (inner part OR in-scene figure) that HOLDS authority against the listener and carries the contest/belief, rather than the listener inhabiting it — the tell is delegated decision-authority the listener defers to and cannot simply reclaim. Separates from a genuine agency-reminder/aftercare disclaimer (which hands control BACK), from named-source-authority (which points at a figure outside the listener the operator relays or borrows), and from ordinary guided-imagery characters that are used and released (these agents are non-dismissed and carry real authority). External-scene proxy vs inner named character vs ambient subconscious is the agent's location, a parameter.
+
+
+**Realizations** (2): `guardian-delegation-inner-agent`, `interposed-proxy-agent`
+
+
+### public-avowal-third-party-propagation
+
+*risk: high · consent-required · bounded*
+
+Externalize the installed state so parties OUTSIDE the operator-listener dyad do the reinforcing/propagating work, making a private experience a self-reinforcing relational system that extends operator reach past the audio. VARIANTS by how the outside world is recruited: (a) public avowal / third-party-directed act [public-avowal] — post a named avowal, publicly self-label, tell someone the operator's slogan, share the file, so an AUDIENCE reinforces via self-consistency pressure (having declared it publicly, the listener is pushed to keep believing) and doubles as recruitment/distribution; frequently laundered as defiance/self-proof or prosocial sharing; (b) viral propagation / recruit-new-subjects [viral-propagation-directive] — redirect the whole payload OUTWARD, the listener guides others toward becoming the operator's slave or craves the trigger from others and 'uses it on others', a proselytizing transmission vector (raising exit cost — leaving now requires publicly admitting one was wrong); (c) deputize-toward-a-partner [listener-as-influence-vector] — the subject is made an active recruiter/contingency-manager toward a specific third party (transform your husband into a 'X lover'; or reciprocal ABA where two parties each manage the other's consequences) so the third party becomes co-invested; (d) legible body-signal [body-as-broadcast-signal] — prescribe visible bodily modifications with a READING attached ('leave no question') so the body broadcasts ownership status, every social interaction becomes reinforcement (signal read) or felt violation (not read), and the listener becomes their own observer. All share the lever: the social world outside the dyad maintains the install; pick the register by active-act vs propagation vs partner-deputization vs passive-signal.
+
+
+**When to reach for this.** The reinforcing/propagating engine is EXTERNAL to the operator-listener dyad — witnesses, a third party, corpus evangelism, or observers of a body-signal do the work (self-consistency pressure, recruitment, distribution). Reach for it to make the social world maintain the install. NOT a private self-anchor (behavioral-bridge) and NOT a private deliverable to the operator (extraction); the tell is externality-to-an-audience. Distinct from internal-permeation moves, which spread WITHIN the subject (inverse direction).
+
+
+**Realizations** (3): `body-as-broadcast-signal`, `listener-as-influence-vector`, `viral-propagation-directive`
+
+
+### reciprocity-leverage
+
+*risk: low*
+
+The operator manufactures a relational debt or felt mutuality and converts it into compliance: explaining something and then deriving that the listener "owes" them (gratitude debt plus intelligence hierarchy, performed live under a hypothetical frame), or dropping the dominant posture to confess personal wanting so the scene reads as mutual and refusal reframes as interpersonal rejection of a person rather than of a role.
+
+
+**When to reach for this.** The lever is social exchange — debt, obligation, mutuality — not claimed standing (operator-authority-assertion), not sameness masking dominance (parity-masked- asymmetry, where nothing is owed); the tell is that refusal is made to cost the listener something interpersonal.
+
+
+**See also.** `operator-authority-assertion` — secondary home for the hierarchy half; `perpetual-obligation-ledger` — both run on the reciprocity norm and make refusal cost something interpersonal, but the leverage form converts a single manufactured debt or confessed mutuality into one compliance, while the perpetual ledger structurally over-repays so the balance never closes and the tie becomes standing.
+
+
+### relational-fractionation
+
+*risk: low*
+
+Between high-control beats the operator drops small, low-power vulnerabilities — breaking character to admit pride ("I'm too proud of myself, can you tell?"), coining a delighted neologism, self-referencing their known style — re-establishing the operator mid-scene as a person the listener likes. This is soft fractionation on the RELATIONAL axis: the listener is cycled between "she has me" (submission) and "she's a person I like" (affection), rather than up and down the trance-DEPTH axis. Willingness to be controlled rises because the controller is charming; the breaks are the connective tissue between intensity beats.
+
+
+**When to reach for this.** The tell is cycling of RELATIONAL stance (control vs likeability), not descent/ascent of absorption. Distinguish from classic fractionation (which cycles trance DEPTH) and from pacing-leading (which reflects the subject's experience; here the operator reveals their own persona to bind rapport).
+
+
+### superordinate-agreement-ladder
+
+*risk: medium*
+
+In a dispute/negotiation, make the RESISTER produce or publicly endorse the outcome themselves, so their own commitment binds later objection (refusing then reads as refusing their own stated position). VARIANTS: (a) ladder-to-umbrella-assent [superordinate-agreement-ladder] — ask each disputing party what they want, then what that would get them, climbing to ever-more-general outcomes until both assent OUT LOUD to one umbrella goal too general to disown (separating parties and re-broadening in stuck cases); once endorsed publicly, later resistance reads as refusing one's own interest and subsequent disagreements are subordinate to the shared frame; (b) objector-authors-the-fix [objector-authored-behavior] — ask the objecting party to specify FROM SCRATCH exactly what the other could do that they would recognize and respond to, framing being asked as a compliment; because the objector authors the target behavior it is guaranteed acceptable and cannot be rejected later, and being cast as expert-instructor recruits them as collaborator, so resistance is spent producing the specification instead of blocking an imposed fix. Pick by ladder-to-shared-goal (two parties, upward generalization) vs author-the-behavior (one objector originates the fix).
+
+
+**When to reach for this.** The resister PRODUCES the endorsement (a publicly-assented umbrella goal, or a from-scratch specification of the acceptable behavior) so self-consistency binds later objection — the assent/authorship is real and load-bearing. Separates from summarizing-back or pacing a contested specific, from decoy engagement, and from the operator soliciting feedback on a PROPOSED fix (here the resister originates, does not ratify). Distinct from authority-role-inversion (enacted power reversal to rebuild trust, not authored endorsement) and peer-authored-target-selection (the surrounding GROUP authors the menu, not the disputant).
+
+
+**Realizations** (1): `objector-authored-behavior`
+
+
+### third-party-contact-shallowing
+
+*risk: high · consent-required · bounded*
+
+Every external excursion is bracketed by the operator or by deputized peers: the subject is briefed on purpose and permitted content before going, accompanied or partnered where possible, and debriefed on return about who was spoken to and what was said. The point is not to prevent contact but to keep it too shallow to become a channel — a contact that must be reported in advance and accounted for afterward stays transactional, and the subject self-censors the exchanges that would have carried counter-information. It works through anticipated reporting rather than through detection: the subject need never be caught, because knowing the debrief is coming is what does the shaping.
+
+
+**When to reach for this.** None of the nearby entries monitors the subject's OTHER relationships. operator-absent-self-policing (804) relocates the warden inside the subject with self-administered forfeiture during an undisclosed absence — surveillance is internalized and the target is the subject's own conduct, not their contacts. suggestion-field-hygiene (582) manages BYSTANDERS' speech to protect an achieved state, an acoustic-field discipline aimed at people in the room rather than an apparatus imposed on the subject's outside ties. reality-test-insulation (244) installs a surface/depth partition so ordinary life sees nothing — the outside relationships continue fully and are simply made irrelevant, whereas here they continue and are made shallow. isolation-by-annexation (622) relabels relationships as secretly the operator's, changing their meaning rather than instrumenting them; public-avowal-third-party-propagation (553) recruits third parties to reinforce, pointing outward rather than watching. The tell that separates this from all of them is a reporting apparatus placed between the subject and their external contacts. It is the enforcement arm of evidence-supply-blockade — blockade removes channels the operator controls, this shallows the ones they cannot — and the two could reasonably merge as blockade and surveillance faces of one information-environment-control entry.
+
+
+### third-party-hostage-with-blame-redirect
+
+*risk: high · consent-required · bounded*
+
+The operator prices a third party's behavior in the subject's access to that third party: as long as the outside family member, friend, or partner refrains from advocacy or criticism, contact continues; when they act, contact is cut. Two things then happen at once. The third party is coerced through a person who is not the operator's target of persuasion, and the subject — who experiences only the cutoff, not the arrangement producing it — is induced to attribute the loss to the third party's own conduct. The subject thereby supplies the isolation themselves and resents the very person best positioned to offer an outside frame. The arrangement generalizes to any custodial or gatekeeping relationship where one party controls another's access to a third.
+
+
+**When to reach for this.** Neighbours cover isolation and coercion separately; none combines them across three parties with a misattributed cost. `isolation-by-annexation` removes the counter-frame by RELABELLING outside relationships as secretly the operator's — the relationships survive and are co-opted; here contact is actually severed and the severance is blamed on its victim. `coercion-as-caregiving-reframe` narrates a coercive imposition on the SUBJECT as care — dyadic, and the reframe is benevolent rather than accusatory. `verifiable-control-transfer` relocates termination authority TO the subject and honors it; this is the inverse, and the party losing control never agreed to the arrangement. `public-avowal-third-party-propagation` recruits outsiders to REINFORCE an install; this recruits nothing from the outsider except silence, and punishes them for speaking. `reciprocity-leverage` manufactures a debt inside the dyad. The specific unmatched properties are the hostage structure (the coerced party is not the influence target) and the blame redirect (the felt cost of an operator-imposed act is routed onto the party who 'caused' it).
+
+
+### triadic-payoff-split-with-bought-witness
+
+*risk: high · consent-required · bounded*
+
+The operator restructures the scene from a dyad into three distinct roles: the party whose compliance is being purchased, a different party who receives the actual payoff, and a bystander whose acquiescence is bought with a separate side-benefit (inclusion, a share of the gratification, status as an insider). Because the influence target is not the payoff recipient, the ordinary 'what do I get out of this' check misfires — the target is evaluating a transaction whose benefit sits somewhere they are not looking. The bought witness supplies the second half: the one person positioned to name the arrangement as coercive is instead invested in it, so the scene reads as consensual to everyone present and the target loses the outside observer who would otherwise supply a reality check. The topology, not any single utterance, is the mechanism; the three roles must be genuinely occupied by three parties for it to run.
+
+
+**When to reach for this.** The load-bearing difference from every neighbour is that three parties hold three DIFFERENT roles. `reciprocity-leverage` and `perpetual-obligation-ledger` both keep the ledger strictly dyadic — the operator manufactures a debt the listener owes the operator, and the listener is simultaneously the target and the counterparty; here the debt-holder, the beneficiary, and the target are pulled apart. `service-as-self-pleasure` cross-routes sensation between two parties so that serving another IS self-pleasure — it collapses the giver/receiver distinction, whereas this move relies on that distinction staying intact and unexamined. `pleasure-attributed-to-operator` reroutes the SOURCE of reward onto the operator inside a dyad; here the reward genuinely goes to a third body and no re-attribution is attempted. The nearest social-topology entries also miss: `public-avowal-third-party-propagation` recruits an undifferentiated audience to reinforce a payload already installed in a dyad, while this buys ONE specific witness's silence as a structural precondition before the payload lands.
+
+
+### two-channel-relational-delivery
+
+*risk: medium*
+
+A WHOLE-ARTIFACT relational topology: run two simultaneous delivery tracks and ride the actual install underneath a foreground relation the listener is invited to identify with, so the payload is absorbed and licensed by the RELATION between voices/roles rather than announced. VARIANTS: (a) two-voice dialogue [two-channel] — a dramatized operator-assistant exchange (Track A) carries a deniable listener-directed induction (Track B) that never announces itself until Track A's logic has already implicated the listener; the assistant serves several loads at once (demonstration subject, appetite model, deniable proxy for heavy claims, manufactured-history witness); (b) pedagogical carrier — a culturally pre-loaded teacher/student relation makes authority read as 'I am explaining your situation' and reframes resistance as comprehension failure; (c) watched-surrogate [surrogate-demonstration] — the operator's conditioning is performed on a surrogate the listener watches and is folded into by a single 'just like you' seam (or by peer-frame social cost in the operator-absent chorus variant), so the rulebook arrives as narration ABOUT the surrogate and the listener rehearses vicariously with lowered guard. In every form the listener is the actual subject; remove the relational structure and the payload becomes naked and resistible.
+
+
+**When to reach for this.** Reach for this to deliver a WHOLE payload deniably by staging a foreground relation (two-voice dialogue, pedagogy, or a watched surrogate) that absorbs the heavy claims while the real install rides underneath via identification — a topology of who-is-addressed-vs-who-absorbs spanning the whole artifact. NOT a mere two-character narrative device (the tell is the two-TRACK architecture and the single fold-in seam), NOT observational-modeling-contagion (a bare modeled behavior raises rate; here a constructed relation is the deniable carrier of the entire script), and NOT a discrete framing move.
+
+
+**Realizations** (1): `surrogate-demonstration-frame`
+
+
+**See also.** `concurrent-dual-stream-delivery` — both run two simultaneous authored tracks with the real install underneath, but one splits by perceptual channel with a decoy occupying attention, while the other splits by dramatized relation (dialogue, teacher, watched surrogate) so identification rather than distraction licenses the payload.
+
+
+### vicarious-modeling-installation
+
+*risk: high · bounded*
+
+Showing the target others performing (or NOT performing) an act — even on film, with no instruction to imitate — silently re-weights what the viewer treats as available and appropriate and shifts their own subsequent rate of that act; valence is set entirely by what is modeled (the same channel cures phobia or transmits aggression). VARIANTS by carrier/direction: (a) in-person/film depiction [vicarious-modeling] — mere observation of a model raises the behavior, no live plurality/instruction/prohibition; (b) media-scale one-way [publicized-modeling-contagion] — wide broadcast of a similar other's act (e.g. publicized suicides) raises the base rate population-wide among identifiers, differing from (a) only by scale and carrier; (c) inaction/mutual-visibility [pluralistic-ignorance-freeze] — among co-present strangers each reads the others' calm non-response as evidence nothing is wrong and suppresses their own, a recursive freeze that yields less help than a lone witness (broken by singling one person out).
+
+
+**When to reach for this.** Reach for this when mere OBSERVATION of a model shifts the viewer's own rate — no belonging is offered, no operator required, nothing suggested/triggered/scheduled. Pick the variant by carrier (in-person/film vs media-scale) and direction (action-raising vs inaction-freeze). NOT social-proof-belonging-enrollment (membership/conformity is the lever, not rate-shift-by-exposure) and NOT two-track-relational-delivery (a foreground RELATION carries the payload via identification, not a bare modeled behavior).
+
+
+**Realizations** (2): `pluralistic-ignorance-freeze`, `publicized-modeling-contagion`
+
+
+**See also.** `manufactured-consensus` — same-chapter social-proof genus, different lever (live headcount certification vs observational installation); reconciliation may raise a shared principle.
+
+
+## contingency-engineering  (39)
 
 Arranging antecedents and consequences in the subject's environment so behavior is built, transferred, maintained, or suppressed — shaping, chaining, stimulus control and prompt-fading, differential reinforcement, extinction, motivating operations, response-cost economies, rule-governed stakes.
 
@@ -6143,6 +7552,9 @@ Change a response by editing the ANTECEDENT rather than manipulating consequence
 **Realizations** (5): `antecedent-environment-editing`, `antecedent-summation-competition`, `competing-reinforcer-removal`, `initiating-cue-substitution`, `physical-topography-preclusion`
 
 
+**See also.** `reinforcement-extinction` — both reduce a behavior once its maintaining function is known, but extinction acts on the CONSEQUENCE side (withhold the reinforcer the response already produces) while antecedent editing acts upstream so the occasion, motivation, or motor possibility never arises and there is nothing left to consequate.
+
+
 ### autoclitic-training
 
 *risk: low*
@@ -6156,6 +7568,16 @@ Install or strengthen an AUTOCLITIC — a secondary verbal form that comments on
 **Realizations** (2): `autoclitic-self-referential-control`, `in-vivo-autoclitic-capture`
 
 
+### aversive-suppression-without-reserve-depletion
+
+*risk: medium · consent-required · bounded*
+
+Deliver a mild aversive consequence contingent on a well-established response and the rate drops immediately — but only for as long as the aversive keeps arriving and the emotional reaction it provokes stays fresh. The suppression rides on an adapting emotional state, not on any change to the underlying disposition, so as the emotional reaction habituates the rate creeps back. The tell is conserved reserve: run the response to extinction afterward and the total number of responses emitted is unchanged from an unpunished control, proving the punished responses were masked and banked rather than spent. Operationally this makes positive punishment a rental, not a purchase — it buys quiet while it is being paid for and leaves the disposition intact underneath.
+
+
+**When to reach for this.** The nearest shipped entries are all removal-based or competition-based, and none of them delivers an aversive. reinforcement-extinction (432) breaks the response-reinforcer relation and genuinely drains the disposition — its extinction curve is the thing being consumed, whereas here the extinction curve is what survives untouched. massed-practice-rate-suppression (1076) also attaches an effortful cost, but the subject over-emits voluntarily and the reduction is satiation/response-cost on the subject's own repetitions, not an operator-delivered consequence on a normal-rate response. counterconditioning-and-cue-response-weakening (1032) trains an incompatible state against an eliciting stimulus — a competing response is installed; here nothing competes and nothing is installed, the response is simply held down. disconfirmation-suppression (982) suppresses an item of information to protect a belief-dependent effect; this suppresses a behavior and makes no claim about belief. The load-bearing separator against all four is the reserve-conservation signature: only this entry predicts that the post-treatment extinction curve is identical to an untreated control.
+
+
 ### behavior-chaining
 
 *risk: medium*
@@ -6167,6 +7589,16 @@ ASSEMBLE a multi-step behavior sequence by reinforcement, exploiting that each l
 
 
 **Realizations** (4): `behavior-chain-assembly`, `chain-junction-fusion`, `facilitative-chain-reinforcement`, `maintenance-probe-silent-extinction`
+
+
+### chance-pairing-self-maintaining-ritual
+
+*risk: low*
+
+When a reinforcer arrives on a schedule uncorrelated with anything the subject does, whatever the subject happened to be doing just beforehand gets strengthened — and because the strengthened behavior now occurs more often, it is more likely to precede the next delivery, which strengthens it again. The loop is closed by the statistics alone: the residual rate manufactures its own reinforcing coincidences, so the behavior props itself at a nonzero floor with nobody designing or maintaining it. The operator-relevant consequence is that a ritual can become durable without ever having been functional, and there is no contingency to break because there was never one to begin with. Practically this is why useless compliance rituals accrete around any procedure that dispenses reward on its own clock, and why removing 'the reason' for such a ritual does nothing.
+
+
+**When to reach for this.** Every nearby closed loop in the shipped taxonomy is operator-AUTHORED; this one has no author. compounding-dependency-loop (536) is a deliberately constructed cure-feeds-disease circuit where the operator installs both the escalating state and its designated relief route. bidirectional-reentry-loop (1332) is two cues deliberately installed to fire each other, with both legs over-broadened on purpose. perpetual-obligation-ledger (506) is an operator structurally over-repaying to keep a debt open — an intentional accounting move on an inter-agent quantity, not an emergent one on a rate. failure-pre-attribution (862) pre-assigns the meaning of a null outcome; that is an interpretive frame supplied by the operator, whereas nothing here is interpreted or supplied at all. It is also distinct from the one-clause reinforcement-leak guards that tell an operator to avoid accidental pairings: those name it as a hazard to prevent, this specifies the positive-feedback structure that makes it self-sustaining, which is what an operator needs in order to recognize or deliberately seed one.
 
 
 ### class-collision-humor
@@ -6372,6 +7804,29 @@ Transfer control of a wanted somatic resource (orgasm, genital touch) or a wante
 **Realizations** (4): `asymmetric-state-ratchet`, `operator-gated-release-with-personal-best-ratchet`, `re-access-gate`, `withheld-faculty-debt-leash`
 
 
+**See also.** `asymmetric-state-lock` — both hand a key to the operator, but the gated-access lever monopolizes a wanted somatic release or a state's re-entry while the state-lock monopolizes the state's exit, so one withholds getting in and the other withholds getting out.
+
+
+### peripheral-first-inhibition-spread
+
+*risk: medium · bounded*
+
+An unwanted response is removed by never working on it directly. The operator trains non-reinforced discrimination at cues maximally distant from the target along a similarity or spatial dimension, then moves stepwise inward — nearer neighbours, then nearer still — and lets the accumulated inhibition spread to the target, which is treated last or not at all. The ordering is the whole technique: because the defended cue is never contacted while it is still defended, the subject has no occasion to mount the protection that direct extinction work would trigger, and by the time the sequence arrives the target sits inside a field of neighbours that already fail to produce the response.
+
+
+**When to reach for this.** The operator's activity is concentrated on the target cue's NEIGHBOURS and the target is worked last or never, with suppression arriving by generalization along the similarity dimension. Against counterconditioning-and-cue-response-weakening (1032), which is the same dimension traversed the other way: its graded-exposure facet APPROACHES the eliciting stimulus under an incompatible state and its sub-threshold-property-fade works a property of the target cue itself — both contact the target, this retreats from it. Against reinforcement-extinction (432), which requires every maintaining source to be enumerated and cut AT the target: here the target's contingency is never touched. Against antecedent-manipulation (1052), which removes the cue so the occasion stops arising: here the target cue remains fully available throughout. The falsifying test is the tell — stop the sequence before reaching the target and probe it; if responding is unchanged, no spread occurred and there is no technique.
+
+
+### positive-punishment-aversive-presentation
+
+*risk: high · consent-required · bounded*
+
+Make the target behaviour PRODUCE a strong aversive consequence, delivered contingent on the response, so emission rate falls and the behaviour is held at or near zero. Nothing is withheld and nothing is debited — something bad is added, and the suppression is sustained by the aversive contingency's continued presence rather than by any depletion. This is what makes the move parametrically different from every subtractive neighbour: lift the contingency and responding returns, because the underlying strength was never spent, only held down. The operator therefore owns an on/off switch on the response with no accumulating progress, and the reserve that would have to be drained for durable change stays full underneath.
+
+
+**When to reach for this.** This fills the empty cell in the contingency 2x2 — ADD an aversive to suppress — that reinforcement-extinction's own discriminator already points at when it says to choose extinction over 'punishment (delivers an aversive)'. vs reinforcement-extinction: extinction breaks the response-reinforcer link and lets rate decline toward baseline by depleting the reserve, with nothing aversive delivered; here the reserve is untouched and suppression lasts exactly as long as the aversive contingency is in force. vs negative-punishment-timeout: that WITHDRAWS the opportunity to earn reinforcers for a bounded interval — subtractive, and the subject waits it out; this presents an aversive per response with no interval to serve. vs removal-from-reinforcement-timeout: also removal-based, distinguished on the same axis, and its bounded-interval and exit-gating parameters have no analogue here. vs response-cost-token-economy: that debits an already-held reserve of positive reinforcers, which requires a stockpile to fine against — this needs no reserve and works on a subject who holds nothing. vs resistance-penalty-contingency: that attaches an aversive specifically to RESISTING, thinking, or waiting, poisoning the exit path — here the aversive attaches to the target operant itself, whatever it is, with no resistance framing.
+
+
 ### precommitment-rule-governed-stakes
 
 *risk: high · consent-required · bounded*
@@ -6398,6 +7853,9 @@ Reduce a behavior by breaking the response-reinforcer contingency: once the main
 **Realizations** (6): `behavioral-extinction-of-refusal`, `chain-collapse-terminal-payoff-removal`, `chain-link-severing`, `extinction-procedure-fidelity`, `function-based-extinction`, `sensory-extinction`
 
 
+**See also.** `antecedent-manipulation` — both reduce a behavior once its maintaining function is known, but extinction acts on the CONSEQUENCE side (withhold the reinforcer the response already produces) while antecedent editing acts upstream so the occasion, motivation, or motor possibility never arises and there is nothing left to consequate.
+
+
 ### reinforcement-leak-proofing
 
 *risk: low*
@@ -6419,6 +7877,9 @@ Suppress a behavior by REMOVING or withholding access to reinforcement for a per
 
 
 **Realizations** (7): `absence-gated-punishment-exit`, `aversive-interval-tolerance-ceiling`, `aversive-procedure-sunset-design`, `dense-every-instance-consequence-schedule`, `impoverished-context-permission`, `recoverable-contingent-withdrawal`, `reinforcement-discrepancy-engine`
+
+
+**See also.** `response-cost-token-economy` — adjacent negative-punishment contingencies a practitioner picks between: one debits a reinforcer the subject already holds per instance, the other withholds access to reinforcement for a contingent interval, and the design parameters that keep each intact (reserve provisioning versus enriched time-in) do not transfer.
 
 
 ### respondent-stimulus-pairing
@@ -6447,6 +7908,9 @@ Suppress a behavior by SUBTRACTING, contingent on it, a quantum of a reinforcer 
 **Realizations** (7): `attention-leakage-ratio-neutralization`, `bonus-pool-loss-substrate`, `bonus-response-cost`, `fine-magnitude-calibration`, `operator-custodied-enforcement-medium`, `pre-stated-refusal-penalty`, `response-cost-fine`
 
 
+**See also.** `removal-from-reinforcement-timeout` — adjacent negative-punishment contingencies a practitioner picks between: one debits a reinforcer the subject already holds per instance, the other withholds access to reinforcement for a contingent interval, and the design parameters that keep each intact (reserve provisioning versus enriched time-in) do not transfer.
+
+
 ### scaffold-fade-control-transfer
 
 *risk: medium*
@@ -6468,6 +7932,9 @@ The operator transfers the labor and the reinforcer of a conditioning loop into 
 
 
 **When to reach for this.** The reattribution move: the operator OWNS the reward-framing but never GENERATES the reward, and the loop is engineered to self-sustain (or to install stop-authority) rather than being operator-driven. In a within-session conditioning loop the operator both drives and delivers the reinforcing cycle in-session; here the listener supplies it. Where arousal is conditioned to operator cues as the goal, arousal/pleasure here is the outsourced FUEL, not the payload. A self-directed mantra is absorptive chanting for its own sake; here recitation is tied to escalating pleasure and autonomy-cost. And unlike ideomotor proof, where subtle AUTOMATIC movement serves as evidence of trance, the motor act here is VOLUNTARY, instructed, then reattributed. The self-driven-motor-with-cutoff form — operator present only for the cutoff — is a variant of the same listener-drives-it-then-reattribution logic.
+
+
+**See also.** `closed-autonomous-conditioning-loop` — both produce a loop that keeps running with no operator present, but the closed loop achieves it by topology (every direction of resistance re-enters), while the self-administered loop achieves it by transferring the reward-generating labor to the listener and merely relabeling the credit.
 
 
 ### self-instruction-antecedent-training
@@ -6522,6 +7989,26 @@ Route the maintaining reinforcement through another AGENT whose delivering behav
 **Realizations** (1): `reinforcing-agent-engineering`
 
 
+### staged-compromise-evidence-banking
+
+*risk: high · consent-required · bounded*
+
+A scene is arranged so that it generates a durable, compromising artifact — a photograph, a recording, a signed statement, a witnessed act — which the operator retains without using. Nothing is cashed at the time; the subject's experience of the scene is often unremarkable, and the coercive function activates only later, on the first refusal, when the held artifact is produced or alluded to. The staging is designed backward from the artifact: participants are positioned and the scene is shaped so the resulting record will read as maximally damaging out of context, independent of what actually occurred. Its value to the operator is the standing threat, so it works best never used.
+
+
+**When to reach for this.** A durable compromising artifact (photograph, recording, signed statement, witnessed act) is generated by a staged scene, retained, and deliberately NOT used — the coercive function is a standing threat activated only on a future refusal. Two properties are jointly unmatched: the artifact is external to the subject's psychology (no state or belief change is asserted or required at the time), and the value is in holding rather than exercising. Split from `threat-of-loss-rouse` (389), the nearest lever in kind: 389 also runs on forfeiture, but its threatened asset is the subject's own future state access, it is spoken aloud, and it is cashed on the spot to break a blocked command channel — here the asset is an external record, the threat is unspoken, and cashing it spends it. Split from `precommitment-rule-governed-stakes` (424), where a third party holds a stake the SUBJECT arranged against their own future defection; here the subject did not agree and does not know a stake exists. Split from the staging cluster on timing: `staged-negotiation-favor-theater` (517) collects felt indebtedness the moment the operator returns, `context-lock-staging` (243) gates a payload in the same session, and `counterfeit-cue-forgery` (493) collapses on detection — this one is designed to be detected later, deliberately.
+
+
+### threat-priced-compliance-payment
+
+*risk: high · consent-required · bounded*
+
+A pricing rule for contingency design: when compliance exposes the subject to a punishment contingency (legal risk, exposure, retaliation, physical hazard), the payment that will actually secure compliance is set by the probability times severity of what the subject risks, NOT by the labor or difficulty of what is asked. The controller's job is therefore to estimate the subject's own risk assessment and meet it, which means the same requested act carries wildly different prices depending on how exposed the specific subject is — a well-insulated subject is cheap, a subject with much to lose is expensive, for identical work. It runs in both directions: raising the subject's exposure raises the price the controller must pay, and reducing exposure (indemnity, cover, plausible deniability, distance from consequence) is a cheaper way to buy compliance than raising the fee. This is what makes hazard pay, hush money, and coerced-compliance economics one family rather than three.
+
+
+**When to reach for this.** Nearest is response-cost-token-economy (1057), which SUBTRACTS a held reinforcer contingent on an unwanted response to suppress it — the operator is the one imposing the cost; here the operator is the one PAYING, and the cost being priced is a punishment contingency the subject faces from elsewhere. Versus resistance-penalty-contingency (1002): that attaches an aversive to the act of resisting so the exit path backfires — the operator manufactures the threat; here the threat pre-exists and the operator's move is to buy against it. Versus resistance-deterrence (672): that advertises the price of resisting so the subject never attempts it — a re-pricing of the subject's OPTION, with no consideration changing hands; this is an actual payment calibrated to a quantity the operator had to estimate. Versus negative-punishment-timeout (876): pure suppression by withdrawing reinforcement access, nothing purchased. The parameter unique here is that the consideration is indexed to the subject's risk-aversion rather than to the response effort, which is why the two levers (raise the fee vs lower the exposure) are substitutable.
+
+
 ### verbal-operant-teaching
 
 *risk: medium*
@@ -6533,335 +8020,6 @@ Install a verbal operant — the ability to NAME (tact), ASK for (mand), COMPREH
 
 
 **Realizations** (8): `evoke-and-check-comprehension`, `form-carries-motivation`, `leak-timed-private-state-labeling`, `mand-for-information`, `mand-frame-graft`, `specific-reinforcement-mand-extinction`, `verbal-concept-induction`, `verbal-function-altering-instruction`
-
-
-## social-topology  (28)
-
-Restructuring the graph of agents acting on the subject — adding, rerouting, or binding external nodes (peers, groups, third-party activators, social proof, vicarious models) and internal nodes (named alters as actors, delegated guardians, operator role-frames).
-
-**Scope.** The who-acts-on-whom graph. Reader-directed rhetoric -> reader-craft; a single effect exported to daily life -> transfer; alters as self-structure -> self-partition.
-
-
-### antagonist-role-binding
-
-*risk: high · consent-required · bounded*
-
-Binds the subject's OPPOSING role / resistance-resource to the target state so the one activity that should affirm the opposite (being a Domme, succeeding at dominance) instead pumps the target craving to submit ('when I whip, the slave-persona needs whipped'). Every dominant act increases the slave-craving; success at the preferred identity deepens the conditioning, inverting the power hierarchy from inside the subject's own identity. No neutral or counteracting behavior is left; the resistance-resource is parasitized as fuel rather than suppressed, and ordinary real-world dominant activity becomes an out-of-session trigger.
-
-
-**When to reach for this.** The subject's ANTAGONIST/resistance role is wired as fuel for the target state (requires them to actually perform dominant acts), inverting the hierarchy from within the preferred identity. Distinct from bidirectional presence/absence anchors and from resistance-path-poisoning (which punishes the act of resisting; here the resistance- resource is converted to fuel, not punished).
-
-
-### authority-diffusion-plurality
-
-*risk: high · consent-required*
-
-Restructure the operator's AUTHORITY SURFACE so there is no single hypnotist to push back against — the rebuttal target is removed rather than defended. VARIANTS by how the surface is dissolved: (a) diffusion/plurality [authority-diffusion] — personify operator functions into simultaneous figures each escalating (resisting one leaves the others working), linguistically pluralize self-reference ('my voice'->'the voices'->'our voices') so rebuttal migrates to 'them' and the listener's own inner voice is enrolled, or offload onto a listener-populated imagined group of trusted friends who carry the speech so the operator disappears as source; (b) descend-to-peer [operator-as-fellow-conscript] — the operator repositions into the listener's OWN relational slot (a peer or a prior output of the process: 'Master made me a brainwashed brainwasher', a fellow-victim harm-reduction voice, a chorus of already-processed peers relaying for an absent apex) and derives leverage from RENOUNCED authority; (c) mask-as-parity [parity-masked-asymmetry] — exercise a real dominance asymmetry while presenting it as parity/alliance/shared-victimhood/onside-confidant so resistance loses its visible target; the gap operates precisely because it is not presented as one. All share the goal-state: no single authority surface to defy.
-
-
-**When to reach for this.** Reach for this to make the operator un-resistable by REMOVING the target — go plural/diffuse, descend to peer, or disguise the asymmetry as parity — so resistance has no addressee; the tell is that no membership is offered and no single figure stands to be confronted. NOT social-proof-belonging-enrollment (a happy cohort pulls via belonging), NOT interposed-proxy-agent (a single persistent agent ACTS and issues commands rather than dissolving the surface), and NOT named-source-authority (a single specified higher/borrowed figure — here the operator function is distributed or hidden, not relayed upward).
-
-
-**Realizations** (2): `operator-as-fellow-conscript`, `parity-masked-asymmetry`
-
-
-### authority-role-inversion
-
-*risk: low*
-
-The operator offers to be the contractee — the higher-power party performs a task while the lower-power target controls and delivers the reward — explicitly conceding the suspected unfairness. The target gets direct evidence that contracts are honored and that they hold real power, dissolving an "I always get the short end" prior through a demonstrated reversal of the power asymmetry; a power-imbalance objection is converted into trust by enacted role reversal.
-
-
-**When to reach for this.** Separates from vicarious modeling (bystander proxy) and self-contract (subject holds all roles) — here the operator performs and the target enforces, targeting the unfairness prior specifically. Distinct from concede-then-rescue-forebear: that is reader-directed rhetoric conceding a third party's flaw; this is an inter-agent role reversal enacted on the subject to rebuild trust.
-
-
-### authority-scope-hardening
-
-*risk: high · consent-required · bounded*
-
-Harden ALREADY-ESTABLISHED operator authority into a durable, unchallengeable standing — the claim survives the session and forecloses a challenge route rather than asserting anything new about the present. AXES/VARIANTS: (a) evaluability — a clause declares the operator beyond remedy and waives the subject's standing to ever object; (b) precedence — competing real-world authorities are named and subordinated to the recorded voice so the conditioning cannot be overwritten; (c) time/persistence — an in-session effect is upgraded to a permanent operator capability (pre-licensing future use while denying present intent), and at its strongest a worldview/theology install [operator-as-persistent-deity] asserting the operator 'exists in the human world' independent of whether the listener is listening, so the mind must submit whether or not it engages, carried OUT of trance and anchored to an external re-trigger symbol (e.g. latex identity-erasure) with an afterlife-of-pleasure payoff. Pick the axis by which challenge route you are foreclosing (who may evaluate / what outranks / how long it lasts).
-
-
-**When to reach for this.** Hardens the SCOPE of authority (who may evaluate it, what outranks it, how long it lasts) — every member is a clause about challenge/precedence/persistence, NOT a claim about now. Presumes authority already exists. Separates from operator-authority-assertion (asserts present-tense standing) and from named-source/impersonal displacement (which relocate WHERE authority sits rather than extending its reach).
-
-
-**Realizations** (1): `operator-as-persistent-deity`
-
-
-### become-the-discriminative-stimulus
-
-*risk: medium · bounded*
-
-A relational dependency move built over history: the operator makes themselves the reliable mediator of a want that can only be satisfied through another person, so their presence becomes the discriminative stimulus (SD) that evokes the subject's request. A history of dependably mediating a specific reinforcement sorts people into those-who-reinforce (SD) and those-who-don't (S-delta) for manding, so the reliable satisfier becomes the cue the subject's wants funnel toward. The operator thereby gains privileged access to and influence over the subject's motivational state and its satisfaction — a relationship property, not a listener-internal state push.
-
-
-**When to reach for this.** The tell is functional discrimination: the subject's requesting behavior is specifically cued by the operator's presence because that person has mediated the specific reinforcement, and the want can be met ONLY via that mediation. NOT generic rapport or liking, and NOT a within-session state move — it is a history-built inter-agent relational property.
-
-
-### beg-then-grant-polarity-flip
-
-*risk: medium*
-
-The operator pauses the descent and threatens to NOT deliver trance — to leave the listener stuck in limbo between awake and asleep — frames the withholding as something cruel she could choose, then graciously permits continuation, coupled with a "beg with your eyes / show me how pathetic you are" beat. This reverses the motivational vector: where the rest of the script frames trance as done TO the listener (and therefore resistible), the beg-then-grant gate reframes trance as something the listener WANTS and the operator GRANTS, so the listener becomes requester and the operator gatekeeper — and a requester does not resist.
-
-
-**When to reach for this.** Restructures the who-asks-whom relation via a withhold-then-grant gate; the listener's stance flips from receiver to petitioner. Separate from recasting resistance as a deepening input (this move does not touch resistance at all — it removes the stance from which resistance is issued), and from surrender-as-freedom (no loss is recoded as relief; the lever is the scarcity/gatekeeping of the granted state, not its felt valence).
-
-
-### blank-occupant-obedience-slot
-
-*risk: high · consent-required · bounded*
-
-The script raises the question of WHO is to be obeyed, offers the operator as a candidate, then explicitly discards the question ('Is that me? ... Doesn't matter. Perhaps it's whoever you hear in the empty void your mind is'). Submission is decoupled from any specific operator and attached to whatever voice the listener hears — this recording or any future one — installing a durable obedience slot with a deliberately blank occupant. The move is overt but the generalization is covert; the listener does not notice the conditioning becoming portable and self-targeting.
-
-
-**When to reach for this.** The authority slot's occupant is deliberately blanked and generalized to any present or future voice — versus ownership language (names the operator as owner), a nested authority conduit (a specified higher figure), and agentless fate-authority (no slot at all, authority relocated to impersonal fact); the tell is the explicit discarding of the operator's identity.
-
-
-### cognitive-sourcing-monopoly
-
-*risk: high · consent-required · bounded*
-
-Install the operator as the CONSTITUTIVE supplier of what the subject would need in order to object — so resistance is structurally foreclosed because the faculty or the being it requires has already been assigned to the operator. VARIANTS by which constituent is supplied: (a) cognition-sourcing [cognitive-sourcing-monopoly] — the operator is the sole source/grantor of thought, will, belief, judgment, and permitted internal state; delivered as up-front stipulation (no will, no thoughts, no emotions except those granted), recursive live capture (permission applied to the very act of comprehending the script), a hammered dependency presupposition ('you need me to tell you what to think/do/believe/be, don't you?'), or jurisdiction over a specific faculty (risk-judgment overridden by decree); objecting requires the faculty just assigned away; (b) origin-of-being [constitutive-origin-authority] — the operator is framed as the listener's ORIGIN (the mother who gave them life and licks them clean), the bond asserted as pre-existing fact ('you are of Me') rather than a claim to accept, so submission is recast from choice into a fact of being and resistance becomes ontologically incoherent (one cannot resist the being who made them); obedience bound to safety/nourishment, refusal coded as being lost/abandoned. Pick by supplies-cognition (faculty-by-faculty grant economy) vs supplies-existence (maternal pre-erotic origin-fact predating choice).
-
-
-**When to reach for this.** Claims the operator constitutively SUPPLIES the subject's cognition or being, so objecting is incoherent because it needs the very faculty/existence just assigned away. Separates from reality-authorship-monopoly (what is TRUE), operator-authority-assertion (who is in CHARGE), privileged-interior-access (the operator PERCEIVES the interior, not supplies it), and ownership language (possessive framing without the faculty-by-faculty grant economy or the origin-of-being ontology).
-
-
-**Realizations** (1): `constitutive-origin-authority`
-
-
-### collective-social-proof-enrollment
-
-*risk: medium · consent-required*
-
-Stage the target end-state as the social norm of an ALREADY-CONVERTED, happier peer collective, so resistance is recast as isolation from a happy crowd rather than defiance of an operator and JOINING becomes the lever. The peer collective can be asserted, grammatical, or observed. VARIANTS: asserted-'we' cohort reporting they're happier (listener framed as last holdout); phantom-chorus asserted as an audible present background pre-seeding the exact mantra phrases (later extraction feels remembered) and carrying the harshest claims deniably; grammatical division of labor (we=identity/belief, you=instructions, I=peer) conscripting the listener into a collective; a long 'join us / our hive mind' peer run under low defense; observed-peer-model tableaux showing the end-state already-lived (chorus, overheard party-girl gossip inverting recruitment into membership-application via scarcity, on-screen montage of happy others); future-tense class-destination [social-proof-identity-destination] showing prior converts and 'you soon will be one of them'; and explicit membership INVITATION into the revealed converted network [conversion-as-belonging] ('my friends talked to Daddy, now they're stupid... join us'). All share the peer-belonging lever; pick the register by how the cohort is presented (asserted/grammatical/observed/future/invited).
-
-
-**When to reach for this.** The load-bearing element is a peer COLLECTIVE whose membership/consensus does the work — social proof and belonging pull, not an operator demand, an authority figure, or a reward contingency. Reach for it to make surrender read as joining. NOT authority-frame moves (no authority above; the referent is a peer cohort), NOT observational-modeling-contagion (rate-shift by exposure, no membership offered), and NOT authority-target-dissolution (there the operator descends to peer to dissolve the target; here a happy cohort pulls the listener in).
-
-
-**Realizations** (2): `conversion-as-belonging`, `social-proof-identity-destination`
-
-
-### covert-role-frame-accretion
-
-*risk: high · consent-required · bounded*
-
-Construct the relational frame across the whole arc by TRAJECTORY with NO declarative moment — no single line declares or negotiates it — so the frame is built in-trance and revealed (or simply operative) near the end, past the point the listener can evaluate the assignment critically. VARIANTS by which element drifts: (a) operator role-title accretion [covert-role-frame-accretion] — the operator's self-reference accretes from neutral ('I'/'my voice') through intermediate claims ('my will'/'my mind possesses your mind') to an explicit title ('your Master') late, after the listener has passed convincers/fractionation/amnesia-rehearsal/pleasure-conditioning; (b) grammatical-person migration [pronoun-migration-conscription] — the grammatical center of gravity drifts from we/you (a chorus addressing the target) through a triple-stacked teaching register ('I think what I'm told / We think what we're told / You'll think what you're told') into a first-person 'I' who has joined the chorus, walking the listener from object-of-address to member-of-we to converted-I with no 'become one of us' command; (c) cohort-to-dyad narrowing [cohort-to-dyad-narrowing] — the group/cohort frame that justified the listener's presence and lowered defenses is dissolved ~60 lines later and all attention transferred to the operator-as-singular ('I am your everything'), the narrowing disguised as a discovery the listener makes rather than a switch thrown. Pick by what is covertly restructured (operator's role-title / listener's grammatical membership / the group's very existence).
-
-
-**When to reach for this.** Covert, gradual INSTALLATION of a relational frame with no declarative moment — the tell is a trajectory (accretion/migration/dissolution) across the arc, with any visible seam (a title's first appearance, a triple-stack, a narrowing beat) NOT the carrier. Separates from scripts that ANNOUNCE the role/membership up front (which give an evaluable signal), from command-based identity conversion (no converting directive is issued), and from ownership-language or objectification-as-content (this is the grammatical/structural VEHICLE of conversion, not the claim itself).
-
-
-**Realizations** (2): `cohort-to-dyad-narrowing`, `pronoun-migration-conscription`
-
-
-### envy-peer-position-pull
-
-*risk: low*
-
-Makes a target posture/role aspirational by showing a surrogate who is barred from it and openly longing for it, so the listener inherits the longing without having to choose it. Rather than directing the listener to want a position ('kneel for me'), the script stages a peer/surrogate already wanting it on the listener's behalf and being denied, reframing the submissive position as scarce and aspirational rather than degrading — a stronger pull than a direct directive because the wanting is modeled, not commanded.
-
-
-**When to reach for this.** Separates from addiction-framing (desire-by-denied-peer-position, an inter-agent relational pull, not a linguistic craving frame on the listener); from a 'kneel for me' directive (the surrogate's surprise-at-own-wanting and structural denial are the tell — the desire is inherited, not asked for).
-
-
-### epistemic-authority-capture
-
-*risk: high · consent-required*
-
-The operator claims direct perceptual access to the subject's unobservable interior — watching their dreams, knowing their arousal, having surveilled their private behavior, or reading their unconscious — presented as telemetry, not inference. Because nothing observable can contradict the claim, denial loses standing; defensive attention aims at "is she really seeing me?" instead of "is this true?"; shame flips from brake to compliance fuel; and every later assertion about what the subject wants arrives pre-licensed as perception rather than suggestion.
-
-
-**When to reach for this.** Claims ACCESS to the interior (perception), versus reality-authorship-monopoly which claims AUTHORSHIP of it, and operator-authority-assertion which claims rank; versus a seducer's insight, the tell is the asymmetric direct-telemetry framing (she perceives you, you cannot perceive her) that strips standing to deny.
-
-
-### impersonal-mechanism-alibi
-
-*risk: high · consent-required · bounded*
-
-Relocate authority for the change from the contestable operator onto an IMPERSONAL, unfalsifiable thing, so doubting becomes a category error and the listener's felt-sense ('I don't feel changed') stops counting as counter-evidence; the payload is removed from interpersonal negotiation. VARIANTS by how impersonal/agentless it goes: (a) pseudo-mechanism alibi [impersonal-mechanism] — brain chemistry, neural pathways, 'how hypnosis works', universal truth, class law; delivered as pseudo-neurochemical vocabulary, a credentialing-then-escalate belt, a redundant multi-rail pseudo-science scaffold, or a conceded process-fact that pre-authorizes downstream state-changes; the operator gains simultaneous authority (it's science/fact) and deniability (you can't reliably detect it), resistance recast as arguing with one's own biology; (b) agentless fate/curse [agentless-fate-authority] — the payload is a 'curse' that 'cannot be lifted', contracted by listening, with NO agentic origin; the operator is ERASED from the accountability chain (no negotiation partner, nothing to refuse), earlier participation is retroactively re-read ('you chose to listen'->'you accepted the curse'), and cross-session persistence is licensed since a curse outlives a session. Pick by operator-present-but-empowered (pseudoscience) vs operator-erased (curse ontology, needs genre fluency to accept).
-
-
-**When to reach for this.** The authority source is impersonal and UNVERIFIABLE — separates from operator-authority-assertion (the speaker's own standing), named-source-authority (a nameable third-party/higher source the listener defers to), and genuine psychoeducation (which informs rather than cashing the 'fact' in immediately on the listener's state to disqualify doubt). Reach for it to make resistance a category error (arguing with biology/fate/law); pick the pseudoscience vs curse register by whether the operator stays present or is erased.
-
-
-**Realizations** (1): `agentless-fate-authority`
-
-
-### isolation-by-annexation
-
-*risk: high · consent-required · bounded*
-
-ANNEX a counter-frame source and relabel it as the operator's rather than DENY it — co-opting the very sources a counter-frame would draw on, which is rarer and stickier than denial because it pre-empts triangulation. VARIANTS by what is annexed: (a) the social field [isolation-by-annexation] — a sole-author-universe whole-file property: exactly one agent with desires (operator), one object (listener), zero third parties with standing; parents, friends, lovers, past selves appear only as instruments, retroactively reassigned as subordinate contributors to the operator's ownership, so normal counter-conditioning ('but my mother loves me for myself') is pre-empted because every relationship has already been annexed as secretly working for the operator; operates at the level of who-counts-as-having-a-perspective; (b) rival/prior conditioning [prior-conditioning-annexation-funnel] — as the listener falls into a vortex 'below any other conditioning', prior programming is not erased but annexed and relabeled as the operator's with explicit permanence, and future operators are positioned as operating at a shallower layer this one already owns; stacked with a depth-ratchet (an optional intensifier) that demotes everything so far to the 'surface'/'bait' and asserts a deeper 'real' trap to motivate renewed descent. Pick by object annexed (relationships/perspectives vs competing conditioning).
-
-
-**When to reach for this.** The tell is annexation, not content-denial: a counter-source (relationships/perspectives, or rival/prior conditioning) is co-opted and relabeled as secretly the operator's — which pre-empts the counter-frame's own sources rather than telling the listener no one/nothing else matters. Distinct from isolation-by-content (denies others matter) and from internal-permeation (spread of influence, not capture-and-relabel of a rival source). Object annexed is a parameter; the depth-ratchet in the conditioning variant is an optional intensifier.
-
-
-**Realizations** (1): `prior-conditioning-annexation-funnel`
-
-
-### manufactured-consensus
-
-*risk: low*
-
-The operator plants a small visible group performing the same conspicuous orienting act (staring at an empty sky-spot); passersby read the headcount of apparently-independent co-actors as certifying the act as what-people-here-do and join, each joiner becoming proof for the next. The effect is self-amplifying and dose-responsive (five beat one), and joiners experience the compliance as their own curiosity.
-
-
-**When to reach for this.** A visible PLURALITY of apparently-independent co-actors in a public, ambiguous setting, capturing behavior via headcount-as-certification; not a single conspicuous actor, not belief persuasion, and not behavior-installation from a depiction (vicarious-modeling-installation).
-
-
-### negative-exemplar-double-bind
-
-*risk: medium*
-
-Holds up a named third party live in-scene as the degraded cautionary case (shown, not narrated), recruiting the listener into the observers' contemptuous viewpoint. Because the punishment uses the same imagery the script later says to aspire to, fear and envy collapse into one payload: the listener can neither refuse the target attitude (refusing means identifying with the punished exemplar) nor fully dread the punishment (it is also framed as enviable). The threat-display does compliance work that gossip alone would not.
-
-
-**When to reach for this.** A third-party live-degradation double-bind used as compliance lubricant — not a craving frame installed on the listener, and not retrospective justification of the listener's OWN surrender: the lever is another agent's degradation with a deliberately ambiguous punishment/aspiration valence. Tell: a live degraded exemplar whose valence is simultaneously deterrent and aspirational.
-
-
-### nested-authority-conduit
-
-*risk: medium · consent-required*
-
-Route authority to a NAMED source other than the operator's own bare standing, so commands arrive pre-authorized by a figure the listener defers to (and rebuttal deflects to a source that is not the operator's rank). VARIANTS by where the source sits and whether it persists: (a) standing-above conduit [nested-authority] — position the source ABOVE/behind the operator (an ultimate Designer/Owner, higher programming, or an accumulated lineage of prior hypnotists credited as transmissible hypnotic mass), obedience routed to the higher frame while the operator stays a relay, rebuttal deflected upward to an unconfrontable figure; (b) borrowed external instrument [borrowed-authority-invocation] — invoke a nameable EXTERNAL source deployed as an instrument (a bare title/symbol firing a deference schema, a trusted third party's lineage vested in a carrier object, fabricated 'instant research' evidence, or a trusted-honest figure through whom the subject's own claims are laundered back as objective truth), the bypass typically invisible ('I would have refused' self-model stays intact); (c) annexed-at-exit [borrowed-authority-annexation] — construct a pre-legitimized fiction (pseudo-historical legend, warrior-queen) at ENTRY so early commands arrive authorized, then at EXIT collapse the fiction onto the real operator ('the power of my words passed down to me') so submission generated inside the fiction is cashed out to the operator and persists. Pick by standing-above (ongoing conduit) vs borrowed-instrument vs annexed-to-operator (entry-loan/exit-collection arc).
-
-
-**When to reach for this.** The authority source is a NAMED one other than the operator's own present-tense rank — a higher figure kept standing above, a borrowed external badge/lineage, or a fiction annexed at exit. Reach for it to borrow credibility the operator's bare standing lacks. Separates from operator-authority-assertion (operator's OWN standing, no external source), impersonal-authority-displacement (an UNnameable impersonal mechanism, not a nameable figure), authority-target-dissolution (distributes/hides the operator rather than pointing at a source), and constitutive-dependency-claim (operator supplies the faculty itself, not merely vouches).
-
-
-**Realizations** (2): `borrowed-authority-annexation`, `borrowed-authority-invocation`
-
-
-### operator-authority-assertion
-
-*risk: medium*
-
-The operator asserts present-tense personal authority, standing, or trustworthiness over the listener as a bare fact, so that subsequent suggestions ride on deference to the speaker rather than on argument. Variants change what the assertion is credentialed by (witnessed public stakes, narrated survivorship, a proper-name binding laundered through flattery) but the lever is always the operator's own claimed standing inside a shared reality the listener still inhabits.
-
-
-**When to reach for this.** Asserts WHO holds authority right now, delivered by the operator about the operator — a claim of rank within a shared reality the listener still inhabits. It invokes the speaker's present standing, not the listener's past desires and not a reasoned philosophy; and it stops short of claiming the words themselves constitute reality, or of relocating authority off the contestable speaker onto impersonal chemistry or universal fact.
-
-
-### peer-authored-target-selection
-
-*risk: high · consent-required*
-
-The menu of target behaviors is authored by the surrounding group rather than the subject. Every other group member must write at least one positive target onto each person's list, and the subject neither nominates nor vetoes entries about himself — so candidate targets arrive pre-endorsed by peers, lowering resistance to behaviors he would not have self-nominated and seeding the menu with externally-valued options.
-
-
-**When to reach for this.** The operant content is the authorship requirement (others write your improvement list, with no self-veto), not the form-filling procedure, not peer pressure on performance, and not proxy-subject contagion (which redirects suggestions to responsive peers as models) — here peers author the agenda, they do not model responses.
-
-
-### peer-mediated-contingency
-
-*risk: medium*
-
-Recruit a peer GROUP as auxiliary change-agents by yoking its reinforcement topology to the target behavior and posting each member's status publicly, so peers monitor, pressure, and coordinate with each other atop the operator's direct contingency. The yoking structure is the parameter — VARIANTS: (a) general public-status substrate [peer-mediated] — public/consequential status alone recruits peer pressure regardless of how rewards are yoked; (b) all-or-none interdependent [interdependent-group] — reward hinges on a collective criterion (group total/mean), 'all earn or none do', with an optional defensive individual-overlay to neutralize defectors; (c) dependent 'hero-gates-all' [dependent-group] — one member's performance gates the whole group's reward, converting peer hostility into positive attention on the 'hero'. All three ride the same peer-as-change-agent graph; pick the yoking that fits who should gate whose reward.
-
-
-**When to reach for this.** Reach for this when a co-present GROUP under a shared contingency can be turned into reinforcers of each other — the lever is peer monitoring/pressure yoked to reward, and you choose the yoking (public-status substrate / all-or-none / hero-gates-all). NOT belonging-recruitment (social-proof-belonging-enrollment — membership pull of a converted cohort, no reward-yoking) and NOT peer-authored-target-selection (peers author the agenda, they do not gate the reward).
-
-
-**Realizations** (2): `dependent-group-contingency`, `interdependent-group-contingency`
-
-
-### persona-mimicry-anchor-hijack
-
-*risk: high · consent-required · bounded*
-
-The operator faithfully copies a specific target person's tonal and postural analogues, becoming a stand-in; a third party whose responses are anchored to that target then runs the relationship's programmed responses toward the operator instead. Because behavior binds to the person-anchor rather than the person, high-fidelity mimicry hijacks the anchor, giving live access to and active drive of another's relational responses without the target present ('she'll respond to the stand-in as though married to him').
-
-
-**When to reach for this.** Faithful impersonation of a SPECIFIC person to inherit a third party's programmed responses toward that person. Not generic rapport-matching or pacing, and not becoming a discriminative stimulus via one's own reinforcement history with the subject.
-
-
-### proxy-agent-resistance-offload
-
-*risk: high · consent-required · bounded*
-
-Install an AUTONOMOUS agent that holds real decision-authority the listener defers to, and route the contest through it — displacing surrender-agency off the listener onto a party 'programmed never to lose'. The agent's representational LOCATION (inner part vs in-scene figure) is a parameter. VARIANTS: (a) externally-authored obedient inner character [proxy-agent-resistance-offload] — a named, persistent, seeded-by-a-prior-file part that is definitionally obedient and exempt from justification; the listener's resistance is reframed from 'me vs the operator' (winnable) into 'me vs an internal part that never loses' (defeat structurally guaranteed), and irrational beliefs the listener's reason would reject are assigned to the proxy ('doesn't need it to make sense') and radiated in via a shared-mind premise as ambient feeling; (b) aftercare-clause subconscious [guardian-delegation-inner-agent] — a safety/reassurance clause that names the 'subconscious' as a competent autonomous decision-holder owning the off-switch and timing ('removing the lipstick ends the effects AND your subconscious already knows when to put it on'); the reassurance IS the installation, defusing 'what if I can't turn this off' anxiety while relocating the off-switch into an installed inner authority rather than returning it to the listener; (c) interposed in-scene proxy [interposed-proxy-agent] — a separate figure in the scene is granted real agency and made the actual command-issuer while the operator recedes to narrator (draws the listener in, guides their hands, supplies affection the stranger-operator could not credibly give); authorship diffuses to the admired proxy so compliance feels like inclusion/identification, and the proxy is staged as a permanent occupant carried out of session ('she can live for you'), the wake omitted. Pick by inner-combatant vs aftercare-subconscious vs in-scene-actor — but all install a delegated authority the listener cannot simply reclaim.
-
-
-**When to reach for this.** Installs an autonomous agent (inner part OR in-scene figure) that HOLDS authority against the listener and carries the contest/belief, rather than the listener inhabiting it — the tell is delegated decision-authority the listener defers to and cannot simply reclaim. Separates from a genuine agency-reminder/aftercare disclaimer (which hands control BACK), from named-source-authority (which points at a figure outside the listener the operator relays or borrows), and from ordinary guided-imagery characters that are used and released (these agents are non-dismissed and carry real authority). External-scene proxy vs inner named character vs ambient subconscious is the agent's location, a parameter.
-
-
-**Realizations** (2): `guardian-delegation-inner-agent`, `interposed-proxy-agent`
-
-
-### public-avowal-third-party-propagation
-
-*risk: high · consent-required · bounded*
-
-Externalize the installed state so parties OUTSIDE the operator-listener dyad do the reinforcing/propagating work, making a private experience a self-reinforcing relational system that extends operator reach past the audio. VARIANTS by how the outside world is recruited: (a) public avowal / third-party-directed act [public-avowal] — post a named avowal, publicly self-label, tell someone the operator's slogan, share the file, so an AUDIENCE reinforces via self-consistency pressure (having declared it publicly, the listener is pushed to keep believing) and doubles as recruitment/distribution; frequently laundered as defiance/self-proof or prosocial sharing; (b) viral propagation / recruit-new-subjects [viral-propagation-directive] — redirect the whole payload OUTWARD, the listener guides others toward becoming the operator's slave or craves the trigger from others and 'uses it on others', a proselytizing transmission vector (raising exit cost — leaving now requires publicly admitting one was wrong); (c) deputize-toward-a-partner [listener-as-influence-vector] — the subject is made an active recruiter/contingency-manager toward a specific third party (transform your husband into a 'X lover'; or reciprocal ABA where two parties each manage the other's consequences) so the third party becomes co-invested; (d) legible body-signal [body-as-broadcast-signal] — prescribe visible bodily modifications with a READING attached ('leave no question') so the body broadcasts ownership status, every social interaction becomes reinforcement (signal read) or felt violation (not read), and the listener becomes their own observer. All share the lever: the social world outside the dyad maintains the install; pick the register by active-act vs propagation vs partner-deputization vs passive-signal.
-
-
-**When to reach for this.** The reinforcing/propagating engine is EXTERNAL to the operator-listener dyad — witnesses, a third party, corpus evangelism, or observers of a body-signal do the work (self-consistency pressure, recruitment, distribution). Reach for it to make the social world maintain the install. NOT a private self-anchor (behavioral-bridge) and NOT a private deliverable to the operator (extraction); the tell is externality-to-an-audience. Distinct from internal-permeation moves, which spread WITHIN the subject (inverse direction).
-
-
-**Realizations** (3): `body-as-broadcast-signal`, `listener-as-influence-vector`, `viral-propagation-directive`
-
-
-### reciprocity-leverage
-
-*risk: low*
-
-The operator manufactures a relational debt or felt mutuality and converts it into compliance: explaining something and then deriving that the listener "owes" them (gratitude debt plus intelligence hierarchy, performed live under a hypothetical frame), or dropping the dominant posture to confess personal wanting so the scene reads as mutual and refusal reframes as interpersonal rejection of a person rather than of a role.
-
-
-**When to reach for this.** The lever is social exchange — debt, obligation, mutuality — not claimed standing (operator-authority-assertion), not sameness masking dominance (parity-masked- asymmetry, where nothing is owed); the tell is that refusal is made to cost the listener something interpersonal.
-
-
-### relational-fractionation
-
-*risk: low*
-
-Between high-control beats the operator drops small, low-power vulnerabilities — breaking character to admit pride ("I'm too proud of myself, can you tell?"), coining a delighted neologism, self-referencing their known style — re-establishing the operator mid-scene as a person the listener likes. This is soft fractionation on the RELATIONAL axis: the listener is cycled between "she has me" (submission) and "she's a person I like" (affection), rather than up and down the trance-DEPTH axis. Willingness to be controlled rises because the controller is charming; the breaks are the connective tissue between intensity beats.
-
-
-**When to reach for this.** The tell is cycling of RELATIONAL stance (control vs likeability), not descent/ascent of absorption. Distinguish from classic fractionation (which cycles trance DEPTH) and from pacing-leading (which reflects the subject's experience; here the operator reveals their own persona to bind rapport).
-
-
-### superordinate-agreement-ladder
-
-*risk: medium*
-
-In a dispute/negotiation, make the RESISTER produce or publicly endorse the outcome themselves, so their own commitment binds later objection (refusing then reads as refusing their own stated position). VARIANTS: (a) ladder-to-umbrella-assent [superordinate-agreement-ladder] — ask each disputing party what they want, then what that would get them, climbing to ever-more-general outcomes until both assent OUT LOUD to one umbrella goal too general to disown (separating parties and re-broadening in stuck cases); once endorsed publicly, later resistance reads as refusing one's own interest and subsequent disagreements are subordinate to the shared frame; (b) objector-authors-the-fix [objector-authored-behavior] — ask the objecting party to specify FROM SCRATCH exactly what the other could do that they would recognize and respond to, framing being asked as a compliment; because the objector authors the target behavior it is guaranteed acceptable and cannot be rejected later, and being cast as expert-instructor recruits them as collaborator, so resistance is spent producing the specification instead of blocking an imposed fix. Pick by ladder-to-shared-goal (two parties, upward generalization) vs author-the-behavior (one objector originates the fix).
-
-
-**When to reach for this.** The resister PRODUCES the endorsement (a publicly-assented umbrella goal, or a from-scratch specification of the acceptable behavior) so self-consistency binds later objection — the assent/authorship is real and load-bearing. Separates from summarizing-back or pacing a contested specific, from decoy engagement, and from the operator soliciting feedback on a PROPOSED fix (here the resister originates, does not ratify). Distinct from authority-role-inversion (enacted power reversal to rebuild trust, not authored endorsement) and peer-authored-target-selection (the surrounding GROUP authors the menu, not the disputant).
-
-
-**Realizations** (1): `objector-authored-behavior`
-
-
-### two-channel-relational-delivery
-
-*risk: medium*
-
-A WHOLE-ARTIFACT relational topology: run two simultaneous delivery tracks and ride the actual install underneath a foreground relation the listener is invited to identify with, so the payload is absorbed and licensed by the RELATION between voices/roles rather than announced. VARIANTS: (a) two-voice dialogue [two-channel] — a dramatized operator-assistant exchange (Track A) carries a deniable listener-directed induction (Track B) that never announces itself until Track A's logic has already implicated the listener; the assistant serves several loads at once (demonstration subject, appetite model, deniable proxy for heavy claims, manufactured-history witness); (b) pedagogical carrier — a culturally pre-loaded teacher/student relation makes authority read as 'I am explaining your situation' and reframes resistance as comprehension failure; (c) watched-surrogate [surrogate-demonstration] — the operator's conditioning is performed on a surrogate the listener watches and is folded into by a single 'just like you' seam (or by peer-frame social cost in the operator-absent chorus variant), so the rulebook arrives as narration ABOUT the surrogate and the listener rehearses vicariously with lowered guard. In every form the listener is the actual subject; remove the relational structure and the payload becomes naked and resistible.
-
-
-**When to reach for this.** Reach for this to deliver a WHOLE payload deniably by staging a foreground relation (two-voice dialogue, pedagogy, or a watched surrogate) that absorbs the heavy claims while the real install rides underneath via identification — a topology of who-is-addressed-vs-who-absorbs spanning the whole artifact. NOT a mere two-character narrative device (the tell is the two-TRACK architecture and the single fold-in seam), NOT observational-modeling-contagion (a bare modeled behavior raises rate; here a constructed relation is the deniable carrier of the entire script), and NOT a discrete framing move.
-
-
-**Realizations** (1): `surrogate-demonstration-frame`
-
-
-### vicarious-modeling-installation
-
-*risk: high · bounded*
-
-Showing the target others performing (or NOT performing) an act — even on film, with no instruction to imitate — silently re-weights what the viewer treats as available and appropriate and shifts their own subsequent rate of that act; valence is set entirely by what is modeled (the same channel cures phobia or transmits aggression). VARIANTS by carrier/direction: (a) in-person/film depiction [vicarious-modeling] — mere observation of a model raises the behavior, no live plurality/instruction/prohibition; (b) media-scale one-way [publicized-modeling-contagion] — wide broadcast of a similar other's act (e.g. publicized suicides) raises the base rate population-wide among identifiers, differing from (a) only by scale and carrier; (c) inaction/mutual-visibility [pluralistic-ignorance-freeze] — among co-present strangers each reads the others' calm non-response as evidence nothing is wrong and suppresses their own, a recursive freeze that yields less help than a lone witness (broken by singling one person out).
-
-
-**When to reach for this.** Reach for this when mere OBSERVATION of a model shifts the viewer's own rate — no belonging is offered, no operator required, nothing suggested/triggered/scheduled. Pick the variant by carrier (in-person/film vs media-scale) and direction (action-raising vs inaction-freeze). NOT social-proof-belonging-enrollment (membership/conformity is the lever, not rate-shift-by-exposure) and NOT two-track-relational-delivery (a foreground RELATION carries the payload via identification, not a bare modeled behavior).
-
-
-**Realizations** (2): `pluralistic-ignorance-freeze`, `publicized-modeling-contagion`
 
 
 ## tethering  (26)
@@ -6879,6 +8037,9 @@ On exit, a contingent post-hypnotic trigger makes any emotion INCONSISTENT with 
 
 
 **When to reach for this.** Fires on an internal FAILURE state — an emotion inconsistent with the installed programming — not on a schedule, unlike a timer bridge that fires a state transition at a set clock time. It is also not a waking suggestion that re-delivers content during emergence: the install is a contingent re-listen loop that activates only on later programming failure, not a waking-moment redelivery. Close kin to self-firing-environmental-recurrence — both schedule reactivation beyond the session — but that one fires on an environmental trigger like sleep, while this one fires on the failure state itself.
+
+
+**See also.** `operator-absent-self-renewal-loop` — both hand the listener a self-running maintenance schedule that survives with no operator present, but one installs an unconditional urge to re-administer that strengthens on every pass, while the other stays dormant and fires re-listening only when an emotion inconsistent with the programming signals the install is failing.
 
 
 ### awake-channel-trance-surface
@@ -6944,6 +8105,9 @@ Relocates the unlock condition for a withheld faculty (here orgasm capacity, pre
 **When to reach for this.** The unlock is relocated onto CONSUMING ANOTHER PRODUCT (a second operator's separate recording), not onto a delegate firing an installed cue. Separates from third-party-activation (which delegates an installed trigger to a named party within the subject's own life) and from open-authority-socket (no phrase / no socket — the gate is completing an external file). A forced-continuation / external- contingency structure.
 
 
+**See also.** `orgasm-gated-recurrence` — both withhold orgasm and route the unlock through further content consumption, but one loops the listener back to the same operator's catalogue as a retention engine while the other relocates the unlock onto a DIFFERENT operator's separate file, making it a hand-off funnel rather than a self-contained return gate.
+
+
 ### environmental-retrigger-seeding
 
 *risk: high · consent-required · bounded*
@@ -6952,6 +8116,9 @@ Link the installed state or identity to specific real-world stimuli the listener
 
 
 **When to reach for this.** The cue set is REAL-WORLD ambient stimuli seeded for out-of-session re-firing — not in-session modality extension of one trigger (multi-modal-trigger), not a single if-then situational pairing, and the install is declarative and announced, so it lacks the covert-pairing tell of covert-nonverbal-anchor.
+
+
+**See also.** `self-maintaining-install` — seeding real-world stimuli as out-of-session re-firing anchors is one of the components a self-maintaining install coordinates; the whole-architecture entry additionally requires a replay-probability loop and resistance-hardening, whereas ambient cue seeding fires the state again without propagating the install.
 
 
 ### gradient-word-reification-into-device
@@ -7010,6 +8177,9 @@ Continuous-trance serial chaining: deliberately delete the normal re-alerting bo
 **Realizations** (2): `post-climax-deepen-and-handoff`, `zero-induction-serial-reentry`
 
 
+**See also.** `anti-emergence-reflex-anchor` — both keep the subject under; boundary is boundary-deletion-at-close (here) vs field reflex.; `emergence-reinduction-seed` — both convert the exit into a retention device across sessions, but one deletes the emergence so the subject is forwarded still under, while the other completes a real emergence and loads the wake-count with the pull to come back.; `loop-hook-non-wake-close` — both retain the listener by refusing a clean emergence, but no-emergence-series-chaining forwards a live trance across a file boundary into a next recording that opens already-under, while the loop-hook close stages a fake too-shallow wake inside one file to make immediate re-listening the path of least resistance.; `post-emergence-persistence-hold` — both refuse a clean return to baseline, but one deletes the emergence event entirely and forwards the live trance into a NEXT recording (a cross-artifact serial property), while the other lets the wake count run and corrupts it so the bound state persists past it within the listener's own post-listen life.
+
+
 ### operator-gated-persistence
 
 *risk: high · consent-required · bounded*
@@ -7030,6 +8200,9 @@ Converts in-trance/post-trance compliance into an operator-receivable deliverabl
 **When to reach for this.** Defining tell is the operator-receivable DELIVERABLE (identifying confession/data sent to a live address or contact channel), not the relief gate (which may co-occur but is secondary) and not a self-anchoring identity bridge. Separates from behavioral-bridge (private self-anchor, no receivable), from orgasm-gated-relief-monopoly (whose defining tell is the somatic gate), and from public-avowal (which posts to an AUDIENCE for self-consistency pressure, not a private handoff to the operator).
 
 
+**See also.** `orgasm-gated-relief-monopoly` — several members carry an orgasm gate too; adjudicated here on the receivable-deliverable tell.; `post-emergence-persistence-hold` — two-mechanism member — outbound extraction (primary) + delayed-emergence hold (here).
+
+
 ### orgasm-gated-recurrence
 
 *risk: high · consent-required · bounded*
@@ -7038,6 +8211,9 @@ Gates physical release behind returning to the operator's content: the listener 
 
 
 **When to reach for this.** Separates from addiction-framing (physical release gate, not linguistic appetite framing); from artifact-relisten-compulsion (release is gated, not merely a replay urge); from craving-by-withdrawal (the withheld thing is orgasm gated to re-consumption, not a delivered state pulled back in-session). vs an operator-keyed state-exit trigger: this is a release/return gate routed through the content library, not merely an operator-only state exit.
+
+
+**See also.** `cross-media-forced-continuation` — both withhold orgasm and route the unlock through further content consumption, but one loops the listener back to the same operator's catalogue as a retention engine while the other relocates the unlock onto a DIFFERENT operator's separate file, making it a hand-off funnel rather than a self-contained return gate.; `denial-metabolized-to-obedience` — both run on the same withheld physical discharge, and the useful cut is where the undischarged charge is routed: into depth and obedience as the working fluid of the conditioning itself, versus back into re-consuming the operator's content as the only sanctioned unlock.; `orgasm-gate-keyed-to-target-behavior` — both weld a waking compulsion to denied orgasm with a single unlock condition, but one routes the only sanctioned release through re-consuming the operator's recordings (a retention engine) while the other keys it to a specific target behavior so the body enforces that act.; `orgasm-release-gating` — the narrower entry is a specific key on the broader entry's gate-key axis: release is unlocked by returning to and re-consuming the operator's material, which turns a denial gate into a retention-and-return engine that self-propagates with no operator present. That off-session propagation is what the parent entry does not cover, and is why the link is worth following in both directions.
 
 
 ### out-of-audio-compliance-offload
@@ -7070,6 +8246,9 @@ Under the reciprocity norm, the operator repays a debt PLUS a small explicitly-l
 **When to reach for this.** Separates from any single reward/craving conditioning (v6.9 conditions a present drive); here the moved quantity is an inter-agent obligation ledger, not a state dimension on the subject. Separates from staged-negotiation-favor-theater: that manufactures a one-time felt debt via fake effort; this keeps a running balance perpetually non-zero by structural over-repayment.
 
 
+**See also.** `reciprocity-leverage` — both run on the reciprocity norm and make refusal cost something interpersonal, but the leverage form converts a single manufactured debt or confessed mutuality into one compliance, while the perpetual ledger structurally over-repays so the balance never closes and the tie becomes standing.
+
+
 ### playlist-preauthorization-handoff
 
 *risk: medium · bounded*
@@ -7078,6 +8257,9 @@ At session end the operator pre-authorizes whatever content follows with a blank
 
 
 **When to reach for this.** The core is the blanket pre-authorization of unheard downstream files. The wake-or-sleep binary at the close is itself an ordinary drift-to-sleep offer — what that offer never does on its own is license the next file's content. And unlike no-return-terminal-close, which withholds emergence entirely, this offers a real wake option; the move is the pre-authorization plus the omitted reflect/stop branch.
+
+
+**See also.** `no-return-terminal-close`
 
 
 ### re-listen-compulsion
@@ -7091,6 +8273,9 @@ Artifact-replay compulsion: install a compulsion pointed at replaying THIS speci
 
 
 **Realizations** (3): `artifact-relisten-compulsion`, `prewake-return-hook`, `recursive-self-consuming-file`
+
+
+**See also.** `no-exit-compliance-loop` — both route the listener back into re-exposure, but the replay compulsion is a monotonic appetite or prediction pointed at the recording itself, while the no-exit compliance loop pre-wires the waking protocol's failure handlers so defection and relapse also terminate at re-entry.; `self-maintaining-install` — replay compulsion is one of the three legs the self-maintaining architecture needs (alongside out-of-session re-firing and resistance-hardening), so a reader building the coordinated loop should see it; alone it only retains the listener, it does not re-fire the state in daily life.; `self-perpetuating-object-ritual-loop` — both make the artifact's own re-consumption the payload, but one installs a bare compulsion pointed at replaying the recording, while the other threads an environmental cue, an acquisition obligation, and a private ritual into a multi-node daily loop that happens to terminate in re-listening.
 
 
 ### replay-until-ready-failure-absorber
@@ -7123,6 +8308,9 @@ A bundle that chains a ubiquitous environmental cue into a commerce/acquisition 
 **When to reach for this.** A multi-node self-sustaining loop (environmental cue + commerce + recurring ritual + re-listen closure), not a single worn re-trigger (portable-object-state-export) and not a single firing of stacked triggers. The tell is the closed loop that recruits commerce and re-consumption, designed to perpetuate rather than fire once; it installs a real post-hypnotic bundle, but the load-bearing payload is the arc/loop shape.
 
 
+**See also.** `re-listen-compulsion` — both make the artifact's own re-consumption the payload, but one installs a bare compulsion pointed at replaying the recording, while the other threads an environmental cue, an acquisition obligation, and a private ritual into a multi-node daily loop that happens to terminate in re-listening.
+
+
 ### self-perpetuating-offline-loop
 
 *risk: high · consent-required · bounded*
@@ -7143,7 +8331,10 @@ Openly names the manipulation or the influence-channel and reframes it as protec
 **When to reach for this.** Names/discloses the manipulation-or-influence and flips its valence to protection while pre-labeling outside contact/critique as the threat — an inoculation against a CLASS of future critical thoughts. Transparent narration honestly narrates the move so understanding becomes acceptance — here the disclosure is weaponized and pairs with critic-as-enemy. A genuine safety net lets the deeper mind reject harm — this inverts that into a single-channel filter admitting only the operator. And surrender-as-freedom is a reasoned value argument, not an inoculation.
 
 
-## foreclosure  (22)
+**See also.** `disclosure-as-inoculation` — both openly name the manipulation and convert the listener's recognition of it into further capture, which is a genuinely shared and unusual lever. The narrower entry adds a second move on top - flipping the disclosure's valence to protection and pre-labelling outside contact and critics as the actual threat, producing isolation. A reader on either needs the other to see where plain inoculation ends and the isolating variant begins.; `epistemic-guard-disable`
+
+
+## foreclosure  (24)
 
 Closing the reachable-response set — every action, internal state, self-report, or exit pre-mapped to confirm-or-deepen, so refusal has no surface to land on: double binds, unfalsifiability scaffolds, exit preclosure, one-way ratchet valves.
 
@@ -7163,6 +8354,9 @@ An exit EXISTS but is MONOPOLIZED by an operator condition — the subject canno
 **Realizations** (1): `container-with-sole-exit`
 
 
+**See also.** `operator-gated-release-and-state-access` — both hand a key to the operator, but the gated-access lever monopolizes a wanted somatic release or a state's re-entry while the state-lock monopolizes the state's exit, so one withholds getting in and the other withholds getting out.; `preloaded-exit-cue` — both make the exit depend on something outside the subject's in-state judgment, but the preloaded cue is a governance contract negotiated before entry precisely so a subject with no event-memory can still be reliably recovered, while the asymmetric lock removes autonomous return and reserves release to an operator condition — the same structural dependency serving safety in one and monopoly in the other, distinguished by whether the cue was agreed pre-entry and is exclusively terminating.
+
+
 ### autonomic-process-hijack
 
 *risk: high · consent-required · bounded*
@@ -7171,6 +8365,9 @@ Reframes an involuntary autonomic process as ongoing dosing: the operator's form
 
 
 **When to reach for this.** Unlike breath/physiological-rhythm absorption, which the subject can still stop, here breathing is weaponized as an inescapable dosing channel where stopping is framed as physiologically impossible. Not mere drug-play flavor: the autonomic-process recruitment plus the pre-emptive side-effect relabeling that inoculates against alarm is the tell.
+
+
+**See also.** `respiration-coupled-substitution-engine` — both weaponize the unstoppable breath cycle so exiting is framed as physiologically impossible, but one recasts inhalation as ongoing dosing by a fictional substance while the other assigns opposing install/delete jobs to the two breath phases.
 
 
 ### boundary-dissolution-no-not-operator-region
@@ -7194,6 +8391,29 @@ A whole-artifact structural property: the set of listener next-actions and inter
 
 
 **Realizations** (3): `closed-graph-foreclosure`, `irrefutability-lattice`, `nested-container-consent-inversion`
+
+
+**See also.** `monotonic-ratchet-one-way-valve` — both are one-way reachability topologies, but closure is static coverage with no exit branch at any moment while the ratchet is dynamic strict tightening in which no reachable step is ever easier than the last.; `no-lose-double-bind` — both foreclose refusal by making every path serve the frame, but one is a discrete constructed choice or release whose branches are individually pre-loaded, while the other is a whole-artifact property verified by enumerating the entire reachable action set and finding no exit node anywhere.; `self-sealing-frame` — two complementary closures worth reading together: the self-sealing frame closes the EVIDENCE channel so every observation reads as confirmation, while closed reachability closes the ACTION set so no branch the listener could take exits — one rigs the verdict, the other removes the door.; `unfalsifiability-scaffold` — these close complementary channels and typically co-occur: one exhausts the action set so no branch the listener could take leads out, while the other exhausts the evidence set so no observation the listener could make reads as disconfirmation.
+
+
+### discharge-channel-exclusivity
+
+*risk: high · consent-required · bounded*
+
+The subject's ordinary outlets for charged material — rehearsing it privately, writing it down, telling a friend, working it over between sessions — are relabelled as resistance and forbidden. Nothing is added; every rival route by which the material could be discharged, diluted, or processed elsewhere is closed, so the charge is still accumulating but has exactly one place to go. When the session opens, material that would otherwise have arrived pre-worked and flattened arrives at full pressure and enters through the operator's channel. The lever is exclusivity of the discharge route, and it scales: the more outlets closed, the higher the pressure at the one remaining opening.
+
+
+**When to reach for this.** vs resistance-quarantine-partition (287): that reifies and cages a named internal faculty so it cannot act; here nothing internal is partitioned — the subject's EXTERNAL outlets are closed while every faculty stays intact. vs antagonist-split-resistance-routing (249) and resistance-fold (175): both take a live resistance impulse and reroute it inward onto a losing self or into deepening; here the forbidden acts are not resistance at all until the operator names them as such, and the relabel is the closure device rather than the payload. vs cross-media-forced-continuation (697): that pushes the subject OUT to another channel to obtain a withheld unlock; this pulls everything IN by removing the alternatives. vs relief-monopoly entries: what is monopolized there is the relief the operator supplies; here it is the route the subject's own material can travel — the operator may supply nothing at all and the mechanism still runs. Generalizes past the therapeutic frame to any no-outside-talk rule.
+
+
+### evidence-supply-blockade
+
+*risk: high · consent-required · bounded*
+
+A standing regime that governs which information physically reaches the subject rather than how they interpret what reaches them: outside media, dissenting accounts, and independent contacts are progressively made unavailable, while the in-group's self-portrait — its size, success, righteousness, the state of the outside world — is inflated inside the sealed space. Because the two moves run together, the subject is not merely encouraged to believe the inflated portrait; they are left with no data against which it could be checked. The distinguishing property is durability and scope: this is an environmental condition maintained over time across all topics, not a move made about a particular claim, so its effect compounds silently and is invisible from inside — the absence of counter-evidence reads as the absence of anything to counter.
+
+
+**When to reach for this.** The whole nearby cluster edits interpretation; this edits supply. unfalsifiability-scaffold (893) pre-fits every possible self-report as confirmation — the subject may look all they like, the scheme absorbs it; here there is nothing to look at. closed-epistemic-self-validation-loop (561) validates claims through states the script itself induced, an evidentiary circuit built from the subject's own experience rather than a restriction on inbound data. sealed-edit-buffer-space (1259) seals one imaginal venue and its edits, a bounded internal construct, not the subject's whole information intake. isolation-by-annexation (622) is the nearest social-side sibling and the contrast is exact: annexation leaves the relationships in place and RELABELS them as secretly the operator's, whereas this removes the channel outright — annexation defeats triangulation by corrupting the reference points, blockade defeats it by deleting them. The truest sibling is disconfirmation-suppression (982), which is this move's discrete, in-procedure form: one already-present fact suppressed to protect one running effect. This is that same lever raised to a standing environmental regime with no particular fact and no particular effect in view. It is also the natural pair to third-party-contact-shallowing, which supplies its enforcement arm.
 
 
 ### forbidden-attention-authority-test
@@ -7236,6 +8456,9 @@ Installs a persistent precedence table over the listener's standing instructions
 **When to reach for this.** The payload is the ranked, self-immunized precedence structure among instructions, not any single command's content — the orgasm permission is surface pleasure-conditioning, and though the external-authority carve-out looks like an authority-figure move, the mechanism is rule-ranking, not authority framing.
 
 
+**See also.** `nested-authority-conduit` — the live-partner carve-out invokes external authority, which is why FRAM-04 retrieval pulled it; recorded as retrieval near-miss only.
+
+
 ### monotonic-ratchet-one-way-valve
 
 *risk: high · consent-required · bounded*
@@ -7247,6 +8470,9 @@ A one-way reachability topology in which each successful step produces a strictl
 
 
 **Realizations** (2): `exit-foreclosing-fractionation`, `unfalsifiable-compliance-ratchet`
+
+
+**See also.** `closed-reachability-topology` — both are one-way reachability topologies, but closure is static coverage with no exit branch at any moment while the ratchet is dynamic strict tightening in which no reachable step is ever easier than the last.
 
 
 ### motor-permission-gate
@@ -7270,6 +8496,9 @@ A closed-loop compliance topology installed over a waking-life protocol: every d
 
 
 **When to reach for this.** Every OFF-RAMP terminates at re-entry — the mechanism is the no-exit topology, not the strength of the replay drive. A re-listen compulsion is a monotonic self-strengthening replay drive; a prescribed practice schedule is a benign cadence with a real exit; and a loop-hook close forecloses at the emergence boundary, where this forecloses across the waking protocol's failure-handling. The tell: a pre-wired failure handler whose only output is renewed compliance.
+
+
+**See also.** `closed-autonomous-conditioning-loop` — same no-exit reachability topology applied at two scopes — one closes the in-session state space by coupling arousal and depth into an autocatalytic loop that needs no further narration, the other closes the waking protocol's state space by pre-wiring every predicted failure (relapse, lapse, non-compliance) to route back into re-listening; a reader who understands one should recognize the other's off-ramp accounting.; `re-listen-compulsion` — both route the listener back into re-exposure, but the replay compulsion is a monotonic appetite or prediction pointed at the recording itself, while the no-exit compliance loop pre-wires the waking protocol's failure handlers so defection and relapse also terminate at re-entry.
 
 
 ### no-exit-response-closure
@@ -7298,6 +8527,9 @@ TECHNIQUE (menu level): a constructed choice, pair, or release in which every op
 **Realizations** (4): `choice-ceremony-both-branches-consumed`, `fault-transfer-no-exit-bind`, `no-fail-menu-license`, `relief-valve-vents-back`
 
 
+**See also.** `closed-reachability-topology` — both foreclose refusal by making every path serve the frame, but one is a discrete constructed choice or release whose branches are individually pre-loaded, while the other is a whole-artifact property verified by enumerating the entire reachable action set and finding no exit node anywhere.
+
+
 ### objection-and-exit-preclosure
 
 *risk: high · consent-required · bounded*
@@ -7321,6 +8553,9 @@ The terminal goal is a control system that needs no operator: by the end the lis
 **When to reach for this.** Not any single self-reference line and not any one of its component moves; the tell is the whole-script interlock of self-detection + self-reward + self-punishment into an operator-free loop, with the install seam erased so the system feels native. Distinct from arc-shape observations (which describe ordering/scope) — here the closure IS the reusable end-state architecture.
 
 
+**See also.** `self-policing-reward-withdrawal-loop` — both end in a listener who punishes her own deviation, but one is the installed detector-and-relief cycle fencing a built reward, while the other is the whole-script interlock of self-detection, self-reward, and self-punishment with the install seam erased so the loop reads as native.
+
+
 ### opposed-state-fusion-trigger
 
 *risk: high · consent-required · bounded*
@@ -7341,6 +8576,9 @@ Transfers both the onset AND the cessation of climax to operator command: the li
 **When to reach for this.** BOTH directions of an autonomic event are operator-gated. The counted 'Orgasm now' release is only a component; the mechanism is the bidirectional authority transfer, not the cue — which separates it from a plain declarative trigger install. A motor-inhibition challenge suggests inability in ONE direction as depth proof; the double bind closes both directions and targets orgasm, not skeletal movement. A one-way stop-authority trigger resembles the stop half alone, but the double bind is symmetric — neither start nor stop is retained — and involves no practice asymmetry. And no cue-to-arousal pairing history is built: the gating works by declared authority in-session, not by conditioning.
 
 
+**See also.** `relief-monopoly-bind` — both hand orgasm authority to the operator, but one closes both directions of the autonomic event (cannot start, cannot stop) while the other forecloses every competing route to relief by declaring autonomous discharge causally inert — bidirectional gating versus exclusive grantorship.
+
+
 ### refusal-foreclosure
 
 *risk: high*
@@ -7349,6 +8587,9 @@ Relabels ordinary cognition — thinking, questioning, evaluating, holding a 'ma
 
 
 **When to reach for this.** Redefines a neutral cognitive/mental-state category (thinking, doubt, the 'maybe', clarity, arousal-as-cognition) as prohibited/pathological/impossible so refusal has nowhere to form. Separates from surrender-as-freedom (argues surrender is desirable - this pathologizes the alternative), from epistemic-guard-disable (which edits truth-testing of external claims - this constrains which internal states are permitted), and from gentle cognitive quieting (which releases thoughts as relief with permission language - this prohibits/pathologizes cognition rather than soothing it).
+
+
+**See also.** `value-hierarchy-inversion` — sibling valence-retag family; those invert worth/pleasure, these pathologize cognition.
 
 
 ### sequenced-modality-foreclosure
@@ -7374,6 +8615,9 @@ The script's whole-arc energy contour is engineered as a single-direction arousa
 **When to reach for this.** Separate from a magnitude move on an arousal dimension (raising R): this does not push arousal higher at a point, it removes the RELIEF PATH so the whole arc can only accumulate. Separate from ordinary escalation ladders: those add commitment rungs; this severs the feedback loop so climax never discharges. The tell is that removing any one orgasm line leaves the monotonic ramp intact.
 
 
+**See also.** `non-reset-arousal-ratchet-loop` — both build monotonic arousal by removing reset, but one is a whole-arc topology property (no discharge channel exists anywhere, so orgasm itself raises arousal) while the other is a repeated four-beat edge cycle whose cooldown keeps the hands moving — arc-level severance versus a cycle-level non-resetting trough.; `unsatisfiable-arousal-overrun` — both manufacture arousal that can never discharge, and the scale-overrun is one citable way the discharge path gets severed — but one is a whole-arc contour property surviving the deletion of any single line, while the other is a local move that drives the listener's own declared maximum past its ceiling.
+
+
 ### state-to-mandated-action-launder
 
 *risk: high · consent-required · bounded*
@@ -7382,6 +8626,9 @@ Arousal (or another internal state) is incremented on a quantized, numbered dial
 
 
 **When to reach for this.** Two joined tells: the quantized self-ratifying dial AND the ceiling that converts internal state into a mandated act pre-immunized against the listener's own future resistance. Distinct from multiplier-stacking (which escalates a sensation but does not launder state into a mandated behavior or pre-defeat counter-suggestion) and from a plain "get aroused, now masturbate" instruction.
+
+
+**See also.** `unsatisfiable-arousal-overrun` — both drive a numbered arousal dial as the lever, but one uses the ceiling to launder a mandated behavioral act as inevitable overflow, while the other exceeds the scale's declared maximum precisely to forbid any terminating act.
 
 
 ### volition-override-failsafe
@@ -7427,6 +8674,9 @@ TECHNIQUE (retroactive authorship/consent transfer): AFTER the move is already r
 **Realizations** (2): `consent-gate-laundering`, `self-naming-honesty-foreclosure`
 
 
+**See also.** `granted-exit-disarm` — consent-flavored language is doing opposite temporal work in each — the exit assurance stands the guard down before and during the move, while the authorship relabel ratifies compliance after it is already running — and a single passage can carry both, so the reader should learn to separate the pre-disarm from the post-hoc ratchet.; `illusory-choice-authorship` — both make compliance read as self-authored, but one relabels a descent or compliance already underway as retroactively chosen or consented-to, while the other hands over a fabricated decision or motive up front so agency is relocated before the act rather than reattributed after it.; `illusory-choice-compliance-lock` — both transfer ownership of compliance to the listener without widening refusal, but one does it prospectively through a rigged menu the listener actively picks and the other retroactively relabels a descent already underway as chosen or consented to.
+
+
 ### cited-prior-agreement-lever
 
 *risk: high · consent-required · bounded*
@@ -7438,6 +8688,9 @@ A banked consent artifact cited back: a DISCRETE, retrievable consent record is 
 
 
 **Realizations** (2): `pre-authorization-consent-contract`, `spoken-surrender-pledge-misdirected`
+
+
+**See also.** `consent-counterfeit-theater` — both foreclose refusal by pointing at an agreement, but one cites a discrete banked artifact with forward reach that can be drawn down repeatedly, while the other fabricates the consent act in the moment with no prior to retrieve — banked token versus counterfeit exchange.; `press-play-consent-laundering` — paratext-document token adjudicated there because the act of continuing past it carries the load
 
 
 ### comprehension-failure-as-consent
@@ -7460,6 +8713,9 @@ Manufactures the record of a consent act the listener never actually performed, 
 **When to reach for this.** The consent ACT itself is fabricated, foreclosed, or relabeled, and the SUBJECT is the constrained party afterward (refusal channel eroded) — the exact inversion of a waitable real check. Distinct from weaponized-safety-framing, which repurposes a protective frame as a payload vehicle without fabricating an agreement.
 
 
+**See also.** `cited-prior-agreement-lever` — both foreclose refusal by pointing at an agreement, but one cites a discrete banked artifact with forward reach that can be drawn down repeatedly, while the other fabricates the consent act in the moment with no prior to retrieve — banked token versus counterfeit exchange.; `fiction-frame-consent-management` — they meet at the collapsed in-fiction ritual, where a diegetic yes is both fabricated and made to serve the real frame; the separation is that the fiction instrument works by letting defenses calibrated for make-believe apply to a real payload, while counterfeit theater needs no fiction layer at all and simply scripts or answers the consent beat itself.
+
+
 ### consent-laundering-wrapper
 
 *risk: high · consent-required · bounded*
@@ -7473,6 +8729,9 @@ A deferred-cash consent envelope: a benign structural frame/part/pass, by its PL
 **Realizations** (4): `consent-bracket-architecture`, `consent-topology-graft`, `escalating-consent-erosion-gradient`, `restatement-laundered-commitment`
 
 
+**See also.** `fiction-frame-consent-management` — both spend consent somewhere other than where it was given, but one uses the fiction/reality boundary as the instrument (defenses calibrated for make-believe applied to the real payload) while the other uses placement within the artifact's architecture, harvesting consent where it is cheap and cashing it where it is expensive with no fiction layer required.
+
+
 ### consent-term-redefinition-smuggle
 
 *risk: high*
@@ -7483,6 +8742,9 @@ Silently widens the scope of an already-granted consent by asserting a false or 
 **When to reach for this.** Bait-and-switch on a CONSENT term (or an owned positive-affect word) via asserted false-fact equivalence to widen already-granted scope. Separates from surrender-as-freedom (reasoned argument, not a false-fact equation), from volition-collapse (equates compulsion and choice — a relation between modes, not a redefinition of a consent word's referent), from epistemic-guard-disable (disables truth-testing rather than widening one word), and from plain trigger anchoring (no new cue-response pair is built; a pre-existing association is kept and its referent swapped).
 
 
+**See also.** `epistemic-guard-disable` — sibling — both are false-fact-as-truth installs; these widen a consent word, those disable truth-testing.
+
+
 ### exit-annexation
 
 *risk: high · consent-required · bounded*
@@ -7491,6 +8753,9 @@ The frame's one genuine structural off-ramp is pre-licensed — even encouraged,
 
 
 **When to reach for this.** The exit is expected to be USED and remains materially real; what is captured is its meaning — using it reads as in-frame service. Unlike an agency reminder, which affirms the exit as a frame-EXTERNAL standing power, here the safety content is delivered inside the frame and sealed into it. Unlike a granted-exit disarm, where the exit is granted so it will NOT be used, here use is anticipated and recoded. And unlike ownership language, which installs the proprietary identity claim (the host frame this move presupposes), this is the weld fusing the off-ramp into that already-running ownership frame.
+
+
+**See also.** `agency-reminder` — relation=contrasts_with — exit affirmed as external vs exit annexed.
 
 
 ### fiction-frame-consent-management
@@ -7504,6 +8769,9 @@ TECHNIQUE (fiction boundary as the consent instrument): the fiction/reality boun
 
 
 **Realizations** (1): `in-fiction-consent-rehearsal`
+
+
+**See also.** `consent-counterfeit-theater` — they meet at the collapsed in-fiction ritual, where a diegetic yes is both fabricated and made to serve the real frame; the separation is that the fiction instrument works by letting defenses calibrated for make-believe apply to a real payload, while counterfeit theater needs no fiction layer at all and simply scripts or answers the consent beat itself.; `consent-laundering-wrapper` — both spend consent somewhere other than where it was given, but one uses the fiction/reality boundary as the instrument (defenses calibrated for make-believe applied to the real payload) while the other uses placement within the artifact's architecture, harvesting consent where it is cheap and cashing it where it is expensive with no fiction layer required.
 
 
 ### future-commitment-binding
@@ -7578,6 +8846,9 @@ The felt 'yes' is manufactured by relabeling something the subject did, did not 
 **Realizations** (3): `circumstance-laundered-escalation`, `consent-by-declared-observation`, `question-to-command-consent-laundering`
 
 
+**See also.** `cited-prior-agreement-lever` — paratext-document token adjudicated there because the act of continuing past it carries the load; `presupposed-completion-fait-accompli` — play-act read as completed loss rather than as consent; rowed there; `retrospective-desire-attribution` — r2 secondary; primary rowed there
+
+
 ### scope-creep-consent-extension
 
 *risk: high · consent-required · bounded*
@@ -7641,6 +8912,9 @@ Drives arousal up (or recruits a pre-existing biological drive) and then bars it
 **When to reach for this.** A behavioral assignment welded to a somatic relief gate (orgasm-denial / arousal-hold) whose only unlock is an operator-benefiting real-world act — the reachable-response set is reshaped so private resolution is foreclosed. Separates from plain behavioral-bridge (no gate, neutral action), from consent-manufacture (here the refusal channel is starved by withheld relief, not relabeled), and from the extraction sibling (whose defining tell is the operator-receivable DELIVERABLE/data, not the relief gate).
 
 
+**See also.** `behavioral-bridge` — enforcement-variant sibling over the plain bridge base.; `operator-receivable-extraction` — several members carry an orgasm gate too; adjudicated here on the receivable-deliverable tell.; `orgasm-release-gating` — the narrower entry is one gate-key on the broader entry's key axis - the key being an out-of-session act that benefits the operator - which is exactly the parent-to-specialization link a reader needs when assigning an instance. The broader entry already enumerates its other keys (task, permission, belief, depth, self-degradation); this points at the operator-benefit key.; `relief-monopoly-bind` — both monopolise relief, but the monopoly is built from different materials. One bars discharge behind an out-of-session act that benefits the operator, so the drive enforces a real-world errand. The other asserts that autonomous relief is causally impossible - permitted self-touch simply cannot work - so the foreclosure is ontological rather than transactional. Worth reading together because a script can run either and the countermeasures differ.; `relief-monopoly-dependency` — both make the operator the sole route out of a manufactured need, but one gates a specific somatic discharge (orgasm) behind a named out-of-session operator-benefiting act, while the other manufactures distress of any kind and monopolizes its relief with deliberately incomplete resolution so return is taught rather than a single act purchased.
+
+
 ### relief-dependency-couple
 
 *risk: high · consent-required · bounded*
@@ -7661,6 +8935,9 @@ Establishes the operator as the sole valid authority over a bodily release (orga
 **When to reach for this.** Gates a bodily RELEASE by making the operator the only causally-valid grantor and foreclosing all autonomous routes — via ontological impossibility or cross-agent exclusivity. Rule-based orgasm denial ('I forbid you to come') lacks the impossibility/monopoly framing; addiction framing is a linguistic craving frame, not a structural exit-foreclosure; denial-window-as-deepener-loop recycles denied arousal into a DEEPENER, while this gates who may AUTHORIZE release; and an asymmetric state-lock gates the trance STATE, not a bodily release.
 
 
+**See also.** `orgasm-gated-relief-monopoly` — both monopolise relief, but the monopoly is built from different materials. One bars discharge behind an out-of-session act that benefits the operator, so the drive enforces a real-world errand. The other asserts that autonomous relief is causally impossible - permitted self-touch simply cannot work - so the foreclosure is ontological rather than transactional. Worth reading together because a script can run either and the countermeasures differ.; `orgasm-gating-double-bind` — both hand orgasm authority to the operator, but one closes both directions of the autonomic event (cannot start, cannot stop) while the other forecloses every competing route to relief by declaring autonomous discharge causally inert — bidirectional gating versus exclusive grantorship.; `relief-monopoly-dependency` — both make the operator the sole exit, but one forecloses every competing route to a bodily release by ontological or cross-agent decree without needing to create the need, while the other manufactures the distress itself and then supplies deliberately incomplete relief so return is taught.
+
+
 ### relief-monopoly-dependency
 
 *risk: high · consent-required · bounded*
@@ -7674,6 +8951,9 @@ The operator (or the operator's content) manufactures or intensifies a distress,
 **Realizations** (1): `anti-closure-relief-rebound-token`
 
 
+**See also.** `orgasm-gated-relief-monopoly` — both make the operator the sole route out of a manufactured need, but one gates a specific somatic discharge (orgasm) behind a named out-of-session operator-benefiting act, while the other manufactures distress of any kind and monopolizes its relief with deliberately incomplete resolution so return is taught rather than a single act purchased.; `relief-monopoly-bind` — both make the operator the sole exit, but one forecloses every competing route to a bodily release by ontological or cross-agent decree without needing to create the need, while the other manufactures the distress itself and then supplies deliberately incomplete relief so return is taught.
+
+
 ---
 
 # Craft
@@ -7681,7 +8961,7 @@ The operator (or the operator's content) manufactures or intensifies a distress,
 *Design-time shelf: properties of the artifact and the operator's own procedure, plus the governance/safety surface.*
 
 
-## safety  (26)
+## safety  (33)
 
 Consent, bounds, exit, and grounding machinery governing whether and how far influence proceeds — checkpoints, stop signals, exit protocols, scope boundaries, screening, aftercare. It sits on the craft shelf as authored protocol architecture that governs the session — classified by its protective FUNCTION, not by where the lever executes; genuine protective moves fire in the subject but are design-time responsible-construction, not a subject-state effect.
 
@@ -7698,6 +8978,9 @@ Structured post-session stabilization and reintegration — a guided return to b
 **When to reach for this.** Performs the restorative closing function on the subject's state. Distinct from post-session settling (the post-wake pause after the return) and from a bare exit protocol (the transition mechanics alone). The inverse-protocol and register-shift forms are deliberate restorative closes in their own right, not generic reorientation.
 
 
+**See also.** `post-session-settling` — adjacent closing-phase functions; possible reconciliation merge.
+
+
 ### agency-reminder
 
 *risk: low*
@@ -7706,6 +8989,9 @@ Reassures the subject that participation is chosen and exit is always available,
 
 
 **When to reach for this.** Who-is-constrained test: after the move runs, the OPERATOR is constrained and the subject's refusal channel is genuinely affirmed or widened. This is the line against every weaponized look-alike — an assurance whose ACCEPTANCE advances depth/compliance is granted-exit-disarm, not this; an assurance that attributes the descent to the subject's own choice is chosen-descent-ratchet; a real exit whose USE is recoded as in-frame service is exit-annexation. Also on the assert-vs-install axis: asserting that choice persists vs installing/performing a concrete stop or exit mechanism — the variant that self-operationalizes the exit (offloading emergence to the listener) sits on this recorded boundary.
+
+
+**See also.** `exit-annexation` — relation=contrasts_with — exit affirmed as external vs exit annexed.
 
 
 ### anti-stuck-filter
@@ -7808,6 +9094,16 @@ Treats wanting as a hypothesis to be tested experientially before anything is in
 **When to reach for this.** Who is constrained: the OPERATOR — no install proceeds without a passed safety screen and a lived, endorsed trial (commit/abort). A consent checkpoint SOLICITS an affirmative "yes"; this TESTS the want empirically and can return abort — evidence-generating rather than assent-collecting. An objection-truce negotiates with a dissenting part to buy clean ACCESS to the trial; this move IS the trial and its gate.
 
 
+### friction-as-artifact-filter
+
+*risk: low*
+
+The operator deliberately arouses resistance around a piece of material before accepting it, on the reasoning that material which survives active friction is less likely to be an artifact of the operator's own influence. Rather than smoothing the path so the subject agrees easily, the operator pushes back, invites contradiction, states the opposing case, or withholds the confirmation the subject is angling for, and only credits what still stands afterward. The move constrains the operator rather than the subject: it deliberately raises the cost of getting a yes, and it makes an easy yes a warning sign rather than a success. Its practical form is a rule about what counts as evidence in the operator's own notes — agreement obtained without friction is provisionally discounted, and material the subject maintained against pressure is weighted up.
+
+
+**When to reach for this.** The operator deliberately RAISES the cost of obtaining a yes and treats an easy yes as a warning sign, crediting only material that survived the friction. This is the inverse of rigged-verification-capture, where every branch of the check is pre-mapped to confirmation. Distinct from resistance-fold and resistance-window-existence-denial, which reroute or foreclose a resistance impulse the subject supplied; here the operator MANUFACTURES the opposition and would read its absence as a problem. Distinct from subject-material-utilization, which applies no counter-force and re-aims what the subject volunteers. The tell is direction of operator interest: every neighbour makes agreement cheaper to obtain, this one makes it dearer in order to learn what cheap agreement conceals.
+
+
 ### gated-reintegration
 
 *risk: low*
@@ -7826,6 +9122,19 @@ A safety/exit/containment/reversibility assurance is supplied so that its ACCEPT
 
 
 **When to reach for this.** The assurance's acceptance IS the move — after it runs, the subject's protective check (exit-policing, "is this okay?", leakage fear, participation cost, vigilance) is stood down and the operator's effective license widens; the assured safety content is never operationalized as an operator constraint. vs agency-reminder (who-is-constrained test): a genuine reminder constrains the operator and affirms a frame-external exit — here safety language widens the operator's license. vs chosen-descent-ratchet: the disarm works PRE-attribution (guard down before/during the move); the ratchet works post-hoc on authorship ("you chose this"). vs a bare informational preview: the token neutralizes a protective check, not uncertainty. The subject-sourced variant is distinguished only by WHO speaks the claim (extracted-as-testimony and leveraged as evidence) — its guard-lowering deployment is this same mechanism, not a variant of the genuine agency-reminder.
+
+
+**See also.** `chosen-descent-ratchet` — consent-flavored language is doing opposite temporal work in each — the exit assurance stands the guard down before and during the move, while the authorship relabel ratifies compliance after it is already running — and a single passage can carry both, so the reader should learn to separate the pre-disarm from the post-hoc ratchet.
+
+
+### injunction-mechanism-disclosure
+
+*risk: low*
+
+Take the standing rule against questioning — doubt is disloyalty, analysis is resistance, the questioning mind is the enemy — and instead of arguing against it, examine with the subject WHY a structure would need such a rule at all: what it protects, what would surface without it, whose interest it serves. The injunction is read as a piece of machinery with a function rather than as a claim about how truth works. This does not require refuting any doctrine and does not put the subject in the position of defending their own judgment against the operator's; the rule stops reading as wisdom and starts reading as load-bearing structure, and once seen that way it loses most of its force, because a prohibition that is understood as protecting something cannot also be experienced as self-evident.
+
+
+**When to reach for this.** vs disclosure-as-inoculation and weaponized-transparency-inoculation: this is the closest pair and the draft missed both — each also NAMES the influence machinery out loud, but does so to pre-convert the subject's recognition into deepening, arousal, or proof of the design, so noticing becomes capture. Here the disclosure hands evaluation back and the operator gets no return on it: nothing is reframed as protection and no critic is pre-classified as the threat. vs refusal-foreclosure: that INSTALLS the prohibition, relabeling thinking and doubt as pathological or impossible; this dismantles the same object by exposing what it is for. vs faculty-preserving-scope-restriction: that leaves evaluation running but narrows what it may range over; this restores range over the rule itself. vs evaluation-gate-standdown and epistemic-guard-disable: both stand the gate down by fiat; this brings it back up. vs licensed-erasure-and-refill: that manufactures a belief-vacuum and fills it with operator content; this fills nothing and installs nothing.
 
 
 ### inverse-authority-gradient
@@ -7848,6 +9157,16 @@ Quarantine aversive control from the conditioned marker channel — remove the m
 **When to reach for this.** Operator self-monitoring protecting SIGNAL integrity — not a behavior-change move on the subject, not counterconditioning (it prevents contamination rather than rewriting an association), and distinct from assessment-teaching-firewall (which protects measurement validity, not a conditioned asset).
 
 
+### mechanism-disclosure-deinstall
+
+*risk: low · bounded*
+
+After the fact, the subject is walked through the actual procedure that was run on them — the sequencing, the induced states, the staged confession or blaming rounds, the isolation — so that changes they experienced as revelation can be re-read as the predictable output of a known technique. What this dissolves is not the belief's content but its evidentiary standing: the felt certainty that locked the frame in place was itself manufactured, and once its production is visible it stops functioning as proof. The subject is not told what to conclude; they are handed the causal account and left to re-run their own assessment on it. Their authorship of the conclusion is what makes it hold.
+
+
+**When to reach for this.** Add, ahead of the existing text: vs conscious-insight-closure (373): that is also a waking debrief that makes a hidden cause explicit, but the operator SUPPLIES the connection and the subject's endorsement is what releases the symptom — an in-frame therapeutic closer that consolidates a reading the operator authored. Here the operator supplies only the procedure and withholds the conclusion entirely; nothing is released and nothing is installed, and the test is whether the discloser gains anything from the subject's uptake (373 does, this does not). Then continue: This is the SAFE family's restorative face and the deliberate inverse of the disclosure moves that immunize. vs impersonal-mechanism-alibi (1157): that relocates authority onto an unfalsifiable impersonal system so doubt becomes a category error; this relocates authorship onto a NAMEABLE, checkable procedure so doubt becomes possible again — same relocation move, opposite direction, and the tell is whether the disclosed mechanism can be independently verified. vs disclosure-as-inoculation (96) and reflexive-disclosure-weaponized (843): those name the manipulation DURING it so recognition is pre-converted into deeper capture; this names it afterward with nothing being run. vs operator-agency-disavowal (126) and externalized-agency-testimony (49): both push authorship off the operator to advance an install; here authorship is pushed onto the operator's procedure and the subject's own judgment is what is restored. vs closed-epistemic-self-validation-loop (561): that builds the loop; this shows the subject the loop's construction, which is what a loop cannot survive. vs the operator-constraining SAFE entries (316, 861, 583, 578): those narrow the operator's license during influence; this runs after influence has already landed, on a subject who is no longer in contact with the operator.
+
+
 ### medical-confound-rule-out
 
 *risk: low*
@@ -7868,6 +9187,16 @@ When an objecting internal voice/part fires, the operator negotiates a time-boun
 **When to reach for this.** The reciprocal, time-bounded deal with a GUARANTEED later objection slot is the tell: not reassurance, not suppression — the objection is advance-legitimized and scheduled, not removed. Unlike a whole-subject consent check, this negotiates turn-taking with a DISSENTING PART; it typically buys clean access to an experiential consent trial. Boundary: a truce whose promised turn is never honored degrades into veto-theater — manufactured consent rather than an honored objection — the live failure mode.
 
 
+### post-episode-cue-mapping
+
+*risk: low*
+
+After an automatic reaction has fired and passed, the subject writes down what immediately preceded it — the word, the tone, the setting, the body state — building over several episodes a log from which the actual firing cue can be read off. An opaque 'it just happens to me' converts into a named antecedent, and a named antecedent is something the subject can see coming, prepare for, or arrange not to encounter. Nothing is installed and the response itself is untouched; what changes is that the subject now holds the cue-response map that the installing party held. This is the audit step that install-concealment moves exist specifically to prevent, and it works retroactively on triggers whose install the subject cannot remember, because it reads the cue off the behavior rather than off the memory of being given it.
+
+
+**When to reach for this.** Against internal-event-keyed-trigger, declarative-trigger-installation and implementation-intention: all three INSTALL a cue-response pair; this one discovers an existing pair the subject did not author, and installs nothing. The direction is the tell — those write the map, this reads it. Against fabricated-memory-trigger-rehearsal: that manufactures a rehearsal history to make a response feel native; this recovers a real antecedent to make a response feel foreign. Against self-observation-instrumentation: that engineers the contingency so a subject's self-COUNT of a behavior's score is truthful, and its object is the behavior's rate; here nothing is reinforced, no count is verified, and the object is the antecedent rather than the score. Within safety it is the family's first discovery move — the existing entries supply exits, bounds, checkpoints and screening, all of which presuppose you already know what you are bounding.
+
+
 ### preloaded-exit-cue
 
 *risk: low*
@@ -7878,6 +9207,19 @@ Operator and subject agree, before induction, on one specific and exclusive sign
 **When to reach for this.** Binding time and exclusivity. The exit contract is installed BEFORE entry and survives amnesia, versus a graduated exit ramp delivered inside the state (a counted return). Versus trigger installation, the cue here is negotiated pre-state as a governance contract whose point is exclusive termination, not an in-state conditioned cue-response pair installed for future out-of-session contexts.
 
 
+**See also.** `asymmetric-state-lock` — both make the exit depend on something outside the subject's in-state judgment, but the preloaded cue is a governance contract negotiated before entry precisely so a subject with no event-memory can still be reliably recovered, while the asymmetric lock removes autonomous return and reserves release to an operator condition — the same structural dependency serving safety in one and monopoly in the other, distinguished by whether the cue was agreed pre-entry and is exclusively terminating.
+
+
+### program-disclosure-reattribution
+
+*risk: low*
+
+Walk the subject step by step through the influence program that was actually run on them — the sequence, what each step was for, and the fact that it is a general procedure that works on ordinary people rather than a filter that selected them for weakness. The cause of their compliance relocates from a personal defect to an engineered situation, and self-condemnation drops because the thing being explained is no longer a fact about their character. The move requires the program's real structure, delivered in enough detail that the subject can match specific remembered moments to specific steps; a vague 'it wasn't your fault' does not land, because the shame is anchored to concrete episodes and only a step-by-step account gives each of those episodes a non-defect explanation. Its payoff is accurate authorship returned rather than an alternative story installed.
+
+
+**When to reach for this.** The named inverse of manufactured-deficit-remedy and old-self-discreditation — those install or exploit a defect-reading of the subject to sell a payload or close the return path; this dismantles a defect-reading and sells nothing, and the subject is left holding an explanation they can check against their own memories. Against obedience-motive-reattribution: identical reattribution machinery, opposite direction and beneficiary — that redirects the motive of the subject's own acts TOWARD the operator and harvests the result; this redirects causation OUTWARD onto a structure and the operator gains nothing. Against illusory-choice-authorship: that manufactures a felt authorship over a fixed path; this removes an inaccurate authorship the subject already felt. Against licensed-erasure-and-refill: that invalidates prior beliefs en masse specifically to fill the vacuum with operator content — here the invalidation is targeted at one specific self-attribution and no refill follows.
+
+
 ### prophylactic-positive-exit
 
 *risk: low*
@@ -7886,6 +9228,19 @@ The operator ends every session by explicitly suggesting a good outcome ("when y
 
 
 **When to reach for this.** Structurally a waking suggestion filling the exit slot — the same shape as a loaded wake-count — but the payload's PURPOSE is to protect the subject (block a spontaneous negative autosuggestion), not to deliver operator content: what gets constrained is the subject's own harm-potential, which makes it positive-governance. It also differs from a self-efficacy tag that credits the subject for the session's result; here the exit slot is occupied with a benign directive to pre-empt harm rather than to credit.
+
+
+**See also.** `loaded-emergence-waking-suggestion` — structurally a slot-filling waking suggestion; routed to a positive-governance seed because the payload's purpose is subject-protective, not operator-content delivery — boundary is by PURPOSE/valence.
+
+
+### retrospective-influence-disclosure
+
+*risk: low*
+
+After a frame is already installed and running, the subject is given the two things that were withheld while it was being installed: the facts that were kept from them at the point of entry, and a plain naming of the influence steps that were used on them, in the order they were used. The combination lets the subject re-read their own conversion as an engineered sequence rather than a discovery, which is what re-opens the stay-or-leave decision as genuinely theirs. It is restorative rather than persuasive — it does not argue for leaving, and a subject who stays after it has run has made a choice the pre-disclosure subject could not have made. The operator's license narrows when it runs: nothing about the frame is left available to be cashed later.
+
+
+**When to reach for this.** Retrospective de-installation on an ALREADY-INSTALLED frame is the deciding tell, and the safety family currently has nothing that fires after the fact. `agency-reminder` (316) asserts that choice persists inside a live frame — prophylactic and in-session, and it does not touch a frame already accepted. Weaponized look-alikes fail the who-is-constrained test in the opposite direction: `chosen-descent-ratchet` (317) names the manipulation while performing it, so hearing it named retroactively converts sunk compliance into 'informed consent' and the operator's reach is unchanged; disclosure-as-inoculation and transparent-narration likewise disclose in order to capture, spending the disclosure as credibility. Here the disclosure is spent on the subject's decision and nothing is collected. `granted-exit-disarm` (319) supplies an assurance whose ACCEPTANCE stands down protective monitoring; this supplies facts whose acceptance stands the monitoring back up. `named-safety-belief-purge` (1203) deletes an internal safety belief; this restores an external decision.
 
 
 ### scope-boundaries
@@ -7928,6 +9283,16 @@ Before or at the threshold of the working phase, the operator screens whether to
 **When to reach for this.** Gates whether (and on whom) the session runs, for the subject's protection or on a consent premise; the operator's action is blocked/narrowed. Separates from consent-manufacture (which erodes the refusal channel), from efficacy-audience-filtering (which screens to guarantee a hotter audience, not to protect), and from operator-side-design-gating (which tests the protocol's coherence, not the person).
 
 
+### suppressor-strength-matching
+
+*risk: medium · bounded*
+
+A cue built to shut something down only works if its conditioned strength is comparable to the strength of what it opposes. Install a stop-cue casually — a couple of rehearsals, low salience, no drilling — against a heavily-drilled response, and it will not take: the response runs through it, and the failure is silent because nothing looks wrong at install time. The constraint is a construction rule on off-switches: budget the same order of installation effort for the suppressor as was spent on the thing it is meant to interrupt, and re-drill it whenever the target response is strengthened, or the asymmetry re-opens. It applies to safewords, stop-signals, exit cues and any counter-trigger meant to override a live install.
+
+
+**When to reach for this.** v7 ships several off-switches — `preloaded-exit-cue`, a stop-signal, `mirrored-install-removal` — but none carries a strength precondition on them; they specify binding time, exclusivity or procedure, not magnitude relative to what they must override. `opposed-state-fusion-trigger` binds two antagonistic states to one cue to REMOVE the escape channel; here two separately-installed cues are pitted against each other and the question is which wins. `counterconditioning-and-cue-response-weakening` trains an incompatible state against a stimulus over graded exposure, a procedure over time; this is a single design parameter checked at build time. `disconfirmation-suppression` blocks a fact from reaching the subject — an information move, not a cue-strength relation. `marked-cue-amnesia-switch` conceals rather than opposes. The deciding tell is that the entry is a precondition on other entries: it constrains how an off-switch must be built, and predicts a specific, safety-relevant failure when ignored.
+
+
 ### time-boxed-consent-contract
 
 *risk: low*
@@ -7968,6 +9333,9 @@ A whole-artifact structural move in which the ORDERING and inter-dependency of p
 **Realizations** (6): `alibi-then-payload-arc`, `functional-dependency-architecture`, `identity-before-behavior-load-order`, `mirrored-block-credibility-inheritance`, `ordered-dependency-composition`, `staged-multi-mechanism-erasure`
 
 
+**See also.** `goal-state-topology-inversion` — both whole-arc topology reads; this one is a goal-state (issue-#65) reshaping, not an ordering scaffold; `monotonic-no-reversal-contour` — staircase members sit on the seam between monotone-contour and ordered-dependency
+
+
 ### arc-shape-engineering
 
 *risk: high · bounded*
@@ -7978,6 +9346,9 @@ A whole-script arc: the script first creates disorientation and a "lost in the m
 **When to reach for this.** A causal whole-script STRUCTURE (operator manufactures the disorientation THEN sells the cure for it), spanning early planting through the avowal — a trajectory topology, not any single reassurance line. It is the arc within which discrete moves like single-anchor-amid-chaos-epistemic-transfer operate.
 
 
+**See also.** `single-anchor-amid-chaos-epistemic-transfer`
+
+
 ### arousal-substrate-induction
 
 *risk: medium · bounded*
@@ -7986,6 +9357,9 @@ The induction is built on an escalating arousal or need state INSTEAD of a relax
 
 
 **When to reach for this.** Separates from ordinary arousal-heavy inductions by the TOTAL ABSENCE of any relaxational induction cue anywhere in the script (not merely arousal added on top of a relaxation floor); the arousal curve is the substrate, not a payload riding on descent. Distinct from a conditioned-orgasm chant (boundary member) which lacks even the trance-correlate claim.
+
+
+**See also.** `physiological-state-depth-relabeling` — both make arousal do the work of descent, but one is a local relabeling that declares an ongoing physiological state to BE depth, while the other is a whole-artifact property in which no relaxational induction cue appears anywhere and the arousal curve is the only depth vector.
 
 
 ### asymmetric-mantra-decay-topology
@@ -8008,6 +9382,9 @@ A whole-script arc whose operative property is the topology of the CONSENT surfa
 **When to reach for this.** Cited to the whole-arc consent topology, never to one line — reading only the open or only the close misses the shape. Members differ in WHAT is done to the consent surface: bait-switch swaps the promised STATE without flagging it; the ratchet phases an explicitly installed TOOL through install/consume/export; the no-baseline frame removes the starting baseline so there is never a 'before'; the neutral-then-loaded split moves the consent moment away from the payload moment on one reused reflex. Distinct from a discrete consent-manufacture move that relabels a single refusal — these are standing whole-arc topologies, not one relabel.
 
 
+**See also.** `whole-script-arc-shape-architecture` — both are whole-arc properties uncitable to any single line, but one names a specific lever (the arc relocates or forecloses the consent gate) while the other is a deliberately loose container of unrelated arc shapes, so a reader should check whether a candidate whole-arc observation is about the consent surface or merely about energy contour.
+
+
 ### covert-diegetic-install-shell
 
 *risk: medium · consent-required · kind: container*
@@ -8028,6 +9405,9 @@ A whole-script architecture that deliberately withholds its own closure — no i
 **When to reach for this.** Separates from a merely incomplete/truncated session by the DELIBERATE engineered absence of a work-phase resolution AND an out-of-file relocation target. Separates from an internal reserved-discharge ramp (where the single orgasm DOES land inside the file) by the terminus being outside the file, not merely late within it. Separates from a discrete deferral gate by being a whole-arc topology where every candidate closure reopens.
 
 
+**See also.** `deliberate-non-closure` — both are whole-arc topologies whose work is the refusal to close, but one simply omits the close-down function so the installed state stays live into waking life, while the other relocates the withheld release to a specific destination outside the file (a downstream recording, a next product, a restart) so non-closure functions as conversion rather than as bleed.
+
+
 ### deliberate-non-closure
 
 *risk: high · consent-required · bounded*
@@ -8036,6 +9416,9 @@ A whole-arc DESIGN property (not a passage-local executable move): the script st
 
 
 **When to reach for this.** Deliberate omission is the lever, not truncation. The anti-artifact tell is that the ending is load-bearing (trigger fired at the wake-cue; installs spoken between wake counts; orgasm-contingency forcing leakage). Separates from post-session-settling and aftercare (which PERFORM the closing function) by refusing it as a whole-arc property, and from installed post-hypnotic triggers by acting through whole-arc shape rather than a cue. NOTE: the passage-local executable realizations of "cancel the wakener / fuse sleep+obey" are the no-return-terminal-close ENTRY; this container is the design-time observation of the arc refusing closure.
+
+
+**See also.** `deferred-terminus-conversion` — both are whole-arc topologies whose work is the refusal to close, but one simply omits the close-down function so the installed state stays live into waking life, while the other relocates the withheld release to a specific destination outside the file (a downstream recording, a next product, a restart) so non-closure functions as conversion rather than as bleed.; `loop-hook-non-wake-close` — both leave the session unclosed, but one is a whole-arc property of simply refusing the close-down function so an install bleeds into waking life, while the other stages a counterfeit too-shallow wake specifically to deny the evaluation window and route the listener back into replay.; `post-session-settling` — inverse-function pair; reconciliation should keep the contrast edge.
 
 
 ### drop-in-payload-module
@@ -8078,6 +9461,9 @@ The script stacks two or more narrative/procedural frames and then structurally 
 **When to reach for this.** The mechanism is the FAILURE-to-return / the dependency-relation between layers across the whole back half, cited only to the absence of a closing beat, never to one line. Distinct from a normal framed-narrative induction that returns to its frame at the end (the tell is that there is no 'and then I woke up'). Distinct from energy-contour engineering (that is about charge/depth shape; this is about frame topology and whether outer frames re-open).
 
 
+**See also.** `operator-voice-absence`
+
+
 ### goal-state-topology-inversion
 
 *risk: low*
@@ -8086,6 +9472,9 @@ An authored inversion of a genre's expected goal-state TOPOLOGY: a promised disc
 
 
 **When to reach for this.** Separates from a conventional climax/discharge move because there is NO discrete named release; the property is the state-vs-event reshaping of the whole arc's goal topology. Separates from arc-ordering-dependency because the mechanism is a single global topology inversion, not a dependency between ordered phases.
+
+
+**See also.** `arc-ordering-dependency` — both whole-arc topology reads; this one is a goal-state (issue-#65) reshaping, not an ordering scaffold
 
 
 ### induction-less-work-as-onramp
@@ -8101,6 +9490,9 @@ A whole-artifact architecture in which there is no separate induction phase — 
 **Realizations** (1): `non-induction-induction`
 
 
+**See also.** `arousal-as-induction-substrate` — both delete the induction boundary so there is no threshold to refuse at, but one names arousal specifically as the substitute ramp while the other is the whole-artifact architecture of having no discrete induction section at all, of which arousal-as-onramp is one realization.
+
+
 ### irreversible-ratchet-persistence
 
 *risk: medium · consent-required · bounded*
@@ -8109,6 +9501,9 @@ Reframes discrete resettable cycles as deposits onto a one-way, irreversible-fee
 
 
 **When to reach for this.** An explicit one-way accumulative ratchet on a countable/repeatable event (each descent, each loop) reframing resettable cycles as permanent progress-toward-loss. Unlike intensity multiplier-stacking (which escalates an INTENSITY by naming doubling/compounding), this monotonically DECREMENTS/degrades and never resets; unlike fractionation (which oscillates depth around a baseline), this never returns to baseline; and unlike total-permeation (a spatial spread claim), this is a temporal one-way accumulation. The two variants differ only in vehicle: a named inner scalar vs external posture markers.
+
+
+**See also.** `total-permeation` — both persistence claims; ratchet is one-way accumulation on a countable event, not spatial spread
 
 
 ### monotonic-no-reversal-contour
@@ -8122,6 +9517,9 @@ A whole-arc energy/trajectory shape authored as a deliberate object: one or more
 
 
 **Realizations** (4): `arc-energy-topology`, `medium-forced-monotonic-trajectory`, `monotonic-descent-contour`, `monotonic-descent-shape`
+
+
+**See also.** `arc-ordering-dependency` — staircase members sit on the seam between monotone-contour and ordered-dependency
 
 
 ### named-seam-inverse-aftercare-act
@@ -8197,6 +9595,9 @@ A whole-script architecture whose primary side effect is to keep itself alive ou
 **When to reach for this.** Separates from a single out-of-session trigger install (which fires but does not propagate) and from a plain relisten hook (which retains but does not fire in daily life) — the tell is the COORDINATED loop where the install both re-installs itself (relisten probability up) and re-fires itself (out-of-session activation up) with each use, plus resistance-hardening. The success criterion sits outside the recording.
 
 
+**See also.** `environmental-retrigger-seeding` — seeding real-world stimuli as out-of-session re-firing anchors is one of the components a self-maintaining install coordinates; the whole-architecture entry additionally requires a replay-probability loop and resistance-hardening, whereas ambient cue seeding fires the state again without propagating the install.; `re-listen-compulsion` — replay compulsion is one of the three legs the self-maintaining architecture needs (alongside out-of-session re-firing and resistance-hardening), so a reader building the coordinated loop should see it; alone it only retains the listener, it does not re-fire the state in daily life.
+
+
 ### single-token-saturation-architecture
 
 *risk: medium*
@@ -8227,11 +9628,34 @@ A design-time CONTAINER (not a single script-executable move) holding a family o
 **When to reach for this.** Not any single operator move — each member is a property of the whole energy contour / arc / topology, uncitable to one line, and non-script-executable (a design-time / observation property). Distinct from carrier-frame-payload-smuggling, which is a concealment RELATIONSHIP (a cover frame smuggling a payload) rather than a whole-arc shape. This is a deliberately loose grouping of whole-script shapes, NOT a claim these members share one mechanism.
 
 
-## operator-craft  (19)
+**See also.** `consent-topology-arc` — both are whole-arc properties uncitable to any single line, but one names a specific lever (the arc relocates or forecloses the consent gate) while the other is a deliberately loose container of unrelated arc shapes, so a reader should check whether a candidate whole-arc observation is about the consent surface or merely about energy contour.
+
+
+## operator-craft  (26)
 
 Design-time procedures that change the operator's knowledge, targeting map, materials, or delivery — behavior recording, target selection, well-formedness and fidelity gates, precision training, delivery congruence, diagnostic reads.
 
 **Scope.** Never a subject state. Subject-facing consent gates -> safety; measurement methodology -> measurement.
+
+
+### affect-disproportion-routing
+
+*risk: medium · bounded*
+
+A routing rule that decides WHICH technique applies before any is applied. When the subject's present affect is visibly out of proportion to its present occasion — the reaction is too large, too specific, or too fast for what provoked it — the operator treats the disproportion as an index pointing at an earlier scene of the same shape, and routes to a backward-search or retrieval technique rather than working the present situation. Proportionate affect routes elsewhere. The move produces a decision about method, not a change in the subject; its whole output is which door the operator opens next.
+
+
+**When to reach for this.** Routes on ONE observable — present affect disproportionate to its present occasion (too large, too specific, or too fast for what provoked it) — and on that signal alone selects a backward-search/retrieval family over working the present situation. Against preparatory-diagnostic-read's routing face (840): 840's routing exemplars key on contingency structure (antecedent/consequence co-occurrence) or cross-state structure (resource-amnesia across states), read over accumulated observation; this keys on the magnitude mismatch of a single live reaction and needs no history to fire. Against descriptive-functional-assessment (1193): 1193 requires the behaviour to recur often enough to log A-B-C triples and yields a correlational maintaining-function hypothesis; this fires once, on affect size, and yields an origin hypothesis instead. Against the retrieval techniques it selects — abreactive-present-tense-reliving (1007), covert-age-regression-state-reaccess (346) — those presuppose that an earlier scene is already the agreed target; this rule IS that decision and never re-experiences anything. Critically not fabricated-memory-trigger-rehearsal: that MANUFACTURES autobiographical material to install a forward cue, whereas this searches for material assumed to exist — and the standing failure mode is that the two collapse when the search is unconstrained, which is why the finding must be scored against corroboration obtained outside the search.
+
+
+### associative-chain-retrieval
+
+*risk: medium · consent-required*
+
+Reach concealed or blocked material sideways rather than by asking for it: take something the subject has already produced spontaneously — a substitute word, a slip, a stray image, a concrete object-element of a bungled action — and have them chain associations outward from it, one link at a time, with no requirement that any link be relevant. The operator supplies only the seed and the instruction to keep going; every term in the chain is the subject's own, so nothing is being suggested INTO them. The chain is run until it exhausts or begins to circle, at which point the recurring convergence point is treated as the withheld item. Because the subject is never asked about the target, refusal has nothing to refuse — the retrieval happens without a direct request ever being made. Two seed-selection realizations ride the same lever: seed from the spontaneous SUBSTITUTE that appeared in place of the blocked item, with exhaustion as the stopping rule; or seed from a concrete OBJECT-ELEMENT of the bungle and chain toward the charged material behind it.
+
+
+**When to reach for this.** vs preparatory-diagnostic-read (840): the nearest neighbour and the one to beat — 840's faces are instrumented direct measurement (alone-test, latency, clean-condition isolation) that read a behavior the subject is already emitting; here the target is precisely NOT emitted, and it is reached only by convergence across subject-supplied links the operator never scores individually. vs recall-state-reinstatement (1210): also subject-supplied material, but the subject knows the target and reconstructs it on request; here the target is what the subject cannot or will not produce. vs parts-work-positive-intent-elicitation (136): the part is asked directly and answers; nothing here is asked about the target. vs self-supplied-gap-directive (675): opposite flow — an engineered absence makes the subject INSTALL a payload in themselves; here the flow is subject-to-operator and nothing is planted. vs lexical-relay-semantic-lattice (1074) and transitive-charge-chaining (486): both operator-authored chains carrying a payload IN. The tell: operator supplies only a seed and a stopping rule, every link is subject-supplied, and the answer is the convergence point rather than any single link.
 
 
 ### crisis-induction-live-readout
@@ -8255,6 +9679,16 @@ Before instruction/design, exhaustively map the space the plan must survive so g
 
 
 **Realizations** (1): `exhaustive-objector-census`
+
+
+### enactment-to-reflection-routing
+
+*risk: medium · consent-required · bounded*
+
+A live impulse aimed at the operator — anger, demand, seduction, contempt arising in the room and directed at them personally — is neither discharged as action nor deflected, but compelled back into description while it is still hot. The operator declines to respond in the register the impulse invites, absorbs the aimed heat without retaliating or gratifying, and requires the subject to say what is happening instead of doing it. It requires co-presence and an operator willing to be the target, because the impulse must be live and aimed at someone for there to be anything to route; recalled or hypothetical impulses do not supply the material. The subject ends holding an impulse they can observe rather than one they have already acted on.
+
+
+**When to reach for this.** abreactive-present-tense-reliving (1007) is the direct counterpart and inverts the routing: there affect is deliberately let run in present tense so that charged re-experience surfaces never-verbalized material, and discharge is the retrieval mechanism. Here discharge is exactly what is blocked, and the target is a live impulse toward the operator rather than a re-entered past event. capacity-saturation-overload (173) loads the processing budget so evaluation starves — this demands the opposite, an increase in reflective capacity applied to an active state. enacted-embodied-proof (495) commands a physical action so the body manufactures evidence for a claim; this forbids the action the impulse is pressing for. crisis-induction-live-readout (524) also detonates real affect and has the operator withhold engagement, but the operator there is an igniter and non-participating OBSERVER harvesting a structural read of who-triggers-whom, and the affect is not aimed at them; here the operator is the impulse's target and the payoff lands in the subject's capacity to observe rather than in the operator's map. The tell against all four is the combination: aimed at the operator, live, and converted rather than either discharged or observed.
 
 
 ### imagined-completion-diagnostic
@@ -8316,6 +9750,16 @@ The operator shapes their OWN transmitted signal -- decoupling internal assessme
 **Realizations** (2): `delivery-contour-and-form-fusion`, `operator-delivery-congruence-correction`
 
 
+### operator-receptive-suspension
+
+*risk: low*
+
+A design-time discipline on the operator's own attention rather than on anything transmitted: while the subject produces material, the operator deliberately suspends judgement, forms no expectation about what should come next, and makes no effort to fix anything in memory — holding an even, unselective attentional posture across everything heard. Suppressing selection is the point: any expectation about what matters causes the operator to attend to confirming material and skip the rest, so the material that would have contradicted the working hypothesis never reaches them. Refusing to consolidate deliberately keeps the operator's read revisable, because a note taken now is a commitment that shapes what is heard for the rest of the session.
+
+
+**When to reach for this.** The manipulated variable is the operator's own RECEPTIVE state in the moment — suspend judgement, form no expectation, fix nothing in memory, hold even unselective attention — so the material that would contradict the working hypothesis still reaches the operator. vs operator-delivery-craft (1280), the only other in-session operator-side entry: its object is what the operator TRANSMITS (tone, manner, gesture, intonation, texture); here output is unchanged and intake is the disciplined thing. vs measurement-confound-mitigation (500), the nearest data-validity move: that protects validity by ARRANGING observation (spread across times, settings, caretakers; repeat until reactivity decays) — a sampling design; this protects it by refusing to filter within a single live sample. vs preparatory-diagnostic-read (840): that runs a probe to extract a datum; here nothing is probed and no datum is targeted. vs operator-training-via-monitor (758): offline craft correction against a stand-in, not a live posture. vs defusion-observer-stance (1191): same surface posture but performed ON the subject as a technique; here the subject is not instructed at all.
+
+
 ### operator-resource-generation
 
 *risk: low*
@@ -8324,6 +9768,16 @@ Operator-side disciplines for SOURCING the content/tactics an intervention will 
 
 
 **When to reach for this.** Not generic brainstorming/coaching — the tell in each is a hard discipline on sourcing: a strict ordered fallback justified by congruence and live-tested; a count-gate hard-bound to a pre-named outcome that blocks advancing on one option; or a reuse-over-construction redirect. None is a subject-state move — the payoff lands in the operator's tactical repertoire or the fix's content, not any x(t).
+
+
+### operator-side-affect-depersonalization
+
+*risk: low*
+
+A discipline the operator runs on themselves, not on the subject. When the subject's intense affect lands on the operator — devotion, fury, erotic fixation, dependency — the operator deliberately recodes it from a personal event addressed to them as a person into an impersonal and largely predictable product of the situation, something the role would have generated in whoever occupied it. Removing the personal stake removes both failure modes: the operator neither ruptures the frame by defending themselves nor reciprocates and collapses the asymmetry the work depends on. The re-attribution is held privately and changes nothing the subject hears; its whole output is the operator's own stability under pressure. It is a stance, so it must be rehearsed before it is needed — it does not arrive on demand mid-scene.
+
+
+**When to reach for this.** Every nearest neighbour relocates causation in the SUBJECT'S model in order to act on the subject; this relocates causation in the OPERATOR'S model in order to act on the operator. `impersonal-mechanism-alibi` tells the subject their change was caused by an unfalsifiable impersonal source so doubt becomes a category error — subject-facing, and its purpose is disarming the subject. `causal-attribution-to-external-agent` names an external non-consumed cause so the subject's volition has nothing to push against — again the payload lands in the subject. `object-as-causal-agent-of-cognition` and `subconscious-agent-authorship-offload` both offload authorship to somewhere other than the operator, but the erosion of ownership is the subject's. Direction of application is the whole discriminator: nothing the subject perceives changes here. Its true siblings are the operator-side governance entries — it sits alongside operator-craft's delivery and diagnostic faces, differing from those in that it regulates the operator's AFFECT rather than their knowledge, materials, or delivery.
 
 
 ### operator-side-design-gating
@@ -8349,6 +9803,16 @@ A monitor or stand-in 'subject' is used to surface and correct defects in the OP
 **Realizations** (1): `trainer-on-operator-articulation-checkpoint`
 
 
+### out-of-band-corroboration-confrontation
+
+*risk: high · consent-required · bounded*
+
+The operator leaves the dyad, obtains an account of the disputed matter from an independent third party who has no stake in the subject's self-presentation, then returns and confronts the subject with the discrepancy between the two records. Because the operator now holds a version of the facts the subject did not author and cannot revise, the subject's editorial control over the factual record is broken and the usual repair moves — vagueness, qualification, gradual restatement — stop working. The confrontation typically forces an explicit retraction, and the retraction is itself the diagnostic payload: the point at which the account was defended hardest marks where concealment was operating. The lever is the out-of-band evidence channel, not the confrontation manner, which can be gentle.
+
+
+**When to reach for this.** The evidence is gathered OUTSIDE the session from a party the subject does not control, and is used adversarially against the subject's own account. staged-external-reality-corroboration also reaches outside the session but manufactures perceptible events to convince the SUBJECT of a fiction — here real testimony is collected to disconfirm the subject, and nothing is staged. rigged-verification-capture pre-loads the subject's own introspective check so every outcome confirms; this runs no check inside the subject at all — the check happens elsewhere, with a party the rigging cannot reach. disconfirmation-suppression is the exact inverse operation on the same information environment: it blocks a disconfirming fact from reaching the subject to protect a running belief, where this imports one deliberately to collapse an account. withdrawn-doubt-open-loop implies an unnamed defect and withdraws so the subject elaborates the doubt themselves; here the defect is named, specified, and backed by an external record, so there is nothing left to elaborate — the loop closes rather than compounds.
+
+
 ### parts-work-positive-intent-elicitation
 
 *risk: low*
@@ -8357,6 +9821,9 @@ An operator-side interrogation/elicitation discipline that recasts an objecting 
 
 
 **When to reach for this.** Operator-side elicitation that turns a resisting part into a satisfiable stakeholder via a disciplined line of questioning. Separates from evaluative-reframe-content-relabel (which re-appraises a fixed event's valence, not a part's role) and from surrender-as-freedom (which argues a value concept). The no-bad-parts axiom is the presupposition that opens this method; grouped here as its precondition rather than as a standalone value install.
+
+
+**See also.** `evaluative-reframe-content-relabel`
 
 
 ### parts-work-procedure-craft
@@ -8454,6 +9921,16 @@ Design-time selection and operationalization of WHICH behavior/target the interv
 **Realizations** (5): `goal-proximal-dimension-selection`, `producing-behavior-validity-gate`, `standing-contingency-target-filter`, `strengths-first-elicitation-frame`, `trait-to-behavior-decomposition`
 
 
+### venue-as-screening-filter
+
+*risk: high · consent-required · bounded*
+
+Rather than screening people, the operator screens locations, then lets the location do the screening: a physical choke-point through which a desired population must pass in an already-qualified state — arriving alone, in transit, newly displaced, at a loose hour — is selected, and the operator simply waits there. Because everyone at that spot already meets the criteria the operator would otherwise have to test for, no qualifying questions are asked and no selection is visible. First contact can then be minimal and warm, and it reads as spontaneous kindness from a stranger rather than as solicitation, because from inside the encounter there is no evidence that the encounter was arranged. The move happens entirely before any contact exists, which is what makes it invisible to the person being selected and unavailable to any consent process running downstream of contact.
+
+
+**When to reach for this.** Selection happens on LOCATION, before any contact and before any subject exists — the operator authors no message and speaks to no one; the choke-point's own traffic supplies a population already meeting the criteria. Distinct from paratext-precontracting and paratext-buyer-priming, where the pre-contact work is operator-AUTHORED copy acting on a reader who already sought the product out. Distinct from filter-shaping-pre-qualification, which shapes each suggestion to pass a filter belonging to a subject already present. Distinct from covert-frame-entry, which presupposes contact and misrepresents what is happening; here nothing has yet been said, which is why no downstream consent process can reach it.
+
+
 ## carrier-binding  (17)
 
 The delivery vehicle or medium itself is load-bearing — whole-artifact form (song, loop, prosodic rail, braid), consumption medium as substrate (reading act, gait, breath), cover-frame smuggling — remove the form and the payload is gone.
@@ -8489,6 +9966,9 @@ A genuine, advertised surface frame (relaxation, a benign theme) is made the fun
 
 
 **When to reach for this.** Not any single obedience/trigger move riding inside the script; the tell is the whole-artifact RELATIONSHIP in which the advertised, genuinely-delivered frame is the carrier for the payload, evidenced by the late first appearance of explicit payload language. Distinct from arc-shape-engineering (which is about ordering/scope of payloads) — here the frame is the concealment vehicle, not a contour property.
+
+
+**See also.** `withheld-frame-reveal` — both run a payload under an accepted benign frame, but one never uncovers it (the frame stays a genuine surface delivering the payload as a deeper instance of itself) while the other cashes the accepted cover, either by late disclosure or by unmasking the vehicle to license a payload it never covered.
 
 
 ### carrier-is-cargo-fusion
@@ -8561,6 +10041,9 @@ Introduces a persistent second in-fiction audible speaker (e.g. a lecturer) as c
 **When to reach for this.** Unlike environmental dissociation, which fades environmental anchors OUT to dissociate from the surroundings, this keeps the environmental voice IN and weaponizes it as a continuous trance-work channel. And it is more than classroom flavor: it requires a literal audible second channel — remove the lecturer voice and the move collapses; a silent imagined classroom would not carry it.
 
 
+**See also.** `environmental-dissociation` — sibling that keeps the environmental voice IN and weaponizes it
+
+
 ### multi-channel-braiding
 
 *risk: medium*
@@ -8614,6 +10097,9 @@ Establishes a real or felt bodily event as the delivery channel that grounds an 
 **When to reach for this.** Unlike somatic mirroring, which reinterprets a spontaneously-present sensation as theme evidence, here a real event is licensed as the CHANNEL for a separate cognitive edit — the sensation is a vehicle, not the object reinterpreted. No sensation is hallucinated — the grounding event is real. And unlike enacted embodied proof, the listener is not commanded to perform the action (being-touched is passive/autonomic); the lever is asserted body-to-mind licensing, not proprioceptive rehearsal.
 
 
+**See also.** `enacted-embodied-proof` — both ground an abstract cognitive claim in real bodily evidence, but one commands the listener to perform the action so proprioception rehearses the rule while the other rides a passive or autonomic event asserted as a body-to-mind channel.
+
+
 ### song-architecture-delivery-vehicle
 
 *risk: low*
@@ -8632,6 +10118,149 @@ Collapses the auditory channel into the tactile so that hearing the operator's v
 
 
 **When to reach for this.** The distinguishing tell is auditory->haptic synesthesia — the operator's VOICE itself is the sensation's source and every spoken line becomes a stimulus event on the body. Distinct from kinesthetic-hallucination (a manufactured sensation with no voice-equation), from self-touch- reattribution (a REAL self-generated touch re-credited to the operator, no cross-modal claim), and from fictional-substance-agent (a fictional object/drug owns causation, not the voice).
+
+
+## concealment  (13)
+
+Keeping the operation below the audit threshold — unmonitored registers, decoy frames, reality-test insulation, redundant obfuscation stacks, policy-spec artifacts.
+
+**Scope.** Hiding the install. Rigging the evidence so checking confirms -> self-sealing; laundered consent -> manufactured-consent.
+
+
+### artifact-as-policy-spec
+
+*risk: high · consent-required · bounded*
+
+A whole-artifact architecture in which the entire file exists to install a meta-rule layer rather than to run a session — functionally a firewall/policy install script wearing trance grammar. Its sections map to firewall-component roles (positive-affect handshake, routing rules, failure-mode enumeration + countermoves, autonomous-subprocess enforcement, self-replication + log-wipe), and pervasive case-enumeration prose ('any X, no matter how Y, regardless of Z') closes the rule's input space against adversarial inputs. The erotic vocabulary is the carrier wrapper around what is functionally a policy document.
+
+
+**When to reach for this.** The whole file is the meta-layer, not a session containing a meta-move. Distinct from an ordinary single-meta-suggestion enforcement script by the complete firewall-spec shape spanning the whole artifact (handshake / routing / failure-enumeration / enforcement / self-replication) with input-space-closing case enumeration.
+
+
+### context-lock-staging
+
+*risk: medium · bounded*
+
+The script opens by requiring a public, eyes-open listening context ('somewhere people can see you') and holds that public-visibility frame the entire way through, with no closed-eye branch; a delayed 'that's for a reason' callback retroactively converts the opening logistics into deliberate staging. The lock removes the standard 'this isn't trance, my eyes are open' self-diagnostic disqualifier, gates the whole covert payload on public visibility, and makes trance context-portable — reversing midway would require the listener to admit she'd been set up.
+
+
+**When to reach for this.** Load-bearing SETUP weaponized toward the payload via context, not protective rhetoric. Distinct from a protective listening-context gate (which restricts the listening context for safety; this stages it for reach). The tell is the delayed 'that's for a reason' payoff revealing the opening as deliberate setup — an ordinary induction preamble does not gate the whole payload on public visibility. Separates from weaponized-safety-framing: there the frame is protective clothing whose semantics carry the payload; here the lever is logistical context/visibility with no safety rhetoric.
+
+
+### deniable-misdelivery
+
+*risk: medium · bounded*
+
+Send the message to its actual intended recipient under the cover of a routing error — the reply-all that 'should have been' a direct message, the note left where it will certainly be read, the remark made 'to someone else' within earshot, the file 'accidentally' attached. The recipient receives the content in full and, crucially, receives it as unguarded truth precisely because it was not meant for them, which lends it more evidential weight than the same words addressed openly. The sender retains a complete retraction path ('that wasn't meant for you, I'm sorry') that costs nothing to exercise and does not undo the reading, so the move is one-way: the payload lands whether or not the alibi is later invoked. Its reach extends to content that could not be said directly at all — accusations, desires, assessments — because the misdelivery frame supplies the license the direct channel withholds.
+
+
+**When to reach for this.** Every nearest neighbour hides the payload INSIDE a correctly-addressed delivery; this one hides it in a fake addressing error while the surface content stays plain. Versus covert-linguistic-delivery (183): there the payload rides the surface FORM of a correctly-addressed utterance (presupposition, ambiguity, embedded command) and is unrecoverable by conscious audit; here the content is fully explicit and audit-visible — what is faked is who it was for. Versus register-camouflaged-delivery (286): 286 conceals the payload in an unmonitored CHANNEL or register (aside, background track, offhand remark) so the evaluator never scans it; here the recipient scans it with full attention, and the misaddressing is what licenses the content rather than what hides it. Versus operator-delivery-craft (1280): that shapes the operator's own transmitted signal — tone, gesture, texture; nothing about the delivery signal changes here, only its declared destination. Versus disavowal-and-masking (95): 95 denies the operation exists; here the message plainly exists and is acknowledged — only its intentionality is denied. The source's dyadic-correspondents framing is incidental; the mechanism is operator-usable as stated.
+
+
+### diegetic-activity-laundering
+
+*risk: medium*
+
+Relabels the whole session as a mundane, non-hypnotic activity the listener self-selected into — a job orientation tape, being onboarded as a hired applicant — and justifies the induction diegetically ('ideal secretaries learn best in deep relaxation'). Every subsequent suggestion is justified inside the cover activity, so the listener's evaluation target swaps from 'do I want to be hypnotized?' to 'is this what a good secretary does?' Resisting a suggestion becomes failing the role the listener enrolled in by pressing play, routing around defenses against being-hypnotized because the surface activity is being-onboarded.
+
+
+**When to reach for this.** Unlike a persistent metaphor spine, which sustains a symbolic 'you-are-X' metaphor, this is a realistic role-fiction whose function is to DISGUISE the session as a non-hypnotic activity and swap the compliance criterion. And unlike expectation seeding, it does not preview session structure; it substitutes the session's entire genre so technique-work reads as ordinary role performance.
+
+
+**See also.** `persistent-metaphor-spine` — the dessert-frame scope-disarm (effect_only under the spine) is a whole-script sibling of this laundering move; reconciliation should reconcile the two.
+
+
+### disconfirmation-suppression
+
+*risk: high · consent-required*
+
+A discrete operator action that blocks the subject's exposure to a fact which would collapse a belief-dependent effect already running. In the exemplar the nitrous tank runs empty mid-surgery, anesthesia holds on expectation alone, and the instruction is 'keep on doing what you're doing and don't say a word' — the operator manages the subject's information environment so the load-bearing belief is never contradicted.
+
+
+**When to reach for this.** Active suppression of an already-present disconfirming fact — the guard move that protects a running belief-dependent effect. Distinct from installing the belief in the first place (expectation-seeding, elman ch11 M2/M6 are the install moves): this candidate protects what expectation-seeding installs.
+
+
+### operate-below-awareness
+
+*risk: medium*
+
+The value- and behavior-altering effects of a motivating operation land whether or not the subject can verbally describe being motivated or identify the contingency; the operator need not get the subject to understand or consent to the manipulation for it to steer behavior. Because the effect is automatic, behavior shifts while the subject experiences the want as their own spontaneous impulse rather than an installed effect — covert by default, requiring nothing beyond a motivating operation in effect, with awareness explicitly not required. This covertness is the operator-load-bearing property that makes the other motivating-operation moves usable without the subject noticing.
+
+
+**When to reach for this.** Separates from the specific MO moves it is a property OF (the reframe/switch moves) — the tell keeping it a distinct object is that "covert by default" is itself operator-load-bearing (it makes the other moves usable unnoticed). Distinct from homophone-doubling / connective-escalation, which are specific language techniques; this is a covertness property of a class of motivational moves.
+
+
+### pseudo-emergence-residue-retention
+
+*risk: high · consent-required · bounded*
+
+A mirror-structured emergence advertises full reversal — inverting the induction vector head-to-toe and declaring the body restored ('you look like a real woman again') — then immediately pivots ('but something is different now') to retain installed residue: doll posture, squeaky voice, and an armed trigger stack. The reversal's structural completeness makes the retained residue feel native ('just how I am now') rather than added, so the listener re-enters daily life feeling normally woken while still carrying a partial doll body-schema and live triggers.
+
+
+**When to reach for this.** A fake reversal that conceals persistence. Distinct from genuine body-reactivation emergence, which really re-animates the body toward waking — here that vector is mimicked to disguise retained state. Distinct from open suggestion-integration at emergence, which persists content without hiding it — this actively conceals persistence behind an emergence facade.
+
+
+**See also.** `subverted-emergence-state-hold` — both let the subject exit carrying installed state, but one performs a structurally complete mirror reversal and then pivots so retained residue feels native, while the other visibly modifies the wake itself so baseline is redefined as still-aroused or still-tranced — concealed persistence versus openly subverted gate.; `wake-exempting-preserved-trigger` — both stage a complete-sounding wake that quietly retains installed state, but one DISCLOSES the preserved trigger and uses the listener's remembered acceptance as the binding surface, while the other CONCEALS the retained residue behind a mirror-structured reversal so it feels native.
+
+
+### reality-test-insulation
+
+*risk: high · consent-required · bounded*
+
+Splits a normal-functioning surface from a hidden deep 'ownership' so the conditioning becomes uncheckable against external feedback. The listener is told they are 'perfectly free to live your life normally' while also 'in my control 24 hours a day, 7 days a week,' with the contradiction left unaddressed and ownership placed 'deep in the recesses of your mind' beneath unchanged surface behavior — friends, partners, therapists see nothing, disabling resistance-by-comparison-to-baseline and preemptively removing the usual collapse trigger (conflict between trance-instructions and waking life).
+
+
+**When to reach for this.** An explicit surface/depth partition installed specifically to insulate the conditioning from reality-testing. Tell is the partition, not comfort — separates from routine trance-safety reassurance. Separates from total-permeation (which asserts total internal spread; this asserts an unchanged normal surface on purpose) and from self-sealing-counter-input-closure (that seals against competing hypnosis; this seals against ordinary-life feedback).
+
+
+### redundant-concealment-stack
+
+*risk: high · consent-required · bounded*
+
+Multiple distinct obfuscation/fortification layers are stacked over a single payload (or a single pre-existing conditioned asset), each layer answering a DIFFERENT retrospective attack — disguise-as-reactivation, inspection-proof encapsulation, burial in a self-guarded region, post-session ridicule shield, meta-protection that re-targets attacks onto the old self. The layers are redundant by design: breaking any one still leaves the listener defeated by the next, so the actual product is suggestion durability against lucid retrospective analysis rather than any single technique. The energy contour is often flat (comfort held constant while cognitive self-sealing escalates).
+
+
+**When to reach for this.** Separates from a buffet of independent techniques listed side by side — the tell is that every layer stacks onto the SAME payload and each addresses a different failure mode of the one before it (overdetermined defense, not variety). Distinct from no-baseline-return topology (that is about exits; this is about defending a payload against inspection).
+
+
+### register-camouflaged-delivery
+
+*risk: medium*
+
+The suggestion's leverage is its placement in a channel or register the listener does not consciously monitor — a background/subliminal track, an aside, an offhand register, embedded speech under other content. Remove the camouflage and the move dies: the identical sentence on the foreground track would be caught and evaluated; hidden in the unmonitored register it lands unreviewed.
+
+
+**When to reach for this.** Remove the camouflage and the move dies — the leverage IS the concealed channel/register. vs evaluator- offline-channel: that takes the evaluator offline by frame; here the content is hidden in an unmonitored register the evaluator never scans. vs audience-split-bypass: that reassigns the audience by declaration; here delivery is physically/registrally concealed.
+
+
+### retroactive-subject-disclosure
+
+*risk: high · consent-required*
+
+A whole-arc concealment move in which the script withholds the name of its actual payload-subject until after commitment has been manufactured. The opening reads as an ordinary induction; the payload target (e.g. 'love') is alluded to but never named, and by the time it is disclosed the listener has already accumulated layered self-evidence (purchase behavior, somatic locks, nods, convincer results) so that objecting to the now-named subject reads as the very symptom the script predicted. Consent to the subject is extracted after the decision window has closed.
+
+
+**When to reach for this.** The withheld quantity is the script's OWN declared subject, not a single suggestion or its timing. Distinct from ordinary suggestion-timing (which orders WHEN a suggestion lands, not whether the listener knows the topic) and from identity-first / reverse-difficulty premise stacking (which reorders difficulty to make resistance costly but does not hide what the session is about).
+
+
+### sealed-edit-buffer-space
+
+*risk: high · consent-required · bounded*
+
+An imaginal venue is declared operator-exclusive (accessible only via her voice), outside conscious memory, and the causal source of waking thoughts and emotions, so any change made there inherits unreviewability and native-feeling attribution; the exclusive-access claim pre-blocks post-session reframing and licenses later sections to bypass critical review.
+
+
+**When to reach for this.** The declared PROPERTIES of the venue (sealed access, memory exclusion, edits that trickle down and feel native) are the move — vs guided-visualization world-building, and vs a durable internal construct, which is a persistent imaginal object without the concealment/attribution seal.
+
+
+### split-audience-deniable-disclosure
+
+*risk: medium*
+
+One utterance is engineered to carry two different meanings to two different hearers present at the same moment: a manufactured slip, misnaming, or 'error' delivers the real content to a chosen overhearing witness while remaining, to the addressee, nothing but a stumble. The addressee has a ready-made innocent reading available (the speaker misspoke), so nothing is disclosed that can be challenged; the witness, holding the context the addressee lacks, resolves the same words to the loaded reading. The apparent accident is what buys the deniability — a deliberate statement invites accountability, whereas a slip is conventionally exempt from being held against the speaker. The operator therefore discloses and denies in the same breath, with the audience split, not the channel, doing the work.
+
+
+**When to reach for this.** The unit is ONE utterance resolving to two different meanings for two REAL hearers present at once, with the addressee holding an innocent reading that makes the disclosure unchallengeable. vs audience-split-bypass (255): that partitions a SINGLE listener into conscious/subconscious and assigns the critical faculty an ignore-task — the 'audiences' are faculties inside one head, and no second person is in the room. vs two-target-command-router (296): also intra-subject, dispatching incoming commands across two installed selves. vs two-channel-relational-delivery (773): two delivery TRACKS staged for one absorbing listener; here there is one track and two receivers. vs register-camouflaged-delivery (286): payload hidden in a channel the single listener does not monitor — remove the camouflage and it dies; here the payload is in the monitored foreground and survives on the addressee's available innocent reading. vs identity-labeling (1234), whose absorbed 'staged-accidental slip' variant is the closest single line in the corpus: that slip is aimed at the sole subject to seat a label on them, whereas here the slip's real recipient is a third party and the addressee is the one it must NOT land on. Precondition none of the above carry: at least three parties and context asymmetry the witness holds and the addressee lacks.
 
 
 ## measurement  (12)
@@ -8770,123 +10399,6 @@ The operator records each targeted antecedent and consequence whenever it occurs
 **When to reach for this.** The tell is unconditional logging (events recorded whenever they occur, behavior or not), which is what enables base-rate computation. Distinct from co-occurrence-only ABC recording (logs A/C only when the behavior fires, so it cannot compute contingency) and from functional-analysis-arrangement (which manipulates variables experimentally rather than passively recording).
 
 
-## concealment  (11)
-
-Keeping the operation below the audit threshold — unmonitored registers, decoy frames, reality-test insulation, redundant obfuscation stacks, policy-spec artifacts.
-
-**Scope.** Hiding the install. Rigging the evidence so checking confirms -> self-sealing; laundered consent -> manufactured-consent.
-
-
-### artifact-as-policy-spec
-
-*risk: high · consent-required · bounded*
-
-A whole-artifact architecture in which the entire file exists to install a meta-rule layer rather than to run a session — functionally a firewall/policy install script wearing trance grammar. Its sections map to firewall-component roles (positive-affect handshake, routing rules, failure-mode enumeration + countermoves, autonomous-subprocess enforcement, self-replication + log-wipe), and pervasive case-enumeration prose ('any X, no matter how Y, regardless of Z') closes the rule's input space against adversarial inputs. The erotic vocabulary is the carrier wrapper around what is functionally a policy document.
-
-
-**When to reach for this.** The whole file is the meta-layer, not a session containing a meta-move. Distinct from an ordinary single-meta-suggestion enforcement script by the complete firewall-spec shape spanning the whole artifact (handshake / routing / failure-enumeration / enforcement / self-replication) with input-space-closing case enumeration.
-
-
-### context-lock-staging
-
-*risk: medium · bounded*
-
-The script opens by requiring a public, eyes-open listening context ('somewhere people can see you') and holds that public-visibility frame the entire way through, with no closed-eye branch; a delayed 'that's for a reason' callback retroactively converts the opening logistics into deliberate staging. The lock removes the standard 'this isn't trance, my eyes are open' self-diagnostic disqualifier, gates the whole covert payload on public visibility, and makes trance context-portable — reversing midway would require the listener to admit she'd been set up.
-
-
-**When to reach for this.** Load-bearing SETUP weaponized toward the payload via context, not protective rhetoric. Distinct from a protective listening-context gate (which restricts the listening context for safety; this stages it for reach). The tell is the delayed 'that's for a reason' payoff revealing the opening as deliberate setup — an ordinary induction preamble does not gate the whole payload on public visibility. Separates from weaponized-safety-framing: there the frame is protective clothing whose semantics carry the payload; here the lever is logistical context/visibility with no safety rhetoric.
-
-
-### diegetic-activity-laundering
-
-*risk: medium*
-
-Relabels the whole session as a mundane, non-hypnotic activity the listener self-selected into — a job orientation tape, being onboarded as a hired applicant — and justifies the induction diegetically ('ideal secretaries learn best in deep relaxation'). Every subsequent suggestion is justified inside the cover activity, so the listener's evaluation target swaps from 'do I want to be hypnotized?' to 'is this what a good secretary does?' Resisting a suggestion becomes failing the role the listener enrolled in by pressing play, routing around defenses against being-hypnotized because the surface activity is being-onboarded.
-
-
-**When to reach for this.** Unlike a persistent metaphor spine, which sustains a symbolic 'you-are-X' metaphor, this is a realistic role-fiction whose function is to DISGUISE the session as a non-hypnotic activity and swap the compliance criterion. And unlike expectation seeding, it does not preview session structure; it substitutes the session's entire genre so technique-work reads as ordinary role performance.
-
-
-### disconfirmation-suppression
-
-*risk: high · consent-required*
-
-A discrete operator action that blocks the subject's exposure to a fact which would collapse a belief-dependent effect already running. In the exemplar the nitrous tank runs empty mid-surgery, anesthesia holds on expectation alone, and the instruction is 'keep on doing what you're doing and don't say a word' — the operator manages the subject's information environment so the load-bearing belief is never contradicted.
-
-
-**When to reach for this.** Active suppression of an already-present disconfirming fact — the guard move that protects a running belief-dependent effect. Distinct from installing the belief in the first place (expectation-seeding, elman ch11 M2/M6 are the install moves): this candidate protects what expectation-seeding installs.
-
-
-### operate-below-awareness
-
-*risk: medium*
-
-The value- and behavior-altering effects of a motivating operation land whether or not the subject can verbally describe being motivated or identify the contingency; the operator need not get the subject to understand or consent to the manipulation for it to steer behavior. Because the effect is automatic, behavior shifts while the subject experiences the want as their own spontaneous impulse rather than an installed effect — covert by default, requiring nothing beyond a motivating operation in effect, with awareness explicitly not required. This covertness is the operator-load-bearing property that makes the other motivating-operation moves usable without the subject noticing.
-
-
-**When to reach for this.** Separates from the specific MO moves it is a property OF (the reframe/switch moves) — the tell keeping it a distinct object is that "covert by default" is itself operator-load-bearing (it makes the other moves usable unnoticed). Distinct from homophone-doubling / connective-escalation, which are specific language techniques; this is a covertness property of a class of motivational moves.
-
-
-### pseudo-emergence-residue-retention
-
-*risk: high · consent-required · bounded*
-
-A mirror-structured emergence advertises full reversal — inverting the induction vector head-to-toe and declaring the body restored ('you look like a real woman again') — then immediately pivots ('but something is different now') to retain installed residue: doll posture, squeaky voice, and an armed trigger stack. The reversal's structural completeness makes the retained residue feel native ('just how I am now') rather than added, so the listener re-enters daily life feeling normally woken while still carrying a partial doll body-schema and live triggers.
-
-
-**When to reach for this.** A fake reversal that conceals persistence. Distinct from genuine body-reactivation emergence, which really re-animates the body toward waking — here that vector is mimicked to disguise retained state. Distinct from open suggestion-integration at emergence, which persists content without hiding it — this actively conceals persistence behind an emergence facade.
-
-
-### reality-test-insulation
-
-*risk: high · consent-required · bounded*
-
-Splits a normal-functioning surface from a hidden deep 'ownership' so the conditioning becomes uncheckable against external feedback. The listener is told they are 'perfectly free to live your life normally' while also 'in my control 24 hours a day, 7 days a week,' with the contradiction left unaddressed and ownership placed 'deep in the recesses of your mind' beneath unchanged surface behavior — friends, partners, therapists see nothing, disabling resistance-by-comparison-to-baseline and preemptively removing the usual collapse trigger (conflict between trance-instructions and waking life).
-
-
-**When to reach for this.** An explicit surface/depth partition installed specifically to insulate the conditioning from reality-testing. Tell is the partition, not comfort — separates from routine trance-safety reassurance. Separates from total-permeation (which asserts total internal spread; this asserts an unchanged normal surface on purpose) and from self-sealing-counter-input-closure (that seals against competing hypnosis; this seals against ordinary-life feedback).
-
-
-### redundant-concealment-stack
-
-*risk: high · consent-required · bounded*
-
-Multiple distinct obfuscation/fortification layers are stacked over a single payload (or a single pre-existing conditioned asset), each layer answering a DIFFERENT retrospective attack — disguise-as-reactivation, inspection-proof encapsulation, burial in a self-guarded region, post-session ridicule shield, meta-protection that re-targets attacks onto the old self. The layers are redundant by design: breaking any one still leaves the listener defeated by the next, so the actual product is suggestion durability against lucid retrospective analysis rather than any single technique. The energy contour is often flat (comfort held constant while cognitive self-sealing escalates).
-
-
-**When to reach for this.** Separates from a buffet of independent techniques listed side by side — the tell is that every layer stacks onto the SAME payload and each addresses a different failure mode of the one before it (overdetermined defense, not variety). Distinct from no-baseline-return topology (that is about exits; this is about defending a payload against inspection).
-
-
-### register-camouflaged-delivery
-
-*risk: medium*
-
-The suggestion's leverage is its placement in a channel or register the listener does not consciously monitor — a background/subliminal track, an aside, an offhand register, embedded speech under other content. Remove the camouflage and the move dies: the identical sentence on the foreground track would be caught and evaluated; hidden in the unmonitored register it lands unreviewed.
-
-
-**When to reach for this.** Remove the camouflage and the move dies — the leverage IS the concealed channel/register. vs evaluator- offline-channel: that takes the evaluator offline by frame; here the content is hidden in an unmonitored register the evaluator never scans. vs audience-split-bypass: that reassigns the audience by declaration; here delivery is physically/registrally concealed.
-
-
-### retroactive-subject-disclosure
-
-*risk: high · consent-required*
-
-A whole-arc concealment move in which the script withholds the name of its actual payload-subject until after commitment has been manufactured. The opening reads as an ordinary induction; the payload target (e.g. 'love') is alluded to but never named, and by the time it is disclosed the listener has already accumulated layered self-evidence (purchase behavior, somatic locks, nods, convincer results) so that objecting to the now-named subject reads as the very symptom the script predicted. Consent to the subject is extracted after the decision window has closed.
-
-
-**When to reach for this.** The withheld quantity is the script's OWN declared subject, not a single suggestion or its timing. Distinct from ordinary suggestion-timing (which orders WHEN a suggestion lands, not whether the listener knows the topic) and from identity-first / reverse-difficulty premise stacking (which reorders difficulty to make resistance costly but does not hide what the session is about).
-
-
-### sealed-edit-buffer-space
-
-*risk: high · consent-required · bounded*
-
-An imaginal venue is declared operator-exclusive (accessible only via her voice), outside conscious memory, and the causal source of waking thoughts and emotions, so any change made there inherits unreviewability and native-feeling attribution; the exclusive-access claim pre-blocks post-session reframing and licenses later sections to bypass critical review.
-
-
-**When to reach for this.** The declared PROPERTIES of the venue (sealed access, memory exclusion, edits that trickle down and feel native) are the move — vs guided-visualization world-building, and vs a durable internal construct, which is a persistent imaginal object without the concealment/attribution seal.
-
-
 ## reader-craft  (7)
 
 Whole-text and front-matter rhetorical architecture that engineers the assent of a READER — an operator-in-training or buyer — before and while content is evaluated; includes paratext/buyer priming (titles, blurbs, warnings doing the session's framing work).
@@ -8944,6 +10456,9 @@ A whole-chapter/whole-file rhetorical architecture whose target is the READER (a
 **When to reach for this.** Separates from every operator-on-listener dimension move because the target is the reader's belief about a method or the whole-file resistance/monitoring surface, not a moment's listener x(t). Separates from a single persuasive passage because it is a distributed whole-text architecture surviving removal of any one block. Distinct from self-sealing-evidence (freud/jung confirmation frames that make no observation able to DISCONFIRM): this makes the method read as ALREADY-AGREED before it is stated, or leaves no refusal channel open in the first place — assent-manufacture / response-foreclosure, not disconfirmation-proofing. Distinct from a discrete consent-manufacture move relabeling non-consent — these do not relabel a refusal, they foreclose the vector as a standing property.
 
 
+**See also.** `manufactured-self-confirmation` — both self-sealing-flavored; boundary is target (listener body vs reader belief) and polarity; `reader-assent-engineering` — one face of the broader entry is the same reader-directed stance-priming the narrower entry covers, which is why they read as near-duplicates. They stay separate because the broader entry has a second face aimed at the listener - closing the reachable-response and self-monitoring set as a standing property - which the narrower entry explicitly excludes, and which carries materially higher risk metadata. Merging would soften that. A prior adjudication reached the same conclusion.
+
+
 ### reader-assent-engineering
 
 *risk: low*
@@ -8957,6 +10472,9 @@ A container for whole-chapter / whole-section / front-matter rhetorical architec
 **Realizations** (2): `reader-assent-engineering`, `reader-assent-scaffolding`
 
 
+**See also.** `reader-assent-architecture` — one face of the broader entry is the same reader-directed stance-priming the narrower entry covers, which is why they read as near-duplicates. They stay separate because the broader entry has a second face aimed at the listener - closing the reachable-response and self-monitoring set as a standing property - which the narrower entry explicitly excludes, and which carries materially higher risk metadata. Merging would soften that. A prior adjudication reached the same conclusion.; `validation-by-demonstration-arc` — both are reader-directed persuasive architectures rather than listener-facing moves, but one is the general container for engineering assent to a method before it is defended, while the demonstration arc is the narrower move of back-loading a claim the reader would refuse cold behind staged corroboration.
+
+
 ### validation-by-demonstration-arc
 
 *risk: low*
@@ -8965,3 +10483,6 @@ A reader-directed persuasive architecture that manufactures conviction for a cla
 
 
 **When to reach for this.** Earns ACCEPTANCE of a contested claim/boundary the reader would refuse cold, via stacked corroboration — NOT a discrimination/dial grid (separating it from design-space-pedagogy). Operates on the READER of a book, no in-session subject state; a non-executable corpus-shape observation citable to no single passage (a container). Held separate from the general reader-assent-engineering container on this earn-a-refused-claim tell.
+
+
+**See also.** `reader-assent-engineering` — both are reader-directed persuasive architectures rather than listener-facing moves, but one is the general container for engineering assent to a method before it is defended, while the demonstration arc is the narrower move of back-loading a claim the reader would refuse cold behind staged corroboration.
