@@ -1,0 +1,317 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>v7 Influence Taxonomy — Graph</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface-0: #f4f4f2;
+    --surface-1: #fcfcfb;
+    --line:      #e2e2dd;
+    --ink-1:     #0b0b0b;
+    --ink-2:     #52514e;
+    --ink-3:     #86857f;
+    --sel-1:     #2a78d6;
+    --sel-2:     #eb6834;
+    --sel-3:     #1baf7a;
+    --node:      #86857f;
+    --edge:      #cfcfc8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --surface-0: #121211; --surface-1: #1a1a19; --line: #33332f;
+      --ink-1: #ffffff; --ink-2: #c3c2b7; --ink-3: #8a8a80;
+      --sel-1: #3987e5; --sel-2: #d95926; --sel-3: #199e70;
+      --node: #6f6f68; --edge: #3a3a35;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-0: #121211; --surface-1: #1a1a19; --line: #33332f;
+    --ink-1: #ffffff; --ink-2: #c3c2b7; --ink-3: #8a8a80;
+    --sel-1: #3987e5; --sel-2: #d95926; --sel-3: #199e70;
+    --node: #6f6f68; --edge: #3a3a35;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--surface-0); color: var(--ink-1);
+    font: 15px/1.5 ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  header { padding: 22px 24px 0; max-width: 1400px; margin: 0 auto; }
+  h1 { margin: 0 0 4px; font-size: 21px; font-weight: 620; letter-spacing: -.01em; }
+  .sub { color: var(--ink-2); font-size: 13.5px; margin: 0 0 16px; }
+  .wrap { max-width: 1400px; margin: 0 auto; padding: 0 24px 40px; }
+
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .chip {
+    border: 1px solid var(--line); background: var(--surface-1); color: var(--ink-2);
+    border-radius: 999px; padding: 5px 13px; font-size: 13px; cursor: pointer;
+    font-family: inherit; display: inline-flex; align-items: center; gap: 7px;
+  }
+  .chip:hover { border-color: var(--ink-3); color: var(--ink-1); }
+  .chip[aria-pressed="true"] { border-color: currentColor; color: var(--ink-1); font-weight: 560; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: currentColor; flex: none; }
+  .spacer { flex: 1 1 auto; }
+
+  .stage { position: relative; background: var(--surface-1); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+  svg { display: block; width: 100%; height: min(70vh, 720px); touch-action: none; }
+  .edge { stroke: var(--edge); fill: none; }
+  .node { cursor: pointer; }
+  .node circle { stroke: var(--surface-1); stroke-width: 2; }
+  .lbl { font-size: 10.5px; fill: var(--ink-2); pointer-events: none; paint-order: stroke;
+         stroke: var(--surface-1); stroke-width: 3px; stroke-linejoin: round; }
+
+  .tip {
+    position: absolute; pointer-events: none; opacity: 0; transition: opacity .1s;
+    background: var(--surface-1); border: 1px solid var(--line); border-radius: 9px;
+    padding: 10px 12px; max-width: 330px; font-size: 13px; line-height: 1.45;
+    box-shadow: 0 6px 22px rgba(0,0,0,.13); z-index: 5;
+  }
+  .tip b { display: block; font-size: 13.5px; margin-bottom: 3px; color: var(--ink-1); }
+  .tip .m { color: var(--ink-2); }
+  .tip .r { color: var(--ink-3); font-size: 12px; margin-top: 5px; }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px; font-size: 13px; color: var(--ink-2); }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .note { color: var(--ink-3); font-size: 12.5px; margin-top: 14px; max-width: 70ch; }
+  details { margin-top: 18px; }
+  summary { cursor: pointer; color: var(--ink-2); font-size: 13.5px; }
+  table { border-collapse: collapse; margin-top: 10px; font-size: 13px; width: 100%; }
+  th, td { text-align: left; padding: 5px 10px; border-bottom: 1px solid var(--line); }
+  th { color: var(--ink-2); font-weight: 560; }
+  a { color: inherit; }
+</style>
+
+<header>
+  <h1>v7 Influence Taxonomy</h1>
+  <p class="sub"><span id="ncount">—</span> techniques · <span id="ecount">—</span> semantic links · grouped by family</p>
+</header>
+
+<div class="wrap">
+  <div class="controls" id="controls"></div>
+
+  <div class="stage">
+    <svg id="g"></svg>
+    <div class="tip" id="tip"></div>
+  </div>
+
+  <div class="legend" id="legend"></div>
+
+  <p class="note">
+    Nodes are techniques, placed by family. Links are authored <em>see&nbsp;also</em> and
+    <em>contrasts&nbsp;with</em> relations — the semantic layer only. The taxonomy also
+    records ~1,240 <em>do-not-merge</em> links (pairs checked and ruled distinct); those are
+    curation evidence rather than reading paths, so they are hidden by default.
+  </p>
+
+  <details>
+    <summary>Table view</summary>
+    <table id="tbl"><thead><tr><th>Technique</th><th>Family</th><th>Macroclass</th><th>Risk</th><th>Links</th></tr></thead><tbody></tbody></table>
+  </details>
+</div>
+
+<script>
+const SEL = ['--sel-1','--sel-2','--sel-3'];
+let DATA = null, MAC = null, SHOWDNM = false, NODES = [], EDGES = [];
+
+const svg = document.getElementById('g');
+const tip = document.getElementById('tip');
+const cssv = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+fetch('graph.json').then(r => r.json()).then(d => { DATA = d; init(); });
+
+function init(){
+  document.getElementById('ncount').textContent = DATA.nodes.length.toLocaleString();
+  const sem = DATA.edges.filter(e => e.k !== 'do_not_merge_claim');
+  document.getElementById('ecount').textContent = sem.length.toLocaleString();
+
+  const macs = [...new Set(DATA.nodes.map(n => n.macroclass).filter(Boolean))]
+    .sort((a,b) => count(b) - count(a));
+  const c = document.getElementById('controls');
+  c.innerHTML = '';
+  addChip(c, 'All', null);
+  macs.forEach(m => addChip(c, m, m));
+  const sp = document.createElement('span'); sp.className = 'spacer'; c.appendChild(sp);
+
+  const dnm = document.createElement('button');
+  dnm.className = 'chip'; dnm.textContent = 'Show curation links';
+  dnm.setAttribute('aria-pressed','false');
+  dnm.onclick = () => { SHOWDNM = !SHOWDNM; dnm.setAttribute('aria-pressed', SHOWDNM); draw(); };
+  c.appendChild(dnm);
+
+  const th = document.createElement('button');
+  th.className = 'chip'; th.textContent = 'Theme';
+  th.onclick = () => {
+    const cur = document.documentElement.getAttribute('data-theme');
+    const dark = cur ? cur === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', dark ? 'light' : 'dark');
+    draw();
+  };
+  c.appendChild(th);
+
+  buildTable();
+  layout();
+  draw();
+  addEventListener('resize', () => { layout(); draw(); });
+}
+const count = m => DATA.nodes.filter(n => n.macroclass === m).length;
+
+function addChip(parent, label, val){
+  const b = document.createElement('button');
+  b.className = 'chip';
+  b.setAttribute('aria-pressed', String(MAC === val));
+  b.innerHTML = (val ? '<span class="dot"></span>' : '') + label +
+    (val ? ` <span style="color:var(--ink-3)">${count(val)}</span>` : '');
+  b.onclick = () => {
+    MAC = MAC === val ? null : val;
+    [...parent.children].forEach(x => x.setAttribute && x.setAttribute('aria-pressed','false'));
+    b.setAttribute('aria-pressed', String(MAC === val));
+    draw();
+  };
+  parent.appendChild(b);
+}
+
+/* Family-clustered layout: families on a ring, members in a disc around their
+   family centre. Deterministic — the same taxonomy always draws the same map. */
+function layout(){
+  const W = svg.clientWidth || 1000, H = svg.clientHeight || 640;
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  /* Two-level radial layout: macroclass sectors, families packed inside their sector.
+     A single 35-family ring cannot avoid collisions at any sensible canvas size (the
+     largest family needs ~60px radius against a ~49px arc), and macroclass grouping
+     is the more meaningful structure anyway — it is the taxonomy's own top level. */
+  const macs = [...new Set(DATA.nodes.map(n => n.macroclass || 'other'))].sort();
+  const size = {};
+  DATA.nodes.forEach(n => { const f = n.family || 'other'; size[f] = (size[f]||0) + 1; });
+  const rad = f => 7 + Math.sqrt(size[f]) * 5.4;
+
+  const famsOf = {};
+  DATA.nodes.forEach(n => {
+    const m = n.macroclass || 'other', f = n.family || 'other';
+    (famsOf[m] ||= new Set()).add(f);
+  });
+
+  const cx = W/2, cy = H/2;
+  const Rout = Math.min(W, H) * 0.40;
+  const fc = {};
+  macs.forEach((m, mi) => {
+    const list = [...famsOf[m]].sort((a,b) => size[b] - size[a]);
+    const a0 = (mi / macs.length) * Math.PI*2 - Math.PI/2;
+    const span = (Math.PI*2 / macs.length) * 0.86;   // gap between sectors
+    list.forEach((f, fi) => {
+      const ring = fi % 2 ? 0.60 : 1.0;
+      const t = list.length === 1 ? 0.5 : (Math.floor(fi/2) + 0.5) / Math.ceil(list.length/2);
+      const a = a0 + (t - 0.5) * span;
+      fc[f] = { x: cx + Math.cos(a)*Rout*ring, y: cy + Math.sin(a)*Rout*ring };
+    });
+  });
+
+  /* Relax family centres so discs stop overlapping. Seeded from the sector layout
+     above (so macroclasses stay grouped and the result is deterministic), then
+     pushed apart pairwise and nudged back toward the canvas. Hand-tuned radii could
+     not clear 35 families at mobile widths; this can. */
+  const famList = Object.keys(fc);
+  const pad = 9;
+  for (let iter = 0; iter < 260; iter++){
+    for (let i = 0; i < famList.length; i++){
+      for (let j = i+1; j < famList.length; j++){
+        const A = fc[famList[i]], B = fc[famList[j]];
+        const need = rad(famList[i]) + rad(famList[j]) + pad;
+        let dx = B.x - A.x, dy = B.y - A.y;
+        let dist = Math.hypot(dx, dy) || 0.01;
+        if (dist < need){
+          const push = (need - dist) / dist * 0.5;
+          dx *= push; dy *= push;
+          A.x -= dx; A.y -= dy; B.x += dx; B.y += dy;
+        }
+      }
+    }
+    for (const f of famList){         // keep inside the canvas
+      const r = rad(f) + 6;
+      fc[f].x = Math.max(r, Math.min(W - r, fc[f].x));
+      fc[f].y = Math.max(r + 10, Math.min(H - r, fc[f].y));
+    }
+  }
+  const seen = {};
+  NODES = DATA.nodes.map(n => {
+    const f = n.family || 'other';
+    const k = seen[f] = (seen[f]||0) + 1;
+    const members = DATA.nodes.filter(m => (m.family||'other') === f).length;
+    const rr = 8 + Math.sqrt(members) * 7.0;
+    const a  = (k / Math.max(members,1)) * Math.PI*2;
+    const spiral = rr * (0.35 + 0.65 * (k / Math.max(members,1)));
+    return { ...n, x: fc[f].x + Math.cos(a)*spiral, y: fc[f].y + Math.sin(a)*spiral, fam: f };
+  });
+  const byId = Object.fromEntries(NODES.map(n => [n.id, n]));
+  EDGES = DATA.edges.map(e => ({ ...e, a: byId[e.s], b: byId[e.t] })).filter(e => e.a && e.b);
+}
+
+function draw(){
+  const activeEdges = EDGES.filter(e => SHOWDNM || e.k !== 'do_not_merge_claim');
+  const on = n => !MAC || n.macroclass === MAC;
+  const hue = cssv(SEL[0]);
+
+  let s = '<g>';
+  for (const e of activeEdges){
+    const lit = on(e.a) && on(e.b);
+    s += `<path class="edge" d="M${e.a.x.toFixed(1)} ${e.a.y.toFixed(1)}Q${((e.a.x+e.b.x)/2).toFixed(1)} ${((e.a.y+e.b.y)/2-18).toFixed(1)} ${e.b.x.toFixed(1)} ${e.b.y.toFixed(1)}"
+      stroke-width="${e.k==='contrasts_with'?1.6:1.1}" opacity="${lit?(MAC?0.5:0.34):0.07}"
+      ${e.k==='contrasts_with'?'stroke-dasharray="3 3"':''}/>`;
+  }
+  s += '</g><g>';
+  for (const n of NODES){
+    const lit = on(n);
+    const r = 3.4 + Math.min(4.6, Math.sqrt(Math.max(n.weight,1))/13);
+    const fill = lit && MAC ? hue : (lit ? cssv('--node') : cssv('--node'));
+    s += `<g class="node" data-id="${n.id}"><circle cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${r.toFixed(1)}"
+      fill="${fill}" opacity="${lit?1:0.16}"/>`;
+    if (n.risk === 'high' && lit)
+      s += `<circle cx="${n.x.toFixed(1)}" cy="${n.y.toFixed(1)}" r="${(r+3).toFixed(1)}" fill="none" stroke="${cssv('--sel-2')}" stroke-width="1.3" opacity=".85"/>`;
+    s += `</g>`;
+  }
+  s += '</g><g>';
+  const fams = {};
+  NODES.forEach(n => { (fams[n.fam] ||= []).push(n); });
+  for (const [f, ns] of Object.entries(fams)){
+    if (MAC && !ns.some(on)) continue;
+    const mx = ns.reduce((a,n)=>a+n.x,0)/ns.length;
+    const my = Math.min(...ns.map(n=>n.y)) - 9;
+    s += `<text class="lbl" x="${mx.toFixed(1)}" y="${my.toFixed(1)}" text-anchor="middle">${esc(f)}</text>`;
+  }
+  s += '</g>';
+  svg.innerHTML = s;
+
+  svg.querySelectorAll('.node').forEach(g => {
+    g.addEventListener('pointerenter', ev => {
+      const n = NODES.find(x => x.id === +g.dataset.id);
+      const deg = activeEdges.filter(e => e.s === n.id || e.t === n.id).length;
+      tip.innerHTML = `<b>${esc(n.name)}</b>
+        <span class="m">${esc(n.family||'—')} · ${esc(n.macroclass||'—')}</span>
+        <span class="r">risk ${esc(n.risk||'—')}${n.consent?' · consent required':''}${n.bounded?' · bounded':''} · ${deg} link${deg===1?'':'s'}</span>`;
+      const b = svg.getBoundingClientRect();
+      tip.style.left = Math.min(ev.clientX - b.left + 14, b.width - 345) + 'px';
+      tip.style.top  = Math.max(ev.clientY - b.top - 12, 6) + 'px';
+      tip.style.opacity = 1;
+    });
+    g.addEventListener('pointerleave', () => { tip.style.opacity = 0; });
+  });
+
+  const lg = document.getElementById('legend');
+  lg.innerHTML =
+    `<span><span class="dot" style="color:${MAC?hue:cssv('--node')}"></span>${MAC?esc(MAC):'technique'}</span>` +
+    `<span><svg width="22" height="9"><circle cx="11" cy="4.5" r="3" fill="none" stroke="${cssv('--sel-2')}" stroke-width="1.3"/></svg>high risk</span>` +
+    `<span><svg width="24" height="8"><line x1="1" y1="4" x2="23" y2="4" stroke="${cssv('--edge')}" stroke-width="1.1"/></svg>see also</span>` +
+    `<span><svg width="24" height="8"><line x1="1" y1="4" x2="23" y2="4" stroke="${cssv('--edge')}" stroke-width="1.6" stroke-dasharray="3 3"/></svg>contrasts with</span>`;
+}
+
+function buildTable(){
+  const deg = {};
+  DATA.edges.filter(e=>e.k!=='do_not_merge_claim').forEach(e => { deg[e.s]=(deg[e.s]||0)+1; deg[e.t]=(deg[e.t]||0)+1; });
+  const tb = document.querySelector('#tbl tbody');
+  tb.innerHTML = DATA.nodes.slice().sort((a,b)=>(deg[b.id]||0)-(deg[a.id]||0)).map(n =>
+    `<tr><td>${esc(n.name)}</td><td>${esc(n.family||'—')}</td><td>${esc(n.macroclass||'—')}</td><td>${esc(n.risk||'—')}</td><td>${deg[n.id]||0}</td></tr>`
+  ).join('');
+}
+const esc = s => String(s??'').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+</script>
