@@ -102,6 +102,13 @@
     padding:6px 4px;width:172px;outline:none;
   }
   .search input::placeholder{color:var(--ink-4)}
+  /* D15: live result count — the only affordance that distinguishes "6 hits" from
+     "141 hits" on a canvas of ~900 dots, and what teaches the by-name/by-prose split. */
+  .search .qn{
+    font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--ink-3);
+    white-space:nowrap;padding:0 2px 0 4px;
+  }
+  .search .qn b{color:var(--ink-1);font-weight:600}
   /* suppress the UA's own search clear button — we render our own */
   .search input::-webkit-search-cancel-button,
   .search input::-webkit-search-decoration{-webkit-appearance:none;appearance:none}
@@ -121,9 +128,15 @@
   .stage svg.ovl{pointer-events:none}
   .stage:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
 
+  /* D18: macroclass territory captions, promoted from canvas background paint to
+     the SVG overlay. On canvas they were painted UNDER opaque discs + 886 opaque
+     marks, which buried 3 of 5 at first load. The paint-order halo (same treatment
+     as .famlbl) keeps them legible over the node field in both themes. */
   .ghostword{
-    font-size:44px;font-weight:700;letter-spacing:-.02em;
-    fill:var(--ink-1);opacity:.085;text-transform:lowercase;
+    font-weight:700;letter-spacing:-.02em;text-transform:lowercase;
+    fill:var(--ink-3);opacity:.62;
+    paint-order:stroke;stroke:var(--surface-1);stroke-width:6px;
+    stroke-linejoin:round;pointer-events:none;
   }
   .famlbl{
     font-size:12.5px;font-weight:560;fill:var(--ink-2);
@@ -148,6 +161,15 @@
     paint-order:stroke;stroke:var(--surface-1);stroke-width:3px;stroke-linejoin:round;
     pointer-events:none;
   }
+  /* D19: semantic-axes mode pole labels — the extreme entries on each end of the
+     chosen components, recomputed at render time (PCA signs are arbitrary; labels
+     bind to term-sets, never to a stored sign). */
+  .axpole{
+    font-size:11px;font-weight:520;fill:var(--ink-2);
+    paint-order:stroke;stroke:var(--surface-1);stroke-width:3px;stroke-linejoin:round;
+    pointer-events:none;
+  }
+  .axname{font-size:10.5px;fill:var(--ink-4);pointer-events:none}
 
   /* ---- tooltip ---- */
   .tip{
@@ -193,6 +215,20 @@
   }
   .rail .close:hover{color:var(--ink-1);background:var(--surface-2)}
   .rail .flags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+  /* D16: the mech/disc prose in the rail — same type scale as the tooltip so the
+     two surfaces read as one content system. Clamped on narrow screens only. */
+  .rail .prose{margin:0 0 12px}
+  .rail .prose .mech{margin:0;color:var(--ink-1);font-size:12.5px;line-height:1.5}
+  .rail .prose .disc{margin:8px 0 0;padding-top:8px;border-top:1px solid var(--line);
+                     color:var(--ink-2);font-size:12px;line-height:1.5}
+  .rail .prose .disc em{color:var(--ink-3);font-style:normal}
+  .rail .prose .more{display:none;margin-top:6px;padding:4px 0;border:0;background:none;
+                     color:var(--blue);font:inherit;font-size:12px;cursor:pointer}
+  .rail .prose .more:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:4px}
+  .rail .prose.clamp .mech{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden}
+  .rail .prose.clamp .disc{display:none}
+  .rail .prose.clamp .more,
+  .rail .prose.was-clamped .more{display:block}
   .rail h3{margin:0 0 7px;font-size:11px;font-weight:620;letter-spacing:.07em;
     text-transform:uppercase;color:var(--ink-3)}
   .linkbtn{
@@ -265,7 +301,10 @@
 
   @media (max-width:860px){
     .rail{
-      top:auto;left:8px;right:8px;bottom:8px;width:auto;max-height:56%;
+      /* D16/D17: 64% (was 56%) buys back the links heading + 2 link buttons once
+         the clamped prose is in the sheet, while still leaving stage above the
+         sheet for avoidRail() to fit the selected node into. */
+      top:auto;left:8px;right:8px;bottom:8px;width:auto;max-height:64%;
       transform:translateY(14px);border-radius:14px;
     }
     .rail.on{transform:none}
@@ -286,11 +325,15 @@
     .search input{width:100%;flex:1 1 auto;min-width:0}
     .legend{gap:7px 14px;font-size:12px}
     .legend .sep{display:none}
+    .search .qn{font-size:11px;padding:0 1px 0 3px}
   }
   .macsel{display:none;align-items:center;border:1px solid var(--line-2);
     background:var(--surface-1);border-radius:999px;padding:0 6px 0 11px;flex:none}
   .macsel select{border:0;background:transparent;color:var(--ink-1);font:inherit;
     font-size:12.5px;padding:6px 2px;outline:none;max-width:130px}
+  /* D19: the axis selects carry named components ("Whole artifact vs single move")
+     and need more room than the mobile macroclass fallback this class was cut for. */
+  .macsel.axsel select{max-width:250px;font-size:12px}
   .macsel:focus-within{border-color:var(--blue)}
   @media (prefers-reduced-motion:reduce){
     *{transition-duration:0ms!important;animation-duration:0ms!important}
@@ -376,6 +419,9 @@ const el = id => document.getElementById(id);
 const stage = el('stage'), cv = el('cv'), ovl = el('ovl'), tip = el('tip'), rail = el('rail');
 const ctx = cv.getContext('2d');
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+/* D15: slug names ("self-sealing-frame") vs typed queries ("self sealing frame"):
+   fold [-_/] to spaces on BOTH sides so the two forms unify. */
+const normText = s => String(s ?? '').toLowerCase().replace(/[-_/]+/g, ' ').replace(/\s+/g, ' ').trim();
 /* getComputedStyle is expensive and render() reads tokens thousands of times per
    frame; cache per frame and invalidate whenever the theme can have changed. */
 let _cssCache = new Map();
@@ -406,7 +452,30 @@ let DATA = null, NODES = [], BY_ID = new Map();
 let SEM = [], CUR = [], ADJ = new Map();
 let CONTRASTS_N = 0;   // count of contrasts_with edges — drives the legend's D13 gate
 let FAMS = [], FAM_BY_NAME = new Map(), MACRO_REGIONS = [];
-let MAC_FILTER = null, SHOW_CURATION = false, QUERY = '';
+let MAC_FILTER = null, SHOW_CURATION = false, QUERY = '', QTOK = [], QSTRONG = 0, QHITS = 0;
+/* D19: semantic-axes mode — positions become two chosen PCA components of the
+   entry embeddings (shipped as `pc` per node + `pc_var` by publish_public.py).
+   Placeholder PC labels until the blind-rater naming panel runs post-recipe. */
+let AXES = { on:false, x:0, y:1 }, PC_VAR = [], HAS_PC = false;
+/* Consensus labels from the 12-rater blind panel of 2026-07-26 (issue #13).
+   They BIND TO THE POLE TERM-SETS of that run, not to signs or indices — PCA
+   signs are arbitrary and the axes change with any re-embed, so after a recipe
+   change these must be re-derived (re-run the panel), never trusted forward.
+   "(?)" marks the two axes the panel itself flagged as likely register/authoring
+   artifacts (low confidence + register votes): they may index how entries are
+   written rather than what the techniques do. */
+const PC_LABELS = [
+  'Contingency vs authorship',      // PC1 — 12/12, but entangled with curation-era drift
+  'Social leverage vs trance',      // PC2 — 12/12
+  'Arousal vs memory',              // PC3 — 12/12, unanimous 5/5 confidence
+  'Cue install vs exit',            // PC4 — 12/12; pole B mixes safety + its subversion
+  'Entrainment vs concealment',     // PC5 — 12/12; carries most of risk (r -0.48)
+  'Repetition vs agency (?)',       // PC6 — 7/12, 4 register-artifact votes
+  'Isolation vs trust',             // PC7 — 12/12; may be severity, not mechanism
+  'Whole artifact vs single move (?)', // PC8 — 9/12, authoring-altitude suspicion
+  'Operator absent vs present',     // PC9 — pole A clean, pole B possibly residual
+  'Aftercare vs spread',            // PC10 — 12/12
+];
 let HOVER = null, PINNED = null, KBFOCUS = null;
 let TERRITORY_OK = true;
 
@@ -423,6 +492,9 @@ let LAYOUT_GEN = 0;
    overlay's cache key needs this because f.x/f.y can change for 400ms with no other
    cache-key input (view, filter, query) changing at all. */
 let LAYOUT_TICK = 0;
+/* D18: macroclass caption LOD fade, computed in render(), read by paintOverlay().
+   Single source so the two cannot drift if the D10 ramp constants are retuned. */
+let GHOST_FADE = 1;
 let animQueue = [];          // active tweens
 let GRID = null;             // spatial hash for hit-testing
 
@@ -465,12 +537,25 @@ function boot(d){
     consent:!!n.consent, bounded:!!n.bounded,
     weight:+n.weight || 0,
     mech:n.mech || '', disc:n.disc || '',   // prose — a name alone says nothing
+    lab:'', hay:'',                        // D15: search haystacks, built below
+    pc:Array.isArray(n.pc) ? n.pc : null,  // D19: PCA coords for axes mode
 
     idx:i, x:0, y:0, hx:0, hy:0,          // hx/hy = home (solved) position
     sx:0, sy:0,                            // scatter (pre-reveal) position
     a:1, s:1, ring:0                       // animated alpha / scale / neighbour-ring
   }));
   BY_ID = new Map(NODES.map(n => [n.id, n]));
+
+  PC_VAR = Array.isArray(d.pc_var) ? d.pc_var : [];
+  HAS_PC = NODES.some(n => n.pc && n.pc.length);
+
+  /* D15: search index. Built once: ~900 nodes, ~650KB of folded text, ~1ms.
+     Prose is where the concepts live — names are slugs, so a name-only search
+     answered "trance" with 6 of 886 in a corpus where 141 are relevant. */
+  for (const n of NODES){
+    n.lab = normText(n.name + ' ' + n.family + ' ' + n.macro);
+    n.hay = n.lab + ' ' + normText(n.mech) + ' ' + normText(n.disc);
+  }
 
   /* Dedup undirected edges; split semantic (layout-bearing) from curation (evidence). */
   const seen = new Set();
@@ -782,44 +867,63 @@ function measureTerritories(){
      any disc, penalised by distance from the territory centroid. */
   /* Search only within the territory's own footprint (bounded by its spread), so
      the word labels its cluster instead of drifting into a far empty corner. */
+  /* D18: the caption is a BOX, not a point — the old point-clearance search could
+     never find a spot that fits a 190px word, which is why the densest territories
+     were unplaceable. Measure the real text box (same font the SVG renders) and
+     score box-to-disc clearance; with the overlay halo carrying legibility, the
+     clearance is a nicety rather than a requirement, so bias toward the centroid. */
+  const _mc = document.createElement('canvas').getContext('2d');
   for (const g of MACRO_REGIONS){
-    let best = null, bs = -Infinity;
+    const size = clamp(20 + Math.sqrt(g.n) * 1.15, 22, 46);
+    _mc.font = '700 ' + size.toFixed(0) + 'px ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif';
+    const hw = _mc.measureText(g.macro).width / 2, hh = size * 0.5;
     const reach = Math.max(90, g.spread * 1.15);
-    for (let gx = 0; gx <= 30; gx++){
-      for (let gy = 0; gy <= 22; gy++){
-        const x = g.x + (gx / 30 - 0.5) * 2 * reach;
-        const y = g.y + (gy / 22 - 0.5) * 2 * reach;
-        if (x < 80 || x > W - 80 || y < 40 || y > H - 30) continue;
-        let ownD = Math.hypot(x - g.x, y - g.y);
+    let best = null, bs = -Infinity;
+    for (let gx = 0; gx <= 40; gx++){
+      for (let gy = 0; gy <= 30; gy++){
+        const x = g.x + (gx / 40 - 0.5) * 2 * reach;
+        const y = g.y + (gy / 30 - 0.5) * 2 * reach;
+        if (x - hw < 6 || x + hw > W - 6 || y - hh < 4 || y + hh > H - 4) continue;
+        const ownD = Math.hypot(x - g.x, y - g.y);
         if (ownD > reach) continue;
         let foreign = false;
-        for (const h of MACRO_REGIONS){
-          if (h === g) continue;
-          if (Math.hypot(x - h.x, y - h.y) < ownD * 1.02){ foreign = true; break; }
+        for (const q of MACRO_REGIONS){
+          if (q === g) continue;
+          if (Math.hypot(x - q.x, y - q.y) < ownD * 1.02){ foreign = true; break; }
         }
         if (foreign) continue;
         let clear = Infinity;
-        for (const f of FAMS) clear = Math.min(clear, Math.hypot(x - f.x, y - f.y) - f.r);
-        /* prefer clear space, but strongly prefer staying near the centroid */
-        const score = Math.min(clear, 60) - ownD * 0.55;
+        for (const f of FAMS){
+          const nx = Math.max(x - hw, Math.min(f.x, x + hw));
+          const ny = Math.max(y - hh, Math.min(f.y, y + hh));
+          clear = Math.min(clear, Math.hypot(f.x - nx, f.y - ny) - f.r);
+        }
+        const score = Math.min(clear, 40) - ownD * 0.35;
         if (score > bs){ bs = score; best = { x, y, clear }; }
       }
     }
     g.lx = best ? best.x : g.x;
     g.ly = best ? best.y : g.y;
-    g.clear = best ? best.clear : 30;
   }
-  /* count families sitting closer to a foreign centroid than their own */
-  for (const f of FAMS){
-    total++;
-    const own = groups.get(f.macro);
-    const dOwn = Math.hypot(f.x - own.x, f.y - own.y);
-    for (const g of groups.values()){
-      if (g === own) continue;
-      if (Math.hypot(f.x - g.x, f.y - g.y) < dOwn * 0.82){ intrusions++; break; }
+  /* D18: purity is judged PER REGION (was one all-or-nothing global) — one impure
+     territory should silence its own caption, not all five. */
+  for (const g of MACRO_REGIONS){
+    let gi = 0;
+    for (const f of g.fams){
+      total++;
+      const dOwn = Math.hypot(f.x - g.x, f.y - g.y);
+      for (const h of groups.values()){
+        if (h === g) continue;
+        if (Math.hypot(f.x - h.x, f.y - h.y) < dOwn * 0.82){ gi++; intrusions++; break; }
+      }
     }
+    /* <= 1/3: a region with a third of its families astray still labels itself
+       honestly (the caption marks the bulk); beyond that the word would sit over
+       what is visibly foreign territory. Measured: desktop worst region is 29%
+       (influence, 2/7) — labelled; mobile absorption hits 100% — hidden. */
+    g.ok = (gi / g.fams.length) <= 1 / 3;
   }
-  TERRITORY_OK = total > 0 && (intrusions / total) <= 0.20;
+  TERRITORY_OK = MACRO_REGIONS.some(g => g.ok);
 }
 
 /* Vogel / sunflower phyllotaxis — equal-area, seamless, no crescent.
@@ -920,6 +1024,75 @@ function placeNodes(){
 let NODE_SCALE = 1;
 const nodeR = n => (2.9 + Math.min(3.4, Math.sqrt(Math.max(n.weight, 1)) / 15)) * NODE_SCALE;
 
+/* ---------------------------------------------------- D19: axes layout ----- */
+/* Map each node's chosen PC pair onto stage coordinates. Runs instantly; the
+   animated path goes through tweenLayout(). y is inverted so positive = up. */
+function axesApply(){
+  const xd = AXES.x, yd = AXES.y, pad = 46;
+  let x1 = Infinity, x2 = -Infinity, y1 = Infinity, y2 = -Infinity;
+  for (const n of NODES){
+    const vx = n.pc ? n.pc[xd] || 0 : 0, vy = n.pc ? n.pc[yd] || 0 : 0;
+    x1 = Math.min(x1, vx); x2 = Math.max(x2, vx);
+    y1 = Math.min(y1, vy); y2 = Math.max(y2, vy);
+  }
+  const sx = (W - pad * 2) / Math.max(x2 - x1, 1e-6);
+  const sy = (H - pad * 2) / Math.max(y2 - y1, 1e-6);
+  for (const n of NODES){
+    const vx = n.pc ? n.pc[xd] || 0 : 0, vy = n.pc ? n.pc[yd] || 0 : 0;
+    n.hx = pad + (vx - x1) * sx;
+    n.hy = H - pad - (vy - y1) * sy;
+    n.x = n.hx; n.y = n.hy;
+  }
+  buildGrid();
+}
+
+/* Generic layout transition: capture where nodes+families sit, let mutate() lay
+   out the new arrangement in place, then tween from old to new. Same pattern as
+   gather()'s reflow, generalised for the map <-> axes handoff. */
+function tweenLayout(mutate){
+  const start = NODES.map(n => ({ n, x0:n.hx, y0:n.hy }));
+  const startF = FAMS.map(f => ({ f, x0:f.x, y0:f.y }));
+  mutate();
+  const gen = ++LAYOUT_GEN;   // after mutate: solve() bumps it too, ours must win
+  if (reduced()){ dirty = true; kick(); return; }
+  const target = start.map(s => ({ s, x1:s.n.hx, y1:s.n.hy }));
+  const targetF = startF.map(s => ({ s, x1:s.f.x, y1:s.f.y }));
+  for (const t of target){ t.s.n.hx = t.s.x0; t.s.n.hy = t.s.y0; t.s.n.x = t.s.x0; t.s.n.y = t.s.y0; }
+  for (const t of targetF){ t.s.f.x = t.s.x0; t.s.f.y = t.s.y0; }
+  const t0 = now();
+  const step = () => {
+    if (gen !== LAYOUT_GEN) return;
+    const p = clamp((now() - t0) / 520, 0, 1), e = easeInOutCubic(p);
+    LAYOUT_TICK++;
+    for (const t of target){
+      t.s.n.hx = t.s.x0 + (t.x1 - t.s.x0) * e;
+      t.s.n.hy = t.s.y0 + (t.y1 - t.s.y0) * e;
+      t.s.n.x = t.s.n.hx; t.s.n.y = t.s.n.hy;
+    }
+    for (const t of targetF){
+      t.s.f.x = t.s.x0 + (t.x1 - t.s.x0) * e;
+      t.s.f.y = t.s.y0 + (t.y1 - t.s.y0) * e;
+    }
+    dirty = true; kick();
+    if (p < 1) requestAnimationFrame(step);
+    else {
+      for (const t of target){ t.s.n.hx = t.x1; t.s.n.hy = t.y1; t.s.n.x = t.x1; t.s.n.y = t.y1; }
+      for (const t of targetF){ t.s.f.x = t.x1; t.s.f.y = t.y1; }
+      buildGrid();
+    }
+  };
+  requestAnimationFrame(step);
+}
+
+function enterAxes(){
+  tweenLayout(axesApply);
+  animateView(0, 0, 1, 520);   // both layouts fill the stage at identity
+}
+function exitAxes(){
+  tweenLayout(() => solve(window.SPRINGS || [], 600));
+  animateView(0, 0, 1, 520);
+}
+
 /* ------------------------------------------------------ spatial hit grid --- */
 function buildGrid(){
   const CELL = 40;
@@ -953,13 +1126,17 @@ function pick(px, py){
 }
 
 /* ------------------------------------------------------------- filtering --- */
-function matchesQuery(n){
-  if (!QUERY) return true;
-  const q = QUERY;
-  return n.name.toLowerCase().includes(q) ||
-         n.family.toLowerCase().includes(q) ||
-         n.macro.toLowerCase().includes(q);
+/* D15: tier 2 = every token present in name/family/macro (the strong hit).
+   Tier 1 = only satisfied once mech/disc prose is included.
+   Tier 0 = no match.  Tokens are ANDed; separators already folded to spaces
+   on both sides so "self sealing" finds "self-sealing-frame". */
+function matchTier(n){
+  if (!QTOK.length) return 2;
+  for (const t of QTOK) if (!n.hay.includes(t)) return 0;
+  for (const t of QTOK) if (!n.lab.includes(t)) return 1;
+  return 2;
 }
+function matchesQuery(n){ return matchTier(n) !== 0; }
 function inFilter(n){ return !MAC_FILTER || n.macro === MAC_FILTER; }
 function visible(n){ return inFilter(n) && matchesQuery(n); }
 
@@ -986,6 +1163,17 @@ function activeSet(){
    clamps the translation so the content bbox always keeps a healthy margin of
    itself inside the visible stage, regardless of how the caller got view.x/y there. */
 function contentBBox(){
+  /* D19: in axes mode the discs are parked off-duty — the content is the node
+     scatter itself, so clamp/fit must measure that instead of FAMS. */
+  if (AXES.on){
+    if (!NODES.length) return null;
+    let x1 = Infinity, y1 = Infinity, x2 = -Infinity, y2 = -Infinity;
+    for (const n of NODES){
+      x1 = Math.min(x1, n.hx - 10); x2 = Math.max(x2, n.hx + 10);
+      y1 = Math.min(y1, n.hy - 10); y2 = Math.max(y2, n.hy + 10);
+    }
+    return { x1, y1, x2, y2 };
+  }
   if (!FAMS.length) return null;
   let x1 = Infinity, y1 = Infinity, x2 = -Infinity, y2 = -Infinity;
   for (const f of FAMS){
@@ -999,9 +1187,18 @@ function clampView(){
   if (!bb) return;
   const k = view.k;
   /* screen-space box of the content at the current transform */
-  const sx1 = bb.x1 * k + view.x, sy1 = bb.y1 * k + view.y;
-  const sx2 = bb.x2 * k + view.x, sy2 = bb.y2 * k + view.y;
+  let sx1 = bb.x1 * k + view.x, sy1 = bb.y1 * k + view.y;
+  let sx2 = bb.x2 * k + view.x, sy2 = bb.y2 * k + view.y;
   const bw = sx2 - sx1, bh = sy2 - sy1;
+  /* D14: when the content fits the stage on an axis, centre it on that axis.
+     The margin rule below is satisfied by a graph huddled in a corner, so a
+     zoom-out anchored at a corner used to bottom out at k=0.5 with the whole
+     graph parked in one quadrant. Skipped while a node is pinned — the D17
+     rail-avoidance nudge deliberately holds the view off-centre then. */
+  if (!PINNED){
+    if (bw <= W){ const d = (W - bw) / 2 - sx1; view.x += d; sx1 += d; sx2 += d; }
+    if (bh <= H){ const d = (H - bh) / 2 - sy1; view.y += d; sy1 += d; sy2 += d; }
+  }
   /* require at least ~30% of the content's on-screen extent (or of the stage,
      whichever is smaller) to stay visible on every side, so a drag can go
      off-stage but never disappear entirely. The Math.min against W/H matters:
@@ -1017,27 +1214,56 @@ function clampView(){
   if (sy1 > H - marginY) view.y -= sy1 - (H - marginY);
 }
 
+/* D14: every zoom path (wheel, pinch, double-tap) hand-rolled this anchor math
+   and every one of them forgot clampView(), so zoom could still sail the graph
+   off-stage — the exact failure D3 fixed for pan. One funnel, clamp included.
+   Returns false when the zoom was a no-op (already at a k limit). */
+function zoomBy(factor, mx, my){
+  const k0 = view.k, k1 = clamp(k0 * factor, 0.5, 6);
+  if (k1 === k0) return false;
+  view.x = mx - (mx - view.x) * (k1 / k0);
+  view.y = my - (my - view.y) * (k1 / k0);
+  view.k = k1;
+  clampView();
+  dirty = true; kick();
+  return true;
+}
+
 /* Fit the content bbox to the stage with padding — used by Reset view, double-
    click-to-fit, and boot/resize so the graph never opens huddled in a corner. */
 function fitView(animate){
   const bb = contentBBox();
   if (!bb) return;
   const pad = 36;
+  /* D17: fit to the stage area the rail is NOT covering, so Reset view with a
+     node pinned frames the graph in the visible strip instead of under the panel. */
+  const R = railInset();
   const bw = Math.max(1, bb.x2 - bb.x1), bh = Math.max(1, bb.y2 - bb.y1);
-  const k1 = clamp(Math.min((W - pad * 2) / bw, (H - pad * 2) / bh), 0.5, 6);
+  const k1 = clamp(Math.min((R.availW - pad * 2) / bw, (R.availH - pad * 2) / bh), 0.5, 6);
   const cx0 = (bb.x1 + bb.x2) / 2, cy0 = (bb.y1 + bb.y2) / 2;
-  const tx = W / 2 - cx0 * k1, ty = H / 2 - cy0 * k1;
+  const tx = (R.side === 'left' ? (W - R.availW) : 0) + R.availW / 2 - cx0 * k1;
+  const ty = R.availH / 2 - cy0 * k1;
   if (!animate || reduced()){
     view.x = tx; view.y = ty; view.k = k1; dirty = true; kick(); return;
   }
-  const from = { x:view.x, y:view.y, k:view.k }, t0 = now();
+  animateView(tx, ty, k1, 500);
+}
+
+/* D17: one shared view tween — fitView and flyTo previously carried
+   byte-identical copies of this loop, and avoidRail needs a third. */
+function animateView(tx, ty, tk, ms, done){
+  if (reduced()){
+    view.x = tx; view.y = ty; view.k = tk; clampView();
+    dirty = true; kick(); if (done) done(); return;
+  }
+  const from = { x:view.x, y:view.y, k:view.k }, t0 = now(), dur = ms || 340;
   const step = () => {
-    const p = clamp((now() - t0) / 500, 0, 1), e = easeInOutCubic(p);
+    const p = clamp((now() - t0) / dur, 0, 1), e = easeInOutCubic(p);
     view.x = from.x + (tx - from.x) * e;
     view.y = from.y + (ty - from.y) * e;
-    view.k = from.k + (k1 - from.k) * e;
+    view.k = from.k + (tk - from.k) * e;
     dirty = true; kick();
-    if (p < 1) requestAnimationFrame(step);
+    if (p < 1) requestAnimationFrame(step); else { clampView(); if (done) done(); }
   };
   requestAnimationFrame(step);
 }
@@ -1052,7 +1278,11 @@ function resize(initial){
   cv.style.width = W + 'px'; cv.style.height = H + 'px';
   ovl.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
   dirty = true;
-  if (!initial && FAMS.length){ solve(window.SPRINGS || [], 600); kick(); }
+  if (!initial && FAMS.length){
+    solve(window.SPRINGS || [], 600);
+    if (AXES.on) axesApply();   // D19: re-map the scatter to the new stage size
+    kick();
+  }
 }
 
 function kick(){ if (!raf) raf = requestAnimationFrame(frame); }
@@ -1134,41 +1364,19 @@ function render(){
   const spx = px_ => px_ / view.k;
   const sdash = arr => arr.map(spx);
 
-  /* ---- ghost macroclass words, painted BEHIND the discs on the canvas ----
-     (the SVG overlay always paints on top, which buried them under node fields)
-     D10: the words used to vanish instantly at k=2.2 (a binary pop mid-gesture);
-     ghostFade ramps 1.8->2.4 instead, so the words dissolve continuously as the
-     zoom crosses into per-node LOD territory rather than snapping off. */
+  /* D18: the macroclass captions now render in the SVG overlay (paintOverlay),
+     where the paint-order halo keeps them legible ABOVE the discs and marks —
+     on canvas they were buried under both. Only the LOD fade is computed here.
+     D10: the fade ramps 1.8->2.4 so the words dissolve continuously as the zoom
+     crosses into per-node LOD territory rather than snapping off. */
   ovlParts.length = 0;
-  const ghostFade = 1 - clamp((view.k - 1.8) / (2.4 - 1.8), 0, 1);
-  if (TERRITORY_OK && ghostFade > 0.004 && W >= 560){
-    g.save();
-    g.textAlign = 'center'; g.textBaseline = 'middle';
-    g.fillStyle = cssv('--ink-1');
-    for (const r of MACRO_REGIONS){
-      const size = clamp(22 + (r.clear || 0) * 0.55, 24, 44);
-      g.font = '650 ' + size.toFixed(0) + 'px ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif';
-      /* D3 fix: a panned/zoomed view used to clamp the word back onto the visible
-         edge, so once its territory left the viewport the word detached from its
-         discs and piled up overlapping in whichever corner was nearest. Cull
-         instead — if the anchor is off-stage, the word simply isn't drawn, same
-         as any other off-screen content. */
-      const half = g.measureText(r.macro).width / 2;
-      const sxw = r.lx * view.k + view.x, syw = r.ly * view.k + view.y;
-      if (sxw + half * view.k < -20 || sxw - half * view.k > W + 20 ||
-          syw + size * 0.7 * view.k < -20 || syw - size * 0.7 * view.k > H + 20) continue;
-      g.globalAlpha = 0.16 * stipple * ghostFade;
-      g.fillText(r.macro, r.lx, r.ly);
-    }
-    g.restore();
-    g.globalAlpha = 1;
-  }
+  GHOST_FADE = 1 - clamp((view.k - 1.8) / (2.4 - 1.8), 0, 1);
 
-  /* ---- family bodies: soft discs so regions read even before nodes land ----
-     Kept translucent so the ghost territory words stay readable beneath them.
-     D2: disc outline held to a constant 1 SCREEN px rather than 1 world unit. */
+  /* ---- family bodies: solid plates so regions read even before nodes land ----
+     D2: disc outline held to a constant 1 SCREEN px rather than 1 world unit.
+     D19: hidden in axes mode — positions are semantic there, discs would lie. */
   g.lineWidth = spx(1);
-  for (const f of FAMS){
+  for (const f of AXES.on ? [] : FAMS){
     const anyVis = f.members.some(visible);
     g.beginPath();
     g.arc(f.x, f.y, f.r, 0, Math.PI * 2);
@@ -1199,7 +1407,7 @@ function render(){
   const detailT = act ? 1 : clamp((view.k - 1.4) / (2.4 - 1.4), 0, 1);
   const semDim = SHOW_CURATION ? 0.35 : 1;
 
-  if (detailT < 1){
+  if (detailT < 1 && !AXES.on){
     const springs = window.SPRINGS || [];
     let maxC = 1;
     for (const s of springs) if (s.c > maxC) maxC = s.c;
@@ -1225,6 +1433,9 @@ function render(){
       const va = visible(e.a), vb = visible(e.b);
       if (!va && !vb) continue;
       const lit = act && (act.set.has(e.a.id) && act.set.has(e.b.id));
+      /* D19: a PC scatter under 1,900 authored curves is a hairball that reads as
+         structure the axes do not encode — only a selection earns its edges. */
+      if (AXES.on && !lit) continue;
       if (!lit){
         /* below full detail, only a selected edge earns its ink; everything else
            (including intra-family, which the aggregate band never carries) waits
@@ -1265,7 +1476,7 @@ function render(){
      D7 fix: drawn AFTER (on top of) the now-dimmed semantic layer, at a screen-
      constant width and a grayscale ink tone (no new hue — the palette is fixed
      to blue/orange/aqua) so the toggle is perceptible instead of invisible. */
-  if (SHOW_CURATION){
+  if (SHOW_CURATION && !AXES.on){
     const curW = Math.max(1, 1.1) / view.k;   // >=1 screen px regardless of zoom
     g.strokeStyle = cssv('--ink-2');
     g.lineWidth = curW;
@@ -1288,7 +1499,14 @@ function render(){
     const isAct = act && act.node === n;
     const isNb  = act && !isAct && act.set.has(n.id);
     let alpha = vis ? 1 : 0.14;
-    if (QUERY && !matchesQuery(n)) alpha = 0.13;
+    /* D15: prose-only hits are real but weaker answers — most "trance" matches
+       mention it rather than being named for it. Painting both tiers at full
+       strength buries the strong hits; the ramp keeps them findable. */
+    if (QUERY){
+      const tier = matchTier(n);
+      if (tier === 0) alpha = 0.13;
+      else if (tier === 1 && vis) alpha = 0.55;
+    }
     if (dimAll && !isAct && !isNb) alpha = Math.min(alpha, 0.16);
     if (isAct || isNb) alpha = 1;
     alpha *= stipple;
@@ -1390,16 +1608,40 @@ function paintOverlay(){
   const hoverFam = (HOVER && HOVER.fam) || null, pinFam = (PINNED && PINNED.fam) || null;
   const key = view.x.toFixed(2) + ',' + view.y.toFixed(2) + ',' + view.k.toFixed(4) + ',' +
     MAC_FILTER + ',' + QUERY + ',' + W + ',' + H + ',' + LAYOUT_TICK + ',' +
+    AXES.on + ',' + AXES.x + ',' + AXES.y + ',' +
     (hoverFam ? hoverFam.name : '') + ',' + (pinFam ? pinFam.name : '');
   if (key === _ovlKey) return;
   _ovlKey = key;
+
+  /* ---- D18: macroclass territory captions (SVG, above the marks) ----
+     Emitted FIRST so family and technique labels paint over them in document
+     order — the caption is background context and loses to a specific name.
+     NOT pushed into placed[]: the halo keeps overlaps readable, and feeding a
+     fading caption into collision bookkeeping would make family labels jump. */
+  if (TERRITORY_OK && GHOST_FADE > 0.004 && !AXES.on){
+    const capScale = W < 560 ? 0.62 : 1;
+    for (const r of MACRO_REGIONS){
+      if (!r.ok) continue;                                   // per-region purity gate
+      if (MAC_FILTER && r.macro !== MAC_FILTER) continue;    // no stale captions
+      /* Size by member count, not whitespace — the largest class must not get the
+         smallest caption just because its territory is densest. */
+      const size = clamp(20 + Math.sqrt(r.n) * 1.15, 22, 46) * capScale;
+      const csx = r.lx * view.k + view.x, csy = r.ly * view.k + view.y;
+      if (csx < -40 || csx > W + 40 || csy < -40 || csy > H + 40) continue;  // D3 cull
+      ovlParts.push('<text class="ghostword" x="' + csx.toFixed(1) + '" y="' + csy.toFixed(1) +
+        '" text-anchor="middle" dominant-baseline="middle" style="font-size:' + size.toFixed(1) +
+        'px;opacity:' + (0.62 * GHOST_FADE).toFixed(3) + '">' + esc(r.macro) + '</text>');
+    }
+  }
 
   /* Greedy collision resolver: largest family first, 8 candidate offsets,
      then a leader line to a free slot. */
   const placed = [];
   const small = W < 640;
   const scaleInv = 1 / view.k;
-  const list = FAMS.slice().sort((a,b) => b.members.length - a.members.length);
+  /* D19: family labels describe the map layout; in axes mode they'd float over a
+     scatter that no longer groups by family. Pole labels replace them below. */
+  const list = AXES.on ? [] : FAMS.slice().sort((a,b) => b.members.length - a.members.length);
   const CAND = [
     [0, -1], [0, 1], [1, -0.55], [-1, -0.55],
     [1, 0.55], [-1, 0.55], [1, 0], [-1, 0]
@@ -1495,6 +1737,25 @@ function paintOverlay(){
     }
     ovlParts.push('<text class="famlbl' + (dim ? ' dim' : '') + '" x="' + put.x.toFixed(1) +
       '" y="' + put.y.toFixed(1) + '" text-anchor="middle">' + esc(txt) + '</text>');
+  }
+
+  /* D19: axis annotations — the PC name+variance in the corners, and the 2 most
+     extreme visible entries at each pole. Recomputed here every rebuild because
+     PCA signs are arbitrary run to run: labels bind to term-sets, not signs. */
+  if (AXES.on){
+    const axname = d => 'PC' + (d + 1) + (PC_LABELS[d] ? ' · ' + PC_LABELS[d] : '') +
+      (PC_VAR[d] ? ' · ' + (PC_VAR[d] * 100).toFixed(1) + '%' : '');
+    const pole = (d, sign) => NODES.filter(n => n.pc && visible(n))
+      .sort((a, b) => (b.pc[d] - a.pc[d]) * sign).slice(0, 2).map(n => n.name).join(' · ');
+    const P = (x, y, cls, anchor, txt) =>
+      ovlParts.push('<text class="' + cls + '" x="' + x + '" y="' + y +
+        '" text-anchor="' + anchor + '">' + esc(txt) + '</text>');
+    P(W - 8, H - 26, 'axname', 'end', 'x: ' + axname(AXES.x));
+    P(8, 26, 'axname', 'start', 'y: ' + axname(AXES.y));
+    P(W - 8, H / 2, 'axpole', 'end', pole(AXES.x, 1) + ' →');
+    P(8, H / 2, 'axpole', 'start', '← ' + pole(AXES.x, -1));
+    P(W / 2, 14, 'axpole', 'middle', '↑ ' + pole(AXES.y, 1));
+    P(W / 2, H - 6, 'axpole', 'middle', pole(AXES.y, -1) + ' ↓');
   }
 
   /* D1 — the blocker: zooming in revealed nothing, because technique names were
@@ -1633,6 +1894,7 @@ function buildControls(){
   const s = document.createElement('div');
   s.className = 'search';
   s.innerHTML = '<input type="search" id="q" placeholder="Search techniques" aria-label="Search techniques">' +
+                '<span class="qn" id="qn" hidden></span>' +
                 '<button type="button" id="qclear" aria-label="Clear search" hidden>&times;</button>';
   c.appendChild(s);
 
@@ -1656,6 +1918,47 @@ function buildControls(){
     dirty = true; kick();
   };
   u.appendChild(cur);
+
+  /* D19: semantic-axes mode — only offered when the payload carries PC coords,
+     so an older graph.json degrades to the map with no dead chrome. */
+  if (HAS_PC){
+    const nPC = Math.max(...NODES.filter(n => n.pc).map(n => n.pc.length));
+    const mkAxisSel = (axis, label) => {
+      const wrap = document.createElement('span');
+      wrap.className = 'macsel axsel';
+      const sel = document.createElement('select');
+      sel.setAttribute('aria-label', label + ' axis component');
+      for (let i = 0; i < nPC; i++){
+        const o = document.createElement('option');
+        o.value = i;
+        o.textContent = label + ': ' + (PC_LABELS[i] || 'PC' + (i + 1)) +
+          (PC_VAR[i] ? ' · ' + (PC_VAR[i] * 100).toFixed(1) + '%' : '');
+        sel.appendChild(o);
+      }
+      sel.value = AXES[axis];
+      sel.onchange = () => {
+        AXES[axis] = +sel.value;
+        if (AXES.on){ tweenLayout(axesApply); dirty = true; kick(); }
+      };
+      wrap.appendChild(sel);
+      return wrap;
+    };
+    const sx2 = mkAxisSel('x', 'X'), sy2 = mkAxisSel('y', 'Y');
+    const ax = document.createElement('button');
+    ax.className = 'chip'; ax.type = 'button'; ax.setAttribute('aria-pressed', 'false');
+    ax.textContent = 'Semantic axes';
+    ax.onclick = () => {
+      AXES.on = !AXES.on;
+      ax.setAttribute('aria-pressed', String(AXES.on));
+      sx2.style.display = sy2.style.display = AXES.on ? 'inline-flex' : 'none';
+      revalidateActive();
+      if (AXES.on) enterAxes(); else exitAxes();
+      announce();
+    };
+    u.appendChild(ax);
+    u.appendChild(sx2);
+    u.appendChild(sy2);
+  }
 
   const th = document.createElement('button');
   th.className = 'chip'; th.type = 'button';
@@ -1705,9 +2008,49 @@ function buildSuggestions(){
 
 /* ------------------------------------------------------------ detail rail -- */
 let railHideT = null;
+/* D16: sticky "Show more" across rail hops — a reader who expanded the prose once
+   is reading prose-first; re-collapsing on every flyTo hop would make them tap
+   "Show more" at every step of a chain. Resets on page load only. */
+let PROSE_OPEN = false;
+const NARROW = () => window.innerWidth <= 860;   // must match the 860px CSS breakpoint
+const railClamp = () => NARROW() && !PROSE_OPEN;
+
+/* D17: the rail lives INSIDE the stage, so every view-fitting routine must treat
+   the strip it occupies as unavailable viewport. Before this, fitView/flyTo fitted
+   to the full W and the rail then covered the very node + neighbours it describes
+   (measured: 114/768 flyTo targets and 417/768 highlighted neighbours landed
+   behind the panel; on mobile 469/768 selected nodes sat behind the sheet).
+   RAIL_W/RAIL_GAP mirror the CSS width:302px / right:12px — railInset() measures
+   the live rect whenever the rail is open, the constants are only the pre-open
+   fallback used by flyTo. */
+const RAIL_W = 302, RAIL_GAP = 12;
+let RAIL_SIDE = null;          // 'left' | 'right' | 'bottom' | null  (set by openRail/flyTo)
+function railInset(){
+  if (!PINNED || !RAIL_SIDE) return { side:null, availW:W, availH:H, ox:0, oy:0, x1:0, x2:0, y1:0, y2:0 };
+  /* Measure the live element when possible — the mobile sheet's height is
+     content-dependent, so a constant would be wrong for short sheets. */
+  let w = RAIL_W;
+  if (!rail.hidden){
+    const sr = stage.getBoundingClientRect(), rr = rail.getBoundingClientRect();
+    if (rr.width) w = rr.width;
+    if (RAIL_SIDE === 'bottom'){
+      const top = rr.top - sr.top;
+      return { side:'bottom', availW:W, availH:Math.max(120, top - 8),
+               ox:0, oy:-(H - (top - 8)) / 2, x1:0, x2:W, y1:top, y2:H };
+    }
+  }
+  const strip = w + RAIL_GAP * 2;
+  const left = RAIL_SIDE === 'left';
+  return {
+    side: RAIL_SIDE, availW: Math.max(160, W - strip), availH: H,
+    ox: left ? strip / 2 : -strip / 2, oy: 0,
+    x1: left ? RAIL_GAP : W - RAIL_GAP - w, x2: left ? RAIL_GAP + w : W - RAIL_GAP,
+    y1: 0, y2: H
+  };
+}
 function openRail(n){
   PINNED = n;
-  hideTip();          // the rail supersedes the tooltip; never show both
+  hideTip();          // the rail supersedes the tooltip for the pinned node
   clearTimeout(railHideT);
   rail.hidden = false;
   const links = (ADJ.get(n.id) || []);
@@ -1721,6 +2064,18 @@ function openRail(n){
   if (n.bounded) h += flag('neutral', 'bounded');
   h += flag('neutral', links.length + ' link' + (links.length === 1 ? '' : 's'));
   h += '</div>';
+  /* D16: the mech/disc prose is the whole payload — names like
+     "own-acts-surrender-ledger" are opaque slugs by design. It used to live ONLY
+     in the mouse-hover tooltip, so selecting a node (click, tap, or Enter) made
+     the prose unreachable, and touch/keyboard/screen-reader users could never
+     read what any of the 886 techniques IS. The rail is the canonical reader. */
+  if (n.mech || n.disc){
+    h += '<div class="prose' + (railClamp() ? ' clamp' : '') + '">';
+    if (n.mech) h += '<p class="mech">' + esc(n.mech) + '</p>';
+    if (n.disc) h += '<p class="disc"><em>Unlike its neighbours:</em> ' + esc(n.disc) + '</p>';
+    h += '<button class="more" type="button" aria-expanded="false">Show more</button>';
+    h += '</div>';
+  }
   h += '<h3>Linked techniques</h3>';
   if (!links.length) h += '<p class="none">No authored reading links. Related techniques share this family.</p>';
   else for (const l of links){
@@ -1729,17 +2084,23 @@ function openRail(n){
          ' &middot; ' + esc(l.n.family) + ' &middot; ' + esc(l.n.risk) + ' risk</span></button>';
   }
   rail.innerHTML = h;
-  /* Flip the rail to whichever side does not cover the selected node (and its
-     neighbourhood) — otherwise clicking a right-hand node hides the very links
-     the panel is describing. */
-  if (window.innerWidth > 860){
-    let cx0 = n.hx * view.k + view.x;
-    for (const l of links) cx0 = (cx0 + (l.n.hx * view.k + view.x)) / 2;
-    const onRight = cx0 > W * 0.55;
-    rail.style.right = onRight ? 'auto' : '12px';
-    rail.style.left  = onRight ? '12px' : 'auto';
-  } else { rail.style.left = ''; rail.style.right = ''; }
-  requestAnimationFrame(() => rail.classList.add('on'));
+  /* D17: flip the rail to whichever side does not cover the selected node. The
+     old expression `cx0 = (cx0 + linkX)/2` folded rather than averaged: it
+     weighted the last link 1/2 and the node's OWN position 2^-deg (~0 for a
+     22-link hub), so the side tracked edge iteration order and disagreed with
+     the node's actual screen side in 200/768 cases. Use the node's own position. */
+  if (!NARROW()){
+    const sx = n.hx * view.k + view.x;
+    RAIL_SIDE = sx > W * 0.5 ? 'left' : 'right';
+    rail.style.right = RAIL_SIDE === 'left' ? 'auto' : RAIL_GAP + 'px';
+    rail.style.left  = RAIL_SIDE === 'left' ? RAIL_GAP + 'px' : 'auto';
+  } else {
+    RAIL_SIDE = 'bottom';
+    rail.style.left = ''; rail.style.right = '';
+  }
+  /* avoidRail runs in the same rAF as the reveal so the sheet's content-dependent
+     height is laid out and measurable. */
+  requestAnimationFrame(() => { rail.classList.add('on'); avoidRail(n); });
   rail.querySelector('.close').onclick = closeRail;
   rail.querySelectorAll('[data-goto]').forEach(b => {
     b.onclick = () => {
@@ -1747,11 +2108,29 @@ function openRail(n){
       if (t) flyTo(t);
     };
   });
+  const pr = rail.querySelector('.prose');
+  if (pr){
+    const mb = pr.querySelector('.more');
+    mb.onclick = () => {
+      const open = pr.classList.toggle('clamp') === false;
+      pr.classList.add('was-clamped');       // keep the button present to collapse again
+      PROSE_OPEN = open;
+      mb.textContent = open ? 'Show less' : 'Show more';
+      mb.setAttribute('aria-expanded', String(open));
+    };
+    if (!railClamp() && NARROW()){
+      /* PROSE_OPEN already true — render expanded with a working collapse */
+      pr.classList.add('was-clamped');
+      mb.textContent = 'Show less';
+      mb.setAttribute('aria-expanded', 'true');
+    }
+  }
   dirty = true; kick();
   announce(n);
 }
 function closeRail(){
   PINNED = null;
+  RAIL_SIDE = null;
   rail.classList.remove('on');
   /* Cancel any pending hide when reopening — a reopen inside the 200ms fade left
      the rail with hidden=true, so its buttons became unreachable. */
@@ -1760,13 +2139,60 @@ function closeRail(){
   dirty = true; kick();
 }
 
-/* D9: flyTo used to hardcode the destination zoom at a constant 2.4 and centre
-   only the target node, so navigating from the rail discarded whatever zoom the
-   user was at and left the very linked nodes the rail was describing off-screen
-   as ribbons exiting the frame. Instead, fit the view to the bbox of the target
-   node PLUS its ADJ neighbours (the actual content the navigation is meant to
-   show), with padding and a max zoom so a single isolated node does not blow up
-   to fill the whole stage. */
+/* D17: after the rail is placed, pan (and on mobile, zoom) the minimum amount
+   that clears the selected node and its neighbours out from under it. On desktop
+   this is usually a no-op — measured median 0px, p90 38px, max 68px across 768
+   linked nodes — because the side flip already did the work; it exists for the
+   click-in-place path, where the flip alone still left 167/768 with an occluded
+   neighbour. */
+function avoidRail(n){
+  const R = railInset();
+  if (!R.side) return;
+  const links = ADJ.get(n.id) || [];
+  const M = 10;                                   // clearance past the rail edge
+
+  if (R.side === 'bottom'){
+    /* Fit node + neighbours into the stage ABOVE the sheet. */
+    let x1 = n.hx, y1 = n.hy, x2 = n.hx, y2 = n.hy;
+    for (const l of links){
+      x1 = Math.min(x1, l.n.hx); x2 = Math.max(x2, l.n.hx);
+      y1 = Math.min(y1, l.n.hy); y2 = Math.max(y2, l.n.hy);
+    }
+    const pad = 28;
+    const bw = Math.max(x2 - x1, 1), bh = Math.max(y2 - y1, 1);
+    const raw = Math.min((W - pad * 2) / bw, (R.availH - pad * 2) / bh);
+    const k1 = clamp(raw, 0.5, 4);
+    let cx0 = (x1 + x2) / 2, cy0 = (y1 + y2) / 2;
+    /* Some neighbourhoods need k<0.5 to fit above the sheet and hit the zoom
+       floor. Fitting them all is impossible — guarantee the SELECTED node
+       instead and let neighbours fall where they may, rather than silently
+       reintroducing the very occlusion this function exists to remove. */
+    if (raw < 0.5){ cx0 = n.hx; cy0 = n.hy; }
+    animateView(W / 2 - cx0 * k1, R.availH / 2 - cy0 * k1, k1);
+    return;
+  }
+
+  /* Desktop: horizontal nudge only — never change zoom on a click. */
+  const k = view.k;
+  let lo = n.hx * k + view.x, hi = lo;
+  for (const l of links){
+    const lx = l.n.hx * k + view.x;
+    lo = Math.min(lo, lx); hi = Math.max(hi, lx);
+  }
+  let d = 0;
+  if (R.side === 'left'){ if (lo < R.x2 + M) d = (R.x2 + M) - lo; }
+  else                  { if (hi > R.x1 - M) d = (R.x1 - M) - hi; }
+  if (!d) return;
+  const MAXPAN = Math.max(120, W * 0.28);          // never yank the view
+  d = clamp(d, -MAXPAN, MAXPAN);
+  animateView(view.x + d, view.y, k);
+}
+
+/* D9: fit the view to the bbox of the target node PLUS its ADJ neighbours (the
+   actual content the navigation is meant to show), with padding and a max zoom.
+   D17: decide the rail side BEFORE computing the transform (the current view is
+   about to be discarded, so use the node's position within its own neighbourhood
+   bbox) and fit to the stage area the rail will leave free. */
 function flyTo(n){
   const links = ADJ.get(n.id) || [];
   let x1 = n.hx, y1 = n.hy, x2 = n.hx, y2 = n.hy;
@@ -1774,22 +2200,28 @@ function flyTo(n){
     x1 = Math.min(x1, l.n.hx); x2 = Math.max(x2, l.n.hx);
     y1 = Math.min(y1, l.n.hy); y2 = Math.max(y2, l.n.hy);
   }
+  const cx0 = (x1 + x2) / 2, cy0 = (y1 + y2) / 2;
   const pad = 60;
   const bw = Math.max(x2 - x1, 1), bh = Math.max(y2 - y1, 1);
-  const targetK = clamp(Math.min((W - pad * 2) / bw, (H - pad * 2) / bh), 0.5, 4);
-  const cx0 = (x1 + x2) / 2, cy0 = (y1 + y2) / 2;
-  const tx = W / 2 - cx0 * targetK, ty = H / 2 - cy0 * targetK;
-  if (reduced()){ view.x = tx; view.y = ty; view.k = targetK; openRail(n); dirty = true; kick(); return; }
-  const from = { x:view.x, y:view.y, k:view.k }, t0 = now();
-  const step = () => {
-    const p = clamp((now() - t0) / 600, 0, 1), e = easeInOutCubic(p);
-    view.x = from.x + (tx - from.x) * e;
-    view.y = from.y + (ty - from.y) * e;
-    view.k = from.k + (targetK - from.k) * e;
-    dirty = true; kick();
-    if (p < 1) requestAnimationFrame(step); else openRail(n);
-  };
-  requestAnimationFrame(step);
+
+  if (NARROW()){
+    /* The sheet is not open yet and its height depends on content; fit to a
+       conservative top strip here, then openRail -> avoidRail refines against
+       the measured sheet. */
+    const availH = Math.max(120, H * 0.36);
+    const k1 = clamp(Math.min((W - pad * 2) / bw, (availH - pad * 2) / bh), 0.5, 4);
+    animateView(W / 2 - cx0 * k1, availH / 2 - cy0 * k1, k1, 600, () => openRail(n));
+    return;
+  }
+  /* Rail goes opposite the node's side of its own neighbourhood. openRail
+     recomputes RAIL_SIDE from the node's screen x, which after this transform
+     agrees with the pre-decision — the two do not fight. */
+  RAIL_SIDE = (n.hx >= cx0) ? 'left' : 'right';
+  const strip = RAIL_W + RAIL_GAP * 2;
+  const availW = Math.max(160, W - strip);
+  const targetK = clamp(Math.min((availW - pad * 2) / bw, (H - pad * 2) / bh), 0.5, 4);
+  const freeCx = RAIL_SIDE === 'left' ? strip + availW / 2 : availW / 2;
+  animateView(freeCx - cx0 * targetK, H / 2 - cy0 * targetK, targetK, 600, () => openRail(n));
 }
 
 /* --------------------------------------------------------------- events ---- */
@@ -1831,9 +2263,11 @@ function wireEvents(){
       if (HOVER) tweenTo(HOVER, 's', 1.6, 120);
       dirty = true; kick();
     }
-    /* When a node is pinned the rail already shows its detail — a tooltip on top
-       of it is redundant chrome, so only tip on un-pinned exploration. */
-    if (hit && !PINNED) showTip(hit, p.cx, p.cy); else hideTip();
+    /* D16: the guard used to be `!PINNED`, which killed the tooltip for every
+       node while anything was selected — so choosing among a 22-link hub list
+       was blind and two techniques could never be compared. Only the PINNED
+       node suppresses its own tip (the rail already shows it). */
+    if (hit && hit !== PINNED) showTip(hit, p.cx, p.cy); else hideTip();
     stage.style.cursor = hit ? 'pointer' : (drag ? 'grabbing' : 'default');
   });
 
@@ -1887,11 +2321,14 @@ function wireEvents(){
     ev.preventDefault();
     const b = cv.getBoundingClientRect();
     const mx = ev.clientX - b.left, my = ev.clientY - b.top;
-    const k0 = view.k;
-    const k1 = clamp(k0 * Math.exp(-ev.deltaY * 0.0016), 0.5, 6);
-    view.x = mx - (mx - view.x) * (k1 / k0);
-    view.y = my - (my - view.y) * (k1 / k0);
-    view.k = k1;
+    /* D14: deltaMode is per-browser. Firefox delivers DOM_DELTA_LINE (1) with
+       deltaY≈3 for a mouse notch; raw, that is a 0.5% zoom step (~370 notches to
+       reach k=6) — Firefox mouse users had no working zoom-in at all. 33px/line
+       puts a line-mode notch at 1.172x, matching a Chrome 100px notch's 1.174x.
+       Page mode (2) is capped: deltaY*H is 2.8x per notch, wilder than any mouse. */
+    const dm = ev.deltaMode === 1 ? 33 : ev.deltaMode === 2 ? H : 1;
+    const dy = clamp(ev.deltaY * dm, -240, 240);
+    zoomBy(Math.exp(-dy * 0.0016), mx, my);
     /* D6: pick() only ran on pointermove, so a wheel-zoom changed what sits under
        a STATIONARY cursor while the old tooltip stayed pinned open, covering
        exactly the region the user just zoomed into. Re-run pick() at the same
@@ -1904,7 +2341,7 @@ function wireEvents(){
       HOVER = hit;
       if (HOVER) tweenTo(HOVER, 's', 1.6, 120);
     }
-    if (hit && !PINNED) showTip(hit, mx, my); else hideTip();
+    if (hit && hit !== PINNED) showTip(hit, mx, my); else hideTip();
     stage.style.cursor = hit ? 'pointer' : 'default';
     dirty = true; kick();
   }, { passive:false });
@@ -1932,6 +2369,9 @@ function wireEvents(){
         view.x = mx - wx * k1;
         view.y = my - wy * k1;
         view.k = k1;
+        /* D14: pinch cannot route through zoomBy (it re-projects a gesture-start
+           world point under a moving midpoint), but it must clamp all the same. */
+        clampView();
         dirty = true; kick();
       }
     }
@@ -1949,11 +2389,7 @@ function wireEvents(){
     if (now - lastTap < 320 && Math.hypot(dx, dy) < 24){
       const b = cv.getBoundingClientRect();
       const mx = ev.clientX - b.left, my = ev.clientY - b.top;
-      const k0 = view.k, k1 = clamp(k0 * 1.8, 0.5, 6);
-      view.x = mx - (mx - view.x) * (k1 / k0);
-      view.y = my - (my - view.y) * (k1 / k0);
-      view.k = k1;
-      dirty = true; kick();
+      zoomBy(1.8, mx, my);   // D14: clamped like every other zoom path
       lastTap = 0;
     } else {
       lastTap = now; lastTapX = ev.clientX; lastTapY = ev.clientY;
@@ -2008,7 +2444,10 @@ function wireEvents(){
     b.onclick = () => sortTable(b.dataset.sort);
   });
 
-  addEventListener('resize', debounce(() => resize(false), 180));
+  addEventListener('resize', debounce(() => {
+    resize(false);
+    if (PINNED) avoidRail(PINNED);   // D17: rotation must re-clear the node
+  }, 180));
   RM.addEventListener && RM.addEventListener('change', () => { dirty = true; kick(); });
 
   /* Theme can also change from outside this script (OS preference, or a host
@@ -2022,14 +2461,21 @@ function wireEvents(){
 }
 
 function ensureVisible(n){
+  /* D17: keyboard arrow nav used a flat 40px stage-edge margin, which can be
+     UNDERNEATH the rail — the focus ring landed behind the panel and the user
+     navigated blind. Widen the margin on whichever side the rail occupies. */
+  const R = railInset();
   const sx = n.hx * view.k + view.x, sy = n.hy * view.k + view.y;
   const m = 40;
+  const mL = R.side === 'left'  ? R.x2 + m : m;
+  const mR = R.side === 'right' ? W - R.x1 + m : m;
+  const mB = R.side === 'bottom' ? H - R.y1 + m : m;
   let moved = false;
-  if (sx < m){ view.x += m - sx; moved = true; }
-  if (sx > W - m){ view.x -= sx - (W - m); moved = true; }
+  if (sx < mL){ view.x += mL - sx; moved = true; }
+  if (sx > W - mR){ view.x -= sx - (W - mR); moved = true; }
   if (sy < m){ view.y += m - sy; moved = true; }
-  if (sy > H - m){ view.y -= sy - (H - m); moved = true; }
-  if (moved) dirty = true;
+  if (sy > H - mB){ view.y -= sy - (H - mB); moved = true; }
+  if (moved){ clampView(); dirty = true; }
 }
 
 /* The empty state depends on BOTH the query and the macroclass filter, so it is
@@ -2049,12 +2495,25 @@ function refreshEmptyState(){
 
 function applyQuery(v){
   QUERY = String(v || '').trim().toLowerCase();
+  QTOK = QUERY ? normText(QUERY).split(' ').filter(Boolean) : [];   // D15: once per query, not per node
   el('qclear').hidden = !QUERY;
   revalidateActive();
   const hits = refreshEmptyState();
-  /* matches pulse once */
-  if (QUERY && hits.length && hits.length < 120){
-    for (const n of hits){ tweenTo(n, 's', 1.5, 150); setTimeout(() => tweenTo(n, 's', 1, 150), 155); }
+  /* D15: result count in the search pill — the graph alone cannot distinguish
+     "6 hits" from "141 hits", and the by-name split teaches the tier encoding. */
+  QHITS = hits.length;
+  QSTRONG = hits.reduce((c, n) => c + (matchTier(n) === 2 ? 1 : 0), 0);
+  const qn = el('qn');
+  qn.hidden = !QUERY || !QHITS;
+  if (!qn.hidden){
+    qn.innerHTML = '<b>' + QHITS + '</b>' +
+      (QSTRONG && QSTRONG < QHITS ? ' &middot; ' + QSTRONG + ' by name' : '');
+  }
+  /* matches pulse once — strong (by-name) hits only, or a prose-wide query
+     would pulse a hundred dots and mean nothing */
+  const strong = hits.filter(n => matchTier(n) === 2);
+  if (!reduced() && QUERY && strong.length && strong.length < 120){
+    for (const n of strong){ tweenTo(n, 's', 1.5, 150); setTimeout(() => tweenTo(n, 's', 1, 150), 155); }
   }
   dirty = true; kick();
   announce();
@@ -2063,6 +2522,8 @@ function applyQuery(v){
 /* macroclass filter: non-members contract; the sim runs extra ticks so the
    chosen macroclass visibly gathers rather than merely recolouring. */
 function gather(){
+  /* D19: in axes mode positions are semantic — a filter must dim, never move. */
+  if (AXES.on){ revalidateActive(); refreshEmptyState(); dirty = true; kick(); return; }
   const gen = ++LAYOUT_GEN;
   revalidateActive();
   refreshEmptyState();
@@ -2101,7 +2562,15 @@ function gather(){
       f.y = clamp(f.y, f.r + 26, H - f.r - 10);
     }
   }
+  /* D18: capture the caption anchors' CURRENT positions before measureTerritories
+     rebuilds MACRO_REGIONS against the settled TARGET layout — otherwise the
+     captions teleport to the destination while their discs are still travelling. */
+  const prevG = new Map(MACRO_REGIONS.map(g => [g.macro, { x:g.lx, y:g.ly }]));
   measureTerritories();
+  const targetG = MACRO_REGIONS.map(g => {
+    const p = prevG.get(g.macro);
+    return { g, x0:p ? p.x : g.lx, y0:p ? p.y : g.ly, x1:g.lx, y1:g.ly };
+  });
 
   /* Capture where each node currently sits BEFORE placeNodes() overwrites hx/hy,
      then interpolate start -> target. (placeNodes() also sets x=hx, so reading x
@@ -2115,6 +2584,7 @@ function gather(){
   const targetF = startF.map(s => ({ s, x1:s.f.x, y1:s.f.y }));
   for (const t of targetF){ t.s.f.x = t.s.x0; t.s.f.y = t.s.y0; }
   for (const t of targetN){ t.s.n.hx = t.s.x0; t.s.n.hy = t.s.y0; }
+  for (const t of targetG){ t.g.lx = t.x0; t.g.ly = t.y0; }
 
   const t0 = now();
   const step = () => {
@@ -2128,12 +2598,20 @@ function gather(){
     for (const t of targetN){
       t.s.n.hx = t.s.x0 + (t.x1 - t.s.x0) * e;
       t.s.n.hy = t.s.y0 + (t.y1 - t.s.y0) * e;
+      /* the painter reads x/y (px() returns the node once revealed) — without
+         this the marks teleported to the target while the discs tweened */
+      t.s.n.x = t.s.n.hx; t.s.n.y = t.s.n.hy;
+    }
+    for (const t of targetG){
+      t.g.lx = t.x0 + (t.x1 - t.x0) * e;
+      t.g.ly = t.y0 + (t.y1 - t.y0) * e;
     }
     dirty = true; kick();
     if (p < 1) requestAnimationFrame(step);
     else {
       for (const t of targetF){ t.s.f.x = t.x1; t.s.f.y = t.y1; }
       for (const t of targetN){ t.s.n.hx = t.x1; t.s.n.hy = t.y1; t.s.n.x = t.x1; t.s.n.y = t.y1; }
+      for (const t of targetG){ t.g.lx = t.x1; t.g.ly = t.y1; }
       buildGrid();
     }
   };
@@ -2167,12 +2645,17 @@ function hideTip(){ tip.classList.remove('on'); }
 /* -------------------------------------------------------------- a11y ------ */
 function announce(n){
   const d = el('graphdesc');
+  /* D16: cue the prose's PRESENCE only — this is a polite live region firing on
+     every arrow-key move; ~700 chars per keystroke would make arrow navigation
+     unusable. The rail <aside> is the accessible reading surface. */
   if (n) d.textContent = n.name + ', family ' + n.family + ', ' + n.macro + ', ' + n.risk + ' risk, ' +
-    (ADJ.get(n.id) || []).length + ' links.';
+    (ADJ.get(n.id) || []).length + ' links.' +
+    (n.mech ? ' Description in the detail panel.' : '');
   else {
     const c = NODES.filter(visible).length;
     d.textContent = c + ' of ' + NODES.length + ' techniques shown' +
-      (MAC_FILTER ? ', macroclass ' + MAC_FILTER : '') + (QUERY ? ', matching ' + QUERY : '') + '.';
+      (MAC_FILTER ? ', macroclass ' + MAC_FILTER : '') +
+      (QUERY ? ', matching ' + QUERY + (QSTRONG && QSTRONG < c ? ', ' + QSTRONG + ' by name' : '') : '') + '.';
   }
 }
 
