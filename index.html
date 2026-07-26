@@ -126,11 +126,28 @@
     fill:var(--ink-1);opacity:.085;text-transform:lowercase;
   }
   .famlbl{
-    font-size:11px;font-weight:560;fill:var(--ink-2);
+    font-size:12.5px;font-weight:560;fill:var(--ink-2);
     paint-order:stroke;stroke:var(--surface-1);stroke-width:3.5px;stroke-linejoin:round;
   }
   .famlbl.dim{opacity:.28}
+  /* Headline mode: when a family's disc dominates the viewport, its name is set
+     large and centred inside the disc instead of perimeter-slotted — there is no
+     perimeter left to slot into once the disc fills most of the stage. */
+  .famlbl.headline{
+    font-weight:680;fill:var(--ink-1);opacity:.34;letter-spacing:-.01em;
+    stroke-width:0;paint-order:normal;
+  }
+  .famlbl.headline.dim{opacity:.14}
   .leader{stroke:var(--ink-4);stroke-width:.8;opacity:.5;fill:none}
+  /* D1: per-technique labels, the zoom level-of-detail tier. Fixed CSS px (not
+     scaled by the canvas transform — these are SVG overlay text, already in
+     screen space) so they read at a constant comfortable size regardless of k;
+     opacity is set inline per-label for the fade-in ramp rather than here. */
+  .techlbl{
+    font-size:11px;font-weight:520;fill:var(--ink-1);
+    paint-order:stroke;stroke:var(--surface-1);stroke-width:3px;stroke-linejoin:round;
+    pointer-events:none;
+  }
 
   /* ---- tooltip ---- */
   .tip{
@@ -316,8 +333,8 @@
     force simulation over the <em>see&nbsp;also</em> and <em>contrasts&nbsp;with</em> links that
     cross between them, so families that share reading paths settle together. Colour encodes
     <em>risk</em>, not category — category is shown by position and by the large background words.
-    The taxonomy also records 221 <em>distinct-from</em> pairs (checked and ruled apart); those are
-    curation evidence rather than reading paths and never influence the layout.
+    The taxonomy also records <b id="curcount">0</b> <em>distinct-from</em> pairs (checked and ruled
+    apart); those are curation evidence rather than reading paths and never influence the layout.
   </p>
 
   <details id="tablepanel">
@@ -387,6 +404,7 @@ function mulberry(seed){
 /* ---------------------------------------------------------------- state --- */
 let DATA = null, NODES = [], BY_ID = new Map();
 let SEM = [], CUR = [], ADJ = new Map();
+let CONTRASTS_N = 0;   // count of contrasts_with edges — drives the legend's D13 gate
 let FAMS = [], FAM_BY_NAME = new Map(), MACRO_REGIONS = [];
 let MAC_FILTER = null, SHOW_CURATION = false, QUERY = '';
 let HOVER = null, PINNED = null, KBFOCUS = null;
@@ -401,6 +419,10 @@ let raf = null, dirty = true;
    a stale callback cannot overwrite a newer solve or rebuild GRID for a dead layout.
    Declared here (not beside gather) so solve() can bump it without a TDZ error. */
 let LAYOUT_GEN = 0;
+/* Bumped every frame that gather()'s reflow tween moves a family disc — the label
+   overlay's cache key needs this because f.x/f.y can change for 400ms with no other
+   cache-key input (view, filter, query) changing at all. */
+let LAYOUT_TICK = 0;
 let animQueue = [];          // active tweens
 let GRID = null;             // spatial hash for hit-testing
 
@@ -462,6 +484,7 @@ function boot(d){
     if (SEMANTIC[e.k]) SEM.push(rec);
     else if (CURATION[e.k]) CUR.push(rec);
   }
+  CONTRASTS_N = SEM.reduce((c, e) => c + (e.k === 'contrasts_with' ? 1 : 0), 0);
   for (const e of SEM){
     if (!ADJ.has(e.a.id)) ADJ.set(e.a.id, []);
     if (!ADJ.has(e.b.id)) ADJ.set(e.b.id, []);
@@ -502,6 +525,7 @@ function boot(d){
   el('fcount').textContent = FAMS.length.toLocaleString();
   el('ecount').textContent = SEM.length.toLocaleString();
   el('tcount').textContent = NODES.length.toLocaleString();
+  el('curcount').textContent = CUR.length.toLocaleString();
   buildRiskMix();
 
   buildControls();
@@ -956,6 +980,68 @@ function activeSet(){
   return { node:a, set:s };
 }
 
+/* ---- D3: pan safety net ----
+   Pan (and any view.x/y mutation) was unbounded: a fat drag could sail the whole
+   graph off-canvas onto a blank stage with no way back short of reloading. This
+   clamps the translation so the content bbox always keeps a healthy margin of
+   itself inside the visible stage, regardless of how the caller got view.x/y there. */
+function contentBBox(){
+  if (!FAMS.length) return null;
+  let x1 = Infinity, y1 = Infinity, x2 = -Infinity, y2 = -Infinity;
+  for (const f of FAMS){
+    x1 = Math.min(x1, f.x - f.r); x2 = Math.max(x2, f.x + f.r);
+    y1 = Math.min(y1, f.y - f.r); y2 = Math.max(y2, f.y + f.r);
+  }
+  return { x1, y1, x2, y2 };
+}
+function clampView(){
+  const bb = contentBBox();
+  if (!bb) return;
+  const k = view.k;
+  /* screen-space box of the content at the current transform */
+  const sx1 = bb.x1 * k + view.x, sy1 = bb.y1 * k + view.y;
+  const sx2 = bb.x2 * k + view.x, sy2 = bb.y2 * k + view.y;
+  const bw = sx2 - sx1, bh = sy2 - sy1;
+  /* require at least ~30% of the content's on-screen extent (or of the stage,
+     whichever is smaller) to stay visible on every side, so a drag can go
+     off-stage but never disappear entirely. The Math.min against W/H matters:
+     when zoomed in the content's screen extent exceeds the stage, and a margin
+     derived from content extent alone would exceed the stage width — making the
+     graph's boundary unreachable and teleporting the view ~500px on a 1px drag
+     near an edge (observed live at k=6). */
+  const marginX = Math.max(60, Math.min(bw, W) * 0.3),
+        marginY = Math.max(60, Math.min(bh, H) * 0.3);
+  if (sx2 < marginX) view.x += marginX - sx2;
+  if (sx1 > W - marginX) view.x -= sx1 - (W - marginX);
+  if (sy2 < marginY) view.y += marginY - sy2;
+  if (sy1 > H - marginY) view.y -= sy1 - (H - marginY);
+}
+
+/* Fit the content bbox to the stage with padding — used by Reset view, double-
+   click-to-fit, and boot/resize so the graph never opens huddled in a corner. */
+function fitView(animate){
+  const bb = contentBBox();
+  if (!bb) return;
+  const pad = 36;
+  const bw = Math.max(1, bb.x2 - bb.x1), bh = Math.max(1, bb.y2 - bb.y1);
+  const k1 = clamp(Math.min((W - pad * 2) / bw, (H - pad * 2) / bh), 0.5, 6);
+  const cx0 = (bb.x1 + bb.x2) / 2, cy0 = (bb.y1 + bb.y2) / 2;
+  const tx = W / 2 - cx0 * k1, ty = H / 2 - cy0 * k1;
+  if (!animate || reduced()){
+    view.x = tx; view.y = ty; view.k = k1; dirty = true; kick(); return;
+  }
+  const from = { x:view.x, y:view.y, k:view.k }, t0 = now();
+  const step = () => {
+    const p = clamp((now() - t0) / 500, 0, 1), e = easeInOutCubic(p);
+    view.x = from.x + (tx - from.x) * e;
+    view.y = from.y + (ty - from.y) * e;
+    view.k = from.k + (k1 - from.k) * e;
+    dirty = true; kick();
+    if (p < 1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+}
+
 /* ----------------------------------------------------------- rendering ---- */
 function resize(initial){
   const r = stage.getBoundingClientRect();
@@ -992,14 +1078,40 @@ function frame(){
 }
 
 /* Risk is ordinal (low < medium < high), so it gets an ordered encoding, not two
-   categorical hues. low = aqua fill; medium = hollow aqua-ink ring (reads as a step
-   down in weight, no new hue); high = orange fill + orange ring. Only 299 of 804
-   land on the caution channel, so the field stays legible instead of alarming. */
+   categorical hues. low = aqua fill; medium = a light aqua-tinted fill + aqua ring
+   (reads as a step down in weight, no new hue); high = orange fill + orange ring.
+   Only 299 of 804 land on the caution channel, so the field stays legible instead
+   of alarming. */
 function colFor(n){
   if (n.risk === 'high') return cssv('--orange');
   if (n.risk === 'low') return cssv('--aqua');
   if (n.risk === 'medium') return cssv('--aqua');
   return cssv('--node-neutral');
+}
+
+/* #rrggbb (or #rgb) mixed toward another #rrggbb by t (0..1 = fully "to"). Used to
+   derive the medium-risk fill from live theme tokens rather than a hardcoded tint,
+   so light/dark and any future palette edit stay in sync automatically. */
+function mixHex(from, to, t){
+  const hex = h => {
+    h = h.trim().replace('#', '');
+    if (h.length === 3) h = h.split('').map(c => c + c).join('');
+    const v = parseInt(h, 16);
+    return [(v >> 16) & 255, (v >> 8) & 255, v & 255];
+  };
+  const a = hex(from), b = hex(to);
+  const m = a.map((c, i) => Math.round(c + (b[i] - c) * t));
+  return 'rgb(' + m.join(',') + ')';
+}
+/* medium-risk fill: aqua mixed ~30% toward the surface — an ordered step below the
+   solid low-risk fill, still clearly aqua-hued (greyscale-safe via the stroke +
+   legend redundancy), and no longer reads as an empty/disabled hollow slot. */
+let _medFillCache = null, _medFillKey = '';
+function medFill(){
+  const key = cssv('--aqua') + '|' + cssv('--surface-1');
+  if (_medFillCache && _medFillKey === key) return _medFillCache;
+  _medFillKey = key;
+  return _medFillCache = mixHex(cssv('--aqua'), cssv('--surface-1'), 0.7);
 }
 
 function render(){
@@ -1015,35 +1127,47 @@ function render(){
   const blue = cssv('--blue'), orange = cssv('--orange');
   const edgeCol = cssv('--edge');
   const lerp = (a,b,t) => a + (b - a) * t;
+  /* D2: every stroke on canvas lives under g.scale(view.k), so a lineWidth (and
+     dash segment) specified in world units scales WITH zoom — a 1px edge became a
+     6.3px ribbon at k=6 and sub-pixel haze at k=0.5. Screen-space helpers convert
+     a desired ON-SCREEN px to the world-unit value that renders at that size. */
+  const spx = px_ => px_ / view.k;
+  const sdash = arr => arr.map(spx);
 
   /* ---- ghost macroclass words, painted BEHIND the discs on the canvas ----
-     (the SVG overlay always paints on top, which buried them under node fields) */
+     (the SVG overlay always paints on top, which buried them under node fields)
+     D10: the words used to vanish instantly at k=2.2 (a binary pop mid-gesture);
+     ghostFade ramps 1.8->2.4 instead, so the words dissolve continuously as the
+     zoom crosses into per-node LOD territory rather than snapping off. */
   ovlParts.length = 0;
-  if (TERRITORY_OK && view.k < 2.2 && W >= 560){
+  const ghostFade = 1 - clamp((view.k - 1.8) / (2.4 - 1.8), 0, 1);
+  if (TERRITORY_OK && ghostFade > 0.004 && W >= 560){
     g.save();
     g.textAlign = 'center'; g.textBaseline = 'middle';
     g.fillStyle = cssv('--ink-1');
     for (const r of MACRO_REGIONS){
       const size = clamp(22 + (r.clear || 0) * 0.55, 24, 44);
       g.font = '650 ' + size.toFixed(0) + 'px ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif';
-      g.globalAlpha = 0.16 * stipple;
-      /* keep the word fully on canvas in screen space */
+      /* D3 fix: a panned/zoomed view used to clamp the word back onto the visible
+         edge, so once its territory left the viewport the word detached from its
+         discs and piled up overlapping in whichever corner was nearest. Cull
+         instead — if the anchor is off-stage, the word simply isn't drawn, same
+         as any other off-screen content. */
       const half = g.measureText(r.macro).width / 2;
       const sxw = r.lx * view.k + view.x, syw = r.ly * view.k + view.y;
-      const minX = (half * view.k + 10 - view.x) / view.k;
-      const maxX = (W - half * view.k - 10 - view.x) / view.k;
-      const minY = (size * 0.7 * view.k + 8 - view.y) / view.k;
-      const maxY = (H - size * 0.7 * view.k - 8 - view.y) / view.k;
-      void sxw; void syw;
-      g.fillText(r.macro, clamp(r.lx, minX, maxX), clamp(r.ly, minY, maxY));
+      if (sxw + half * view.k < -20 || sxw - half * view.k > W + 20 ||
+          syw + size * 0.7 * view.k < -20 || syw - size * 0.7 * view.k > H + 20) continue;
+      g.globalAlpha = 0.16 * stipple * ghostFade;
+      g.fillText(r.macro, r.lx, r.ly);
     }
     g.restore();
     g.globalAlpha = 1;
   }
 
   /* ---- family bodies: soft discs so regions read even before nodes land ----
-     Kept translucent so the ghost territory words stay readable beneath them. */
-  g.lineWidth = 1;
+     Kept translucent so the ghost territory words stay readable beneath them.
+     D2: disc outline held to a constant 1 SCREEN px rather than 1 world unit. */
+  g.lineWidth = spx(1);
   for (const f of FAMS){
     const anyVis = f.members.some(visible);
     g.beginPath();
@@ -1057,33 +1181,105 @@ function render(){
   }
   g.globalAlpha = 1;
 
-  /* ---- curation hairlines (evidence; never influence layout) ---- */
+  /* ---- semantic filaments ----
+     When curation evidence is toggled on, semantic edges step back (dimmed) so the
+     curation hairlines below are not lost in the denser semantic fog: D7 fix — the
+     previous curation stroke (0.6px @ 0.20 alpha, same hue as semantic edges) was
+     genuinely indistinguishable from the edge layer it sat inside.
+
+     D5 fix: 1,882 individually-drawn quadratics at flat alpha was pure fog at
+     overview (uniform grey wash) and unreadable rope at intermediate zoom, with
+     546 intra-family links invisible inside their own tiny discs regardless. Below
+     the detail threshold, cross-family relationships are drawn as ONE aggregated
+     band per family pair (counts from SPRINGS, width/alpha ~ log(count)) and intra-
+     family edges are suppressed entirely; individual curves fade in only once
+     zoomed past the threshold or once a node is selected (the one case an
+     aggregate can't answer). detailT is a continuous 0->1 ramp over a k range,
+     not a hard cutoff, so nothing pops mid-gesture. */
+  const detailT = act ? 1 : clamp((view.k - 1.4) / (2.4 - 1.4), 0, 1);
+  const semDim = SHOW_CURATION ? 0.35 : 1;
+
+  if (detailT < 1){
+    const springs = window.SPRINGS || [];
+    let maxC = 1;
+    for (const s of springs) if (s.c > maxC) maxC = s.c;
+    const bandFade = (1 - detailT) * stipple * semDim;
+    if (bandFade > 0.003){
+      g.strokeStyle = edgeCol;
+      g.setLineDash([]);
+      for (const s of springs){
+        const t = Math.log(1 + s.c) / Math.log(1 + maxC);
+        g.lineWidth = (1.1 + t * 5.5) / view.k;
+        g.globalAlpha = (0.12 + t * 0.38) * bandFade;
+        g.beginPath();
+        g.moveTo(s.A.x, s.A.y); g.lineTo(s.B.x, s.B.y);
+        g.stroke();
+      }
+      g.globalAlpha = 1;
+    }
+  }
+
+  if (detailT > 0){
+    const capPx = 22; /* screen-constant curvature cap; world-space cap shrinks as k grows */
+    for (const e of SEM){
+      const va = visible(e.a), vb = visible(e.b);
+      if (!va && !vb) continue;
+      const lit = act && (act.set.has(e.a.id) && act.set.has(e.b.id));
+      if (!lit){
+        /* below full detail, only a selected edge earns its ink; everything else
+           (including intra-family, which the aggregate band never carries) waits
+           for the fade-in so the transition is a cross-fade, not a swap */
+        if (act) continue;
+        if (detailT <= 0) continue;
+      }
+      const A = px(e.a), B = px(e.b);
+      const dx = B.x - A.x, dy = B.y - A.y;
+      const dist = Math.hypot(dx, dy) || 1;
+      /* D8 fix: offset perpendicular to the chord, not straight up in world space.
+         The old `midY - min(30, dist*0.14)` made near-vertical edges (dx~0) degenerate
+         to straight lines (perpendicular-to-a-vertical-chord IS vertical, so a
+         vertical-only offset added nothing) while horizontal edges got the full
+         bow, and the bow direction depended on compass heading rather than which
+         two nodes were linked. Perpendicular-to-the-chord bows every edge by the
+         same rule regardless of orientation, and the sign is keyed off endpoint
+         order (idx, not id — id may be a non-numeric slug) so a given pair always
+         curves the same way. */
+      const nx = -dy / dist, ny = dx / dist;
+      const sign = e.a.idx < e.b.idx ? 1 : -1;
+      const bow = Math.min(capPx / view.k, dist * 0.14) * sign;
+      const mx = (A.x + B.x) / 2 + nx * bow, my = (A.y + B.y) / 2 + ny * bow;
+      g.beginPath();
+      g.moveTo(A.x, A.y); g.quadraticCurveTo(mx, my, B.x, B.y);
+      g.strokeStyle = lit ? blue : edgeCol;
+      const baseW = lit ? 2.1 : (e.k === 'contrasts_with' ? 1.5 : 1.05);
+      g.lineWidth = baseW / view.k;
+      if (e.k === 'contrasts_with') g.setLineDash([4 / view.k, 3 / view.k]); else g.setLineDash([]);
+      const fade = lit ? 1 : detailT;
+      g.globalAlpha = (lit ? 0.95 : (dimAll ? 0.10 : (va && vb ? 0.45 : 0.12)) * semDim) * stipple * fade;
+      g.stroke();
+    }
+  }
+  g.setLineDash([]); g.globalAlpha = 1;
+
+  /* ---- curation hairlines (evidence; never influence layout) ----
+     D7 fix: drawn AFTER (on top of) the now-dimmed semantic layer, at a screen-
+     constant width and a grayscale ink tone (no new hue — the palette is fixed
+     to blue/orange/aqua) so the toggle is perceptible instead of invisible. */
   if (SHOW_CURATION){
-    g.strokeStyle = edgeCol; g.lineWidth = 0.6; g.globalAlpha = 0.20 * stipple;
+    const curW = Math.max(1, 1.1) / view.k;   // >=1 screen px regardless of zoom
+    g.strokeStyle = cssv('--ink-2');
+    g.lineWidth = curW;
+    g.setLineDash([2 / view.k, 2.5 / view.k]);
+    g.globalAlpha = 0.55 * stipple;
     g.beginPath();
     for (const e of CUR){
       if (!visible(e.a) || !visible(e.b)) continue;
-      g.moveTo(px(e.a).x, px(e.a).y); g.lineTo(px(e.b).x, px(e.b).y);
+      const A = px(e.a), B = px(e.b);
+      g.moveTo(A.x, A.y); g.lineTo(B.x, B.y);
     }
-    g.stroke(); g.globalAlpha = 1;
-  }
-
-  /* ---- semantic filaments ---- */
-  for (const e of SEM){
-    const va = visible(e.a), vb = visible(e.b);
-    if (!va && !vb) continue;
-    const lit = act && (act.set.has(e.a.id) && act.set.has(e.b.id));
-    const A = px(e.a), B = px(e.b);
-    const mx = (A.x + B.x) / 2, my = (A.y + B.y) / 2 - Math.min(30, Math.hypot(B.x-A.x, B.y-A.y) * 0.14);
-    g.beginPath();
-    g.moveTo(A.x, A.y); g.quadraticCurveTo(mx, my, B.x, B.y);
-    g.strokeStyle = lit ? blue : edgeCol;
-    g.lineWidth = lit ? 2.1 : (e.k === 'contrasts_with' ? 1.5 : 1.05);
-    if (e.k === 'contrasts_with') g.setLineDash([4, 3]); else g.setLineDash([]);
-    g.globalAlpha = (lit ? 0.95 : (dimAll ? 0.10 : (va && vb ? 0.45 : 0.12))) * stipple;
     g.stroke();
+    g.setLineDash([]); g.globalAlpha = 1;
   }
-  g.setLineDash([]); g.globalAlpha = 1;
 
   /* ---- nodes ---- */
   for (const n of NODES){
@@ -1113,39 +1309,50 @@ function render(){
     else { g.beginPath(); g.arc(p.x, p.y, r, 0, Math.PI * 2); }
 
     if (hollow){
-      /* medium risk: hollow mark — an ordered step between low and high that costs
-         no extra hue and survives greyscale. Filled with the DISC colour (not the
-         stage) so it reads as hollow rather than as a hole punched through. */
-      g.fillStyle = cssv('--disc'); g.fill();
-      g.lineWidth = 1.6; g.strokeStyle = colFor(n); g.globalAlpha = alpha; g.stroke();
+      /* medium risk: a light aqua-tinted fill (not the bare disc colour) — an
+         ordered step between low (solid aqua) and high (solid orange) that costs
+         no extra hue and survives greyscale, but no longer reads as an empty or
+         disabled placeholder the way a disc-coloured hollow mark did.
+         D2: 1.6 SCREEN px, not world units (was an 8.4px+ ring at high zoom). */
+      g.fillStyle = medFill(); g.fill();
+      g.lineWidth = spx(1.6); g.strokeStyle = colFor(n); g.globalAlpha = alpha; g.stroke();
     } else {
       g.fill();
-      /* surface ring keeps overlapping marks separable */
-      g.lineWidth = 1.4; g.strokeStyle = surface; g.globalAlpha = alpha * 0.9; g.stroke();
+      /* surface ring keeps overlapping marks separable — D2: constant screen px */
+      g.lineWidth = spx(1.4); g.strokeStyle = surface; g.globalAlpha = alpha * 0.9; g.stroke();
     }
 
-    /* risk redundancy: high risk gets a stroked ring, never hue alone */
+    /* risk redundancy: high risk gets a stroked ring, never hue alone.
+       D2: ring OFFSET (r + Npx) and stroke WIDTH both held in screen space so the
+       halo neither swells into a blob at high zoom nor vanishes at low zoom. */
     if (n.risk === 'high' && vis && !isAct && !isNb){
-      g.beginPath(); g.arc(p.x, p.y, r + 2.4, 0, Math.PI * 2);
-      g.strokeStyle = orange; g.lineWidth = 1.1; g.globalAlpha = alpha * 0.55; g.stroke();
+      g.beginPath(); g.arc(p.x, p.y, r + spx(2.4), 0, Math.PI * 2);
+      g.strokeStyle = orange; g.lineWidth = spx(1.1); g.globalAlpha = alpha * 0.55; g.stroke();
     }
-    /* consent-required: orange is the caution channel throughout */
-    if (n.consent && vis && (isAct || isNb || view.k > 2)){
-      g.beginPath(); g.arc(p.x, p.y, r + 4.6, 0, Math.PI * 2);
-      g.strokeStyle = orange; g.lineWidth = 1; g.globalAlpha = alpha * 0.55;
-      g.setLineDash([2, 2]); g.stroke(); g.setLineDash([]);
+    /* consent-required: orange is the caution channel throughout.
+       D10: the dashed ring used to snap into existence at view.k>2 (a hard binary
+       pop mid-gesture); zoomFade ramps 1.8->2.4 (same range as the ghost-word
+       fade-out, so one continuous transition governs the overview<->detail
+       handoff) and is folded into alpha instead of gating the draw outright. */
+    if (n.consent && vis){
+      const zoomFade = isAct || isNb ? 1 : clamp((view.k - 1.8) / (2.4 - 1.8), 0, 1);
+      if (zoomFade > 0.004){
+        g.beginPath(); g.arc(p.x, p.y, r + spx(4.6), 0, Math.PI * 2);
+        g.strokeStyle = orange; g.lineWidth = spx(1); g.globalAlpha = alpha * 0.55 * zoomFade;
+        g.setLineDash(sdash([2, 2])); g.stroke(); g.setLineDash([]);
+      }
     }
     if (isNb){
-      g.beginPath(); g.arc(p.x, p.y, r + 3.4, 0, Math.PI * 2);
-      g.strokeStyle = blue; g.lineWidth = 1.8; g.globalAlpha = alpha; g.stroke();
+      g.beginPath(); g.arc(p.x, p.y, r + spx(3.4), 0, Math.PI * 2);
+      g.strokeStyle = blue; g.lineWidth = spx(1.8); g.globalAlpha = alpha; g.stroke();
     }
     if (isAct){
-      g.beginPath(); g.arc(p.x, p.y, r + 5, 0, Math.PI * 2);
-      g.strokeStyle = blue; g.lineWidth = 2.4; g.globalAlpha = 1; g.stroke();
+      g.beginPath(); g.arc(p.x, p.y, r + spx(5), 0, Math.PI * 2);
+      g.strokeStyle = blue; g.lineWidth = spx(2.4); g.globalAlpha = 1; g.stroke();
     }
     if (n === KBFOCUS){
-      g.beginPath(); g.arc(p.x, p.y, r + 8, 0, Math.PI * 2);
-      g.strokeStyle = blue; g.lineWidth = 3; g.globalAlpha = 1; g.stroke();
+      g.beginPath(); g.arc(p.x, p.y, r + spx(8), 0, Math.PI * 2);
+      g.strokeStyle = blue; g.lineWidth = spx(3); g.globalAlpha = 1; g.stroke();
     }
   }
   g.globalAlpha = 1;
@@ -1173,7 +1380,20 @@ function roundRect(g, x, y, w, h, r){
 
 /* ------------------------------------------------------ label overlay ----- */
 const ovlParts = [];
+/* The collision search below is deterministic in (view.x, view.y, view.k, filter,
+   query, hover/pin family, W, H) — every other rendered frame (a hover tween easing,
+   a node-alpha fade) recomputes and reserializes the identical SVG markup via
+   innerHTML, which was ~2.6ms of a ~5.7ms frame on its own. Cache on that key and
+   skip both the search and the DOM write when nothing label-relevant moved. */
+let _ovlKey = null;
 function paintOverlay(){
+  const hoverFam = (HOVER && HOVER.fam) || null, pinFam = (PINNED && PINNED.fam) || null;
+  const key = view.x.toFixed(2) + ',' + view.y.toFixed(2) + ',' + view.k.toFixed(4) + ',' +
+    MAC_FILTER + ',' + QUERY + ',' + W + ',' + H + ',' + LAYOUT_TICK + ',' +
+    (hoverFam ? hoverFam.name : '') + ',' + (pinFam ? pinFam.name : '');
+  if (key === _ovlKey) return;
+  _ovlKey = key;
+
   /* Greedy collision resolver: largest family first, 8 candidate offsets,
      then a leader line to a free slot. */
   const placed = [];
@@ -1199,6 +1419,14 @@ function paintOverlay(){
     return false;
   };
 
+  /* Real label metrics, not the old len*5.6 guess — measureText against the exact
+     .famlbl font so the collision boxes (and therefore the drop/detach decisions)
+     match what actually gets painted. ctx is safe to borrow here: paintOverlay()
+     always runs after render()'s g.restore(), so no canvas draw state leaks either
+     direction, and the font is reset before every measurement. */
+  ctx.font = '560 12.5px ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif';
+  const viewMin = Math.min(W, H);
+
   for (const f of list){
     const anyVis = f.members.some(visible);
     if (small && f.members.length < 26 && !(HOVER && HOVER.fam === f) && !(PINNED && PINNED.fam === f)) continue;
@@ -1207,7 +1435,21 @@ function paintOverlay(){
     const sx = f.x * view.k + view.x, sy = f.y * view.k + view.y;
     const rr = f.r * view.k;
     const txt = f.name;
-    const wpx = txt.length * 5.6 + 6, hpx = 13;
+    const dim = (MAC_FILTER && !anyVis) || (QUERY && !f.members.some(matchesQuery));
+
+    /* Headline mode: once this family's disc fills ~40% of the viewport's shorter
+       side, there is no perimeter left to slot a label into (the D12 failure this
+       fixes — labels dropping or detaching exactly when you zoom into one family).
+       Render the name large, low-alpha, and centred inside the disc instead. */
+    if (rr * 2 > viewMin * 0.40){
+      const size = clamp(rr * 0.30, 16, 96);
+      ovlParts.push('<text class="famlbl headline' + (dim ? ' dim' : '') + '" x="' + sx.toFixed(1) +
+        '" y="' + sy.toFixed(1) + '" text-anchor="middle" dominant-baseline="middle" ' +
+        'style="font-size:' + size.toFixed(1) + 'px">' + esc(txt) + '</text>');
+      continue;
+    }
+
+    const wpx = ctx.measureText(txt).width + 6, hpx = 13;
     let put = null;
 
     for (const [ox, oy] of CAND){
@@ -1247,7 +1489,6 @@ function paintOverlay(){
     }
     if (!put) continue;
     placed.push(put.box);
-    const dim = (MAC_FILTER && !anyVis) || (QUERY && !f.members.some(matchesQuery));
     if (put.leader){
       ovlParts.push('<path class="leader" d="M' + put.leader[0].toFixed(1) + ' ' + put.leader[1].toFixed(1) +
         'L' + put.x.toFixed(1) + ' ' + (put.y - 3).toFixed(1) + '"/>');
@@ -1255,6 +1496,55 @@ function paintOverlay(){
     ovlParts.push('<text class="famlbl' + (dim ? ' dim' : '') + '" x="' + put.x.toFixed(1) +
       '" y="' + put.y.toFixed(1) + '" text-anchor="middle">' + esc(txt) + '</text>');
   }
+
+  /* D1 — the blocker: zooming in revealed nothing, because technique names were
+     never drawn on canvas at any scale (only 35 family names ever render, and
+     only some of those). This is the level-of-detail tier: once a node's SCREEN
+     radius crosses ~8px (~k>2.2 for a typical mark), its name is set beside it.
+     - fade continuously over a k range (D10) rather than popping in at a threshold
+     - greedy collision-cull against family labels AND each other, largest/most-
+       connected marks (the ones most worth naming) claiming space first
+     - capped candidate count so an accidental zoom into a 300-node disc cannot
+       spend the frame budget laying out 300 labels; the cap only bites when far
+       more nodes qualify than can ever fit anyway. */
+  const R0 = 8, R1 = 14;               // screen-radius fade-in range, px
+  let techFade = 0;
+  for (const n of NODES){
+    const p = px(n);
+    if (!visible(n)) continue;
+    const scrR = nodeR(n) * view.k;
+    if (scrR < R0 - 0.01) continue;
+    const fade = clamp((scrR - R0) / (R1 - R0), 0, 1);
+    if (fade <= 0.01) continue;
+    techFade = Math.max(techFade, fade);
+    const sx = p.x * view.k + view.x, sy = p.y * view.k + view.y;
+    if (sx < -20 || sx > W + 20 || sy < -20 || sy > H + 20) continue;
+    n._scrR = scrR; n._sx = sx; n._sy = sy; n._labFade = fade;
+  }
+  if (techFade > 0.01){
+    ctx.font = '520 11px ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif';
+    /* Most-connected first: with limited room, the marks worth naming first are
+       the ones a viewer is most likely to be zooming in ON (hover/pin) or that
+       carry the most reading-path context (higher degree). */
+    const cand = NODES.filter(n => n._labFade > 0)
+      .sort((a, b) => (b === HOVER || b === PINNED ? 1 : 0) - (a === HOVER || a === PINNED ? 1 : 0) ||
+        (ADJ.get(b.id) || []).length - (ADJ.get(a.id) || []).length)
+      .slice(0, 260);
+    for (const n of cand){
+      const txt = n.name;
+      const wpx = ctx.measureText(txt).width + 4, hpx = 12;
+      const cxp = n._sx + n._scrR + 5 + wpx / 2;
+      const cyp = n._sy;
+      const box = { x1:cxp - wpx/2, y1:cyp - hpx/2, x2:cxp + wpx/2, y2:cyp + hpx/2 };
+      if (cxp + wpx/2 > W - 2 || cxp - wpx/2 < 2 || cyp - hpx/2 < 2 || cyp + hpx/2 > H - 2) continue;
+      if (placed.some(p2 => overlap(p2, box))) continue;
+      placed.push(box);
+      ovlParts.push('<text class="techlbl" x="' + cxp.toFixed(1) + '" y="' + (cyp + 3.5).toFixed(1) +
+        '" text-anchor="middle" style="opacity:' + (n._labFade * 0.92).toFixed(2) + '">' +
+        esc(txt) + '</text>');
+    }
+  }
+
   ovl.innerHTML = ovlParts.join('');
 }
 function overlap(a, b){
@@ -1348,6 +1638,15 @@ function buildControls(){
 
   /* utility row (top-right of header) */
   const u = el('utility');
+
+  /* D3: explicit recovery control — a first-time visitor who fat-drags off the
+     content otherwise has no affordance back short of reloading the page. */
+  const reset = document.createElement('button');
+  reset.className = 'chip'; reset.type = 'button';
+  reset.textContent = 'Reset view';
+  reset.onclick = () => fitView(true);
+  u.appendChild(reset);
+
   const cur = document.createElement('button');
   cur.className = 'chip'; cur.type = 'button'; cur.setAttribute('aria-pressed', 'false');
   cur.textContent = 'Curation links';
@@ -1376,16 +1675,20 @@ function buildLegend(){
   const L = el('legend');
   const item = (cls, style, label) =>
     '<span class="it"><span class="lg ' + cls + '"' + (style ? ' style="' + style + '"' : '') + '></span>' + label + '</span>';
+  /* contrasts_with is real but vanishingly rare (3 of 1,882 semantic edges) — a
+     legend entry for a near-zero-count encoding is noise, so only show it once
+     there are enough of them to plausibly meet on canvas. */
+  const showContrasts = CONTRASTS_N >= 8;
   L.innerHTML =
     item('dot', 'background:var(--aqua)', 'low risk') +
-    item('dot', 'background:var(--disc);border:2px solid var(--aqua)', 'medium risk') +
+    item('dot', 'background:color-mix(in srgb, var(--aqua) 30%, var(--surface-1));border:2px solid var(--aqua)', 'medium risk') +
     item('dot', 'background:var(--orange);box-shadow:0 0 0 2px var(--surface-1),0 0 0 3px var(--orange)', 'high risk') +
     '<span class="sep"></span>' +
     item('dot', 'background:var(--ink-3)', 'acts on another') +
     item('sq', 'background:var(--ink-3)', 'internal state') +
     '<span class="sep"></span>' +
     item('line', '', 'see also') +
-    item('line dash', '', 'contrasts with') +
+    (showContrasts ? item('line dash', '', 'contrasts with') : '') +
     item('dot', 'background:var(--blue)', 'selected + linked');
 }
 
@@ -1457,9 +1760,25 @@ function closeRail(){
   dirty = true; kick();
 }
 
+/* D9: flyTo used to hardcode the destination zoom at a constant 2.4 and centre
+   only the target node, so navigating from the rail discarded whatever zoom the
+   user was at and left the very linked nodes the rail was describing off-screen
+   as ribbons exiting the frame. Instead, fit the view to the bbox of the target
+   node PLUS its ADJ neighbours (the actual content the navigation is meant to
+   show), with padding and a max zoom so a single isolated node does not blow up
+   to fill the whole stage. */
 function flyTo(n){
-  const targetK = clamp(2.4, 0.5, 6);
-  const tx = W / 2 - n.hx * targetK, ty = H / 2 - n.hy * targetK;
+  const links = ADJ.get(n.id) || [];
+  let x1 = n.hx, y1 = n.hy, x2 = n.hx, y2 = n.hy;
+  for (const l of links){
+    x1 = Math.min(x1, l.n.hx); x2 = Math.max(x2, l.n.hx);
+    y1 = Math.min(y1, l.n.hy); y2 = Math.max(y2, l.n.hy);
+  }
+  const pad = 60;
+  const bw = Math.max(x2 - x1, 1), bh = Math.max(y2 - y1, 1);
+  const targetK = clamp(Math.min((W - pad * 2) / bw, (H - pad * 2) / bh), 0.5, 4);
+  const cx0 = (x1 + x2) / 2, cy0 = (y1 + y2) / 2;
+  const tx = W / 2 - cx0 * targetK, ty = H / 2 - cy0 * targetK;
   if (reduced()){ view.x = tx; view.y = ty; view.k = targetK; openRail(n); dirty = true; kick(); return; }
   const from = { x:view.x, y:view.y, k:view.k }, t0 = now();
   const step = () => {
@@ -1487,6 +1806,7 @@ function wireEvents(){
   let drag = null, moved = 0;
   const pts = new Map();
   let pinch0 = null;
+  let lastPtrType = 'mouse';   // dblclick is a MouseEvent with no pointerType; track it ourselves
   /* The detail rail lives inside the stage, so its own scrolling and button
      presses must not be hijacked by the graph's pan/zoom gestures. */
   const fromRail = ev => rail.contains(ev.target);
@@ -1498,6 +1818,7 @@ function wireEvents(){
       const dx = ev.clientX - drag.px, dy = ev.clientY - drag.py;
       moved += Math.abs(dx) + Math.abs(dy);
       view.x += dx; view.y += dy;
+      clampView();   // D3: a fat drag can no longer sail the content off-stage
       drag.px = ev.clientX; drag.py = ev.clientY;
       dirty = true; kick();
       return;
@@ -1517,6 +1838,7 @@ function wireEvents(){
   });
 
   stage.addEventListener('pointerdown', ev => {
+    lastPtrType = ev.pointerType || 'mouse';
     if (fromRail(ev)) return;
     if (ev.button !== 0 && ev.pointerType === 'mouse') return;
     /* Only the FIRST pointer drives the pan. A second finger starts a pinch and
@@ -1544,6 +1866,22 @@ function wireEvents(){
   stage.addEventListener('pointercancel', endDrag);
   stage.addEventListener('pointerleave', () => { hideTip(); if (HOVER){ tweenTo(HOVER, 's', 1, 120); HOVER = null; dirty = true; kick(); } });
 
+  /* D3: double-click empty stage to fit the whole graph back into view — the
+     other half of the pan-safety fix (clampView keeps you from getting fully
+     lost; this is the explicit recovery gesture for "I don't like where I am"). */
+  stage.addEventListener('dblclick', ev => {
+    if (fromRail(ev)) return;
+    /* Touch double-taps synthesize a dblclick too — but on touch the double-tap
+       gesture is zoom-IN (handler below); letting the synthesized dblclick run
+       fitView here made every empty-space double-tap zoom 1.8x and then
+       instantly snap back to the overview (observed live). Mouse only. */
+    if (lastPtrType === 'touch') return;
+    const p = toLocal(ev);
+    if (pick(p.x, p.y)) return;   // double-click on a node is not a fit gesture
+    ev.preventDefault();
+    fitView(true);
+  });
+
   stage.addEventListener('wheel', ev => {
     if (fromRail(ev)) return;      // let the rail scroll itself
     ev.preventDefault();
@@ -1554,6 +1892,20 @@ function wireEvents(){
     view.x = mx - (mx - view.x) * (k1 / k0);
     view.y = my - (my - view.y) * (k1 / k0);
     view.k = k1;
+    /* D6: pick() only ran on pointermove, so a wheel-zoom changed what sits under
+       a STATIONARY cursor while the old tooltip stayed pinned open, covering
+       exactly the region the user just zoomed into. Re-run pick() at the same
+       screen position against the new transform and resync HOVER/tooltip so a
+       zoom that didn't move the pointer still refreshes what's "under" it. */
+    const wx = (mx - view.x) / view.k, wy = (my - view.y) / view.k;
+    const hit = pick(wx, wy);
+    if (hit !== HOVER){
+      if (HOVER) tweenTo(HOVER, 's', 1, 120);
+      HOVER = hit;
+      if (HOVER) tweenTo(HOVER, 's', 1.6, 120);
+    }
+    if (hit && !PINNED) showTip(hit, mx, my); else hideTip();
+    stage.style.cursor = hit ? 'pointer' : 'default';
     dirty = true; kick();
   }, { passive:false });
 
@@ -1565,9 +1917,21 @@ function wireEvents(){
     if (pts.size === 2){
       const [a, b] = [...pts.values()];
       const d = Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
-      if (!pinch0) pinch0 = { d, k:view.k };
+      const bb = cv.getBoundingClientRect();
+      const mx = (a.clientX + b.clientX) / 2 - bb.left;
+      const my = (a.clientY + b.clientY) / 2 - bb.top;
+      if (!pinch0) pinch0 = { d, k:view.k, mx, my, vx:view.x, vy:view.y };
       else {
-        view.k = clamp(pinch0.k * (d / pinch0.d), 0.5, 6);
+        /* Anchor to the world point that was under the midpoint at gesture
+           start, same math as the wheel handler, then re-project it under
+           wherever the (possibly-moving) midpoint is now — this makes a
+           two-finger drag pan the view as well as pinch it. */
+        const k1 = clamp(pinch0.k * (d / pinch0.d), 0.5, 6);
+        const wx = (pinch0.mx - pinch0.vx) / pinch0.k;
+        const wy = (pinch0.my - pinch0.vy) / pinch0.k;
+        view.x = mx - wx * k1;
+        view.y = my - wy * k1;
+        view.k = k1;
         dirty = true; kick();
       }
     }
@@ -1575,6 +1939,26 @@ function wireEvents(){
   const clearPt = ev => { pts.delete(ev.pointerId); if (pts.size < 2) pinch0 = null; };
   stage.addEventListener('pointerup', clearPt);
   stage.addEventListener('pointercancel', clearPt);
+
+  /* double-tap to zoom-to-point (touch has no wheel; this is its zoom gesture) */
+  let lastTap = 0, lastTapX = 0, lastTapY = 0;
+  stage.addEventListener('pointerup', ev => {
+    if (fromRail(ev) || ev.pointerType !== 'touch') return;
+    const now = performance.now();
+    const dx = ev.clientX - lastTapX, dy = ev.clientY - lastTapY;
+    if (now - lastTap < 320 && Math.hypot(dx, dy) < 24){
+      const b = cv.getBoundingClientRect();
+      const mx = ev.clientX - b.left, my = ev.clientY - b.top;
+      const k0 = view.k, k1 = clamp(k0 * 1.8, 0.5, 6);
+      view.x = mx - (mx - view.x) * (k1 / k0);
+      view.y = my - (my - view.y) * (k1 / k0);
+      view.k = k1;
+      dirty = true; kick();
+      lastTap = 0;
+    } else {
+      lastTap = now; lastTapX = ev.clientX; lastTapY = ev.clientY;
+    }
+  });
 
   /* keyboard */
   stage.tabIndex = 0;
@@ -1736,6 +2120,7 @@ function gather(){
   const step = () => {
     if (gen !== LAYOUT_GEN) return;          // a newer layout superseded this one
     const p = clamp((now() - t0) / 400, 0, 1), e = easeOutCubic(p);
+    LAYOUT_TICK++;
     for (const t of targetF){
       t.s.f.x = t.s.x0 + (t.x1 - t.s.x0) * e;
       t.s.f.y = t.s.y0 + (t.y1 - t.s.y0) * e;
