@@ -183,8 +183,12 @@
   .tip b{display:block;font-size:13.5px;margin-bottom:2px;color:var(--ink-1)}
   .tip .m{color:var(--ink-2);font-size:12.5px}
   .tip .r{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
-  .tip .mech{display:block;margin-top:8px;color:var(--ink-1);font-size:12.5px;line-height:1.5}
-  .tip .disc{display:block;margin-top:7px;padding-top:7px;border-top:1px solid var(--line);
+  /* Prose ships UNCLIPPED in the payload (owner ruling 2026-07-26); the tooltip
+     is a hover preview, so it line-clamps here — the rail shows the full text. */
+  .tip .mech{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:8;overflow:hidden;
+             margin-top:8px;color:var(--ink-1);font-size:12.5px;line-height:1.5}
+  .tip .disc{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden;
+             margin-top:7px;padding-top:7px;border-top:1px solid var(--line);
              color:var(--ink-2);font-size:12px;line-height:1.5}
   .tip .disc em{color:var(--ink-3);font-style:normal}
 
@@ -457,24 +461,26 @@ let MAC_FILTER = null, SHOW_CURATION = false, QUERY = '', QTOK = [], QSTRONG = 0
    entry embeddings (shipped as `pc` per node + `pc_var` by publish_public.py).
    Placeholder PC labels until the blind-rater naming panel runs post-recipe. */
 let AXES = { on:false, x:0, y:1 }, PC_VAR = [], HAS_PC = false;
-/* Consensus labels from the 12-rater blind panel of 2026-07-26 (issue #13).
-   They BIND TO THE POLE TERM-SETS of that run, not to signs or indices — PCA
-   signs are arbitrary and the axes change with any re-embed, so after a recipe
-   change these must be re-derived (re-run the panel), never trusted forward.
-   "(?)" marks the two axes the panel itself flagged as likely register/authoring
-   artifacts (low confidence + register votes): they may index how entries are
-   written rather than what the techniques do. */
+/* Consensus labels from the 20-rater blind panel of 2026-07-26, cross-checked
+   against a 9-rater panel on an independent re-embedding (issue #13; full
+   provenance + adversarial review in docs/pc-axes-panel-2026-07-26/). Labels
+   BIND TO THE POLE TERM-SETS of that run, not to signs or indices — PCA signs
+   are arbitrary and the axes change with any re-embed, so after a recipe change
+   these must be re-derived, never trusted forward. "(?)" marks axes the panels
+   flagged as register/authoring artifacts or that failed pole-level replication. */
 const PC_LABELS = [
-  'Contingency vs authorship',      // PC1 — 12/12, but entangled with curation-era drift
-  'Social leverage vs trance',      // PC2 — 12/12
-  'Arousal vs memory',              // PC3 — 12/12, unanimous 5/5 confidence
-  'Cue install vs exit',            // PC4 — 12/12; pole B mixes safety + its subversion
-  'Entrainment vs concealment',     // PC5 — 12/12; carries most of risk (r -0.48)
-  'Repetition vs agency (?)',       // PC6 — 7/12, 4 register-artifact votes
-  'Isolation vs trust',             // PC7 — 12/12; may be severity, not mechanism
-  'Whole artifact vs single move (?)', // PC8 — 9/12, authoring-altitude suspicion
-  'Operator absent vs present',     // PC9 — pole A clean, pole B possibly residual
-  'Aftercare vs spread',            // PC10 — 12/12
+  'Contingency vs authorship',      // PC1 — 20/20, replicates; entangled with curation-era drift
+  'Social leverage vs trance',      // PC2 — 20/20, replicates (arrives as model-B PC1)
+  'Arousal vs memory',              // PC3 — 20/20 all at confidence 5, replicates
+  'Cue install vs exit (?)',        // PC4 — 20/20 in-model but FAILS pole-level cross-model
+  'Entrainment vs covert install',  // PC5 — 20/20 + 9/9 cross-model; top risk carrier (r -0.48),
+                                    //        risky pole = amnesia-wrapped persistent install;
+                                    //        "noticeability" reading NOT supported by lexicon test
+  'Repetition vs agency (?)',       // PC6 — 12/20, 7 register votes; artifact REPLICATES (also flagged 6/9 in model B)
+  'Isolation vs trust',             // PC7 — 19/20, replicates same-index
+  'Whole artifact vs single move (?)', // PC8 — authoring-altitude suspicion, PARTIAL cross-model
+  'Operator absent vs present',     // PC9 — operator-absence pole replicates; opposite pole residual
+  'Aftercare vs spread',            // PC10 — 20/20 in-model, only the covert-spillover pole replicates
 ];
 let HOVER = null, PINNED = null, KBFOCUS = null;
 let TERRITORY_OK = true;
