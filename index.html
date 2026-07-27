@@ -351,6 +351,18 @@
       transform:translateY(14px);border-radius:14px;
     }
     .rail.on{transform:none}
+    /* Compact header: the risk-mix bar goes; the graph strip gains its height. */
+    .riskmix{display:none}
+    header{padding:14px 16px 0;gap:6px 12px}
+    /* Distinct-from pairs are a desktop curation surface — chip hidden here. */
+    #curbtn{display:none}
+    /* The 815px table cannot fit a phone: drop Macroclass / Flags / Links and let
+       cells wrap, so the expanded drawer prose lays out at viewport width. */
+    #tbl{min-width:0}
+    #tbl th,#tbl td{white-space:normal}
+    #tbl th:nth-child(3),#tbl td:nth-child(3),
+    #tbl th:nth-child(5),#tbl td:nth-child(5),
+    #tbl th:nth-child(6),#tbl td:nth-child(6){display:none}
   }
   @media (max-width:640px){
     header{padding:16px 16px 0;gap:8px 14px}
@@ -396,8 +408,8 @@
 <header>
   <div>
     <h1>v7 Influence Taxonomy</h1>
-    <p class="sub"><b id="ncount">804</b> techniques · <b id="fcount">35</b> families ·
-      <b id="ecount">68</b> reading links · hue shows <b>risk</b></p>
+    <p class="sub"><b id="ncount">…</b> techniques · <b id="fcount">…</b> families ·
+      <b id="ecount">…</b> reading links · hue shows <b>risk</b></p>
     <div class="riskmix" id="riskmix"></div>
   </div>
   <div class="hgrow"></div>
@@ -427,12 +439,14 @@
     force simulation over the <em>see&nbsp;also</em> and <em>contrasts&nbsp;with</em> links that
     cross between them, so families that share reading paths settle together. Colour encodes
     <em>risk</em>, not category — category is shown by position and by the large background words.
-    The taxonomy also records <b id="curcount">0</b> <em>distinct-from</em> pairs (checked and ruled
+    The taxonomy also records <b id="curcount">…</b> <em>distinct-from</em> pairs (checked and ruled
     apart); those are curation evidence rather than reading paths and never influence the layout.
+    At overview zoom, thick grey lines aggregate many see-also links between two families;
+    zoom in to see the individual links.
   </p>
 
   <details id="tablepanel">
-    <summary>Table view — all <span id="tcount">804</span> techniques</summary>
+    <summary>Table view — all <span id="tcount">…</span> techniques</summary>
     <div id="tmsg"></div>
     <div class="tscroll">
       <table id="tbl">
@@ -585,13 +599,17 @@ function failSoft(err){
 function boot(d){
   DATA = d;
 
+  /* PAYLOAD FIELD WHITELIST — known trap. This mapping is the ONLY gate between
+     graph.json and the app: any new field publish_public.py adds to the payload
+     must be picked up here explicitly or it is SILENTLY dropped — nothing errors,
+     the feature just never receives its data. Adding a field on the exporter side
+     is not done until it is added here too. */
   NODES = d.nodes.map((n, i) => ({
     id:n.id, name:n.name,
     family:n.family || 'unclassified',
     macro:n.macroclass || 'unclassified',
     risk:n.risk || 'unknown',
     consent:!!n.consent, bounded:!!n.bounded,
-    weight:+n.weight || 0,
     mech:n.mech || '', disc:n.disc || '',   // prose — a name alone says nothing
     stated:!!n.so,                          // evidence: asserted but never demonstrated
     ex:Array.isArray(n.ex) ? n.ex : null,   // worked examples: [{f:facet, t:text}]
@@ -1018,8 +1036,8 @@ function placeNodes(){
     need = Math.min(need, per);
   }
   if (isFinite(need)){
-    /* unit radius at scale 1 is ~3.5px on average */
-    NODE_SCALE = clamp(need / 3.5, 0.55, 1.35);
+    /* unit radius at scale 1 is a constant 4.5 world units (see nodeR) */
+    NODE_SCALE = clamp(need / 4.5, 0.55, 1.35);
   }
 
   for (const f of FAMS){
@@ -1094,11 +1112,13 @@ function placeNodes(){
   buildGrid();
 }
 
-/* Node radius scales with the layout so marks never outgrow their disc on a small
-   canvas (the mobile failure: fixed-size nodes inside shrunken discs spilled over
-   the rim and collided across families). NODE_SCALE is set from the solved layout. */
+/* Node radius is CONSTANT (weight-sizing cut 2026-07-27: source-frequency weight
+   was decoration, not information). NODE_SCALE still scales with the layout so
+   marks never outgrow their disc on a small canvas (the mobile failure: fixed-size
+   nodes inside shrunken discs spilled over the rim and collided across families).
+   Selection/hover still scale via the `s` tween in render(). */
 let NODE_SCALE = 1;
-const nodeR = n => (2.9 + Math.min(3.4, Math.sqrt(Math.max(n.weight, 1)) / 15)) * NODE_SCALE;
+const nodeR = n => 4.5 * NODE_SCALE;
 
 /* ---------------------------------------------------- D19: axes layout ----- */
 /* Map each node's chosen PC pair onto stage coordinates. Runs instantly; the
@@ -1184,21 +1204,27 @@ function buildGrid(){
   }
   GRID = { cell:CELL, map:g };
 }
-function pick(px, py){
+function pick(px, py, touch){
   if (!GRID) return null;
   /* The grid indexes solved (hx/hy) positions, but during the reveal nodes are
      painted at interpolated positions — picking then would target marks that are
      not under the cursor. The reveal is 900ms and non-interactive by design. */
   if (reveal < 1) return null;
+  /* Touch: a fingertip cannot land on a ~5-world-unit mark. Inflate the hit
+     radius to ~22 SCREEN px (converted to world units at the current zoom) and
+     select the NEAREST node inside it. The grid search widens with the slop —
+     at low k, 22 screen px can exceed one 40-unit cell. */
+  const slop = touch ? 22 / view.k : 0;
   const C = GRID.cell, gx = (px / C) | 0, gy = (py / C) | 0;
-  let best = null, bd = 18 * 18;
-  for (let i = -1; i <= 1; i++) for (let j = -1; j <= 1; j++){
+  const reach = Math.max(1, Math.ceil(slop / C));
+  let best = null, bd = touch ? Infinity : 18 * 18;   // touch: the rr gate below bounds it
+  for (let i = -reach; i <= reach; i++) for (let j = -reach; j <= reach; j++){
     const b = GRID.map.get((gx + i) + ',' + (gy + j));
     if (!b) continue;
     for (const n of b){
       if (!visible(n)) continue;
       const d = (n.hx - px) ** 2 + (n.hy - py) ** 2;
-      const rr = Math.max(nodeR(n) + 6, 9);
+      const rr = Math.max(nodeR(n) + 6, 9, slop);
       if (d < rr * rr && d < bd){ bd = d; best = n; }
     }
   }
@@ -1450,7 +1476,6 @@ function render(){
      6.3px ribbon at k=6 and sub-pixel haze at k=0.5. Screen-space helpers convert
      a desired ON-SCREEN px to the world-unit value that renders at that size. */
   const spx = px_ => px_ / view.k;
-  const sdash = arr => arr.map(spx);
 
   /* D18: the macroclass captions now render in the SVG overlay (paintOverlay),
      where the paint-order halo keeps them legible ABOVE the discs and marks —
@@ -1635,19 +1660,9 @@ function render(){
       g.beginPath(); g.arc(p.x, p.y, r + spx(2.4), 0, Math.PI * 2);
       g.strokeStyle = orange; g.lineWidth = spx(1.1); g.globalAlpha = alpha * 0.55; g.stroke();
     }
-    /* consent-required: orange is the caution channel throughout.
-       D10: the dashed ring used to snap into existence at view.k>2 (a hard binary
-       pop mid-gesture); zoomFade ramps 1.8->2.4 (same range as the ghost-word
-       fade-out, so one continuous transition governs the overview<->detail
-       handoff) and is folded into alpha instead of gating the draw outright. */
-    if (n.consent && vis){
-      const zoomFade = isAct || isNb ? 1 : clamp((view.k - 1.8) / (2.4 - 1.8), 0, 1);
-      if (zoomFade > 0.004){
-        g.beginPath(); g.arc(p.x, p.y, r + spx(4.6), 0, Math.PI * 2);
-        g.strokeStyle = orange; g.lineWidth = spx(1); g.globalAlpha = alpha * 0.55 * zoomFade;
-        g.setLineDash(sdash([2, 2])); g.stroke(); g.setLineDash([]);
-      }
-    }
+    /* consent-required carries NO canvas encoding (dashed ring cut 2026-07-27:
+       three concentric ring meanings on one mark was unreadable) — the flag still
+       shows as pills in the tooltip, rail and table. */
     if (isNb){
       g.beginPath(); g.arc(p.x, p.y, r + spx(3.4), 0, Math.PI * 2);
       g.strokeStyle = blue; g.lineWidth = spx(1.8); g.globalAlpha = alpha; g.stroke();
@@ -2025,7 +2040,9 @@ function buildControls(){
 
   const cur = document.createElement('button');
   cur.className = 'chip'; cur.type = 'button'; cur.setAttribute('aria-pressed', 'false');
-  cur.textContent = 'Curation links';
+  cur.id = 'curbtn';   // hidden at <=860px — a desktop curation surface
+  cur.textContent = 'Distinct-from pairs';
+  cur.title = 'Show the curator-authored distinct-from pairs as dotted lines';
   cur.onclick = () => {
     SHOW_CURATION = !SHOW_CURATION;
     cur.setAttribute('aria-pressed', String(SHOW_CURATION));
@@ -2313,13 +2330,14 @@ function avoidRail(n){
     const pad = 28;
     const bw = Math.max(x2 - x1, 1), bh = Math.max(y2 - y1, 1);
     const raw = Math.min((W - pad * 2) / bw, (R.availH - pad * 2) / bh);
-    const k1 = clamp(raw, 0.5, 4);
+    let k1 = clamp(raw, 1, 4);
     let cx0 = (x1 + x2) / 2, cy0 = (y1 + y2) / 2;
-    /* Some neighbourhoods need k<0.5 to fit above the sheet and hit the zoom
-       floor. Fitting them all is impossible — guarantee the SELECTED node
-       instead and let neighbours fall where they may, rather than silently
-       reintroducing the very occlusion this function exists to remove. */
-    if (raw < 0.5){ cx0 = n.hx; cy0 = n.hy; }
+    /* Zoom floor: some neighbourhoods only fit above the sheet at k<1, and the
+       old clamp-to-0.5 made tapping a node zoom OUT (observed k 1.0 -> 0.5 —
+       the map receded from the finger). Fitting them all is impossible —
+       guarantee the SELECTED node instead: centre it at a readable k=1.4 and
+       let neighbours fall where they may. */
+    if (raw < 1){ k1 = 1.4; cx0 = n.hx; cy0 = n.hy; }
     animateView(W / 2 - cx0 * k1, R.availH / 2 - cy0 * k1, k1);
     return;
   }
@@ -2361,8 +2379,12 @@ function flyTo(n){
        conservative top strip here, then openRail -> avoidRail refines against
        the measured sheet. */
     const availH = Math.max(120, H * 0.36);
-    const k1 = clamp(Math.min((W - pad * 2) / bw, (availH - pad * 2) / bh), 0.5, 4);
-    animateView(W / 2 - cx0 * k1, availH / 2 - cy0 * k1, k1, 600, () => openRail(n));
+    const raw = Math.min((W - pad * 2) / bw, (availH - pad * 2) / bh);
+    /* same zoom floor as avoidRail's bottom branch: never zoom OUT to "show" a
+       selection — centre the node itself at a readable k instead */
+    let k1 = clamp(raw, 1, 4), fx = cx0, fy = cy0;
+    if (raw < 1){ k1 = 1.4; fx = n.hx; fy = n.hy; }
+    animateView(W / 2 - fx * k1, availH / 2 - fy * k1, k1, 600, () => openRail(n));
     return;
   }
   /* Rail goes opposite the node's side of its own neighbourhood. openRail
@@ -2390,7 +2412,6 @@ function wireEvents(){
   let drag = null, moved = 0;
   const pts = new Map();
   let pinch0 = null;
-  let lastPtrType = 'mouse';   // dblclick is a MouseEvent with no pointerType; track it ourselves
   /* The detail rail lives inside the stage, so its own scrolling and button
      presses must not be hijacked by the graph's pan/zoom gestures. */
   const fromRail = ev => rail.contains(ev.target);
@@ -2425,7 +2446,6 @@ function wireEvents(){
   });
 
   stage.addEventListener('pointerdown', ev => {
-    lastPtrType = ev.pointerType || 'mouse';
     if (fromRail(ev)) return;
     if (ev.button !== 0 && ev.pointerType === 'mouse') return;
     /* Only the FIRST pointer drives the pan. A second finger starts a pinch and
@@ -2445,7 +2465,7 @@ function wireEvents(){
     endDrag(ev);
     if (wasDrag || wasPinch) return;
     const p = toLocal(ev);
-    const hit = pick(p.x, p.y);
+    const hit = pick(p.x, p.y, ev.pointerType === 'touch');
     /* D20: clicking empty space must clear KBFOCUS too, not just the rail.
        activeSet() is `PINNED || HOVER || KBFOCUS`, so leaving KBFOCUS set kept the
        graph dimmed and the blue link-network lit after every deselect — the rail
@@ -2459,21 +2479,9 @@ function wireEvents(){
   stage.addEventListener('pointercancel', endDrag);
   stage.addEventListener('pointerleave', () => { hideTip(); if (HOVER){ tweenTo(HOVER, 's', 1, 120); HOVER = null; dirty = true; kick(); } });
 
-  /* D3: double-click empty stage to fit the whole graph back into view — the
-     other half of the pan-safety fix (clampView keeps you from getting fully
-     lost; this is the explicit recovery gesture for "I don't like where I am"). */
-  stage.addEventListener('dblclick', ev => {
-    if (fromRail(ev)) return;
-    /* Touch double-taps synthesize a dblclick too — but on touch the double-tap
-       gesture is zoom-IN (handler below); letting the synthesized dblclick run
-       fitView here made every empty-space double-tap zoom 1.8x and then
-       instantly snap back to the overview (observed live). Mouse only. */
-    if (lastPtrType === 'touch') return;
-    const p = toLocal(ev);
-    if (pick(p.x, p.y)) return;   // double-click on a node is not a fit gesture
-    ev.preventDefault();
-    fitView(true);
-  });
+  /* Mouse double-click-to-fit CUT 2026-07-27: it raced the touch double-tap
+     zoom and duplicated the "Reset view" chip. Touch double-tap zoom-in stays
+     (handler below); mouse recovery is the chip. */
 
   stage.addEventListener('wheel', ev => {
     if (fromRail(ev)) return;      // let the rail scroll itself
