@@ -229,8 +229,16 @@
   .rail .prose .more{display:none;margin-top:6px;padding:4px 0;border:0;background:none;
                      color:var(--blue);font:inherit;font-size:12px;cursor:pointer}
   .rail .prose .more:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:4px}
+  .rail .prose .exs{margin:8px 0 0;padding-top:8px;border-top:1px solid var(--line)}
+  .rail .prose .exs em{color:var(--ink-3);font-style:normal;font-size:12px}
+  .rail .prose .exs ul{margin:5px 0 0;padding:0;list-style:none}
+  .rail .prose .exs li{margin:0 0 6px;padding-left:9px;border-left:2px solid var(--line-2);
+                       color:var(--ink-2);font-size:12px;line-height:1.5}
+  .rail .prose .exs .cap{display:block;color:var(--ink-1);font-weight:560;margin-bottom:1px}
+  .rail .prose .exs .move{display:block;margin-bottom:2px}
   .rail .prose.clamp .mech{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden}
-  .rail .prose.clamp .disc{display:none}
+  .rail .prose.clamp .disc,
+  .rail .prose.clamp .exs{display:none}
   .rail .prose.clamp .more,
   .rail .prose.was-clamped .more{display:block}
   .rail h3{margin:0 0 7px;font-size:11px;font-weight:620;letter-spacing:.07em;
@@ -284,7 +292,38 @@
   th button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
   td.num{font-variant-numeric:tabular-nums}
   td .pill{font-size:11px}
-  tbody tr:hover{background:var(--surface-2)}
+  tbody tr.sum:hover{background:var(--surface-2)}
+  tbody tr.sum{cursor:pointer}
+  tbody tr.sum > td:first-child{padding-left:20px;position:relative}
+  /* Disclosure caret drawn on the row itself — no extra column, no library. */
+  tbody tr.sum > td:first-child::before{content:"";position:absolute;left:4px;top:50%;
+    width:0;height:0;margin-top:-4px;
+    border-left:5px solid var(--ink-3);border-top:4px solid transparent;border-bottom:4px solid transparent;
+    transition:transform .15s}
+  tbody tr.sum[aria-expanded="true"] > td:first-child::before{transform:rotate(90deg)}
+  tbody tr.sum:focus-visible{outline:2px solid var(--blue);outline-offset:-2px}
+  tbody tr.det > td{padding:0;border-bottom:1px solid var(--line)}
+  tbody tr.det[hidden]{display:none}
+  /* The detail cell is the ONE place in the table where prose wraps. */
+  .drawer{padding:4px 12px 14px 20px;max-width:96ch;white-space:normal}
+  .drawer h4{margin:10px 0 3px;font-size:11px;letter-spacing:.05em;text-transform:uppercase;
+    color:var(--ink-3);font-weight:600}
+  .drawer p{margin:0;font-size:13px;line-height:1.55;color:var(--ink-2)}
+  .drawer .exl{margin:7px 0 0;padding:0;list-style:none}
+  .drawer .exl li{margin:0 0 7px;padding-left:11px;border-left:2px solid var(--line-2)}
+  .drawer .exl .cap{display:block;font-size:12px;font-weight:560;color:var(--ink-1);margin-bottom:2px}
+  .drawer .exl .slot{font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3)}
+  .drawer .exl .move,.rail .prose .exs .move{font-style:normal;color:var(--ink-1)}
+  .drawer .dfl{margin:5px 0 0;padding:0;list-style:none;font-size:12.5px}
+  .drawer .dfl li{margin:0 0 4px;color:var(--ink-2)}
+  .drawer .dfl b{font-weight:560;color:var(--ink-1)}
+  .drawer .jump{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}
+  .drawer .jump button{font:inherit;font-size:12px;cursor:pointer;
+    border:1px solid var(--line-2);background:var(--surface-1);color:var(--ink-1);
+    border-radius:999px;padding:3px 10px}
+  .drawer .jump button:hover{border-color:var(--blue);color:var(--blue)}
+  .drawer .jump button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+  .drawer .none{color:var(--ink-3);font-size:12.5px;margin:2px 0 0}
 
   .msg{padding:14px 16px;border:1px solid var(--line-2);border-radius:10px;
     background:var(--surface-2);color:var(--ink-2);font-size:13.5px;margin-top:12px}
@@ -334,7 +373,15 @@
   .macsel{display:none;align-items:center;border:1px solid var(--line-2);
     background:var(--surface-1);border-radius:999px;padding:0 6px 0 11px;flex:none}
   .macsel select{border:0;background:transparent;color:var(--ink-1);font:inherit;
-    font-size:12.5px;padding:6px 2px;outline:none;max-width:130px}
+    font-size:12.5px;padding:6px 2px;outline:none;max-width:130px;
+    /* The OPEN dropdown is painted by the OS, not by this stylesheet. With a
+       transparent background and no color-scheme, a dark-theme popup inherited a
+       white list background while the option text stayed light — white-on-white,
+       unreadable. `color-scheme:inherit` makes the native popup follow the theme
+       the :root already declares, and the explicit option colours cover the
+       browsers that paint the list from the element's own background instead. */
+    color-scheme:inherit}
+  .macsel select option{background:var(--surface-1);color:var(--ink-1)}
   /* D19: the axis selects carry named components ("Whole artifact vs single move")
      and need more room than the mobile macroclass fallback this class was cut for. */
   .macsel.axsel select{max-width:250px;font-size:12px}
@@ -453,7 +500,7 @@ function mulberry(seed){
 
 /* ---------------------------------------------------------------- state --- */
 let DATA = null, NODES = [], BY_ID = new Map();
-let SEM = [], CUR = [], ADJ = new Map();
+let SEM = [], CUR = [], ADJ = new Map(), DFROM = new Map();
 let CONTRASTS_N = 0;   // count of contrasts_with edges — drives the legend's D13 gate
 let FAMS = [], FAM_BY_NAME = new Map(), MACRO_REGIONS = [];
 let MAC_FILTER = null, SHOW_CURATION = false, QUERY = '', QTOK = [], QSTRONG = 0, QHITS = 0;
@@ -483,6 +530,9 @@ const PC_LABELS = [
   'Aftercare vs spread',            // PC10 — 20/20 in-model, only the covert-spillover pole replicates
 ];
 let HOVER = null, PINNED = null, KBFOCUS = null;
+/* D20: camera position to return to when the reader leaves a selection. Declared
+   up here (not beside restoreView) because zoomBy clears it and runs earlier. */
+let VIEW_RETURN = null;
 let TERRITORY_OK = true;
 
 const view = { x:0, y:0, k:1 };
@@ -543,6 +593,8 @@ function boot(d){
     consent:!!n.consent, bounded:!!n.bounded,
     weight:+n.weight || 0,
     mech:n.mech || '', disc:n.disc || '',   // prose — a name alone says nothing
+    stated:!!n.so,                          // evidence: asserted but never demonstrated
+    ex:Array.isArray(n.ex) ? n.ex : null,   // worked examples: [{f:facet, t:text}]
     lab:'', hay:'',                        // D15: search haystacks, built below
     pc:Array.isArray(n.pc) ? n.pc : null,  // D19: PCA coords for axes mode
 
@@ -560,7 +612,12 @@ function boot(d){
      answered "trance" with 6 of 886 in a corpus where 141 are relevant. */
   for (const n of NODES){
     n.lab = normText(n.name + ' ' + n.family + ' ' + n.macro);
-    n.hay = n.lab + ' ' + normText(n.mech) + ' ' + normText(n.disc);
+    /* examples join the haystack: they are the concrete surface a reader searches
+       for ("breath", "hand squeeze") when the abstract mechanism prose does not
+       use those words at all. */
+    const exTxt = (n.ex || []).map(x => x.f + ' ' + x.t + ' ' + (x.m || '')).join(' ');
+    n.hay = n.lab + ' ' + normText(n.mech) + ' ' + normText(n.disc) + ' ' +
+            normText(exTxt);
   }
 
   /* Dedup undirected edges; split semantic (layout-bearing) from curation (evidence). */
@@ -574,6 +631,19 @@ function boot(d){
     const rec = { a, b, k:e.k };
     if (SEMANTIC[e.k]) SEM.push(rec);
     else if (CURATION[e.k]) CUR.push(rec);
+  }
+  /* distinct_from notes are DIRECTED — each is written from its SOURCE entry's
+     point of view ("that is X; this is Y"). They must therefore be collected from
+     the RAW edge list, not from the deduped CUR: the dedup key above is undirected
+     (correct for drawing one line per pair), so for the reciprocal pairs it keeps
+     only the first direction. Reading notes off CUR would silently give one entry
+     of each such pair the other's note. */
+  for (const e of d.edges){
+    if (e.k !== 'distinct_from' || !e.n) continue;
+    const a = BY_ID.get(e.s), b = BY_ID.get(e.t);
+    if (!a || !b || a === b) continue;
+    if (!DFROM.has(a.id)) DFROM.set(a.id, []);
+    DFROM.get(a.id).push({ n:b, note:e.n });
   }
   CONTRASTS_N = SEM.reduce((c, e) => c + (e.k === 'contrasts_with' ? 1 : 0), 0);
   for (const e of SEM){
@@ -1090,11 +1160,15 @@ function tweenLayout(mutate){
   requestAnimationFrame(step);
 }
 
+/* D20: a re-solved layout invalidates any saved return camera — the coordinates
+   referred to positions that no longer exist. */
 function enterAxes(){
+  VIEW_RETURN = null;
   tweenLayout(axesApply);
   animateView(0, 0, 1, 520);   // both layouts fill the stage at identity
 }
 function exitAxes(){
+  VIEW_RETURN = null;
   tweenLayout(() => solve(window.SPRINGS || [], 600));
   animateView(0, 0, 1, 520);
 }
@@ -1156,7 +1230,12 @@ function revalidateActive(){
 }
 
 function activeSet(){
-  const a = PINNED || HOVER || KBFOCUS;
+  /* D20: KBFOCUS only dresses the canvas while the stage actually HAS keyboard
+     focus. It is the arrow-key cursor, so it legitimately outlives a deselect —
+     but a stale one used to keep the graph dimmed and a network lit after the
+     rail had closed, which read as "I can't get off this network". */
+  const kb = (KBFOCUS && stage.matches(':focus-visible')) ? KBFOCUS : null;
+  const a = PINNED || HOVER || kb;
   if (!a) return null;
   const s = new Set([a.id]);
   for (const l of (ADJ.get(a.id) || [])) s.add(l.n.id);
@@ -1227,6 +1306,9 @@ function clampView(){
 function zoomBy(factor, mx, my){
   const k0 = view.k, k1 = clamp(k0 * factor, 0.5, 6);
   if (k1 === k0) return false;
+  /* D20: once the reader drives the camera themselves, the saved return point is
+     no longer somewhere they want to be yanked back to. */
+  VIEW_RETURN = null;
   view.x = mx - (mx - view.x) * (k1 / k0);
   view.y = my - (my - view.y) * (k1 / k0);
   view.k = k1;
@@ -1615,7 +1697,13 @@ function paintOverlay(){
   const key = view.x.toFixed(2) + ',' + view.y.toFixed(2) + ',' + view.k.toFixed(4) + ',' +
     MAC_FILTER + ',' + QUERY + ',' + W + ',' + H + ',' + LAYOUT_TICK + ',' +
     AXES.on + ',' + AXES.x + ',' + AXES.y + ',' +
-    (hoverFam ? hoverFam.name : '') + ',' + (pinFam ? pinFam.name : '');
+    (hoverFam ? hoverFam.name : '') + ',' + (pinFam ? pinFam.name : '') + ',' +
+    /* D20: the key must carry node IDENTITY, not just family. Technique labels are
+       now salience-tiered off the focused node, so selecting a different node in
+       the SAME family changes which names are drawn while leaving the old key
+       untouched — the early-return then kept the previous node's labels on screen
+       under the new selection's rail. */
+    (PINNED ? PINNED.id : '') + ',' + (HOVER ? HOVER.id : '') + ',' + (KBFOCUS ? KBFOCUS.id : '');
   if (key === _ovlKey) return;
   _ovlKey = key;
 
@@ -1775,19 +1863,39 @@ function paintOverlay(){
        spend the frame budget laying out 300 labels; the cap only bites when far
        more nodes qualify than can ever fit anyway. */
   const R0 = 8, R1 = 14;               // screen-radius fade-in range, px
+  /* SALIENCE (2026-07-26). Zoom alone used to decide who got a name, so the whole
+     point of a selection — "which techniques is this one linked to?" — was left
+     unreadable: the see-also neighbours were exactly the marks a reader needed
+     named, and at any zoom that fit the neighbourhood on screen they were all
+     below R0. Selection is now an INDEPENDENT reason to earn a label:
+       tier 2  the selected/hovered node itself
+       tier 1  its see-also neighbourhood
+       tier 0  everyone else, on the zoom ramp as before
+     Tiers 1-2 bypass the size gate entirely and claim space first in the greedy
+     collision pass below, so a selection's links stay named while the unrelated
+     background thins out normally. */
+  /* KBFOCUS included so keyboard users get the same neighbourhood labels a mouse
+     user gets on hover — arrowing onto a node should name its links too. */
+  const focus = PINNED || HOVER || KBFOCUS;
+  const near = new Set();
+  if (focus) for (const l of (ADJ.get(focus.id) || [])) near.add(l.n.id);
   let techFade = 0;
   for (const n of NODES){
     const p = px(n);
+    n._labTier = 0;
     if (!visible(n)) continue;
     const scrR = nodeR(n) * view.k;
-    if (scrR < R0 - 0.01) continue;
-    const fade = clamp((scrR - R0) / (R1 - R0), 0, 1);
-    if (fade <= 0.01) continue;
-    techFade = Math.max(techFade, fade);
+    const tier = n === focus ? 2 : (focus && near.has(n.id)) ? 1 : 0;
+    /* tier 0 still has to earn its label by zoom; tiers 1-2 never do */
+    const fade = tier ? 1 : clamp((scrR - R0) / (R1 - R0), 0, 1);
+    if (!tier && (scrR < R0 - 0.01 || fade <= 0.01)) continue;
+    if (!tier) techFade = Math.max(techFade, fade);
     const sx = p.x * view.k + view.x, sy = p.y * view.k + view.y;
     if (sx < -20 || sx > W + 20 || sy < -20 || sy > H + 20) continue;
-    n._scrR = scrR; n._sx = sx; n._sy = sy; n._labFade = fade;
+    n._scrR = scrR; n._sx = sx; n._sy = sy; n._labFade = fade; n._labTier = tier;
   }
+  /* a selection alone must switch the label pass on, even at low zoom */
+  if (focus) techFade = Math.max(techFade, 1);
   if (techFade > 0.01){
     ctx.font = '520 11px ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif';
     /* Most-connected first: with limited room, the marks worth naming first are
@@ -2055,6 +2163,8 @@ function railInset(){
   };
 }
 function openRail(n){
+  /* only the first pin of a chain records the return point (see restoreView) */
+  if (!PINNED) VIEW_RETURN = { x:view.x, y:view.y, k:view.k };
   PINNED = n;
   hideTip();          // the rail supersedes the tooltip for the pinned node
   clearTimeout(railHideT);
@@ -2068,6 +2178,10 @@ function openRail(n){
   h += flag('risk-' + (n.risk === 'low' ? 'low' : n.risk === 'high' ? 'high' : 'medium'), esc(n.risk) + ' risk');
   if (n.consent) h += flag('risk-high', 'explicit consent');
   if (n.bounded) h += flag('neutral', 'bounded');
+  /* Evidence caveat: asserted in a source but never shown working. Only the 25
+     stated_only entries carry it; 'demonstrated' says nothing and the unassigned
+     cohort stays silent rather than claiming a grade nobody gave it. */
+  if (n.stated) h += flag('neutral', 'stated only');
   h += flag('neutral', links.length + ' link' + (links.length === 1 ? '' : 's'));
   h += '</div>';
   /* D16: the mech/disc prose is the whole payload — names like
@@ -2075,10 +2189,23 @@ function openRail(n){
      in the mouse-hover tooltip, so selecting a node (click, tap, or Enter) made
      the prose unreachable, and touch/keyboard/screen-reader users could never
      read what any of the 886 techniques IS. The rail is the canonical reader. */
-  if (n.mech || n.disc){
+  if (n.mech || n.disc || (n.ex && n.ex.length)){
     h += '<div class="prose' + (railClamp() ? ' clamp' : '') + '">';
     if (n.mech) h += '<p class="mech">' + esc(n.mech) + '</p>';
     if (n.disc) h += '<p class="disc"><em>Unlike its neighbours:</em> ' + esc(n.disc) + '</p>';
+    /* The third leg of the triple. `disc` above is the entry-level discriminator
+       (a summary); the per-pair "distinct from X because Y" prose is the table
+       drawer's job — the rail is the reading surface, so it gets examples, which
+       are what let a reader actually apply the technique. */
+    if (n.ex && n.ex.length){
+      h += '<div class="exs"><em>Examples</em><ul>';
+      for (const x of n.ex){
+        h += '<li>' + (x.f ? '<span class="cap">' + esc(x.f) + '</span>' : '');
+        if (x.m) h += '<em class="move">' + esc(x.m) + '</em><br>';
+        h += esc(x.t) + '</li>';
+      }
+      h += '</ul></div>';
+    }
     h += '<button class="more" type="button" aria-expanded="false">Show more</button>';
     h += '</div>';
   }
@@ -2133,6 +2260,25 @@ function openRail(n){
   }
   dirty = true; kick();
   announce(n);
+}
+/* D20: the FULL exit — clears every selection state and returns the camera.
+   closeRail() alone only closes the panel; it is still used where the rail should
+   shut without touching the keyboard cursor (e.g. revalidate after a filter). */
+function deselect(){
+  KBFOCUS = null;
+  closeRail();
+  restoreView();
+}
+/* D20: selecting a node moves the camera (flyTo/avoidRail, and on mobile avoidRail
+   ZOOMS on every tap). Nothing used to save where the reader was, so deselecting
+   left them parked deep in the graph with no way back but an undiscoverable
+   "Reset view" chip — the other half of "can't get off this network".
+   Saved only on the null->pinned transition, so a chain of rail-link hops unwinds
+   to before the chain began, which is what leaving a network means. */
+function restoreView(){
+  if (!VIEW_RETURN) return;
+  const v = VIEW_RETURN; VIEW_RETURN = null;
+  animateView(v.x, v.y, v.k, 340);
 }
 function closeRail(){
   PINNED = null;
@@ -2255,6 +2401,7 @@ function wireEvents(){
     if (drag){
       const dx = ev.clientX - drag.px, dy = ev.clientY - drag.py;
       moved += Math.abs(dx) + Math.abs(dy);
+      if (moved > 6) VIEW_RETURN = null;   // D20: reader took the wheel — see restoreView
       view.x += dx; view.y += dy;
       clampView();   // D3: a fat drag can no longer sail the content off-stage
       drag.px = ev.clientX; drag.py = ev.clientY;
@@ -2299,8 +2446,14 @@ function wireEvents(){
     if (wasDrag || wasPinch) return;
     const p = toLocal(ev);
     const hit = pick(p.x, p.y);
+    /* D20: clicking empty space must clear KBFOCUS too, not just the rail.
+       activeSet() is `PINNED || HOVER || KBFOCUS`, so leaving KBFOCUS set kept the
+       graph dimmed and the blue link-network lit after every deselect — the rail
+       (the loudest element) closed, so the gesture looked like it worked, while the
+       canvas stayed dressed for a selection nobody had. That residue is not a state
+       the UI ever presents on purpose, which is exactly why it felt wrong. */
     if (hit){ KBFOCUS = hit; openRail(hit); }
-    else closeRail();
+    else deselect();
   });
   /* pointercancel previously never cleared drag, leaving the graph stuck panning */
   stage.addEventListener('pointercancel', endDrag);
@@ -2407,13 +2560,23 @@ function wireEvents(){
   stage.setAttribute('role', 'application');
   stage.setAttribute('aria-describedby', 'kbdhint');
   stage.addEventListener('focus', () => {
+    /* D20: only a KEYBOARD-initiated focus seeds the cursor. Pointer focus used to
+       seed it too, so a click on empty canvas dimmed the whole graph and lit up an
+       arbitrary node's network (whichever came first in array order) — and fired a
+       screen-reader announcement for a node the user never chose. */
+    if (!stage.matches(':focus-visible')) return;
     if (!KBFOCUS) KBFOCUS = NODES.find(visible) || NODES[0];
     dirty = true; kick(); announce(KBFOCUS);
   });
   stage.addEventListener('blur', () => { KBFOCUS = null; dirty = true; kick(); });
   stage.addEventListener('keydown', ev => {
     const K = ev.key;
-    if (K === 'Escape'){ closeRail(); hideTip(); ev.preventDefault(); return; }
+    /* D20: Escape is the universal "get me out" — it must undo the camera move as
+       well as the panel. KBFOCUS is deliberately NOT cleared here: for a keyboard
+       user it is the arrow-key cursor, and dropping it would strand them. The dim
+       does clear, because activeSet() is only consulted for a pin/hover once the
+       rail is closed (see the KBFOCUS branch note in activeSet). */
+    if (K === 'Escape'){ closeRail(); restoreView(); hideTip(); ev.preventDefault(); return; }
     if (K === 'Enter' || K === ' '){ if (KBFOCUS) openRail(KBFOCUS); ev.preventDefault(); return; }
     const dirs = { ArrowRight:0, ArrowDown:90, ArrowLeft:180, ArrowUp:270 };
     if (!(K in dirs)) return;
@@ -2448,6 +2611,21 @@ function wireEvents(){
   /* table sorting */
   document.querySelectorAll('#tbl th button').forEach(b => {
     b.onclick = () => sortTable(b.dataset.sort);
+  });
+
+  /* Row expand + see-also jumps, delegated on tbody so a re-sort (which replaces
+     every row) never needs listeners rebound. */
+  const tb = document.querySelector('#tbl tbody');
+  tb.addEventListener('click', ev => {
+    const jump = ev.target.closest('.jump button');
+    if (jump){ gotoRow(+jump.dataset.row); return; }
+    const sum = ev.target.closest('tr.sum');
+    if (sum) toggleRow(sum);
+  });
+  tb.addEventListener('keydown', ev => {
+    if (ev.key !== 'Enter' && ev.key !== ' ') return;
+    const sum = ev.target.closest && ev.target.closest('tr.sum');
+    if (sum && ev.target === sum){ ev.preventDefault(); toggleRow(sum); }
   });
 
   addEventListener('resize', debounce(() => {
@@ -2528,6 +2706,7 @@ function applyQuery(v){
 /* macroclass filter: non-members contract; the sim runs extra ticks so the
    chosen macroclass visibly gathers rather than merely recolouring. */
 function gather(){
+  VIEW_RETURN = null;   // D20: layout moves under the saved camera — drop it
   /* D19: in axes mode positions are semantic — a filter must dim, never move. */
   if (AXES.on){ revalidateActive(); refreshEmptyState(); dirty = true; kick(); return; }
   const gen = ++LAYOUT_GEN;
@@ -2690,15 +2869,79 @@ function sortTable(key, initial){
     return a.name.localeCompare(b.name);
   });
   const rc = r => r === 'low' ? 'risk-low' : r === 'high' ? 'risk-high' : 'risk-medium';
+  /* Each technique is TWO rows: a summary row and a detail row that starts hidden.
+     Plain <tr> toggling — no grid library, no virtualisation. The drawer bodies are
+     built lazily on first open (886 x full prose up front is what made this feel
+     like it needed a framework; deferring it means it does not). */
   document.querySelector('#tbl tbody').innerHTML = rows.map(n =>
-    '<tr><td>' + esc(n.name) + '</td><td>' + esc(n.family) + '</td><td>' + esc(n.macro) +
+    '<tr class="sum" tabindex="0" role="button" aria-expanded="false" data-id="' + n.id + '">' +
+    '<td>' + esc(n.name) + '</td><td>' + esc(n.family) + '</td><td>' + esc(n.macro) +
     '</td><td><span class="pill ' + rc(n.risk) + '"><span class="gl"></span>' + esc(n.risk) + '</span></td><td>' +
     (n.consent ? 'consent ' : '') + (n.bounded ? 'bounded' : '') + (!n.consent && !n.bounded ? '—' : '') +
-    '</td><td class="num">' + n.deg + '</td></tr>').join('');
+    '</td><td class="num">' + n.deg + '</td></tr>' +
+    '<tr class="det" hidden><td colspan="6"></td></tr>').join('');
   document.querySelectorAll('#tbl th button').forEach(b => {
     b.closest('th').setAttribute('aria-sort',
       b.dataset.sort === sortKey ? (sortDir > 0 ? 'ascending' : 'descending') : 'none');
   });
+}
+
+/* The triple, as the table drawer renders it: what it IS, how it DIFFERS, and
+   worked EXAMPLES — plus see-also jumps that move within the table rather than
+   yanking the reader to the graph. */
+function drawerHTML(n){
+  let h = '<div class="drawer">';
+  if (n.mech) h += '<h4>What it is</h4><p>' + esc(n.mech) + '</p>';
+  if (n.disc) h += '<h4>What makes it different</h4><p>' + esc(n.disc) + '</p>';
+  const df = (DFROM.get(n.id) || []).filter(d => d.note);
+  if (df.length){
+    h += '<h4>Distinct from</h4><ul class="dfl">';
+    for (const d of df) h += '<li><b>' + esc(d.n.name) + '</b> — ' + esc(d.note) + '</li>';
+    h += '</ul>';
+  }
+  if (n.ex && n.ex.length){
+    h += '<h4>Examples</h4><ul class="exl">';
+    for (const x of n.ex){
+      h += '<li>' + (x.f ? '<span class="cap">' + esc(x.f) + '</span>' : '');
+      if (x.s) h += '<span class="slot">Setup</span> ' + esc(x.s) + '<br>';
+      /* the move line is what an operator actually says — give it the emphasis */
+      if (x.m) h += '<span class="slot">The move</span> <em class="move">' + esc(x.m) + '</em><br>';
+      h += (x.m ? '<span class="slot">Why it lands</span> ' : '') + esc(x.t) + '</li>';
+    }
+    h += '</ul>';
+  } else {
+    h += '<h4>Examples</h4><p class="none">No worked examples authored yet.</p>';
+  }
+  const links = ADJ.get(n.id) || [];
+  if (links.length){
+    h += '<h4>See also</h4><div class="jump">';
+    for (const l of links)
+      h += '<button type="button" data-row="' + l.n.id + '">' + esc(l.n.name) + '</button>';
+    h += '</div>';
+  }
+  return h + '</div>';
+}
+
+/* Open a technique's drawer and bring it into view. Used both by the row itself
+   and by the see-also buttons, which is what makes the table navigable up and
+   down without leaving it. */
+function toggleRow(sum, force){
+  const det = sum.nextElementSibling;
+  if (!det || !det.classList.contains('det')) return;
+  const open = force !== undefined ? force : det.hidden;
+  if (open && !det.firstElementChild.innerHTML){
+    const n = BY_ID.get(+sum.dataset.id);
+    if (n) det.firstElementChild.innerHTML = drawerHTML(n);
+  }
+  det.hidden = !open;
+  sum.setAttribute('aria-expanded', String(open));
+}
+function gotoRow(id){
+  const sum = document.querySelector('#tbl tbody tr.sum[data-id="' + id + '"]');
+  if (!sum) return;
+  toggleRow(sum, true);
+  sum.scrollIntoView({ block:'center', behavior: reduced() ? 'auto' : 'smooth' });
+  sum.focus({ preventScroll:true });
 }
 
 function debounce(fn, ms){ let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
