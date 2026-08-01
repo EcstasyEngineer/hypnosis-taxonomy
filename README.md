@@ -5,14 +5,14 @@ suggestion, absorption, dissociation, relational influence, and design-time craf
 actually operate — derived from a first-principles extraction over a research
 corpus.
 
-### → **[Explore the interactive map](https://ecstasyengineer.github.io/hypnosis-taxonomy/)**
+### → **[Explore the interactive map](https://ecstasyengineer.github.io/influence-formulary/)**
 
 804 techniques, their families, and the authored links between them — filterable,
 searchable, light and dark. The fastest way in.
 
 ## What's here
 
-- **[The interactive map](https://ecstasyengineer.github.io/hypnosis-taxonomy/)** —
+- **[The interactive map](https://ecstasyengineer.github.io/influence-formulary/)** —
   the whole taxonomy as a navigable graph. Start here.
 - **[`v7_book.md`](v7_book.md)** — the taxonomy, browsable. ~800 techniques across
   35 families in 5 macroclasses (absorption, suggestion, dissociation, influence,

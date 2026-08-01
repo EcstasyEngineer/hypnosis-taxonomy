@@ -1,5 +1,5 @@
 # The DB is PRIVATE — it holds the real source telemetry (filenames, raw quotes,
-# entry_sources) and must never land here. It lives only in hypnosis-taxonomy-work.
+# entry_sources) and must never land here. It lives only in formulary-work.
 # Nothing in the publish path writes it; this is the belt to that suspenders.
 *.db
 *.sqlite
