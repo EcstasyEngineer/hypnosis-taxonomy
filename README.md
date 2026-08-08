@@ -1,4 +1,4 @@
-# Influence & Hypnosis Taxonomy
+# Operator Formulary
 
 A structured, technique-grain catalog of influence and hypnosis mechanisms — how
 suggestion, absorption, dissociation, relational influence, and design-time craft
@@ -7,20 +7,27 @@ corpus.
 
 ### → **[Explore the interactive map](https://ecstasyengineer.github.io/operator-formulary/)**
 
-804 techniques, their families, and the authored links between them — filterable,
-searchable, light and dark. The fastest way in.
+881 techniques, 35 families, 5 macroclasses, and 3,679 authored cross-reference
+edges — as a force-clustered graph you can zoom, search, and filter. Hovering a
+technique shows its mechanism and its discriminator. Light and dark. The fastest
+way in.
 
 ## What's here
 
 - **[The interactive map](https://ecstasyengineer.github.io/operator-formulary/)** —
-  the whole taxonomy as a navigable graph. Start here.
-- **[`v7_book.md`](v7_book.md)** — the taxonomy, browsable. ~800 techniques across
-  35 families in 5 macroclasses (absorption, suggestion, dissociation, influence,
-  craft). Each technique has a mechanism description, a "when to reach for this"
-  discriminator, a falsifiable note on *why* it works, safety/consent flags, and the
-  specific realizations it takes.
+  the whole taxonomy as a navigable graph, rendered by [`index.html`](index.html)
+  from [`graph.json`](graph.json). Start here.
+- **[`v7_book.md`](v7_book.md)** — the taxonomy, browsable as one document.
+  881 techniques across 35 families in 5 macroclasses (suggestion, absorption,
+  dissociation, influence, craft). Each technique has a mechanism description, a
+  "when to reach for this" discriminator, a risk note, a falsifiable note on *why*
+  it works, worked examples, and a realization bank — the specific forms the
+  technique takes, kept losslessly under it.
+- **[`graph.json`](graph.json)** — the same taxonomy as data: every technique as a
+  node (family, macroclass, risk, mechanism, discriminator) plus the authored
+  relation edges. Use it if you want to build your own views.
 - **[`legacy/`](legacy/)** — earlier iterations: the v6.5 taxonomy (the prior
-  human-authored version) and its inventory, kept for lineage.
+  human-authored version), its inventory, and its example files, kept for lineage.
 
 ## What makes this different
 
@@ -47,12 +54,14 @@ This describes influence mechanisms as an ontology — what the move is, when it
 applies, and how it differs from its neighbors. It is a reference about influence;
 it is not instructional material and contains no source scripts or corpus.
 
-## Provenance
+## Provenance & status
 
 Built by isolation extraction (sources read blind to any prior taxonomy), then
 consolidated to technique grain. The raw source corpus is not included. Method
-notes and tooling live in a separate working repository.
+notes and tooling live in a separate working repository; the book and graph here
+are regenerated exports from it, and this repo is actively synced as the taxonomy
+grows.
 
 ## License
 
-Content licensed CC BY-SA 4.0 (see LICENSE).
+Content licensed CC BY-SA 4.0 (see [LICENSE](LICENSE)).
