@@ -1,18 +1,18 @@
-# Operator Formulary
+# Hypnosis Taxonomy
 
 A structured, technique-grain catalog of influence and hypnosis mechanisms — how
 suggestion, absorption, dissociation, relational influence, and design-time craft
 actually operate — derived from a first-principles extraction over a research
 corpus.
 
-### → **[Browse the formulary](https://ecstasyengineer.github.io/operator-formulary/)**
+### → **[Browse the taxonomy](https://ecstasyengineer.github.io/hypnosis-taxonomy/)**
 
 981 techniques behind 192 named doors — drill door → technique → job/tell/example,
 with rarity heat marking the deep cuts. Light and dark. The fastest way in.
 
 ## What's here
 
-- **[The browser](https://ecstasyengineer.github.io/operator-formulary/)** —
+- **[The browser](https://ecstasyengineer.github.io/hypnosis-taxonomy/)** —
   doors-first navigation over the whole taxonomy, rendered by [`index.html`](index.html)
   from [`graph.json`](graph.json). Start here.
 - **[`v8_book.md`](v8_book.md)** — the taxonomy, browsable as one document.
