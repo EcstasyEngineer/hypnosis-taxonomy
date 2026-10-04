@@ -3,6 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Operator Formulary</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='5' cy='8' r='2.6' fill='%232361ae'/%3E%3Ccircle cx='11.5' cy='4.5' r='1.9' fill='%23888'/%3E%3Ccircle cx='11.5' cy='11.5' r='1.9' fill='%23888'/%3E%3Cpath d='M6.8 7.2 10 5.1M6.8 8.8 10 10.9' stroke='%23888' stroke-width='1.1'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="writer-tools.css">
 <style>
   :root {
     color-scheme: light;
@@ -169,6 +170,16 @@
   .seqnote{color:var(--ink-4);font-size:12px;margin:6px 2px 0}
 
   /* graph view */
+  .gworkspace{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:start}
+  .gworkspace .gpanel{position:static;width:300px;box-sizing:border-box;max-height:calc(100vh - 220px);box-shadow:none}
+  .gworkspace .gpanel[hidden]{display:none}
+  .gworkspace .gwrap{min-width:0}
+  .gworkspace .grow2{border:0;background:none;color:inherit;font:inherit;text-align:left;width:100%;padding:6px 2px}
+  .greason{font-size:12px;color:var(--ink-3);margin:0 0 6px}.greason summary{cursor:pointer}.greason p{margin:5px 0}
+  .gworkspace .grow2 .gname{white-space:normal}
+  #gmatch{font:inherit;padding:4px;background:var(--surface-1);color:var(--ink-1)}
+  @media(max-width:900px){.gworkspace{grid-template-columns:minmax(0,1fr)}.gworkspace .gpanel{width:100%;max-height:400px}.gworkspace .gwrap{height:55vh;min-height:300px}}
+
   .gtools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 10px}
   .gmode{border:1px solid var(--line-2);background:var(--surface-1);color:var(--ink-2);
          border-radius:6px;padding:5px 13px;font:inherit;font-size:12.5px;cursor:pointer}
@@ -219,14 +230,19 @@
   }
 </style>
 
+<a class="skip-link" href="#view" onclick="event.preventDefault();document.getElementById('view').focus()">Skip to content</a>
 <header>
   <h1><a href="#/">Operator Formulary</a></h1>
-  <p class="sub" id="subline">reference of influence techniques</p>
+  <p class="sub" id="subline">a reference for writing choices</p>
   <div class="hgrow"></div>
+  <a class="hbtn" href="#/table">Browse & compare</a>
+  <a id="workbenchLink" class="hbtn" href="#/workbench">Workspace</a>
+  <a class="hbtn" href="#/timeline">Timeline</a>
   <a id="graphLink" class="hbtn" href="#/graph">Graph</a>
   <button id="themeToggle" class="hbtn" type="button" aria-label="Toggle color theme">Theme</button>
 </header>
-<main id="view"><div class="loading">Loading…</div></main>
+<div id="writerStatus" class="sr-only" role="status" aria-live="polite"></div>
+<main id="view" tabindex="-1"><div class="loading">Loading…</div></main>
 
 <script>
 'use strict';
@@ -250,6 +266,15 @@
 var S={ ready:false, byId:{}, genera:[], genusById:{}, singletons:[], seeAlso:{}, contrasts:{},
         nodes:[], next:{}, prev:{}, cooc:{}, nScripts:0 };
 var searchQuery='', memberFilter='';
+var routeContext={}, currentRoute=null, timelineRows=null, timelineName='';
+if('scrollRestoration' in history) history.scrollRestoration='manual';
+// Remember the rendered route while the URL changes, including scroll during Back.
+window.addEventListener('scroll',function(){
+  if(currentRoute!==null){
+    var ctx=routeContext[currentRoute]||(routeContext[currentRoute]={});
+    ctx.scroll=window.scrollY;
+  }
+});
 
 function esc(s){
   return String(s==null?'':s)
@@ -291,6 +316,8 @@ function xhrLoad(ok,bad){
 
 function build(d){
   var i,n,e;
+  S.meta=d.meta||{};
+  S.rawEdges=d.edges||[];
   S.nodes=d.nodes||[];
   for(i=0;i<S.nodes.length;i++){
     n=S.nodes[i];
@@ -324,6 +351,7 @@ function build(d){
     e=edges[i];
     if(!S.byId[e.s]||!S.byId[e.t]) continue;
     if(e.k==='see_also'){ addEdge(S.seeAlso,e.s,e.t,e.n); addEdge(S.seeAlso,e.t,e.s,e.n); }
+    else if(e.k==='distinct_from'){ addEdge(S.contrasts,e.s,e.t,e.n); }
     else if(e.k==='contrasts_with'){ addEdge(S.contrasts,e.s,e.t,e.n); addEdge(S.contrasts,e.t,e.s,e.n); }
   }
   Object.keys(S.seeAlso).forEach(function(k){ S.seeAlso[k].sort(byOtherName); });
@@ -331,17 +359,17 @@ function build(d){
 
   /* sequence layers: next = {src:[[dst,n,p]...]}, cooc = {a:[[b,nScripts,lift]...]} */
   S.next=d.next||{}; S.cooc=d.cooc||{};
-  Object.keys(S.next).forEach(function(src){
-    S.next[src].forEach(function(t){
-      (S.prev[t[0]]||(S.prev[t[0]]=[])).push([+src,t[1],t[2]]);
-    });
+  S.prev=d.prev||{};
+  // Older payloads do not have valid incoming denominators; show counts only.
+  if(!d.prev) Object.keys(S.next).forEach(function(src){
+    S.next[src].forEach(function(t){ (S.prev[t[0]]||(S.prev[t[0]]=[])).push([+src,t[1],null]); });
   });
-  Object.keys(S.prev).forEach(function(k){ S.prev[k].sort(function(a,b){ return b[1]-a[1]; }); });
-  S.annScripts=(d.meta&&d.meta.annotated_scripts)||0;
+  S.annScripts=S.meta.annotated_units||S.meta.annotated_scripts||0;
+  if(window.Writer) Writer.restore();
 
   S.ready=true;
   document.getElementById('subline').innerHTML=
-    '<b>'+S.nodes.length+'</b> techniques · <b>'+S.genera.length+'</b> genera · <b>'+(d.edges||[]).length+'</b> adjudicated relations';
+    '<b>'+S.nodes.length+'</b> entries · <b>'+S.genera.length+'</b> genera · <b>'+(d.edges||[]).length+'</b> curated relations';
   document.title='Operator Formulary';
 }
 function byName(a,b){ return a.name<b.name?-1:a.name>b.name?1:0; }
@@ -358,25 +386,51 @@ function route(){
   var h=location.hash.replace(/^#\/?/,'');
   var parts=h.split('/');
   var view=document.getElementById('view');
-  memberFilter='';
+  if(currentRoute!==null){
+    var old=routeContext[currentRoute]||(routeContext[currentRoute]={});
+    old.filter=memberFilter;
+    var focused=document.activeElement;
+    if(focused&&focused.classList.contains('knav')) old.focus=focused.getAttribute('href');
+  }
+  currentRoute=h;
+  var context=routeContext[h]||{};
+  memberFilter=context.filter||'';
   graphTeardown();
   document.getElementById('graphLink').classList.toggle('on',parts[0]==='graph');
   if((parts[0]==='genus'||parts[0]==='door')&&S.genusById[parts[1]]) renderGenus(view,S.genusById[parts[1]]);
   else if(parts[0]==='singletons')                 renderSingletons(view);
   else if(parts[0]==='entry'&&S.byId[+parts[1]])   renderEntry(view,S.byId[+parts[1]]);
+  else if(parts[0]==='table')                      Writer.renderTable(view);
+  else if(parts[0]==='workbench') {
+    if(parts[1]) { Writer.selected=parts[1].split(',').map(Number).filter((id,i,a)=>S.byId[id]&&a.indexOf(id)===i).slice(0,4); Writer.updatePins(); }
+    Writer.renderBoard(view);
+  }
+  else if(parts[0]==='timeline')                   renderTimeline(view);
   else if(parts[0]==='graph')                      renderGraph(view,parts[1]||'relations',parts[2]?+parts[2]:null);
   else                                             renderLanding(view);
-  window.scrollTo(0,0);
+  Writer.updatePins();
+  if(parts[0] && parts[0]!=='graph') {
+    const heading=view.querySelector('h2');
+    if(heading){heading.tabIndex=-1;heading.focus({preventScroll:true});}
+  }
+  window.scrollTo(0,context.scroll||0);
+  if(context.focus){
+    var links=view.querySelectorAll('a.knav');
+    for(var i=0;i<links.length;i++) if(links[i].getAttribute('href')===context.focus){
+      links[i].focus({preventScroll:true}); break;
+    }
+  }
 }
 window.addEventListener('hashchange',route);
 
 /* ============ landing ============ */
 function renderLanding(view){
   view.innerHTML=
+    '<section class="writer-hero"><p class="eyebrow">A FIELD GUIDE FOR WRITING</p><h2>Find a move.<br>See what connects.</h2><p>Explore techniques, structural patterns and supporting principles. Compare the details that change a writing choice, with corpus observations kept in view.</p><div class="hero-actions"><a class="primary-action" href="#/table">Browse & compare →</a><a href="#/graph">Explore the network ↗</a><a href="#/workbench">Open your workspace</a></div></section>'+
     '<div class="searchwrap">'+
       '<input id="q" type="search" autocomplete="off" spellcheck="false" '+
-        'placeholder="Search '+S.genera.length+' genera and '+S.nodes.length+' techniques…" '+
-        'value="'+esc(searchQuery)+'" aria-label="Search genera and techniques">'+
+        'placeholder="Search '+S.genera.length+' genera and '+S.nodes.length+' entries…" '+
+        'value="'+esc(searchQuery)+'" aria-label="Search groups and entries">'+
       '<p class="hint"><kbd>/</kbd> search &nbsp; <kbd>Esc</kbd> up a level &nbsp; <kbd>←→↑↓</kbd> move between rows</p>'+
     '</div>'+
     '<div id="results"></div>';
@@ -391,11 +445,11 @@ function renderResults(){
   var q=searchQuery.trim().toLowerCase();
   var html='';
   if(!q){
-    html+='<div class="secthead"><h2>Genera</h2><span class="n">'+S.genera.length+' groups of related techniques · '+S.singletons.length+' standalone</span></div>';
+    html+='<div class="secthead"><h2>Genera</h2><span class="n">'+S.genera.length+' groups of related entries · '+S.singletons.length+' standalone</span></div>';
     html+='<div class="gxgrid">';
     for(var i=0;i<S.genera.length;i++) html+=genusRow(S.genera[i]);
     html+='<a class="gx knav" href="#/singletons" title="Techniques that do not share a genus with any other entry">'+
-      '<span class="name">Standalone techniques</span><span class="cnt">'+S.singletons.length+'</span></a>';
+      '<span class="name">Standalone entries</span><span class="cnt">'+S.singletons.length+'</span></a>';
     html+='</div>';
   }else{
     var gs=S.genera.filter(function(g){ return g._search.indexOf(q)>=0; });
@@ -413,7 +467,7 @@ function renderResults(){
       html+='<div class="rows">';
       for(var k=0;k<shown.length;k++) html+=entryRow(shown[k],true);
       html+='</div>';
-    }else html+='<div class="empty">No techniques match “'+esc(searchQuery.trim())+'”.</div>';
+    }else html+='<div class="empty">No entries match “'+esc(searchQuery.trim())+'”.</div>';
   }
   box.innerHTML=html;
 }
@@ -453,14 +507,15 @@ function renderGenus(view,g){
 }
 
 function renderSingletons(view){
-  var html=crumbs([['#/','Index']],'Standalone techniques')+
-    '<div class="pagehead"><h2>Standalone techniques</h2>'+
+  var html=crumbs([['#/','Index']],'Standalone entries')+
+    '<div class="pagehead"><h2>Standalone entries</h2>'+
     '<p class="gloss">Techniques that do not share a genus with any other entry.</p>'+
     '<p class="count">'+S.singletons.length+' techniques</p></div>'+
-    '<input id="memberFilter" type="search" autocomplete="off" spellcheck="false" placeholder="Filter…" aria-label="Filter standalone techniques">'+
+    '<input id="memberFilter" type="search" autocomplete="off" spellcheck="false" placeholder="Filter…" aria-label="Filter standalone entries">'+
     '<div class="rows" id="singletonRows"></div>';
   view.innerHTML=html;
   var inp=document.getElementById('memberFilter');
+  inp.value=memberFilter;
   inp.addEventListener('input',function(){ memberFilter=inp.value; paintSingletons(); });
   paintSingletons();
 }
@@ -474,6 +529,85 @@ function paintSingletons(){
   box.innerHTML=html||'<div class="empty">No matches.</div>';
 }
 
+/* ============ local annotation timeline ============ */
+function renderTimeline(view){
+  view.innerHTML=crumbs([['#/','Index']],'Annotation timeline')+
+    '<div class="pagehead"><h2>Annotation timeline</h2>'+
+    '<p class="gloss">Read annotations in source order and open their taxonomy entries. Choose an annotation JSON file; its contents stay in this browser tab.</p></div>'+
+    '<input id="annotationFile" type="file" accept=".json,application/json" aria-label="Open annotation JSON">'+
+    '<p id="timelineStatus" role="status"></p><div id="timelineDensity"></div><div id="timelineRows"></div>';
+  document.getElementById('annotationFile').addEventListener('change',function(event){
+    var file=event.target.files[0]; if(!file) return;
+    var status=document.getElementById('timelineStatus');
+    if(file.size>10*1024*1024){ status.textContent='Choose a JSON file smaller than 10 MB.'; return; }
+    file.text().then(function(text){
+      var rows=JSON.parse(text);
+      if(!Array.isArray(rows)||rows.length>50000) throw new Error('Expected an annotation array of at most 50,000 rows.');
+      rows.forEach(function(row){
+        if(!row||!Number.isInteger(row.entry_id)||!Number.isInteger(row.line_start)||
+           !Number.isInteger(row.line_end)||row.line_start<1||row.line_end<row.line_start||
+           (row.quote!=null&&typeof row.quote!=='string')) throw new Error('Each annotation needs an integer entry ID, valid line span, and optional text quote.');
+      });
+      timelineRows=rows.slice().sort(function(a,b){return a.line_start-b.line_start||a.line_end-b.line_end;});
+      timelineName=file.name;
+      if(currentRoute==='timeline') paintTimeline();
+    }).catch(function(error){
+      if(currentRoute==='timeline') document.getElementById('timelineStatus').textContent='Could not open annotations: '+error.message;
+    });
+  });
+  paintTimeline();
+}
+function paintTimeline(){
+  if(timelineRows===null) return;
+  var missing=0;
+  var html=timelineRows.map(function(row){
+    var node=S.byId[row.entry_id]; if(!node) missing++;
+    var label=node?node._title:'Unavailable entry';
+    var title='Lines '+row.line_start+'–'+row.line_end+' · #'+row.entry_id+' · '+label;
+    return '<section class="sect">'+(node?'<a class="knav" href="#/entry/'+row.entry_id+'">'+esc(title)+'</a>':'<p>'+esc(title)+'</p>')+
+      (row.quote?'<blockquote>'+esc(row.quote)+'</blockquote>':'')+'</section>';
+  }).join('');
+  document.getElementById('timelineStatus').textContent=timelineName+' · '+timelineRows.length+' annotations'+
+    (missing?' · '+missing+' IDs unavailable in this export; resolve merged IDs in the source workspace.':'')+
+    (timelineRows.length?'':' · This file contains no annotations.');
+  document.getElementById('timelineRows').innerHTML=html;
+  document.getElementById('timelineDensity').innerHTML=annotationDensity(timelineRows);
+}
+
+// Density uses annotation line extent, not duration or inferred psychological state.
+function annotationDensity(rows){
+  if(!rows.length) return '';
+  var end=Math.max.apply(null,rows.map(function(r){return r.line_end;}));
+  var bins=20, counts=[], families={};
+  for(var b=0;b<bins;b++) counts.push({});
+  rows.forEach(function(row){
+    var node=S.byId[row.entry_id]; if(!node) return;
+    var family=node.family||'unclassified'; families[family]=true;
+    for(var i=0;i<bins;i++){
+      var left=i*end/bins, right=(i+1)*end/bins;
+      var overlap=Math.max(0,Math.min(row.line_end,right)-Math.max(row.line_start-1,left));
+      if(overlap) counts[i][family]=(counts[i][family]||0)+overlap/(right-left);
+    }
+  });
+  var names=Object.keys(families).sort(), colors={};
+  names.forEach(function(name,i){colors[name]='hsl('+Math.round(i*137.508%360)+',55%,48%)';});
+  var peak=Math.max(1,...counts.map(function(bin){return Object.keys(bin).reduce(function(n,k){return n+bin[k];},0);}));
+  var html='<section class="sect"><p class="lab">Family density across annotated lines</p>'+
+    '<p class="seqnote">20 equal bins from line 1 to '+end+'. Height is summed annotation span coverage per bin; overlaps count separately. This is not audio time or a measure of effect.</p>'+
+    '<svg viewBox="0 0 800 140" role="img" aria-label="Stacked family annotation density by source line" style="width:100%;height:auto">';
+  counts.forEach(function(bin,i){
+    var y=120;
+    names.forEach(function(name){
+      var value=bin[name]||0; if(!value)return;
+      var height=110*value/peak; y-=height;
+      html+='<rect x="'+(i*40)+'" y="'+y+'" width="38" height="'+height+'" fill="'+colors[name]+'"><title>'+esc(name)+
+        ' · lines '+(Math.floor(i*end/bins)+1)+'–'+Math.ceil((i+1)*end/bins)+' · '+value.toFixed(2)+' span coverage</title></rect>';
+    });
+  });
+  html+='</svg><p class="seqnote">'+names.map(function(name){return '<span style="display:inline-block;margin-right:12px"><span aria-hidden="true" style="color:'+colors[name]+'">●</span> '+esc(titleCase(name))+'</span>';}).join('')+'</p></section>';
+  return html;
+}
+
 /* ============ entry view ============ */
 function renderEntry(view,n){
   var g=(n.door!=null)?S.genusById[String(n.door)]:null;
@@ -481,30 +615,26 @@ function renderEntry(view,n){
              : [['#/','Index'],['#/singletons','Standalone']];
   var html=crumbs(trail,n._title)+'<article class="entry">';
 
-  html+='<h2>'+esc(n._title)+'</h2><div class="meta">';
+  html+='<h2>'+esc(n._title)+'</h2><div class="entry-actions">'+Writer.roleBadge(n)+Writer.pinButton(n.id)+'<a href="#/workbench">Compare in workspace →</a><a href="#/graph/relations/'+n.id+'">Explore connections ↗</a></div><div class="meta">';
   html+='<span class="fam">'+esc(titleCase(n.family||''))+(n.macroclass?' · '+esc(n.macroclass):'')+'</span>';
   if(n.risk==='medium'||n.risk==='high') html+='<span class="badge risk-'+esc(n.risk)+'">'+esc(n.risk)+' risk</span>';
   if(n.consent) html+='<span class="badge">explicit consent</span>';
   if(n.bounded) html+='<span class="badge">bounding required</span>';
-  if(typeof n.reach==='number'&&n.reach>0) html+='<span>attested in '+n.reach+' source script'+(n.reach===1?'':'s')+'</span>';
+  if(typeof n.reach==='number'&&n.reach>0) html+='<span>attested in '+n.reach+' recorded source unit'+(n.reach===1?'':'s')+'</span>';
   html+='</div>';
 
   html+='<section class="sect"><p class="lab">Mechanism</p><p class="body">'+esc(n.mech||'')+'</p></section>';
   if(n.disc) html+='<section class="sect"><p class="lab">When to reach for this</p><p class="body">'+esc(n.disc)+'</p></section>';
 
-  var ex=(n.ex&&n.ex.length)?n.ex[0]:null;
-  if(ex&&ex.t){
-    html+='<section class="sect"><p class="lab">Worked example</p><div class="ex">';
-    if(ex.f) html+='<p class="facet">'+esc(ex.f)+'</p>';
-    html+='<blockquote>'+esc(ex.t)+'</blockquote>';
-    if(ex.m) html+='<p class="move"><b>The move</b><span>'+esc(ex.m)+'</span></p>';
-    html+='</div></section>';
-  }
+  html+='<p class="metadata-evidence">'+esc(Writer.kindLabel(n))+' · '+(Number.isFinite(n.annotation_units)?n.annotation_units:'Unknown')+' annotation units in the observed corpus. '+(n.so?'Evidence is labeled stated-only. ':'')+'Source appearance and an intended effect are not demonstrated outcomes.</p>';
+  if(n.ex&&n.ex.length) html+='<section class="sect"><p class="lab">Worked examples & variants · '+n.ex.length+'</p>'+Writer.examples(n)+'</section>';
+  else html+='<p class="metadata-evidence">No worked example is available in this public export.</p>';
+  if(n.examples_withheld) html+='<p class="metadata-evidence">Some examples are omitted from this public edition; the entry’s operation and distinctions remain available.</p>';
 
   var cons=S.contrasts[n.id]||[];
   if(cons.length){
     html+='<section class="sect"><details class="confuse"><summary>Distinguish from'+
-      ' <span class="n">'+cons.length+' adjacent technique'+(cons.length===1?'':'s')+', each with a decision procedure</span></summary>';
+      ' <span class="n">'+cons.length+' adjacent entr'+(cons.length===1?'y':'ies')+', inspect the recorded distinctions</span></summary>';
     for(var i=0;i<cons.length;i++){
       var o=S.byId[cons[i].o];
       html+='<div class="cue"><p class="vs"><span class="vslab">vs</span>'+
@@ -525,7 +655,7 @@ function renderEntry(view,n){
     if(nx.length){
       html+='<div class="chips" style="margin-top:7px">'+seqChips(nx.slice(0,6),'follows')+'</div>';
     }
-    html+='<p class="seqnote">Transition frequencies from '+S.annScripts+' annotated scripts; single observations are dimmed.</p></section>';
+    html+='<p class="seqnote">Observed transitions from '+S.annScripts+' annotation units. Only non-overlapping ordered spans count; this is not a prescribed sequence.</p></section>';
   }
 
   var co=S.cooc[n.id]||[];
@@ -534,8 +664,8 @@ function renderEntry(view,n){
     for(var c=0;c<Math.min(co.length,8);c++){
       var t2=S.byId[co[c][0]];
       if(!t2) continue;
-      html+='<a class="chip knav" href="#/entry/'+t2.id+'" title="together in '+co[c][1]+' scripts (lift '+co[c][2]+')">'+
-        esc(t2._title)+'<span class="st">'+co[c][1]+'×</span></a>';
+      html+='<a class="chip knav" href="#/entry/'+t2.id+'" title="together in '+co[c][1]+' annotation units (lift '+co[c][2]+')">'+
+        esc(t2._title)+'<span class="st">'+co[c][1]+' units · lift '+co[c][2]+'×</span></a>';
     }
     html+='</div></section>';
   }
@@ -545,24 +675,23 @@ function renderEntry(view,n){
     html+='<section class="sect"><p class="lab">See also</p><div class="chips">';
     for(var j=0;j<sib.length;j++){
       var t=S.byId[sib[j].o];
-      html+='<a class="chip knav" href="#/entry/'+t.id+'" title="'+esc(sib[j].n)+'">'+esc(t._title)+'</a>';
+      html+='<div class="relation-item"><a class="chip knav" href="#/entry/'+t.id+'">'+esc(t._title)+'</a><p class="relation-note">'+esc(sib[j].n||'Related entry; no public rationale recorded.')+'</p></div>';
     }
     html+='</div></section>';
   }
 
-  html+='<a class="gopen" href="#/graph/sequence/'+n.id+'">Open in graph</a>';
+  html+='<a class="gopen" href="#/graph/relations/'+n.id+'">Explore these connections in the network</a>';
   html+='</article>';
   view.innerHTML=html;
 }
 function seqChips(list,dir){
-  var html='<span class="seqnote" style="margin:0 6px 0 0">'+(dir==='precedes'?'often preceded by':'often followed by')+'</span>';
+  var incoming=dir==='precedes';
+  var html='<span class="seqnote" style="margin:0 6px 0 0">'+(incoming?'observed before':'observed after')+'</span>';
   for(var i=0;i<list.length;i++){
-    var t=S.byId[list[i][0]];
-    if(!t) continue;
-    var mut=list[i][1]<2?' mut':'';
-    html+='<a class="chip knav'+mut+'" href="#/entry/'+t.id+'" '+
-      'title="'+list[i][1]+' observation'+(list[i][1]===1?'':'s')+', '+(list[i][2]*100).toFixed(1)+'% of transitions">'+
-      esc(t._title)+'<span class="st">'+(list[i][2]*100).toFixed(0)+'%</span></a>';
+    var t=S.byId[list[i][0]]; if(!t) continue;
+    var share=list[i][2], pct=share==null?'':(share*100).toFixed(1)+'%';
+    var label=list[i][1]+' transitions'+(pct?' · '+pct+' of '+(incoming?'incoming':'outgoing')+' transitions':'');
+    html+='<a class="chip knav" href="#/entry/'+t.id+'" title="'+label+'">'+esc(t._title)+'<span class="st">'+label+'</span></a>';
   }
   return html;
 }
@@ -586,23 +715,25 @@ var G=null; // graph runtime, torn down on route change
 var MACRO_COLORS_L={ }, MACRO_PALETTE=['#2361ae','#a05a1f','#1e8a68','#7b52d6','#a03a2e','#3f7d8c','#8a6d1e','#5b5f9e'];
 
 function graphTeardown(){
-  if(G){ G.dead=true; if(G.raf) cancelAnimationFrame(G.raf); window.removeEventListener('resize',G.onResize); G=null; }
+  if(G){ G.dead=true; if(G.raf) cancelAnimationFrame(G.raf); window.removeEventListener('resize',G.onResize); window.removeEventListener('writer-selection',G.onSelection); G=null; }
 }
 
 function renderGraph(view,mode,focusId){
   if(mode!=='relations'&&mode!=='cooccurrence'&&mode!=='sequence') mode='relations';
   view.innerHTML=
-    '<div class="gtools" role="tablist" aria-label="Graph mode">'+
+    '<div class="gtools" aria-label="Graph controls">'+
       gmodeBtn('relations','Relations',mode)+
       gmodeBtn('cooccurrence','Co-occurrence',mode)+
       gmodeBtn('sequence','Sequence',mode)+
-      '<input id="gsearch" type="search" placeholder="Find technique…" autocomplete="off" spellcheck="false" aria-label="Find technique in graph">'+
-      '<span class="ghint">scroll to zoom · drag to pan · click a node for detail</span>'+
+      '<input id="gsearch" type="search" placeholder="Find entry…" autocomplete="off" spellcheck="false" aria-label="Find entry in graph">'+
+      '<button class="gmode" id="gminus" aria-label="Zoom out">−</button><button class="gmode" id="gplus" aria-label="Zoom in">+</button><button class="gmode" id="gfit">Fit</button>'+
+      '<label class="ghint">Pinned neighbors <select id="gmatch"><option value="any">Any pinned</option><option value="all">Shared by all</option></select></label>'+
+      '<span class="ghint">drag to pan · pinch or scroll to zoom · Shift-click to pin</span>'+
     '</div>'+
-    '<div class="gwrap"><canvas id="gcanvas"></canvas><div id="gpanel" class="gpanel" hidden></div></div>'+
-    '<div class="glegend" id="glegend"></div>';
+    '<div class="gworkspace"><div class="gwrap"><canvas id="gcanvas" aria-label="Technique relationships; use search to select a node"></canvas></div><aside id="gpanel" class="gpanel" hidden></aside></div>'+
+    '<p id="gcontext" class="ghint" role="status"></p><div class="glegend" id="glegend"></div>';
 
-  document.querySelectorAll('.gmode').forEach(function(b){
+  document.querySelectorAll('.gmode[data-m]').forEach(function(b){
     b.addEventListener('click',function(){
       location.hash='#/graph/'+b.getAttribute('data-m')+(G&&G.sel?'/'+G.sel:'');
     });
@@ -622,6 +753,12 @@ function renderGraph(view,mode,focusId){
   G.onResize=function(){ graphFit(); G.needsDraw=true; };
   window.addEventListener('resize',G.onResize);
   graphFit();
+  G.onSelection=function(){ if(!G)return; G.needsDraw=true; if(G.sel)graphPanel(G.sel); };
+  window.addEventListener('writer-selection',G.onSelection);
+  document.getElementById('gplus').onclick=function(){graphZoom(1.4,G.w/2,G.h/2);};
+  document.getElementById('gminus').onclick=function(){graphZoom(1/1.4,G.w/2,G.h/2);};
+  document.getElementById('gfit').onclick=function(){G.fitted=false;graphFit();G.needsDraw=true;};
+  document.getElementById('gmatch').onchange=function(){G.needsDraw=true;};
   if(focusId&&S.byId[focusId]) graphSelect(focusId,true);
   graphLoop();
 
@@ -635,7 +772,7 @@ function renderGraph(view,mode,focusId){
   });
 }
 function gmodeBtn(m,label,cur){
-  return '<button class="gmode'+(m===cur?' on':'')+'" role="tab" aria-selected="'+(m===cur)+'" data-m="'+m+'">'+label+'</button>';
+  return '<button class="gmode'+(m===cur?' on':'')+'" aria-pressed="'+(m===cur)+'" data-m="'+m+'">'+label+'</button>';
 }
 
 /* --- layout: precomputed at publish time (nodes carry x/y), cached per load --- */
@@ -669,6 +806,7 @@ function graphEdgesFor(mode){
       (S.contrasts[n.id]||[]).forEach(function(s){
         var k=n.id<s.o?n.id+'_'+s.o:s.o+'_'+n.id;
         if(!seen[k]){ seen[k]=1; edges.push([n.id,s.o,1,'c']); }
+        else{var pair=edges.find(function(e){return(e[0]===n.id&&e[1]===s.o)||(e[1]===n.id&&e[0]===s.o);});if(pair)pair[3]='c';}
       });
     });
   }else if(mode==='cooccurrence'){
@@ -684,31 +822,25 @@ function graphEdgesFor(mode){
 }
 
 /* --- colors & legend --- */
-function graphColors(){
-  var macros=[], seen={};
-  S.nodes.forEach(function(n){ var m=n.macroclass||'other'; if(!seen[m]){ seen[m]=1; macros.push(m); } });
-  macros.sort();
-  G.macroColor={};
-  macros.forEach(function(m,i){ G.macroColor[m]=MACRO_PALETTE[i%MACRO_PALETTE.length]; });
-  G.macros=macros;
-}
+var GRAPH_KINDS={technique:{label:'Writing technique',color:'#2361ae'},container:{label:'Structural pattern',color:'#a05a1f'},principle:{label:'Supporting principle',color:'#1e8a68'}};
+function graphColors(){ G.macroColor={}; G.macros=[]; }
 function graphLegend(){
-  var el=document.getElementById('glegend');
-  if(!el) return;
-  var html='';
-  G.macros.forEach(function(m){
-    html+='<span><span class="sw" style="background:'+G.macroColor[m]+'"></span>'+esc(m)+'</span>';
-  });
-  if(G.mode==='sequence') html+='<span style="margin-left:auto">edges point from a technique to what follows it (≥2 observations)</span>';
-  if(G.mode==='cooccurrence') html+='<span style="margin-left:auto">edge weight = scripts where both techniques appear (≥3)</span>';
-  el.innerHTML=html;
+  document.getElementById('glegend').innerHTML=Object.keys(GRAPH_KINDS).map(function(k){var v=GRAPH_KINDS[k];return '<span><span class="sw" style="background:'+v.color+'"></span>'+v.label+'</span>';}).join('')+'<span>'+(G.mode==='relations'?'Solid: related · dashed: distinguish from':G.mode==='cooccurrence'?'Lines: co-occurrence in ≥3 annotated units; lists also include rarer observations':'Arrows: observed sequence in ≥2 instances; lists also include single observations')+'</span>';
 }
-
+function graphPinned(){return window.Writer&&Array.isArray(Writer.selected)?Writer.selected.filter(function(id){return !!S.byId[id];}).slice(0,4):[];}
+function graphContext(){
+  var pins=graphPinned(),seeds=pins.length?pins:(G.sel?[G.sel]:[]),counts={},set={},all=document.getElementById('gmatch').value==='all';
+  seeds.forEach(function(id){var seen={};G.edges.forEach(function(e){var o=e[0]===id?e[1]:(e[1]===id?e[0]:null);if(o!=null&&!seen[o]){seen[o]=1;counts[o]=(counts[o]||0)+1;}});});
+  Object.keys(counts).forEach(function(id){if(!all||counts[id]===seeds.length)set[id]=1;});seeds.forEach(function(id){set[id]=1;});if(G.sel)set[G.sel]=1;
+  return {seeds:seeds,set:seeds.length?set:null,pins:pins};
+}
+function graphZoom(factor,x,y){var k=Math.max(0.12,Math.min(16,G.k*factor));G.tx=x-(x-G.tx)*k/G.k;G.ty=y-(y-G.ty)*k/G.k;G.k=k;G.needsDraw=true;}
 /* --- viewport --- */
 function graphFit(){
   var c=G.canvas, dpr=window.devicePixelRatio||1;
   var r=c.getBoundingClientRect();
   c.width=Math.round(r.width*dpr); c.height=Math.round(r.height*dpr);
+  if(G.fitted){G.tx+=(r.width-G.w)/2;G.ty+=(r.height-G.h)/2;}
   G.dpr=dpr; G.w=r.width; G.h=r.height;
   if(!G.fitted){
     var xs=[],ys=[];
@@ -728,47 +860,15 @@ function toWorld(sx,sy){ return [(sx-G.tx)/G.k,(sy-G.ty)/G.k]; }
 
 /* --- interactions --- */
 function graphBindings(canvas){
-  var dragging=false, moved=false, lx=0, ly=0;
-  canvas.addEventListener('wheel',function(e){
-    e.preventDefault();
-    G.userMoved=true;
-    var rect=canvas.getBoundingClientRect();
-    var mx=e.clientX-rect.left, my=e.clientY-rect.top;
-    var k2=G.k*Math.exp(-e.deltaY*0.0016);
-    k2=Math.max(0.12,Math.min(16,k2));
-    G.tx=mx-(mx-G.tx)*(k2/G.k);
-    G.ty=my-(my-G.ty)*(k2/G.k);
-    G.k=k2; G.needsDraw=true;
-  },{passive:false});
-  canvas.addEventListener('pointerdown',function(e){
-    dragging=true; moved=false; lx=e.clientX; ly=e.clientY;
-    canvas.classList.add('dragging'); canvas.setPointerCapture(e.pointerId);
-  });
-  canvas.addEventListener('pointermove',function(e){
-    var rect=canvas.getBoundingClientRect();
-    if(dragging){
-      var dx=e.clientX-lx, dy=e.clientY-ly;
-      if(Math.abs(dx)+Math.abs(dy)>3){ moved=true; G.userMoved=true; }
-      G.tx+=dx; G.ty+=dy; lx=e.clientX; ly=e.clientY; G.needsDraw=true;
-    }else{
-      var hit=graphHit(e.clientX-rect.left,e.clientY-rect.top);
-      if(hit!==G.hover){ G.hover=hit; G.needsDraw=true; canvas.style.cursor=hit?'pointer':'grab'; }
-    }
-  });
-  canvas.addEventListener('pointerup',function(e){
-    dragging=false; canvas.classList.remove('dragging');
-    if(!moved){
-      var rect=canvas.getBoundingClientRect();
-      var hit=graphHit(e.clientX-rect.left,e.clientY-rect.top);
-      if(hit) graphSelect(hit,false);
-      else{ G.sel=null; document.getElementById('gpanel').hidden=true; G.needsDraw=true; }
-    }
-  });
-  canvas.addEventListener('dblclick',function(e){
-    var rect=canvas.getBoundingClientRect();
-    var hit=graphHit(e.clientX-rect.left,e.clientY-rect.top);
-    if(hit) graphSelect(hit,true);
-  });
+  var points=new Map(),moved=false,last=null,pinch=null;
+  function point(e){var r=canvas.getBoundingClientRect();return{x:e.clientX-r.left,y:e.clientY-r.top};}
+  function pair(){var a=Array.from(points.values());return{x:(a[0].x+a[1].x)/2,y:(a[0].y+a[1].y)/2,d:Math.hypot(a[0].x-a[1].x,a[0].y-a[1].y)};}
+  canvas.addEventListener('wheel',function(e){e.preventDefault();var p=point(e);graphZoom(Math.exp(-e.deltaY*.0016),p.x,p.y);},{passive:false});
+  canvas.addEventListener('pointerdown',function(e){points.set(e.pointerId,point(e));canvas.setPointerCapture(e.pointerId);if(points.size===1){last=point(e);moved=false;}else{pinch=pair();moved=true;}canvas.classList.add('dragging');});
+  canvas.addEventListener('pointermove',function(e){var p=point(e);if(points.has(e.pointerId)){points.set(e.pointerId,p);if(points.size>=2){var q=pair();if(pinch){graphZoom(q.d/(pinch.d||q.d),pinch.x,pinch.y);G.tx+=q.x-pinch.x;G.ty+=q.y-pinch.y;}pinch=q;moved=true;}else if(last){var dx=p.x-last.x,dy=p.y-last.y;if(Math.abs(dx)+Math.abs(dy)>2)moved=true;G.tx+=dx;G.ty+=dy;last=p;}G.needsDraw=true;}else{var hit=graphHit(p.x,p.y);if(hit!==G.hover){G.hover=hit;G.needsDraw=true;canvas.style.cursor=hit?'pointer':'grab';}}});
+  function finish(e,cancelled){var p=point(e);points.delete(e.pointerId);if(!cancelled&&!moved){var hit=graphHit(p.x,p.y);if(hit){if(e.shiftKey&&window.Writer)Writer.toggle(hit);graphSelect(hit,false);}else{G.sel=null;document.getElementById('gpanel').hidden=true;graphFit();G.needsDraw=true;}}pinch=null;last=points.size?Array.from(points.values())[0]:null;if(!points.size)canvas.classList.remove('dragging');}
+  canvas.addEventListener('pointerup',function(e){finish(e,false);});canvas.addEventListener('pointercancel',function(e){finish(e,true);});
+  canvas.addEventListener('dblclick',function(e){var p=point(e),hit=graphHit(p.x,p.y);if(hit)graphSelect(hit,true);});
 }
 function graphHit(sx,sy){
   var best=null, bestD=110; // 10.5px radius
@@ -780,7 +880,8 @@ function graphHit(sx,sy){
   return best;
 }
 function graphSelect(id,center){
-  G.sel=id; G.needsDraw=true;
+  G.sel=id; G.needsDraw=true; graphPanel(id); graphFit();
+  history.replaceState(null,'','#/graph/'+G.mode+'/'+id);
   if(center){
     var p=G.pos[id];
     var k=Math.max(G.k,(G.fitK||1)*3.2);
@@ -797,16 +898,17 @@ function graphPanel(id){
   var g=(n.door!=null)?S.genusById[String(n.door)]:null;
   var html='<h3>'+esc(n._title)+'</h3>'+
     '<p class="gdoor">'+(g?esc(g._title):'standalone')+
-    (typeof n.reach==='number'&&n.reach>0?' · '+n.reach+' source scripts':'')+'</p>'+
+    (typeof n.reach==='number'&&n.reach>0?' · '+n.reach+' annotated source units':'')+'</p>'+
     '<p class="gmech">'+esc(n.mech||'')+'</p>';
   function rows(title,list,fmt){
     if(!list||!list.length) return '';
     var h='<p class="lab">'+title+'</p>';
-    list.slice(0,8).forEach(function(t){
+    list.forEach(function(t){
       var o=S.byId[t[0]];
       if(!o) return;
-      h+='<div class="grow2'+(t[1]<2?' mut':'')+'" data-go="'+o.id+'">'+
-        '<span class="gname">'+esc(o._title)+'</span><span class="gstat">'+fmt(t)+'</span></div>';
+      h+='<button type="button" class="grow2'+(t[1]<2?' mut':'')+'" data-go="'+o.id+'">'+
+        '<span class="gname">'+esc(o._title)+'</span><span class="gstat">'+fmt(t)+'</span></button>';
+      if(G.mode==='relations'&&t[2])h+='<details class="greason"><summary>Why related?</summary><p>'+esc(t[2])+'</p></details>';
     });
     return h;
   }
@@ -814,15 +916,18 @@ function graphPanel(id){
     html+=rows('Often follows this',S.next[id]||[],function(t){ return (t[2]*100).toFixed(0)+'% · '+t[1]+'×'; });
     html+=rows('Often precedes this',S.prev[id]||[],function(t){ return t[1]+'×'; });
   }else if(G.mode==='cooccurrence'){
-    html+=rows('Co-occurs with',S.cooc[id]||[],function(t){ return t[1]+' scripts'; });
+    html+=rows('Co-occurs with',S.cooc[id]||[],function(t){ return t[1]+' units'; });
   }else{
-    var rel=(S.seeAlso[id]||[]).map(function(s){ return [s.o,9]; });
+    var rel=(S.seeAlso[id]||[]).map(function(s){ return [s.o,9,s.n]; });
     html+=rows('Related',rel,function(){ return ''; });
-    var con=(S.contrasts[id]||[]).map(function(s){ return [s.o,9]; });
+    var con=(S.contrasts[id]||[]).map(function(s){ return [s.o,9,s.n]; });
     html+=rows('Distinguish from',con,function(){ return ''; });
   }
+  html+='<button type="button" class="gopen" id="gpin">'+(graphPinned().indexOf(id)>=0?'Unpin from comparison':'Pin for comparison')+'</button> <a class="gopen" href="#/workbench">Compare pinned</a> ';
   html+='<a class="gopen" href="#/entry/'+n.id+'">Open entry</a>';
   el.innerHTML=html; el.hidden=false;
+  var actions=Array.from(el.querySelectorAll('.gopen'));var mech=el.querySelector('.gmech');actions.reverse().forEach(function(a){mech.after(a);});
+  document.getElementById('gpin').onclick=function(){if(window.Writer){Writer.toggle(id);graphPanel(id);G.needsDraw=true;}};
   el.querySelectorAll('.grow2').forEach(function(r){
     r.addEventListener('click',function(){ graphSelect(+r.getAttribute('data-go'),true); });
   });
@@ -842,12 +947,9 @@ function graphDraw(){
   ctx.setTransform(dpr,0,0,dpr,0,0);
   ctx.clearRect(0,0,G.w,G.h);
   var ink3=cssVar('--ink-3'), ink1=cssVar('--ink-1'), line=cssVar('--line-2'), accent=cssVar('--accent');
-  var selSet=null;
-  if(G.sel!=null){
-    selSet={}; selSet[G.sel]=1;
-    G.edges.forEach(function(e){ if(e[0]===G.sel) selSet[e[1]]=1; if(e[1]===G.sel) selSet[e[0]]=1; });
-  }
-
+  var context=graphContext(),selSet=context.set;
+  var status=document.getElementById('gcontext'),shared=document.getElementById('gmatch').value==='all';
+  status.textContent=context.seeds.length?context.seeds.length+(context.pins.length?' pinned':' focused')+' · '+Object.keys(selSet).filter(function(id){return context.seeds.indexOf(+id)<0&&+id!==G.sel;}).length+(shared?' shared neighbors':' neighbors'):'Select an entry or pin up to four to explore their relationships.';
   // edges — 1px screen-space, alpha by weight; dimmed when a selection exists
   ctx.lineWidth=1;
   for(var i=0;i<G.edges.length;i++){
@@ -856,10 +958,12 @@ function graphDraw(){
     if(!a||!b) continue;
     var pa=toScreen(a), pb=toScreen(b);
     if((pa[0]<0&&pb[0]<0)||(pa[0]>G.w&&pb[0]>G.w)||(pa[1]<0&&pb[1]<0)||(pa[1]>G.h&&pb[1]>G.h)) continue;
-    var onSel=selSet&&(e[0]===G.sel||e[1]===G.sel);
-    var alpha=selSet? (onSel?0.85:0.05) : 0.13+0.35*(e[2]||0.5);
+    var onSel=selSet&&selSet[e[0]]&&selSet[e[1]]&&(context.seeds.indexOf(e[0])>=0||context.seeds.indexOf(e[1])>=0);
+    if(selSet&&!onSel)continue;
+    var alpha=selSet?0.85:Math.min(0.35,1400/Math.max(1,G.edges.length))*(0.4+0.6*(e[2]||0.5));
     ctx.strokeStyle=(e[3]==='c')? cssVar('--high') : (onSel?accent:ink3);
     ctx.globalAlpha=alpha;
+    ctx.setLineDash(e[3]==='c'?[4,3]:[]);
     ctx.beginPath(); ctx.moveTo(pa[0],pa[1]); ctx.lineTo(pb[0],pb[1]); ctx.stroke();
     if(e[3]==='d'&&(!selSet||onSel)){ // arrowhead, constant screen size
       var dx=pb[0]-pa[0], dy=pb[1]-pa[1], L=Math.sqrt(dx*dx+dy*dy)||1;
@@ -875,56 +979,47 @@ function graphDraw(){
   }
   ctx.globalAlpha=1;
 
+  ctx.setLineDash([]);
   // nodes — CONSTANT screen radius regardless of zoom
   var R=4.2, q=G.query;
   var labelZoom=G.k>=(G.fitK||1)*2.2;
   for(var j=0;j<S.nodes.length;j++){
     var n=S.nodes[j], p=toScreen(G.pos[n.id]);
     if(p[0]<-12||p[0]>G.w+12||p[1]<-12||p[1]>G.h+12) continue;
-    var col=G.macroColor[n.macroclass||'other']||ink3;
+    var col=(GRAPH_KINDS[n.kind]||GRAPH_KINDS.technique).color;
     var dim=(selSet&&!selSet[n.id])||(q&&n._search.indexOf(q)<0);
     ctx.globalAlpha=dim?0.16:0.92;
     ctx.beginPath();
     ctx.arc(p[0],p[1],(n.id===G.sel||n.id===G.hover)?R+1.8:R,0,Math.PI*2);
     ctx.fillStyle=col;
     ctx.fill();
-    if(n.id===G.sel){
+    if(n.id===G.sel||context.pins.indexOf(n.id)>=0){
       ctx.globalAlpha=1; ctx.lineWidth=1.6; ctx.strokeStyle=ink1;
       ctx.beginPath(); ctx.arc(p[0],p[1],R+3.4,0,Math.PI*2); ctx.stroke(); ctx.lineWidth=1;
     }
   }
-  // labels — constant screen size, appear with zoom / selection / hover / search
-  ctx.globalAlpha=1;
-  ctx.font='11px ui-sans-serif,system-ui,sans-serif';
-  ctx.textBaseline='middle';
-  for(var m=0;m<S.nodes.length;m++){
-    var nn=S.nodes[m], pp=toScreen(G.pos[nn.id]);
-    if(pp[0]<-160||pp[0]>G.w+40||pp[1]<0||pp[1]>G.h) continue;
-    var show=false;
-    if(nn.id===G.sel||nn.id===G.hover) show=true;
-    else if(selSet&&selSet[nn.id]) show=true;
-    else if(q&&nn._search.indexOf(q)>=0&&G.k>=0.9) show=true;
-    else if(labelZoom&&(!selSet)&&(!q)) show=true;
-    if(!show) continue;
-    var txt=nn._title;
-    ctx.fillStyle=cssVar('--surface-1');
-    var w=ctx.measureText(txt).width;
-    ctx.globalAlpha=0.82;
-    ctx.fillRect(pp[0]+7,pp[1]-8,w+8,16);
-    ctx.globalAlpha=1;
-    ctx.fillStyle=(nn.id===G.sel)?accent:ink1;
-    ctx.fillText(txt,pp[0]+11,pp[1]);
-  }
+  // Screen-space greedy placement: focused/pinned labels win, remaining labels yield.
+  ctx.globalAlpha=1;ctx.font='11px ui-sans-serif,system-ui,sans-serif';ctx.textBaseline='middle';
+  var occupied=[],candidates=[];
+  S.nodes.forEach(function(n){var p=toScreen(G.pos[n.id]);if(p[0]<0||p[0]>G.w||p[1]<0||p[1]>G.h)return;var priority=n.id===G.sel?0:(n.id===G.hover?1:(context.pins.indexOf(n.id)>=0?2:3));
+    if(priority<3||(selSet&&selSet[n.id])||(q&&n._search.indexOf(q)>=0)||(!selSet&&!q&&labelZoom))candidates.push({n:n,p:p,rank:priority});});
+  candidates.sort(function(a,b){return a.rank-b.rank||a.n.id-b.n.id;});
+  candidates.forEach(function(c){var w=ctx.measureText(c.n._title).width+8,h=18,p=c.p,spots=[[p[0]+9,p[1]-9],[p[0]-w-9,p[1]-9],[p[0]+9,p[1]-29],[p[0]+9,p[1]+11]],box=null;
+    if(c.rank<3)for(var dy=40;dy<160;dy+=20){spots.push([p[0]+9,p[1]-dy],[p[0]+9,p[1]+dy]);}
+    for(var k=0;k<spots.length;k++){var x=spots[k][0],y=spots[k][1];if(x<0||x+w>G.w||y<0||y+h>G.h)continue;if(!occupied.some(function(o){return x<o.x+o.w+3&&x+w+3>o.x&&y<o.y+o.h+2&&y+h+2>o.y;})){box={x:x,y:y,w:w,h:h};break;}}
+    if(!box)return;occupied.push(box);ctx.fillStyle=cssVar('--surface-1');ctx.globalAlpha=.94;ctx.fillRect(box.x,box.y,w,h);ctx.globalAlpha=1;ctx.fillStyle=c.n.id===G.sel?accent:ink1;ctx.fillText(c.n._title,box.x+4,box.y+9);
+  });
+  G.labelBoxes=occupied;
 }
 
 /* ============ keyboard ============ */
 document.addEventListener('keydown',function(e){
   if(!S.ready) return;
-  var tgt=e.target, inInput=tgt&&(tgt.tagName==='INPUT'||tgt.tagName==='TEXTAREA');
+  var tgt=e.target, inInput=tgt&&(tgt.tagName==='INPUT'||tgt.tagName==='TEXTAREA'||tgt.tagName==='SELECT'||tgt.isContentEditable);
 
   if(e.key==='/'&&!inInput){
     e.preventDefault();
-    var q=document.getElementById('q')||document.getElementById('gsearch');
+    var q=document.getElementById('tableQuery')||document.getElementById('memberFilter')||document.getElementById('q')||document.getElementById('gsearch');
     if(q){ q.focus(); q.select(); }
     else{
       location.hash='#/';
@@ -934,9 +1029,11 @@ document.addEventListener('keydown',function(e){
   }
 
   if(e.key==='Escape'){
+    if(tgt&&tgt.tagName==='SELECT') return;
     if(inInput){
       if(tgt.value){
         tgt.value='';
+        if(tgt.id==='tableQuery'){ Writer.query=''; Writer.page=0; Writer.paintTable(); }
         if(tgt.id==='q'){ searchQuery=''; renderResults(); }
         if(tgt.id==='memberFilter'){ memberFilter=''; paintSingletons(); }
         if(tgt.id==='gsearch'&&G){ G.query=''; G.needsDraw=true; }
@@ -955,7 +1052,7 @@ document.addEventListener('keydown',function(e){
   }
 
   if(e.key==='ArrowLeft'||e.key==='ArrowRight'||e.key==='ArrowUp'||e.key==='ArrowDown'){
-    if(inInput) return;
+    if(inInput || (tgt && ['BUTTON','SUMMARY','CANVAS'].includes(tgt.tagName))) return;
     var items=Array.prototype.slice.call(document.querySelectorAll('.knav'));
     if(!items.length) return;
     var cur=items.indexOf(document.activeElement);
@@ -990,5 +1087,6 @@ function nearestVertical(items,cur,dir){
   return best;
 }
 
-loadData();
 </script>
+<script src="writer-tools.js"></script>
+<script>loadData();</script>

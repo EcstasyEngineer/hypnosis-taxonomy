@@ -1,63 +1,37 @@
-# Hypnosis Taxonomy
+# Hypnosis Taxonomy · Writer’s reference
 
-A structured, technique-grain catalog of influence and hypnosis mechanisms — how
-suggestion, absorption, dissociation, relational influence, and design-time craft
-actually operate — derived from a first-principles extraction over a research
-corpus.
+[Browse the reference](https://ecstasyengineer.github.io/hypnosis-taxonomy/)
 
-### → **[Browse the taxonomy](https://ecstasyengineer.github.io/hypnosis-taxonomy/)**
+A static, data-driven reference for comparing writing operations, structural patterns and supporting material. The current edition contains 979 entries and 4,082 curated relationships. Entry descriptions are reference material; source occurrence and intended effects do not establish demonstrated outcomes.
 
-981 techniques behind 192 named doors — drill door → technique → job/tell/example,
-with rarity heat marking the deep cuts. Light and dark. The fastest way in.
+## Choose a way in
 
-## What's here
+- **Browse & compare:** search operations and distinctions, filter by reviewed writing role, and pin up to four entries. The desktop table becomes readable cards on mobile.
+- **Workspace:** keep full operations, distinctions, setup, examples and variants together. Find candidates connected to every pin or any pin. Curated see-also, observed co-occurrence and observed-next are separate modes. Pair-count and association-lift ranking expose their basis.
+- **Network:** explore relations, co-occurrence or ordered annotation observations. Circles remain the same screen size when zooming; labels yield to each other. Use search, zoom/Fit buttons, touch gestures and the accessible relationship list. Pinned entries can show shared or any neighbors.
+- **Entry:** read the full operation, selection guidance, all public examples and neighbor rationales. Some examples may be explicitly withheld from this public edition.
+- **Timeline:** load an annotation JSON locally in the browser to inspect line-based density and entries. The file is not uploaded.
 
-- **[The browser](https://ecstasyengineer.github.io/hypnosis-taxonomy/)** —
-  doors-first navigation over the whole taxonomy, rendered by [`index.html`](index.html)
-  from [`graph.json`](graph.json). Start here.
-- **[`v8_book.md`](v8_book.md)** — the taxonomy, browsable as one document.
-  981 techniques across 192 named door groups. Each technique has a mechanism
-  description, positive "reach for this when…" routing prose, a falsifiable note on
-  *why* it works, safety/consent flags, worked examples, and its realization bank.
-- **[`graph.json`](graph.json)** — the same taxonomy as data: every technique as a
-  node (door, family, risk, mechanism, rarity heat) plus door definitions and the
-  certificated cross-reference edges. Use it if you want to build your own views.
-- **[`legacy/`](legacy/)** — earlier iterations: the v6.5 taxonomy (the prior
-  human-authored version), its inventory, and its example files, kept for lineage.
+Node colors use the stored kinds: technique, structural pattern (`container`) and principle. The table’s reviewed writing roles are a separate retrieval layer: writing move, structural pattern, supporting principle and supporting assessment. Neither labels nor graph proximity certify efficacy.
 
-## What makes this different
+## Read the data honestly
 
-Most influence and hypnosis writing asserts mechanisms that cannot be tested, so they
-can never be wrong. Every technique here carries a **falsifiable** note on why it works —
-naming the actual cognitive, behavioural or social mechanism, and stating what
-observation would contradict it. Where the honest answer is "the mechanism is not
-established," the entry says so rather than bluffing.
+The graph includes 525 nonempty annotation units from 527 files. Of those files, 39 have ambiguous or unresolved underlying source identity. Units therefore must not be described as verified distinct scripts or independent authors.
 
-Techniques are also **discriminated**, not just described: each says how it differs from
-its nearest neighbours, so the catalog can be navigated rather than merely browsed.
+- `edges` are curated relationships: symmetric `see_also`/`contrasts_with`, directed `distinct_from`.
+- `cooc[a] = [[b, count, lift], …]` contains full symmetric pairwise co-occurrence. Count is annotation units containing both; lift is observed overlap relative to independence in this corpus. Shared pairwise neighbors do not prove joint occurrence of all selected entries.
+- `next[a] = [[b, count, share], …]` and `prev[b] = [[a, count, share], …]` use their own outgoing/incoming denominators. Overlapping spans and ambiguous boundaries are excluded. These are annotation-order observations, not prescribed next steps.
+- `annotation_units` is per-entry observed annotation coverage. `provenance_counts` counts source-key units, which may include literature, scripts and unresolved aliases. These are different measures.
+- `meta` describes coverage, exclusions, schema and layout limits. Layout distance is exploratory; known stale embedding vectors are excluded, and a matching text length does not prove embedding freshness.
 
-## How it's organized
+## Retrieval for another tool
 
-The tree is presentation; the semantics live in each family's page (a definition +
-a scope note saying what belongs and what explicitly does not) and in each
-technique's own text. Families group by the primary mechanism; a technique can be
-tagged by several families where it genuinely spans them. Nothing is defined by its
-name alone.
+`graph.json` is a static public data contract, not a hosted reasoning service. The workspace’s **Export retrieval JSON** downloads selected entry details, all matching candidates, per-pin evidence, filters, ranking and coverage metadata. A downstream agent can inspect those records before proposing a writing decision. No agent or script generator runs in this page.
 
-## Scope
+This repository contains generated public artifacts. The private working repository owns the exporter and viewer source; its update command regenerates data and scans every artifact before writing this checkout. Do not hand-copy private data or source files here. Private corpus identities and quotations are not part of the public contract.
 
-This describes influence mechanisms as an ontology — what the move is, when it
-applies, and how it differs from its neighbors. It is a reference about influence;
-it is not instructional material and contains no source scripts or corpus.
+## Local preview
 
-## Provenance & status
+Run `python3 -m http.server 8000` in this folder and open `http://localhost:8000/`. No build system, remote font, CDN or account is required. All viewer assets are local. `v8_book.md` is the long-form reference; `legacy/` preserves earlier editions.
 
-Built by isolation extraction (sources read blind to any prior taxonomy), then
-consolidated to technique grain. The raw source corpus is not included. Method
-notes and tooling live in a separate working repository; the book and graph here
-are regenerated exports from it, and this repo is actively synced as the taxonomy
-grows.
-
-## License
-
-Content licensed CC BY-SA 4.0 (see [LICENSE](LICENSE)).
+Content: CC BY-SA 4.0; see [LICENSE](LICENSE).
