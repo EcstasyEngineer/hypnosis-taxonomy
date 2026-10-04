@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "measured_at": "2026-10-04T16:55:59+00:00",
+  "rubric_version": "1.0 · frozen before measurement",
+  "rubric_sha256": "d17a2872d6cd3b434e84799f603e5d52d3bad0812fc5bd7c5f4db0f225a619d2",
+  "perceived_baseline": 60,
+  "baseline_score": 35,
+  "prior_unpublished_score": 100,
+  "final_score": 100,
+  "target_score": 95,
+  "raw_automated_score": 85,
+  "measurement_notes": "Two screenshot checks are manually reviewed. Ordinary-node radius uses a same-node canvas probe because the automatic most-frequent-radius heuristic can select focus rings. The raw automated result is retained separately; the frozen acceptance criterion is unchanged.",
+  "release_status": "acceptance passed",
+  "interpretation": "The owner's roughly 60% starting assessment is qualitative. The original published interface scored 35/100 against this frozen 20-check engineering rubric; the prior unpublished candidate already scored 100/100. The final score is functional acceptance, not a measured percentage of user satisfaction or proof that this revamp caused every baseline-to-release gain.",
+  "checks": [
+    {
+      "id": "W1",
+      "title": "Find an operation",
+      "points": 5,
+      "threshold": "Search for a known operation returns entries, nonsense query shows an explicit empty state, clearing restores results.",
+      "solution": "Existing search retained; table adds writer context.",
+      "baseline": {
+        "status": "pass",
+        "observation": "53 visible matches; empty-state and clear-to-restore checks pass."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "30 visible matches; empty-state and clear-to-restore checks pass."
+      }
+    },
+    {
+      "id": "W2",
+      "title": "Filter writing roles",
+      "points": 5,
+      "threshold": "Four reviewed writing-role options are available; selecting a role restricts results to that role.",
+      "solution": "Reviewed writing-role selector and role filtering.",
+      "baseline": {
+        "status": "fail",
+        "observation": "Required target workflow or check did not pass in this edition."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "Role counts: 726, 101, 86, 66."
+      }
+    },
+    {
+      "id": "W3",
+      "title": "Compare pinned entries",
+      "points": 5,
+      "threshold": "Pin two entries by UI, open workspace, and see two distinct comparison cards with operation text.",
+      "solution": "Two-pin comparison workspace.",
+      "baseline": {
+        "status": "fail",
+        "observation": "Required target workflow or check did not pass in this edition."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "2 distinct comparison cards from UI pinning."
+      }
+    },
+    {
+      "id": "W4",
+      "title": "Read selection guidance and examples",
+      "points": 5,
+      "threshold": "Comparison exposes selection guidance and worked examples through operable disclosure controls.",
+      "solution": "Comparison disclosures expose selection guidance and examples.",
+      "baseline": {
+        "status": "fail",
+        "observation": "Required target workflow or check did not pass in this edition."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "Selection guidance and examples available through disclosure controls."
+      }
+    },
+    {
+      "id": "W5",
+      "title": "Explore evidence types and shared neighbors",
+      "points": 5,
+      "threshold": "Every/any-pin matching and all three connection modes operate and expose explanatory evidence text.",
+      "solution": "Every/any matching and three explicitly named evidence modes.",
+      "baseline": {
+        "status": "fail",
+        "observation": "Required target workflow or check did not pass in this edition."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "6 connection/match combinations exercised."
+      }
+    },
+    {
+      "id": "W6",
+      "title": "Download and restore a workspace",
+      "points": 5,
+      "threshold": "Actual JSON download includes the two selected full entries, candidate evidence and method metadata; shared workspace URL restores selected IDs in a clean context.",
+      "solution": "Full retrieval download and shareable selected IDs.",
+      "baseline": {
+        "status": "fail",
+        "observation": "Required target workflow or check did not pass in this edition."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "Actual JSON download and clean-context selected-ID restoration pass."
+      }
+    },
+    {
+      "id": "G1",
+      "title": "Explore three network modes",
+      "points": 5,
+      "threshold": "All three graph modes render finite node positions and a usable nonzero canvas without browser errors.",
+      "solution": "Three graph modes retained.",
+      "baseline": {
+        "status": "pass",
+        "observation": "All three modes have finite positions and nonzero canvas dimensions."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "All three modes have finite positions and nonzero canvas dimensions."
+      }
+    },
+    {
+      "id": "G2",
+      "title": "Zoom and fit controls",
+      "points": 5,
+      "threshold": "Zoom in, zoom out and Fit controls operate; Fit returns a finite positive view scale.",
+      "solution": "Explicit zoom and Fit controls.",
+      "baseline": {
+        "status": "fail",
+        "observation": "Required target workflow or check did not pass in this edition."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "Zoom in/out and Fit preserve a finite positive scale."
+      }
+    },
+    {
+      "id": "G3",
+      "title": "Keyboard graph search",
+      "points": 5,
+      "threshold": "Keyboard-operable graph search selects an entry and exposes an HTML detail/relationship panel.",
+      "solution": "Keyboard graph search and HTML detail panel retained.",
+      "baseline": {
+        "status": "pass",
+        "observation": "Keyboard search opens a readable HTML entry/relationship panel."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "Keyboard search opens a readable HTML entry/relationship panel."
+      }
+    },
+    {
+      "id": "G4",
+      "title": "Label placement and screen-space circles",
+      "points": 5,
+      "threshold": "Sampled graph labels have zero overlapping placed-label rectangles; ordinary node screen radius is invariant across two zoom levels.",
+      "solution": "Greedy placed-label collision avoidance; ordinary radius remains constant.",
+      "baseline": {
+        "status": "fail",
+        "observation": "Placed-label overlaps in two sampled zooms: 8, 2."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "Zero placed-label overlaps in sampled zooms; ordinary circles remain 4.2 CSS pixels in radius."
+      }
+    },
+    {
+      "id": "A1",
+      "title": "Responsive route layouts",
+      "points": 5,
+      "threshold": "No horizontal document overflow >1px at widths 320, 390, 768 and 1440 on table, two-pin workspace and focused graph routes.",
+      "solution": "Responsive table/workspace/graph routes exist and fit target widths.",
+      "baseline": {
+        "status": "fail",
+        "observation": "Required target workflow or check did not pass in this edition."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "No horizontal overflow across 12 route/viewport samples (320, 390, 768, 1440px)."
+      }
+    },
+    {
+      "id": "A2",
+      "title": "Named controls",
+      "points": 5,
+      "threshold": "Every visible input/select/textarea/button has an accessible name on those routes.",
+      "solution": "Named visible controls retained.",
+      "baseline": {
+        "status": "pass",
+        "observation": "0 unnamed visible controls in sampled routes."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "0 unnamed visible controls in sampled routes."
+      }
+    },
+    {
+      "id": "A3",
+      "title": "Keyboard skip and visible focus",
+      "points": 5,
+      "threshold": "First keyboard Tab exposes an operable skip link; activation focuses main content; keyboard focus indicators are visibly present in inspected screenshots.",
+      "solution": "Skip link and main focus.",
+      "baseline": {
+        "status": "fail",
+        "observation": "Required target workflow or check did not pass in this edition."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "First Tab exposes skip link; Enter focuses main; focus screenshot inspected."
+      }
+    },
+    {
+      "id": "A4",
+      "title": "Readable mobile controls",
+      "points": 5,
+      "threshold": "At 390px, sampled primary controls have ≥24px dimensions and clear non-overlapping placement; table/workspace/graph screenshots are legible on inspection.",
+      "solution": "Mobile controls and readable card layouts.",
+      "baseline": {
+        "status": "fail",
+        "observation": "Required target workflow or check did not pass in this edition."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "No sampled primary controls below 24px; mobile screenshots inspected."
+      }
+    },
+    {
+      "id": "D1",
+      "title": "Kinds, roles and coverage meaning",
+      "points": 5,
+      "threshold": "UI distinguishes stored kind and reviewed writing role, and explicitly calls coverage annotation units rather than verified sources/outcomes.",
+      "solution": "Stored kind, reviewed writing role and annotation units distinguished.",
+      "baseline": {
+        "status": "fail",
+        "observation": "Required target workflow or check did not pass in this edition."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "Stored kinds, reviewed roles and annotation-unit coverage shown distinctly."
+      }
+    },
+    {
+      "id": "D2",
+      "title": "Connection semantics and limits",
+      "points": 5,
+      "threshold": "Connection descriptions distinguish affinity, co-occurrence and sequence; pairwise intersections and causal/efficacy limits are explicit.",
+      "solution": "Evidence-type and interpretation limits explicit.",
+      "baseline": {
+        "status": "fail",
+        "observation": "Required target workflow or check did not pass in this edition."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "Affinity, co-occurrence, order, pairwise/joint and efficacy limits explained."
+      }
+    },
+    {
+      "id": "D3",
+      "title": "Retrieval evidence metadata",
+      "points": 5,
+      "threshold": "Exported JSON includes data metadata, reviewed-role flags and withheld-example metadata; missing rationale/examples are explicitly represented.",
+      "solution": "Data/reviewed-role/withheld metadata included.",
+      "baseline": {
+        "status": "fail",
+        "observation": "Required target workflow or check did not pass in this edition."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "Coverage, reviewed-role and withheld-example metadata included."
+      }
+    },
+    {
+      "id": "P1",
+      "title": "Cold-context data-ready time",
+      "points": 5,
+      "threshold": "On this recorded desktop runtime, median of 3 cold-context data-ready loads ≤3s; raw trials and payload size reported.",
+      "solution": "Local cold load meets budget.",
+      "baseline": {
+        "status": "pass",
+        "observation": "Three cold-context trials: 130ms, 138ms, 129ms; median 130ms."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "Three cold-context trials: 230ms, 287ms, 294ms; median 287ms."
+      }
+    },
+    {
+      "id": "P2",
+      "title": "Search and focused graph response",
+      "points": 5,
+      "threshold": "Median of 5 search-to-result updates ≤150ms, and focused graph render sample ≤100ms; runtime-specific, not mobile guarantees.",
+      "solution": "Local search and focused graph budgets met.",
+      "baseline": {
+        "status": "pass",
+        "observation": "Median search 21ms; graph samples 2.1ms, 2.3ms."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "Median search 34ms; graph samples 2.2ms, 1.3ms."
+      }
+    },
+    {
+      "id": "P3",
+      "title": "Saved-state and data-load recovery",
+      "points": 5,
+      "threshold": "Malformed saved pins do not crash; failed data fetch produces visible actionable guidance rather than an endless loading state.",
+      "solution": "Malformed session and load failure handled.",
+      "baseline": {
+        "status": "pass",
+        "observation": "Malformed saved pins recover; failed data fetch shows actionable guidance."
+      },
+      "final": {
+        "status": "pass",
+        "observation": "Malformed saved pins recover; failed data fetch shows actionable guidance."
+      }
+    }
+  ],
+  "gates": [
+    {
+      "title": "No unhandled workflow errors",
+      "status": "pass",
+      "observation": "Browser workflow runs report zero unhandled errors."
+    },
+    {
+      "title": "No external visitor tracking",
+      "status": "pass",
+      "observation": "Only first-party static assets requested; measurements are local test observations."
+    },
+    {
+      "title": "Current public artifacts pass publication gates",
+      "status": "pass",
+      "observation": "Gated exporter scans every public artifact before local write and deployment."
+    },
+    {
+      "title": "Current data contract preserved",
+      "status": "pass",
+      "observation": "979 active entries preserved; pair counts, symmetry and conditional denominators independently verified."
+    },
+    {
+      "title": "Primary workflow works on mobile and keyboard",
+      "status": "pass",
+      "observation": "320px workflow and actual keyboard navigation inspected and exercised."
+    }
+  ],
+  "improvements": [
+    {
+      "title": "Keep connected graph nodes in view",
+      "before": "Focused entry sample: desktop 27/31 nodes visible; mobile 29/31.",
+      "after": "31/31 visible at both sizes; six dense stress views also fit all contextual nodes.",
+      "solution": "Fit connection bounds automatically; separate Fit all and Fit connections controls."
+    },
+    {
+      "title": "Keep labels off the nodes they describe",
+      "before": "Contextual node-label occlusions: 3 desktop, 7 mobile in matched samples.",
+      "after": "Zero in those samples and six dense stress views.",
+      "solution": "Labels avoid contextual nodes, move with leader lines, and retain accessible list/search alternatives."
+    },
+    {
+      "title": "Reach candidate choices with less scrolling",
+      "before": "Longest-operation comparison: candidate controls at 1480px desktop and 3469px mobile.",
+      "after": "934px desktop and 1718px mobile (36.9% and 50.5% less vertical travel).",
+      "solution": "Progressive disclosure keeps full operations and examples available; evidence and actions appear sooner."
+    },
+    {
+      "title": "Read metadata and operate controls",
+      "before": "Light hints/counts contrast 2.18:1; sampled nav/pin targets as small as 39.4px.",
+      "after": "Light secondary text 7.81:1; sampled nav/pin targets at least 44px.",
+      "solution": "Targeted contrast corrections and responsive navigation spacing; light/dark screenshots inspected."
+    },
+    {
+      "title": "Retrieve every candidate without duplicating all illustrations",
+      "before": "Candidate display stopped at 40; 243-candidate full download 1,170,637 bytes.",
+      "after": "All 243 accessible through pagination; compact download 622,857 bytes (46.8% smaller).",
+      "solution": "Explicit compact/full modes retain all candidate operations, selection guidance and evidence; omitted example counts and links are visible."
+    },
+    {
+      "title": "Recover from bad links and incomplete data",
+      "before": "Unknown routes fell back to the index; malformed data could contaminate retry state.",
+      "after": "Explicit missing-page recovery and schema validation; six malformed-data/retry cases restore clean 979-entry/192-group indexes.",
+      "solution": "Validate before rebuilding indexes; expose Retry, preserve workspace state, and handle offline status."
+    }
+  ],
+  "runtime": "Headless Chromium on Linux x64; browser-emulated desktop/mobile layouts. Performance rubric uses fresh browser contexts over unthrottled loopback, not real mobile-network measurements.",
+  "limits": [
+    "No physical-device or assistive-technology user study has been performed; owner aesthetic judgment remains separate.",
+    "The functional checklist was already satisfied by the previous unpublished candidate; new revamp gains are listed separately.",
+    "The raw data payload is about 8.8 MB (about 2.65 MB gzip). A 4× CPU, 1.6 Mbps, 150ms-latency uncompressed HTTP simulation took about 43.5 seconds to load; it remains bandwidth-sensitive.",
+    "Corpus counts are observations, not outcome or causal evidence. Merge/split proposals are outside this UX release."
+  ],
+  "artifact_sha256": {
+    "index.html": "d27f4edb0bf54b8c945ded3420354970a9249294af6c27ab4903e6733e5e9096",
+    "writer-tools.js": "e599b84ed5d7fae275ec6d003ef290196bafd48a46dd6a344b770bf4c24c4ccd",
+    "writer-tools.css": "eeaa3234d43e06aa936b46930fdb241fbc6c8ff87a8bf390694d6f4e342afda8"
+  }
+}

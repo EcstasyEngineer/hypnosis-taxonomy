@@ -35,3 +35,9 @@ This repository contains generated public artifacts. The private working reposit
 Run `python3 -m http.server 8000` in this folder and open `http://localhost:8000/`. No build system, remote font, CDN or account is required. All viewer assets are local. `v8_book.md` is the long-form reference; `legacy/` preserves earlier editions.
 
 Content: CC BY-SA 4.0; see [LICENSE](LICENSE).
+
+## UX release evidence
+
+[View the acceptance scorecard](ux-report.html) for the frozen rubric, measured published baseline, additional revamp gaps, solutions and final verification. It separates the owner’s approximate60% qualitative assessment from engineering acceptance toward95/100. The previous unpublished build already passed the functional checklist; additional improvements are reported separately. No visitor analytics are collected.
+
+Workspace downloads offer compact candidate detail (all operations, selection guidance and evidence, with explicit omitted-example counts and links) or full candidate examples. Selected entries always retain full examples. All candidates remain reachable through pagination.

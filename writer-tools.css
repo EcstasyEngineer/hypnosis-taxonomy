@@ -24,3 +24,65 @@ header{gap:10px;align-items:center}header h1{margin-right:12px}header .hbtn{padd
 #view h2[tabindex="-1"]:focus{outline:none}.empty{color:var(--ink-2)}.example-render{border-left:2px solid var(--line-2);padding-left:14px;font-family:Charter,Georgia,serif;font-size:15px!important}
 
 .ghint,.glegend,.hint,.seqnote,.gcontext-status{color:var(--ink-2)}@media(max-width:700px){header .hgrow{display:none}}
+
+/* Keep secondary writing guidance readable despite the legacy inline stylesheet. */
+html:root{--move:#246999;--pattern:#85551c;--principle:#76509e;--assessment:#226f60}
+body header .sub,body .crumbs,body .hint,body .secthead h2,body .secthead .n,
+body .gx .cnt,body .sect .lab,body .entry .meta,body .pagehead .count,
+body .gtag,body .att,body .badge:not(.risk-medium):not(.risk-high),body kbd,
+body .ex .facet,body .ex .move b,body .cue .vs .vslab,body .chip .st,
+body details.confuse summary .n,body .ghint,body .glegend,body .seqnote{color:var(--ink-2)}
+body header{align-items:center}
+body header .hbtn{min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+body header .hbtn.on{background:var(--accent-soft);font-weight:650}
+body .writer-heading{gap:36px;margin-bottom:24px}
+.writer-heading>div:first-child{min-width:0;flex:1}
+.workspace-export{flex:0 0 300px;display:grid;gap:10px;padding:16px;border:1px solid var(--line);border-radius:10px;background:var(--surface-1)}
+.workspace-export label{display:grid;gap:6px;font-size:12px;font-weight:650;color:var(--ink-2)}
+.workspace-export select{width:100%;min-width:0;min-height:44px;font-size:12px}
+.workspace-export button{min-height:44px;border-color:var(--accent);color:var(--accent);font-size:13px;font-weight:650}
+.workspace-export small{font-size:11px;color:var(--ink-2)}
+.writer-notice:empty{display:none}
+.writer-notice{padding:10px 14px;border-left:3px solid var(--accent);background:var(--accent-soft);font-size:13px;color:var(--ink-1)}
+.compare-grid,.candidate-list{align-items:start}
+.compare-card p,.candidate-card p,.candidate-card li{font-size:14px;line-height:1.65;max-width:76ch}
+.compare-card summary,.candidate-card summary{padding:7px 0;min-height:36px}
+.compare-card details,.candidate-card details{margin:8px 0}
+.compare-card .text-action{padding:7px 0;min-height:36px;margin-top:4px}
+.candidate-card>.pin-btn{margin:2px 0 4px}
+.candidate-card>ul{padding-top:14px;border-top:1px solid var(--line)}
+body .pin-btn{min-height:44px}
+#candidateCount{font-size:12px;color:var(--ink-2);scroll-margin-top:18px}
+#candidatePager{flex-wrap:wrap}
+#candidatePager:empty{display:none}
+#candidatePager button{min-height:44px}
+.site-footer{max-width:1152px;margin:0 auto 28px;padding:20px 0;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:8px 22px;align-items:center;color:var(--ink-2);font-size:12px}
+.site-footer a{display:inline-flex;align-items:center;min-height:44px;text-underline-offset:3px}
+.site-footer p{margin:0}
+@media(max-width:800px){
+  body .writer-heading{gap:24px}
+  .workspace-export{flex-basis:260px}
+  .site-footer{margin-left:24px;margin-right:24px}
+}
+@media(max-width:700px){
+  body header{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px 8px;padding:14px 16px 0}
+  body header h1{font-size:18px;margin:0;grid-column:1;grid-row:1}
+  body header #themeToggle{grid-column:2;grid-row:1;padding:8px 10px}
+  body header nav{grid-column:1/-1;grid-row:2}
+  body header .sub{grid-column:1/-1;grid-row:3;font-size:12px;margin:0}
+  body header .hgrow{display:none}
+  body main{padding:12px 16px 40px}
+  body .writer-heading{margin:12px 0 20px;padding-bottom:18px}
+  .writer-heading h2{font-size:30px;margin:6px 0 12px}
+  .writer-heading p{font-size:14px}
+  .writer-heading .eyebrow{font-size:10px}
+  .workspace-export{margin-top:20px;width:100%;padding:14px}
+  .compare-card summary,.candidate-card summary{min-height:44px;padding:10px 0}
+  .compare-card .text-action{min-height:44px;display:inline-flex;align-items:center}
+  .site-footer{margin:0 16px 20px;padding-top:14px}
+}
+body .empty{color:var(--ink-2)}
+.writer-cap-feedback{margin:10px 0 4px;padding:10px 12px;border-left:3px solid var(--accent);background:var(--accent-soft);font-size:13px;color:var(--ink-1)}
+.table-operation summary{min-height:36px;padding:7px 0;font-size:12px;font-weight:650;color:var(--accent);cursor:pointer}
+.table-operation details p{display:block;overflow:visible;-webkit-line-clamp:unset;margin-top:4px;line-height:1.65}
+@media(max-width:700px){.table-operation summary{min-height:44px;padding:10px 0}}
