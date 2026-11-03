@@ -86,3 +86,10 @@ body .empty{color:var(--ink-2)}
 .table-operation summary{min-height:36px;padding:7px 0;font-size:12px;font-weight:650;color:var(--accent);cursor:pointer}
 .table-operation details p{display:block;overflow:visible;-webkit-line-clamp:unset;margin-top:4px;line-height:1.65}
 @media(max-width:700px){.table-operation summary{min-height:44px;padding:10px 0}}
+/* 2026-11-03 reader rebuild: kind badges in tables and cards, hero search. */
+.writer-table .kind-badge{margin-right:6px}.writer-table .badge{margin-left:0}
+.compare-card .kind-badge,.candidate-card .kind-badge{margin-bottom:4px}
+.writer-hero .searchwrap{margin:22px 0 0}
+.writer-hero h2{margin-bottom:8px}
+.table-operation>p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.compare-steps{margin:0 0 12px;padding-left:20px;font-size:13px;color:var(--ink-2)}.compare-steps li{margin:0 0 6px}.compare-steps a{color:var(--accent);font-size:12px}

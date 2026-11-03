@@ -2,7 +2,7 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Operator Formulary</title>
+<title>Hypnosis Taxonomy</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='5' cy='8' r='2.6' fill='%232361ae'/%3E%3Ccircle cx='11.5' cy='4.5' r='1.9' fill='%23888'/%3E%3Ccircle cx='11.5' cy='11.5' r='1.9' fill='%23888'/%3E%3Cpath d='M6.8 7.2 10 5.1M6.8 8.8 10 10.9' stroke='%23888' stroke-width='1.1'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="writer-tools.css">
 <style>
@@ -12,7 +12,8 @@
     --line:#e2e2dd; --line-2:#d2d2cb;
     --ink-1:#101010; --ink-2:#4e4d4a; --ink-3:#83827c; --ink-4:#aaa9a1;
     --accent:#2361ae; --accent-soft:rgba(35,97,174,.09);
-    --warn:#a05a1f; --high:#a03a2e;
+    --warn:#a05a1f; --high:#a03a2e; --low:#4f6b2a;
+    --g-est:#14684f; --g-sup:#1e8a68;
     --shadow:0 6px 24px rgba(0,0,0,.12);
   }
   @media (prefers-color-scheme: dark) {
@@ -22,7 +23,8 @@
       --line:#2f2f2c; --line-2:#403f3a;
       --ink-1:#f4f4f1; --ink-2:#b8b7ae; --ink-3:#83827a; --ink-4:#5e5d57;
       --accent:#5b93d8; --accent-soft:rgba(91,147,216,.13);
-      --warn:#c98a4b; --high:#c9685a;
+      --warn:#c98a4b; --high:#c9685a; --low:#9fbf72;
+      --g-est:#5fd0a8; --g-sup:#58b896;
       --shadow:0 6px 24px rgba(0,0,0,.5);
     }
   }
@@ -32,7 +34,8 @@
     --line:#2f2f2c; --line-2:#403f3a;
     --ink-1:#f4f4f1; --ink-2:#b8b7ae; --ink-3:#83827a; --ink-4:#5e5d57;
     --accent:#5b93d8; --accent-soft:rgba(91,147,216,.13);
-    --warn:#c98a4b; --high:#c9685a;
+    --warn:#c98a4b; --high:#c9685a; --low:#9fbf72;
+    --g-est:#5fd0a8; --g-sup:#58b896;
     --shadow:0 6px 24px rgba(0,0,0,.5);
   }
 
@@ -88,16 +91,66 @@
   .secthead h2{margin:0;font-size:13px;font-weight:650;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-3)}
   .secthead .n{color:var(--ink-4);font-size:12.5px;font-variant-numeric:tabular-nums}
 
-  /* genus index: compact reference rows */
-  .gxgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:2px 28px}
-  .gx{
-    display:flex;align-items:baseline;gap:9px;padding:7px 8px;border-radius:6px;
-    text-decoration:none;border-bottom:1px solid var(--line);
-  }
-  .gx:hover{background:var(--accent-soft)}
-  .gx:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
-  .gx .name{font-weight:570;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .gx .cnt{color:var(--ink-4);font-size:12px;font-variant-numeric:tabular-nums;margin-left:auto}
+  /* home: goal / stage tiles and the recipe shelf */
+  .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+  .tile{display:flex;flex-direction:column;gap:5px;padding:13px 15px;border:1px solid var(--line);border-radius:10px;
+        background:var(--surface-1);text-decoration:none}
+  .tile:hover{border-color:var(--accent);background:var(--accent-soft)}
+  .tile:focus-visible,.rcard:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .tname{font-weight:650;font-size:15px}
+  .tnum{display:inline-block;min-width:20px;height:20px;border-radius:50%;background:var(--accent-soft);color:var(--accent);
+        font-size:11.5px;text-align:center;line-height:20px;margin-right:8px;font-variant-numeric:tabular-nums}
+  .tdef{color:var(--ink-2);font-size:13px;line-height:1.45}
+  .tcnt{color:var(--ink-3);font-size:12px;margin-top:auto;font-variant-numeric:tabular-nums}
+  .rshelf{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:10px}
+  .rcard{display:flex;flex-direction:column;gap:5px;padding:13px 15px;border-left:3px solid var(--accent);
+         background:var(--surface-1);border-radius:0 10px 10px 0;text-decoration:none}
+  .rcard:hover{background:var(--accent-soft)}
+  .rname{font-weight:650}
+  .rone{color:var(--ink-2);font-size:13px;line-height:1.45}
+  .rcnt{color:var(--ink-3);font-size:12px}
+  .kind-badge{display:inline-block;font-size:10.5px;font-weight:650;letter-spacing:.05em;text-transform:uppercase;
+              border-radius:4px;padding:1px 6px;vertical-align:1px;border:1px solid currentColor;color:var(--ink-3)}
+  .kind-badge.k-recipe{color:var(--accent)}
+  .kindline{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 8px}
+  .tagchip{font-size:12px;color:var(--ink-2);text-decoration:none;border-radius:999px;padding:1px 9px;background:var(--surface-2)}
+  .tagchip:hover{color:var(--accent)}
+  .tagchip.t-stage::before{content:"◷ ";color:var(--ink-3)}
+  .entry .lead{font-size:18px;line-height:1.5;margin:0 0 6px;color:var(--ink-1);max-width:62ch}
+  ol.steps{margin:0;padding-left:22px}
+  ol.steps li{margin:0 0 10px;padding-left:4px}
+  ol.steps li p{margin:0;font-size:15.5px;line-height:1.55}
+  .steplever{display:inline-block;margin-top:3px;font-size:13px;color:var(--accent);text-decoration:none}
+  .steplever span{color:var(--ink-3)}
+  .grade{margin:10px 0 0;font-size:13.5px;color:var(--ink-2)}
+  .grade-badge{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border-radius:4px;
+               padding:1px 7px;margin-right:6px;border:1px solid currentColor}
+  /* Established is the only FILLED badge, so the top two levels never look alike. */
+  .g-established{color:var(--surface-1);background:var(--g-est);border-color:var(--g-est)}
+  .g-supported{color:var(--g-sup)}.g-plausible{color:var(--accent)}.g-speculative{color:var(--warn)}.g-folk{color:var(--high)}
+  .finding{margin:6px 0 0;font-size:13.5px;color:var(--ink-2)}
+  .finding a{color:var(--accent)}
+  .gradescale{margin:6px 0 0;padding-left:0;list-style:none;font-size:13px;color:var(--ink-2)}
+  .gradescale li{margin:0 0 6px}
+  .prereq{margin:0 0 16px;padding:10px 14px;border-left:3px solid var(--warn);background:var(--surface-1);border-radius:0 8px 8px 0;font-size:14px;color:var(--ink-2)}
+  .prereq b{color:var(--ink-1)}
+  .risklegend{font-size:12.5px;color:var(--ink-3);margin:-4px 0 12px;max-width:80ch}
+  .risklegend b{font-weight:650}
+  .starthere{display:inline-block;margin-left:8px;font-size:10.5px;font-weight:650;letter-spacing:.05em;text-transform:uppercase;border-radius:4px;padding:1px 6px;vertical-align:1px;background:var(--accent);color:#fff}
+  details.deep{margin-top:10px}
+  details.deep summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--accent);min-height:32px;padding:6px 0}
+  details.deep p{margin-top:4px}
+  .body.small,p.small{font-size:14px}
+  ul.usedin,ul.risklist{margin:0;padding:0;list-style:none}
+  ul.usedin li,ul.risklist li{margin:0 0 8px;font-size:14px;color:var(--ink-2)}
+  ul.usedin a{font-weight:600;color:var(--ink-1)}
+  ul.risklist .badge{margin:0 6px 0 0}
+  .sublab{font-size:12px;color:var(--ink-3);margin:6px 0}
+  .relation-item a{font-weight:600}
+  .relation-one{color:var(--ink-2);font-size:13px}
+  .chips .chiplab{margin:0 6px 0 0;align-self:center}
+  .chips+.chips{margin-top:8px}
+  .pagehead .eyebrow{margin:0 0 4px}
 
   .rows{display:flex;flex-direction:column}
   .mrow{
@@ -120,6 +173,7 @@
     text-transform:uppercase;border-radius:4px;padding:1px 6px;vertical-align:1px;
     border:1px solid var(--line-2);color:var(--ink-3);
   }
+  .badge.risk-low{color:var(--low);border-color:var(--low)}
   .badge.risk-medium{color:var(--warn);border-color:var(--warn)}
   .badge.risk-high{color:var(--high);border-color:var(--high)}
   .att{color:var(--ink-4);font-size:12px;margin-left:8px;font-variant-numeric:tabular-nums}
@@ -127,6 +181,7 @@
   .pagehead{margin:2px 0 6px}
   .pagehead h2{margin:0 0 4px;font-size:24px;letter-spacing:-.01em}
   .pagehead .gloss{color:var(--ink-2);font-size:14.5px;margin:0;max-width:70ch}
+  .pagehead .gloss.small{font-size:13px;margin-top:6px;color:var(--ink-3)}
   .pagehead .count{color:var(--ink-4);font-size:12.5px;margin:6px 0 0;font-variant-numeric:tabular-nums}
 
   /* entry page */
@@ -231,7 +286,8 @@
   @media (max-width:640px){
     header{padding:16px 16px 0}
     main{padding:10px 16px 56px}
-    .gxgrid{grid-template-columns:1fr}
+    .tiles,.rshelf{grid-template-columns:1fr}
+    .entry .lead{font-size:16.5px}
     .gpanel{width:min(280px,80%)}
     .entry h2{font-size:21px}
   }
@@ -239,14 +295,14 @@
 
 <a class="skip-link" href="#view" onclick="event.preventDefault();document.getElementById('view').focus()">Skip to content</a>
 <header>
-  <h1><a href="#/">Operator Formulary</a></h1>
-  <p class="sub" id="subline">a reference for writing choices</p>
+  <h1><a href="#/">Hypnosis Taxonomy</a></h1>
+  <p class="sub" id="subline">what to try, and why it works</p>
   <div class="hgrow"></div>
   <nav aria-label="Primary" style="display:flex;flex-wrap:wrap;gap:8px">
+  <a class="hbtn" href="#/recipes">Recipes</a>
   <a class="hbtn" href="#/table">Browse & compare</a>
   <a id="workbenchLink" class="hbtn" href="#/workbench">Workspace</a>
-  <a class="hbtn" href="#/timeline">Timeline</a>
-  <a id="graphLink" class="hbtn" href="#/graph">Graph</a>
+  <a id="graphLink" class="hbtn" href="#/graph">Network</a>
   </nav>
   <button id="themeToggle" class="hbtn" type="button" aria-label="Toggle color theme">Theme</button>
 </header>
@@ -254,7 +310,7 @@
 <p id="connectionStatus" role="status" hidden style="max-width:1152px;margin:12px auto;padding:0 16px"></p>
 <main id="view" tabindex="-1" aria-busy="true"><div class="loading" role="status">Loading the reference…</div></main>
 
-<footer class="site-footer"><a href="ux-report.html">UX release evidence</a><span>Static reference · no visitor tracking</span></footer>
+<footer class="site-footer"><span>Hypnosis Taxonomy · static reference · no visitor tracking</span><span>Content CC BY-SA 4.0</span></footer>
 
 <script>
 'use strict';
@@ -273,11 +329,9 @@
 })();
 
 /* ============ state ============ */
-/* payload keys are stable: doors/door = the genus tier (kind='genus' tags). The UI
-   renders them as "genera" — do not rename the data fields. */
-var S={ ready:false, byId:{}, genera:[], genusById:{}, singletons:[], seeAlso:{}, contrasts:{},
-        nodes:[], next:{}, prev:{}, cooc:{}, nScripts:0 };
-var searchQuery='', memberFilter='';
+var S={ ready:false, byId:{}, byName:{}, nodes:[], goals:[], stages:[], tagById:{}, seeAlso:{}, contrasts:{}, usedIn:{},
+        next:{}, prev:{}, cooc:{}, annScripts:0 };
+var searchQuery='', memberFilter='', riskFilter='', crossFilter='';
 var routeContext={}, currentRoute=null, timelineRows=null, timelineName='', timelineRead=0;
 if('scrollRestoration' in history) history.scrollRestoration='manual';
 // Remember the rendered route while the URL changes, including scroll during Back.
@@ -288,15 +342,75 @@ window.addEventListener('scroll',function(){
   }
 });
 
+var SITE='Hypnosis Taxonomy';
+var KIND_LABEL={technique:'Lever',recipe:'Recipe',container:'Session structure',principle:'Principle'};
+/* ONE axis: every grade rates the research behind the EXPLANATION (the effect the
+   "why" relies on), never the move as used in a session. A move graded Established
+   leans on a well-replicated effect; nobody has tested it inside hypnosis unless
+   the text says so. */
+var GRADE={
+  established:['Established','The effect this explanation relies on is well replicated in research.'],
+  supported:['Supported','The effect this explanation relies on has some direct research behind it.'],
+  plausible:['Plausible','The explanation fits known psychology, but no study tests the effect it relies on.'],
+  speculative:['Speculative','A reasonable guess with little evidence either way.'],
+  folk:['Folk','Practitioner lore; nobody has tested the explanation.']
+};
+var GRADE_ORDER=['established','supported','plausible','speculative','folk'];
+var GRADE_SCOPE='Grades rate the research behind the explanation, usually done outside hypnosis. They do not mean the move itself was tested in a hypnosis session.';
+function gradeScale(){
+  return '<details class="deep"><summary>How we grade</summary><p class="body small">'+esc(GRADE_SCOPE)+'</p><ol class="gradescale">'+
+    GRADE_ORDER.map(function(k){return '<li><span class="grade-badge g-'+k+'">'+GRADE[k][0]+'</span> '+esc(GRADE[k][1])+'</li>';}).join('')+'</ol></details>';
+}
+var RISK={
+  low:'Low risk: an ordinary move that is limited to the session and easy to undo.',
+  lowBounded:'Low risk, if bounded: limited and easy to undo once its limits and off-switch are set as below. Without them, treat it as medium.',
+  medium:'Medium risk: it can leave a stronger or longer-lasting effect. Check in afterwards and clear anything not wanted.',
+  high:'High risk: aims at deep or lasting change, or at the listener’s ability to say no. Use only with informed agreement and a clear way out.'
+};
+var CONSENT_TEXT='Explicit consent: agree on this specific effect beforehand. General consent to hypnosis does not cover it.';
+var BOUND_TEXT='Bounding required: set its limits when you install it, such as scope, duration, and a way to switch it off.';
+
 function esc(s){
   return String(s==null?'':s)
     .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
     .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
 }
+/* Slugs lose their hyphens for display, except in real compound words
+   ("one-way", "self-voiced", "foot-in-the-door"). */
+var COMPOUND_PREFIX=/(^|-)(self|non|pre|post|co|anti|semi|quasi|counter|re)-(?=[a-z])/g;
+var COMPOUND_WORDS=['one-way','two-way','count-up','count-down','follow-up','foot-in-the-door','door-in-the-face','step-by-step','so-called','eye-roll','real-time'];
 function titleCase(kebab){
-  return String(kebab||'').split('-').map(function(w){
-    return w? w.charAt(0).toUpperCase()+w.slice(1) : w;
-  }).join(' ');
+  var t=String(kebab||'').replace(COMPOUND_PREFIX,'$1$2\u0000');
+  COMPOUND_WORDS.forEach(function(w){ t=t.split(w).join(w.replace(/-/g,'\u0000')); });
+  t=t.replace(/-/g,' ').replace(/\u0000/g,'-');
+  return t.charAt(0).toUpperCase()+t.slice(1);
+}
+/* Prose with entry slugs ("false-bottom-depth-reframe (#329)", bare "yes-set" or "(#85)")
+   turned into links. Only names that are real entries link; other hyphenated words stay text. */
+function prose(text){
+  return esc(text).replace(/\b([a-z0-9]+(?:-[a-z0-9]+)+)(\s*\(#(\d+)\))?|\(#(\d+)\)/g,function(m,slug,idPart,id1,id2){
+    var n=(id1&&S.byId[+id1])||(slug&&S.byName[slug])||(id2&&S.byId[+id2]);
+    return n?'<a href="#/entry/'+n.id+'">'+esc(n._title)+'</a>':m;
+  });
+}
+function kindBadge(n){ return '<span class="kind-badge k-'+esc(n.kind)+'">'+esc(KIND_LABEL[n.kind]||n.kind)+'</span>'; }
+/* Every list row says its risk, so a missing badge never reads as "unknown". */
+function riskBadge(n){
+  if(!n.risk) return '';
+  var label=n.risk==='low'&&(n.consent||n.bounded)?'low risk, if bounded':n.risk+' risk';
+  return ' <span class="badge risk-'+esc(n.risk)+'">'+esc(label)+'</span>';
+}
+var RISK_RANK={low:0,medium:1,high:2};
+function riskRank(n){ return n.risk in RISK_RANK?RISK_RANK[n.risk]+((n.risk==='low'&&(n.consent||n.bounded))?0.5:0):1.5; }
+var RISK_LEGEND='<p class="risklegend"><b>Low</b>: limited to the session and easy to undo. <b>Medium</b>: can leave a stronger or longer-lasting effect; check in afterwards. <b>High</b>: aims at deep or lasting change, or at the ability to say no; only with informed agreement and a way out. Lists show low risk first.</p>';
+var LEVER_GLOSS='A <b>lever</b> is one single move. A <b>recipe</b> chains several levers into a named routine.';
+function tagHref(t){ return '#/'+t.kind+'/'+t.slug; }
+function plural(n,one,many){ return n+' '+(n===1?one:many); }
+function matchCount(n){ return n===1?'1 entry matches.':n+' entries match.'; }
+/* "× chance" only when at least 3 scripts share the pair; big lifts are whole numbers. */
+function liftText(count,lift){
+  if(count<3||!(lift>=1.05)) return '';
+  return ' · '+(lift>=10?Math.round(lift):lift.toFixed(1))+'× chance';
 }
 
 /* ============ data load ============ */
@@ -343,23 +457,31 @@ function xhrLoad(ok,bad){
 function validateData(d){
   function require(ok){if(!ok){var error=new Error('This reference file is incomplete or incompatible with this viewer. Retry to fetch the current edition.');error.referenceData=true;throw error;}}
   function object(x){return x&&typeof x==='object'&&!Array.isArray(x);}
-  require(object(d)&&object(d.meta)&&d.meta.schema_version===2&&Array.isArray(d.nodes)&&d.nodes.length>0);
-  require(Array.isArray(d.edges)&&object(d.doors));
-  require(object(d.meta.annotation_coverage)&&['annotated_units','ordered_transitions','unknown_file_units','ambiguous_file_units'].every(function(k){return Number.isInteger(d.meta.annotation_coverage[k])&&d.meta.annotation_coverage[k]>=0;}));
+  function str(x){return x==null||typeof x==='string';}
+  require(object(d)&&object(d.meta)&&d.meta.schema_version===3&&Array.isArray(d.nodes)&&d.nodes.length>0);
+  require(Array.isArray(d.edges)&&Array.isArray(d.goals)&&Array.isArray(d.stages));
+  require(object(d.meta.annotation_coverage)&&Number.isInteger(d.meta.annotation_coverage.annotated_units)&&d.meta.annotation_coverage.annotated_units>=0);
+  var tags=new Set();
+  d.goals.concat(d.stages).forEach(function(t){require(object(t)&&Number.isInteger(t.id)&&typeof t.name==='string'&&typeof t.label==='string'&&str(t.definition));tags.add(t.id);});
   var ids=new Set();
   d.nodes.forEach(function(n){
-    require(object(n)&&Number.isInteger(n.id)&&n.id>0&&!ids.has(n.id)&&typeof n.name==='string'&&n.name.length>0&&typeof n.mech==='string'&&typeof n.disc==='string');
-    require(['technique','container','principle'].includes(n.kind)&&['scriptwriting_move','structural_pattern','supporting_principle','supporting_assessment'].includes(n.writer_role));
+    require(object(n)&&Number.isInteger(n.id)&&n.id>0&&!ids.has(n.id)&&typeof n.name==='string'&&n.name.length>0&&typeof n.mech==='string');
+    require(['technique','recipe','container','principle'].includes(n.kind)&&['scriptwriting_move','structural_pattern','supporting_principle','supporting_assessment'].includes(n.writer_role));
+    require(['one_liner','why_short','principle_note','finding_name','finding_url'].every(function(k){return str(n[k]);})&&(n.evidence_grade==null||!!GRADE[n.evidence_grade]));
+    require(n.finding_url==null||/^https:\/\//.test(n.finding_url));
+    require(Array.isArray(n.goals)&&Array.isArray(n.stages)&&n.goals.concat(n.stages).every(function(t){return tags.has(t);}));
     require(Number.isInteger(n.annotation_units)&&n.annotation_units>=0&&Number.isFinite(n.x)&&Number.isFinite(n.y));
-    if(n.ex!=null){require(Array.isArray(n.ex));n.ex.forEach(function(ex){require(object(ex)&&['f','t','s','m'].every(function(k){return ex[k]==null||typeof ex[k]==='string';}));});}
+    if(n.steps!=null){require(Array.isArray(n.steps));n.steps.forEach(function(s){require(Array.isArray(s)&&s.length===2&&(s[0]===null||Number.isInteger(s[0]))&&typeof s[1]==='string');});}
+    if(n.ex!=null){require(Array.isArray(n.ex));n.ex.forEach(function(ex){require(object(ex)&&['f','t','s','m'].every(function(k){return str(ex[k]);}));});}
     ids.add(n.id);
   });
-  Object.keys(d.doors).forEach(function(id){var door=d.doors[id];require(/^\d+$/.test(id)&&object(door)&&typeof door.name==='string'&&(door.gloss==null||typeof door.gloss==='string'));});
-  d.edges.forEach(function(e){require(object(e)&&ids.has(e.s)&&ids.has(e.t)&&['see_also','contrasts_with','distinct_from'].includes(e.k)&&(e.n==null||typeof e.n==='string'));});
+  d.nodes.forEach(function(n){(n.steps||[]).forEach(function(s){require(s[0]===null||ids.has(s[0]));});});
+  d.edges.forEach(function(e){require(object(e)&&ids.has(e.s)&&ids.has(e.t)&&['see_also','contrasts_with'].includes(e.k)&&str(e.n));});
   ['next','prev','cooc'].forEach(function(key){
     require(object(d[key]));
     Object.keys(d[key]).forEach(function(id){require(ids.has(+id)&&Array.isArray(d[key][id]));
-      d[key][id].forEach(function(t){require(Array.isArray(t)&&t.length===3&&ids.has(t[0])&&Number.isInteger(t[1])&&t[1]>0&&Number.isFinite(t[2])&&t[2]>=0&&(key==='cooc'||t[2]<=1));});
+      // next/prev: [other, count]; cooc: [other, count, lift]
+      d[key][id].forEach(function(t){require(Array.isArray(t)&&t.length===(key==='cooc'?3:2)&&ids.has(t[0])&&Number.isInteger(t[1])&&t[1]>0&&(key!=='cooc'||(Number.isFinite(t[2])&&t[2]>=0)));});
     });
   });
 }
@@ -367,69 +489,86 @@ function validateData(d){
 function build(d){
   var i,n,e;
   // Rebuild derived indexes only after the complete public contract validates.
-  S={ready:false,byId:{},genera:[],genusById:{},singletons:[],seeAlso:{},contrasts:{},nodes:[],next:{},prev:{},cooc:{},nScripts:0};
+  S={ready:false,byId:{},byName:{},nodes:[],goals:[],stages:[],tagById:{},seeAlso:{},contrasts:{},usedIn:{},next:{},prev:{},cooc:{},annScripts:0};
   LAYOUT=null;
   S.meta=d.meta||{};
   S.rawEdges=d.edges||[];
   S.nodes=d.nodes||[];
+  [['goal',d.goals],['stage',d.stages]].forEach(function(pair){
+    pair[1].forEach(function(t,ix){
+      var tag={id:t.id,kind:pair[0],name:t.name,slug:t.name.replace(/^(goal|stage)-/,''),label:t.label,definition:t.definition||'',order:ix,members:[]};
+      S.tagById[t.id]=tag; S[pair[0]+'s'].push(tag);
+    });
+  });
   for(i=0;i<S.nodes.length;i++){
     n=S.nodes[i];
     n._title=titleCase(n.name);
-    n._search=(n.name+' '+n.name.replace(/-/g,' ')+' '+(n.mech||'')+' '+(n.disc||'')).toLowerCase();
-    S.byId[n.id]=n;
+    S.byId[n.id]=n; S.byName[n.name]=n;
+    n.goals.concat(n.stages).forEach(function(t){S.tagById[t].members.push(n);});
   }
-  var doorsRaw=d.doors||{};
-  var ids=Object.keys(doorsRaw);
-  for(i=0;i<ids.length;i++){
-    var did=ids[i], dr=doorsRaw[did];
-    var g={ id:did, name:dr.name, gloss:dr.gloss||'', members:[],
-            _title:titleCase(dr.name),
-            _search:(dr.name+' '+dr.name.replace(/-/g,' ')+' '+(dr.gloss||'')).toLowerCase() };
-    S.genusById[did]=g;
-    S.genera.push(g);
-  }
-  for(i=0;i<S.nodes.length;i++){
-    n=S.nodes[i];
-    if(n.door==null){ S.singletons.push(n); continue; }
-    var dkey=String(n.door);
-    if(S.genusById[dkey]) S.genusById[dkey].members.push(n);
-    else S.singletons.push(n);
-  }
-  S.genera.sort(function(a,b){ return a.name<b.name?-1:a.name>b.name?1:0; });
-  S.genera.forEach(function(g){ g.members.sort(byName); });
-  S.singletons.sort(byName);
+  S.nodes.forEach(function(r){
+    (r.steps||[]).forEach(function(st,ix){ if(st[0]!=null)(S.usedIn[st[0]]||(S.usedIn[st[0]]=[])).push({recipe:r.id,step:ix+1,text:st[1]}); });
+  });
+  S.recipes=S.nodes.filter(function(x){return x.kind==='recipe';}).sort(byStarter);
 
   var edges=d.edges||[];
   for(i=0;i<edges.length;i++){
     e=edges[i];
     if(!S.byId[e.s]||!S.byId[e.t]) continue;
     if(e.k==='see_also'){ addEdge(S.seeAlso,e.s,e.t,e.n); addEdge(S.seeAlso,e.t,e.s,e.n); }
-    else if(e.k==='distinct_from'){ addEdge(S.contrasts,e.s,e.t,e.n); }
     else if(e.k==='contrasts_with'){ addEdge(S.contrasts,e.s,e.t,e.n); addEdge(S.contrasts,e.t,e.s,e.n); }
   }
   Object.keys(S.seeAlso).forEach(function(k){ S.seeAlso[k].sort(byOtherName); });
   Object.keys(S.contrasts).forEach(function(k){ S.contrasts[k].sort(byOtherName); });
 
-  /* sequence layers: next = {src:[[dst,n,p]...]}, cooc = {a:[[b,nScripts,lift]...]} */
-  S.next=d.next||{}; S.cooc=d.cooc||{};
-  S.prev=d.prev||{};
-  // Older payloads do not have valid incoming denominators; show counts only.
-  if(!d.prev) Object.keys(S.next).forEach(function(src){
-    S.next[src].forEach(function(t){ (S.prev[t[0]]||(S.prev[t[0]]=[])).push([+src,t[1],null]); });
-  });
-  S.annScripts=S.meta.annotated_units||S.meta.annotated_scripts||0;
+  /* sequence layers: next/prev = {id:[[other,count,share]...]}, cooc = {a:[[b,count,lift]...]} */
+  S.next=d.next||{}; S.cooc=d.cooc||{}; S.prev=d.prev||{};
+  S.annScripts=(S.meta.annotation_coverage||{}).annotated_units||0;
   if(window.Writer) Writer.restore();
 
   S.ready=true;
   document.getElementById('subline').innerHTML=
-    '<b>'+S.nodes.length+'</b> entries · <b>'+S.genera.length+'</b> genera · <b>'+(d.edges||[]).length+'</b> curated relations';
-  document.title='Operator Formulary';
+    '<b>'+S.nodes.length+'</b> entries · <b>'+S.recipes.length+'</b> recipes · <b>'+S.goals.length+'</b> goals · <b>'+S.stages.length+'</b> session stages';
+  document.title=SITE;
 }
 function byName(a,b){ return a.name<b.name?-1:a.name>b.name?1:0; }
+function bySeen(a,b){ return (b.annotation_units-a.annotation_units)||byName(a,b); }
+/* Goal/stage/recipe lists: low risk first, self-contained before "needs an earlier install", then most seen. */
+function byStarter(a,b){ return (riskRank(a)-riskRank(b))||((prerequisite(a)?1:0)-(prerequisite(b)?1:0))||bySeen(a,b); }
+/* A recipe whose FIRST step fires something the listener must already have. */
+var NEEDS_INSTALL=/\b(the|your|their|a known|an installed|an existing|that) (trigger|cue|anchor|trigger word|cue word|trained cue)s?\b|\b(that )?already (works|installed|trained)\b/i;
+function prerequisite(n){
+  if(n._pre!==undefined) return n._pre;
+  var first=n.kind==='recipe'&&n.steps&&n.steps[0]?n.steps[0][1]:'';
+  n._pre=!!first&&NEEDS_INSTALL.test(first)&&!/\b(install|pair|teach|build|condition)/i.test(first);
+  return n._pre;
+}
+/* Where to install one first: install-stage trigger entries, recipes then lower risk then most seen. */
+function installLinks(n){
+  var trig=S.goals.filter(function(t){return t.slug==='triggers';})[0], inst=S.stages.filter(function(t){return t.slug==='install';})[0];
+  if(!trig||!inst) return [];
+  return trig.members.filter(function(x){return x.id!==n.id&&x.stages.indexOf(inst.id)>=0&&/(trigger|cue|anchor).*(install|condition)|(install|condition).*(trigger|cue|anchor)/.test(x.name)&&!prerequisite(x);})
+    .sort(function(a,b){return ((a.kind==='recipe'?0:1)-(b.kind==='recipe'?0:1))||(riskRank(a)-riskRank(b))||bySeen(a,b);}).slice(0,2);
+}
+/* Variations: other recipes that use this one as a step (or are used by it), share two
+   levers, or share a lever AND a goal. Most shared first, at most six. */
+function relatedRecipes(n){
+  if(n.kind!=='recipe') return [];
+  var mine={}; (n.steps||[]).forEach(function(s){ if(s[0]!=null) mine[s[0]]=true; });
+  var out=[];
+  S.recipes.forEach(function(r){
+    if(r.id===n.id) return;
+    var shared=0, usesMe=!!mine[r.id];
+    (r.steps||[]).forEach(function(s){ if(s[0]===n.id) usesMe=true; if(s[0]!=null&&mine[s[0]]) shared++; });
+    var sameGoal=r.goals.some(function(g){return n.goals.indexOf(g)>=0;});
+    if(usesMe||shared>=2||(shared>=1&&sameGoal)) out.push([r,(usesMe?10:0)+shared]);
+  });
+  return out.sort(function(a,b){return (b[1]-a[1])||bySeen(a[0],b[0]);}).slice(0,6).map(function(x){return x[0];});
+}
 function byOtherName(a,b){ var x=S.byId[a.o].name,y=S.byId[b.o].name; return x<y?-1:x>y?1:0; }
 function addEdge(map,from,to,note){
   var arr=map[from]||(map[from]=[]);
-  for(var i=0;i<arr.length;i++) if(arr[i].o===to) return;
+  for(var i=0;i<arr.length;i++) if(arr[i].o===to){ if(!arr[i].n&&note) arr[i].n=note; return; }
   arr.push({o:to,n:note||''});
 }
 
@@ -443,21 +582,22 @@ function route(){
   if(currentRoute!==null){
     if(currentRoute.startsWith('workbench')&&window.Writer&&Writer.rememberDetails) Writer.rememberDetails();
     var old=routeContext[currentRoute]||(routeContext[currentRoute]={});
-    old.filter=memberFilter;
+    old.filter=memberFilter; old.risk=riskFilter; old.cross=crossFilter;
     var focused=document.activeElement;
     if(focused&&focused.classList.contains('knav')) old.focus=focused.getAttribute('href');
   }
   currentRoute=h;
   var context=routeContext[h]||{};
-  memberFilter=context.filter||'';
+  memberFilter=context.filter||''; riskFilter=context.risk||''; crossFilter=context.cross||'';
   graphTeardown();
   document.querySelectorAll('header nav a').forEach(function(link){
     var active=link.getAttribute('href').split('/')[1]===parts[0];
     link.classList.toggle('on',active);
     if(active) link.setAttribute('aria-current','page'); else link.removeAttribute('aria-current');
   });
-  if((parts[0]==='genus'||parts[0]==='door')&&S.genusById[parts[1]]) renderGenus(view,S.genusById[parts[1]]);
-  else if(parts[0]==='singletons')                 renderSingletons(view);
+  var tag=(parts[0]==='goal'||parts[0]==='stage')?findTag(parts[0],parts[1]):null;
+  if(tag)                                          renderTag(view,tag);
+  else if(parts[0]==='recipes')                    renderRecipes(view);
   else if(parts[0]==='entry'&&S.byId[+parts[1]])   renderEntry(view,S.byId[+parts[1]]);
   else if(parts[0]==='table')                      Writer.renderTable(view);
   else if(parts[0]==='workbench') {
@@ -466,11 +606,12 @@ function route(){
   }
   else if(parts[0]==='timeline')                   renderTimeline(view);
   else if(parts[0]==='graph')                      renderGraph(view,parts[1]||'relations',parts[2]?+parts[2]:null);
-  else if(!h)                                     renderLanding(view);
-  else view.innerHTML=crumbs([['#/','Index']],'Page unavailable')+'<section class="pagehead"><h2>Page unavailable</h2><p>This link does not match an entry or view in this public edition.</p><p><a href="#/table">Browse available entries</a> or <a href="#/">search the index</a>.</p></section>';
+  // Retired genus routes (#/genus, #/door, #/singletons) land on the home page.
+  else if(!h||parts[0]==='genus'||parts[0]==='door'||parts[0]==='singletons') renderLanding(view);
+  else view.innerHTML=crumbs([['#/','Home']],'Page unavailable')+'<section class="pagehead"><h2>Page unavailable</h2><p>This link does not match an entry or view in this edition.</p><p><a href="#/table">Browse all entries</a> or <a href="#/">search from the home page</a>.</p></section>';
   Writer.updatePins();
   var routeHeading=view.querySelector('h2');
-  document.title=(routeHeading?routeHeading.textContent+' · ':'')+'Operator Formulary';
+  document.title=(routeHeading&&h?routeHeading.textContent+' · ':'')+SITE;
   view.setAttribute('aria-label',routeHeading?routeHeading.textContent:'Reference network');
   if(hadRoute && parts[0]!=='graph') {
     const heading=view.querySelector('h2');
@@ -485,120 +626,145 @@ function route(){
   }
 }
 window.addEventListener('hashchange',route);
+function findTag(kind,slug){
+  var list=kind==='goal'?S.goals:S.stages;
+  for(var i=0;i<list.length;i++) if(list[i].slug===slug) return list[i];
+  return null;
+}
 
-/* ============ landing ============ */
+/* ============ home ============ */
 function renderLanding(view){
   view.innerHTML=
-    '<section class="writer-hero"><p class="eyebrow">A FIELD GUIDE FOR WRITING</p><h2>Find a move.<br>See what connects.</h2><p>Explore techniques, structural patterns and supporting principles. Compare the details that change a writing choice, with corpus observations kept in view.</p><div class="hero-actions"><a class="primary-action" href="#/table">Browse & compare →</a><a href="#/graph">Explore the network ↗</a><a href="#/workbench">Open your workspace</a></div></section>'+
+    '<section class="writer-hero"><h2>Hypnosis, taken apart.</h2><p>An encyclopedia of hypnosis techniques: what each one does, how to do it, and why it works, with an honest grade for how sure anyone can be. '+LEVER_GLOSS+'</p>'+
     '<div class="searchwrap">'+
       '<input id="q" type="search" autocomplete="off" spellcheck="false" '+
-        'placeholder="Search '+S.genera.length+' genera and '+S.nodes.length+' entries…" '+
-        'value="'+esc(searchQuery)+'" aria-label="Search groups and entries">'+
+        'placeholder="Search '+S.nodes.length+' entries: yes set, fractionation, triggers…" '+
+        'value="'+esc(searchQuery)+'" aria-label="Search entries">'+
       '<p class="hint"><kbd>/</kbd> search &nbsp; <kbd>Esc</kbd> up a level &nbsp; <kbd>←→↑↓</kbd> move between rows</p>'+
-    '</div>'+
+    '</div></section>'+
     '<div id="results"></div>';
   var q=document.getElementById('q');
   q.addEventListener('input',function(){ searchQuery=q.value; renderResults(); });
   renderResults();
 }
 
+/* One count format everywhere a goal or stage is summarised (home tile = page head). */
+function kindCounts(members){
+  var c={recipe:0,technique:0,other:0};
+  members.forEach(function(n){ c[n.kind==='recipe'||n.kind==='technique'?n.kind:'other']++; });
+  return plural(c.recipe,'recipe','recipes')+' · '+plural(c.technique,'lever','levers')+
+    (c.other?' · '+plural(c.other,'session structure or principle','session structures and principles'):'');
+}
+function tagTile(t,num){
+  return '<a class="tile knav" href="'+tagHref(t)+'">'+
+    '<span class="tname">'+(num?'<span class="tnum">'+num+'</span>':'')+esc(t.label)+'</span>'+
+    '<span class="tdef">'+esc(t.definition)+'</span>'+
+    '<span class="tcnt">'+kindCounts(t.members)+'</span></a>';
+}
+function recipeCard(n){
+  return '<a class="rcard knav" href="#/entry/'+n.id+'"><span class="rname">'+esc(n._title)+riskBadge(n)+'</span>'+
+    '<span class="rone">'+esc(n.one_liner||n.mech)+'</span>'+
+    '<span class="rcnt">'+plural((n.steps||[]).length,'step','steps')+'</span></a>';
+}
+
 function renderResults(){
   var box=document.getElementById('results');
   if(!box) return;
-  var q=searchQuery.trim().toLowerCase();
+  var q=searchQuery.trim();
   var html='';
   if(!q){
-    html+='<div class="secthead"><h2>Genera</h2><span class="n">'+S.genera.length+' groups of related entries · '+S.singletons.length+' standalone</span></div>';
-    html+='<div class="gxgrid">';
-    for(var i=0;i<S.genera.length;i++) html+=genusRow(S.genera[i]);
-    html+='<a class="gx knav" href="#/singletons" title="Techniques that do not share a genus with any other entry">'+
-      '<span class="name">Standalone entries</span><span class="cnt">'+S.singletons.length+'</span></a>';
-    html+='</div>';
+    var general=S.nodes.filter(function(n){return !n.goals.length;}).length;
+    html+='<div class="secthead"><h2>What are you training?</h2><span class="n">'+S.goals.length+' goals</span></div>';
+    html+='<div class="tiles">'+S.goals.map(function(t){return tagTile(t);}).join('')+'</div>';
+    html+='<p class="hint">'+general+' entries are general craft (inductions, deepeners, emergence, safety) that serve every goal. Find them by session stage.</p>';
+    html+='<div class="secthead"><h2>Where in the session?</h2><span class="n">'+S.stages.length+' stages, in order</span></div>';
+    html+='<div class="tiles stages">'+S.stages.map(function(t,i){return tagTile(t,i+1);}).join('')+'</div>';
+    html+='<div class="secthead"><h2>Recipes</h2><span class="n">named step-by-step routines · <a href="#/recipes">all '+S.recipes.length+' →</a></span></div>';
+    html+='<div class="rshelf">'+S.recipes.slice(0,12).map(recipeCard).join('')+'</div>';
   }else{
-    var gs=S.genera.filter(function(g){ return g._search.indexOf(q)>=0; });
-    var hits=S.nodes.filter(function(n){ return n._search.indexOf(q)>=0; });
-    html+='<div class="secthead"><h2>Genera</h2><span class="n">'+gs.length+' match</span></div>';
-    if(gs.length){
-      html+='<div class="gxgrid">';
-      for(var j=0;j<gs.length;j++) html+=genusRow(gs[j]);
-      html+='</div>';
-    }else html+='<div class="empty">No genera match “'+esc(searchQuery.trim())+'”.</div>';
-    var CAP=120, shown=hits.slice(0,CAP);
-    html+='<div class="secthead"><h2>Entries</h2><span class="n">'+hits.length+' match'+
-      (hits.length>CAP?' · showing first '+CAP:'')+'</span></div>';
-    if(hits.length){
-      html+='<div class="rows">';
-      for(var k=0;k<shown.length;k++) html+=entryRow(shown[k],true);
-      html+='</div>';
-    }else html+='<div class="empty">No entries match “'+esc(searchQuery.trim())+'”.</div>';
+    var nq=Writer.norm(q);
+    var tags=S.goals.concat(S.stages).filter(function(t){return Writer.norm(t.label+' '+t.definition).indexOf(nq)>=0;});
+    var hits=Writer.search(q);
+    if(tags.length) html+='<div class="secthead"><h2>Goals and stages</h2><span class="n">'+tags.length+' match</span></div><div class="tiles">'+tags.map(function(t){return tagTile(t);}).join('')+'</div>';
+    var CAP=60, shown=hits.slice(0,CAP);
+    html+='<div class="secthead"><h2>Entries</h2><span class="n">'+(hits.length===1?'1 match':hits.length+' match')+
+      (hits.length>CAP?' · best '+CAP+' shown · <a href="#/table">see all in Browse</a>':'')+'</span></div>';
+    if(hits.length) html+='<div class="rows">'+shown.map(function(n){return entryRow(n);}).join('')+'</div>';
+    else html+='<div class="empty">No entries match “'+esc(q)+'”.</div>';
+    Writer.query=q; Writer.page=0;
   }
   box.innerHTML=html;
-  if(q) document.getElementById('writerStatus').textContent=gs.length+' groups and '+hits.length+' entries match.';
+  if(q) document.getElementById('writerStatus').textContent=matchCount(hits.length);
 }
 
-function genusRow(g){
-  return '<a class="gx knav" href="#/genus/'+g.id+'" title="'+esc(g.gloss)+'">'+
-    '<span class="name">'+esc(g._title)+'</span>'+
-    '<span class="cnt">'+g.members.length+'</span></a>';
-}
-function entryRow(n,withGenus){
-  var tag='';
-  if(withGenus){
-    var g=(n.door!=null)?S.genusById[String(n.door)]:null;
-    if(g) tag='<span class="gtag">'+esc(g._title)+'</span>';
-  }
-  var att=(typeof n.reach==='number'&&n.reach>0)?'<span class="att">'+n.reach+' recorded source unit'+(n.reach===1?'':'s')+'</span>':'';
+function entryRow(n,starter){
   return '<a class="mrow knav" href="#/entry/'+n.id+'">'+
-    '<div class="mname">'+esc(n._title)+tag+riskBadge(n)+att+'</div>'+
-    '<p class="mmech">'+esc(n.mech||'')+'</p>'+
+    '<div class="mname">'+esc(n._title)+' '+kindBadge(n)+riskBadge(n)+(starter?'<span class="starthere">start here</span>':'')+'</div>'+
+    '<p class="mmech">'+esc(n.one_liner||n.mech||'')+'</p>'+
   '</a>';
 }
-function riskBadge(n){
-  return (n.risk==='medium'||n.risk==='high')? ' <span class="badge risk-'+esc(n.risk)+'">'+esc(n.risk)+' risk</span>' : '';
-}
 
-/* ============ genus view ============ */
-function renderGenus(view,g){
-  var html=crumbs([['#/','Index']],g._title)+
-    '<div class="pagehead"><h2>'+esc(g._title)+'</h2>'+
-    '<p class="gloss">'+esc(g.gloss)+'</p>'+
-    '<p class="count">'+g.members.length+' entr'+(g.members.length===1?'y':'ies')+
-    ' · <a href="#/graph/relations/'+ (g.members[0]?g.members[0].id:'') +'">view in graph</a></p></div>'+
-    '<div class="rows">';
-  for(var i=0;i<g.members.length;i++) html+=entryRow(g.members[i],false);
-  html+='</div>';
+/* ============ goal / stage / recipes pages ============ */
+function renderTag(view,t){
+  var other=t.kind==='goal'?S.stages:S.goals;
+  var html=crumbs([['#/','Home']],t.label)+
+    '<div class="pagehead"><p class="eyebrow">'+(t.kind==='goal'?'WHAT YOU ARE TRAINING':'STAGE '+(t.order+1)+' OF '+S.stages.length)+'</p><h2>'+esc(t.label)+'</h2>'+
+    '<p class="gloss">'+esc(t.definition)+'</p>'+
+    '<p class="count">'+kindCounts(t.members)+' · <a href="#/graph/relations">see the network</a></p>'+
+    '<p class="gloss small">'+LEVER_GLOSS+'</p></div>'+
+    listFilters(t.kind==='goal'?'Stage':'Goal',other)+RISK_LEGEND+
+    '<div id="memberRows"></div>';
   view.innerHTML=html;
+  bindFilters(function(){ paintMembers(t.members); });
+  paintMembers(t.members);
 }
-
-function renderSingletons(view){
-  var html=crumbs([['#/','Index']],'Standalone entries')+
-    '<div class="pagehead"><h2>Standalone entries</h2>'+
-    '<p class="gloss">Entries that do not share a genus with any other entry.</p>'+
-    '<p class="count">'+S.singletons.length+' entries</p></div>'+
-    '<input id="memberFilter" type="search" autocomplete="off" spellcheck="false" placeholder="Filter…" aria-label="Filter standalone entries">'+
-    '<div class="rows" id="singletonRows"></div>';
-  view.innerHTML=html;
-  var inp=document.getElementById('memberFilter');
-  inp.value=memberFilter;
-  inp.addEventListener('input',function(){ memberFilter=inp.value; paintSingletons(); });
-  paintSingletons();
+function renderRecipes(view){
+  view.innerHTML=crumbs([['#/','Home']],'Recipes')+
+    '<div class="pagehead"><p class="eyebrow">STEP BY STEP</p><h2>Recipes</h2><p class="gloss">Named routines that practitioners recognise, such as the yes set or fractionation. '+LEVER_GLOSS+' Each step links to the lever it uses.</p>'+
+    '<p class="count">'+plural(S.recipes.length,'recipe','recipes')+'</p></div>'+
+    listFilters('Goal',S.goals)+RISK_LEGEND+'<div id="memberRows"></div>';
+  bindFilters(function(){ paintMembers(S.recipes); });
+  paintMembers(S.recipes);
 }
-function paintSingletons(){
-  var box=document.getElementById('singletonRows');
+function listFilters(crossLabel,crossTags){
+  return '<div class="writer-filters"><label>Filter<input id="memberFilter" type="search" autocomplete="off" spellcheck="false" placeholder="Filter these entries…"></label>'+
+    '<label>'+crossLabel+'<select id="crossFilter"><option value="">Any</option>'+crossTags.map(function(t){return '<option value="'+t.id+'">'+esc(t.label)+'</option>';}).join('')+'</select></label>'+
+    '<label>Risk<select id="riskFilter"><option value="">Any risk</option><option value="low">Low only</option><option value="medium">Low or medium</option></select></label></div>';
+}
+function bindFilters(paint){
+  var inp=document.getElementById('memberFilter'), cross=document.getElementById('crossFilter'), risk=document.getElementById('riskFilter');
+  inp.value=memberFilter; cross.value=crossFilter; risk.value=riskFilter;
+  inp.addEventListener('input',function(){ memberFilter=inp.value; paint(); });
+  cross.addEventListener('change',function(){ crossFilter=cross.value; paint(); });
+  risk.addEventListener('change',function(){ riskFilter=risk.value; paint(); });
+}
+function riskOk(n){ return !riskFilter||n.risk==='low'||(riskFilter==='medium'&&n.risk==='medium'); }
+function paintMembers(members){
+  var box=document.getElementById('memberRows');
   if(!box) return;
-  var q=memberFilter.trim().toLowerCase();
-  var list=q? S.singletons.filter(function(n){ return n._search.indexOf(q)>=0; }) : S.singletons;
+  var list=memberFilter.trim()?Writer.search(memberFilter,members):members.slice().sort(byStarter);
+  list=list.filter(function(n){ return riskOk(n)&&(!crossFilter||n.goals.concat(n.stages).indexOf(+crossFilter)>=0); });
+  // "Start here": the first few self-contained, low-risk recipes in this list.
+  var starters={};
+  // Recipes aimed at mind control are never a first thing to try, whatever their risk tag.
+  var mind=S.goals.filter(function(t){return t.slug==='mind-control';}).map(function(t){return t.id;});
+  if(!memberFilter.trim()) list.filter(function(n){return n.kind==='recipe'&&n.risk==='low'&&!n.consent&&!n.bounded&&!prerequisite(n)&&!n.goals.some(function(g){return mind.indexOf(g)>=0;});}).slice(0,3).forEach(function(n){starters[n.id]=true;});
+  var groups=[['Recipes',function(n){return n.kind==='recipe';}],['Levers',function(n){return n.kind==='technique';}],
+              ['Session structures and principles',function(n){return n.kind==='container'||n.kind==='principle';}]];
   var html='';
-  for(var i=0;i<list.length;i++) html+=entryRow(list[i],false);
-  box.innerHTML=html||'<div class="empty">No matches.</div>';
-  document.getElementById('writerStatus').textContent=list.length+' standalone entries match.';
+  groups.forEach(function(g){
+    var rows=list.filter(g[1]); if(!rows.length) return;
+    html+='<div class="secthead"><h2>'+g[0]+'</h2><span class="n">'+rows.length+'</span></div><div class="rows">'+rows.map(function(n){return entryRow(n,starters[n.id]);}).join('')+'</div>';
+  });
+  box.innerHTML=html||'<div class="empty">No entries match these filters.</div>';
+  document.getElementById('writerStatus').textContent=matchCount(list.length);
 }
 
 /* ============ local annotation timeline ============ */
 function renderTimeline(view){
-  view.innerHTML=crumbs([['#/','Index']],'Annotation timeline')+
+  view.innerHTML=crumbs([['#/','Home']],'Annotation timeline')+
     '<div class="pagehead"><h2>Annotation timeline</h2>'+
-    '<p class="gloss">Read annotations in source order and open their taxonomy entries. Choose an annotation JSON file; its contents stay in this browser tab.</p></div>'+
+    '<p class="gloss">Read annotations in source order and open their entries. Choose an annotation JSON file; its contents stay in this browser tab.</p></div>'+
     '<input id="annotationFile" type="file" accept=".json,application/json" aria-label="Open annotation JSON">'+
     '<p id="timelineStatus" role="status"></p><div id="timelineDensity"></div><div id="timelineRows"></div>';
   document.getElementById('annotationFile').addEventListener('change',function(event){
@@ -642,125 +808,133 @@ function paintTimeline(){
 }
 
 // Density uses annotation line extent, not duration or inferred psychological state.
+// Colored by each entry's earliest session stage.
 function annotationDensity(rows){
   if(!rows.length) return '';
   var end=Math.max.apply(null,rows.map(function(r){return r.line_end;}));
-  var bins=20, counts=[], families={};
+  var bins=20, counts=[], stages={};
   for(var b=0;b<bins;b++) counts.push({});
   rows.forEach(function(row){
     var node=S.byId[row.entry_id]; if(!node) return;
-    var family=node.family||'unclassified'; families[family]=true;
+    var st=node.stages.length?S.tagById[node.stages[0]].label:'No stage'; stages[st]=true;
     for(var i=0;i<bins;i++){
       var left=i*end/bins, right=(i+1)*end/bins;
       var overlap=Math.max(0,Math.min(row.line_end,right)-Math.max(row.line_start-1,left));
-      if(overlap) counts[i][family]=(counts[i][family]||0)+overlap/(right-left);
+      if(overlap) counts[i][st]=(counts[i][st]||0)+overlap/(right-left);
     }
   });
-  var names=Object.keys(families).sort(), colors={};
-  names.forEach(function(name,i){colors[name]='hsl('+Math.round(i*137.508%360)+',55%,48%)';});
+  var order=S.stages.map(function(t){return t.label;}).concat(['No stage']);
+  var names=order.filter(function(x){return stages[x];}), colors={};
+  names.forEach(function(name){colors[name]=paletteColor(order.indexOf(name),name==='No stage');});
   var peak=Math.max(1,...counts.map(function(bin){return Object.keys(bin).reduce(function(n,k){return n+bin[k];},0);}));
-  var html='<section class="sect"><p class="lab">Family density across annotated lines</p>'+
-    '<p class="seqnote">20 equal bins from line 1 to '+end+'. Height is summed annotation span coverage per bin; overlaps count separately. This is not audio time or a measure of effect.</p>'+
-    '<svg viewBox="0 0 800 140" role="img" aria-label="Stacked family annotation density by source line" style="width:100%;height:auto">';
+  var html='<section class="sect"><p class="lab">Session stage across annotated lines</p>'+
+    '<p class="seqnote">20 equal bins from line 1 to '+end+'. Height is summed annotation span per bin; overlaps count separately. This is not audio time or a measure of effect.</p>'+
+    '<svg viewBox="0 0 800 140" role="img" aria-label="Stacked stage annotation density by source line" style="width:100%;height:auto">';
   counts.forEach(function(bin,i){
     var y=120;
     names.forEach(function(name){
       var value=bin[name]||0; if(!value)return;
       var height=110*value/peak; y-=height;
       html+='<rect x="'+(i*40)+'" y="'+y+'" width="38" height="'+height+'" fill="'+colors[name]+'"><title>'+esc(name)+
-        ' · lines '+(Math.floor(i*end/bins)+1)+'–'+Math.ceil((i+1)*end/bins)+' · '+value.toFixed(2)+' span coverage</title></rect>';
+        ' · lines '+(Math.floor(i*end/bins)+1)+'–'+Math.ceil((i+1)*end/bins)+' · '+value.toFixed(1)+' span coverage</title></rect>';
     });
   });
-  html+='</svg><p class="seqnote">'+names.map(function(name){return '<span style="display:inline-block;margin-right:12px"><span aria-hidden="true" style="color:'+colors[name]+'">●</span> '+esc(titleCase(name))+'</span>';}).join('')+'</p></section>';
+  html+='</svg><p class="seqnote">'+names.map(function(name){return '<span style="display:inline-block;margin-right:12px"><span aria-hidden="true" style="color:'+colors[name]+'">●</span> '+esc(name)+'</span>';}).join('')+'</p></section>';
   return html;
 }
 
 /* ============ entry view ============ */
+function sect(label,body,cls){ return '<section class="sect'+(cls?' '+cls:'')+'"><h3 class="lab">'+label+'</h3>'+body+'</section>'; }
 function renderEntry(view,n){
-  var g=(n.door!=null)?S.genusById[String(n.door)]:null;
-  var trail=g? [['#/','Index'],['#/genus/'+g.id,g._title]]
-             : [['#/','Index'],['#/singletons','Standalone']];
-  var html=crumbs(trail,n._title)+'<article class="entry">';
+  var home=n.kind==='recipe'?['#/recipes','Recipes']:(n.stages.length?[tagHref(S.tagById[n.stages[0]]),S.tagById[n.stages[0]].label]:null);
+  var html=crumbs(home?[['#/','Home'],home]:[['#/','Home']],n._title)+'<article class="entry">';
 
-  html+='<h2>'+esc(n._title)+'</h2><div class="entry-actions">'+Writer.roleBadge(n)+Writer.pinButton(n.id)+'<a href="#/workbench">Compare in workspace →</a><a href="#/graph/relations/'+n.id+'">Explore connections ↗</a></div><div class="meta">';
-  html+='<span class="fam">'+esc(titleCase(n.family||''))+(n.macroclass?' · '+esc(n.macroclass):'')+'</span>';
-  if(n.risk==='medium'||n.risk==='high') html+='<span class="badge risk-'+esc(n.risk)+'">'+esc(n.risk)+' risk</span>';
-  if(n.consent) html+='<span class="badge">explicit consent</span>';
-  if(n.bounded) html+='<span class="badge">bounding required</span>';
-  if(typeof n.reach==='number'&&n.reach>0) html+='<span>attested in '+n.reach+' recorded source unit'+(n.reach===1?'':'s')+'</span>';
-  html+='</div>';
+  html+='<div class="kindline">'+kindBadge(n)+n.goals.concat(n.stages).map(function(id){var t=S.tagById[id];return '<a class="tagchip t-'+t.kind+'" href="'+tagHref(t)+'">'+esc(t.label)+'</a>';}).join('')+'</div>';
+  html+='<h2>'+esc(n._title)+'</h2>';
+  if(n.one_liner) html+='<p class="lead">'+prose(n.one_liner)+'</p>';
+  html+='<div class="entry-actions">'+Writer.pinButton(n.id)+'<a href="#/workbench">Compare in workspace →</a><a href="#/graph/relations/'+n.id+'">Explore connections ↗</a></div>';
 
-  html+='<section class="sect"><h3 class="lab">Mechanism</h3><p class="body">'+esc(n.mech||'')+'</p></section>';
-  if(n.disc) html+='<section class="sect"><h3 class="lab">When to reach for this</h3><p class="body">'+esc(n.disc)+'</p></section>';
+  if(prerequisite(n)){
+    var inst=installLinks(n);
+    html+='<p class="prereq"><b>Before you start:</b> the first step fires a trigger the listener already has. If they don’t have one yet, install it first'+
+      (inst.length?' with '+inst.map(function(x){return '<a class="knav" href="#/entry/'+x.id+'">'+esc(x._title)+'</a>';}).join(' or '):'')+'.</p>';
+  }
+  if(n.steps&&n.steps.length){
+    html+=sect('Steps','<ol class="steps">'+n.steps.map(function(s){
+      var lv=s[0]!=null?S.byId[s[0]]:null;
+      return '<li><p>'+prose(s[1])+'</p>'+(lv?'<a class="steplever knav" href="#/entry/'+lv.id+'"><span>'+esc(KIND_LABEL[lv.kind]||'Entry')+':</span> '+esc(lv._title)+'</a>':'')+'</li>';
+    }).join('')+'</ol>');
+  }
+  if(n.mech) html+=sect('How it’s done','<p class="body">'+prose(n.mech)+'</p>');
 
-  html+='<p class="metadata-evidence">'+esc(Writer.kindLabel(n))+' · '+(Number.isFinite(n.annotation_units)?n.annotation_units:'Unknown')+' annotation units in the observed corpus. '+(n.so?'Evidence is labeled stated-only. ':'')+'Source appearance and an intended effect are not demonstrated outcomes.</p>';
-  if(n.ex&&n.ex.length) html+='<section class="sect"><h3 class="lab">Worked examples & variants · '+n.ex.length+'</h3>'+Writer.examples(n)+'</section>';
-  else html+='<p class="metadata-evidence">No worked example is available in this public export.</p>';
-  if(n.examples_withheld) html+='<p class="metadata-evidence">Some examples are omitted from this public edition; the entry’s operation and distinctions remain available.</p>';
-
-  var cons=S.contrasts[n.id]||[];
-  if(cons.length){
-    html+='<section class="sect"><details class="confuse"><summary>Distinguish from'+
-      ' <span class="n">'+cons.length+' adjacent entr'+(cons.length===1?'y':'ies')+', inspect the recorded distinctions</span></summary>';
-    for(var i=0;i<cons.length;i++){
-      var o=S.byId[cons[i].o];
-      html+='<div class="cue"><p class="vs"><span class="vslab">vs</span>'+
-        '<a href="#/entry/'+o.id+'">'+esc(o._title)+'</a></p>';
-      if(cons[i].n) html+='<p>'+esc(cons[i].n)+'</p>';
-      html+='</div>';
-    }
-    html+='</details></section>';
+  if(n.why_short||n.principle_note){
+    var g=GRADE[n.evidence_grade], w='';
+    if(n.why_short) w+='<p class="body">'+prose(n.why_short)+'</p>';
+    if(g) w+='<p class="grade"><span class="grade-badge g-'+esc(n.evidence_grade)+'">'+g[0]+'</span> '+esc(g[1])+'</p>';
+    // A "finding" is only called that when there is a source to check.
+    if(n.finding_name) w+=n.finding_url?'<p class="finding">Related finding: <a href="'+esc(n.finding_url)+'" target="_blank" rel="noopener noreferrer">'+esc(n.finding_name)+' ↗</a></p>'
+                                       :'<p class="finding">Background: '+esc(n.finding_name)+' <span class="seqnote">(no general-audience source linked)</span></p>';
+    if(g) w+=gradeScale();
+    if(n.principle_note) w+='<details class="deep"><summary>The longer explanation</summary><p class="body">'+prose(n.principle_note)+'</p></details>';
+    html+=sect('Why it works',w);
   }
 
-  /* sequence context: what precedes / follows this technique in annotated scripts */
-  var nx=S.next[n.id]||[], pv=S.prev[n.id]||[];
-  if(nx.length||pv.length){
-    html+='<section class="sect"><h3 class="lab">In sequence</h3>';
-    if(pv.length){
-      html+='<div class="chips">'+seqChips(pv.slice(0,6),'precedes')+'</div>';
-    }
-    if(nx.length){
-      html+='<div class="chips" style="margin-top:7px">'+seqChips(nx.slice(0,6),'follows')+'</div>';
-    }
-    html+='<p class="seqnote">Observed transitions from '+S.annScripts+' annotation units. Only non-overlapping ordered spans count; this is not a prescribed sequence.</p></section>';
+  var used=S.usedIn[n.id]||[];
+  if(used.length){
+    html+=sect('Used in recipes','<ul class="usedin">'+used.map(function(u){var r=S.byId[u.recipe];
+      return '<li><a class="knav" href="#/entry/'+r.id+'">'+esc(r._title)+'</a><span> step '+u.step+': '+esc(u.text)+'</span></li>';}).join('')+'</ul>');
   }
 
-  var co=S.cooc[n.id]||[];
-  if(co.length){
-    html+='<section class="sect"><h3 class="lab">Frequently co-occurs with</h3><div class="chips">';
-    for(var c=0;c<Math.min(co.length,8);c++){
-      var t2=S.byId[co[c][0]];
-      if(!t2) continue;
-      html+='<a class="chip knav" href="#/entry/'+t2.id+'" title="together in '+co[c][1]+' annotation units (lift '+co[c][2]+')">'+
-        esc(t2._title)+'<span class="st">'+co[c][1]+' units · lift '+co[c][2]+'×</span></a>';
-    }
-    html+='</div></section>';
+  if(n.ex&&n.ex.length) html+=sect('Examples · '+n.ex.length,Writer.examples(n),'ex');
+  if(n.examples_withheld) html+='<p class="metadata-evidence">Some examples are left out of this public edition because they stay too close to their source.</p>';
+
+  if(n.risk||n.consent||n.bounded){
+    var items=[];
+    var rk=n.risk==='low'&&(n.consent||n.bounded)?'lowBounded':n.risk;
+    if(RISK[rk]) items.push('<li>'+riskBadge(n).trim()+' '+esc(RISK[rk].replace(/^[^:]+:\s*/,''))+'</li>');
+    if(n.consent) items.push('<li><span class="badge">explicit consent</span> '+esc(CONSENT_TEXT.replace(/^[^:]+:\s*/,''))+'</li>');
+    if(n.bounded) items.push('<li><span class="badge">bounding required</span> '+esc(BOUND_TEXT.replace(/^[^:]+:\s*/,''))+'</li>');
+    html+=sect('Risk','<ul class="risklist">'+items.join('')+'</ul>');
   }
 
-  var sib=S.seeAlso[n.id]||[];
-  if(sib.length){
-    html+='<section class="sect"><h3 class="lab">See also</h3><div class="chips">';
-    for(var j=0;j<sib.length;j++){
-      var t=S.byId[sib[j].o];
-      html+='<div class="relation-item"><a class="chip knav" href="#/entry/'+t.id+'">'+esc(t._title)+'</a><p class="relation-note">'+esc(sib[j].n||'Related entry; no public rationale recorded.')+'</p></div>';
-    }
-    html+='</div></section>';
+  var variants=relatedRecipes(n);
+  if(variants.length) html+=sect('Variations and related recipes','<ul class="usedin">'+variants.map(function(r){
+    return '<li><a class="knav" href="#/entry/'+r.id+'">'+esc(r._title)+'</a>'+riskBadge(r)+'<span> · '+esc(r.one_liner||'')+'</span></li>';}).join('')+'</ul>');
+
+  var sib=S.seeAlso[n.id]||[], cons=S.contrasts[n.id]||[];
+  if(sib.length||cons.length){
+    var rel='';
+    if(cons.length) rel+='<p class="sublab">Easily confused with</p>'+cons.map(relationItem).join('');
+    if(sib.length) rel+=(cons.length?'<p class="sublab">Related</p>':'')+sib.map(relationItem).join('');
+    html+=sect('See also','<div class="relations">'+rel+'</div>');
   }
 
-  html+='<a class="gopen" href="#/graph/relations/'+n.id+'">Explore these connections in the network</a>';
+  html+=corpusSection(n);
   html+='</article>';
   view.innerHTML=html;
 }
-function seqChips(list,dir){
-  var incoming=dir==='precedes';
-  var html='<span class="seqnote" style="margin:0 6px 0 0">'+(incoming?'observed before':'observed after')+'</span>';
-  for(var i=0;i<list.length;i++){
-    var t=S.byId[list[i][0]]; if(!t) continue;
-    var share=list[i][2], pct=share==null?'':(share*100).toFixed(1)+'%';
-    var label=list[i][1]+' transitions'+(pct?' · '+pct+' of '+(incoming?'incoming':'outgoing')+' transitions':'');
-    html+='<a class="chip knav" href="#/entry/'+t.id+'" title="'+label+'">'+esc(t._title)+'<span class="st">'+label+'</span></a>';
+function relationItem(r){
+  var t=S.byId[r.o];
+  return '<div class="relation-item"><a class="knav" href="#/entry/'+t.id+'">'+esc(t._title)+'</a>'+
+    (t.one_liner?'<span class="relation-one"> · '+esc(t.one_liner)+'</span>':'')+
+    (r.n?'<p class="relation-note">'+prose(r.n)+'</p>':'')+'</div>';
+}
+/* One plain count, rounded stats, self-transitions shown as "repeated". */
+function corpusSection(n){
+  var units=n.annotation_units, nx=S.next[n.id]||[], pv=S.prev[n.id]||[], co=S.cooc[n.id]||[];
+  var body='<p class="body small">'+(units?'Seen in <b>'+units+'</b> of the '+S.annScripts+' scripts and texts we annotated.':'Not yet counted in the scripts and texts we annotated.')+
+    (n.repeats?' Often repeated back to back ('+plural(n.repeats,'time','times')+').':'')+'</p>';
+  function chips(list,label,fmt){
+    if(!list.length) return '';
+    return '<div class="chips"><span class="seqnote chiplab">'+label+'</span>'+list.slice(0,6).map(function(t){var o=S.byId[t[0]];
+      return o?'<a class="chip knav" href="#/entry/'+o.id+'">'+esc(o._title)+'<span class="st">'+fmt(t)+'</span></a>':'';}).join('')+'</div>';
   }
-  return html;
+  body+=chips(pv,'Often comes after',function(t){return plural(t[1],'time','times');});
+  body+=chips(nx,'Often followed by',function(t){return plural(t[1],'time','times');});
+  body+=chips(co.slice(0,8),'Often in the same script as',function(t){return plural(t[1],'script','scripts')+liftText(t[1],t[2]);});
+  if(!units&&!nx.length&&!pv.length&&!co.length) return '';
+  body+='<details class="deep"><summary>How this is counted</summary><p class="body small">We tagged '+S.annScripts+' hypnosis scripts and texts line by line with the entries they use. “Seen in” counts the scripts where this entry appears at least once. “Comes after” and “followed by” count back-to-back uses that do not overlap. “× chance” compares how often two entries share a script with what you would expect if they were unrelated; it is shown only when at least 3 scripts share the pair. These numbers describe what writers do, not what works.</p></details>';
+  return sect('In the scripts we annotated',body,'corpus');
 }
 
 function crumbs(trail,here){
@@ -779,7 +953,11 @@ function crumbs(trail,here){
    spreads the layout so more labels fit, it never inflates the circles. */
 var G=null; // graph runtime, torn down on route change
 
-var MACRO_COLORS_L={ }, MACRO_PALETTE=['#2361ae','#a05a1f','#1e8a68','#7b52d6','#a03a2e','#3f7d8c','#8a6d1e','#5b5f9e'];
+var graphColorBy='stage';
+var PALETTE_L=['#2361ae','#a05a1f','#1e8a68','#7b52d6','#a03a2e','#3f7d8c','#8a6d1e','#b0457f','#5b5f9e'];
+var PALETTE_D=['#79b5ff','#efb075','#67cfac','#b79cff','#f08a7a','#7cc3d4','#d8bb5e','#f08cc0','#a3a7e8'];
+function isDark(){var t=document.documentElement.getAttribute('data-theme');return t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches);}
+function paletteColor(i,none){var dark=isDark();if(none)return dark?'#6a6a64':'#a3a29a';return (dark?PALETTE_D:PALETTE_L)[i%PALETTE_L.length];}
 
 function graphTeardown(){
   if(G){ if(G.themeObserver)G.themeObserver.disconnect(); G.dead=true; if(G.raf) cancelAnimationFrame(G.raf); window.removeEventListener('resize',G.onResize); window.removeEventListener('writer-selection',G.onSelection); G=null; }
@@ -792,6 +970,7 @@ function renderGraph(view,mode,focusId){
       gmodeBtn('relations','Relations',mode)+
       gmodeBtn('cooccurrence','Co-occurrence',mode)+
       gmodeBtn('sequence','Sequence',mode)+
+      '<span class="ghint" style="margin-left:0">Color by</span><button class="gmode gcolor" data-c="stage">Stage</button><button class="gmode gcolor" data-c="goal">Goal</button>'+
       '<input id="gsearch" type="search" placeholder="Find entry…" autocomplete="off" spellcheck="false" aria-label="Find entry in graph" aria-controls="gresults">'+
       '<button class="gmode" id="gminus" aria-label="Zoom out">−</button><button class="gmode" id="gplus" aria-label="Zoom in">+</button><button class="gmode" id="gfit">Fit all</button><button class="gmode" id="gfitcontext">Fit connections</button><button class="gmode" id="gclear">Clear focus</button>'+
       '<label class="ghint">Pinned neighbors <select id="gmatch"><option value="any">Any pinned</option><option value="all">Shared by all</option></select></label>'+
@@ -807,6 +986,10 @@ function renderGraph(view,mode,focusId){
     });
   });
 
+  document.querySelectorAll('.gcolor').forEach(function(b){
+    var on=b.getAttribute('data-c')===graphColorBy; b.classList.toggle('on',on); b.setAttribute('aria-pressed',on);
+    b.addEventListener('click',function(){ graphColorBy=b.getAttribute('data-c'); document.querySelectorAll('.gcolor').forEach(function(x){var o=x===b;x.classList.toggle('on',o);x.setAttribute('aria-pressed',o);}); graphColors(); graphLegend(); G.needsDraw=true; });
+  });
   var canvas=document.getElementById('gcanvas');
   G={ mode:mode, sel:null, hover:null, dead:false,
       k:1, tx:0, ty:0, nodes:S.nodes, canvas:canvas, ctx:canvas.getContext('2d'),
@@ -834,23 +1017,27 @@ function renderGraph(view,mode,focusId){
   graphLoop();
 
   var gs=document.getElementById('gsearch');
-  gs.addEventListener('input',function(){ G.query=gs.value.trim().toLowerCase(); graphSearchResults(); G.needsDraw=true; });
+  gs.addEventListener('input',function(){ graphQuery(gs.value); graphSearchResults(); G.needsDraw=true; });
   gs.addEventListener('keydown',function(e){
     if(e.key==='Enter'&&G.query){
-      var hit=S.nodes.find(function(n){ return n._search.indexOf(G.query)>=0; });
+      var hit=G.hits[0];
       if(hit){ graphSelect(hit.id,true); document.querySelector('#gpanel h3').focus(); }
     }
   });
 }
+function graphQuery(text){
+  G.query=text.trim(); G.hits=G.query?Writer.search(G.query):[]; G.match=null;
+  if(G.query){ G.match={}; G.hits.forEach(function(n){G.match[n.id]=1;}); }
+}
 function graphSearchResults(){
   var el=document.getElementById('gresults'),q=G.query;
   el.hidden=!q;if(!q){el.innerHTML='';return;}
-  var hits=S.nodes.filter(function(n){return n._search.indexOf(q)>=0;});
+  var hits=G.hits;
   el.innerHTML='<p role="status">'+hits.length+' matching entries'+(hits.length>30?' · showing first 30; refine your search':'')+'</p>'+hits.slice(0,30).map(function(n){return '<button class="gmode" data-result="'+n.id+'">'+esc(n._title)+'</button>';}).join('');
   el.querySelectorAll('button').forEach(function(b){b.onclick=function(){graphSelect(+b.getAttribute('data-result'),true);document.querySelector('#gpanel h3').focus();};});
 }
 function graphClear(){
-  if(!G)return;G.sel=null;G.hover=null;G.query='';document.getElementById('gsearch').value='';graphSearchResults();
+  if(!G)return;G.sel=null;G.hover=null;graphQuery('');document.getElementById('gsearch').value='';graphSearchResults();
   document.getElementById('gpanel').hidden=true;history.replaceState(null,'','#/graph/'+G.mode);graphFit();G.needsDraw=true;
 }
 function graphFitContext(){
@@ -904,17 +1091,25 @@ function graphEdgesFor(mode){
     });
   }else{ // sequence: DIRECTED [src,dst,weight]
     Object.keys(S.next).forEach(function(a){
-      S.next[a].forEach(function(t){ if(t[1]>=2) edges.push([+a,t[0],Math.min(1,t[2]*3),'d']); });
+      S.next[a].forEach(function(t){ if(t[1]>=2) edges.push([+a,t[0],Math.min(1,t[1]/10),'d']); });
     });
   }
   G.edges=edges;
 }
 
 /* --- colors & legend --- */
-var GRAPH_KINDS={technique:{label:'Writing technique',color:'#2361ae'},container:{label:'Structural pattern',color:'#a05a1f'},principle:{label:'Supporting principle',color:'#1e8a68'}};
-function graphColors(){var dark=document.documentElement.getAttribute('data-theme')==='dark'||(!document.documentElement.getAttribute('data-theme')&&matchMedia('(prefers-color-scheme: dark)').matches);var colors=dark?['#79b5ff','#efb075','#67cfac']:['#2361ae','#a05a1f','#1e8a68'];Object.keys(GRAPH_KINDS).forEach(function(k,i){GRAPH_KINDS[k].color=colors[i];});}
+/* Node color = the entry's first goal or earliest session stage; grey when it has none. */
+function graphColors(){
+  var list=graphColorBy==='goal'?S.goals:S.stages; G.colorTags=list; G.colorOf={};
+  S.nodes.forEach(function(n){var ids=graphColorBy==='goal'?n.goals:n.stages,ix=-1;
+    if(ids.length) list.forEach(function(t,i){if(ix<0&&ids.indexOf(t.id)>=0)ix=i;});
+    G.colorOf[n.id]=paletteColor(Math.max(ix,0),ix<0);});
+}
 function graphLegend(){
-  document.getElementById('glegend').innerHTML=Object.keys(GRAPH_KINDS).map(function(k){var v=GRAPH_KINDS[k];return '<span><span class="sw" style="background:'+v.color+'"></span>'+v.label+'</span>';}).join('')+'<span>'+(G.mode==='relations'?'Solid: related · dashed: distinguish from':G.mode==='cooccurrence'?'Lines: co-occurrence in ≥3 annotated units; lists also include rarer observations':'Arrows: observed sequence in ≥2 instances; lists also include single observations')+'</span>';
+  var none=graphColorBy==='goal'?'General craft (no goal)':'No stage';
+  document.getElementById('glegend').innerHTML=G.colorTags.map(function(t,i){return '<span><span class="sw" style="background:'+paletteColor(i)+'"></span>'+esc(t.label)+'</span>';}).join('')+
+    '<span><span class="sw" style="background:'+paletteColor(0,true)+'"></span>'+none+'</span>'+
+    '<span>'+(G.mode==='relations'?'Solid: related · dashed: easily confused':G.mode==='cooccurrence'?'Lines: in the same script at least 3 times':'Arrows: one follows the other at least twice')+'</span>';
 }
 function graphPinned(){return window.Writer&&Array.isArray(Writer.selected)?Writer.selected.filter(function(id){return !!S.byId[id];}).slice(0,4):[];}
 function graphContext(){
@@ -983,11 +1178,10 @@ function graphSelect(id,center){
 function graphPanel(id){
   var n=S.byId[id], el=document.getElementById('gpanel');
   if(!n||!el) return;
-  var g=(n.door!=null)?S.genusById[String(n.door)]:null;
   var html='<h3 tabindex="-1">'+esc(n._title)+'</h3>'+
-    '<p class="gdoor">'+(g?esc(g._title):'standalone')+
-    (typeof n.reach==='number'&&n.reach>0?' · '+n.reach+' annotated source units':'')+'</p>'+
-    '<p class="gmech">'+esc(n.mech||'')+'</p>';
+    '<p class="gdoor">'+esc(KIND_LABEL[n.kind]||n.kind)+(n.stages.length?' · '+n.stages.map(function(id){return esc(S.tagById[id].label);}).join(', '):'')+
+    (n.annotation_units?' · seen in '+plural(n.annotation_units,'script','scripts'):'')+'</p>'+
+    '<p class="gmech">'+esc(n.one_liner||n.mech||'')+'</p>';
   function rows(title,list,fmt){
     if(!list||!list.length) return '';
     var h='<p class="lab">'+title+'</p>';
@@ -996,20 +1190,20 @@ function graphPanel(id){
       if(!o) return;
       h+='<button type="button" class="grow2'+(t[1]<2?' mut':'')+'" data-go="'+o.id+'">'+
         '<span class="gname">'+esc(o._title)+'</span><span class="gstat">'+fmt(t)+'</span></button>';
-      if(G.mode==='relations'&&t[2])h+='<details class="greason"><summary>Why related?</summary><p>'+esc(t[2])+'</p></details>';
+      if(G.mode==='relations'&&t[2])h+='<details class="greason"><summary>How they relate</summary><p>'+prose(t[2])+'</p></details>';
     });
     return h;
   }
   if(G.mode==='sequence'){
-    html+=rows('Often follows this',S.next[id]||[],function(t){ return (t[2]*100).toFixed(0)+'% · '+t[1]+'×'; });
-    html+=rows('Often precedes this',S.prev[id]||[],function(t){ return t[1]+'×'; });
+    html+=rows('Often followed by',S.next[id]||[],function(t){ return plural(t[1],'time','times'); });
+    html+=rows('Often comes after',S.prev[id]||[],function(t){ return plural(t[1],'time','times'); });
   }else if(G.mode==='cooccurrence'){
-    html+=rows('Co-occurs with',S.cooc[id]||[],function(t){ return t[1]+' units'; });
+    html+=rows('Often in the same script as',S.cooc[id]||[],function(t){ return plural(t[1],'script','scripts'); });
   }else{
     var rel=(S.seeAlso[id]||[]).map(function(s){ return [s.o,9,s.n]; });
     html+=rows('Related',rel,function(){ return ''; });
     var con=(S.contrasts[id]||[]).map(function(s){ return [s.o,9,s.n]; });
-    html+=rows('Distinguish from',con,function(){ return ''; });
+    html+=rows('Easily confused with',con,function(){ return ''; });
   }
   if(html.indexOf('data-go=')<0)html+='<p class="gdoor">No '+(G.mode==='relations'?'curated connections':G.mode==='sequence'?'recorded sequence observations':'recorded co-occurrences')+' for this entry.</p>';
   html+='<button type="button" class="gopen" id="gpin">'+(graphPinned().indexOf(id)>=0?'Unpin from comparison':'Pin for comparison')+'</button> <a class="gopen" href="#/workbench">Compare pinned</a> ';
@@ -1075,8 +1269,8 @@ function graphDraw(){
   for(var j=0;j<S.nodes.length;j++){
     var n=S.nodes[j], p=toScreen(G.pos[n.id]);
     if(p[0]<-12||p[0]>G.w+12||p[1]<-12||p[1]>G.h+12||(selSet&&!selSet[n.id])) continue;
-    var col=(GRAPH_KINDS[n.kind]||GRAPH_KINDS.technique).color;
-    var dim=(selSet&&!selSet[n.id])||(q&&n._search.indexOf(q)<0);
+    var col=G.colorOf[n.id];
+    var dim=(selSet&&!selSet[n.id])||(G.match&&!G.match[n.id]);
     ctx.globalAlpha=dim?0.16:0.92;
     ctx.beginPath();
     ctx.arc(p[0],p[1],(n.id===G.sel||n.id===G.hover)?R+1.8:R,0,Math.PI*2);
@@ -1091,7 +1285,7 @@ function graphDraw(){
   ctx.globalAlpha=1;ctx.font='11px ui-sans-serif,system-ui,sans-serif';ctx.textBaseline='middle';
   var occupied=[],candidates=[],nodePoints=S.nodes.filter(function(n){return !selSet||selSet[n.id];}).map(function(n){return toScreen(G.pos[n.id]);});
   S.nodes.forEach(function(n){var p=toScreen(G.pos[n.id]);if(p[0]<0||p[0]>G.w||p[1]<0||p[1]>G.h)return;var priority=n.id===G.sel?0:(n.id===G.hover?1:(context.pins.indexOf(n.id)>=0?2:3));
-    if(priority<3||(selSet&&selSet[n.id])||(q&&n._search.indexOf(q)>=0)||(!selSet&&!q&&labelZoom))candidates.push({n:n,p:p,rank:priority});});
+    if(priority<3||(selSet&&selSet[n.id])||(G.match&&G.match[n.id])||(!selSet&&!q&&labelZoom))candidates.push({n:n,p:p,rank:priority});});
   candidates.sort(function(a,b){return a.rank-b.rank||a.n.id-b.n.id;});
   candidates.forEach(function(c){var title=c.n._title;while(title.length>5&&ctx.measureText(title).width>G.w-32)title=title.slice(0,-2);if(title!==c.n._title)title+='…';var w=ctx.measureText(title).width+8,h=18,p=c.p,spots=[[p[0]+9,p[1]-9],[p[0]-w-9,p[1]-9],[p[0]+9,p[1]-29],[p[0]+9,p[1]+11]],box=null;
     if(c.rank<3)for(var dy=20;dy<G.h;dy+=20){var lx=Math.max(8,Math.min(p[0]+9,G.w-w-8));spots.push([lx,p[1]-dy],[lx,p[1]+dy]);}
@@ -1120,20 +1314,16 @@ document.addEventListener('keydown',function(e){
   if(e.key==='Escape'){
     if(inInput && !(tgt.tagName==='INPUT' && tgt.type==='search')) return;
     if(inInput){
-      if(tgt.value){
-        tgt.value='';
-        if(tgt.id==='tableQuery'){ Writer.query=''; Writer.page=0; Writer.paintTable(); }
-        if(tgt.id==='q'){ searchQuery=''; renderResults(); }
-        if(tgt.id==='memberFilter'){ memberFilter=''; paintSingletons(); }
-        if(tgt.id==='gsearch'&&G){ G.query=''; G.needsDraw=true; }
-      }else tgt.blur();
+      if(tgt.value){ tgt.value=''; tgt.dispatchEvent(new Event('input')); }
+      else tgt.blur();
       return;
     }
     var h=location.hash.replace(/^#\/?/,''), parts=h.split('/');
     if(parts[0]==='entry'){
       var node=S.byId[+parts[1]];
-      if(node&&node.door!=null&&S.genusById[String(node.door)]) location.hash='#/genus/'+node.door;
-      else location.hash='#/singletons';
+      if(node&&node.kind==='recipe') location.hash='#/recipes';
+      else if(node&&node.stages.length) location.hash=tagHref(S.tagById[node.stages[0]]);
+      else location.hash='#/';
     }
     else if(parts[0]==='graph'&&G&&G.sel!=null){ graphClear(); }
     else if(parts[0]!=='') location.hash='#/';
