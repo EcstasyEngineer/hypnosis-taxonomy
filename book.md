@@ -644,7 +644,7 @@ An ideomotor induction in which one hand, resting on the thigh, is suggested to 
 
 **Not to be confused with:** Book and balloon (book and balloon contrasts a heavy arm with a light one as a quick test or convincer); Rigid arm (catalepsy suggests a rigid arm that cannot bend; levitation suggests a light arm that moves); Magnetic hands (magnetic hands draws two hands together sideways; levitation lifts one hand).
 
-**Evidence:** clinical-tradition. A standard clinical induction and a scale item; a substantial minority do not respond, and no study shows it gives a better trance than simpler methods. Source: Erickson, 'Historical note on the hand levitation and other ideomotor techniques', American Journal of Clinical Hypnosis (1961).
+**Evidence:** clinical-tradition. A standard clinical induction and a scale item; a substantial minority do not respond, and no study shows it gives a better trance than simpler methods. Source: Milton H. Erickson, Historical Note on the Hand Levitation and Other Ideomotor Techniques, American Journal of Clinical Hypnosis (1961).
 
 **Why it works:** Ideomotor effect, Cold control theory, Response expectancy theory.
 
@@ -878,7 +878,7 @@ An induction that narrows attention and builds responsiveness while the listener
 
 **Not to be confused with:** Partial wake (that opens the eyes after a conventional trance and declares it ongoing; waking hypnosis starts eyes-open and never suggests sleep or depth); Conversational induction (that is defined by sounding like ordinary talk with no announced procedure; waking hypnosis is announced and usually direct); Suggestibility test (a test before the induction claims no trance; here the same exercises are the induction and are followed by working suggestions).
 
-**Evidence:** experimental. Controlled comparisons, beginning with Banyai and Hilgard's active-alert induction in 1976, find alert eyes-open inductions raise suggestibility about as much as relaxation inductions, so relaxation is not required; whether 'waking hypnosis' is a state or simply suggestion given to an attentive person is unsettled. Source: Wells, 'Experiments in waking hypnosis for instructional purposes', Journal of Abnormal Psychology and Social Psychology (1924).
+**Evidence:** experimental. Controlled comparisons, beginning with Banyai and Hilgard's active-alert induction in 1976, find alert eyes-open inductions raise suggestibility about as much as relaxation inductions, so relaxation is not required; whether 'waking hypnosis' is a state or simply suggestion given to an attentive person is unsettled. Source: Wesley R. Wells, Experiments in Waking Suggestion for Instructional Purposes, Journal of Abnormal and Social Psychology (1924).
 
 **Why it works:** Hypnotic induction, Nonhypnotic suggestibility, Response expectancy theory, Sociocognitive theory of hypnosis, Attentional tunneling.
 
@@ -911,7 +911,7 @@ A fixed opening used in the Monroe Institute's Gateway audio course. The listene
 
 **Not to be confused with:** Binaural / isochronic tones (that is the tone bed alone, under any script; the recipe is the spoken sequence that runs over it); Body detachment (that is the single suggestion that the body is asleep or distant; here it is the end point of a fixed sequence); Progressive relaxation (that is a region-by-region relaxation used alone; here it is one counted step after three preparatory ones).
 
-**Evidence:** practitioner-lore. The relaxation and breathing steps are ordinary and reliable; studies of the Hemi-Sync tones are mixed, and the program's claims about expanded or out-of-body states are not supported by controlled evidence.
+**Evidence:** practitioner-lore. The relaxation and breathing steps are ordinary and reliable; studies of the Hemi-Sync tones are mixed, and the program's claims about expanded or out-of-body states are not supported by controlled evidence. Source: The Monroe Institute, The Gateway Experience: Wave I—Discovery, audio course (1989).
 
 **Why it works:** Response expectancy theory, Placebo effect, Hypnotic induction, Absorption (trait).
 
@@ -1135,7 +1135,7 @@ Depth is turned into a quantity on a named scale: one to ten, zero to a hundred,
 
 **Not to be confused with:** Countdown deepener (numbers there are steps in a spoken series, not readings of a position); Reference point (offers a value before asking the listener to estimate a quantity; this entry names a depth scale and moves its current reading, whoever moves it); Dial / switch imagery (the general imagined dial or switch for any quantity; label both when the dial sets depth).
 
-**Evidence:** clinical-tradition. Self-reported depth numbers were studied as a measure and track responsiveness moderately; using the scale as a control that the listener turns is clinical practice without controlled tests. Source: Tart, Self-report scales of hypnotic depth (1970).
+**Evidence:** clinical-tradition. Self-reported depth numbers were studied as a measure and track responsiveness moderately; using the scale as a control that the listener turns is clinical practice without controlled tests. Source: Charles T. Tart, Self-report scales of hypnotic depth, International Journal of Clinical and Experimental Hypnosis (1970).
 
 **Why it works:** Anchoring effect (judgment), Response expectancy theory, Self-perception theory, Demand characteristics.
 
@@ -1538,7 +1538,7 @@ Wellbeing suggestions are general, non-specific positive suggestions for rest, c
 
 **Not to be confused with:** Posthypnotic suggestion (specifies a particular response to occur after the session, with or without a cue; wellbeing suggestions give general wishes for calm, rest or confidence after waking); Sealing suggestions before waking (says the session's own suggestions stay, and adds no new content); Aftercare (settles the reaction to intense content now, not lasting wellbeing); Next-time-deeper suggestion (a closing suggestion about the next session (faster, deeper), not about the listener's day).
 
-**Evidence:** clinical-tradition. Ego strengthening is standard in clinical texts; its specific added benefit over the rest of a session has little controlled evidence. Source: Hartland, ego-strengthening, American Journal of Clinical Hypnosis (1965).
+**Evidence:** clinical-tradition. Ego strengthening is standard in clinical texts; its specific added benefit over the rest of a session has little controlled evidence. Source: John Hartland, The Value of ‘Ego-Strengthening’ Procedures Prior to Direct Symptom-Removal under Hypnosis, American Journal of Clinical Hypnosis (1965).
 
 **Why it works:** Response expectancy theory, Placebo effect.
 
@@ -1814,7 +1814,7 @@ An embedded question is grammatically a statement ('I wonder how soon your eyes 
 
 **Not to be confused with:** Question as suggestion (that is a question asked outright, with a question mark and a turn handed to the listener); Conversational postulate (a conversational postulate is a direct yes/no question that works as a request to act); Embedded command (an embedded command hides an imperative, not a question); Mind reading (mind reading claims to know what the listener thinks; this states what the speaker does not know).
 
-**Evidence:** practitioner-lore. Indirect questions do carry their presuppositions, which is well studied; that the embedded form prompts a stronger or less guarded inner search than a plain question is untested. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Vol. 1 (1975).
+**Evidence:** practitioner-lore. Indirect questions do carry their presuppositions, which is well studied; that the embedded form prompts a stronger or less guarded inner search than a plain question is untested. Source: Richard Bandler and John Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume I, Meta Publications (1975).
 
 **Why it works:** Presupposition, Presupposition accommodation, Illocutionary force, Milton Model.
 
@@ -1837,7 +1837,7 @@ A conversational postulate is a question that literally asks whether the listene
 
 **Not to be confused with:** Tag question (a tag question is a short question fixed to the end of a statement, seeking agreement); Question as suggestion (that asks a real question whose consideration produces an experience; this is a request to act dressed as a question); Permissive suggestion ('you can' as a statement offers; 'can you' as a question requests); Asking for a yes (agreement harvest wants a stated yes; this wants the action).
 
-**Evidence:** practitioner-lore. Indirect requests are thoroughly studied in pragmatics and are simply understood as polite requests; no evidence shows they get more compliance in hypnosis than a plain instruction. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Vol. 1 (1975).
+**Evidence:** practitioner-lore. Indirect requests are thoroughly studied in pragmatics and are simply understood as polite requests; no evidence shows they get more compliance in hypnosis than a plain instruction. Source: Richard Bandler and John Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume I, Meta Publications (1975).
 
 **Why it works:** Illocutionary force, Speech-act theory, Conversational implicature, Psychological reactance.
 
@@ -1860,7 +1860,7 @@ A tag question is a two- or three-word question appended to a statement, usually
 
 **Not to be confused with:** Conversational postulate (that is a whole question asking for an act; a tag hangs on a statement and asks for agreement); Rhetorical question (a rhetorical question is a full question asked for effect, not a tag on a statement); Asking for a yes (agreement harvest explicitly asks the listener to say or nod yes); Yes set (a yes set is a run of items each getting a yes; a tag is one device that may be used inside it).
 
-**Evidence:** practitioner-lore. The hypnotic claim (it displaces resistance) is untested; persuasion research on tag questions is mixed, and they can make a speaker sound less certain. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Vol. 1 (1975).
+**Evidence:** practitioner-lore. The hypnotic claim (it displaces resistance) is untested; persuasion research on tag questions is mixed, and they can make a speaker sound less certain. Source: Richard Bandler and John Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume I, Meta Publications (1975).
 
 **Why it works:** Mere-agreement effect / acquiescence, Milton Model, Common ground, Psychological reactance.
 
@@ -2050,7 +2050,7 @@ The speaker directs a full induction or set of suggestions at someone else: an i
 
 **Not to be confused with:** Extended quotes (the parent is any suggestion placed in a quote; this is a whole induction or sequence run on a stand-in); Vicarious deepening (vicarious deepening uses a described person going under to deepen an existing trance; this uses the stand-in as the route for the suggestions themselves, often from a cold start); Character identification (there the listener is asked to be the character; here the listener only watches someone else); Unannounced induction (covert induction is any induction framed as something else; this is one specific way of doing it).
 
-**Evidence:** clinical-tradition. Rests on Erickson's own demonstrations and case descriptions; observational learning and modeling are well supported, but the technique has not been tested in controlled work. Source: Erickson, 'The "surprise" and "my-friend-John" techniques of hypnosis: Minimal cues and natural field experimentation', American Journal of Clinical Hypnosis (1964).
+**Evidence:** clinical-tradition. Rests on Erickson's own demonstrations and case descriptions; observational learning and modeling are well supported, but the technique has not been tested in controlled work. Source: Milton H. Erickson, The ‘Surprise’ and ‘My-Friend-John’ Techniques of Hypnosis: Minimal Cues and Natural Field Experimentation, American Journal of Clinical Hypnosis (1964).
 
 **Why it works:** Social learning theory, Character identification, Response expectancy theory, Ideomotor effect, Narrative transportation.
 
@@ -2311,7 +2311,7 @@ Compounding is a stated rule about the suggestions themselves: every one that ta
 
 **Not to be confused with:** Compound suggestion (compound suggestion is a sentence joining a true statement and a suggestion with 'and'; the names are alike but the devices are not); Suggestion repetition (repetition restates a suggestion; compounding claims that suggestions strengthen one another); Trigger strengthening (trigger strengthening says one trigger gains force with each use; compounding is about the whole set of suggestions); Self-reinforcing loop (the self-reinforcing loop yokes two states to feed each other; compounding is about acceptance of suggestions).
 
-**Evidence:** practitioner-lore. Elman's principle is taught widely; success on early suggestions does raise expectancy and later responding, but the stated rule has not been tested as a suggestion. Source: Elman, Hypnotherapy (1964).
+**Evidence:** practitioner-lore. Elman's principle is taught widely; success on early suggestions does raise expectancy and later responding, but the stated rule has not been tested as a suggestion. Source: Dave Elman, Findings in Hypnosis, Westwood Publishing (1964).
 
 **Why it works:** Response expectancy theory, Commitment and consistency, Self-perception theory, Critical faculty (Elman).
 
@@ -3090,7 +3090,7 @@ A sentence in which an adjective, adverb or verb could apply to only the next it
 
 **Not to be confused with:** Syntactic ambiguity (there the phrase has two different parses of who does what; here only the reach of a modifier is unclear); Compound suggestion (that joins a fact and a suggestion with 'and' to transfer acceptance; label scope ambiguity only when an earlier modifier may or may not cover the second part); Embedded question ('I wonder if' alone is an embedded question; this entry needs the trailing 'and' clause whose coverage is open).
 
-**Evidence:** practitioner-lore. A recognized linguistic phenomenon; its use as a hypnotic device is untested and it is the least used of the Milton-model ambiguities. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
+**Evidence:** practitioner-lore. A recognized linguistic phenomenon; its use as a hypnotic device is untested and it is the least used of the Milton-model ambiguities. Source: Richard Bandler and John Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume I, Meta Publications (1975).
 
 **Why it works:** Milton Model, Equivocation.
 
@@ -3113,7 +3113,7 @@ Two sentences fused on a shared word or phrase with no break between them: 'you 
 
 **Not to be confused with:** Unfinished sentence (that breaks off and leaves the thought hanging; this continues straight into a second sentence); And... and... and (that joins whole clauses with repeated conjunctions; here a shared word belongs to both sentences); Non sequitur (that drops in an irrelevant statement; here the join, not the content, is what is odd).
 
-**Evidence:** practitioner-lore. Bandler and Grinder describe this overlapping-sentence technique in Erickson's speech; evidence that it makes the second clause more acceptable is lacking. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
+**Evidence:** practitioner-lore. Bandler and Grinder describe this overlapping-sentence technique in Erickson's speech; evidence that it makes the second clause more acceptable is lacking. Source: Richard Bandler and John Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume I, Meta Publications (1975).
 
 **Why it works:** Milton Model, Prediction error, Cognitive load, Expectation violation.
 
@@ -3498,7 +3498,7 @@ A double bind whose alternatives are points or spans of time. Every option is a 
 
 **Not to be confused with:** Time-clause presupposition (a time clause ('before you go deeper') presupposes the response with no choice offered; a time bind offers alternative times); Self-paced wake (that hands over the timing of waking as a courtesy, not as a way to secure a response); Illusion of choice (label illusion of choice when the options differ in manner or place, not time).
 
-**Evidence:** clinical-tradition. Described in Ericksonian texts and widely used; no controlled comparison with a plain timed suggestion exists. Source: Erickson & Rossi, Varieties of Double Bind (1975).
+**Evidence:** clinical-tradition. Described in Ericksonian texts and widely used; no controlled comparison with a plain timed suggestion exists. Source: Milton H. Erickson and Ernest L. Rossi, Varieties of Double Bind, American Journal of Clinical Hypnosis (1975).
 
 **Why it works:** Therapeutic double bind, Presupposition accommodation, Response expectancy theory.
 
@@ -3523,7 +3523,7 @@ A double bind in which the options sound alike in content but do not follow from
 
 **Not to be confused with:** Non sequitur (a non sequitur is any irrelevant statement used to confuse; label the bind only when it is framed as alternatives that share an outcome); Confusion technique (confusion technique is sustained disorientation over a passage; this is a single choice-shaped sentence); Chiasmus (chiasmus is the ABBA word order as style; here the reversal is offered as a choice between two things).
 
-**Evidence:** practitioner-lore. Named and illustrated by Erickson and Rossi from case material; it has not been studied on its own, and its effect cannot be separated from ordinary confusion. Source: Erickson & Rossi, Varieties of Double Bind (1975).
+**Evidence:** practitioner-lore. Named and illustrated by Erickson and Rossi from case material; it has not been studied on its own, and its effect cannot be separated from ordinary confusion. Source: Milton H. Erickson and Ernest L. Rossi, Varieties of Double Bind, American Journal of Clinical Hypnosis (1975).
 
 **Why it works:** Therapeutic double bind, Ericksonian confusion technique, Cognitive load, Expectation violation.
 
@@ -3548,7 +3548,7 @@ A double bind built for a listener who is in the habit of opposing. The writer f
 
 **Not to be confused with:** Reverse psychology (a bare opposite instruction pays off if defied; label a reverse-set bind when the text establishes a pattern of the listener contradicting the speaker and then reverses the wanted response, or when it explicitly gives both compliance and defiance paths to the wanted response. An 'until' clause alone only postpones it); Negative suggestion (that names the response under a negation; it can co-occur, but negation alone does not establish opposition or a bind); Challenge suggestion (a challenge invites an attempt expected to fail as proof; this uses established opposition or explicitly covers both reactions).
 
-**Evidence:** practitioner-lore. Rests on Erickson's case reports; reactance, the tendency it exploits, is well established, but the bind itself has not been tested and depends on correctly judging that the listener is opposing. Source: Erickson & Rossi, Varieties of Double Bind (1975).
+**Evidence:** practitioner-lore. Rests on Erickson's case reports; reactance, the tendency it exploits, is well established, but the bind itself has not been tested and depends on correctly judging that the listener is opposing. Source: Milton H. Erickson and Ernest L. Rossi, Varieties of Double Bind, American Journal of Clinical Hypnosis (1975).
 
 **Why it works:** Psychological reactance, Therapeutic double bind, Ironic process theory, Utilization.
 
@@ -3663,7 +3663,7 @@ A confusion passage built from time words: days, tenses and before/after relatio
 
 **Not to be confused with:** Time distortion (that states that time stretches or shrinks; this scrambles time references without claiming anything); Time-clause presupposition (one clear time clause that presupposes; nothing is tangled); Age regression (regression sends the listener to a specific earlier time; time confusion may precede it but is only the scrambling).
 
-**Evidence:** clinical-tradition. Described by Erickson as a lead-in to regression; known from case reports, not controlled tests. Source: Erickson, 'The Confusion Technique in Hypnosis', American Journal of Clinical Hypnosis (1964).
+**Evidence:** clinical-tradition. Described by Erickson as a lead-in to regression; known from case reports, not controlled tests. Source: Milton H. Erickson, The Confusion Technique in Hypnosis, American Journal of Clinical Hypnosis (1964).
 
 **Why it works:** Ericksonian confusion technique, Cognitive load, Working-memory interference.
 
@@ -3732,7 +3732,7 @@ A statement that has no connection to what came before, or that draws a conclusi
 
 **Not to be confused with:** Non-sequitur double bind (a bind offers two unlinked alternatives as a choice; this is a statement, not a choice); Cause-effect link (a causal link the listener can accept as plausible; a non sequitur is meant not to connect); Shock / surprise (shock relies on suddenness or intensity; a non sequitur is flat and only fails to follow).
 
-**Evidence:** clinical-tradition. Erickson described out-of-context remarks as a core of his confusion method; the nearest controlled work is on disrupt-then-reframe, a sales setting. Source: Erickson, 'The Confusion Technique in Hypnosis', American Journal of Clinical Hypnosis (1964).
+**Evidence:** clinical-tradition. Erickson described out-of-context remarks as a core of his confusion method; the nearest controlled work is on disrupt-then-reframe, a sales setting. Source: Milton H. Erickson, The Confusion Technique in Hypnosis, American Journal of Clinical Hypnosis (1964).
 
 **Why it works:** Expectation violation, Prediction error, Ericksonian confusion technique, Narrative coherence.
 
@@ -3972,7 +3972,7 @@ A single word is said, or given to the listener to say, in an unbroken run long 
 
 **Not to be confused with:** Immediate repetition (a few repeats for emphasis, with the meaning kept and strengthened); Mantra (a phrase repeated so its content is absorbed; satiation repeats to empty the content out); Circular wordplay (that loops one word through different senses and sound-alikes; this holds one word in one sense until the sense fades).
 
-**Evidence:** experimental. The brief loss of a word's felt meaning after rapid repetition is a replicated laboratory effect that fades within seconds to minutes; its use to open a gap for suggestion or to weaken a troubling word for good is practitioner claim with little direct testing. Source: Lambert & Jakobovits, 'Verbal satiation and changes in the intensity of meaning', Journal of Experimental Psychology (1960).
+**Evidence:** experimental. The brief loss of a word's felt meaning after rapid repetition is a replicated laboratory effect that fades within seconds to minutes; its use to open a gap for suggestion or to weaken a troubling word for good is practitioner claim with little direct testing. Source: Wallace E. Lambert and Leon A. Jakobovits, Verbal Satiation and Changes in the Intensity of Meaning, Journal of Experimental Psychology (1960).
 
 **Why it works:** Habituation, Spreading activation, Processing fluency, Cognitive load.
 
@@ -4453,7 +4453,7 @@ Story A is begun and broken off, story B is begun and broken off, sometimes a th
 
 **Not to be confused with:** Curiosity hook (that is a single open question or promise held open; nested loops is several stories bracketed around a centre); Structured amnesia (that brackets trance by resuming the pre-trance conversation; the amnesia claim is shared but no stories are stacked); Trance within trance (that nests a second induction inside the first trance, not stories inside stories).
 
-**Evidence:** practitioner-lore. Taught in Ericksonian and NLP training as multiple embedded metaphor; the claims of amnesia for the centre and of heightened suggestibility there have no independent tests. Source: Lankton & Lankton, The Answer Within (1983).
+**Evidence:** practitioner-lore. Taught in Ericksonian and NLP training as multiple embedded metaphor; the claims of amnesia for the centre and of heightened suggestibility there have no independent tests.
 
 **Why it works:** Zeigarnik effect, Narrative closure, Working-memory interference, Metaphorical suggestion.
 
@@ -4967,7 +4967,7 @@ A fixed NLP procedure for an unwanted habit or symptom. The behavior is attribut
 
 **Not to be confused with:** Parts (that is any address to or negotiation with a part; this is the whole fixed sequence ending in an objection check); Positive intention (that is the single move of crediting a part with a good purpose, which is step three here); Reframing (a reframe gives an experience a new meaning in a sentence or two; this is a procedure that changes the behavior, not a statement).
 
-**Evidence:** practitioner-lore. Widely taught in NLP training with no controlled trials of the procedure; the signals are real ideomotor or attentional effects, but nothing shows they report the views of separate inner parts. Source: Bandler & Grinder, Frogs into Princes (1979).
+**Evidence:** practitioner-lore. Widely taught in NLP training with no controlled trials of the procedure; the signals are real ideomotor or attentional effects, but nothing shows they report the views of separate inner parts. Source: Richard Bandler and John Grinder, Frogs into Princes: Neuro Linguistic Programming, Real People Press (1979).
 
 **Why it works:** Reframing, Ideomotor effect, Response expectancy theory, Neodissociation theory.
 
@@ -5032,7 +5032,7 @@ The writer names a specific existing routine or situation and binds the new beha
 
 **Not to be confused with:** Everyday-cue trigger (also uses an everyday cue, but the response is framed as automatic and installed, not a plan the listener carries out); Posthypnotic suggestion (any suggestion for a later response; habit stacking is specifically an openly stated plan tied to an existing routine); Contingent suggestion (links a response to something happening now in the session, not to a recurring cue in daily life).
 
-**Evidence:** experimental. If-then plans have a large experimental literature showing better goal follow-through; 'habit stacking' is a self-help name for the special case of using an existing habit as the cue, and delivery under hypnosis has not been shown to add to the effect.
+**Evidence:** experimental. If-then plans have a large experimental literature showing better goal follow-through; 'habit stacking' is a self-help name for the special case of using an existing habit as the cue, and delivery under hypnosis has not been shown to add to the effect. Source: James Clear, Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones, Avery (2018).
 
 **Why it works:** Implementation intentions, Automaticity.
 
@@ -5431,7 +5431,7 @@ A marker is a short, unmistakable signal that has first been paired with reward 
 
 **Not to be confused with:** Sound trigger (a sound trigger comes before the response and evokes it; a marker comes after the response and rewards it); Praise (praise carries approval in its meaning and varies in wording; a marker is one fixed signal whose value comes from pairing); Ratification (ratification confirms a response in ordinary words; a marker is a trained signal backed by reward).
 
-**Evidence:** experimental. Conditioned reinforcement is well established; animal studies comparing a clicker with prompt primary reward alone are mixed, and marker use in recorded hypnosis is practitioner lore. Source: Pryor, Don't Shoot the Dog! (1984).
+**Evidence:** experimental. Conditioned reinforcement is well established; animal studies comparing a clicker with prompt primary reward alone are mixed, and marker use in recorded hypnosis is practitioner lore. Source: Karen Pryor, Don't Shoot the Dog!: The Art of Teaching and Training, Sunshine Books (1984).
 
 **Why it works:** Operant conditioning, Classical conditioning.
 
@@ -5652,7 +5652,7 @@ The earn-it contingency uses an activity as the reward: access to a preferred ac
 
 **Not to be confused with:** Pleasure gated on compliance (that variant belongs to tease and denial and gates built-up release; the earn-it rule is the general first-then form with any wanted activity); Implied directive (an implied directive makes an inner response signal itself by a movement; no wanted activity is being earned); Contingent suggestion (a contingent suggestion links a response to something already happening; here a wanted activity is withheld until a task is done).
 
-**Evidence:** experimental. Activity reinforcement is well supported, though later work (response deprivation) shows what matters is restricting access below baseline, not simply which activity is preferred. Source: Premack, Toward empirical behavior laws: I. Positive reinforcement, Psychological Review (1959).
+**Evidence:** experimental. Activity reinforcement is well supported, though later work (response deprivation) shows what matters is restricting access below baseline, not simply which activity is preferred. Source: David Premack, Toward Empirical Behavior Laws: I. Positive Reinforcement, Psychological Review (1959).
 
 **Why it works:** Operant conditioning, Motivating operations, Effort justification.
 
@@ -5815,7 +5815,7 @@ Anchoring ties a cue to a state the listener is having right now. The state come
 
 **Not to be confused with:** Trigger installation (installation declares a cue-response rule in words ('whenever X, you Y'); anchoring has the cue applied while the state is live. A passage that does both gets both labels); Touch / gesture trigger (that is a stated when-then rule whose cue is a touch or gesture; a touch applied at the peak of a live state with no rule stated is anchoring); Pairing (pairing is the general repeated co-presentation of cue and state; anchoring is the specific peak-timed, usually listener-applied form); Reference point (that is the judgment bias from a reference number, unrelated to state cues).
 
-**Evidence:** practitioner-lore. Cue-state association is real conditioning, but NLP's claim that one or a few peak-timed pairings give a reliable, lasting state switch has not been shown in controlled studies. Source: Bandler & Grinder, Frogs into Princes (1979).
+**Evidence:** practitioner-lore. Cue-state association is real conditioning, but NLP's claim that one or a few peak-timed pairings give a reliable, lasting state switch has not been shown in controlled studies. Source: Richard Bandler and John Grinder, Frogs into Princes: Neuro Linguistic Programming, Real People Press (1979).
 
 **Why it works:** Anchoring (NLP), Classical conditioning, State-dependent memory, Response expectancy theory.
 
@@ -6113,7 +6113,7 @@ Collapsing anchors fires two anchors for opposed states at the same moment and h
 
 **Not to be confused with:** Counterconditioning (the general pairing of a cue with an incompatible response; collapsing is the specific two-anchor, fire-together procedure); Trigger removal (removal cancels a trigger by stating it is gone; collapsing overrides a state by pitting another against it); Apposition of opposites (a phrasing that sets opposites side by side, with no anchors).
 
-**Evidence:** practitioner-lore. Counterconditioning has experimental support, but this one-pass NLP procedure has not been validated and its claimed mechanism is unproven. Source: Bandler & Grinder, Frogs into Princes (1979).
+**Evidence:** practitioner-lore. Counterconditioning has experimental support, but this one-pass NLP procedure has not been validated and its claimed mechanism is unproven. Source: Richard Bandler and John Grinder, Frogs into Princes: Neuro Linguistic Programming, Real People Press (1979).
 
 **Why it works:** Anchoring (NLP), Classical conditioning, Response expectancy theory.
 
@@ -6520,7 +6520,7 @@ The writer assigns a trait ('you're someone who responds easily') and then makes
 
 **Not to be confused with:** Identity statement (that states what the listener is as the suggestion itself; labeling uses the trait as a lever for a request); From act to trait (that builds the trait out of a specific act; labeling assigns it outright); Praise (praise follows a response as a reward; a label precedes the request it supports).
 
-**Evidence:** experimental. Trait labels have raised label-consistent behavior in several experiments, mostly short-term; durable identity change from a spoken label is not shown. Source: Miller, Brickman & Bolen, Attribution versus persuasion as a means for modifying behavior (1975).
+**Evidence:** experimental. Trait labels have raised label-consistent behavior in several experiments, mostly short-term; durable identity change from a spoken label is not shown. Source: Richard L. Miller, Philip Brickman and Diana Bolen, Attribution versus Persuasion as a Means for Modifying Behavior, Journal of Personality and Social Psychology (1975).
 
 **Why it works:** Labeling effect, Self-perception theory, Commitment and consistency, Self-reference effect.
 
@@ -6718,7 +6718,7 @@ A request with a statement of the listener's freedom attached: 'but you are free
 
 **Not to be confused with:** Consent check (a consent check is an actual exit point with a pause; BYAF is a phrase attached to a request); Permissive suggestion ('you may' phrases the response itself as allowed; BYAF affirms the right to refuse it); Protected core (that promises harmful suggestions will be rejected; this affirms the choice over the present request).
 
-**Evidence:** experimental. Meta-analysis of dozens of studies finds a reliable effect for face-to-face requests acted on at once; it is weaker when the request is remote or the response is delayed, which is the situation of a recording. Source: Gueguen & Pascual, Evocation of freedom and compliance: The 'but you are free of...' technique (2000).
+**Evidence:** experimental. Meta-analysis of dozens of studies finds a reliable effect for face-to-face requests acted on at once; it is weaker when the request is remote or the response is delayed, which is the situation of a recording. Source: Nicolas Guéguen and Alexandre Pascual, Evocation of Freedom and Compliance: The ‘But You Are Free of...’ Technique, Current Research in Social Psychology (2000).
 
 **Why it works:** Psychological reactance, Self-determination theory, Commitment and consistency.
 
@@ -6818,7 +6818,7 @@ The writer supplies a prompt and a gap, and the listener supplies the argument: 
 
 **Not to be confused with:** Repeat after me (repeat-after-me gives the exact words to say; self-persuasion gives a question and takes whatever the listener generates); Asking for a yes (asking for a yes collects assent to the speaker's statement; here the listener authors the statement); It's what you want (desire attribution tells the listener what they want; self-persuasion asks them and waits); Question as suggestion (a question as suggestion is answered by having the response; this question is answered by producing reasons or content).
 
-**Evidence:** experimental. Arguments people generate themselves change their attitudes more, and for longer, than the same arguments heard from someone else; this is shown for live role-play and writing tasks, not for a silent pause in a recording. Source: Aronson, The power of self-persuasion (1999).
+**Evidence:** experimental. Arguments people generate themselves change their attitudes more, and for longer, than the same arguments heard from someone else; this is shown for live role-play and writing tasks, not for a silent pause in a recording. Source: Elliot Aronson, The Power of Self-Persuasion, American Psychologist (1999).
 
 **Why it works:** Generation effect, Self-reference effect, Self-perception theory, Cognitive dissonance, Commitment and consistency, Psychological reactance, Counterarguing.
 
@@ -7031,7 +7031,7 @@ Parasocial intimacy simulates a personal relationship in a one-way medium. The s
 
 **Not to be confused with:** Liking (liking shows warmth and similarity; parasocial intimacy claims a private ongoing relationship); Isolation (isolation runs down or replaces the listener's other people ('they wouldn't understand'); intimacy says only that speaker and listener are alone together now, with no claim about anyone else); Affection flooding (affection flooding is overwhelming approval used to bind; this is the simulated one-to-one frame at any intensity); Direct address (direct address is second-person wording; intimacy adds the claim of closeness); Mind reading (mind reading claims to know the listener's inner state; this claims presence and relationship).
 
-**Evidence:** experimental. Parasocial relationships are well documented and can raise a source's persuasive pull; nothing shows they raise hypnotic response, and effects on lonely listeners are a known concern. Source: Horton & Wohl, 'Mass Communication and Para-Social Interaction: Observations on Intimacy at a Distance' (1956).
+**Evidence:** experimental. Parasocial relationships are well documented and can raise a source's persuasive pull; nothing shows they raise hypnotic response, and effects on lonely listeners are a known concern. Source: Donald Horton and R. Richard Wohl, Mass Communication and Para-Social Interaction: Observations on Intimacy at a Distance, Psychiatry (1956).
 
 **Why it works:** Parasocial interaction, Liking principle, Attachment theory, Epistemic trust, Self-reference effect.
 
@@ -7619,7 +7619,7 @@ A specific value stated just before the listener judges how deep, how long, how 
 
 **Not to be confused with:** Stepwise doubling ('twice as deep' or 'ten times deeper' tied to a count or breath is an instruction to increase, not a value to judge against); Depth scale (a depth scale is a numbered dial or scale for depth; a reference point is one value offered before an estimate); Contrast (contrast sets two experiences side by side; a reference point is a number); Anchoring (NLP anchoring links a state to a cue; this sets a number for judgment).
 
-**Evidence:** experimental. Numeric anchoring of judgment is well replicated; whether it changes felt depth, rather than reported depth, is unknown. Source: Tversky & Kahneman, Judgment under uncertainty: heuristics and biases (1974).
+**Evidence:** experimental. Numeric anchoring of judgment is well replicated; whether it changes felt depth, rather than reported depth, is unknown. Source: Daniel Kahneman and Amos Tversky, Prospect Theory: An Analysis of Decision under Risk, Econometrica (1979).
 
 **Why it works:** Anchoring effect (judgment), Contrast effect.
 
@@ -8286,7 +8286,7 @@ A suggestion about where a suggested idea will seem to have come from. The conte
 
 **Not to be confused with:** It was always so (says the trait was always there; source amnesia says a newly suggested idea will lose its origin or seem self-made); Amnesia suggestion (removes the content itself, not only its source); It's what you want (claims the listener wants the response now or already; source amnesia predicts how a suggested idea will be experienced later); You chose this (cites a choice the listener has already made as proof of wanting; source amnesia makes no appeal to a past choice); Inner-voice suggestion (suggests the speaker's voice becomes the listener's thinking voice from now on; source amnesia concerns the origin of one suggested idea).
 
-**Evidence:** practitioner-lore. Posthypnotic source amnesia for facts learned during hypnosis has been demonstrated experimentally. That does not establish that a scripted suggestion can make a newly suggested idea feel self-generated. Source: Evans & Thorn, Two types of posthypnotic amnesia: recall amnesia and source amnesia (1966).
+**Evidence:** practitioner-lore. Posthypnotic source amnesia for facts learned during hypnosis has been demonstrated experimentally. That does not establish that a scripted suggestion can make a newly suggested idea feel self-generated. Source: Frederick J. Evans and William A. Thorn, Two Types of Posthypnotic Amnesia: Recall Amnesia and Source Amnesia, International Journal of Clinical and Experimental Hypnosis (1966).
 
 **Why it works:** Source-monitoring error, Hypnotic amnesia, Sleeper effect.
 
@@ -8309,7 +8309,7 @@ Amnesia produced by denying rehearsal: the speaker moves attention away immediat
 
 **Not to be confused with:** Structured amnesia (returns to the pre-trance topic rather than switching to a new one); Reorientation check (directs attention to body feeling, the room, or alertness after trance; distraction amnesia switches to unrelated content to draw attention away from the preceding material); Attention call (uses a change of sound, voice, or topic to capture attention; distraction amnesia uses a topic switch after material to reduce rehearsal of it); Pattern interrupt (breaks an ongoing sequence rather than shifting away from material after it has ended).
 
-**Evidence:** clinical-tradition. Used in Ericksonian practice; consistent with research showing interference after encoding reduces later recall, but the scripted technique itself is not separately tested. Source: Erickson & Rossi, Varieties of hypnotic amnesia, American Journal of Clinical Hypnosis (1974).
+**Evidence:** clinical-tradition. Used in Ericksonian practice; consistent with research showing interference after encoding reduces later recall, but the scripted technique itself is not separately tested. Source: Milton H. Erickson and Ernest L. Rossi, Varieties of Hypnotic Amnesia, American Journal of Clinical Hypnosis (1974).
 
 **Why it works:** Working-memory interference, Hypnotic amnesia, Attentional capture.
 
@@ -8480,7 +8480,7 @@ A suggestion of improved recall of named material: a past event, study material,
 
 **Not to be confused with:** Sealing suggestions before waking (says the suggestions stay in effect after waking; memory enhancement says named material will be recalled); Capacity suggestion (claims memory as an ability improves in general; memory enhancement names what will be recalled); Revivification (re-experiences a memory's state rather than suggesting clearer recall); Amnesia suggestion (the opposite direction: suggests forgetting).
 
-**Evidence:** contested. Hypnotic recall enhancement produces more recalled items but also more errors, with confidence rising faster than accuracy; the popular claim of better memory outruns the evidence. Source: Dywan & Bowers, The use of hypnosis to enhance recall (1983).
+**Evidence:** contested. Hypnotic recall enhancement produces more recalled items but also more errors, with confidence rising faster than accuracy; the popular claim of better memory outruns the evidence. Source: Jane Dywan and Kenneth S. Bowers, The Use of Hypnosis to Enhance Recall, Science (1983).
 
 **Why it works:** Response expectancy theory, Placebo effect, Posthypnotic suggestion.
 
@@ -8998,7 +8998,7 @@ A direct statement that the evaluating part of the mind is off duty: it can rest
 
 **Not to be confused with:** Occupying the conscious mind (occupying the conscious mind keeps the critic busy with a task; this tells it to stand down); Conscious / unconscious split (the split addresses the unconscious as a listener; this specifically retires the critic); Mind-blanking (mind-blanking fades all thought; this targets evaluation only).
 
-**Evidence:** clinical-tradition. Elman's definition of hypnosis as bypass of the critical faculty is standard in hypnotherapy training; the 'critical faculty' is a teaching model, not an established brain structure. Source: Elman, Hypnotherapy (1964).
+**Evidence:** clinical-tradition. Elman's definition of hypnosis as bypass of the critical faculty is standard in hypnotherapy training; the 'critical faculty' is a teaching model, not an established brain structure. Source: Dave Elman, Findings in Hypnosis, Westwood Publishing (1964).
 
 **Why it works:** Critical faculty (Elman), Epistemic vigilance, Dual-process theory.
 
@@ -9163,7 +9163,7 @@ A short burst of worry or tension is created and then removed, and the target re
 
 **Not to be confused with:** Negative reinforcement (relief is the stated result of complying; here the alarm is removed first, unconditionally, and the request follows); Safety and comfort (reassurance on its own; label fear then relief only when the text itself raised the worry just before and a request follows the reassurance); Tense-and-release (muscles tightened and let go for relaxation; fear then relief needs a worry or alarm about something, not a clenched muscle, even when a request follows the release); Shock / surprise (a single jolt with no reassurance phase and no request timed to it).
 
-**Evidence:** experimental. Field and lab studies found higher compliance after a removed scare, mostly from one research group; it has not been tested in hypnosis scripts. Source: Dolinski & Nawrat, Journal of Experimental Social Psychology (1998).
+**Evidence:** experimental. Field and lab studies found higher compliance after a removed scare, mostly from one research group; it has not been tested in hypnosis scripts. Source: Dariusz Doliński and Richard Nawrat, ‘Fear-Then-Relief’ Procedure for Producing Compliance: Beware When the Danger Is Over, Journal of Experimental Social Psychology (1998).
 
 **Why it works:** Dual-process theory, Cognitive load, Contrast effect.
 
@@ -10070,7 +10070,7 @@ A response to a complaint, objection or failure that denies the speaker's part a
 
 **Not to be confused with:** No-fail framing (no-fail framing calls every outcome success; blame reversal calls failure the listener's fault); Resistance as participation (resistance reframing makes resistance part of trance; blame reversal makes it a failing); Gaslighting (gaslighting denies what the listener perceived; blame reversal accepts it and assigns the fault).
 
-**Evidence:** contested. DARVO has survey support as a pattern abusers use and as a factor in victim self-blame; scripted blame reversal has not been studied. Source: Jennifer Freyd, Violations of power, adaptive blindness, and betrayal trauma theory, Feminism & Psychology (1997).
+**Evidence:** contested. DARVO has survey support as a pattern abusers use and as a factor in victim self-blame; scripted blame reversal has not been studied. Source: Sarah Harsey, Eileen L. Zurbriggen and Jennifer J. Freyd, Perpetrator Responses to Victim Confrontation: DARVO and Victim Self-Blame, Journal of Aggression, Maltreatment & Trauma (2017).
 
 **Why it works:** Conditional regard, Cognitive dissonance, Moralization.
 
@@ -10095,7 +10095,7 @@ A pattern in which the speaker's affection, approval or attention is given and t
 
 **Not to be confused with:** Intermittent reinforcement (intermittent reinforcement schedules rewards for a behavior; hot and cold switches the speaker's warmth regardless of behavior); Deprivation (deprivation withholds a known reward in advance to raise its value; hot and cold alternates the speaker's warmth without tying the shifts to the listener's behavior); Affection flooding (love bombing floods warmth; hot and cold alternates it with withdrawal); Tease and denial (tease and denial withholds pleasure or release; hot and cold withholds the speaker's affection).
 
-**Evidence:** contested. Intermittent reinforcement is experimental and traumatic bonding has observational support in abusive relationships, but scripted hot-and-cold alternation has no direct study. Source: Donald Dutton and Susan Painter, Traumatic bonding, Victimology (1981).
+**Evidence:** contested. Intermittent reinforcement is experimental and traumatic bonding has observational support in abusive relationships, but scripted hot-and-cold alternation has no direct study. Source: Donald G. Dutton and Susan L. Painter, Traumatic Bonding: The Development of Emotional Attachments in Battered Women and Other Relationships of Intermittent Abuse, Victimology (1981).
 
 **Why it works:** Intermittent reinforcement, Variable-ratio schedules, Attachment theory, Conditional regard, Rejection sensitivity.
 
@@ -10959,7 +10959,7 @@ Binaural beats are two slightly different tones, one per ear, heard as a beat at
 
 **Not to be confused with:** Metronome / steady beat (a metronome is an audible beat the listener can count; tones are a carrier aimed at entrainment); Music bed (a music bed is ordinary music or drone, not tuned beat frequencies).
 
-**Evidence:** contested. The beat percept is real, but studies of entrainment and of effects on mood, relaxation or hypnotic response are mixed and often small or null. Source: Oster, Auditory beats in the brain, Scientific American (1973).
+**Evidence:** contested. The beat percept is real, but studies of entrainment and of effects on mood, relaxation or hypnotic response are mixed and often small or null. Source: Lina Papadatou, Konstantinos Pastiadis, Georgios Papadelis and Vasilios Kimiskidis, Amplitude Modulated Audio Signals in Brainwave Entrainment: Effects on Psychophysiological Functions—A Scoping Review, Auditory Perception & Cognition (2026).
 
 **Why it works:** Placebo effect, Response expectancy theory.
 

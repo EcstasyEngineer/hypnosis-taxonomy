@@ -162,7 +162,7 @@ function entryPage(e) {
   const ch = kids[e.id] || [];
   const u = e.usage, n = D.meta.n_scripts;
   const chList = ch.length ? `<ul class="plain">${ch.map(c => `<li><a href="#/e/${c.id}"><b>${esc(c.name)}</b></a> <span class="badge">${KIND[c.kind]}</span><small>${esc(c.summary)}</small></li>`).join("")}</ul>` : "";
-  const ev = e.evidence || {}, src = (e.origin || {}).source;
+  const ev = e.evidence || {}, src = (e.origin || {}).source, srcUrl = /^https?:\/\//.test((e.origin || {}).url || "") ? e.origin.url : null;
   let h = crumbs(e) + `<h1>${esc(e.name)}</h1><div><span class="badge k">${KIND[e.kind]}</span>` +
     (e.text_detectable && e.text_detectable !== "yes" ? `<span class="badge">${e.text_detectable === "no" ? "heard, not read" : "partly visible in text"}</span>` : "") +
     (e.stages || []).filter(s => s !== "any").map(s => `<span class="badge">${esc(s)}</span>`).join("") + `</div>`;
@@ -177,7 +177,7 @@ function entryPage(e) {
     h += sec("Not to be confused with", (e.not_this || []).length ? `<ul class="plain">${e.not_this.map(x => `<li>${link(x.id)}<small>${esc(x.why)}</small></li>`).join("")}</ul>` : "");
     h += sec("Named variants", chList);
     h += sec("Often used with", (e.related || []).length ? `<div class="chips">${e.related.map(r => `<a href="#/e/${r}">${esc(by[r] ? by[r].name : r)}</a>`).join("")}</div>` : "");
-    h += sec("Evidence", `<div class="ev"><b>${esc((ev.grade || "").replace("-", " "))}.</b> ${esc(ev.note || "")}${src ? `<br><span class="aka">Source: ${esc(src)}</span>` : ""}<br><span class="aka">${esc(GRADE[ev.grade] || "")}</span></div>`);
+    h += sec("Evidence", `<div class="ev"><b>${esc((ev.grade || "").replace("-", " "))}.</b> ${esc(ev.note || "")}${src ? `<br><span class="aka">Source: ${srcUrl ? `<a href="${esc(srcUrl)}" rel="noopener">${esc(src)}</a>` : esc(src)}</span>` : ""}<br><span class="aka">${esc(GRADE[ev.grade] || "")}</span></div>`);
     h += sec("Why it works", (e.why || []).length ? `<div class="chips">${e.why.filter(w => tby[w]).map(w => `<a href="#/t/${w}">${esc(tby[w].name)}</a>`).join("")}</div>` : "");
     if (e.consent_note) h += sec("Consent", `<div class="note">${esc(e.consent_note)}</div>`);
     if (u) h += sec("In the script corpus", `<p>Seen in about ${u.scripts} of ${n} annotated scripts (${Math.round(100 * u.scripts / n)}%). Counts come from labeling a private script collection against this catalog. They show what writers do, not what works.</p>` +
@@ -191,7 +191,7 @@ function theoryPage(t) {
   const st = {E: "Empirical construct", T: "Theoretical framework", P: "Practitioner vocabulary"}[t.status] || t.status;
   const used = D.entries.filter(e => (e.why || []).includes(t.id));
   return `<div class="crumb"><a href="#/theory">Theory</a> / ${esc(t.section)}</div><h1>${esc(t.name)}</h1><div><span class="badge k">Theory</span><span class="badge">${st}</span></div>
-    <p class="lead">${esc(t.summary)}</p><p>${esc(t.claim)}</p>${sec("How well supported", `<p>${esc(t.evidence_note)}</p>${t.source ? `<p class="aka">Source: ${esc(t.source)}</p>` : ""}`)}
+    <p class="lead">${esc(t.summary)}</p><p>${esc(t.claim)}</p>${sec("How well supported", `<p>${esc(t.evidence_note)}</p>${t.source ? `<p class="aka">Source: ${/^https?:\/\//.test(t.source_url || "") ? `<a href="${esc(t.source_url)}" rel="noopener">${esc(t.source)}</a>` : esc(t.source)}</p>` : ""}`)}
     ${sec("For writers", `<p>${esc(t.writer_takeaway)}</p>`)}${sec("Devices it helps explain", used.length ? `<div class="chips">${used.map(e => `<a href="#/e/${e.id}">${esc(e.name)}</a>`).join("")}</div>` : "")}`;
 }
 function home() {
