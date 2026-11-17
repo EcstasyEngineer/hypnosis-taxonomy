@@ -109,7 +109,10 @@ const GRADE = {
   "contested":"Contested: studied, with mixed or failed replication."};
 let D, by = {}, kids = {}, tby = {}, idx = [];
 
-fetch("devices.json").then(r => r.json()).then(d => { D = d; init(); }).catch(e => { $("#view").textContent = "Could not load devices.json: " + e; });
+// Published, the data sits next to this page. In the working repo it is in ../dist/.
+let BASE = "";
+const load = base => fetch(base + "devices.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => { BASE = base; return d; });
+load("").catch(() => load("../dist/")).then(d => { D = d; init(); }).catch(e => { $("#view").textContent = "Could not load devices.json (" + e.message + "). Run python build.py, then serve the repo root and open /site/."; });
 
 function init() {
   for (const e of D.entries) { by[e.id] = e; (kids[e.parent || ""] = kids[e.parent || ""] || []).push(e); }
@@ -223,9 +226,9 @@ function about() {
 }
 function labelPage() {
   return `<h1>Label a script</h1><p class="lead">The catalog is built so an agent or a person can mark up a script device by device.</p>
-  <p>Give a labeling agent <a href="catalog.md">catalog.md</a> (or <a href="catalog.json">catalog.json</a>) and the script. For each span it should return the line range, the exact quote, the device id, a confidence, and one sentence saying which cue it matched. A variant label also counts as its parent. Spans may overlap: a single line can be a presupposition inside a yes set.</p>
+  <p>Give a labeling agent <a href="${BASE}catalog.md">catalog.md</a> (or <a href="${BASE}catalog.json">catalog.json</a>) and the script. For each span it should return the line range, the exact quote, the device id, a confidence, and one sentence saying which cue it matched. A variant label also counts as its parent. Spans may overlap: a single line can be a presupposition inside a yes set.</p>
   <h2>Rules that keep labels honest</h2><ul><li>Label only what is in the wording. Themes and plot are not devices.</li><li>Use the most specific id that fits; fall back to the parent when unsure.</li><li>Quote exactly, so a checker can find the span.</li><li>If nothing fits, say so. Do not stretch a device to cover a line.</li></ul>
-  <p>Files: <a href="catalog.md">catalog.md</a>, <a href="catalog.json">catalog.json</a>, <a href="devices.json">devices.json</a> (everything), <a href="book.md">book.md</a> (long form).</p>`;
+  <p>Files: <a href="${BASE}catalog.md">catalog.md</a>, <a href="${BASE}catalog.json">catalog.json</a>, <a href="${BASE}devices.json">devices.json</a> (everything), <a href="${BASE}book.md">book.md</a> (long form).</p>`;
 }
 function route() {
   const p = decodeURIComponent(location.hash.replace(/^#\/?/, "")).split("/");
