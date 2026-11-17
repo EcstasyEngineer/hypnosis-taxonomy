@@ -2364,11 +2364,11 @@ The suggestion is phrased in specific sensory terms instead of abstract ones: 'a
 
 ### First-person suggestion *(unit)*
 
-Also called: I-statements, affirmation form, first-person script, autosuggestion form, self-voiced suggestion.
+Also called: I-statements, affirmation form, first-person script, autosuggestion form, self-voiced suggestion, inner-monologue track, voiced inner monologue.
 
-The suggestion is phrased in the listener's own grammatical person: 'I am calm', 'my breathing is slow'. The speaker's voice stands in for the listener's inner voice, or the listener reads or repeats the lines. The mark is the pronoun: 'I', 'me' and 'my' refer to the listener, not to the hypnotist.
+The suggestion is phrased in the listener's own grammatical person: 'I am calm', 'my breathing is slow'. The speaker's voice stands in for the listener's inner voice, or the listener reads or repeats the lines. On a second voice running under a second-person lead it plays as the listener's inner monologue: nobody asks them to say it, which makes it the quiet form of repeat-after-me. The mark is the pronoun: 'I', 'me' and 'my' refer to the listener, not to the hypnotist.
 
-**How:** Write short present-tense statements with 'I' or 'my', positive in wording and plausible enough to be said without an inner objection. Signal the switch of person clearly, by a lead-in ('and the thought comes: ...'), a change of voice or track, or a repeat-after-me, or the listener will hear 'I' as the speaker. It suits self-hypnosis scripts, text to be read, and lines the listener will carry away. Statements far from what the listener believes tend to be rejected; step toward them.
+**How:** Write short present-tense statements with 'I' or 'my', positive in wording and plausible enough to be said without an inner objection. Signal the switch of person clearly, by a lead-in ('and the thought comes: ...'), a change of voice or track, or a repeat-after-me, or the listener will hear 'I' as the speaker. It suits self-hypnosis scripts, text to be read, and lines the listener will carry away. Statements far from what the listener believes tend to be rejected; step toward them. As an inner-monologue track, give it a different voice from the lead, keep it quieter, and write it as the answer to what the lead is saying at that moment.
 
 > I am calm. My breathing is slow and even.
 
@@ -2376,7 +2376,7 @@ The suggestion is phrased in the listener's own grammatical person: 'I am calm',
 
 > I can handle this. I have handled harder things.
 
-**Spot it by:** 'I', 'me', 'my' referring to the listener in suggestion lines; short present-tense statements: 'I am', 'I feel', 'I can', 'my ... is'; lead-ins: 'say to yourself', 'the thought comes', 'you hear yourself think'; a section headed affirmations or written as a list of I-statements; second-person narration switching to first person for key lines.
+**Spot it by:** 'I', 'me', 'my' referring to the listener in suggestion lines; short present-tense statements: 'I am', 'I feel', 'I can', 'my ... is'; lead-ins: 'say to yourself', 'the thought comes', 'you hear yourself think'; a section headed affirmations or written as a list of I-statements; second-person narration switching to first person for key lines; a second voice or track in 'I' running under a lead voice in 'you'.
 
 **Not to be confused with:** Affirmations (affirmations are first-person positive statements repeated as a practice; this is the pronoun choice wherever it occurs, repeated or not); Repeat after me (repeat-after-me is the instruction to say the line; first-person wording is the form of the line said); Inner-voice suggestion (inner-voice suggestion claims in the second person that the speaker's words become the listener's thoughts; this writes the thoughts directly); Pronoun shift (pronoun shift is the change of pronoun partway through as a device; this is sustained first-person wording); Autogenic phrases (autogenic phrases are the specific heavy-and-warm formulae used as an induction).
 
@@ -4706,7 +4706,7 @@ The writer describes the scene first in the sense that comes easily to the liste
 
 Also called: dissociative suggestion, parts language.
 
-This family covers suggestions that split experience: the watcher from the watched, the doer from the deed, the conscious mind from the unconscious, the self from a body part, a feeling or a named part. What unites the children is a line drawn inside the listener, with the suggestion addressed to one side of it. It differs from imagery, which adds a scene, and from identity work, which changes what the whole self is called. The family has no nested families.
+This family covers suggestions that split experience: the watcher from the watched, the doer from the deed, the conscious mind from the unconscious, the self from a body part, a feeling or a named part. What unites the children is a line drawn inside the listener, with the suggestion addressed to one side of it; the line can be drawn in imagery, in a named part, or in the pronoun used for the listener. It differs from imagery, which adds a scene, and from identity work, which changes what the whole self is called. The family has no nested families.
 
 **Choosing:** Choose by what is being split. To remove ownership of a response, use automaticity-framing. To move the listener's viewpoint, use dissociation-suggestion, or observer-self when a calm watching part should stay behind. To split the body from awareness, use body-dissociation. To address a second listener inside the person, use conscious-unconscious-split for the generic one and parts-work for a part picked out by its function; use positive-intention when that part is objecting and is credited with a good aim, and six-step-reframing for the full negotiation sequence. Use alter-persona only when the second self has a name and traits of its own. To put a thought or feeling outside the person as an object, use externalization. Every split made in a session, the observer included, should be closed before or during emergence.
 
@@ -4974,6 +4974,56 @@ A fixed NLP procedure for an unwanted habit or symptom. The behavior is attribut
 **Consent:** The change is meant to persist after the session and may be negotiated without the listener consciously knowing its content, so agree beforehand which behavior is being worked on.
 
 
+### Pronoun shift *(unit)*
+
+Also called: you to I, you to we, you to it, pronoun change.
+
+A deliberate change in how the listener is referred to inside the script: from 'you' to 'I' so the listener's inner voice takes over, to 'we' for merging with the speaker, or to 'it' for objectification. It is dissociation done in grammar: the new pronoun stands the listener somewhere else in relation to their own experience. The device is the switch point. It differs from first-person suggestion, which is in the first person throughout, and from third-person self-reference, which has the listener stop using 'I' for themselves.
+
+**How:** Establish one pronoun first, then switch at a marked moment (after a deepener, at a peak) and keep the new one consistently. Announce the switch or let it happen silently; silent switches are subtler but harder to follow. A switch that flips back and forth by accident reads as an error, not a device.
+
+> You breathe slowly, you let go... and I breathe slowly, I let go.
+
+> You've been listening alone. Now we sink together, we rest together.
+
+> You are still. I am still. I am calm.
+
+**Spot it by:** second-person passage followed by the same content in first person; 'you' replaced by 'we' mid-passage; listener referred to as 'it' after earlier 'you'; announced switch: 'now say it as I'.
+
+**Not to be confused with:** Object / it language (object language is the content; a shift to 'it' is one way of delivering it); Second-person narration (second-person narration keeps 'you' as protagonist without a switch); First-person suggestion (first-person suggestion uses 'I' throughout, including an 'I' voice running at the same time as a 'you' lead; a pronoun shift needs a switch point).
+
+**Evidence:** practitioner-lore. Widely used in community scripts; pronoun effects on self-reference are studied in psychology but not this device in hypnosis.
+
+**Why it works:** Self-reference effect, Source-monitoring error.
+
+**Consent:** A shift to 'it' or a merged 'we' works below notice for many listeners and should be within what they agreed to.
+
+
+#### Third-person self-reference *(variant)*
+
+Also called: illeism, no more I, speaking in third person.
+
+A pronoun shift carried into the listener's own speech: they say 'this one is calm' or use an assigned name rather than 'I'. It differs from the parent pronoun shift, which changes how the speaker refers to the listener, and from renaming, which assigns the term without requiring it in self-reference.
+
+**How:** Give the replacement term, give an example sentence, and ask the listener to repeat a few lines in that form. Correct or ratify slips in the script. It works best combined with repeat-after-me and an agreed scope; outside the session it should switch back.
+
+> Say it the new way: 'This one is relaxed.'
+
+> No more 'I' for now. The Listener breathes. The Listener rests.
+
+> When you answer, answer as Seven: 'Seven is ready.'
+
+**Spot it by:** 'no more I' / 'don't say I'; 'say it as ...' + third-person sentence; listener speech lines using a name or 'this one' instead of 'I'; correction of 'I' to an assigned term.
+
+**Not to be confused with:** Renaming (renaming assigns the term; this requires the listener to use it for themselves); First-person suggestion (first-person suggestion has the listener say 'I'; this removes 'I').
+
+**Evidence:** practitioner-lore. Third-person self-talk is studied as a self-distancing tool that lowers emotional reactivity, but its community use for identity change is untested.
+
+**Why it works:** Self-reference effect, Labeling effect.
+
+**Consent:** Removing 'I' targets self-concept and should be agreed and limited to the session.
+
+
 ## Conditioning
 
 Also called: training, programming, associative learning.
@@ -5068,7 +5118,7 @@ A drill is a block of repeated cue-response-reset cycles inside a single session
 
 Also called: mantra repetition, chant, repeated phrase, looped phrase.
 
-A mantra is a short phrase with fixed wording repeated in a sustained block or dense clusters, beyond a few repetitions for emphasis. The fixed phrase and its recurrence are the device; it can carry a suggestion or serve as an attention focus. A repeated phrase used to induce trance may also be a repetition induction. A refrain returns at wider intervals, while immediate repetition (epizeuxis) can be brief emphasis rather than a sustained block. Ordinary suggestion repetition may vary the wording and need not form a repeated phrase.
+A mantra is a short phrase with fixed wording, or a fixed set of two to four short lines cycled in the same order, repeated in a sustained block or dense clusters, beyond a few repetitions for emphasis. The fixed phrase and its recurrence are the device; it can carry a suggestion or serve as an attention focus. A repeated phrase used to induce trance may also be a repetition induction. A refrain returns at wider intervals, while immediate repetition (epizeuxis) can be brief emphasis rather than a sustained block. Ordinary suggestion repetition may vary the wording and need not form a repeated phrase.
 
 **How:** Keep the phrase under about eight words, rhythmic, and easy to say on one breath. Fix the wording and do not vary it. Introduce it once, slowly, then repeat it in a block of at least five; later blocks can be longer or layered under other speech. Decide who voices it: if the listener is to join in, say so, and say whether aloud or silently. It fails when the phrase is long, changes between repetitions, or is repeated too few times to set a rhythm.
 
@@ -5078,7 +5128,7 @@ A mantra is a short phrase with fixed wording repeated in a sustained block or d
 
 > Repeat it with me, silently, on every breath out: I listen, I relax. I listen, I relax. I listen, I relax. I listen, I relax.
 
-**Spot it by:** the same short fixed phrase repeated as a sustained block, typically five or more times; one identical line recurring densely within a passage; 'your mantra', 'chant', 'keep repeating', 'over and over'; repeated lines set as their own block or list; stage directions such as [mantra loops under voice] or [x10].
+**Spot it by:** the same short fixed phrase, or the same few short lines in the same order, repeated as a sustained block, typically five or more times; one identical line recurring densely within a passage; 'your mantra', 'chant', 'keep repeating', 'over and over'; repeated lines set as their own block or list; stage directions such as [mantra loops under voice] or [x10].
 
 **Not to be confused with:** Repetition induction (uses sustained repetition to lead into trance; label mantra as well when the same short fixed phrase forms a sustained repeated block); Immediate repetition (immediately repeats a word or short phrase, often just for emphasis; a mantra sustains a fixed phrase as a block, so a span can exhibit both); Refrain (a line that returns at intervals through the script, not in a dense repeated block); Suggestion repetition (repeats a suggestion a few times, often reworded; a mantra sustains fixed wording as a phrase); Repeat after me (instructs the listener to say supplied words, even once; a mantra is the repeated phrase, whoever voices it, and both labels can apply).
 
@@ -7194,7 +7244,7 @@ Also called: vicarious learning, observational learning, demonstration, vicariou
 
 The script presents a model: one person who performs the response, and what they get for it. The listener is given no instruction; they watch, and the shown consequence does the persuading. It differs from social proof, which reports that many people do something, in showing one performance and its outcome. It differs from My friend John, where the third person is a channel for live suggestions the listener carries out as they are given. Modeling here is the social-learning sense; the NLP use of the word, copying an expert's strategy, is a different thing.
 
-**How:** Choose a model the listener can see themselves in, close to them in age, doubts and starting point. Show the response in concrete steps, including a moment of hesitation that the model gets past, then show the reward clearly and at once. Leave out 'and you will too'; the comparison is the listener's to make. A model who succeeds too easily or is too unlike the listener is dismissed. In video or live work the model is an actual demonstration; in a script it is a described person.
+**How:** Choose a model the listener can see themselves in, close to them in age, doubts and starting point. Show the response in concrete steps, including a moment of hesitation that the model gets past, then show the reward clearly and at once. Leave out 'and you will too'; the comparison is the listener's to make. A model who succeeds too easily or is too unlike the listener is dismissed. In video or live work the model is an actual demonstration; in a script it is a described person. The modeled response can be a sound: a sigh, a moan or a whimper placed right after a line supplies the reaction the listener is meant to have.
 
 > The woman before you sat in that same chair, sure it wouldn't work for her. She let her shoulders drop anyway, and I watched the worry leave her face.
 
@@ -7202,7 +7252,7 @@ The script presents a model: one person who performs the response, and what they
 
 > Watch how she does it. One slow breath, her hands open, and she is already calmer than she was a moment ago.
 
-**Spot it by:** a third person (he, she, a named character, 'the last person who sat here') performing the target response; the model's reward stated right after the act: praise received, relief, pleasure, approval; 'watch how...', 'notice what happens when she...', 'I once worked with someone who...'; no imperative addressed to the listener within the passage; the model's initial doubt or hesitation described, then overcome.
+**Spot it by:** a third person (he, she, a named character, 'the last person who sat here') performing the target response; the model's reward stated right after the act: praise received, relief, pleasure, approval; 'watch how...', 'notice what happens when she...', 'I once worked with someone who...'; no imperative addressed to the listener within the passage; the model's initial doubt or hesitation described, then overcome; a reaction sound placed right after a line by stage direction: [sigh], [whimper].
 
 **Not to be confused with:** Social proof (social proof reports what many people do as a norm; modeling shows one person doing it and what it earned them); My friend John (there the third person receives live suggestions step by step for the listener to carry out; a model is only watched); Vicarious deepening (that is the narrower use where the listener follows a described person down into trance; label it when depth is the response shown); Testimonial (a testimonial is an earlier listener's report of a finished result, offered as evidence; a model is shown in the act).
 
@@ -8596,56 +8646,6 @@ The script splits the listener's identity in time: an old self with the unwanted
 **Evidence:** practitioner-lore. A staple of change-work scripts with no direct study of the contrast as a device.
 
 **Why it works:** Contrast effect, Self-reference effect.
-
-
-### Pronoun shift *(unit)*
-
-Also called: you to I, you to we, you to it, pronoun change.
-
-A deliberate change in how the listener is referred to inside the script: from "you" to "I" so the listener's inner voice takes over, to "we" for merging with the speaker, or to "it" for objectification. The device is the switch point. It differs from first-person suggestion, which is in the first person throughout, and from third-person self-reference, which has the listener stop using "I" for themselves.
-
-**How:** Establish one pronoun first, then switch at a marked moment (after a deepener, at a peak) and keep the new one consistently. Announce the switch or let it happen silently; silent switches are subtler but harder to follow. A switch that flips back and forth by accident reads as an error, not a device.
-
-> You breathe slowly, you let go... and I breathe slowly, I let go.
-
-> You've been listening alone. Now we sink together, we rest together.
-
-> You are still. I am still. I am calm.
-
-**Spot it by:** second-person passage followed by the same content in first person; 'you' replaced by 'we' mid-passage; listener referred to as 'it' after earlier 'you'; announced switch: 'now say it as I'.
-
-**Not to be confused with:** First-person suggestion (first-person suggestion uses 'I' throughout; a pronoun shift is the change from one to another); Object / it language (object language is the content; a shift to 'it' is one way of delivering it); Second-person narration (second-person narration keeps 'you' as protagonist without a switch).
-
-**Evidence:** practitioner-lore. Widely used in community scripts; pronoun effects on self-reference are studied in psychology but not this device in hypnosis.
-
-**Why it works:** Self-reference effect, Source-monitoring error.
-
-**Consent:** A shift to 'it' or a merged 'we' works below notice for many listeners and should be within what they agreed to.
-
-
-#### Third-person self-reference *(variant)*
-
-Also called: illeism, no more I, speaking in third person.
-
-A pronoun shift carried into the listener's own speech: they say 'this one is calm' or use an assigned name rather than 'I'. It differs from the parent pronoun shift, which changes how the speaker refers to the listener, and from renaming, which assigns the term without requiring it in self-reference.
-
-**How:** Give the replacement term, give an example sentence, and ask the listener to repeat a few lines in that form. Correct or ratify slips in the script. It works best combined with repeat-after-me and an agreed scope; outside the session it should switch back.
-
-> Say it the new way: 'This one is relaxed.'
-
-> No more 'I' for now. The Listener breathes. The Listener rests.
-
-> When you answer, answer as Seven: 'Seven is ready.'
-
-**Spot it by:** 'no more I' / 'don't say I'; 'say it as ...' + third-person sentence; listener speech lines using a name or 'this one' instead of 'I'; correction of 'I' to an assigned term.
-
-**Not to be confused with:** Renaming (renaming assigns the term; this requires the listener to use it for themselves); First-person suggestion (first-person suggestion has the listener say 'I'; this removes 'I').
-
-**Evidence:** practitioner-lore. Third-person self-talk is studied as a self-distancing tool that lowers emotional reactivity, but its community use for identity change is untested.
-
-**Why it works:** Self-reference effect, Labeling effect.
-
-**Consent:** Removing 'I' targets self-concept and should be agreed and limited to the session.
 
 
 ### Inner-voice suggestion *(unit)*
@@ -10533,7 +10533,7 @@ The emergence section is the last part of a script, from the end of the suggesti
 
 Also called: loopable file, loop file, endless loop, repeat file.
 
-A loop is a whole-file shape: the script has no wake, and its last lines lead into its first so that repeat playback continues the trance. It usually carries a short core of repeated suggestions and mantra-like lines in place of a full arc. It differs from the loop-back ending, which is the join at the close of the file; the loop structure is the decision to build the entire file for repetition, and a looped file normally takes both labels.
+A loop is a stretch of script built to repeat: its last lines lead into its first. Most often it is the whole file, with no wake, so that repeat playback continues the trance. A script can also loop one block inside a longer file, between an opening and an ending; label the repeated block as the loop and the ending as whatever it is. How many times a block repeats, and what comes before and after it, are arrangement, not separate devices. A loop usually carries a short core of repeated suggestions and mantra-like lines in place of a full arc. It differs from the loop-back ending, which is the join at the close of a file that restarts.
 
 **How:** Drop the pre-talk and wake from the looped file and put them in a separate intro and outro file or in the description. Write the opening as if the listener is already in trance, and make the last line grammatically lead into the first. Keep the content short and highly repetitive, with no counted arc that would restart awkwardly. State the intended listening length and how to stop, because nothing in the file ends it.
 
@@ -10543,7 +10543,7 @@ A loop is a whole-file shape: the script has no wake, and its last lines lead in
 
 > Each time this plays, you settle in more easily, and it plays again.
 
-**Spot it by:** no count-up, wake instruction or 'eyes open' anywhere in the file; final line ends on a connective ('and', 'again', 'back to') that leads into the opening line; short repeated core suggestions or mantra lines; 'loop', 'on repeat', 'as many times as you like' in the title or description.
+**Spot it by:** final line ends on a connective ('and', 'again', 'back to') that leads into the opening line; short repeated core suggestions or mantra lines; 'loop', 'on repeat', 'as many times as you like' in the title or description; a block marked to repeat: [x5], [repeat], 'this section plays five times'; for a whole-file loop: no count-up, wake instruction or 'eyes open' anywhere in the file.
 
 **Not to be confused with:** Loop back (the single closing device; this is the whole-file design); Repetition induction (an induction using a repeated phrase, inside a normal session); Series / curriculum (several distinct files heard in order, not one file repeated).
 
@@ -10903,13 +10903,13 @@ Also called: multitrack, overlapping voices, background whispers, voice stacking
 
 Several recorded voice tracks overlap: a main voice with background whispers, two voices in different ears, or a chorus of repeated phrases. It loads attention and lets some lines arrive without being followed. It differs from double induction, the recipe built from two simultaneous inductions, and from a subliminal track, which is mixed below easy audibility.
 
-**How:** Keep one track clearly dominant so the listener has something to hold. Put short, repeated phrases on the secondary tracks; long sentences become noise. Separate tracks by ear or by volume so the layering is heard as voices, not mud. Write each track as its own column or block so the editor can align them.
+**How:** Keep one track clearly dominant so the listener has something to hold. Put short, repeated phrases on the secondary tracks; long sentences become noise. Separate tracks by ear or by volume so the layering is heard as voices, not mud. Write each track as its own column or block so the editor can align them. Layers can carry the progression: hold the lead text fixed across repeats and change what runs under it. Two copies of one line offset by a second or two make a round that works as a pulse.
 
 > [main] Just listen to my voice... [layer, left, whisper] deeper... deeper... [layer, right] let go...
 
 > [track A] You can relax your hands. [track B, overlapping] sinking down, sinking down.
 
-**Spot it by:** track labels: '[track A]', '[layer]', left/right channel columns; notes: 'overlapping', 'under the main voice', 'background whispers'; two scripts set side by side for simultaneous reading.
+**Spot it by:** track labels: '[track A]', '[layer]', left/right channel columns; notes: 'overlapping', 'under the main voice', 'background whispers'; two scripts set side by side for simultaneous reading; a secondary track that changes between repeats of an unchanged lead; the same line on two tracks with a stated offset.
 
 **Not to be confused with:** Double induction (double induction is a named recipe of two full inductions; layering is any multitrack voice); Subliminal track (a subliminal track is mixed to be barely audible; layered voices are audible); Concurrent task (dual task gives the listener a task; layering only presents competing input).
 

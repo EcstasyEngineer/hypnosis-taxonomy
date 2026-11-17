@@ -3516,7 +3516,9 @@
    "affirmation form",
    "first-person script",
    "autosuggestion form",
-   "self-voiced suggestion"
+   "self-voiced suggestion",
+   "inner-monologue track",
+   "voiced inner monologue"
   ],
   "summary": "Write the suggestion with 'I' as the listener, so hearing or reading it is the same as saying it.",
   "cues": [
@@ -3524,7 +3526,8 @@
    "short present-tense statements: 'I am', 'I feel', 'I can', 'my ... is'",
    "lead-ins: 'say to yourself', 'the thought comes', 'you hear yourself think'",
    "a section headed affirmations or written as a list of I-statements",
-   "second-person narration switching to first person for key lines"
+   "second-person narration switching to first person for key lines",
+   "a second voice or track in 'I' running under a lead voice in 'you'"
   ],
   "not_this": [
    {
@@ -7346,6 +7349,69 @@
   "text_detectable": "yes"
  },
  {
+  "id": "pronoun-shift",
+  "kind": "unit",
+  "parent": "dissociation",
+  "name": "Pronoun shift",
+  "aliases": [
+   "you to I",
+   "you to we",
+   "you to it",
+   "pronoun change"
+  ],
+  "summary": "Change the pronoun used for the listener partway through, so the grammar itself separates them from who they were a moment ago.",
+  "cues": [
+   "second-person passage followed by the same content in first person",
+   "'you' replaced by 'we' mid-passage",
+   "listener referred to as 'it' after earlier 'you'",
+   "announced switch: 'now say it as I'"
+  ],
+  "not_this": [
+   {
+    "id": "depersonalization-language",
+    "why": "object language is the content; a shift to 'it' is one way of delivering it"
+   },
+   {
+    "id": "second-person-narrative",
+    "why": "second-person narration keeps 'you' as protagonist without a switch"
+   },
+   {
+    "id": "first-person-scripting",
+    "why": "first-person suggestion uses 'I' throughout, including an 'I' voice running at the same time as a 'you' lead; a pronoun shift needs a switch point"
+   }
+  ],
+  "text_detectable": "yes"
+ },
+ {
+  "id": "third-person-self-reference",
+  "kind": "variant",
+  "parent": "pronoun-shift",
+  "name": "Third-person self-reference",
+  "aliases": [
+   "illeism",
+   "no more I",
+   "speaking in third person"
+  ],
+  "summary": "Have the listener refer to themselves by an assigned term instead of 'I' and 'me'.",
+  "cues": [
+   "'no more I' / 'don't say I'",
+   "'say it as ...' + third-person sentence",
+   "listener speech lines using a name or 'this one' instead of 'I'",
+   "correction of 'I' to an assigned term"
+  ],
+  "not_this": [
+   {
+    "id": "renaming",
+    "why": "renaming assigns the term; this requires the listener to use it for themselves"
+   },
+   {
+    "id": "first-person-scripting",
+    "why": "first-person suggestion has the listener say 'I'; this removes 'I'"
+   }
+  ],
+  "text_detectable": "yes"
+ },
+ {
   "id": "practice-schedule",
   "kind": "unit",
   "parent": "conditioning",
@@ -7467,9 +7533,9 @@
    "repeated phrase",
    "looped phrase"
   ],
-  "summary": "Repeat one short fixed phrase many times, spoken by the voice, by the listener, or by both.",
+  "summary": "Repeat one short fixed phrase, or a fixed set of a few short lines, many times, spoken by the voice, by the listener, or by both.",
   "cues": [
-   "the same short fixed phrase repeated as a sustained block, typically five or more times",
+   "the same short fixed phrase, or the same few short lines in the same order, repeated as a sustained block, typically five or more times",
    "one identical line recurring densely within a passage",
    "'your mantra', 'chant', 'keep repeating', 'over and over'",
    "repeated lines set as their own block or list",
@@ -10571,7 +10637,8 @@
    "the model's reward stated right after the act: praise received, relief, pleasure, approval",
    "'watch how...', 'notice what happens when she...', 'I once worked with someone who...'",
    "no imperative addressed to the listener within the passage",
-   "the model's initial doubt or hesitation described, then overcome"
+   "the model's initial doubt or hesitation described, then overcome",
+   "a reaction sound placed right after a line by stage direction: [sigh], [whimper]"
   ],
   "not_this": [
    {
@@ -12685,69 +12752,6 @@
    {
     "id": "antithesis",
     "why": "antithesis is the balanced phrasing; this is the old/new identity content it may carry"
-   }
-  ],
-  "text_detectable": "yes"
- },
- {
-  "id": "pronoun-shift",
-  "kind": "unit",
-  "parent": "identity-belief",
-  "name": "Pronoun shift",
-  "aliases": [
-   "you to I",
-   "you to we",
-   "you to it",
-   "pronoun change"
-  ],
-  "summary": "Change the pronoun used for the listener partway through, so the grammar itself carries the shift in self.",
-  "cues": [
-   "second-person passage followed by the same content in first person",
-   "'you' replaced by 'we' mid-passage",
-   "listener referred to as 'it' after earlier 'you'",
-   "announced switch: 'now say it as I'"
-  ],
-  "not_this": [
-   {
-    "id": "first-person-scripting",
-    "why": "first-person suggestion uses 'I' throughout; a pronoun shift is the change from one to another"
-   },
-   {
-    "id": "depersonalization-language",
-    "why": "object language is the content; a shift to 'it' is one way of delivering it"
-   },
-   {
-    "id": "second-person-narrative",
-    "why": "second-person narration keeps 'you' as protagonist without a switch"
-   }
-  ],
-  "text_detectable": "yes"
- },
- {
-  "id": "third-person-self-reference",
-  "kind": "variant",
-  "parent": "pronoun-shift",
-  "name": "Third-person self-reference",
-  "aliases": [
-   "illeism",
-   "no more I",
-   "speaking in third person"
-  ],
-  "summary": "Have the listener refer to themselves by an assigned term instead of 'I' and 'me'.",
-  "cues": [
-   "'no more I' / 'don't say I'",
-   "'say it as ...' + third-person sentence",
-   "listener speech lines using a name or 'this one' instead of 'I'",
-   "correction of 'I' to an assigned term"
-  ],
-  "not_this": [
-   {
-    "id": "renaming",
-    "why": "renaming assigns the term; this requires the listener to use it for themselves"
-   },
-   {
-    "id": "first-person-scripting",
-    "why": "first-person suggestion has the listener say 'I'; this removes 'I'"
    }
   ],
   "text_detectable": "yes"
@@ -15460,12 +15464,13 @@
    "endless loop",
    "repeat file"
   ],
-  "summary": "Build the whole file so its end flows straight into its beginning, letting it play on repeat with no wake and no seam.",
+  "summary": "Build the file, or a block inside it, so its end flows straight into its beginning and it can repeat without a seam.",
   "cues": [
-   "no count-up, wake instruction or 'eyes open' anywhere in the file",
    "final line ends on a connective ('and', 'again', 'back to') that leads into the opening line",
    "short repeated core suggestions or mantra lines",
-   "'loop', 'on repeat', 'as many times as you like' in the title or description"
+   "'loop', 'on repeat', 'as many times as you like' in the title or description",
+   "a block marked to repeat: [x5], [repeat], 'this section plays five times'",
+   "for a whole-file loop: no count-up, wake instruction or 'eyes open' anywhere in the file"
   ],
   "not_this": [
    {
@@ -15989,7 +15994,9 @@
   "cues": [
    "track labels: '[track A]', '[layer]', left/right channel columns",
    "notes: 'overlapping', 'under the main voice', 'background whispers'",
-   "two scripts set side by side for simultaneous reading"
+   "two scripts set side by side for simultaneous reading",
+   "a secondary track that changes between repeats of an unchanged lead",
+   "the same line on two tracks with a stated offset"
   ],
   "not_this": [
    {
