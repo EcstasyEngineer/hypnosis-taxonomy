@@ -42,10 +42,9 @@ about the device. It does not promise that a line will work on a given listener.
 | file | what it is |
 |---|---|
 | `index.html` | The site. No build step, no CDN. |
-| `canon.json` | Everything: entries, theory, corpus counts. Schema 4. |
+| `devices.json` | Everything: entries and theory. |
 | `catalog.md`, `catalog.json` | Compact catalog for labeling: id, summary, cues, nearest confusions. |
 | `book.md` | The whole reference as one long document. |
-| `legacy/` | Earlier editions, including the v8 graph browser. |
 
 ## Labeling a script
 
@@ -53,11 +52,11 @@ Give an agent `catalog.md` and a script. For each span it returns the line range
 exact quote, the device id, a confidence and the cue it matched. Variant labels also count
 as their parent, and spans may overlap. Themes and plot are not devices and stay unlabeled.
 
-## Corpus counts
+## Counts
 
-"Seen in N scripts" figures are projected from an older set of labels over a private
-script collection. They show what writers do, not what works. No script text is published
-here.
+Where an entry says "seen in N scripts", the figure comes from labeling a private script
+collection against this catalog. It shows what writers do, not what works. No script text
+is published here.
 
 ## Consent
 

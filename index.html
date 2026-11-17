@@ -109,13 +109,13 @@ const GRADE = {
   "contested":"Contested: studied, with mixed or failed replication."};
 let D, by = {}, kids = {}, tby = {}, idx = [];
 
-fetch("canon.json").then(r => r.json()).then(d => { D = d; init(); }).catch(e => { $("#view").textContent = "Could not load canon.json: " + e; });
+fetch("devices.json").then(r => r.json()).then(d => { D = d; init(); }).catch(e => { $("#view").textContent = "Could not load devices.json: " + e; });
 
 function init() {
   for (const e of D.entries) { by[e.id] = e; (kids[e.parent || ""] = kids[e.parent || ""] || []).push(e); }
   for (const t of D.theory) tby[t.id] = t;
-  for (const e of D.entries) idx.push({e, name: norm(e.name), id: norm(e.id), aka: (e.aliases || []).map(norm), old: [], text: norm(e.summary + " " + (e.cues || []).join(" "))});
-  for (const t of D.theory) idx.push({t, name: norm(t.name), id: norm(t.id), aka: [], old: [], text: norm(t.summary)});
+  for (const e of D.entries) idx.push({e, name: norm(e.name), id: norm(e.id), aka: (e.aliases || []).map(norm), text: norm(e.summary + " " + (e.cues || []).join(" "))});
+  for (const t of D.theory) idx.push({t, name: norm(t.name), id: norm(t.id), aka: [], text: norm(t.summary)});
   $("#topnav").innerHTML = [["#/","Devices"],["#/stages","By stage"],["#/theory","Theory"],["#/label","Label a script"],["#/about","About"]].map(([h, l]) => `<a href="${h}">${l}</a>`).join("");
   buildTree();
   $("#q").addEventListener("input", search);
@@ -138,8 +138,7 @@ function search() {
     let s = 0;
     if (r.name === q || r.id === q) s = 100; else if (r.aka.includes(q)) s = 90;
     else if (r.name.startsWith(q)) s = 80; else if (r.name.includes(q)) s = 70;
-    else if (r.aka.some(a => a.includes(q))) s = 60; else if (r.old.some(a => a.includes(q))) s = 40;
-    else if (words.every(w => (r.name + " " + r.aka.join(" ") + " " + r.text).includes(w))) s = 20;
+    else if (r.aka.some(a => a.includes(q))) s = 60; else if (words.every(w => (r.name + " " + r.aka.join(" ") + " " + r.text).includes(w))) s = 20;
     if (s) hits.push([s, r]);
   }
   hits.sort((a, b) => b[0] - a[0] || a[1].name.localeCompare(b[1].name));
@@ -181,7 +180,7 @@ function entryPage(e) {
     h += sec("Evidence", `<div class="ev"><b>${esc((ev.grade || "").replace("-", " "))}.</b> ${esc(ev.note || "")}${src ? `<br><span class="aka">Source: ${esc(src)}</span>` : ""}<br><span class="aka">${esc(GRADE[ev.grade] || "")}</span></div>`);
     h += sec("Why it works", (e.why || []).length ? `<div class="chips">${e.why.filter(w => tby[w]).map(w => `<a href="#/t/${w}">${esc(tby[w].name)}</a>`).join("")}</div>` : "");
     if (e.consent_note) h += sec("Consent", `<div class="note">${esc(e.consent_note)}</div>`);
-    if (u) h += sec("In the script corpus", `<p>Seen in about ${u.scripts} of ${n} annotated scripts (${Math.round(100 * u.scripts / n)}%). ${D.meta.usage_source === "relabel" ? "Counts come from labeling a private script collection against this catalog." : "Counts are projected from an older set of labels."} They show what writers do, not what works.</p>` +
+    if (u) h += sec("In the script corpus", `<p>Seen in about ${u.scripts} of ${n} annotated scripts (${Math.round(100 * u.scripts / n)}%). Counts come from labeling a private script collection against this catalog. They show what writers do, not what works.</p>` +
       (u.with && u.with.length ? `<p class="aka">Tends to appear with: ${u.with.map(w => link(w[0])).join(", ")}</p>` : "") +
       (u.next && u.next.length ? `<p class="aka">Often followed by: ${u.next.map(w => link(w[0])).join(", ")}</p>` : ""));
   }
@@ -216,12 +215,9 @@ function theoryIndex() {
     Object.keys(g).map(s => `<h2>${esc(s)}</h2><ul class="plain">${g[s].map(t => `<li><a href="#/t/${t.id}"><b>${esc(t.name)}</b></a> <span class="badge">${t.status}</span><small>${esc(t.summary)}</small></li>`).join("")}</ul>`).join("");
 }
 function about() {
-  const d = D.meta.legacy_dispositions || {}, tot = Object.values(d).reduce((a, b) => a + b, 0);
-  const lab = {alias: "Same device under a coined name (folded into a device here)", compound: "Two or more devices used together", plot: "A scene or storyline", theme: "Content being suggested, not a device", structure: "Session-scale shape", theory: "An explanation, moved to Theory", operator_practice: "Done outside the script text", new_unit: "Admitted as a new device", new_variant: "Admitted as a new variant", junk: "Dropped"};
   return `<h1>About this reference</h1><p class="lead">A device is listed here only if it is one move, has a plain name, works whatever the theme, and can be pointed at in the text.</p>
   <h2>Kinds of entry</h2><table><tr><td><b>Device</b></td><td>One thing a writer does.</td></tr><tr><td><b>Variant</b></td><td>A named, narrower form of one device. A yes set is a variant of the compliance ladder.</td></tr><tr><td><b>Recipe</b></td><td>A named, ordered combination of devices.</td></tr><tr><td><b>Structure</b></td><td>A session-scale part or shape. Where devices go.</td></tr><tr><td><b>Delivery</b></td><td>A voice or audio choice: heard, not read.</td></tr><tr><td><b>Theory</b></td><td>Why devices work. Not labelable.</td></tr></table>
   <h2>Evidence grades</h2><table>${Object.entries(GRADE).map(([k, v]) => `<tr><td><b>${k.replace("-", " ")}</b></td><td>${esc(v.split(": ")[1])}</td></tr>`).join("")}</table><p class="aka">A grade rates what is known about the device. It is never a promise that a line will work on a given listener.</p>
-  ${tot ? `<h2>What happened to the earlier edition</h2><p>The previous edition listed ${tot} entries, many of them combinations or scenes under invented names. Each was reviewed against the tests above.</p><table>${Object.entries(d).sort((a, b) => b[1] - a[1]).map(([k, v]) => `<tr><td>${v}</td><td>${esc(lab[k] || k)}</td></tr>`).join("")}</table>` : ""}
   <h2>Consent</h2><p>This is a reference for consensual hypnosis and for recognizing influence. Entries that depend on the listener not noticing, that persist after a session, or that come from coercive-control research carry a consent note. Used on someone who has not agreed, those are abuse.</p>
   <h2>Licence</h2><p>Content: CC BY-SA 4.0.</p>`;
 }
@@ -229,7 +225,7 @@ function labelPage() {
   return `<h1>Label a script</h1><p class="lead">The catalog is built so an agent or a person can mark up a script device by device.</p>
   <p>Give a labeling agent <a href="catalog.md">catalog.md</a> (or <a href="catalog.json">catalog.json</a>) and the script. For each span it should return the line range, the exact quote, the device id, a confidence, and one sentence saying which cue it matched. A variant label also counts as its parent. Spans may overlap: a single line can be a presupposition inside a yes set.</p>
   <h2>Rules that keep labels honest</h2><ul><li>Label only what is in the wording. Themes and plot are not devices.</li><li>Use the most specific id that fits; fall back to the parent when unsure.</li><li>Quote exactly, so a checker can find the span.</li><li>If nothing fits, say so. Do not stretch a device to cover a line.</li></ul>
-  <p>Files: <a href="catalog.md">catalog.md</a>, <a href="catalog.json">catalog.json</a>, <a href="canon.json">canon.json</a> (everything), <a href="book.md">book.md</a> (long form).</p>`;
+  <p>Files: <a href="catalog.md">catalog.md</a>, <a href="catalog.json">catalog.json</a>, <a href="devices.json">devices.json</a> (everything), <a href="book.md">book.md</a> (long form).</p>`;
 }
 function route() {
   const p = decodeURIComponent(location.hash.replace(/^#\/?/, "")).split("/");

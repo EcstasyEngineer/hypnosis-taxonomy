@@ -40,8 +40,6 @@ The listener stares at a single spot, usually slightly above eye level, while th
 
 **Why it works:** Hypnotic induction, Attentional tunneling, Habituation, Response expectancy theory.
 
-*Projected from legacy annotations: 86 of 527 scripts.*
-
 
 #### Pendulum / pocket watch *(variant)*
 
@@ -180,12 +178,10 @@ A suggestion aimed at one response: the lids become heavy and shut. The closing 
 
 **Why it works:** Hypnotic induction, Response expectancy theory, Direct verbal suggestion.
 
-*Projected from legacy annotations: 112 of 527 scripts.*
-
 
 ### Progressive relaxation *(unit)*
 
-Also called: PMR, progressive muscle relaxation, Jacobson relaxation, body relaxation induction.
+Also called: progressive muscle relaxation, PMR, Jacobson relaxation, body relaxation induction.
 
 The writer names body regions in sequence, usually feet to head or head to feet, and suggests each one loosening. The defining features are the ordered sweep and the instruction to relax. As used in hypnosis it is suggested relaxation; the original Jacobson method, with deliberate tensing, is the variant tension-release.
 
@@ -204,8 +200,6 @@ The writer names body regions in sequence, usually feet to head or head to feet,
 **Evidence:** experimental. Muscle relaxation training is well studied for anxiety and tension; as a hypnotic induction it works about as well as others, and relaxation is not required for hypnotic responding. Source: Jacobson, Progressive Relaxation (1929).
 
 **Why it works:** Hypnotic induction, Response expectancy theory, Habituation.
-
-*Projected from legacy annotations: 139 of 527 scripts.*
 
 
 #### Tense-and-release *(variant)*
@@ -229,8 +223,6 @@ Progressive relaxation with a deliberate contraction before each release. The li
 **Evidence:** experimental. The tense-release form of muscle relaxation has many controlled trials for tension and anxiety; its specific value as a hypnotic induction has not been separated out. Source: Jacobson, Progressive Relaxation (1929).
 
 **Why it works:** Contrast effect, Self-perception theory.
-
-*Projected from legacy annotations: 30 of 527 scripts.*
 
 
 #### Autogenic phrases *(variant)*
@@ -278,8 +270,6 @@ An ordered tour of the body in which the only instruction is to notice. Nothing 
 
 **Why it works:** Absorption (trait), Attentional tunneling.
 
-*Projected from legacy annotations: 2 of 527 scripts.*
-
 
 ### Breath-focus induction *(unit)*
 
@@ -303,8 +293,6 @@ The breath is made the object of attention, either observed as it is or guided i
 
 **Why it works:** Hypnotic induction, Attentional tunneling, Pacing and leading.
 
-*Projected from legacy annotations: 185 of 527 scripts.*
-
 
 ### Counting induction *(unit)*
 
@@ -322,13 +310,11 @@ A count is the spine of the induction: the writer announces what will happen by 
 
 **Spot it by:** 'I'm going to count from ... to ...'; descending numerals spaced through a passage; 'with each number'; 'by the time I reach one' / 'when I reach zero'; a command or state claim on the last number.
 
-**Not to be confused with:** Countdown deepener (same form; label the deepener when a trance claim or another induction comes before the count, and this entry when the count is what takes the listener from waking attention to the first trance claim); Counted passage (there the numbers only pace unrelated content; here each number is tied to going further in and the last number is named as arrival); Losing the numbers (there the listener counts aloud and the numbers are suggested away; here the writer counts); Count-up wake (a count upward that restores alertness ends the session).
+**Not to be confused with:** Countdown deepener (label the deepener when the count builds depth after trance is established; label this entry when the count brings the listener from waking attention into trance, even if other opening instructions precede it); Counted passage (there the numbers pace other content without linking each number to trance depth or naming the last as arrival; here the count itself carries the induction); Losing the numbers (there the listener counts aloud and the numbers are suggested away; here the writer counts); Count-up wake (a count upward that restores alertness ends the session).
 
 **Evidence:** clinical-tradition. Counting is part of standardized induction texts; nothing shows the numbers themselves do anything beyond pacing the passage and setting an expectation of arrival.
 
 **Why it works:** Response expectancy theory, Hypnotic induction.
-
-*Projected from legacy annotations: 155 of 527 scripts.*
 
 
 ### Visualization induction *(unit)*
@@ -360,7 +346,7 @@ Also called: confusional induction, confusion technique induction.
 
 The confusion technique used as the whole induction. The writer keeps up a run of statements that sound meaningful but cannot be followed, built on time, direction, negation or word-play. When the listener gives up tracking, a simple suggestion such as 'close your eyes and drop' is taken as relief. Both parts are needed: the tangle and the clear exit.
 
-**How:** Keep every sentence grammatical and delivered as if it mattered; nonsense is dismissed, near-sense is worked at. Run the tangle for thirty to ninety seconds, then give one short plain instruction with a change of pace. The release line ('you don't have to work any of that out') belongs at the exit only: said before the tangle, it lets the listener stop trying and nothing builds. It suits analytical listeners who keep evaluating. It also fails if the exit is as complicated as the tangle.
+**How:** Keep sentences grammatical and coherent enough to invite interpretation. Follow the confusing passage with one short, clear instruction, changing pace to mark the turn. A release line such as 'you don't have to work any of that out' can mark the exit. If the listener disengages before that turn, or the exit remains confusing, the intended transition may not occur.
 
 > You can forget to remember what you were trying not to think about, or remember to forget it, and either way it is not something you need to know now.
 
@@ -402,8 +388,6 @@ Cognitive overload used as the induction. The writer stacks simultaneous demands
 **Why it works:** Cognitive load, Working-memory interference, Distraction-induced persuasion.
 
 **Consent:** It works by crowding out evaluation, so use it only where the listener has agreed to be hypnotized.
-
-*Projected from legacy annotations: 4 of 527 scripts.*
 
 
 ### Rapid induction *(unit)*
@@ -524,8 +508,6 @@ There is no 'close your eyes' and no count. The writer talks, apparently about s
 
 **Consent:** Because nothing marks the start, make sure the listener has agreed to hypnosis before the conversation begins.
 
-*Projected from legacy annotations: 18 of 527 scripts.*
-
 
 ### Unannounced induction *(unit)*
 
@@ -551,8 +533,6 @@ The listener is not told that an induction is taking place. The procedure is giv
 
 **Consent:** Works by the listener not knowing; legitimate only under prior, specific agreement to surprise inductions, and never on someone who has not consented to hypnosis.
 
-*Projected from legacy annotations: 67 of 527 scripts.*
-
 
 ### Revivification induction *(unit)*
 
@@ -575,8 +555,6 @@ Revivification used to induce. The listener is asked to remember the last time t
 **Evidence:** practitioner-lore. Taught in Ericksonian and NLP training; recalling a state does partly reinstate it, but this induction has not been tested against others.
 
 **Why it works:** State-dependent memory, Response expectancy theory, Absorption (trait).
-
-*Projected from legacy annotations: 33 of 527 scripts.*
 
 
 ### Pretend / as-if induction *(unit)*
@@ -601,8 +579,6 @@ The listener is asked to behave as a deeply hypnotized person would: go limp, cl
 
 **Why it works:** Sociocognitive theory of hypnosis, Response expectancy theory, Self-perception theory, Demand characteristics.
 
-*Projected from legacy annotations: 21 of 527 scripts.*
-
 
 ### Repetition induction *(unit)*
 
@@ -625,8 +601,6 @@ The induction is sustained repetition and little else. One line, or a loop of th
 **Evidence:** practitioner-lore. Repetitive focus is common to meditation and hypnosis and plausibly reduces vigilance through habituation; as a named induction it has not been tested.
 
 **Why it works:** Habituation, Attentional tunneling, Processing fluency, Mere-exposure effect.
-
-*Projected from legacy annotations: 3 of 527 scripts.*
 
 
 ### Ideomotor induction *(unit)*
@@ -651,8 +625,6 @@ The listener holds a posture and attends to it while the writer suggests a movem
 
 **Why it works:** Ideomotor effect, Cold control theory, Response expectancy theory, Automaticity.
 
-*Projected from legacy annotations: 2 of 527 scripts.*
-
 
 #### Arm levitation *(variant)*
 
@@ -675,8 +647,6 @@ An ideomotor induction in which one hand, resting on the thigh, is suggested to 
 **Evidence:** clinical-tradition. A standard clinical induction and a scale item; a substantial minority do not respond, and no study shows it gives a better trance than simpler methods. Source: Erickson, 'Historical note on the hand levitation and other ideomotor techniques', American Journal of Clinical Hypnosis (1961).
 
 **Why it works:** Ideomotor effect, Cold control theory, Response expectancy theory.
-
-*Projected from legacy annotations: 2 of 527 scripts.*
 
 
 #### Magnetic hands *(variant)*
@@ -814,8 +784,6 @@ One real sensation is chosen: the weight of a hand, warmth in the palms, a tingl
 
 **Why it works:** Attentional tunneling, Absorption (trait), Response expectancy theory.
 
-*Projected from legacy annotations: 41 of 527 scripts.*
-
 
 #### Arousal-focus induction *(variant)*
 
@@ -840,8 +808,6 @@ A sensation-focus induction in which the chosen sensation is arousal. The writer
 **Why it works:** Attentional tunneling, Absorption (trait).
 
 **Consent:** Arousal lowers judgement, so agree the content and its limits beforehand, not once the listener is aroused.
-
-*Projected from legacy annotations: 41 of 527 scripts.*
 
 
 ### Re-induction trigger *(unit)*
@@ -868,8 +834,6 @@ The firing, as an induction, of a posthypnotic cue for trance: a word, phrase, s
 
 **Consent:** The cue persists after the session; agree who may use it and under what conditions, and never fire it on someone who has not agreed in the present moment.
 
-*Projected from legacy annotations: 78 of 527 scripts.*
-
 
 ### Text induction *(unit)*
 
@@ -894,8 +858,6 @@ A little harder to look away from.
 **Evidence:** practitioner-lore. A convention of online text hypnosis with no formal study; absorption in reading is real and well described, but whether it amounts to hypnosis has not been tested.
 
 **Why it works:** Pacing and leading, Absorption (trait), Narrative transportation, Self-reference effect.
-
-*Projected from legacy annotations: 13 of 527 scripts.*
 
 
 ### Waking hypnosis *(unit)*
@@ -949,7 +911,7 @@ A fixed opening used in the Monroe Institute's Gateway audio course. The listene
 
 **Not to be confused with:** Binaural / isochronic tones (that is the tone bed alone, under any script; the recipe is the spoken sequence that runs over it); Body detachment (that is the single suggestion that the body is asleep or distant; here it is the end point of a fixed sequence); Progressive relaxation (that is a region-by-region relaxation used alone; here it is one counted step after three preparatory ones).
 
-**Evidence:** practitioner-lore. The relaxation and breathing steps are ordinary and reliable; studies of the Hemi-Sync tones are mixed, and the program's claims about expanded or out-of-body states are not supported by controlled evidence. Source: The Monroe Institute, The Gateway Experience (audio course).
+**Evidence:** practitioner-lore. The relaxation and breathing steps are ordinary and reliable; studies of the Hemi-Sync tones are mixed, and the program's claims about expanded or out-of-body states are not supported by controlled evidence.
 
 **Why it works:** Response expectancy theory, Placebo effect, Hypnotic induction, Absorption (trait).
 
@@ -989,8 +951,6 @@ A count in which every number is tied to an increase in depth, with a stated end
 
 **Why it works:** Response expectancy theory, Demand characteristics.
 
-*Projected from legacy annotations: 225 of 527 scripts.*
-
 
 ### Descent imagery *(unit)*
 
@@ -1002,7 +962,7 @@ An imagined downward movement in which distance travelled stands for depth of tr
 
 > Picture a staircase with ten steps leading down. With each step you take, you go deeper. Take the first step now.
 
-> The lift doors close, and you feel it begin to go down. Floor by floor. Each floor quieter than the last.
+> The lift doors close, and you feel it begin to go down. Floor by floor, each floor takes you deeper than the last.
 
 > If stairs are hard to picture, just feel yourself drifting down, level after level, like a leaf settling through still air, each level deeper than the one above.
 
@@ -1013,8 +973,6 @@ An imagined downward movement in which distance travelled stands for depth of tr
 **Evidence:** clinical-tradition. A stock deepener in clinical texts; imagery raises reported depth in people who absorb easily, but nothing shows descent imagery beats other deepeners.
 
 **Why it works:** Response expectancy theory, Absorption (trait), Narrative transportation.
-
-*Projected from legacy annotations: 213 of 527 scripts.*
 
 
 #### False bottom *(variant)*
@@ -1041,8 +999,6 @@ A turn applied to descent imagery or a countdown: the end point the listener was
 
 **Consent:** It works by breaking a stated end point, so it should not be used on a limit the listener agreed to in advance (session length, how far the content goes); keep it to the depth image.
 
-*Projected from legacy annotations: 32 of 527 scripts.*
-
 
 ### Fractionation *(unit)*
 
@@ -1066,8 +1022,6 @@ Repeated interruption and resumption of trance, with each re-entry suggested to 
 
 **Why it works:** Contrast effect, Response expectancy theory, Classical conditioning, Self-perception theory.
 
-*Projected from legacy annotations: 120 of 527 scripts.*
-
 
 ### Breath-linked deepening *(unit)*
 
@@ -1090,8 +1044,6 @@ A contingent suggestion whose trigger is the breath: each exhale, which is certa
 **Evidence:** clinical-tradition. Slow exhalation does lower arousal, which is well studied; that tying 'deeper' to it increases hypnotic responding has not been tested separately.
 
 **Why it works:** Response expectancy theory, Pacing and leading, Classical conditioning.
-
-*Projected from legacy annotations: 41 of 527 scripts.*
 
 
 ### Everything deepens *(unit)*
@@ -1117,8 +1069,6 @@ A blanket contingent suggestion: an open class of stimuli (the voice, each word,
 **Why it works:** Utilization, Response expectancy theory, Classical conditioning.
 
 **Consent:** Exclude genuine emergencies from 'everything': a listener told that every sound deepens should also be told that anything needing attention will rouse them.
-
-*Projected from legacy annotations: 119 of 527 scripts.*
 
 
 ### Silence / pause deepener *(unit)*
@@ -1166,8 +1116,6 @@ The listener does the counting, aloud in person or inwardly on a recording, and 
 
 **Why it works:** Hypnotic amnesia, Response expectancy theory, Critical faculty (Elman), Cold control theory.
 
-*Projected from legacy annotations: 12 of 527 scripts.*
-
 
 ### Depth scale *(unit)*
 
@@ -1185,13 +1133,11 @@ Depth is turned into a quantity on a named scale: one to ten, zero to a hundred,
 
 **Spot it by:** 'on a scale of', 'from one to ten' applied to depth or relaxation; 'dial', 'meter', 'gauge', 'needle', 'level' with a number; 'you are at a six', 'level three', 'down to a four'; 'turn it down', 'watch the number fall'; 'what number are you at?' (interactive scripts).
 
-**Not to be confused with:** Countdown deepener (numbers there are steps in a spoken series, not readings of a position); Reference point (a one-off magnitude with no scale ('ten times deeper'); choose this entry when a scale is named with end points or levels and the listener is given a current reading that then moves, whoever moves it); Dial / switch imagery (the general imagined dial or switch for any quantity; label both when the dial sets depth).
+**Not to be confused with:** Countdown deepener (numbers there are steps in a spoken series, not readings of a position); Reference point (offers a value before asking the listener to estimate a quantity; this entry names a depth scale and moves its current reading, whoever moves it); Dial / switch imagery (the general imagined dial or switch for any quantity; label both when the dial sets depth).
 
 **Evidence:** clinical-tradition. Self-reported depth numbers were studied as a measure and track responsiveness moderately; using the scale as a control that the listener turns is clinical practice without controlled tests. Source: Tart, Self-report scales of hypnotic depth (1970).
 
 **Why it works:** Anchoring effect (judgment), Response expectancy theory, Self-perception theory, Demand characteristics.
-
-*Projected from legacy annotations: 32 of 527 scripts.*
 
 
 ### Mind-blanking *(unit)*
@@ -1218,8 +1164,6 @@ A suggestion aimed at thinking itself: inner talk gets slower, fainter, further 
 
 **Consent:** State that the blankness lasts only for the session unless the listener has agreed to more, and restore clear thinking at emergence.
 
-*Projected from legacy annotations: 303 of 527 scripts.*
-
 
 ### Heaviness / floating *(unit)*
 
@@ -1243,8 +1187,6 @@ A suggested change in felt body weight, used as both a deepener and a marker. He
 
 **Why it works:** Response expectancy theory, Ideomotor effect, Self-perception theory.
 
-*Projected from legacy annotations: 5 of 527 scripts.*
-
 
 ### Physical drop deepener *(unit)*
 
@@ -1252,7 +1194,7 @@ Also called: arm drop deepener, wrist drop, arm drop, hand drop deepener.
 
 A deepener in which a real physical event, a limb falling limp into the lap, is announced in advance as the moment of deepening. In person the hypnotist lifts the arm by the wrist; in a recording the listener lifts it or imagines it. The landing is a sharp, felt, undeniable instant to hang the suggestion on, and a limp fall also shows the hypnotist how relaxed the arm is. It is one event, not a cycle, and it happens inside trance, not as the way in.
 
-**How:** Say what will happen before touching or lifting: 'I'm going to lift your hand; when it drops into your lap you go much deeper'. Let it fall a short distance onto something soft. If the listener helps lift or lowers the arm slowly, tell them to let it be loose and repeat. For audio, have the listener raise a hand a few centimetres themselves and let it fall, or imagine the lift and the drop; say it works as well in imagination. Touch needs prior agreement.
+**How:** Say what will happen before touching or lifting: 'I'm going to lift your hand; when it drops into your lap you go much deeper'. Let it fall a short distance onto something soft. If the listener helps lift or lowers the arm slowly, tell them to let it be loose and repeat. For audio, have the listener raise a hand a few centimetres themselves and let it fall. Touch needs prior agreement.
 
 > I'm going to pick up your hand by the wrist. When I let go, it falls like a wet cloth into your lap, and as it lands you go ten times deeper.
 
@@ -1264,13 +1206,11 @@ A deepener in which a real physical event, a limb falling limp into the lap, is 
 
 **Not to be confused with:** Hand drop (a rapid induction from waking, using surprise; this is an announced drop inside trance); Fractionation (repeated up-and-down cycles of the trance itself; this is one physical event); Rigid arm (the arm is made rigid as proof; here it is made limp and falls).
 
-**Evidence:** practitioner-lore. A staple of stage and Elman-style practice; no controlled work, and the effect is plausibly the same expectancy and timing as any contingent suggestion. Source: Elman, Hypnotherapy (1964).
+**Evidence:** practitioner-lore. A staple of stage and Elman-style practice; no controlled work, and the effect is plausibly the same expectancy and timing as any contingent suggestion.
 
 **Why it works:** Response expectancy theory, Classical conditioning.
 
 **Consent:** In-person versions involve touch; agree on it in the pre-talk.
-
-*Projected from legacy annotations: 5 of 527 scripts.*
 
 
 ### Pleasure as deepener *(unit)*
@@ -1297,8 +1237,6 @@ A deepener in which pleasure, comfort, or in erotic scripts arousal, is linked t
 
 **Consent:** It makes trance itself rewarding and so encourages repeat listening; erotic versions need the listener's agreement to that content beforehand.
 
-*Projected from legacy annotations: 88 of 527 scripts.*
-
 
 ### Vicarious deepening *(unit)*
 
@@ -1323,8 +1261,6 @@ The trance signs and deepening suggestions are attached to a third party: a char
 **Why it works:** Social learning theory, Character identification, Narrative transportation, Response expectancy theory, Indirect suggestion.
 
 **Consent:** The listener is deepened without being addressed, so they may not notice it happening; when the passage sits inside a story, say in the description that the piece is hypnotic.
-
-*Projected from legacy annotations: 12 of 527 scripts.*
 
 
 ### Trance within trance *(unit)*
@@ -1351,8 +1287,6 @@ A second induction carried out within the imagery of the first: the imagined sel
 
 **Consent:** Bring the listener out through every layer and finish with a full reorientation; a skipped layer can leave them feeling not quite awake.
 
-*Projected from legacy annotations: 7 of 527 scripts.*
-
 
 ### Approach deepener *(unit)*
 
@@ -1376,14 +1310,12 @@ A deepener in which the listener stays still and something else moves toward the
 
 **Why it works:** Response expectancy theory, Absorption (trait), Attentional capture, Narrative closure.
 
-*Projected from legacy annotations: 33 of 527 scripts.*
-
 
 ## Emergence
 
 Also called: wake-up, awakening, dehypnosis, termination, exit.
 
-Emergence covers what the writer does at the end of a script: how alertness is restored, what is said to carry over, and whether the session is closed at all. Its members are either exits (count-up wake, self-paced wake, reorientation check, drift into sleep, loop back, partial wake, conditional wake) or suggestions that only make sense at the exit (sealing, next-time-deeper). Amnesia on waking is also placed at the exit, but it is filed as a variant of the amnesia suggestion in the memory family. Emergence is distinct from the emergence section, which is the place in the script where these devices sit, and from the safety family, whose entries can appear anywhere.
+Emergence groups devices that end a session or govern its ending. Its exits include count-up wake, self-paced wake, reorientation check, drift into sleep, loop back and partial wake. Conditional wake sets a condition for ending trance and may be stated earlier in the session. Sealing states what carries over after waking, and next-time-deeper suggests how future sessions will go; the latter may also be stated before the exit. Amnesia on waking is placed at the exit but filed as a variant of amnesia suggestion in the memory family. The emergence section is the place in a script where the ending occurs, rather than a family of devices.
 
 **Choosing:** First choose the exit by how the file will be used: a count-up wake or self-paced wake for daytime listening, drift into sleep for bedtime files, loop back only for files built to repeat. Add a reorientation check whenever the session suggested heaviness, numbness, immobility, time distortion or strong emotion; a count alone does not cancel those. Place sealing and next-time-deeper just before the exit, not inside it, so the wake itself stays clean. Treat partial wake, amnesia on waking, drift into sleep and loop back as choices that leave something open, and say so in the file description. A complete default ending is: seal, cancel what should not persist, count up, check orientation.
 
@@ -1416,8 +1348,6 @@ A counted exit in which each number is tied to a named piece of waking: energy r
 
 **Why it works:** Response expectancy theory, Sociocognitive theory of hypnosis.
 
-*Projected from legacy annotations: 280 of 527 scripts.*
-
 
 ### Sealing suggestions before waking *(unit)*
 
@@ -1443,12 +1373,10 @@ A closing statement about the session's suggestions as a set: they remain, they 
 
 **Consent:** Sealing extends effects past the session, so the file description should say what is meant to persist and for how long.
 
-*Projected from legacy annotations: 230 of 527 scripts.*
-
 
 ### Partial wake *(unit)*
 
-Also called: eyes open still under, eyes-open trance, wake but stay under, open-eyed trance.
+Also called: eyes open still under, wake but stay under.
 
 A wake that is explicitly incomplete: some faculties are restored (eyes open, able to move, talk, read) and the script states that the listener remains in trance or remains as suggestible as before. The defining feature is the pairing of a restoring instruction with a continuation statement. It is not fractionation, because no drop follows, and it is not an ending by itself unless the writer intends the session to end with trance left open.
 
@@ -1469,8 +1397,6 @@ A wake that is explicitly incomplete: some faculties are restored (eyes open, ab
 **Why it works:** Response expectancy theory, Sociocognitive theory of hypnosis, Nonhypnotic suggestibility, Posthypnotic suggestion.
 
 **Consent:** The listener goes on acting while told they are still suggestible, so this needs prior agreement, a stated end condition, and a full wake available on demand.
-
-*Projected from legacy annotations: 154 of 527 scripts.*
 
 
 ### Drift into sleep *(unit)*
@@ -1497,8 +1423,6 @@ An ending for bedtime files in which the script hands the listener to natural sl
 
 **Consent:** The session is never formally closed, so nothing that should be cancelled may be left running, and the description must say the file ends in sleep.
 
-*Projected from legacy annotations: 34 of 527 scripts.*
-
 
 ### Loop back *(unit)*
 
@@ -1523,8 +1447,6 @@ An ending that is a join: the final passage matches the opening in wording, stat
 **Why it works:** Mere-exposure effect, Illusory truth effect, Habituation.
 
 **Consent:** A loop has no built-in exit, so the listener must be told how to stop and should have an emergency wake inside the loop.
-
-*Projected from legacy annotations: 20 of 527 scripts.*
 
 
 ### Next-time-deeper suggestion *(unit)*
@@ -1551,8 +1473,6 @@ A posthypnotic suggestion about future trance itself: its speed, depth and ease.
 
 **Consent:** It shapes future sessions, so it should be limited to occasions the listener chooses and to the intended voice or series.
 
-*Projected from legacy annotations: 155 of 527 scripts.*
-
 
 ### Self-paced wake *(unit)*
 
@@ -1575,8 +1495,6 @@ A permissive exit in which the writer gives the instruction to return and leaves
 **Evidence:** clinical-tradition. Common in permissive and Ericksonian practice; no controlled comparison with counted wakes exists, and claims that it integrates the work better are untested.
 
 **Why it works:** Self-determination theory, Psychological reactance, Response expectancy theory.
-
-*Projected from legacy annotations: 23 of 527 scripts.*
 
 
 ### Reorientation check *(unit)*
@@ -1601,8 +1519,6 @@ An itemized return to baseline: the script names what goes back to normal (weigh
 
 **Why it works:** Response expectancy theory, Posthypnotic suggestion.
 
-*Projected from legacy annotations: 33 of 527 scripts.*
-
 
 ### Wellbeing suggestions *(unit)*
 
@@ -1620,15 +1536,13 @@ Wellbeing suggestions are general, non-specific positive suggestions for rest, c
 
 **Spot it by:** 'you'll sleep deeply'; 'feel calm / confident / refreshed'; 'each day ... more'; general positive suggestions just before waking; 'carry this calm with you'.
 
-**Not to be confused with:** Posthypnotic suggestion (specifies one later response, usually tied to a cue and to the session's topic; wellbeing suggestions are general, uncued and unrelated to the topic); Sealing suggestions before waking (says the session's own suggestions stay, and adds no new content); Aftercare (settles the reaction to intense content now, not lasting wellbeing); Next-time-deeper suggestion (a closing suggestion about the next session (faster, deeper), not about the listener's day).
+**Not to be confused with:** Posthypnotic suggestion (specifies a particular response to occur after the session, with or without a cue; wellbeing suggestions give general wishes for calm, rest or confidence after waking); Sealing suggestions before waking (says the session's own suggestions stay, and adds no new content); Aftercare (settles the reaction to intense content now, not lasting wellbeing); Next-time-deeper suggestion (a closing suggestion about the next session (faster, deeper), not about the listener's day).
 
 **Evidence:** clinical-tradition. Ego strengthening is standard in clinical texts; its specific added benefit over the rest of a session has little controlled evidence. Source: Hartland, ego-strengthening, American Journal of Clinical Hypnosis (1965).
 
 **Why it works:** Response expectancy theory, Placebo effect.
 
 **Consent:** These suggestions are meant to last past the session, so the content note should say the file includes them. Keep them general; tying the good feeling to the speaker or to listening again turns them into dependency.
-
-*Projected from legacy annotations: 18 of 527 scripts.*
 
 
 ### Conditional wake *(unit)*
@@ -1654,8 +1568,6 @@ A suggestion about the exit, given before the exit: waking is made to depend on 
 **Why it works:** Response expectancy theory, Sociocognitive theory of hypnosis, Demand characteristics, Cold control theory.
 
 **Consent:** It tells the listener they cannot stop, so it needs agreement beforehand, an emergency wake that overrides it, and a condition the script actually delivers; never leave it unresolved at the end of a file.
-
-*Projected from legacy annotations: 16 of 527 scripts.*
 
 
 ## Suggestion forms
@@ -1693,8 +1605,6 @@ A direct suggestion names the response openly and tells the listener to produce 
 
 **Why it works:** Direct verbal suggestion, Hypnotic suggestibility, Response expectancy theory, Authority principle.
 
-*Projected from legacy annotations: 25 of 527 scripts.*
-
 
 ### Indirect suggestion *(unit)*
 
@@ -1720,8 +1630,6 @@ An indirect suggestion points at the response without commanding it and often wi
 
 **Consent:** Because the listener may not register that a suggestion was made, tell them beforehand what the session is for.
 
-*Projected from legacy annotations: 44 of 527 scripts.*
-
 
 ### Permissive suggestion *(unit)*
 
@@ -1744,8 +1652,6 @@ A permissive suggestion names the response openly but frames it as an ability or
 **Evidence:** clinical-tradition. Standard in clinical texts; studies comparing permissive and authoritarian wording find little overall difference in response, with some listeners preferring one style.
 
 **Why it works:** Psychological reactance, Self-determination theory, Response expectancy theory.
-
-*Projected from legacy annotations: 30 of 527 scripts.*
 
 
 ### Contingent suggestion *(unit)*
@@ -1770,8 +1676,6 @@ A contingent suggestion makes the response depend on an ongoing or inevitable ev
 
 **Why it works:** Pacing and leading, Response expectancy theory, Classical conditioning, Implementation intentions.
 
-*Projected from legacy annotations: 320 of 527 scripts.*
-
 
 #### Stepwise doubling *(variant)*
 
@@ -1795,8 +1699,6 @@ A contingent suggestion whose second half is a quantified increase of a state th
 
 **Why it works:** Response expectancy theory, Anchoring effect (judgment), Demand characteristics, Contrast effect.
 
-*Projected from legacy annotations: 221 of 527 scripts.*
-
 
 ### Compound suggestion *(unit)*
 
@@ -1819,8 +1721,6 @@ A compound suggestion is one sentence with two halves joined by a plain conjunct
 **Evidence:** clinical-tradition. Described in Ericksonian texts; whether the conjunction itself transfers acceptance has not been tested. Source: Erickson & Rossi, Hypnotherapy: An Exploratory Casebook (1979).
 
 **Why it works:** Pacing and leading, Mere-agreement effect / acquiescence, Processing fluency.
-
-*Projected from legacy annotations: 51 of 527 scripts.*
 
 
 ### Truism *(unit)*
@@ -1862,15 +1762,13 @@ An embedded command is a string of words that would be an imperative if lifted o
 
 **Spot it by:** a bare-verb phrase inside a subordinate clause that reads as an imperative on its own; carrier frames: 'I wonder if you'll', 'you don't have to', 'people can', 'I'm not going to tell you to'; the embedded phrase is italicized, capitalized or set off by commas or dashes; 'now' placed oddly at the end of the embedded phrase; a name or 'you know' inserted just before the verb phrase.
 
-**Not to be confused with:** Analog marking (analog marking is the vocal or typographic setting-apart; the embedded command is the wording being set apart); Interspersal (interspersal scatters single words or phrases across a narrative; an embedded command is a whole imperative inside one sentence); Embedded question (an embedded question hides a question in a statement; when an 'I wonder' or 'I don't know' carrier also holds an imperative-shaped phrase, label the sentence as embedded question and add this label only if the phrase is set off (italics, capitals, a pause, a trailing 'now')); Direct suggestion (a direct suggestion is an imperative standing as its own sentence).
+**Not to be confused with:** Analog marking (analog marking is the vocal or typographic setting-apart; the embedded command is the wording being set apart); Interspersal (interspersal scatters single words or phrases across a narrative; an embedded command is a whole imperative inside one sentence); Embedded question (an embedded question folds a question into a statement; an embedded command contains a phrase that reads as an imperative when lifted out, and a question carrier can contain both only when that separate imperative phrase is present); Direct suggestion (a direct suggestion is an imperative standing as its own sentence).
 
 **Evidence:** practitioner-lore. Widely taught, but there is no controlled evidence that an embedded phrase is processed as a separate command or works outside awareness. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Vol. 1 (1975).
 
 **Why it works:** Embedded commands, Milton Model, Analog marking, Priming.
 
 **Consent:** It is meant to work without the listener noticing a command, so use it only where the listener has agreed to receive suggestions of that kind.
-
-*Projected from legacy annotations: 9 of 527 scripts.*
 
 
 ### Interspersal *(unit)*
@@ -1896,8 +1794,6 @@ Interspersal threads suggestion words (comfort, ease, resting, letting go) at in
 **Why it works:** Interspersal technique, Priming, Spreading activation, Narrative transportation.
 
 **Consent:** It is designed to be missed, so the listener should have agreed beforehand to what is being suggested.
-
-*Projected from legacy annotations: 14 of 527 scripts.*
 
 
 ### Embedded question *(unit)*
@@ -1968,8 +1864,6 @@ A tag question is a two- or three-word question appended to a statement, usually
 
 **Why it works:** Mere-agreement effect / acquiescence, Milton Model, Common ground, Psychological reactance.
 
-*Projected from legacy annotations: 10 of 527 scripts.*
-
 
 ### Negative suggestion *(unit)*
 
@@ -1995,8 +1889,6 @@ A negative suggestion states the wanted response under 'don't', 'not', 'no need 
 
 **Consent:** It asks for one thing while seeming to ask for its opposite, so the listener should know the session uses indirect wording.
 
-*Projected from legacy annotations: 136 of 527 scripts.*
-
 
 ### Not doing / not knowing *(unit)*
 
@@ -2019,8 +1911,6 @@ This form removes the listener's job: they do not have to make anything happen, 
 **Evidence:** clinical-tradition. Standard clinical form; research supports that hypnotic responses are experienced as involuntary and that expectancy shapes this, but the wording itself has not been tested alone. Source: Erickson & Rossi, Hypnotherapy: An Exploratory Casebook (1979).
 
 **Why it works:** Response expectancy theory, Cold control theory, Automaticity, Dissociated control theory.
-
-*Projected from legacy annotations: 108 of 527 scripts.*
 
 
 ### Open-ended suggestion *(unit)*
@@ -2045,8 +1935,6 @@ An open-ended suggestion leaves the content of the response to the listener: som
 
 **Why it works:** Response expectancy theory, Indirect suggestion, Pragmatic enrichment, Milton Model.
 
-*Projected from legacy annotations: 118 of 527 scripts.*
-
 
 #### Covering all possibilities *(variant)*
 
@@ -2069,8 +1957,6 @@ The writer names the full range of responses within one class (lift, press down,
 **Evidence:** clinical-tradition. Described in Ericksonian texts as a way to make any response count; not tested separately. Source: Erickson & Rossi, Hypnotherapy: An Exploratory Casebook (1979).
 
 **Why it works:** Response expectancy theory, Indirect suggestion, Confirmation bias.
-
-*Projected from legacy annotations: 96 of 527 scripts.*
 
 
 ### Implied directive *(unit)*
@@ -2120,8 +2006,6 @@ A posthypnotic suggestion is defined by timing: it is given in trance and aimed 
 
 **Consent:** The effect is meant to persist after the session, so the listener must know before starting what is being set, and the script should state its limits and how it ends.
 
-*Projected from legacy annotations: 284 of 527 scripts.*
-
 
 ### Extended quotes *(unit)*
 
@@ -2150,7 +2034,7 @@ The suggestion sits inside quotation: the speaker reports what someone else said
 
 ### My friend John *(unit)*
 
-Also called: My Friend John technique, My-Friend-John, third-person induction, surrogate subject.
+Also called: My Friend John technique, third-person induction, surrogate subject.
 
 The speaker directs a full induction or set of suggestions at someone else: an imagined person in an empty chair, or a character whose session is being described. Every suggestion is addressed to or reported about that person, and the listener, following along, carries them out. It differs from plain quoting in that the third person is shown receiving and responding to the suggestions step by step.
 
@@ -2172,12 +2056,10 @@ The speaker directs a full induction or set of suggestions at someone else: an i
 
 **Consent:** The listener may not realize the session is aimed at them, so agree beforehand that hypnosis is what is taking place.
 
-*Projected from legacy annotations: 44 of 527 scripts.*
-
 
 ### Challenge suggestion *(unit)*
 
-Also called: try and fail, try to open your eyes, law of reversed effect, challenge item, test suggestion, law of reversed effort.
+Also called: try and fail, try to open your eyes, challenge item, test suggestion.
 
 A challenge suggestion pairs a suggested inability (eyes will not open, arm will not bend, a name will not come) with an invitation to test it. The listener's own failed effort becomes the evidence. The wording usually builds the failure into the invitation: 'try' already implies not succeeding, and 'the harder you try, the more stuck it is' turns effort against itself.
 
@@ -2198,8 +2080,6 @@ A challenge suggestion pairs a suggested inability (eyes will not open, arm will
 **Why it works:** Hypnotic suggestibility, Response expectancy theory, Cold control theory, Self-perception theory, Ironic process theory.
 
 **Consent:** It stages a loss of control, so the listener should have agreed to that kind of demonstration and the effect must be released explicitly.
-
-*Projected from legacy annotations: 137 of 527 scripts.*
 
 
 ### The more... the more *(unit)*
@@ -2223,8 +2103,6 @@ This form yokes two quantities with a correlative comparative: 'the more you lis
 **Evidence:** practitioner-lore. A common form in Ericksonian and NLP scripts; not tested as a form.
 
 **Why it works:** Milton Model, Pacing and leading, Response expectancy theory.
-
-*Projected from legacy annotations: 418 of 527 scripts.*
 
 
 #### Self-reinforcing loop *(variant)*
@@ -2251,8 +2129,6 @@ Two the-more-the-more links joined end to end so the second term feeds back into
 
 **Consent:** Harmless for relaxation; when the looped terms are need, arousal or obedience, the loop is meant to be hard to exit and should be disclosed and bounded.
 
-*Projected from legacy annotations: 232 of 527 scripts.*
-
 
 #### The harder you resist *(variant)*
 
@@ -2276,12 +2152,10 @@ A claim that links resisting to the opposite of its aim: the more you fight, the
 
 **Why it works:** Ironic process theory, Response expectancy theory.
 
-*Projected from legacy annotations: 269 of 527 scripts.*
-
 
 ### Ratification *(unit)*
 
-Also called: that's right, good, micro-ratification, ratifying the response, confirmation.
+Also called: that's right, good, ratifying the response, confirmation.
 
 Ratification is a short acknowledgment placed directly after a response: 'that's right', 'good', 'just like that'. It tells the listener that what just happened was the response and that it was noticed. It differs from praise in that it certifies the event rather than rewarding the person, though one phrase can do both.
 
@@ -2301,8 +2175,6 @@ Ratification is a short acknowledgment placed directly after a response: 'that's
 
 **Why it works:** Response expectancy theory, Operant conditioning, Self-perception theory, Utilization.
 
-*Projected from legacy annotations: 139 of 527 scripts.*
-
 
 #### Pacing trance signs *(variant)*
 
@@ -2316,19 +2188,17 @@ The writer names small bodily changes that occur whenever someone sits quietly w
 
 > Your hands have been still for some time now. You haven't needed to move them. That stillness tells you trance has already begun.
 
-> Perhaps you've already swallowed, or felt your eyelids flutter. The body does that as it lets go.
+> Perhaps you've swallowed or felt your eyelids flutter. Those small changes can be signs that you're settling into trance.
 
 **Spot it by:** named physiological signs: breathing slower, swallowing, eyelids fluttering, stillness, heavy limbs, face relaxing; perfect or progressive aspect marking a change that has occurred: 'has slowed', 'has become', 'are becoming'; interpretive clause: 'that is a sign', 'that tells you', 'that means you are going into trance'; noticing frames: 'you may notice', 'perhaps you've already'; the word 'sign', 'signal' or 'evidence' near a body description.
 
-**Not to be confused with:** Ratification (ratification is the brief confirmation of any response as it occurs ('that's right'); this entry describes trance indicators and asserts their meaning); Complex equivalence (complex equivalence is any 'X means Y' claim; when X is an ordinary sign of settling (breathing, stillness, swallowing, eyelids) and Y is trance, label this entry, and add complex equivalence only if the 'means' clause is being tracked separately); Relabeling sensation (relabeling takes one felt sensation (a tingle, warmth, a quick heartbeat) and gives it a new cause or meaning; this entry cites the visible signs of settling as evidence that trance is under way); Convincer (a convincer stages a suggested phenomenon and a test of it; this points at ordinary changes that would happen anyway).
+**Not to be confused with:** Ratification (ratification briefly confirms a response as it occurs ('that's right'); this entry names a sign of settling and presents it as evidence of trance); Complex equivalence (complex equivalence is the general claim that X means Y; when an ordinary bodily or behavioral sign of settling is presented as evidence of trance, use this narrower entry); Relabeling sensation (sensation relabeling gives a felt sensation a new cause or meaning; when the meaning is simply that trance or relaxation is occurring, use this entry); Convincer (a convincer stages a suggested phenomenon as proof; this entry interprets an ordinary sign of settling as evidence of trance).
 
 **Evidence:** clinical-tradition. Standard in clinical texts; the signs named are those of ordinary relaxation and are not specific markers of hypnosis, though telling people they are responding does raise expectancy, which predicts response. Source: Erickson, Rossi & Rossi, Hypnotic Realities (1976).
 
 **Why it works:** Response expectancy theory, Self-perception theory, Pacing and leading, Sociocognitive theory of hypnosis, Demand characteristics.
 
 **Consent:** It presents normal relaxation as proof of trance; this is fair inside an agreed session, but should not be used to persuade someone they are more affected than they are.
-
-*Projected from legacy annotations: 43 of 527 scripts.*
 
 
 ### Apposition of opposites *(unit)*
@@ -2353,8 +2223,6 @@ Two opposed states are suggested together and tied to each other: one hand light
 
 **Why it works:** Contrast effect, Response expectancy theory, Indirect suggestion.
 
-*Projected from legacy annotations: 11 of 527 scripts.*
-
 
 ### Question as suggestion *(unit)*
 
@@ -2377,8 +2245,6 @@ A question is put to the listener whose answer requires turning attention to the
 **Evidence:** clinical-tradition. Clinical use is standard; research on leading questions shows that question wording can shape reports and memory, but effects on hypnotic response specifically are not measured. Source: Erickson & Rossi, Hypnotherapy: An Exploratory Casebook (1979).
 
 **Why it works:** Presupposition, Presupposition accommodation, Misinformation effect, Attentional capture, Indirect suggestion.
-
-*Projected from legacy annotations: 23 of 527 scripts.*
 
 
 ### Suggestion repetition *(unit)*
@@ -2403,8 +2269,6 @@ The writer returns to one suggestion more than once within the session, either v
 
 **Why it works:** Illusory truth effect, Mere-exposure effect, Processing fluency, Familiarity heuristic.
 
-*Projected from legacy annotations: 232 of 527 scripts.*
-
 
 #### Deeper and deeper *(variant)*
 
@@ -2422,13 +2286,11 @@ Deepening by saturation: the direct suggestion 'deeper' is restated over and ove
 
 **Spot it by:** 'deeper and deeper', 'down and down', 'further and further'; high density of depth words (deeper, down, sink, drop, further) with no count or scene; 'deeper still', 'even deeper', 'deeper now'; short sentences or fragments ending in a depth word.
 
-**Not to be confused with:** Suggestion repetition (the general device of repeating any suggestion; this is its depth-word case, and takes both labels); Comparative deletion (labels a single 'deeper' with no standard; use this entry only when depth words recur three or more times across a passage with no count, scene or contingency carrying them); Immediate repetition (a word repeated back to back as a figure; this is repetition spread across a passage); Repetition induction (a repeated phrase or loop used to start trance).
+**Not to be confused with:** Suggestion repetition (the general device of repeating any suggestion; this is its depth-word case, and takes both labels); Comparative deletion (labels 'deeper' when its comparison standard is omitted, even once; use this entry when depth words recur across a passage with no count, scene or contingency carrying them); Immediate repetition (a word repeated back to back as a figure; this is repetition spread across a passage); Repetition induction (a repeated phrase or loop used to start trance).
 
 **Evidence:** clinical-tradition. Repetition of suggestions is standard and repeated statements are experimentally rated as more true; whether repeating 'deeper' changes responsiveness has not been tested.
 
 **Why it works:** Illusory truth effect, Processing fluency, Response expectancy theory, Direct verbal suggestion.
-
-*Projected from legacy annotations: 5 of 527 scripts.*
 
 
 ### Compounding *(unit)*
@@ -2453,8 +2315,6 @@ Compounding is a stated rule about the suggestions themselves: every one that ta
 
 **Why it works:** Response expectancy theory, Commitment and consistency, Self-perception theory, Critical faculty (Elman).
 
-*Projected from legacy annotations: 10 of 527 scripts.*
-
 
 ### Giving a reason *(unit)*
 
@@ -2477,8 +2337,6 @@ The suggestion is followed, or preceded, by a stated reason. The form of a justi
 **Evidence:** experimental. In the original study an empty reason raised compliance only for a small request; with a larger request only a real reason helped, so the popular claim that 'because' works on anything overstates the finding. Source: Langer, Blank & Chanowitz, 'The mindlessness of ostensibly thoughtful action', Journal of Personality and Social Psychology (1978).
 
 **Why it works:** Elaboration likelihood model, Dual-process theory, Processing fluency, Automaticity.
-
-*Projected from legacy annotations: 25 of 527 scripts.*
 
 
 ### Sensory language *(unit)*
@@ -2528,14 +2386,12 @@ The suggestion is phrased in the listener's own grammatical person: 'I am calm',
 
 **Consent:** Lines written as the listener's own thoughts can blur whose idea they were, so the listener should know the script uses this form.
 
-*Projected from legacy annotations: 43 of 527 scripts.*
-
 
 #### Affirmations *(variant)*
 
 Also called: positive self-statements, self-affirmations, autosuggestion formula, I-am statements.
 
-Affirmations are first-person, positively worded statements describing the listener as they want to be, repeated in a block or prescribed as a repeated practice. The form is fixed by tradition: 'I', present tense, no negations. They differ from a general mantra, which can be any phrase in any person, and from an identity statement, which may also be an 'I am' line but is said once as settled fact; repetition, or an instruction to repeat, is what makes the line an affirmation.
+Affirmations are first-person statements the listener is asked to repeat, or that the script repeats as a block, describing a desired quality, ability, or outlook. They are usually positive and present-tense. A general mantra can use other wording or content. An identity statement can also be an 'I am' line; repeated or prescribed self-voicing makes that line an affirmation as well.
 
 **How:** Write each one in the first person and present tense, short enough to say on one breath. Keep the claim within reach: statements the listener finds plainly false tend to provoke counter-argument, so 'I am learning to speak calmly' is safer than 'I am fearless'. Use three to five affirmations and repeat the set, in the session and as daily practice. Tell the listener whether to say them aloud, silently, or just hear them.
 
@@ -2575,8 +2431,6 @@ A two-part suggestion laid over one breath cycle: the inhale brings in a wanted 
 **Evidence:** clinical-tradition. Routine in relaxation, meditation and clinical hypnosis scripts; slow breathing itself lowers arousal, but whether attaching paired contents to the two halves of the breath adds anything has not been tested.
 
 **Why it works:** Pacing and leading, Response expectancy theory, Classical conditioning.
-
-*Projected from legacy annotations: 16 of 527 scripts.*
 
 
 ### Presupposition and implication
@@ -2618,8 +2472,6 @@ A presupposition is what a sentence takes for granted in order to mean anything.
 
 **Consent:** It works because the listener does not stop to evaluate the assumed claim, so presuppose only responses the listener has agreed to.
 
-*Projected from legacy annotations: 110 of 527 scripts.*
-
 
 ##### Time-clause presupposition *(variant)*
 
@@ -2627,7 +2479,7 @@ Also called: subordinate clause of time, temporal clause, before/after/while/whe
 
 A time clause locates one event relative to another and takes the event in the clause as given. 'Before you go deeper, take a breath' is about the breath; going deeper is assumed. The trigger is the time conjunction. It differs from a contingent suggestion, where the clause holds something already true and the suggestion sits in the main clause.
 
-**How:** Put the response you want in the time clause and a small, easy instruction or observation in the main clause. 'After', 'once', 'while' and 'since' commit the sentence to the event most firmly. 'Before' is weaker than it looks: a 'before' clause can name something that never happens ('stop before you fall'), so use it where the response is already expected. 'When' and 'as' can be heard as prediction or as description and suit early passages. The main clause should be something the listener can do or verify at once, so attention goes there. Do not use it for a response the listener is clearly not having; 'after your eyes have closed' said to open eyes for a minute becomes a failed prediction.
+**How:** Put the response you want in a time clause and an easy instruction or observation in the main clause. 'After', 'once', 'while' and 'since' can present the response as a temporal landmark, but a future clause does not guarantee it will occur. 'Before' is especially weak: 'stop before you fall' is coherent even if no fall occurs. 'When' and 'as' can sound like predictions or descriptions. Use these clauses where the response is plausible, and keep the main clause something the listener can do or verify at once. Avoid claiming a response the listener clearly is not having.
 
 > Before you drift all the way down, notice the weight of your hands.
 
@@ -2694,8 +2546,6 @@ Awareness verbs such as notice, realize, discover and be aware are factive: they
 **Why it works:** Factive presupposition, Presupposition accommodation, Response expectancy theory, Confirmation bias.
 
 **Consent:** The listener is led to search for and confirm a state without being asked whether it exists, so use it for agreed outcomes only.
-
-*Projected from legacy annotations: 31 of 527 scripts.*
 
 
 ##### Adverb / adjective presupposition *(variant)*
@@ -2772,8 +2622,6 @@ The writer uses past or perfect tense, 'already', or a result state to report th
 
 **Consent:** It removes the moment at which the listener could decline, so use it only for effects agreed before the session.
 
-*Projected from legacy annotations: 329 of 527 scripts.*
-
 
 #### Loaded question *(unit)*
 
@@ -2785,13 +2633,13 @@ A loaded question carries a claim the listener has not agreed to, and every dire
 
 > How long have you been needing a rest like this?
 
-> What is it about this voice that makes relaxing so easy?
+> What made you decide to come back tonight?
 
 > When did you first realize you were good at this?
 
 **Spot it by:** direct wh-question ('how long', 'when did', 'what is it about', 'why do you') with a question mark; what it assumes is a wish, need, motive, history or trait of the listener, not a sensation they can check right now; 'how much do you want ...', 'why do you keep coming back to ...'; 'do you still ...', 'have you stopped ...'; no direct answer denies the assumption; denying it takes 'I don't' or 'it isn't'.
 
-**Not to be confused with:** Question as suggestion (label that when the question sends attention to a present sensation or response ('which hand feels warmer?'); label this when it assumes a wish, motive, history or trait); Presupposition (the same assumption in a statement is presupposition; loaded question needs a direct question the listener is expected to answer); Embedded question ('I wonder how long you've wanted this' owes no answer; label embedded question, with the presupposition variant for its trigger); Double bind ('X or Y?' with listed alternatives is a bind or the or-variant; loaded question covers assumptions carried without listed alternatives); Tag question (a tag asks for agreement with a stated claim; a loaded question never states the claim); Rhetorical question (a rhetorical question makes a point the speaker treats as obvious and wants no answer; a loaded question wants an answer and the answer concedes the assumption).
+**Not to be confused with:** Question as suggestion (label that when the question directs attention to a present sensation or response ('which hand feels warmer?'); label this when it assumes a wish, motive, history or trait); Presupposition (the same assumption in a statement is presupposition; loaded question needs a direct question the listener is expected to answer); Embedded question ('I wonder how long you've wanted this' owes no answer; label embedded question, with the presupposition variant for its trigger); Double bind (a direct 'X or Y?' that offers two versions of the response is a bind, or a time bind when only timing differs; the or-presupposition variant covers alternatives inside a statement); Tag question (a tag asks for agreement with a stated claim; a loaded question leaves the assumed claim unstated); Rhetorical question (a rhetorical question makes a point without seeking an answer; a loaded question solicits an answer that concedes its assumption).
 
 **Evidence:** experimental. Studies of leading questions show that wording which presupposes a detail changes answers and later memory; whether an inward answer during trance commits the listener the same way is untested.
 
@@ -2799,22 +2647,20 @@ A loaded question carries a claim the listener has not agreed to, and every dire
 
 **Consent:** Answering concedes something the listener was never asked to agree to, and can alter what they later remember wanting, so load only what they have told you is true.
 
-*Projected from legacy annotations: 7 of 527 scripts.*
-
 
 #### Implication *(unit)*
 
 Also called: conversational implicature, implied suggestion, psychological implication, suggestion by inference.
 
-An implication is content the sentence does not state and its grammar does not require, but which a cooperative listener works out from what was said and what was left unsaid. 'You can go only as deep as feels comfortable today' leaves the listener to conclude that they will go deep. Unlike a presupposition it can be cancelled ('I never said you would') and it does not survive negation. Indirect suggestion is the broad style; implication is the single move of leaving one specific inference to be drawn. When the inference comes from negating the target itself ('you don't have to close your eyes yet'), the label is negative suggestion.
+An implication is content a sentence does not state or grammatically require, but which a listener can infer from its wording and context. 'You can keep your eyes open for the first minute or two' suggests that closing them later is expected, without saying that it will happen. The inference can be cancelled without contradiction. Indirect suggestion is the broad style; implication is the particular inference left for the listener to draw. When the target response itself is negated ('you don't have to close your eyes yet'), label negative suggestion.
 
 **How:** Write down the conclusion you want, then write a sentence that is only worth saying if that conclusion is true, and stop. Useful levers: a limit that implies what lies past it ('for now', 'only as fast as', 'for the first minute'), a mention that implies relevance ('some people find their hands tingle first'), and emphasis that implies a contrast ('your conscious mind can keep listening'). Leave a beat afterwards; the inference needs time. If the inference takes more than one step, most listeners will not make it, and spelling it out afterwards turns it into a direct suggestion.
 
-> You can go only as deep as feels comfortable today.
+> You can keep your eyes open for the first minute or two.
 
 > Most people find their eyelids start to feel it somewhere around the third breath.
 
-> It's fine to keep your eyes open for the first minute or two.
+> You can keep that steady, ordinary breathing for now.
 
 **Spot it by:** a limit on a permission or description: 'for now', 'so far', 'at first', 'for the first minute or two'; a ceiling that only makes sense if the response is coming: 'only as deep as', 'no faster than'; one statement about other people or about one option, with the application to the listener left unsaid; target response never stated as instruction or fact, and not named under 'don't' or 'not', anywhere in the span; the inferred claim can be named in a sentence and could be denied without contradiction ('I didn't say that').
 
@@ -2826,8 +2672,6 @@ An implication is content the sentence does not state and its grammar does not r
 
 **Consent:** The listener experiences the conclusion as their own and the writer keeps deniability, so imply only what you would be willing to say outright.
 
-*Projected from legacy annotations: 16 of 527 scripts.*
-
 
 ##### If-then implication *(variant)*
 
@@ -2837,11 +2681,11 @@ The writer ties a response to a simple voluntary act with 'if ... then'. The con
 
 **How:** Choose an 'if' the listener is about to do anyway or can do with no effort: sit back, close the eyes, take a breath, keep listening. State the 'then' as the response you want, with 'can' or 'will'. Say it before the act, and ratify the act when it comes. It works best early, as the listener settles, and at decision points. If the act and the response have no plausible connection, say so lightly or build one; an arbitrary link is noticed.
 
-> If you settle back in the chair, you can let this begin.
+> If you settle back in the chair, that is your signal to let this begin.
 
 > If you close your eyes now, you're telling yourself you're ready to go deeper.
 
-> If you take one more slow breath, you can let the last of that tension go with it.
+> If you take one more slow breath, that breath is your signal to release the tension.
 
 **Spot it by:** 'if you [simple voluntary act], (then) you will / can [response]'; the 'if' clause names something the listener does on purpose, not something happening to them; the act has not been done yet; the sentence comes before it; the act is one the listener is about to do anyway: sit back, close the eyes, take a breath; ratification ('that's right', 'good') in the lines right after.
 
@@ -2872,13 +2716,11 @@ An enthymeme is an argument in which a premise or the conclusion is not stated. 
 
 **Not to be confused with:** Giving a reason (when the reason and the claim are both on the page, label giving a reason; label this only when a step, usually the conclusion, is visibly left for the listener); Implication (implication is one statement with an inference left open; this needs two stated parts of an argument with a step missing); Your actions prove it (when the stated fact is the listener's own act and the point is what they want or are, label your-actions-prove-it; add this label only if the conclusion is left unsaid); Unfinished sentence (an unfinished sentence breaks off the grammar; here the sentences are whole and the logic has the gap); Cause-effect link (a cause-effect link asserts that X causes Y; this argues from X to Y through an unspoken rule).
 
-**Evidence:** rhetorical-tradition. A classical figure. In persuasion research, messages that state their conclusion are on average at least as persuasive as those that leave it out; a self-drawn conclusion seems to help only when the listener is able and motivated to draw it. Source: Aristotle, Rhetoric.
+**Evidence:** rhetorical-tradition. A classical figure. Persuasion studies comparing stated and unstated conclusions do not establish an advantage for leaving the conclusion unsaid; the result varies with the message and audience. Source: Aristotle, Rhetoric.
 
 **Why it works:** Enthymeme, Enthymematic persuasion, Generation effect, Pragmatic enrichment.
 
 **Consent:** The listener adopts a premise they never heard stated, so leave out only premises you could state and defend.
-
-*Projected from legacy annotations: 2 of 527 scripts.*
 
 
 #### Assumed common ground *(unit)*
@@ -2895,7 +2737,7 @@ The writer attaches a marker of shared knowledge ('of course', 'as you know', 'w
 
 > We both know you do this better when you stop trying.
 
-**Spot it by:** 'as you know', 'as you already know', 'as we both know', 'we both know'; 'of course', 'obviously', 'naturally', 'clearly', 'needless to say'; 'you know perfectly well', 'you and I know', 'you know as well as I do'; 'remember, ...' introducing something not said earlier in the script; 'after all', 'as always', 'as we agreed' with no earlier agreement in the text; marker is an aside or sentence opener; the claim itself is stated in full, then the script moves on.
+**Spot it by:** 'as you know', 'as you already know', 'as we both know', 'we both know'; 'of course', 'obviously', 'naturally', 'clearly', 'needless to say'; 'between us', 'as we agreed', 'you and I both know' presenting a claim as shared; 'remember, ...' introducing something not said earlier in the script; 'after all', 'as always', 'as we agreed' with no earlier agreement in the text; marker is an aside or sentence opener, or invokes shared agreement; the claim itself is stated in full.
 
 **Not to be confused with:** Truism (a truism really is undeniable; this dresses a contestable claim as already agreed); Awareness predicate ('you know / realize that X' with the claim as the verb's object is the awareness predicate; label this entry for an aside or opener ('as you know', 'of course') or a 'we' subject ('we both know')); Mind reading (mind reading claims knowledge of what the listener thinks or feels now; this claims they already hold a belief in common with the speaker); Social proof (social proof cites what other people do; this cites agreement between speaker and listener).
 
@@ -2943,8 +2785,6 @@ A verb or adjective turned into a noun: relaxing becomes relaxation, learning be
 
 **Why it works:** Milton Model, Meta Model, Pragmatic enrichment, Self-reference effect.
 
-*Projected from legacy annotations: 3 of 527 scripts.*
-
 
 #### Unspecified verb *(unit)*
 
@@ -2968,8 +2808,6 @@ A verb that names an internal process but gives no manner or mechanism: change, 
 
 **Why it works:** Milton Model, Meta Model, Pragmatic enrichment.
 
-*Projected from legacy annotations: 10 of 527 scripts.*
-
 
 #### Unspecified referent *(unit)*
 
@@ -2992,8 +2830,6 @@ A noun phrase that does not pick out a specific person or thing: people, someone
 **Evidence:** practitioner-lore. That listeners apply generic statements to themselves is plausible and consistent with self-reference research, but the pattern itself has not been tested as a hypnotic device. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
 
 **Why it works:** Milton Model, Self-reference effect, Pragmatic enrichment, Indirect suggestion.
-
-*Projected from legacy annotations: 59 of 527 scripts.*
 
 
 #### Comparative deletion *(unit)*
@@ -3068,8 +2904,6 @@ A claim about the listener's inner experience with no stated basis: 'I know you'
 
 **Consent:** Telling a listener what they think or want can replace their own report of it; do not use it to override a stated limit or doubt.
 
-*Projected from legacy annotations: 50 of 527 scripts.*
-
 
 #### Cause-effect link *(unit)*
 
@@ -3092,8 +2926,6 @@ An unsupported assertion that X produces Y: 'the sound of my voice makes you rel
 **Evidence:** practitioner-lore. Stated causal expectations do shape response (expectancy research), but the specific NLP grading of weak to strong linkage is untested. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
 
 **Why it works:** Milton Model, Meta Model, Response expectancy theory.
-
-*Projected from legacy annotations: 264 of 527 scripts.*
 
 
 #### Complex equivalence *(unit)*
@@ -3120,8 +2952,6 @@ An assertion that two different things are the same or that one is evidence of t
 
 **Consent:** The listener is handed a meaning for their own reactions; avoid equivalences that turn hesitation or discomfort into agreement.
 
-*Projected from legacy annotations: 276 of 527 scripts.*
-
 
 #### Universal quantifier *(unit)*
 
@@ -3139,15 +2969,13 @@ A word that generalizes a statement to all instances, times or things: every bre
 
 **Spot it by:** all, every, each, any, always, never, none, nothing, no one, everyone, everything, everywhere; 'every time', 'each and every', 'with every ...', 'all of your ...', 'every part of you'; 'whenever', 'wherever', 'no matter what / where / when'; quantifier attached to a recurring event (breath, word, sound, count).
 
-**Not to be confused with:** Contingent suggestion ('with every breath, ...' and 'each time ..., ...' are contingent suggestions (breath-deepener when tied to depth); label the quantifier separately only where no such linking form already covers it); Inevitability (that asserts the outcome cannot be avoided; a quantifier only removes exceptions from a statement); Hyperbole (hyperbole is overstatement not meant literally; the quantifier is meant to hold in every case); Truism (a truism with 'everyone' is offered as plain fact to be agreed with; the quantifier label is for a suggestion made exceptionless).
+**Not to be confused with:** Contingent suggestion ('with every breath, ...' and 'each time ..., ...' are contingent suggestions (breath-deepener when tied to depth); label the quantifier separately only where no such linking form already covers it); Inevitability (that asserts the outcome cannot be avoided; a quantifier only removes exceptions from a statement); Hyperbole (hyperbole is overstatement not meant literally; the quantifier is meant to hold in every case); Truism (a truism with 'everyone' is offered as plain fact to be agreed with; the quantifier label is for a suggestion made exceptionless); Everything deepens (that specifically says any stimulus deepens trance; label that narrower device when the quantifier ranges over stimuli linked to deepening).
 
 **Evidence:** practitioner-lore. A basic feature of language used throughout hypnotic scripts; no study isolates the effect of universal wording on response. Source: Bandler & Grinder, The Structure of Magic, Volume 1 (1975).
 
 **Why it works:** Milton Model, Meta Model.
 
 **Consent:** Words like always, never and everywhere extend a suggestion beyond the session; bound them with scope limits when the effect is meant to last.
-
-*Projected from legacy annotations: 21 of 527 scripts.*
 
 
 #### Modal operator *(unit)*
@@ -3172,8 +3000,6 @@ A modal verb or equivalent that sets the status of an action: possibility (can, 
 
 **Why it works:** Milton Model, Meta Model, Psychological reactance, Illocutionary force.
 
-*Projected from legacy annotations: 18 of 527 scripts.*
-
 
 #### Deletion *(unit)*
 
@@ -3197,8 +3023,6 @@ A sentence with a required piece of information missing, usually the object of a
 
 **Why it works:** Milton Model, Meta Model, Pragmatic enrichment, Generation effect.
 
-*Projected from legacy annotations: 2 of 527 scripts.*
-
 
 #### Sound-alike ambiguity *(unit)*
 
@@ -3208,11 +3032,11 @@ A homophone or near-homophone placed so that the spoken sentence carries a secon
 
 **How:** Write the sentence so the surface meaning is natural and the sound-alike falls where the hidden reading forms a short command or statement. It needs audio; in text it only works if the reader sounds it out. The voice can mark it with a slight pause or drop in tone. Use one at a time; several in a row turn into confusion or comedy.
 
-> And you can relax here... hear only what matters.
+> Now, you can rest.
 
-> You don't need to know anything. No thoughts required.
+> Here, you can let your shoulders settle.
 
-> Let the weight leave your shoulders, and wait.
+> Now, your breathing can slow.
 
 **Spot it by:** homophone pairs near a suggestion: here/hear, know/no, your/you're, to/two/too, by/buy, write/right, weight/wait, whole/hole; a deliberate 'misspelling' in a script that swaps one homophone for another; stage direction or emphasis mark on a homophone; the same sound repeated in both senses in one sentence ('you know... no need to').
 
@@ -3223,8 +3047,6 @@ A homophone or near-homophone placed so that the spoken sentence carries a secon
 **Why it works:** Milton Model, Equivocation, Spreading activation, Priming.
 
 **Consent:** It is meant to pass unnoticed; the hidden reading should say nothing the listener has not agreed to hear openly.
-
-*Projected from legacy annotations: 11 of 527 scripts.*
 
 
 #### Syntactic ambiguity *(unit)*
@@ -3249,8 +3071,6 @@ A phrase with two possible grammatical structures, classically an -ing word plus
 
 **Why it works:** Milton Model, Equivocation, Cognitive load.
 
-*Projected from legacy annotations: 7 of 527 scripts.*
-
 
 #### Scope ambiguity *(unit)*
 
@@ -3274,8 +3094,6 @@ A sentence in which an adjective, adverb or verb could apply to only the next it
 
 **Why it works:** Milton Model, Equivocation.
 
-*Projected from legacy annotations: 5 of 527 scripts.*
-
 
 #### Run-on ambiguity *(unit)*
 
@@ -3295,7 +3113,7 @@ Two sentences fused on a shared word or phrase with no break between them: 'you 
 
 **Not to be confused with:** Unfinished sentence (that breaks off and leaves the thought hanging; this continues straight into a second sentence); And... and... and (that joins whole clauses with repeated conjunctions; here a shared word belongs to both sentences); Non sequitur (that drops in an irrelevant statement; here the join, not the content, is what is odd).
 
-**Evidence:** practitioner-lore. Described by Bandler and Grinder from Erickson's speech. Ill-formed sentences do slow processing, but no study shows the second half is accepted more readily as a result. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
+**Evidence:** practitioner-lore. Bandler and Grinder describe this overlapping-sentence technique in Erickson's speech; evidence that it makes the second clause more acceptable is lacking. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
 
 **Why it works:** Milton Model, Prediction error, Cognitive load, Expectation violation.
 
@@ -3312,7 +3130,7 @@ A sentence that gives an inanimate thing a human experience: 'the chair can rela
 
 > Even the walls seem to be letting go of the day.
 
-> The room itself feels calm and unhurried.
+> The lamp beside you feels no need to hurry.
 
 **Spot it by:** inanimate subject (chair, room, bed, tree, stone, candle) with a verb of feeling, knowing or intending; 'the ... knows how to', 'the ... can relax', 'the ... feels', 'the ... is content to'; an object described with the target state shortly before 'you' is given the same state; one or two sentences only, with no developed story.
 
@@ -3321,8 +3139,6 @@ A sentence that gives an inanimate thing a human experience: 'the chair can rela
 **Evidence:** practitioner-lore. Derived from Erickson's indirect work (for example speaking about a plant's comfort); the claimed mapping onto the self is plausible but untested. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
 
 **Why it works:** Milton Model, Metaphorical suggestion, Indirect suggestion, Pragmatic enrichment.
-
-*Projected from legacy annotations: 21 of 527 scripts.*
 
 
 #### Double meaning *(unit)*
@@ -3348,8 +3164,6 @@ A single word or phrase that has two established meanings, placed so each fits: 
 **Why it works:** Equivocation, Spreading activation, Priming.
 
 **Consent:** The second sense is meant to pass without comment; it should carry nothing the listener has not agreed to hear said plainly.
-
-*Projected from legacy annotations: 49 of 527 scripts.*
 
 
 ## Pacing and utilization
@@ -3387,8 +3201,6 @@ Pacing is describing the listener's present experience in terms they can check a
 
 **Why it works:** Pacing and leading, Common ground, Mere-agreement effect / acquiescence, Processing fluency, Epistemic trust.
 
-*Projected from legacy annotations: 8 of 527 scripts.*
-
 
 ### Pacing and leading *(unit)*
 
@@ -3414,8 +3226,6 @@ A run of pacing statements is followed, in the same tone and grammar, by a state
 
 **Consent:** The lead is meant to pass as one more observation; use it for responses the listener has agreed to pursue.
 
-*Projected from legacy annotations: 16 of 527 scripts.*
-
 
 ### Utilization *(unit)*
 
@@ -3439,12 +3249,10 @@ Utilization treats any behavior, feeling, belief or event as usable: it is accep
 
 **Why it works:** Utilization, Psychological reactance, Reframing, Response expectancy theory, Sociocognitive theory of hypnosis.
 
-*Projected from legacy annotations: 121 of 527 scripts.*
-
 
 #### Incorporation of distractions *(variant)*
 
-Also called: noise incorporation, incorporating sounds, utilizing distractions, any sounds you hear.
+Also called: noise incorporation, incorporating sounds, utilizing distractions.
 
 Incorporation is utilization applied to events in the environment: traffic, voices, a phone, a creak in the building. The script names them before or as they happen and says they belong to the experience, are unimportant, or help. It is narrower than utilization, which also covers what the listener does, feels and believes (a cough, an itch, a doubt), and it differs from 'everything deepens' in that its purpose is to stop a noise from breaking the state, not to turn all stimuli into deepeners.
 
@@ -3463,8 +3271,6 @@ Incorporation is utilization applied to events in the environment: traffic, voic
 **Evidence:** clinical-tradition. Routine in clinical and recorded scripts; no controlled study isolates whether naming distractions in advance protects the state better than saying nothing.
 
 **Why it works:** Utilization, Response expectancy theory, Habituation, Orienting response.
-
-*Projected from legacy annotations: 37 of 527 scripts.*
 
 
 #### Using the listener's own material *(variant)*
@@ -3489,8 +3295,6 @@ This is utilization applied to content the listener supplied: their vocabulary f
 
 **Why it works:** Utilization, Self-reference effect, Generation effect, Processing fluency, Rapport matching.
 
-*Projected from legacy annotations: 48 of 527 scripts.*
-
 
 #### Using resistance *(variant)*
 
@@ -3514,8 +3318,6 @@ The writer accepts the resistance and assigns it a role whose performance is the
 
 **Why it works:** Utilization, Psychological reactance, Therapeutic double bind, Ironic process theory.
 
-*Projected from legacy annotations: 19 of 527 scripts.*
-
 
 ### Normalizing *(unit)*
 
@@ -3531,15 +3333,13 @@ Normalizing tells the listener that what they are experiencing, or are about to 
 
 > Some people feel heavy, some feel light, and some don't notice much the first time. All of that is ordinary.
 
-**Spot it by:** verdict words: 'normal', 'natural', 'perfectly normal', 'ordinary', 'common', 'to be expected'; generic statements about how minds and bodies behave: 'minds wander', 'bodies do that', 'that happens'; reassurance clause: 'it doesn't mean anything is wrong', 'it doesn't mean this isn't working', 'nothing unusual'; 'it's natural to' or 'it's only natural that' followed by a response; range statements ('some people ..., others ...') closed by a verdict that all of them are fine or ordinary.
+**Spot it by:** verdict words applied to a response: 'normal', 'natural', 'perfectly normal', 'ordinary', 'common', 'to be expected'; reassurance clause: 'it doesn't mean anything is wrong', 'it doesn't mean this isn't working', 'nothing unusual'; 'it's natural to' or 'it's only natural that' followed by a response; a generic statement such as 'minds wander' followed by reassurance that this is ordinary or harmless; range statements ('some people ..., others ...') closed by a verdict that all of them are fine or ordinary.
 
 **Not to be confused with:** Social proof (social proof reports what other people do or feel so the listener will expect or do the same ('most people find their hands get heavy first'); normalizing passes a verdict of normal, natural or nothing-wrong on something the listener might worry about. If the sentence carries that verdict, label normalizing even when it mentions other people; if it only reports what others do, label social proof); Truism (a truism is a bare undeniable fact used to build acceptance ('minds wander'); normalizing attaches the reassurance ('so it doesn't mean this isn't working')); Myth correction (myth correction names and rebuts a false belief about hypnosis; normalizing reassures about an experience); Permission (permission says the listener is allowed to respond; normalizing says the response is common).
 
 **Evidence:** clinical-tradition. Standard in clinical pretalks; reducing fear and raising positive expectancy are known to improve response, and descriptive norms influence behavior, but normalizing phrases themselves have not been tested alone.
 
 **Why it works:** Response expectancy theory, Descriptive norms, Informational social influence, Sociocognitive theory of hypnosis, Metacognitive monitoring.
-
-*Projected from legacy annotations: 60 of 527 scripts.*
 
 
 #### Everyday trance *(variant)*
@@ -3564,8 +3364,6 @@ The writer names familiar absorbed states (driving a known route without remembe
 
 **Why it works:** Absorption (trait), Response expectancy theory, Familiarity heuristic, Sociocognitive theory of hypnosis.
 
-*Projected from legacy annotations: 19 of 527 scripts.*
-
 
 ### Permission *(unit)*
 
@@ -3581,7 +3379,7 @@ Permission addresses a response that is already available but inhibited by polit
 
 > You're allowed to enjoy this. There's nothing you have to do to earn it.
 
-**Spot it by:** 'it's okay to', 'it's all right to', 'it's fine to'; 'you're allowed to', 'you have permission to', 'I give you permission', 'give yourself permission'; the permitted thing is a release or a non-effort: let go, stop trying, rest, feel, not listen; the licence wording is what counts: a 'you don't have to' clause with no 'okay' or 'allowed' beside it is not-doing-not-knowing, not permission; often follows a normalizing statement.
+**Spot it by:** 'it's okay to', 'it's all right to', 'it's fine to'; 'you're allowed to', 'you have permission to', 'I give you permission', 'give yourself permission'; an explicit option to release, rest, feel, move, or stop listening without disapproval; 'you don't have to' when it grants a specific choice ('you don't have to keep your eyes closed; you can open them'); generic instructions to stop trying or doing belong to not-doing-not-knowing; often follows a normalizing statement.
 
 **Not to be confused with:** Permissive suggestion (permissive suggestion is the 'you may / you can' phrasing used to offer any response; permission lifts a restraint on a response the listener is holding back); Not doing / not knowing (that form says no effort or knowledge is needed so the response feels automatic; permission says the response is allowed); Asking permission (there the listener asks the speaker for permission; here the speaker grants it unasked).
 
@@ -3591,8 +3389,6 @@ Permission addresses a response that is already available but inhibited by polit
 
 **Consent:** Permission can release things the listener was holding back for good reason; permit only what falls inside what they agreed to.
 
-*Projected from legacy annotations: 45 of 527 scripts.*
-
 
 ## Binds and choices
 
@@ -3600,7 +3396,7 @@ Also called: binds, choice patterns.
 
 Devices in this family work on the listener's sense of choosing. Either the writer offers alternatives that all contain the target response (double bind and its variants), or the writer claims that only two options exist (false dilemma), or the writer makes the listener pick from a closed list (forced choice). What separates the family from presupposition in general is that a choice is explicitly on the table. Citing a choice the listener already made as proof of wanting the result is a different move and is filed under compliance as you-chose-this.
 
-**Choosing:** Use a double bind or one of its variants when you want the response taken for granted and the listener busy with a detail: illusion of choice for a concrete detail, time bind for when, conscious-unconscious bind for which part of the mind responds, reverse-set bind for a listener who pushes back, non-sequitur bind when you want a moment of confusion as well. Use forced choice when you want the listener to actually pick and commit. Use false dilemma to argue that only two paths exist. To build on a choice once it has been made, use you-chose-this from the compliance family. All of them fail when both options are unwelcome, so keep the shared outcome something the listener came for. The family has no nested families.
+**Choosing:** Use a double bind when every offered alternative includes the agreed response. Choose illusion of choice for an inconsequential concrete detail, time bind for when the response happens, conscious-unconscious bind when conscious alternatives leave the unconscious response fixed, reverse-set bind for a listener whose opposition is established, and non-sequitur bind for an illogical choice. Use forced choice to require a pick from substantively different options, and false dilemma to claim that only two paths exist. To draw a conclusion from a choice already made, use you-chose-this under compliance. Keep the options acceptable to the listener, and leave the real choice to refuse or stop clear. The family has no nested families.
 
 **Not to be confused with:** Presupposition and implication (presupposition builds a claim into any sentence; binds do it specifically through an offered or cited choice); Compliance and commitment (compliance devices build agreement over a series of steps; a bind works within one offer).
 
@@ -3613,7 +3409,7 @@ Devices in this family work on the listener's sense of choosing. Either the writ
 
 Also called: therapeutic double bind, Ericksonian double bind, no-lose bind, bind, Or presupposition, whether-or, either-or presupposition, alternative question, disjunctive presupposition.
 
-A double bind is an offer of alternatives in which the target response is common to every option. The listener's attention goes to choosing between the options, and the shared outcome is not put up for decision. Erickson and Rossi separated the bind (a choice between comparable alternatives that the listener makes consciously) from the double bind proper (where the response is assigned to something outside conscious choice); in common practitioner use, and in this canon, the unit covers both and the variants carry the distinctions. It differs from an or-presupposition in that the alternatives are a real offer the listener is expected to take up, not just a clause in passing.
+A double bind is an offer of alternatives in which the target response is common to every option. The listener's attention goes to choosing between the options, and the shared outcome is not put up for decision. Erickson and Rossi separated the bind (a choice between comparable alternatives that the listener makes consciously) from the double bind proper (where the response is assigned to something outside conscious choice); in common practitioner use, and here, the unit covers both and the variants carry the distinctions. It differs from an or-presupposition in that the alternatives are a real offer the listener is expected to take up, not just a clause in passing.
 
 **How:** Decide the response you want, then find a detail of it that does not matter to you: speed, timing, side, manner, which part of the mind does it. Offer that detail as the choice, with 'or' between the options, and make both options easy and pleasant. Place it where the listener is already cooperating, usually late induction through suggestion; early in a pre-talk it reads as a sales trick. Follow it by accepting whichever happens ('that's right') and do not stack several binds in a row, which makes the pattern obvious.
 
@@ -3625,15 +3421,13 @@ A double bind is an offer of alternatives in which the target response is common
 
 **Spot it by:** 'X or Y' where both X and Y entail the same response; 'either ... or ...', 'whether ... or ...'; 'I don't know if ... or ...', 'I wonder whether ... or ...'; 'which', 'which one', 'find out which' applied to a detail of the response; disclaimer of preference after the offer: 'it doesn't matter which', 'whichever you prefer'.
 
-**Not to be confused with:** False dilemma (a false dilemma offers two different outcomes and hides the others; a double bind offers one outcome under two descriptions); Covering all possibilities (that lists every possible response including none; a bind offers a short set that all include the target); Forced choice (forced choice demands an explicit pick between options that differ in substance; in a double bind the options share the outcome and no answer is required).
+**Not to be confused with:** False dilemma (a false dilemma offers two different outcomes and hides the others; a double bind offers alternatives that share the target outcome); Covering all possibilities (that lists every possible response including none; a bind offers a short set that all include the target); Forced choice (forced choice requires a pick from substantively different options; a double bind offers alternatives that share the target outcome, whether or not the listener is asked to pick one).
 
 **Evidence:** clinical-tradition. Standard in Ericksonian clinical texts; the presupposition it rests on is well studied, but the claim that binds outperform direct suggestion has no controlled support. Source: Erickson & Rossi, Varieties of Double Bind (1975).
 
 **Why it works:** Therapeutic double bind, Presupposition accommodation, Presupposition, Psychological reactance, Indirect suggestion.
 
 **Consent:** The listener is not offered the option of not responding, so use it only for responses they have already agreed to seek.
-
-*Projected from legacy annotations: 131 of 527 scripts.*
 
 
 #### Illusion of choice *(variant)*
@@ -3660,8 +3454,6 @@ The plainest bind: the listener really does choose, and can say which they chose
 
 **Consent:** The choice offered is real but small; it does not stand in for asking whether the listener wants the session.
 
-*Projected from legacy annotations: 37 of 527 scripts.*
-
 
 #### Conscious-unconscious double bind *(variant)*
 
@@ -3677,7 +3469,7 @@ A double bind whose alternatives are assigned to two parts of the mind. Whatever
 
 > If your unconscious is ready to relax further, one hand will start to feel lighter. If it wants a little longer, the other one will.
 
-**Spot it by:** two or more options for the conscious mind joined by 'or' ('can listen, or wander') followed by a fixed statement about the unconscious; 'whether or not you consciously ...', 'whether your conscious mind ... or ...'; 'you may or may not consciously notice/remember' + what the unconscious does regardless; paired conditionals with a response in both branches: 'if your unconscious ..., the right hand ...; if not, the left ...'; 'it doesn't matter what your conscious mind does'.
+**Spot it by:** two or more options for the conscious mind joined by 'or' ('can listen, or wander') followed by a fixed statement about what the unconscious does; 'whether or not you consciously ...' followed by a response assigned to the unconscious in either case; 'you may or may not consciously notice/remember' followed by what the unconscious does regardless; paired 'if' branches in which the unconscious produces or directs a response in both branches; 'it doesn't matter whether your conscious mind X or Y' followed by a fixed unconscious response.
 
 **Not to be confused with:** Conscious / unconscious split (the split addresses the unconscious as a separate listener and offers no alternatives; label the bind only when the span states alternatives ('or', 'whether or not', paired 'if' branches) and the response is assigned to the unconscious in all of them. A plain 'your conscious mind can wander while your unconscious listens' is the split); Not doing / not knowing (that only releases the listener from effort; the bind also assigns the response to the unconscious); Implied directive (an implied directive adds a time clause and a signal that the inner response has happened; it can contain this bind).
 
@@ -3725,7 +3517,7 @@ A double bind in which the options sound alike in content but do not follow from
 
 > You can go into trance with your eyes closed, or close your eyes as you go into trance.
 
-> Would you rather close your eyes before you get comfortable, or get comfortable in the chair nearest the window? Now, breathe out.
+> Will your left hand feel lighter while the chair remembers your name, or will the chair remember your name while your left hand feels lighter? Now, notice that hand.
 
 **Spot it by:** 'or' joining two clauses that restate each other with the order of terms swapped; 'either ... or ...' or 'would you rather ... or ...' where the second option shares words with the first but is not an alternative to it; same response word in both halves of an offered choice; question form that cannot be answered by picking a side; plain direct instruction immediately after an illogical choice.
 
@@ -3752,9 +3544,9 @@ A double bind built for a listener who is in the habit of opposing. The writer f
 
 > You probably can't let your eyes close yet, and that's fine. They can stay open and get heavier, or close anyway.
 
-**Spot it by:** 'you won't ... until ...', 'not until you ...' with the wanted response in the main clause; a negated or doubted wanted response followed by a clause accepting either outcome: 'and that's fine', 'either way', 'or it happens anyway'; a run of three or more flat negative statements the listener is likely to contradict, ending with the wanted response in negated form; 'I doubt you can ...', 'you probably can't ... yet' about the wanted response, with 'yet' or 'until' keeping the obedient reading in play; elsewhere the script names the listener's habit of opposing ('you like to do the opposite').
+**Spot it by:** 'you won't ... until ...' where the text also offers a route to the wanted response after the wait; a negated or doubted wanted response paired with explicit alternatives that both lead toward it: 'stay open and grow heavier, or close anyway'; 'either way' after the two reactions, followed by the shared wanted response; a run of negative statements that visibly establishes the listener's contradiction before the wanted response is stated in reverse form; 'I doubt you can ... yet' followed by an explicit account of what happens if the listener waits and if they prove the speaker wrong.
 
-**Not to be confused with:** Reverse psychology (reverse psychology is a single opposite instruction that pays off only if defied ('don't go under yet'); label the bind only when the span itself makes both reactions serve the outcome (an 'until', 'or' or 'either way' clause) or when a run of statements first builds the habit of contradicting. For one bare negative line, label reverse psychology); Negative suggestion (that is the sentence form of naming the response under a negation and relies on the listener having to represent it; it can co-occur, and is the only label when no opposition is being used); Challenge suggestion (a challenge invites an attempt that is suggested to fail as proof; this invites opposition that produces the response).
+**Not to be confused with:** Reverse psychology (a bare opposite instruction pays off if defied; label a reverse-set bind when the text establishes a pattern of the listener contradicting the speaker and then reverses the wanted response, or when it explicitly gives both compliance and defiance paths to the wanted response. An 'until' clause alone only postpones it); Negative suggestion (that names the response under a negation; it can co-occur, but negation alone does not establish opposition or a bind); Challenge suggestion (a challenge invites an attempt expected to fail as proof; this uses established opposition or explicitly covers both reactions).
 
 **Evidence:** practitioner-lore. Rests on Erickson's case reports; reactance, the tendency it exploits, is well established, but the bind itself has not been tested and depends on correctly judging that the listener is opposing. Source: Erickson & Rossi, Varieties of Double Bind (1975).
 
@@ -3787,8 +3579,6 @@ A false dilemma narrows a situation to two outcomes that really are different, a
 
 **Consent:** It works by the listener not noticing the omitted options; do not use it to frame stopping or leaving as one of two bad choices.
 
-*Projected from legacy annotations: 83 of 527 scripts.*
-
 
 ### Forced choice *(unit)*
 
@@ -3806,7 +3596,7 @@ A forced choice is a demand to select one of a closed set of options, with a pau
 
 **Spot it by:** imperatives of choosing: 'choose', 'pick', 'decide', 'select'; 'which do you choose?', 'which is it?', 'which one?'; an enumerated or lettered list of options followed by a pause marker; 'only one', 'you have to pick', 'you can't have both'; instruction on how to answer: 'say it aloud', 'nod', 'answer in your mind'.
 
-**Not to be confused with:** Illusion of choice (there the options are equivalent and the choice is a courtesy; here the options differ and the pick is used as commitment); You chose this (that is the later reference back to a choice as proof of wanting ('you chose this'); forced choice covers only the options and the demand to pick); Asking for a yes (that asks for a yes to one proposal; forced choice asks for a selection among several); Consent check (a consent check offers stopping as a real, unpenalized option; a forced choice restricts the listener to the writer's list).
+**Not to be confused with:** Illusion of choice (there the options are equivalent ways to do the same thing; here they differ in substance and the listener is required to select one); You chose this (that is the later reference back to a choice as proof of wanting ('you chose this'); forced choice covers only the options and the demand to pick); Asking for a yes (that asks for a yes to one proposal; forced choice asks for a selection among several); Consent check (a consent check offers stopping as a real, unpenalized option; a forced choice restricts the listener to the writer's list).
 
 **Evidence:** experimental. Choosing among options reliably raises liking for and commitment to the chosen one in laboratory studies; whether a silent choice made while listening to a script has the same effect has not been tested.
 
@@ -3821,7 +3611,7 @@ Also called: confusion techniques, overload techniques, disruption techniques.
 
 A family of devices that interfere with the listener's running evaluation of what is said. Some break meaning (confusion technique, paradox, non sequitur), some break sequence (pattern interrupt, shock, unfinished sentence), some exceed capacity (cognitive overload, concurrent task, rapid delivery), and some under-feed attention until it lapses (monotony). What unites them is the second half: a plain, easy suggestion placed at the moment of disruption. Without that follow-up the listener is only confused or annoyed.
 
-**Choosing:** Choose by what you want to disturb. To break meaning, use confusion-technique or one of its variants, paradox for a single contradiction, or semantic-satiation to wear one word down to sound; to break an expected sequence, use pattern-interrupt, shock-surprise or incomplete-sentence; to exceed or divert capacity, use cognitive-overload, dual-task, distraction-of-conscious-mind or fast-speech; to let vigilance run down, use boredom-monotony. Analytical listeners who argue with direct suggestion are the usual audience; listeners who are already relaxed and cooperative rarely need any of this. Always write the clear instruction that follows, and keep the disruption short enough that the listener stays willing. The induction family holds the full-induction forms (confusion-induction, overload-induction, rapid-induction, double-induction); disrupt-then-reframe in the compliance family is the sales-research version.
+**Choosing:** Choose by what you want to disturb. To break meaning, use confusion-technique or one of its variants, paradox for a single contradiction, or semantic-satiation to wear one word down to sound; to break an expected sequence, use pattern-interrupt, shock-surprise or incomplete-sentence; to exceed or divert capacity, use cognitive-overload, dual-task, distraction-of-conscious-mind or fast-speech; to let vigilance run down, use boredom-monotony. Write the clear instruction that follows, and keep the disruption short enough that the listener can still follow it. The induction family holds the full-induction forms (confusion-induction, overload-induction, rapid-induction, double-induction); disrupt-then-reframe in the compliance family is the sales-research version.
 
 **Not to be confused with:** Artful vagueness (vagueness leaves content open for the listener to fill in; this family blocks or overworks the filling-in); Resistance handling (resistance handling addresses doubt by naming or using it; this family goes around evaluation without addressing it); Attention and absorption (absorption narrows attention onto one thing; this family splits, jams or drains it).
 
@@ -3834,7 +3624,7 @@ A family of devices that interfere with the listener's running evaluation of wha
 
 Also called: Ericksonian confusion, confusion-restructuring, confusional language.
 
-Wording that sounds as if it should make sense but resists being worked out, followed at once by a clear, easy suggestion. It is usually a passage of two to five sentences; the non sequitur is the one-sentence form. The confusion is built from ordinary words and correct-seeming grammar, so the listener keeps trying to follow. It differs from cognitive overload, which adds more to track, and from paradox, which is a single plain contradiction: here the meaning keeps slipping.
+Wording that sounds as if it should make sense but resists being worked out, followed at once by a clear, easy suggestion. The confusion can be a passage or a brief non sequitur. It is built from ordinary words and correct-seeming grammar, so the listener may keep trying to follow. It differs from cognitive overload, which adds more to track, and from paradox, which presents a contradiction: here the meaning keeps slipping.
 
 **How:** Start from true, simple statements so the listener commits to following, then tangle one dimension (time, direction, negation, sound-alikes) for two to five sentences. Deliver it seriously and at an even pace, as if it were perfectly clear. End with a short, plain suggestion in a different rhythm: this is the part that matters. It fails when it is so obviously nonsense that the listener stops trying, or when no clear suggestion follows.
 
@@ -3853,8 +3643,6 @@ Wording that sounds as if it should make sense but resists being worked out, fol
 **Why it works:** Ericksonian confusion technique, Confusion-restructuring, Cognitive load, Processing fluency, Counterarguing.
 
 **Consent:** It works by making the following suggestion harder to weigh, so use it only to deliver what the listener came for.
-
-*Projected from legacy annotations: 92 of 527 scripts.*
 
 
 #### Time confusion *(variant)*
@@ -3971,8 +3759,6 @@ A confusion passage built by repeating one word, its other senses and its homoph
 
 **Why it works:** Equivocation, Cognitive load, Ericksonian confusion technique.
 
-*Projected from legacy annotations: 23 of 527 scripts.*
-
 
 ### Pattern interrupt *(unit)*
 
@@ -3997,8 +3783,6 @@ A familiar, automatic sequence (a handshake, a count, a stock phrase, a breathin
 **Why it works:** Pattern interruption, Prediction error, Orienting response, Expectation violation, Automaticity.
 
 **Consent:** It is built to land an instruction before the listener can weigh it, so the instruction should be one they have already agreed to receive.
-
-*Projected from legacy annotations: 21 of 527 scripts.*
 
 
 ### Cognitive overload *(unit)*
@@ -4025,8 +3809,6 @@ Several simultaneous demands on attention: multiple sensations to monitor, a tas
 
 **Consent:** Suggestions given under load are harder for the listener to assess, so keep them within what was agreed.
 
-*Projected from legacy annotations: 36 of 527 scripts.*
-
 
 ### Shock / surprise *(unit)*
 
@@ -4040,19 +3822,17 @@ A single unexpected event: a sharp sound, a sudden change of volume, or a statem
 
 > You've been trying very hard to relax. Stop. You're terrible at trying. So don't.
 
-> Everything is slowing, softening, settling. You were never going to resist this. Let go.
+> Your shoulders can soften, your breathing can slow—[loud clap] Let go.
 
 **Spot it by:** stage direction: [snap], [clap], [loud], [sudden]; one-word imperative after a long gentle passage ('Stop.', 'Now.', 'Sleep.'); blunt or contrary statement inside a soothing passage; exclamation mark or capitals in an otherwise quiet script; suggestion immediately after the unexpected item.
 
-**Not to be confused with:** Pattern interrupt (an interrupt breaks an established sequence (a count, a refrain, a stock phrase) before its next step; if no sequence was under way, label shock); Attention call (an orienting cue re-gathers attention and the script then carries on with its content ('Now. Listen carefully'); label shock when a command or suggestion lands in the next clause or sentence, or when a stage direction calls for a loud or sharp event); Non sequitur (a non sequitur is delivered flat, in the same tone as its neighbours, and only fails to connect; shock is marked by suddenness, bluntness or volume); Fear then relief (that raises and then removes real alarm as a two-step emotional move).
+**Not to be confused with:** Pattern interrupt (an interrupt breaks an established sequence before its next step; shock needs no sequence under way); Attention call (an orienting cue pulls attention back before the script continues; shock places a suggestion immediately after the unexpected word, sound or claim); Non sequitur (a non sequitur is an irrelevant or illogical statement in the flow; label shock when its sudden delivery is marked and a suggestion follows immediately); Fear then relief (that raises and then removes alarm as a two-step emotional move).
 
 **Evidence:** clinical-tradition. Startle and orienting responses are well documented; the claim that the moment after a surprise is more suggestible comes from clinical and stage practice. Source: Erickson, Rossi & Rossi, Hypnotic Realities (1976).
 
 **Why it works:** Orienting response, Prediction error, Expectation violation, Attentional capture.
 
 **Consent:** Loud or startling events can distress some listeners and are unsafe for anyone doing something else while listening; warn about them in the content note.
-
-*Projected from legacy annotations: 10 of 527 scripts.*
 
 
 ### Paradox *(unit)*
@@ -4077,8 +3857,6 @@ A single statement or instruction that contradicts itself, or cannot be obeyed w
 
 **Why it works:** Processing fluency, Cognitive load, Trance logic, Ericksonian confusion technique.
 
-*Projected from legacy annotations: 20 of 527 scripts.*
-
 
 ### Unfinished sentence *(unit)*
 
@@ -4102,8 +3880,6 @@ A sentence that stops before its expected final word or clause. If the missing p
 
 **Why it works:** Generation effect, Zeigarnik effect, Narrative closure, Prediction error.
 
-*Projected from legacy annotations: 35 of 527 scripts.*
-
 
 ### Monotony *(unit)*
 
@@ -4121,7 +3897,7 @@ A sustained stretch in which nothing new happens: same rhythm, same sentence sha
 
 **Spot it by:** five or more consecutive sentences with the same structure and near-identical words; neutral, low-information content (breath, counting, 'the same'); 'nothing to do', 'nothing happens', 'nothing new'; stage directions: [monotone], [flat], [even], [droning]; long passage with no questions, images or new vocabulary.
 
-**Not to be confused with:** Repetition induction (repeats one suggestion or mantra to absorb the listener; here the content is deliberately empty); Deeper and deeper (repeats depth words to push depth, not to bore); Semantic satiation (one word repeated back to back until it stops meaning anything; monotony keeps whole sentences meaningful and merely uneventful); Parallelism (same sentence shape with new content in each; label monotony only when the content also stays the same for five or more sentences); Wearing down (outlasts active resistance by length; monotony removes anything to resist).
+**Not to be confused with:** Repetition induction (repeats one suggestion or mantra to absorb the listener; here the content is deliberately uneventful); Deeper and deeper (repeats depth words to deepen trance, rather than keeping the delivery uneventful); Semantic satiation (repeats one word until it loses meaning; monotony uses sustained, uneventful phrasing or delivery); Parallelism (repeats a sentence shape while varying the content; monotony requires sustained sameness of content or delivery as well); Wearing down (outlasts active resistance by length; monotony keeps the material uneventful).
 
 **Evidence:** clinical-tradition. Monotonous stimulation reliably lowers alertness and induces drowsiness; drowsiness is not the same as hypnotic responsiveness, and research finds relaxation is not required for hypnosis.
 
@@ -4152,8 +3928,6 @@ An explicit assignment of something for the 'conscious mind' to attend to or thi
 
 **Consent:** Its stated aim is that the listener stops monitoring what is suggested, so the content of the session should be disclosed and agreed before it starts.
 
-*Projected from legacy annotations: 68 of 527 scripts.*
-
 
 #### Concurrent task *(variant)*
 
@@ -4179,8 +3953,6 @@ Overload with exactly two streams: one explicit task the listener performs (coun
 
 **Consent:** The task exists so that suggestions get less scrutiny; tell the listener beforehand what kind of suggestions the session contains.
 
-*Projected from legacy annotations: 35 of 527 scripts.*
-
 
 ### Semantic satiation *(unit)*
 
@@ -4203,8 +3975,6 @@ A single word is said, or given to the listener to say, in an unbroken run long 
 **Evidence:** experimental. The brief loss of a word's felt meaning after rapid repetition is a replicated laboratory effect that fades within seconds to minutes; its use to open a gap for suggestion or to weaken a troubling word for good is practitioner claim with little direct testing. Source: Lambert & Jakobovits, 'Verbal satiation and changes in the intensity of meaning', Journal of Experimental Psychology (1960).
 
 **Why it works:** Habituation, Spreading activation, Processing fluency, Cognitive load.
-
-*Projected from legacy annotations: 43 of 527 scripts.*
 
 
 ## Attention and absorption
@@ -4242,8 +4012,6 @@ The speaker names their own voice as the object of attention. The voice becomes 
 
 **Why it works:** Attentional capture, Attentional tunneling, Hypnotic induction, Absorption (trait).
 
-*Projected from legacy annotations: 175 of 527 scripts.*
-
 
 ### Narrowing attention *(unit)*
 
@@ -4253,7 +4021,7 @@ The writer describes the field of awareness shrinking: the room, sounds, thought
 
 **How:** Name the things that fade, in order from far to near: the building, the room, the chair, stray thoughts. Use gradual verbs (fade, drift, soften, grow distant), not sudden ones. Always say what is left, or attention has nowhere to settle. Add that anything important will still get through, so the listener does not keep watch.
 
-> The room around you grows less important. The sounds outside drift further away.
+> The room around you grows less important, and the sounds outside drift away until only the sound of my voice remains.
 
 > Everything else fades to the edges, until there is only this breath and these words.
 
@@ -4261,13 +4029,11 @@ The writer describes the field of awareness shrinking: the room, sounds, thought
 
 **Spot it by:** 'everything else' followed by fades, drifts away, disappears, falls away, doesn't matter; 'nothing else matters', 'nothing but', 'only this'; 'the rest of the world', 'the room around you' with a receding verb; 'narrow', 'tunnel', 'shrinks down to', 'until there is only'; lists of things that become distant or unimportant.
 
-**Not to be confused with:** Voice focus (that entry names the voice as the object; this one removes everything else and can leave any object); Mind-blanking (that entry slows or stops thinking itself and leaves nothing to attend to; narrowing may send thoughts to the edge along with the room, but it names one thing that remains); Incorporation of distractions (incorporation keeps distractions and gives them a role; narrowing sends them away); Setting doubt aside (that entry gives doubts or worries a stated place to wait until later; narrowing only lets them recede with everything else).
+**Not to be confused with:** Voice focus (voice focus names the speaker's voice as the object; narrowing attention describes other things fading and can leave any object); Mind-blanking (mind-blanking suggests thoughts slowing or stopping; narrowing attention sends competing things, including thoughts, to the edge while naming what remains); Incorporation of distractions (incorporation keeps distractions and gives them a role; narrowing sends them away); Setting doubt aside (setting doubt aside gives doubts or worries a stated place to wait until later; narrowing lets them recede with everything else).
 
 **Evidence:** clinical-tradition. Narrowed attention is part of standard definitions of hypnosis, but suggesting the narrowing has not been tested as a separate ingredient.
 
 **Why it works:** Attentional tunneling, Attentional capture, Absorption (trait), Response expectancy theory.
-
-*Projected from legacy annotations: 251 of 527 scripts.*
 
 
 ### Turning attention inward *(unit)*
@@ -4292,8 +4058,6 @@ A change of direction: from what is seen and heard in the room to what is felt, 
 
 **Why it works:** Absorption (trait), Hypnotic induction, Attentional capture.
 
-*Projected from legacy annotations: 16 of 527 scripts.*
-
 
 ### Sensory immersion *(unit)*
 
@@ -4311,7 +4075,7 @@ A passage of concentrated description that engages sight, sound, touch and often
 
 **Spot it by:** three or more sensory modalities within a few sentences; runs of perception verbs: see, hear, feel, smell, taste; concrete nouns with texture, temperature, colour, weight or sound modifiers; second person, present tense description with little or no instruction; 'notice the', 'feel the', 'hear the' repeated with different objects.
 
-**Not to be confused with:** Sensory language (that is the phrasing choice at the level of a single suggestion; this is a dense passage of three or more senses whose job is absorption); Sensory overlap (overlap starts in one sense and leads from it into another through a shared feature; immersion sets several senses side by side with no lead between them); Guided imagery (guided imagery leads through a scene step by step; immersion is the descriptive density, with or without movement); Story absorption (transportation depends on story events and characters; immersion needs no plot).
+**Not to be confused with:** Sensory language (sensory language is a concrete phrasing choice within a suggestion; immersion is a dense passage engaging several senses); Sensory overlap (sensory overlap leads from an active sense into another through a shared feature; immersion is a dense multi-sense passage, which may also contain that transition); Guided imagery (guided imagery leads through an imagined scene step by step; immersion is the density of sensory description, with or without movement); Story absorption (story absorption depends on story events and characters; immersion needs no plot).
 
 **Evidence:** clinical-tradition. Vivid multi-sense imagery is standard in clinical scripts and imagery vividness relates to absorption; the claim that more detail is always better is not supported, and over-specified detail can clash with the listener's own image.
 
@@ -4339,8 +4103,6 @@ The writer points at a piece of information the listener does not yet have and w
 **Evidence:** experimental. Information gaps reliably raise the wish to know and the effort spent to find out; the claim that unfinished items are remembered better (Zeigarnik) has a mixed replication record, and nothing shows a hook raises suggestibility. Source: Loewenstein, The Psychology of Curiosity: A Review and Reinterpretation (1994).
 
 **Why it works:** Zeigarnik effect, Narrative closure, Prediction error, Attentional capture.
-
-*Projected from legacy annotations: 24 of 527 scripts.*
 
 
 ### Direct address *(unit)*
@@ -4380,11 +4142,11 @@ A vocative: a name or term of address inserted into the sentence. In live work i
 
 > You're doing so well, sleepyhead. Let the next breath be slower.
 
-**Spot it by:** a proper name or term of address set off by commas; a name template slot such as [NAME] or {name}; recurring endearments or titles used as address: dear, love, pet, my friend; 'good girl' or 'good boy' only when attached by a comma to an instruction or statement, not as a sentence of its own; a vocative placed directly next to an instruction or praise.
+**Spot it by:** a proper name or term of address used as a vocative, often set off by commas; a name template slot such as [NAME] or {name} in a position of address; endearments or titles used to address the listener: dear, love, pet, my friend; 'good girl' or 'good boy' used to call or address the listener within another utterance, rather than to evaluate a response; a vocative placed directly next to an instruction or praise.
 
-**Not to be confused with:** Renaming (renaming announces a new name or says who the listener now is; name-use only addresses them by a term); Praise ('Good girl.' standing alone, or right after a response, is praise; the same words attached by a comma to another clause as a form of address ('listen, good girl') are name-use); Role assignment (a title that comes with expected behavior assigns a role; a term of address alone does not).
+**Not to be confused with:** Renaming (renaming gives the listener a new name or identity; name-use addresses them by a term); Praise ('good girl' or 'good boy' evaluates a response when offered as approval; it is name-use when used as a vocative to call or address the listener, regardless of punctuation); Role assignment (a title that comes with expected behavior assigns a role; a term of address alone does not).
 
-**Evidence:** experimental. In dichotic-listening studies about a third of listeners notice their own name in a channel they are ignoring, a finding that has replicated; this applies to the real name only. The effect of pet names or titles, and any effect on suggestibility, is practitioner lore.
+**Evidence:** experimental. In an early dichotic-listening experiment, about a third of listeners noticed their own name in an unattended channel. This does not establish that using a name increases hypnotic suggestibility or that pet names and titles have the same effect.
 
 **Why it works:** Attentional capture, Self-reference effect, Orienting response, Parasocial interaction, Liking principle.
 
@@ -4407,15 +4169,13 @@ A suggestion about the felt passage of time: minutes that feel like hours, an ho
 
 **Spot it by:** 'time' with slows, stretches, stops, speeds up, flies, stands still, doesn't matter; 'lose track of time', 'no sense of time', 'timeless'; mismatched durations: 'a minute feels like an hour', 'hours pass in a moment'; 'no clock', 'no past or future', 'only now'; 'how long has it been' asked without an answer.
 
-**Not to be confused with:** Trance time expansion (that gives a stated clock interval, a longer felt interval and a use for it; this is the general suggestion that time feels different); After-the-fact proof (that asks the listener, after waking, to check the clock as evidence; anything said about time before the emergence is time-distortion); Time confusion (that tangles tense and date words to confuse; this makes a plain claim about how time feels); Future progression (that moves the listener to a future point; this changes the felt rate of time, not the date).
+**Not to be confused with:** Trance time expansion (trance time expansion gives a stated clock interval, a longer suggested felt interval and a use for it; time distortion is the broader suggestion that time feels different); After-the-fact proof (after-the-fact proof asks the listener to check elapsed time after waking as evidence, even if the instruction is given before emergence; time distortion suggests a change in felt time); Time confusion (time confusion tangles tense and date words; time distortion makes a plain claim about how time feels); Future progression (future progression moves the listener to a future point; time distortion changes felt duration or the sense of time passing).
 
 **Evidence:** experimental. People commonly misjudge, usually underestimate, how long a hypnosis session lasted; whether suggested time expansion gives real extra thinking or practice time, as early reports claimed, is not established. Source: Cooper & Erickson, Time Distortion in Hypnosis (1954).
 
 **Why it works:** Absorption (trait), Response expectancy theory, Attentional tunneling, Hypnotic suggestibility.
 
 **Consent:** Altered time sense can outlast the session briefly; restore normal time orientation before the listener returns to anything time-critical.
-
-*Projected from legacy annotations: 49 of 527 scripts.*
 
 
 #### Trance time expansion *(variant)*
@@ -4428,9 +4188,9 @@ A specific application of time distortion: a stated clock interval (a minute, th
 
 > I'm going to give you one minute of clock time. In trance, that minute will feel like an hour of deep, easy rest. Beginning now. [60s]
 
-> You have thirty seconds on the clock, and inside them all the time you need: long enough to walk through the whole day ahead from start to finish, unhurried. Starting now. [30s]
+> You have thirty seconds on the clock, and those seconds can feel like an hour, long enough to walk through the day ahead from start to finish. Starting now. [30s]
 
-> ...And that is all the time that was needed. It may feel as though much longer has passed.
+> Those twenty seconds of silence may have felt like several minutes of rest.
 
 **Spot it by:** a clock interval set against a longer felt one: 'one minute ... like an hour'; 'clock time', 'trance time', 'world time'; 'all the time you need', 'plenty of time'; 'beginning now' followed by a marked gap, then 'that's all the time needed'; 'as if you had slept for hours'.
 
@@ -4463,8 +4223,6 @@ The fixation object is another person's gaze. In audio and text it is imagined; 
 
 **Why it works:** Attentional capture, Authority principle, Response expectancy theory, Parasocial interaction.
 
-*Projected from legacy annotations: 2 of 527 scripts.*
-
 
 ### Attention call *(unit)*
 
@@ -4482,7 +4240,7 @@ A deliberate change in the stream (a new sound, a shift of voice or topic, a pau
 
 **Spot it by:** a one-word or two-word attention call set as its own sentence: 'Now.', 'Listen.', 'Listen closely.'; announcements of importance: 'this is important', 'pay attention to this', 'here is the part that matters'; stage directions for a change placed just before a key line: [pause], [tone shift], [bell], [closer]; an abrupt change of topic or sentence length followed at once by a key suggestion; 'stay with me', 'are you still with me' with no object of attention named.
 
-**Not to be confused with:** Shock / surprise (label by what surrounds it: an orienting cue announces that something important follows or continues at the same quiet level; shock is a loud or contrary item (capitals, [snap], [loud]) with a command placed directly after it); Pattern interrupt (an interrupt breaks an automatic sequence midway; this adds a change to a steady stream); Tone shift (tone shift is the delivery choice; this is the scripted function, which a tone shift is one way to perform); Voice focus (a recall that names the voice as where attention goes ('come back to my voice') is voice focus; an orienting cue calls for attention without naming an object).
+**Not to be confused with:** Shock / surprise (shock or surprise presents a startling sound, word or claim; an orienting cue makes a mild change or explicitly calls for attention to the next line, though a startling cue can do both); Pattern interrupt (a pattern interrupt breaks an automatic sequence midway; an orienting cue changes a steady stream to regain attention); Tone shift (tone shift is the marked delivery change; an orienting cue uses a change to draw attention back to the script); Voice focus (voice focus makes the speaker's voice the object of attention; an orienting cue calls attention to what follows without making the voice itself the focus).
 
 **Evidence:** experimental. The orienting response to novel or changed stimuli, and its habituation with repetition, are well established; its use to strengthen the suggestion that follows is practitioner practice without direct tests.
 
@@ -4524,8 +4282,6 @@ The writer narrates a scene in the second person and the listener builds it in i
 
 **Why it works:** Absorption (trait), Response expectancy theory, Hypnotic suggestibility, Attentional tunneling.
 
-*Projected from legacy annotations: 246 of 527 scripts.*
-
 
 #### Safe place *(variant)*
 
@@ -4550,8 +4306,6 @@ A guided-imagery scene whose defining feature is safety and whose content is cho
 **Why it works:** Response expectancy theory, Absorption (trait), Epistemic trust.
 
 **Consent:** The way back in is a cue that outlasts the session. It should be the listener's own to use, and a later script should not bring anyone or anything into the place without their invitation.
-
-*Projected from legacy annotations: 9 of 527 scripts.*
 
 
 ### Metaphor *(unit)*
@@ -4578,8 +4332,6 @@ A metaphor describes something other than the listener (a garden, a river, a per
 
 **Consent:** The suggestion is meant to pass without being recognised as one; the listener should have agreed beforehand to the goal the metaphor serves.
 
-*Projected from legacy annotations: 64 of 527 scripts.*
-
 
 #### Extended metaphor *(variant)*
 
@@ -4603,8 +4355,6 @@ A single metaphor is set up near the start and then carried through the whole sc
 
 **Why it works:** Metaphorical suggestion, Processing fluency, Priming, Narrative coherence.
 
-*Projected from legacy annotations: 46 of 527 scripts.*
-
 
 ### State-as-substance *(unit)*
 
@@ -4627,8 +4377,6 @@ An abstract state (relaxation, blankness, calm, focus) is described as a materia
 **Evidence:** clinical-tradition. Common in clinical relaxation and pain scripts; no studies isolate the substance image from the relaxation suggestion it accompanies.
 
 **Why it works:** Response expectancy theory, Absorption (trait), Processing fluency.
-
-*Projected from legacy annotations: 167 of 527 scripts.*
 
 
 ### Container imagery *(unit)*
@@ -4655,8 +4403,6 @@ A mental item is treated as an object that can be picked up and placed in an ima
 
 **Consent:** If the container is used to lock away memories, objections or the listener's own judgment beyond the session, say so beforehand and leave the key with the listener.
 
-*Projected from legacy annotations: 89 of 527 scripts.*
-
 
 ### Dial / switch imagery *(unit)*
 
@@ -4676,13 +4422,11 @@ An inner quantity (discomfort, mental chatter, energy, confidence) is given an i
 
 **Not to be confused with:** Depth scale (that is a number or scale put on trance depth, with or without a control to operate; when an imagined dial sets depth, label both); Trigger installation (a trigger is a cue that fires a set response; a dial is operated by degrees within imagery); Reference point (that offers a number as a reference point for judgment, with no control to operate).
 
-**Evidence:** clinical-tradition. Dial and control-room imagery is common in clinical pain and anxiety scripts, and hypnotic analgesia itself is well supported; the dial image has not been tested against plain suggestion. Source: Hammond (ed.), Handbook of Hypnotic Suggestions and Metaphors (1990).
+**Evidence:** clinical-tradition. Dial and control-room imagery is common in clinical pain and anxiety scripts, and hypnotic analgesia itself is well supported; the dial image has not been tested against plain suggestion.
 
 **Why it works:** Response expectancy theory, Cold control theory, Dissociated control theory.
 
 **Consent:** When the speaker is given the controls, or a control is left in place after the session, that should be agreed beforehand and a way to reset it stated.
-
-*Projected from legacy annotations: 62 of 527 scripts.*
 
 
 ### Nested loops *(recipe)*
@@ -4740,8 +4484,6 @@ The writer uses narrative craft (a character who wants something, a sequence of 
 
 **Consent:** It works by reducing scrutiny of what the story implies; the listener should know the session uses story to carry suggestions.
 
-*Projected from legacy annotations: 4 of 527 scripts.*
-
 
 ### Character identification *(unit)*
 
@@ -4766,8 +4508,6 @@ The script supplies a character and invites the listener to take that character'
 **Why it works:** Character identification, Narrative persuasion, Social learning theory, Self-reference effect, Entertainment Overcoming Resistance Model.
 
 **Consent:** Responses given to the character are meant to transfer to the listener; say so, and do not use the character to carry suggestions the listener would refuse if asked directly.
-
-*Projected from legacy annotations: 62 of 527 scripts.*
 
 
 #### Second-person narration *(variant)*
@@ -4817,8 +4557,6 @@ The listener imagines a discrete act with a clear before and after (signing a pa
 
 **Consent:** An imagined vow or signing is meant to feel binding after the session; state its scope, and do not treat it as consent to anything not agreed while awake.
 
-*Projected from legacy annotations: 88 of 527 scripts.*
-
 
 ### Mental rehearsal *(unit)*
 
@@ -4843,8 +4581,6 @@ The listener runs through the actual future behaviour in imagination: the settin
 **Why it works:** Imagination inflation, Implementation intentions, Response expectancy theory, Availability heuristic, Priming.
 
 **Consent:** It is meant to change behaviour after the session; rehearse only behaviour the listener has asked for.
-
-*Projected from legacy annotations: 113 of 527 scripts.*
 
 
 #### Future pacing *(variant)*
@@ -4871,8 +4607,6 @@ A short rehearsal aimed at one named future situation: the listener imagines the
 
 **Consent:** It exists to make a response occur after the session; the listener should know which situations it has been attached to.
 
-*Projected from legacy annotations: 97 of 527 scripts.*
-
 
 ### Analogy *(unit)*
 
@@ -4896,8 +4630,6 @@ An explicit comparison between the target experience and a familiar one, with a 
 
 **Why it works:** Processing fluency, Familiarity heuristic, Spreading activation, Response expectancy theory.
 
-*Projected from legacy annotations: 19 of 527 scripts.*
-
 
 ### Personification *(unit)*
 
@@ -4920,8 +4652,6 @@ A non-person (the eyelids, the breath, sleep, the chair, the trance itself) is m
 **Evidence:** rhetorical-tradition. A classical figure; its use to make responses feel involuntary is standard practice but has not been tested on its own.
 
 **Why it works:** Cold control theory, Dissociated control theory, Response expectancy theory, Automaticity.
-
-*Projected from legacy annotations: 51 of 527 scripts.*
 
 
 ### Imagined substance *(unit)*
@@ -4948,8 +4678,6 @@ The writer has the listener imagine taking in an agent: swallowing a drink, brea
 
 **Consent:** Say that the substance is imaginary and that its effect ends with the session; do not use drug or intoxication imagery with listeners in recovery from substance use unless they have asked for it.
 
-*Projected from legacy annotations: 72 of 527 scripts.*
-
 
 ### Sensory overlap *(unit)*
 
@@ -4972,8 +4700,6 @@ The writer describes the scene first in the sense that comes easily to the liste
 **Evidence:** practitioner-lore. Taught in NLP as overlapping representational systems; the claim that people have a preferred sense system has failed controlled tests, and the lead itself has not been studied, though people do differ in how vivid their imagery is in each sense.
 
 **Why it works:** Pacing and leading, Spreading activation, Absorption (trait).
-
-*Projected from legacy annotations: 4 of 527 scripts.*
 
 
 ## Dissociation and parts
@@ -5015,8 +4741,6 @@ The writer moves the listener's point of view away from what they are experienci
 
 **Consent:** Can be unpleasant for listeners prone to depersonalization; state the content in advance and return the listener to the body before the end.
 
-*Projected from legacy annotations: 71 of 527 scripts.*
-
 
 #### Observer self *(variant)*
 
@@ -5034,15 +4758,13 @@ A form of dissociation in which the outside view is given to a lasting part: a w
 
 **Spot it by:** 'observer', 'watcher', 'witness' as a noun for part of the listener; 'a part of you that just watches', 'simply observing'; 'at the back of your mind', 'from the edge', 'from a safe distance'; 'while the rest of you ...' paired with a watching part; 'without interfering', 'without judging', 'only noticing'.
 
-**Not to be confused with:** Protected core (there a part filters, protects or rejects what is unwanted, so vigilance can drop; label observer-self only when the part's stated job is to watch or stay aware, and label both when it watches and filters); Parts (parts are addressed, thanked, given jobs or set against each other; the observer only watches); Conscious / unconscious split (there the unconscious is addressed as the listener that matters; here a conscious watcher is kept on duty); Occupying the conscious mind (that gives the analytical mind a decoy job so it stops monitoring; the observer keeps monitoring).
+**Not to be confused with:** Protected core (there a part filters or rejects unwanted suggestions; the observer only watches, and both labels apply when it also filters); Parts (parts-work can address or negotiate with any functional part; observer-self specifically keeps a watching part aware while the rest responds); Conscious / unconscious split (there the unconscious is addressed as a separate listener; here a watcher remains aware); Occupying the conscious mind (that gives the analytical mind a decoy task so it stops monitoring; the observer continues to watch).
 
 **Evidence:** contested. Hilgard's hidden-observer reports were replicated, but later work showed their content follows the instructions given, so the observer may be a product of the suggestion and not a pre-existing part. Source: Hilgard, Divided Consciousness (1977).
 
 **Why it works:** Neodissociation theory, Sociocognitive theory of hypnosis, Demand characteristics, Metacognitive monitoring.
 
 **Consent:** A promised watcher lowers the listener's guard; the promise that it keeps them safe should be true of the script.
-
-*Projected from legacy annotations: 33 of 527 scripts.*
 
 
 ### It happens by itself *(unit)*
@@ -5061,15 +4783,13 @@ The writer words a response so that the listener is not its agent: the hand lift
 
 **Spot it by:** 'by itself', 'all on its own', 'automatically', 'of its own accord'; 'without you doing anything', 'you are not doing it', 'without any help from you'; 'it just happens', 'it is happening'; body part or state as subject of a verb of movement or change, with no command: 'the arm lifts', 'the eyes close'; 'that hand', 'the eyelids' in place of 'your' as the subject of such a verb (with distance or ownership words and no movement, it is body-dissociation); 'just watch it happen', 'notice it happening' said of a response in progress.
 
-**Not to be confused with:** Not doing / not knowing (that tells the listener they need not try or know ('you don't have to do anything'); this asserts of a named response that it has no doer ('the hand lifts by itself')); Puppeteering (label puppeteering only where the speaker or the speaker's device is named as the mover ('I lift', 'as if I pull a string'); a sentence with no mover named is this entry, even inside a puppeteering passage); Personification (personification gives the body part or state a will ('your eyelids want to close', 'let the breath decide'); here it only moves or changes, with no wanting, knowing or deciding); Ideomotor induction (that is a route into trance built on a movement; this is the wording that makes any response feel unwilled).
+**Not to be confused with:** Not doing / not knowing (that tells the listener they need not try or know; this frames a particular response as happening without their effort); Puppeteering (puppeteering presents the speaker or the speaker's device as moving the body, even when a later sentence leaves that agent unstated; automaticity-framing presents the response as happening on its own); Personification (personification gives a body part or state wants, knowledge or a voice; here it moves or changes without a will of its own); Ideomotor induction (that uses a movement as the route into trance; this is wording that presents a response as unwilled).
 
 **Evidence:** experimental. Felt involuntariness is a measured feature of hypnotic responding, and passive wording has been shown to raise involuntariness ratings; whether control is really altered or only its report is disputed.
 
 **Why it works:** Cold control theory, Dissociated control theory, Ideomotor effect, Response expectancy theory, Automaticity, Sociocognitive theory of hypnosis.
 
 **Consent:** It lowers the listener's sense of authorship over what they do; it should not be used to carry responses the listener has not agreed to.
-
-*Projected from legacy annotations: 231 of 527 scripts.*
 
 
 ### Conscious / unconscious split *(unit)*
@@ -5096,8 +4816,6 @@ The writer treats 'your unconscious' (or 'subconscious') as a second listener wi
 
 **Consent:** It tells the listener their conscious attention is not needed, so say beforehand what the suggestions will cover.
 
-*Projected from legacy annotations: 137 of 527 scripts.*
-
 
 ### Parts *(unit)*
 
@@ -5115,15 +4833,13 @@ The writer picks out one function, wish or habit and speaks of it as a part with
 
 **Spot it by:** 'part of you', 'a part of you that', 'that part'; 'one part ... another part'; direct address to a part: 'I am speaking to the part that'; 'thank that part', 'that part can rest', 'give that part a new job'; 'come forward', 'step back' said of a part; 'the side of you', 'the voice in you that' with a function attached.
 
-**Not to be confused with:** Conscious / unconscious split (that is the one generic pair of minds; parts are specific and open-ended in number); Persona / alter (a persona has a name and traits of its own; a part is only a function); Bypassing the critic (when the only part mentioned is the analysing or checking part and all that is said is that it rests or steps aside, label the bypass; parts work speaks to a part, thanks it, gives it a job or sets it beside another part); Personification (personification gives will to a body part, state or object; a part is a division of the self).
+**Not to be confused with:** Conscious / unconscious split (that addresses the unconscious as the one generic second mind; parts are picked out by specific functions and can be numerous); Persona / alter (a persona has a name and traits of its own; a part is picked out by its function); Bypassing the critic (when an analysing or checking part is only told to rest or step aside, label the bypass; parts-work addresses or negotiates with a functional part); Occupying the conscious mind (that assigns the analytical mind a decoy task to occupy it; parts-work addresses or negotiates with a function-specific part); Personification (personification gives a body part, state or object a will; a part is a division of the self).
 
 **Evidence:** clinical-tradition. Ego-state and related parts therapies are widely practised and have some outcome studies; the claim that parts are real separate entities is not established, and the wording itself is untested. Source: Watkins & Watkins, Ego States: Theory and Therapy (1997).
 
 **Why it works:** Neodissociation theory, Sociocognitive theory of hypnosis, Psychological reactance.
 
 **Consent:** Do not use to sideline a part that is objecting to the session; reunite the parts before the end.
-
-*Projected from legacy annotations: 38 of 527 scripts.*
 
 
 #### Positive intention *(variant)*
@@ -5175,8 +4891,6 @@ The writer separates awareness from the body: the body sleeps while the mind sta
 
 **Consent:** Lingering numbness or unreality is an unwanted after-effect; restore normal feeling explicitly, and do not mask pain that needs attention.
 
-*Projected from legacy annotations: 18 of 527 scripts.*
-
 
 ### Persona / alter *(unit)*
 
@@ -5202,8 +4916,6 @@ The writer defines a second self: a name and a short list of traits and behaviou
 
 **Consent:** It persists after the session and can be fired by cue; agree it in advance, state who may use the cue, and provide a switch-out and a removal.
 
-*Projected from legacy annotations: 48 of 527 scripts.*
-
 
 ### Externalization *(unit)*
 
@@ -5219,7 +4931,7 @@ The writer turns an inner thing into an outer one: a worry becomes a stone in th
 
 > Picture your need to stay in charge as a set of keys, and place them on the table for now.
 
-**Spot it by:** 'outside you', 'out of you', 'in front of you' said of a thought or feeling; 'give it a shape', 'a colour', 'a weight'; 'set it down', 'put it down', 'hand it over', 'leave it there'; 'it is not you', 'something you have been carrying'; an inner noun (worry, doubt, control) followed by 'as a' or 'like a' plus a physical object; 'watch it drift away', 'watch it shrink' said of the object once it has a form (thoughts simply fading or passing are cognitive-quieting).
+**Spot it by:** 'outside you', 'out of you', 'in front of you' said of a thought or feeling; 'give it a shape', 'a colour', 'a weight' followed by a location outside the listener; 'set it down', 'put it down', 'hand it over', 'leave it there' said of an inner thing given physical form; 'it is not you', 'something you have been carrying' when followed by placing it outside; an inner noun (worry, doubt, control) made into a physical object and placed outside the listener; 'watch it drift away', 'watch it shrink' said of the object once it has a form outside the listener.
 
 **Not to be confused with:** Container imagery (that supplies the box or vault; externalization is the step of making the inner thing an outer object); State-as-substance (there the state is a substance that fills, coats or drains through the body; label externalization when one discrete thing ends up outside the body and is set down, handed over or left); Dissociation (there the listener steps away from the experience; here the experience is taken out of the listener); Personification (personification gives a thing wants, knowledge or a voice; externalization is the move outside, and an externalized thing that then wants or speaks takes both labels).
 
@@ -5228,8 +4940,6 @@ The writer turns an inner thing into an outer one: a worry becomes a stone in th
 **Why it works:** Cognitive decoupling, Neodissociation theory, Response expectancy theory.
 
 **Consent:** When the thing handed over is the listener's will, judgment or control, state that it is returned at the end of the session.
-
-*Projected from legacy annotations: 184 of 527 scripts.*
 
 
 ### Six-step reframing *(recipe)*
@@ -5293,7 +5003,7 @@ The script, or its description, prescribes repetition across sessions: a frequen
 
 > Three sessions a week is enough. If you miss one, simply pick it up at the next.
 
-**Spot it by:** frequency phrases: 'once a day', 'every night', 'twice a week', 'for the next N days'; imperatives to replay: 'listen again', 'come back tomorrow', 'play this daily'; a stated course length or end point: 'for two weeks', 'until it feels automatic', 'then as needed'; a missed-day or review clause: 'if you miss a day', 'after a week, decide whether to continue'; appears in the description, pre-talk or the last lines before the wake-up.
+**Spot it by:** frequency or timing phrases: 'once a day', 'every night', 'twice a week', 'come back tomorrow'; a stated course length or end point: 'for two weeks', 'until it feels automatic', 'then as needed'; a missed-day or review clause: 'if you miss a day', 'after a week, decide whether to continue'; appears in the description, pre-talk or the last lines before the wake-up.
 
 **Not to be confused with:** Next-time-deeper suggestion (says future sessions will go faster and deeper ('each time you listen...'); a schedule says when and how often to listen and predicts nothing); Task assignment (assigns a separate action to carry out (an exercise, a report, an errand); a schedule only prescribes replaying or redoing the session itself); Craving frame (describes relistening as need or addiction; a schedule is a plain instruction); Drill (repeats the response many times inside one session, not across days).
 
@@ -5302,8 +5012,6 @@ The script, or its description, prescribes repetition across sessions: a frequen
 **Why it works:** Spacing effect, Mere-exposure effect, Illusory truth effect, Response expectancy theory.
 
 **Consent:** A schedule multiplies exposure to everything else in the file, so say what repeated listening is expected to do and give an end point or review point.
-
-*Projected from legacy annotations: 81 of 527 scripts.*
 
 
 ### Habit stacking *(unit)*
@@ -5324,18 +5032,16 @@ The writer names a specific existing routine or situation and binds the new beha
 
 **Not to be confused with:** Everyday-cue trigger (also uses an everyday cue, but the response is framed as automatic and installed, not a plan the listener carries out); Posthypnotic suggestion (any suggestion for a later response; habit stacking is specifically an openly stated plan tied to an existing routine); Contingent suggestion (links a response to something happening now in the session, not to a recurring cue in daily life).
 
-**Evidence:** experimental. If-then plans have a large experimental literature showing better goal follow-through; 'habit stacking' is a self-help name for the special case of using an existing habit as the cue, and delivery under hypnosis has not been shown to add to the effect. Source: Gollwitzer, Implementation Intentions: Strong Effects of Simple Plans (1999).
+**Evidence:** experimental. If-then plans have a large experimental literature showing better goal follow-through; 'habit stacking' is a self-help name for the special case of using an existing habit as the cue, and delivery under hypnosis has not been shown to add to the effect.
 
 **Why it works:** Implementation intentions, Automaticity.
 
 **Consent:** The behavior is meant to recur in daily life after the session, so the cue and the behavior should be ones the listener has chosen or agreed to.
 
-*Projected from legacy annotations: 59 of 527 scripts.*
-
 
 ### Drill *(unit)*
 
-Also called: overlearning, rehearsal drill, trigger training loop, practice rounds, reps.
+Also called: overlearning, rehearsal drill, practice rounds, reps.
 
 A drill is a block of repeated cue-response-reset cycles inside a single session, continued past the point where the response first works. Its purpose is fluency: the response becomes faster and needs less effort. It differs from a trigger test, which fires the cue once or twice as proof, and from fractionation, where the cycling is used to deepen trance and not to train a specific response.
 
@@ -5349,7 +5055,7 @@ A drill is a block of repeated cue-response-reset cycles inside a single session
 
 **Spot it by:** 'again', 'once more', 'one more time', 'and again' repeated across a passage; three or more consecutive cue-response-reset cycles with near-identical wording; explicit practice language: 'let's practice', 'we'll do this ten times', 'another round'; numbered rounds: 'that was one', 'round three'; a reset instruction between firings: 'and come back up', 'open your eyes', 'let it go'; speed-up remarks: 'faster this time', 'quicker each time'.
 
-**Not to be confused with:** Trigger test (one or two firings staged as proof ('let's test that'); three or more identical cycles, counted rounds or 'again' make it a drill); Fractionation (wake-and-drop cycles with a depth comparison ('deeper than before'); a drill names one cue and its response and remarks on speed, not depth. A drilled re-induction cue with depth comparisons takes both labels); Suggestion repetition (the suggestion's wording is repeated but the response is not fired and reset each time).
+**Not to be confused with:** Trigger test (fires a cue once or twice as proof ('let's test that'); a drill is an extended block of cue-response-reset practice, often with counted rounds or 'again'); Fractionation (cycles between partial waking and renewed trance; a drill repeatedly fires and resets a named cue-response link. If both patterns are present, both labels can apply); Suggestion repetition (repeats the suggestion's wording without firing and resetting the response each time).
 
 **Evidence:** experimental. Practice continued past first success improves retention and speed in skill and verbal learning, with gains that fade without later practice; drilling hypnotic triggers specifically has not been tested in controlled studies.
 
@@ -5357,14 +5063,12 @@ A drill is a block of repeated cue-response-reset cycles inside a single session
 
 **Consent:** A drilled response is built to fire quickly and to last, so pair the drill with stated trigger conditions and a way to remove the response.
 
-*Projected from legacy annotations: 87 of 527 scripts.*
-
 
 ### Mantra *(unit)*
 
 Also called: mantra repetition, chant, repeated phrase, looped phrase.
 
-A mantra is a short phrase with fixed wording repeated in immediate succession or in dense clusters, far more often than emphasis would need, where the phrase itself is the suggestion to be kept. The repetition makes the phrase familiar and easy to recall later. It differs from a repetition induction, where a repeated loop is the way into trance and its content hardly matters; from a refrain, which returns at wide intervals; from immediate repetition (epizeuxis), which doubles or triples a word inside a line; and from ordinary suggestion repetition, where the wording varies and the count is low.
+A mantra is a short phrase with fixed wording repeated in a sustained block or dense clusters, beyond a few repetitions for emphasis. The fixed phrase and its recurrence are the device; it can carry a suggestion or serve as an attention focus. A repeated phrase used to induce trance may also be a repetition induction. A refrain returns at wider intervals, while immediate repetition (epizeuxis) can be brief emphasis rather than a sustained block. Ordinary suggestion repetition may vary the wording and need not form a repeated phrase.
 
 **How:** Keep the phrase under about eight words, rhythmic, and easy to say on one breath. Fix the wording and do not vary it. Introduce it once, slowly, then repeat it in a block of at least five; later blocks can be longer or layered under other speech. Decide who voices it: if the listener is to join in, say so, and say whether aloud or silently. It fails when the phrase is long, changes between repetitions, or is repeated too few times to set a rhythm.
 
@@ -5374,15 +5078,13 @@ A mantra is a short phrase with fixed wording repeated in immediate succession o
 
 > Repeat it with me, silently, on every breath out: I listen, I relax. I listen, I relax. I listen, I relax. I listen, I relax.
 
-**Spot it by:** the same phrase of two or more words, four or more times in immediate succession; one identical line recurring five or more times within a passage; 'your mantra', 'chant', 'keep repeating', 'over and over'; repeated lines set as their own block or list; stage directions such as [mantra loops under voice] or [x10].
+**Spot it by:** the same short fixed phrase repeated as a sustained block, typically five or more times; one identical line recurring densely within a passage; 'your mantra', 'chant', 'keep repeating', 'over and over'; repeated lines set as their own block or list; stage directions such as [mantra loops under voice] or [x10].
 
-**Not to be confused with:** Repetition induction (the repeated loop opens the session and is the only induction present, with content limited to listening or relaxing; label mantra when the phrase carries a suggestion meant to last or comes after trance is established); Immediate repetition (one word or a two-word phrase said two to four times inside a line; a mantra is a whole phrase repeated four or more times, usually as its own lines); Refrain (a line that returns at intervals through the script, not in a dense repeated block); Suggestion repetition (a suggestion restated a few times, often reworded; a mantra is fixed wording at high count); Repeat after me (the instruction that makes the listener say something; a mantra is the repeated phrase, whoever voices it).
+**Not to be confused with:** Repetition induction (uses sustained repetition to lead into trance; label mantra as well when the same short fixed phrase forms a sustained repeated block); Immediate repetition (immediately repeats a word or short phrase, often just for emphasis; a mantra sustains a fixed phrase as a block, so a span can exhibit both); Refrain (a line that returns at intervals through the script, not in a dense repeated block); Suggestion repetition (repeats a suggestion a few times, often reworded; a mantra sustains fixed wording as a phrase); Repeat after me (instructs the listener to say supplied words, even once; a mantra is the repeated phrase, whoever voices it, and both labels can apply).
 
 **Evidence:** practitioner-lore. Repetition reliably raises familiarity and judged truth of a statement, and repeated-phrase meditation has relaxation studies, but lasting change in belief or behavior from a mantra inside a hypnosis script has not been shown.
 
 **Why it works:** Illusory truth effect, Mere-exposure effect, Processing fluency, Habituation, Cognitive load.
-
-*Projected from legacy annotations: 179 of 527 scripts.*
 
 
 ### Repeat after me *(unit)*
@@ -5401,15 +5103,13 @@ The writer gives the exact words and instructs the listener to produce them, so 
 
 **Spot it by:** 'repeat after me', 'say it with me', 'say these words', 'tell yourself', each followed by the line to be said; 'out loud or in your mind', 'in your own voice', 'silently'; a quoted or set-off first-person line followed by a written pause or [pause for response]; a second-person instruction immediately followed by a first-person line; ratification right after the gap: 'good', 'that's right', 'again'.
 
-**Not to be confused with:** First-person suggestion (the suggestion is written as 'I' but there is no instruction to say it); Stated commitment (the supplied line is a promise about future conduct ('I will...', 'I promise...'); repeat after me has the listener voice a suggestion or description); Self-persuasion (the listener is asked to supply the words or reasons themselves ('tell me why'); here the writer supplies the exact words); Asking for a yes (asks only for a yes or a nod, not for the listener to voice the content); Mantra (a phrase repeated many times by anyone; repeat after me is the instruction that the listener says it, even once).
+**Not to be confused with:** First-person suggestion (writes the suggestion as 'I' without instructing the listener to say it); Stated commitment (has the listener state, write or sign a commitment to future conduct; if the writer supplies a promise to repeat, both labels can apply); Self-persuasion (asks the listener to supply the words or reasons themselves ('tell me why'); repeat after me supplies the words); Asking for a yes (asks only for a yes or a nod, not for the listener to voice the supplied content); Mantra (repeats a fixed phrase many times by any voice; repeat after me is the instruction to voice supplied words, even once, and both labels can apply).
 
 **Evidence:** practitioner-lore. Laboratory work shows that self-generated material is remembered better and that stating a position can shift attitude toward it, but the script device itself has no controlled studies and the size of any lasting effect is unknown.
 
 **Why it works:** Generation effect, Self-reference effect, Self-perception theory, Commitment and consistency, Cognitive dissonance.
 
 **Consent:** Words the listener says can later be cited back as their own commitment, so do not treat a line repeated on instruction as consent to anything.
-
-*Projected from legacy annotations: 131 of 527 scripts.*
 
 
 ### Classical conditioning
@@ -5451,8 +5151,6 @@ Pairing is the basic operation of classical conditioning: a neutral cue (a word,
 
 **Consent:** The association is meant to persist after the session; tell the listener which cue is being paired with what.
 
-*Projected from legacy annotations: 420 of 527 scripts.*
-
 
 ##### Pleasure pairing *(variant)*
 
@@ -5477,8 +5175,6 @@ Pleasure pairing is pairing in which the state is pleasure, comfort or arousal a
 **Why it works:** Classical conditioning, Evaluative conditioning, Misattribution of arousal, Response expectancy theory.
 
 **Consent:** It aims to change what the listener finds pleasant beyond the session; name the target in the description and avoid pairing pleasure with things the listener has not agreed to want.
-
-*Projected from legacy annotations: 409 of 527 scripts.*
 
 
 ##### Evaluative conditioning *(variant)*
@@ -5505,8 +5201,6 @@ Evaluative conditioning changes how much something is liked by pairing it with p
 
 **Consent:** It is usually not announced and shifts attitudes that last beyond the session; the listener should know which likes or dislikes the script is built to move.
 
-*Projected from legacy annotations: 19 of 527 scripts.*
-
 
 #### Second-order conditioning *(unit)*
 
@@ -5532,8 +5226,6 @@ Second-order conditioning builds a new cue from an old one. The established cue 
 
 **Consent:** It adds cues that work after the session, sometimes everyday ones; state the new cue plainly and give it the same limits and removal as the original.
 
-*Projected from legacy annotations: 25 of 527 scripts.*
-
 
 #### Counterconditioning *(unit)*
 
@@ -5541,7 +5233,7 @@ Also called: reciprocal inhibition, systematic desensitization, response replace
 
 Counterconditioning pairs a cue that already evokes one response, usually anxiety or aversion, with a state that cannot coexist with it, usually deep relaxation. With repetition the cue comes to evoke the new state. It differs from extinction, which presents the cue with nothing, and from collapsing anchors, which fires two installed anchors at once instead of meeting the real cue.
 
-**How:** Establish the incompatible state first and make it strong. Bring in the problem cue in imagination, starting with its mildest form, and hold it only while the calm holds. Return to the calm, then step up, in a graded list from least to most difficult. Never raise the cue faster than the calm can absorb it; a listener who is overwhelmed and breaks off has escaped the cue, and escape strengthens the old response, with nobody present in a recording to manage it. The same form is used in reverse in aversion scripts, where a liked cue is paired with something unpleasant.
+**How:** Establish the incompatible state first and make it strong. Bring in the problem cue in imagination, starting with its mildest form, and hold it only while the calm holds. Return to the calm, then step up, in a graded list from least to most difficult. Do not raise the cue faster than the listener can manage; if overwhelmed, they may break off, and that escape can reinforce avoidance, with nobody present in a recording to guide them. The same form is used in reverse in aversion scripts, where a liked cue is paired with something unpleasant.
 
 > Stay with that loose, easy calm. Now picture the lecture hall from far away, just the doors. Still calm. Still breathing slowly. Good. Let the picture go.
 
@@ -5558,8 +5250,6 @@ Counterconditioning pairs a cue that already evokes one response, usually anxiet
 **Why it works:** Classical conditioning, Habituation, Response expectancy theory.
 
 **Consent:** It deliberately evokes distressing material and aims at lasting change; the listener should have chosen the target, be able to stop at any step, and aversive forms need explicit agreement.
-
-*Projected from legacy annotations: 10 of 527 scripts.*
 
 
 #### Generalization *(unit)*
@@ -5586,8 +5276,6 @@ Generalization is the spread of a conditioned response from the trained cue to c
 
 **Consent:** It extends effects into daily life and to cues the listener does not control; say how far the response is meant to reach and exclude unsafe settings such as driving.
 
-*Projected from legacy annotations: 195 of 527 scripts.*
-
 
 #### Discrimination *(unit)*
 
@@ -5613,8 +5301,6 @@ Discrimination trains a response to occur to one cue and not to others that rese
 
 **Consent:** Usually protective, since it keeps a persistent response from firing on everyday look-alikes; tell the listener which cue is being kept and which are being trained out, and do not rely on it alone to keep a response out of unsafe settings.
 
-*Projected from legacy annotations: 17 of 527 scripts.*
-
 
 #### Extinction *(unit)*
 
@@ -5630,17 +5316,15 @@ Extinction weakens a conditioned response by presenting its cue without the stat
 
 > Each time you notice that old cue and simply carry on, it loses a little more of its pull.
 
-**Spot it by:** a known cue repeated with explicit non-response: 'nothing happens', 'nothing follows', 'you stay as you are'; 'just a word', 'just a sound', 'an ordinary word again'; 'fades', 'weaker each time', 'loses its pull', 'less and less'; the cue presented while alertness is stressed ('wide awake', 'eyes open'); a cue that earlier in the script or series was followed by a state, now presented three or more times with none.
+**Spot it by:** a known cue repeated with explicit non-response: 'nothing happens', 'nothing follows', 'you stay as you are'; 'just a word', 'just a sound', 'an ordinary word again'; 'fades', 'weaker each time', 'loses its pull', 'less and less'; the cue presented while alertness is stressed ('wide awake', 'eyes open'); a cue earlier followed by a state, now repeatedly presented while the passage marks its old response as absent.
 
-**Not to be confused with:** Trigger removal (removal cancels the cue by declaration, and one firing afterwards to show nothing happens is still removal; label extinction when the cue is presented three or more times with stated non-response and no cancelling statement does the work); Counterconditioning (that pairs the cue with a new incompatible response; extinction pairs it with nothing); Semantic satiation (satiation repeats any word in a rapid run until its meaning blurs; extinction presents an installed cue, spaced, and says each time that its response does not come); Expiry clause (expiry sets a date in advance; extinction is the unpaired exposure itself).
+**Not to be confused with:** Trigger removal (removal cancels the cue by declaration, and one later demonstration of non-response is still removal; label extinction when repeated presentations of the cue without its old response do the work); Counterconditioning (that pairs the cue with a new incompatible response; extinction presents it without its old outcome); Semantic satiation (satiation repeats a word until its meaning blurs; extinction repeatedly presents a previously effective cue without its old response); Expiry clause (expiry sets an end time in advance; extinction is the repeated unpaired presentation itself).
 
 **Evidence:** experimental. Extinction is well established, as are spontaneous recovery, renewal in the original context and rapid reacquisition, so a faded response should not be assumed gone; its use to retire hypnotic triggers has not been studied directly. Source: Pavlov, Conditioned Reflexes (1927).
 
 **Why it works:** Classical conditioning, Habituation, Response expectancy theory.
 
 **Consent:** Tell the listener an extinguished response can return after a break or a new pairing, so they do not treat it as permanently removed.
-
-*Projected from legacy annotations: 1 of 527 scripts.*
 
 
 ### Operant conditioning
@@ -5680,14 +5364,12 @@ Positive reinforcement is adding something wanted immediately after a response, 
 
 **Why it works:** Operant conditioning, Response expectancy theory.
 
-*Projected from legacy annotations: 73 of 527 scripts.*
-
 
 ##### Praise *(variant)*
 
 Also called: verbal reinforcement, good boy, good girl, well done, approval.
 
-Praise is positive reinforcement where the reward is the speaker's stated approval. It is the cheapest and most common reinforcer in scripts because it needs nothing but a word. It differs from ratification in what it says: praise evaluates the listener or states the speaker's pleasure ('well done', 'good girl', 'I'm pleased', 'you're doing so well'), while ratification only confirms the response ('that's right', 'there it is'). A bare 'good' or 'perfect' standing alone after an instruction is labeled ratification; label praise when the wording judges the listener, names the speaker's approval, or says what was done well.
+Praise is positive reinforcement delivered as verbal approval immediately after a wanted response. Praise evaluates the listener or the response, or states the speaker's approval ('well done', 'you did that perfectly', 'I'm pleased'). Ratification instead confirms that a response is occurring or has occurred ('there it is', 'that's right'). A bare 'good' can serve either function; use the surrounding wording and timing to decide.
 
 **How:** Put the praise in the beat right after the instruction, leaving just enough pause for the response. Keep it to one to three words so it does not interrupt the state. Tie it to a specific response at least some of the time ('good, just like that breath'). Praise is only worth something if the listener values the speaker's approval, so establish warmth or authority first, and do not praise so constantly that it turns into background noise.
 
@@ -5697,15 +5379,13 @@ Praise is positive reinforcement where the reward is the speaker's stated approv
 
 > Breathe out slowly... good... I'm so pleased with how you're doing this.
 
-**Spot it by:** evaluation of the listener: 'well done', 'good boy/girl', 'you did that perfectly', 'you're doing so well'; the speaker's approval stated: 'I'm proud of you', 'I'm pleased', 'that's exactly what I wanted'; 'good' or 'very good' extended with what was done well: 'good, just like that breath'; placed in the beat right after an instruction or a pause; bare 'good' or 'that's right' alone is ratification, not praise.
+**Spot it by:** evaluation of a completed response: 'well done', 'you did that perfectly', 'you're doing so well'; approval of the listener: 'good boy/girl', 'I'm proud of you', 'I'm pleased'; 'good' or 'very good' extended with what was done well: 'good, just like that breath'; approval placed immediately after the wanted response.
 
 **Not to be confused with:** Ratification (ratification confirms the response is happening; praise judges the listener as having done well); Labeling (labeling assigns a standing trait to get matching behavior later; praise rewards one response just made); Affection flooding (affection flooding is heavy approval given up front, not contingent on any response).
 
 **Evidence:** experimental. Contingent praise raises rates of praised behavior in classroom and clinical studies; its effect depends on the listener valuing the source, and recorded praise for unobserved responses is untested.
 
 **Why it works:** Operant conditioning, Conditional regard, Liking principle.
-
-*Projected from legacy annotations: 40 of 527 scripts.*
 
 
 ##### Pleasure as reward *(variant)*
@@ -5732,8 +5412,6 @@ Pleasure as reward is positive reinforcement where the reward is a suggested bod
 
 **Consent:** When the reward is attached to obedience in general and suggested to continue after the session, say so in the description and give it a scope.
 
-*Projected from legacy annotations: 27 of 527 scripts.*
-
 
 ##### Marker signal *(variant)*
 
@@ -5749,15 +5427,13 @@ A marker is a short, unmistakable signal that has first been paired with reward 
 
 > When I say 'yes' in that one short way, you got it right. Breathe out... yes.
 
-**Spot it by:** stage directions: [click], [chime], [snap] placed right after a response; explanation of the signal: 'that sound means you did it right'; one fixed short word repeated at response moments, where the script has earlier said what that word signals; an early passage pairing the signal with reward before it is used; signal followed, not preceded, by the response it marks.
+**Spot it by:** stage directions: [click], [chime], [snap] placed immediately after a response; explanation of the signal: 'that sound means you did it right'; one fixed short word repeated after response moments, where the script has earlier defined it as a signal; an early passage pairing the signal with reward before it is used; the marked response precedes the signal; the reward may follow the signal.
 
 **Not to be confused with:** Sound trigger (a sound trigger comes before the response and evokes it; a marker comes after the response and rewards it); Praise (praise carries approval in its meaning and varies in wording; a marker is one fixed signal whose value comes from pairing); Ratification (ratification confirms a response in ordinary words; a marker is a trained signal backed by reward).
 
 **Evidence:** experimental. Conditioned reinforcement is well established; animal studies comparing a clicker with prompt primary reward alone are mixed, and marker use in recorded hypnosis is practitioner lore. Source: Pryor, Don't Shoot the Dog! (1984).
 
 **Why it works:** Operant conditioning, Classical conditioning.
-
-*Projected from legacy annotations: 8 of 527 scripts.*
 
 
 #### Negative reinforcement *(unit)*
@@ -5784,8 +5460,6 @@ Negative reinforcement strengthens a response by removing or preventing somethin
 
 **Consent:** If the script creates the discomfort it then relieves, the listener should have agreed to that in advance; a speaker who is the only source of relief is the dependency pattern.
 
-*Projected from legacy annotations: 44 of 527 scripts.*
-
 
 #### Punishment *(unit)*
 
@@ -5811,8 +5485,6 @@ Punishment is a consequence that reduces the response it follows. In its plain f
 
 **Consent:** Punishment should be agreed in advance, limited in scope and removable; rules that tell the listener to punish themselves after the session need an explicit end condition.
 
-*Projected from legacy annotations: 75 of 527 scripts.*
-
 
 ##### Response cost *(variant)*
 
@@ -5837,8 +5509,6 @@ Response cost is punishment by removal: a lapse costs the listener points, a pri
 **Why it works:** Operant conditioning, Sunk-cost effect.
 
 **Consent:** Penalties that run after the session, especially any involving money or real privileges, need prior agreement and a stated way to stop.
-
-*Projected from legacy annotations: 10 of 527 scripts.*
 
 
 ##### Time-out *(variant)*
@@ -5890,8 +5560,6 @@ Shaping builds a response the listener cannot yet produce by reinforcing success
 
 **Consent:** Because each step is small, the listener may not notice how far the endpoint is from the start; state the endpoint of a shaped series up front.
 
-*Projected from legacy annotations: 1 of 527 scripts.*
-
 
 #### Intermittent reinforcement *(unit)*
 
@@ -5940,8 +5608,6 @@ Differential reinforcement puts two responses on different consequences: the wan
 
 **Why it works:** Operant conditioning.
 
-*Projected from legacy annotations: 7 of 527 scripts.*
-
 
 #### Behavior chaining *(unit)*
 
@@ -5959,15 +5625,13 @@ A behavior chain is a sequence of distinct responses in which each completed ste
 
 **Spot it by:** 'and that is your signal to', 'which leads into', 'tells you to'; three or more distinct acts given in a fixed order; 'always in that order', 'each step leads to the next'; 'then ... then ... then ...' ending in a single reward; a completed act named as the start condition for the next act.
 
-**Not to be confused with:** Chaining anchors (chaining anchors links installed cues and states; behavior chaining links the listener's own acts); Habit stacking (habit stacking attaches one new behavior to one existing daily cue; a chain has three or more acts, each cueing the next); Contingent suggestion (a contingent suggestion ties one response to one ongoing event in a sentence; a chain is a trained sequence of several acts); Shaping (shaping moves the criterion on one response; chaining joins different responses end to end).
+**Not to be confused with:** Chaining anchors (chaining anchors links installed cues and states; behavior chaining links the listener's own acts); Habit stacking (habit stacking attaches a new behavior to an existing daily routine; behavior chaining links distinct acts so completion of each cues the next); Contingent suggestion (a contingent suggestion ties one response to an ongoing or certain event; a behavior chain links successive acts); Shaping (shaping moves the criterion on one response; chaining joins different responses end to end).
 
 **Evidence:** experimental. Forward and backward chaining are established teaching procedures for observed behavior; chains installed by spoken description alone have not been studied.
 
 **Why it works:** Operant conditioning, Automaticity, Implementation intentions.
 
 **Consent:** A chain meant to run by itself after the session is a posthypnotic routine; describe it up front and say how to drop it.
-
-*Projected from legacy annotations: 13 of 527 scripts.*
 
 
 #### Earn-it contingency *(unit)*
@@ -5993,8 +5657,6 @@ The earn-it contingency uses an activity as the reward: access to a preferred ac
 **Why it works:** Operant conditioning, Motivating operations, Effort justification.
 
 **Consent:** Rules that gate everyday activities on tasks outside the session should be agreed in advance and time-limited.
-
-*Projected from legacy annotations: 4 of 527 scripts.*
 
 
 #### Points and tokens *(unit)*
@@ -6032,11 +5694,11 @@ Deprivation is a motivating operation: restricting access to a reward raises its
 
 > I'm not going to tell you how well you're doing for a while. You'll have to wait for it.
 
-> No rest between rounds today. The rest comes at the end, once the last round is done.
+> You have had the same word of approval after every round. For the next few rounds, I will hold it back and give it again at the end.
 
 > Until our next session, save that quiet feeling. Don't reach for it on your own. It will be stronger for the wait.
 
-**Spot it by:** 'I'm not going to give you ... for now', 'none of that for a while'; 'save it', 'go without', 'until I say', 'until next time'; 'the longer you wait, the better/stronger'; a named reward the listener has already had, explicitly withheld before a task or contingency; no rising description of the wanted thing coming closer (that is tease and denial) and no promised arrival time (that is anticipation).
+**Spot it by:** a named, previously available reward withheld for a period: 'I'm not going to give you that praise for a while'; 'save it' or 'go without' tied to a specific reward the listener has already had; wording that says the withheld reward will become more wanted or effective after the wait; the reward is withheld before a task or contingency, rather than removed after a lapse; absence of language actively heightening desire for the approaching reward.
 
 **Not to be confused with:** Tease and denial (tease and denial actively raises desire and then withholds satisfaction; deprivation is the withholding alone, with any reward); Response cost (response cost takes something away because of a lapse; deprivation withholds in advance to raise value); Anticipation (anticipation announces and delays an event; deprivation restricts access to a reward the listener already knows).
 
@@ -6045,8 +5707,6 @@ Deprivation is a motivating operation: restricting access to a reward raises its
 **Why it works:** Motivating operations, Operant conditioning, Scarcity principle.
 
 **Consent:** Withholding that continues after the session should be agreed, time-limited and never applied to sleep, food, medical needs or contact with other people.
-
-*Projected from legacy annotations: 81 of 527 scripts.*
 
 
 #### Satiation *(unit)*
@@ -6065,13 +5725,11 @@ Satiation is the opposite motivating operation to deprivation: free or repeated 
 
 **Spot it by:** 'as much as you want', 'all of it', 'more than you need'; 'until you've had enough', 'until it's boring', 'until you're tired of it'; instruction to repeat an urge or behavior on purpose, many times, with a stated end point of losing interest; 'you don't need it any more', 'it's lost its pull'.
 
-**Not to be confused with:** Reverse psychology (reverse psychology instructs the opposite and expects the listener not to do it; satiation expects them to do it, in full, until it stops being wanted, and says 'until'); Semantic satiation (semantic satiation repeats one word until it loses meaning; this repeats a reward or behavior until it loses value); Extinction (extinction withholds the outcome until the response fades; satiation supplies the outcome until it loses value); Wearing down (wearing down outlasts the listener's opposition; satiation uses up the value of a reward or urge).
+**Not to be confused with:** Reverse psychology (reverse psychology instructs the opposite of the desired response in expectation of resistance; satiation calls for engaging in a behavior until its pull fades); Semantic satiation (semantic satiation repeats one word until it loses meaning; this repeats a reward or behavior until it loses value); Extinction (extinction withholds what used to follow a response; satiation supplies an outcome until it loses value); Wearing down (wearing down outlasts the listener's opposition; satiation uses up the value of a reward or urge).
 
 **Evidence:** experimental. Satiation lowering reinforcer value is well established, and stimulus satiation and negative practice have clinical reports of mixed quality; deliberate satiation delivered by script is untested. Source: Skinner, Science and Human Behavior (1953).
 
 **Why it works:** Motivating operations, Habituation, Operant conditioning.
-
-*Projected from legacy annotations: 2 of 527 scripts.*
 
 
 #### Self-administered reinforcement *(unit)*
@@ -6098,8 +5756,6 @@ Self-administered reinforcement hands delivery of the reward to the listener: th
 
 **Consent:** This is designed to keep a behavior going after the session without the speaker; the behavior being maintained should be one the listener asked for.
 
-*Projected from legacy annotations: 38 of 527 scripts.*
-
 
 #### Group contingency *(unit)*
 
@@ -6124,8 +5780,6 @@ A contingency in which the consequence for one person is set by the behavior of 
 **Why it works:** Operant conditioning, Normative social influence, Injunctive norms, Unity principle.
 
 **Consent:** It recruits peers as enforcers and keeps running between sessions, so every member should agree to the rule beforehand and be able to leave the group without penalty to themselves or the others.
-
-*Projected from legacy annotations: 4 of 527 scripts.*
 
 
 ### Triggers and anchors
@@ -6167,8 +5821,6 @@ Anchoring ties a cue to a state the listener is having right now. The state come
 
 **Consent:** The anchor is meant to work after the session, so say plainly what state is being tied to what cue.
 
-*Projected from legacy annotations: 40 of 527 scripts.*
-
 
 #### Trigger installation *(unit)*
 
@@ -6193,8 +5845,6 @@ Trigger installation is a posthypnotic suggestion in rule form: it names one cue
 **Why it works:** Posthypnotic suggestion, Response expectancy theory, Implementation intentions, Hypnotizability, Direct verbal suggestion.
 
 **Consent:** It persists after the session; the listener should agree to the cue and response beforehand and be told how it is limited and removed.
-
-*Projected from legacy annotations: 408 of 527 scripts.*
 
 
 ##### Trigger word / phrase *(variant)*
@@ -6221,12 +5871,10 @@ A trigger whose cue is language: a single word or a fixed short phrase. It is th
 
 **Consent:** Pick a word that will not fire by accident in daily life, and tell the listener what it is before the session.
 
-*Projected from legacy annotations: 69 of 527 scripts.*
-
 
 ##### Sound trigger *(variant)*
 
-Also called: snap trigger, finger snap, bell trigger, chime trigger, click trigger, tone cue.
+Also called: snap trigger, finger-snap trigger, bell trigger, chime trigger, click trigger, tone cue.
 
 A trigger whose cue is a sound with no words. Because the sound carries no meaning of its own, the script must tell the listener what it does. In audio it depends on production: the sound has to be made or mixed in at the right moments.
 
@@ -6247,8 +5895,6 @@ A trigger whose cue is a sound with no words. Because the sound carries no meani
 **Why it works:** Classical conditioning, Posthypnotic suggestion, Orienting response, Response expectancy theory.
 
 **Consent:** Common sounds occur outside the session, so limit the trigger to the recording or the speaker and say so.
-
-*Projected from legacy annotations: 27 of 527 scripts.*
 
 
 ##### Touch / gesture trigger *(variant)*
@@ -6275,12 +5921,10 @@ A trigger whose cue is felt in or done with the body: pressing two fingers toget
 
 **Consent:** State who may apply the touch; a worn-object cue stays active for as long as it is worn, so the listener should know how to switch it off.
 
-*Projected from legacy annotations: 76 of 527 scripts.*
-
 
 ##### Visual trigger *(variant)*
 
-Also called: image trigger, symbol trigger, color trigger, sigil, object trigger.
+Also called: image trigger, symbol trigger, color trigger, sigil.
 
 A trigger whose cue is recognized by its look, not its wording: a symbol, a color, a picture, a spiral, an object held up. It lets a response be fired by images and video without sound. A word shown on screen or typed in a message is a trigger word, because the fixed wording is what the listener responds to. It differs from an everyday-cue trigger in that the image is a specific chosen one that the author or the listener presents on purpose; a sight the day supplies without anyone deciding belongs to that entry.
 
@@ -6292,7 +5936,7 @@ A trigger whose cue is recognized by its look, not its wording: a symbol, a colo
 
 > Each time you look at the small star you drew on your notebook, you remember exactly how focused you can be.
 
-**Spot it by:** 'whenever you see', 'when you look at', 'each time I show you' followed by a specific image, symbol or object and a response; named colors, shapes, symbols or pictures inside a when-then rule; 'on your screen', 'this image', 'this symbol', 'the picture of'; 'when I show you', 'when I hold up', 'when it appears': the image is presented by someone, not met by chance.
+**Spot it by:** 'whenever you see', 'when you look at', 'each time I show you' followed by a specific image, symbol or object and a response; named colors, shapes, symbols or pictures inside a when-then rule; 'on your screen', 'this image', 'this symbol', 'the picture of'; 'when I show you', 'when I hold up', 'when you display': someone deliberately presents the image.
 
 **Not to be confused with:** Trigger word / phrase (a word is a trigger word in any medium, including text on a screen; label this only when the cue is recognized by its look, not its wording); Everyday-cue trigger (that uses sights the day supplies without anyone deciding ('every red light'); this is one chosen image that the author or listener presents on purpose); Spiral fixation (looking at a visual to induce trance, with no installed response for later); Visuals (the production choice of showing visuals, not a rule tying one to a response).
 
@@ -6301,8 +5945,6 @@ A trigger whose cue is recognized by its look, not its wording: a symbol, a colo
 **Why it works:** Classical conditioning, Posthypnotic suggestion, Attentional capture, Response expectancy theory.
 
 **Consent:** Images and colors turn up uninvited, so tie the trigger to a specific image and sender and tell the listener what it is.
-
-*Projected from legacy annotations: 4 of 527 scripts.*
 
 
 ##### Everyday-cue trigger *(variant)*
@@ -6329,8 +5971,6 @@ A trigger whose cue is something that will happen anyway: a door opening, a phon
 
 **Consent:** It fires in daily life with no one choosing the moment, so keep the response harmless in any setting and give it a stated limit and end.
 
-*Projected from legacy annotations: 146 of 527 scripts.*
-
 
 ##### Internal-event trigger *(variant)*
 
@@ -6355,8 +5995,6 @@ A trigger whose cue happens inside the listener: a thought, an emotion, a body f
 **Why it works:** Implementation intentions, Posthypnotic suggestion, Automaticity, Metacognitive monitoring.
 
 **Consent:** The listener's own thoughts fire it and no one else can see it happen, so they should know exactly which thought or feeling is being linked to what.
-
-*Projected from legacy annotations: 131 of 527 scripts.*
 
 
 ##### Thought replacement *(variant)*
@@ -6383,12 +6021,10 @@ A conditional suggestion whose cue is the listener's own thought and whose respo
 
 **Consent:** Swaps that persist after the session should target thoughts the listener asked to change.
 
-*Projected from legacy annotations: 33 of 527 scripts.*
-
 
 #### Trigger test *(unit)*
 
-Also called: firing the trigger, trigger rehearsal, live trigger proof, testing the anchor.
+Also called: firing the trigger, trigger rehearsal, testing the anchor.
 
 A trigger test delivers the installed cue right after installation and describes or waits for the response. It does two jobs at once: it is practice for the link and it is proof to the listener that the link exists. It differs from a drill in number and purpose: a test is one or a few firings to show it works.
 
@@ -6408,8 +6044,6 @@ A trigger test delivers the installed cue right after installation and describes
 
 **Why it works:** Response expectancy theory, Self-perception theory, Classical conditioning, Demand characteristics.
 
-*Projected from legacy annotations: 146 of 527 scripts.*
-
 
 #### Stacking anchors *(unit)*
 
@@ -6417,7 +6051,7 @@ Also called: anchor stacking, trigger stacking, stacked anchor, bundle, stacking
 
 Stacking ties more than one separately built state or response to a single cue: either by eliciting several states in turn and applying the same cue to each, or by adding a new response to a trigger that already works. The cue stays the same; what it evokes grows. A single install whose response has several parts ('your shoulders drop and your breathing slows') is plain trigger installation. It differs from chaining, where each response is the cue for the next in sequence.
 
-**How:** Establish the cue with one response first and test it. Add the others one at a time, each with its own build-up, using the identical cue. Keep stacked states compatible (calm, confident, clear); NLP teaching holds that opposed states on one cue weaken each other. Keep the stack short enough that the listener can still say what the cue is for.
+**How:** Establish the cue with one response first and test it. Add the others one at a time, each with its own build-up, using the identical cue. Keep stacked states compatible if the aim is a coherent combined response. Keep the stack short enough that the listener can still say what the cue is for.
 
 > You already know what pressing your fingers together does. Now add this: as well as calm, it brings a clear head. Calm and clear, on the same touch.
 
@@ -6434,8 +6068,6 @@ Stacking ties more than one separately built state or response to a single cue: 
 **Why it works:** Anchoring (NLP), Classical conditioning, Spreading activation.
 
 **Consent:** When adding to a trigger the listener already has, say what is being added; they agreed to the earlier response, not the new one.
-
-*Projected from legacy annotations: 69 of 527 scripts.*
 
 
 #### Chaining anchors *(unit)*
@@ -6462,14 +6094,12 @@ Chaining anchors links several cue-response pairs in a fixed order, so firing th
 
 **Consent:** The listener should know where the chain ends, since firing the first cue commits them to the whole sequence.
 
-*Projected from legacy annotations: 17 of 527 scripts.*
-
 
 #### Collapsing anchors *(unit)*
 
 Also called: collapse anchors, anchor collapse, integrating anchors.
 
-Collapsing anchors fires two anchors for opposed states at the same moment and holds them until the mixed feeling settles: one set for an unwanted state, one for a stronger resource state. The aim is that the old cue no longer brings the old state. The labelable move is the simultaneous firing; setting each anchor beforehand is anchoring. It resembles counterconditioning carried out through two installed cues, though NLP does not describe it in those terms.
+Collapsing anchors fires two anchors for opposed states at the same moment and holds them until the mixed feeling settles: one set for an unwanted state, one for a stronger resource state. The aim is that the old cue no longer brings the old state. The labelable move is the simultaneous firing; setting each anchor beforehand is anchoring. It resembles counterconditioning carried out through two installed cues.
 
 **How:** Anchor the wanted state first and make it clearly the stronger of the two, stacking if needed. Anchor the unwanted state lightly and briefly, on a different spot or cue. Fire both together, hold, then release the unwanted one first and the wanted one a few seconds later. Test by firing the old cue alone or by imagining the old situation. If the resource state is weaker, the result goes the wrong way.
 
@@ -6488,8 +6118,6 @@ Collapsing anchors fires two anchors for opposed states at the same moment and h
 **Why it works:** Anchoring (NLP), Classical conditioning, Response expectancy theory.
 
 **Consent:** It deliberately calls up an unpleasant state; the listener should agree to that first, and it is not a substitute for treatment of serious distress.
-
-*Projected from legacy annotations: 1 of 527 scripts.*
 
 
 #### Trigger strengthening *(unit)*
@@ -6516,8 +6144,6 @@ A suggestion about the trigger itself: that each firing increases its effect. It
 
 **Consent:** It tells the listener the effect will grow beyond what they have felt so far, so they should have agreed to a trigger that escalates.
 
-*Projected from legacy annotations: 83 of 527 scripts.*
-
 
 #### Trigger conditions *(unit)*
 
@@ -6535,15 +6161,13 @@ A clause attached to a trigger that sets its conditions of use: which person or 
 
 **Spot it by:** 'only when', 'only if', 'only while', 'only in my voice', 'only from me'; 'never while driving', 'never when it would be unsafe', 'not at work'; 'if anyone else says it', 'from anyone else it is just a word'; 'when it is safe and appropriate', 'when you choose', 'if you want it to'; 'nothing happens', 'has no effect' in a stated exception.
 
-**Not to be confused with:** Discrimination (both are passages that narrow a response; label this when the clause sets conditions on a named installed trigger, and discrimination when a response with no named trigger is narrowed or the cue is drilled against look-alikes); Scope limits (bounds the session's suggestions in general; this bounds one named trigger); Expiry clause (expiry sets when the trigger ends in time; conditions set who and where while it lasts); Listening conditions (tells the listener when not to play the recording; this says when an installed trigger does nothing).
+**Not to be confused with:** Discrimination (a stated condition on a named installed trigger is trigger conditions; discrimination presents a look-alike cue with no response and then the true cue with its response); Scope limits (bounds the session's suggestions in general; this bounds one named trigger); Expiry clause (expiry sets when the trigger ends in time; conditions set who and where while it lasts); Listening conditions (tells the listener when not to play the recording; this says when an installed trigger does nothing).
 
 **Evidence:** clinical-tradition. Limiting a posthypnotic cue to stated persons and settings is standard safe practice, and posthypnotic responses are known to be context-sensitive; how reliably a written condition holds is not measured.
 
 **Why it works:** Posthypnotic suggestion, Classical conditioning, Response expectancy theory, Self-determination theory.
 
 **Consent:** This is the clause that keeps a persistent trigger within what was agreed; leaving it out is a safety gap, and widening it later needs fresh agreement.
-
-*Projected from legacy annotations: 100 of 527 scripts.*
 
 
 ##### Shareable trigger *(variant)*
@@ -6570,8 +6194,6 @@ A trigger condition that widens the 'who': a partner, a named person, anyone the
 
 **Consent:** It gives other people a way to affect the listener, so the listener must choose who, and must be able to withdraw it.
 
-*Projected from legacy annotations: 25 of 527 scripts.*
-
 
 #### Trigger removal *(unit)*
 
@@ -6597,8 +6219,6 @@ Removal is the explicit cancellation of something installed earlier: the cue is 
 
 **Consent:** A listener can ask for removal at any time and should be told beforehand how it is done; a script that says a trigger can never be removed is making a permanence claim, not stating a fact.
 
-*Projected from legacy annotations: 3 of 527 scripts.*
-
 
 #### Expiry clause *(unit)*
 
@@ -6623,8 +6243,6 @@ An expiry clause builds the end into the install: a date, a duration, a number o
 **Why it works:** Posthypnotic suggestion, Response expectancy theory.
 
 **Consent:** It is a safeguard for persistent suggestions; do not rely on it alone, and offer removal as well.
-
-*Projected from legacy annotations: 29 of 527 scripts.*
 
 
 ## Compliance and commitment
@@ -6652,7 +6270,7 @@ A graded sequence of requests in which the early ones are almost impossible to r
 
 > Take a breath in. Good. Let it out slowly. Good. Now let your shoulders drop. And now let your eyes close.
 
-> Just listen for a moment. Good. Now answer one question in your mind: are you comfortable? Good. Now let me decide how the next ten minutes go.
+> Listen for one breath. Good. Follow my count for three breaths. Good. Now keep following it with your eyes closed.
 
 > First just notice your hands. Now let them rest. Now let them grow heavy. Now let that heaviness move up your arms.
 
@@ -6665,8 +6283,6 @@ A graded sequence of requests in which the early ones are almost impossible to r
 **Why it works:** Foot-in-the-door, Commitment and consistency, Self-perception theory, Response expectancy theory, Task-set inertia.
 
 **Consent:** The listener should know where the ladder leads before the first rung; a ladder toward an undisclosed end is manipulation.
-
-*Projected from legacy annotations: 355 of 527 scripts.*
 
 
 #### Yes set *(variant)*
@@ -6685,13 +6301,11 @@ A compliance ladder whose rungs are agreements, spoken or inward. Three or more 
 
 **Spot it by:** three or more consecutive undeniable statements or easy yes/no questions; tag questions: 'isn't it?', 'aren't you?', 'haven't you?', 'wouldn't it?'; final item introduced with 'and', 'so' or 'which means' and not itself verifiable; parallel sentence shape across the run; explicit prompts such as 'yes?' or 'right?' after each item.
 
-**Not to be confused with:** Pacing and leading (pace and lead is built from statements about present, observable experience (sitting, hearing, breathing); label yes set when any item is a question or tag question, or when the items are opinions, wishes or history the listener agrees with instead of observing); Truism (a truism is one undeniable statement; the yes set is the run of them plus the target); Asking for a yes (that asks outright for one yes at a chosen moment, with no run-up of easy items).
+**Not to be confused with:** Pacing and leading (a yes set strings together easy-to-agree items to build assent to a target, including plain statements; pacing and leading uses verifiable present experience to lend credibility to a suggested state, and a span may fit both); Truism (a truism is one undeniable statement; the yes set is the run of them plus the target); Asking for a yes (that asks outright for one yes at a chosen moment, with no run-up of easy items).
 
 **Evidence:** clinical-tradition. Standard in Ericksonian and sales teaching; a few experiments on agreement momentum support a small effect, but the claim that three yeses reliably carry a fourth is not established. Source: Erickson, Rossi & Rossi, Hypnotic Realities (1976).
 
 **Why it works:** Mere-agreement effect / acquiescence, Commitment and consistency, Pacing and leading, Processing fluency.
-
-*Projected from legacy annotations: 44 of 527 scripts.*
 
 
 #### Foot in the door *(variant)*
@@ -6718,8 +6332,6 @@ The two-step form of the compliance ladder: one small request that is granted an
 
 **Consent:** Used honestly when the larger request is foreseeable; used to draw someone toward a request they would have refused outright, it works by their not noticing.
 
-*Projected from legacy annotations: 18 of 527 scripts.*
-
 
 #### Small physical tasks *(variant)*
 
@@ -6743,8 +6355,6 @@ A compliance ladder whose rungs are small bodily acts with no stake. Each act is
 
 **Why it works:** Foot-in-the-door, Self-perception theory, Task-set inertia, Automaticity.
 
-*Projected from legacy annotations: 207 of 527 scripts.*
-
 
 #### Graded escalation *(variant)*
 
@@ -6762,15 +6372,13 @@ A compliance ladder stretched over sections of one script or over a series of fi
 
 **Spot it by:** 'a little further', 'one step more', 'more than last time', 'this time' attached to a request; reference to an earlier level as already achieved before a larger ask; numbered levels, stages or parts with rising demands; the same kind of request repeated across sections or files with a larger amount each time (one minute, then two); increments stated as small ('just a bit more', 'only slightly').
 
-**Not to be confused with:** Shaping (shaping rewards successive approximations of one target behavior; escalation enlarges the request); Next-time-deeper suggestion (that predicts future trance will come faster and deeper; escalation raises what the listener is asked to do); Series / curriculum (the series is the container of ordered files; escalation is the rising ask inside it); Wearing down (that persists at the same ask until refusal tires; escalation moves on only after acceptance).
+**Not to be confused with:** Shaping (shaping rewards successive approximations of one target behavior; escalation enlarges the request); Next-time-deeper suggestion (that predicts future trance will come faster and deeper; escalation raises what the listener is asked to do); Series / curriculum (the series is the container of ordered files; escalation is the rising ask inside it); Wearing down (that persists at the same ask until refusal tires; escalation increases the ask across sections or sessions).
 
 **Evidence:** practitioner-lore. Gradual commitment is well documented in social psychology as a phenomenon, but stepwise escalation across recorded sessions is community practice without direct tests.
 
 **Why it works:** Foot-in-the-door, Commitment and consistency, Habituation, Investment model of commitment.
 
 **Consent:** Because each step looks small, the listener may never weigh the total; disclose the end point of a series before it begins.
-
-*Projected from legacy annotations: 233 of 527 scripts.*
 
 
 ### Door in the face *(unit)*
@@ -6781,13 +6389,13 @@ A two-step request running large to small. The first request is big enough to be
 
 **How:** Make the first request large but not absurd; an absurd opener is dismissed and earns no concession. Follow it immediately with the real request, framed as backing down ('all right, then just'). In a recording the listener cannot refuse aloud, so write the refusal in: name the reluctance, accept it, and retreat. The second request must come from the same voice and concern the same thing.
 
-> I could ask you to give me a full hour of perfect stillness. No? Too much. Then just give me the next five minutes.
+> Give me a full hour of perfect stillness. No? Too much. All right, then give me the next five minutes.
 
 > Let go of everything, all at once, right now. Too much to ask? All right. Then just let your shoulders go.
 
 > Listen to this every day for a month. No? Fair enough. Then once more this week, that's all.
 
-**Spot it by:** a large request followed directly by a smaller one of the same kind; scripted refusal or reluctance between the two requests ('No?', 'too much?', 'you'd rather not?'); retreat markers after the refusal: 'all right, then just', 'fair enough', 'at least', 'how about only'; explicit framing of the second request as a concession ('I'll settle for', 'that's all I'll ask'); both requests from the same voice, with no other content between them.
+**Spot it by:** a large request followed by a smaller one of the same kind; scripted refusal or reluctance between the two requests ('No?', 'too much?', 'you'd rather not?'); retreat markers after the refusal: 'all right, then just', 'fair enough', 'at least', 'how about only'; explicit framing of the second request as a concession ('I'll settle for', 'that's all I'll ask'); the first request is actually made before the speaker retreats to the smaller one.
 
 **Not to be confused with:** Foot in the door (runs small to large and depends on the first request being granted, not refused); Contrast (contrast only mentions a larger thing beside the target ('I could ask for an hour. I won't.'); label door in the face only when a refusal or reluctance is voiced between the two requests and the speaker backs down); That's not all (that improves one offer before any answer; this replaces a refused request with a smaller one).
 
@@ -6819,8 +6427,6 @@ Agreement is secured on incomplete terms; the full cost is disclosed only after 
 **Why it works:** Low-ball, Commitment and consistency, Cognitive dissonance.
 
 **Consent:** It works by withholding the terms until after agreement, which defeats informed consent; use only as agreed fantasy with the real terms disclosed beforehand.
-
-*Projected from legacy annotations: 33 of 527 scripts.*
 
 
 ### That's not all *(unit)*
@@ -6862,15 +6468,13 @@ The writer cites the listener's earlier commitment, in the session or before it,
 
 **Spot it by:** 'you said', 'you agreed', 'you promised', 'you decided', 'you told me'; 'so', 'which means', 'that's why' linking the earlier commitment to a present request; appeals to keeping one's word or being consistent ('stay true to that', 'as you said you would'); a quoted or paraphrased earlier statement by the listener; reference to the stated reason for listening, followed by an instruction.
 
-**Not to be confused with:** Your actions prove it (that infers a trait or desire from what the listener did; this requests the next behavior from what they said); Low-ball (low-ball attaches a new cost or condition to the agreed request; this asks only for what the commitment already covered); Sunk-cost appeal (sunk cost cites effort already spent, not a promise made); You chose this (that treats the choice to be here as proof of wanting the result; this cites a specific commitment and asks for follow-through).
+**Not to be confused with:** Your actions prove it (that infers a trait or desire from what the listener did; this requests the next behavior from what they said); Low-ball (low-ball adds a previously undisclosed cost or condition to an agreed request; this cites a prior commitment to support matching behavior); Sunk-cost appeal (sunk cost cites effort already spent, not a promise made); You chose this (that treats the choice to be here as proof of wanting the result; this cites a specific commitment and asks for follow-through).
 
 **Evidence:** experimental. The pull toward consistency with active, freely made commitments is well supported; its strength varies between people and it is weaker for commitments felt as coerced. Source: Cialdini, Influence (1984).
 
 **Why it works:** Commitment and consistency, Cognitive dissonance, Self-perception theory.
 
 **Consent:** Cite only commitments the listener actually made; attributing an agreement they never gave shades into gaslighting.
-
-*Projected from legacy annotations: 144 of 527 scripts.*
 
 
 #### Stated commitment *(variant)*
@@ -6897,8 +6501,6 @@ The form of commitment and consistency in which the commitment is created on the
 
 **Consent:** The commitment is meant to bind after the session; say so, keep it within what was agreed beforehand, and do not take pledges in deep trance that the listener did not expect to make.
 
-*Projected from legacy annotations: 102 of 527 scripts.*
-
 
 ### Labeling *(unit)*
 
@@ -6924,8 +6526,6 @@ The writer assigns a trait ('you're someone who responds easily') and then makes
 
 **Consent:** A label can outlast the session; keep to labels the listener would accept when alert, and avoid demeaning ones outside agreed play.
 
-*Projected from legacy annotations: 251 of 527 scripts.*
-
 
 ### Your actions prove it *(unit)*
 
@@ -6937,11 +6537,11 @@ The writer names an observable act (still listening, eyes closed, came back agai
 
 > You're still listening. That tells you something: part of you wants this.
 
-> You closed your eyes when I asked, and your breathing slowed to match my count. That's how ready you are.
+> You closed your eyes when I asked, and you kept them closed through the count. That shows how ready you are.
 
-> You've followed every instruction so far without stopping to think. That shows how much you want this.
+> You've followed each instruction so far. That shows how willing you are to keep going.
 
-**Spot it by:** 'you're still listening', 'you haven't stopped', 'you did that the moment I asked', 'you followed every word'; 'that means', 'that shows', 'that proves', 'which tells you' after a described act; past or present action of the listener in one clause, a present want, readiness or state in the next; 'if you didn't want this, you would have stopped'; no stress on the act having been freely chosen (if 'you chose', 'nobody made you' or 'you could have stopped' appears, label the variant you-chose-this).
+**Spot it by:** 'you're still listening', 'you haven't stopped', 'you did that the moment I asked', 'you followed every word'; 'that means', 'that shows', 'that proves', 'which tells you' after a described act; past or present action of the listener in one clause, a present want, readiness or state in the next; 'you followed that instruction' paired with 'that shows you're ready'; no stress on the act having been freely chosen (if 'you chose', 'nobody made you' or 'you could have stopped' appears, label the variant you-chose-this).
 
 **Not to be confused with:** You chose this (the variant for lines that name a choice or stress that the act was free ('you chose', 'nobody made you', 'you could have stopped'); use this parent label when an act is cited without that stress); Pacing trance signs (that reads bodily signs as proof of trance; this reads voluntary acts as proof of wanting or being); From act to trait (that turns one act into a standing trait; this may conclude only a present want or readiness).
 
@@ -6950,8 +6550,6 @@ The writer names an observable act (still listening, eyes closed, came back agai
 **Why it works:** Self-perception theory, Commitment and consistency, Cognitive dissonance, Diagnosticity.
 
 **Consent:** The inference is the writer's, not the listener's; do not use continued listening as proof of consent to content that was not disclosed.
-
-*Projected from legacy annotations: 363 of 527 scripts.*
 
 
 #### You chose this *(variant)*
@@ -6978,8 +6576,6 @@ The writer names a real, observable choice and draws a conclusion from it about 
 
 **Consent:** Choosing to start is not agreement to everything that follows; never use this line to argue that the listener has given up the right to stop or has consented to content they were not told about.
 
-*Projected from legacy annotations: 208 of 527 scripts.*
-
 
 #### From act to trait *(variant)*
 
@@ -7003,8 +6599,6 @@ The script points at a single act and states the trait it supposedly reveals: 'y
 
 **Why it works:** Self-perception theory, Labeling effect, Commitment and consistency.
 
-*Projected from legacy annotations: 28 of 527 scripts.*
-
 
 ### Task assignment *(unit)*
 
@@ -7022,15 +6616,13 @@ An instruction to perform a concrete, checkable action that has its own purpose:
 
 **Spot it by:** 'your task', 'your homework', 'your assignment', 'your orders', 'I want you to'; a concrete action with a time or count ('each evening', 'three times', 'before bed'); instructions placed just before or after the wake-up that concern later behavior; request for a report or record ('write down', 'tell me next time'); reference in a later session to whether the task was done.
 
-**Not to be confused with:** Posthypnotic suggestion (a posthypnotic response is suggested to happen automatically on a cue; a task is done deliberately); Small physical tasks (trivial in-session acts that exist only to start the habit of following); Habit stacking (that binds a behavior to a recurring cue with no end date, to form a habit; a task is a bounded assignment with a count, a deadline or a report); Repeat listening (that prescribes re-listening or repetition of the session itself, not a separate action).
+**Not to be confused with:** Posthypnotic suggestion (a posthypnotic response is suggested to happen automatically on a cue; a task is done deliberately); Small physical tasks (trivial in-session acts that exist only to start the habit of following); Habit stacking (that attaches a behavior to an existing recurring cue; a task explicitly assigns an action, often with a count, deadline or report, and one line can use both); Repeat listening (that prescribes re-listening or repetition of the session itself, not a separate action).
 
 **Evidence:** clinical-tradition. Between-session assignments are standard in clinical hypnosis and behavior therapy, and homework completion is linked to better therapy outcomes; tasks given as obedience exercises have not been studied.
 
 **Why it works:** Commitment and consistency, Self-perception theory, Effort justification, Implementation intentions.
 
 **Consent:** Tasks carry the session into daily life; keep them safe, bounded in time, within agreed limits, and free of money, disclosure or other people's involvement unless negotiated.
-
-*Projected from legacy annotations: 158 of 527 scripts.*
 
 
 #### Money ask *(variant)*
@@ -7057,8 +6649,6 @@ A direct instruction or suggestion to spend money on the speaker, often framed a
 
 **Consent:** A money instruction inside trance or tied to a trigger bypasses ordinary financial judgment; it requires the listener's explicit prior agreement and should never persist past the session.
 
-*Projected from legacy annotations: 22 of 527 scripts.*
-
 
 #### Recruiting others *(variant)*
 
@@ -7083,8 +6673,6 @@ A direct instruction to recruit: share, recommend, play the file for someone, or
 **Why it works:** Commitment and consistency, Self-perception theory, Effort justification.
 
 **Consent:** Recruitment instructions extend influence to people who never agreed; never instruct listeners to expose others without their informed consent.
-
-*Projected from legacy annotations: 38 of 527 scripts.*
 
 
 ### Asking permission *(unit)*
@@ -7111,8 +6699,6 @@ The script makes the listener the one who requests: to go deeper, to rest, to re
 
 **Consent:** A scripted 'please' inside trance is part of the scene, not evidence of consent to the content; consent is settled before the session.
 
-*Projected from legacy annotations: 18 of 527 scripts.*
-
 
 ### But you are free *(unit)*
 
@@ -7138,8 +6724,6 @@ A request with a statement of the listener's freedom attached: 'but you are free
 
 **Consent:** Only say it when it is true: the listener must really be able to stop, and nothing later in the script should deny it.
 
-*Projected from legacy annotations: 70 of 527 scripts.*
-
 
 ### Disrupt then reframe *(unit)*
 
@@ -7149,7 +6733,7 @@ A small, harmless oddity in the wording of a request (an unusual unit, a reverse
 
 **How:** State the request with one unexpected element, such as time in seconds or a quantity in unusual units. Follow at once, with no pause, with a plain reframe: 'it's a bargain', 'it's nothing at all'. Keep the disruption mild; a real puzzle makes the listener stop and analyze. Reversing the order, or leaving out either part, removes the effect.
 
-> This will take nine hundred seconds. That's fifteen minutes. It's hardly any time at all.
+> Stay with me for nine hundred seconds. That's fifteen minutes. It's hardly any time at all.
 
 > Give me three hundred breaths of your attention. That's about twenty minutes, and it's a small price for a quiet mind.
 
@@ -7215,8 +6799,6 @@ A direct prompt for an overt yes: spoken, whispered, thought or nodded. The yes 
 
 **Consent:** A prompted yes in trance is a compliance device, not consent; the alias 'consent harvest' should not be read as meaning it secures consent.
 
-*Projected from legacy annotations: 65 of 527 scripts.*
-
 
 ### Self-persuasion *(unit)*
 
@@ -7241,8 +6823,6 @@ The writer supplies a prompt and a gap, and the listener supplies the argument: 
 **Why it works:** Generation effect, Self-reference effect, Self-perception theory, Cognitive dissonance, Commitment and consistency, Psychological reactance, Counterarguing.
 
 **Consent:** The listener will experience the conclusion as wholly their own, so the question should be one they would recognize as leading somewhere; do not later cite reasons produced on request in trance as proof of what they want.
-
-*Projected from legacy annotations: 11 of 527 scripts.*
 
 
 ### Trial period *(unit)*
@@ -7269,14 +6849,12 @@ The request is cut down in time and in finality: do it for a stated period, then
 
 **Consent:** The promise of reversal must be true: the trial has to end when stated, stopping must cost nothing, and extending it requires a fresh yes; a 'trial' that later turns out to be permanent is a low-ball.
 
-*Projected from legacy annotations: 7 of 527 scripts.*
-
 
 ## Social influence
 
 Also called: Cialdini's principles, weapons of influence, interpersonal appeals.
 
-This family holds devices whose force comes from the listener's relation to other people, not from the wording of the suggestion itself. It covers six of Cialdini's seven principles (social proof, authority, liking, reciprocity, scarcity, unity), plus modeling and perceptual contrast. The seventh principle, commitment and consistency, sits in the compliance family because it works from the listener's own past acts.
+This family groups appeals based on what other people do, the speaker's standing, or a bond with the listener, along with modeling and perceptual contrast. It includes six of Cialdini's seven principles: social proof, authority, liking, reciprocity, scarcity, and unity. Commitment and consistency sits in the compliance family because it draws on the listener's own past acts.
 
 **Choosing:** Pick by what the listener is unsure about. If they doubt the response is normal, use social proof or a testimonial. If they doubt the speaker, use authority or liking. If they need a reason to act now, use scarcity or exclusivity; if they need a reason to give something back, use reciprocity. Unity and in-group language suit series and communities where a shared identity already exists. Most of these belong in the pre-talk or the description; inside trance they should be short and should not invite evaluation.
 
@@ -7311,8 +6889,6 @@ Social proof cites the behavior or experience of other people as a guide to what
 
 **Consent:** Claims about what others do should be true or clearly generic; invented numbers are deception.
 
-*Projected from legacy annotations: 69 of 527 scripts.*
-
 
 #### Testimonial *(variant)*
 
@@ -7330,15 +6906,13 @@ A testimonial is social proof carried by one specific case instead of a count. I
 
 **Spot it by:** 'one listener', 'someone told me', 'a client of mine', 'a woman who wrote to me'; reported speech or a quoted remark from one past listener; before-and-after story about a third person ('she was sure it wouldn't work... then'); 'they said', 'he described it as', 'she reported', 'told me afterwards'; past-tense report of a finished session, not a scene narrated as it happens.
 
-**Not to be confused with:** Modeling (a model is shown in the act, with what the response earned them; a testimonial is the person's own report of a finished result, offered as evidence); My friend John (My friend John delivers live suggestions through the third person; a testimonial reports a finished result); Vicarious deepening (vicarious deepening narrates someone going under in the present for the listener to follow); Borrowed authority (borrowed authority cites an expert or science, not a peer's experience).
+**Not to be confused with:** Modeling (modeling shows someone performing a response and its consequence; a testimonial reports an earlier person's completed experience as evidence, whether quoted or described by the speaker); My friend John (My friend John delivers live suggestions through the third person; a testimonial reports a finished result); Vicarious deepening (vicarious deepening narrates someone going under in the present for the listener to follow); Borrowed authority (borrowed authority cites an expert or science, not a peer's experience).
 
 **Evidence:** experimental. Single cases can shift judgment, and base rates are often underused, but studies comparing narrative with statistical evidence give mixed results; no controlled work shows testimonials inside a script raise hypnotic response.
 
 **Why it works:** Social proof, Narrative persuasion, Availability heuristic, Social learning theory, Response expectancy theory, Character identification.
 
 **Consent:** Invented testimonials presented as real are deception; composite or illustrative cases should be worded as such.
-
-*Projected from legacy annotations: 3 of 527 scripts.*
 
 
 #### Manufactured consensus *(variant)*
@@ -7365,8 +6939,6 @@ Manufactured consensus is social proof that is shown instead of claimed. The scr
 
 **Consent:** Outside an acknowledged fiction frame the crowd is fake evidence; do not present staged voices or invented agreement as real listeners.
 
-*Projected from legacy annotations: 10 of 527 scripts.*
-
 
 ### Authority *(unit)*
 
@@ -7391,8 +6963,6 @@ Authority is any statement or stance that sets up the speaker's standing: traini
 **Why it works:** Authority principle, Response expectancy theory, Epistemic trust, Sociocognitive theory of hypnosis, Demand characteristics.
 
 **Consent:** False credentials are deception, and claimed clinical authority carries a duty of care the script must be able to meet.
-
-*Projected from legacy annotations: 161 of 527 scripts.*
 
 
 #### Borrowed authority *(variant)*
@@ -7419,8 +6989,6 @@ Borrowed authority supports a claim by pointing to a source outside the speaker:
 
 **Consent:** Citing science or experts that do not support the claim is deception; cite only what is true.
 
-*Projected from legacy annotations: 62 of 527 scripts.*
-
 
 ### Liking *(unit)*
 
@@ -7444,8 +7012,6 @@ Liking covers what the speaker says to be liked: friendliness, stated similarity
 
 **Why it works:** Liking principle, Rapport matching, Epistemic trust, Mere-exposure effect, Source derogation.
 
-*Projected from legacy annotations: 111 of 527 scripts.*
-
 
 #### Parasocial intimacy *(variant)*
 
@@ -7465,13 +7031,11 @@ Parasocial intimacy simulates a personal relationship in a one-way medium. The s
 
 **Not to be confused with:** Liking (liking shows warmth and similarity; parasocial intimacy claims a private ongoing relationship); Isolation (isolation runs down or replaces the listener's other people ('they wouldn't understand'); intimacy says only that speaker and listener are alone together now, with no claim about anyone else); Affection flooding (affection flooding is overwhelming approval used to bind; this is the simulated one-to-one frame at any intensity); Direct address (direct address is second-person wording; intimacy adds the claim of closeness); Mind reading (mind reading claims to know the listener's inner state; this claims presence and relationship).
 
-**Evidence:** experimental. Parasocial relationships are well documented and can raise a source's persuasive pull; nothing shows they raise hypnotic response, and effects on lonely listeners are a known concern. Source: Horton & Wohl, 'Mass Communication and Para-Social Interaction' (1956) for the concept.
+**Evidence:** experimental. Parasocial relationships are well documented and can raise a source's persuasive pull; nothing shows they raise hypnotic response, and effects on lonely listeners are a known concern. Source: Horton & Wohl, 'Mass Communication and Para-Social Interaction: Observations on Intimacy at a Distance' (1956).
 
 **Why it works:** Parasocial interaction, Liking principle, Attachment theory, Epistemic trust, Self-reference effect.
 
 **Consent:** The closeness is simulated and one-way; say so outside the session, and do not use it to build dependency or to press for money or more listening.
-
-*Projected from legacy annotations: 1 of 527 scripts.*
 
 
 #### Self-disclosure *(variant)*
@@ -7498,8 +7062,6 @@ A first-person statement about the speaker's own inner life or imperfection that
 
 **Consent:** A disclosure invented to win trust works only while the listener takes it as real; do not fabricate vulnerability, and do not use a real one to draw a matching disclosure the listener would not otherwise give.
 
-*Projected from legacy annotations: 4 of 527 scripts.*
-
 
 ### Reciprocity *(unit)*
 
@@ -7525,8 +7087,6 @@ Reciprocity uses the felt obligation to repay. The script provides a benefit (re
 
 **Consent:** Using a felt debt to extract money, escalation or continued listening the listener did not sign up for is manipulative; keep the ask proportionate and refusable.
 
-*Projected from legacy annotations: 47 of 527 scripts.*
-
 
 ### Scarcity *(unit)*
 
@@ -7551,8 +7111,6 @@ Scarcity states that the opportunity is rare, short-lived or about to be lost. T
 **Why it works:** Scarcity principle, Psychological reactance, Framing effect.
 
 **Consent:** Invented deadlines or shortages are deception and pressure the listener to skip their own judgment.
-
-*Projected from legacy annotations: 23 of 527 scripts.*
 
 
 #### Exclusivity *(variant)*
@@ -7604,8 +7162,6 @@ Unity invokes a shared identity: speaker and listener, or listener and a communi
 
 **Consent:** Belonging offered on condition of compliance, or set against outsiders, shades into the coercive family.
 
-*Projected from legacy annotations: 25 of 527 scripts.*
-
 
 #### In-group language *(variant)*
 
@@ -7656,8 +7212,6 @@ The script presents a model: one person who performs the response, and what they
 
 **Consent:** The listener is not told that the model is there to be copied; a model presented as a real past listener should be one.
 
-*Projected from legacy annotations: 50 of 527 scripts.*
-
 
 ## Expectation and framing
 
@@ -7688,13 +7242,11 @@ Contrast sets up a comparison whose only job is to shift how the next item is ju
 
 **Spot it by:** 'compared with', 'compared to', 'next to', 'after all that' linking the target to something more extreme; 'all I'm asking', 'just', 'only' directly after a larger effort or request has been described; a harder or more extreme alternative named and then set aside by the speaker ('I could ask... I won't'); 'so much easier than', 'nothing like as', comparatives with the standard stated; an earlier, worse state named so the present one is judged against it ('compared with how tight they were').
 
-**Not to be confused with:** Door in the face (label door in the face only when the large request is actually put to the listener and declined or withdrawn as too much ('No? Too much?', 'that's a lot to ask'); when the speaker merely mentions a larger thing and sets it aside in the same breath ('I could ask... I won't. Just...'), it is contrast); Reference point (if the comparison point is a numeral or multiplier ('ten times', 'twice as'), label the reference point; contrast sets two experiences or requests side by side without a number); Antithesis (antithesis is a balanced figure of opposed ideas; contrast is a comparison meant to shift a judgment); Apposition of opposites (apposition pairs two simultaneous opposed experiences as a suggestion; contrast compares to change how one is judged); That's not all (that's-not-all compares an offer with its own earlier, worse version by adding to it; contrast compares the target with something else).
+**Not to be confused with:** Door in the face (door in the face puts a large request to the listener, voices refusal or reluctance, then retreats to a smaller request; contrast may merely mention and set aside the larger option); Reference point (a reference point supplies a number before inviting a judgment of the same quantity; contrast compares experiences or requests to change how one is judged, even when their descriptions include numbers); Antithesis (antithesis is a balanced figure of opposed ideas; contrast is a comparison meant to shift a judgment); Apposition of opposites (apposition pairs two simultaneous opposed experiences as a suggestion; contrast compares to change how one is judged); That's not all (that's-not-all improves an offer before the listener answers; contrast compares the target with a separate, more extreme option or experience).
 
 **Evidence:** experimental. Contrast effects in perception and judgment are well established; their size in spoken persuasion varies and is unmeasured in hypnosis. Source: Cialdini, Influence (1984).
 
 **Why it works:** Contrast effect, Anchoring effect (judgment), Framing effect.
-
-*Projected from legacy annotations: 44 of 527 scripts.*
 
 
 ### Expectation setting *(unit)*
@@ -7719,8 +7271,6 @@ A plain forward-looking statement of what the session will feel like or do. It w
 
 **Why it works:** Response expectancy theory, Placebo effect, Sociocognitive theory of hypnosis.
 
-*Projected from legacy annotations: 293 of 527 scripts.*
-
 
 #### Potency claim *(variant)*
 
@@ -7741,8 +7291,6 @@ Expectation setting aimed at magnitude rather than content: the listener is told
 **Evidence:** experimental. Labelling a procedure as hypnosis or as powerful raises response in studies of expectancy, but the gain is modest and depends on the claim being believed.
 
 **Why it works:** Response expectancy theory, Placebo effect.
-
-*Projected from legacy annotations: 29 of 527 scripts.*
 
 
 #### Warning as lure *(variant)*
@@ -7766,8 +7314,6 @@ A caution phrased to raise curiosity and appeal rather than to inform. It combin
 **Why it works:** Psychological reactance, Scarcity principle.
 
 **Consent:** Because it is built to look like a warning while discouraging refusal, it should not replace an honest content note.
-
-*Projected from legacy annotations: 23 of 527 scripts.*
 
 
 ### Seeding *(unit)*
@@ -7794,8 +7340,6 @@ An early, low-key reference to a later target response, made without asking for 
 
 **Consent:** A seed is meant to pass unnoticed, so seed only responses the listener has already agreed to in the description or pre-talk.
 
-*Projected from legacy annotations: 64 of 527 scripts.*
-
 
 ### Reframing *(unit)*
 
@@ -7818,8 +7362,6 @@ The facts stay the same; what they mean is changed. A meaning reframe says what 
 **Evidence:** clinical-tradition. Reframing is standard in family therapy and clinical hypnosis, and cognitive reappraisal has experimental support; the NLP six-step form is not independently validated. Source: Watzlawick, Weakland & Fisch, Change: Principles of Problem Formation and Problem Resolution (1974).
 
 **Why it works:** Reframing, Framing effect, Moral reframing.
-
-*Projected from legacy annotations: 461 of 527 scripts.*
 
 
 #### Relabeling sensation *(variant)*
@@ -7844,8 +7386,6 @@ A reframe applied to a physical sensation the listener already has: a tingle, wa
 
 **Why it works:** Misattribution of arousal, Reframing.
 
-*Projected from legacy annotations: 230 of 527 scripts.*
-
 
 #### No-fail framing *(variant)*
 
@@ -7867,8 +7407,6 @@ A reframe that removes failure as a category: not going deep, staying alert or n
 
 **Why it works:** Response expectancy theory, Reframing.
 
-*Projected from legacy annotations: 254 of 527 scripts.*
-
 
 #### Surrender as freedom *(variant)*
 
@@ -7882,7 +7420,7 @@ A reframe of yielding: what might be read as giving something up is described as
 
 > Handing over the steering isn't losing anything. It's finally getting to rest.
 
-**Spot it by:** the freedom of; such a relief to let go; letting go is; nothing left to carry; free from deciding; a relief or freedom word (free, relief, release, rest, lighter) predicated of yielding, following or obeying.
+**Spot it by:** the freedom of following along; such a relief to let go; letting go feels like relief; free from having to decide; handing over control means you can rest; a relief or freedom word predicated of yielding, following or obeying.
 
 **Not to be confused with:** Safety and comfort (comfort and safety reassure without reframing control as gain); It's what you want (desire attribution says the listener wants it, not that it frees them); Not doing / not knowing (not doing tells the listener effort is unneeded; it does not claim release as the meaning).
 
@@ -7891,8 +7429,6 @@ A reframe of yielding: what might be read as giving something up is described as
 **Why it works:** Reframing, Framing effect.
 
 **Consent:** Because it makes yielding feel like a benefit, it should sit inside a session that also states the listener can stop.
-
-*Projected from legacy annotations: 250 of 527 scripts.*
 
 
 #### Resistance as participation *(variant)*
@@ -7938,8 +7474,6 @@ A reframe applied to doubt: the listener's 'this isn't working' becomes evidence
 
 **Why it works:** Reframing, Response expectancy theory, Misattribution of arousal.
 
-*Projected from legacy annotations: 163 of 527 scripts.*
-
 
 ### Fiction frame *(unit)*
 
@@ -7963,8 +7497,6 @@ An explicit statement that what follows is a story, game or roleplay. It lowers 
 
 **Consent:** If suggestions inside a fiction frame are meant to persist after the session, say so plainly, since the frame implies they will not.
 
-*Projected from legacy annotations: 34 of 527 scripts.*
-
 
 ### Naming the technique *(unit)*
 
@@ -7985,8 +7517,6 @@ The speaker names or explains the device while using it (notice I keep saying 'd
 **Evidence:** practitioner-lore. Forewarning of persuasive intent usually reduces persuasion in the lab, so the claim that disclosure raises response is unsupported in general; it may help through trust and play.
 
 **Why it works:** Persuasion Knowledge Model, Forewarning effect, Psychological reactance.
-
-*Projected from legacy annotations: 83 of 527 scripts.*
 
 
 ### Myth correction *(unit)*
@@ -8009,12 +7539,10 @@ A pre-talk move that names common misconceptions (you will be unconscious, you c
 
 **Why it works:** Response expectancy theory, Sociocognitive theory of hypnosis.
 
-*Projected from legacy annotations: 28 of 527 scripts.*
-
 
 ### Preempting objections *(unit)*
 
-Also called: you might think, answering the objection first, prolepsis, procatalepsis, refutational two-sided message.
+Also called: you might think, answering the objection first, prolepsis, procatalepsis.
 
 The speaker voices the doubt or counterargument the listener is likely to have, then disposes of it. Hearing it named and answered first makes it feel already handled. It differs from myth correction, which addresses general beliefs about hypnosis, and from doubt-as-a-sign, which reinterprets doubt rather than answering it.
 
@@ -8031,8 +7559,6 @@ The speaker voices the doubt or counterargument the listener is likely to have, 
 **Evidence:** experimental. Two-sided messages that refute counterarguments and inoculation by weakened counterarguments both have experimental support in persuasion research.
 
 **Why it works:** Inoculation theory, Counterarguing, Forewarning effect.
-
-*Projected from legacy annotations: 192 of 527 scripts.*
 
 
 ### Naming the state *(unit)*
@@ -8055,14 +7581,12 @@ A label applied to the listener's present experience (this is trance, this is wh
 
 **Why it works:** Labeling effect, Misattribution of arousal, Sociocognitive theory of hypnosis.
 
-*Projected from legacy annotations: 4 of 527 scripts.*
-
 
 ### Gain / loss framing *(unit)*
 
 Also called: framing effect, attribute framing, goal framing.
 
-The outcome is fixed; only its description changes, as a benefit gained by acting or a cost suffered by not acting. A loss usually weighs more than an equal gain. In message-framing research gain frames do slightly better for prevention behaviors and loss frames for detection behaviors, and both effects are small. It differs from reframing, which changes what an experience means, not which side of the ledger it is described from.
+The outcome is fixed; only its description changes, as a benefit gained by acting or a cost suffered by not acting. Losses often weigh more than equal gains in choices, but that does not mean loss-framed messages are generally more persuasive. Message-framing studies find a small, variable gain-frame advantage for prevention behaviors and no reliable overall loss-frame advantage for detection behaviors. It differs from reframing, which changes what an experience means, not which side of the ledger it is described from.
 
 **How:** Decide what you want the listener to do, then describe it as what they keep or gain by doing it, or what they miss by not. Loss frames add urgency but can feel like pressure; gain frames feel warmer. Stay consistent within a passage; switching frames dilutes both.
 
@@ -8078,16 +7602,14 @@ The outcome is fixed; only its description changes, as a benefit gained by actin
 
 **Why it works:** Framing effect, Attribute salience.
 
-*Projected from legacy annotations: 73 of 527 scripts.*
-
 
 ### Reference point *(unit)*
 
 Also called: numeric anchoring, anchoring effect, reference value, anchor number.
 
-A specific value stated just before the listener judges how deep, how long, how heavy or how strong something is: a typical figure, a benchmark or an extreme. The listener's estimate drifts toward the offered value. It differs from the depth scale, which gives depth its own numbered dial; from stepwise doubling, which ties a multiplier to each count as an instruction to go further; and from NLP anchoring, which ties a state to a cue.
+A specific value stated just before the listener judges how deep, how long, how heavy or how strong something is: a typical figure, a benchmark or an extreme. The offered value may influence the listener's estimate. It differs from the depth scale, which gives depth its own numbered dial; from stepwise doubling, which ties a multiplier to each count as an instruction to go further; and from NLP anchoring, which ties a state to a cue.
 
-**How:** State the value first, then ask the listener to judge or notice. Present it as typical or as a benchmark ('most people take about three minutes'), and choose a figure on the generous side of plausible so the estimate is pulled the way you want. An absurd figure is discarded and anchors nothing. Do not follow it with a scale or a dial; that is a depth scale.
+**How:** State a reference value before asking the listener to estimate a felt quantity. Present it as a typical figure or benchmark, then invite the listener to make their own judgment. A conspicuously implausible number may be less credible as a benchmark. A numbered dial or scale belongs to depth scale instead.
 
 > Most people need about three minutes to go all the way down. See how long it takes you.
 
@@ -8100,8 +7622,6 @@ A specific value stated just before the listener judges how deep, how long, how 
 **Evidence:** experimental. Numeric anchoring of judgment is well replicated; whether it changes felt depth, rather than reported depth, is unknown. Source: Tversky & Kahneman, Judgment under uncertainty: heuristics and biases (1974).
 
 **Why it works:** Anchoring effect (judgment), Contrast effect.
-
-*Projected from legacy annotations: 7 of 527 scripts.*
 
 
 ### Redefinition *(unit)*
@@ -8123,8 +7643,6 @@ The speaker declares what a word truly means (real strength is letting go; relax
 **Evidence:** rhetorical-tradition. Persuasive definition is a long-recognized rhetorical and argumentation figure; its persuasive effect is not directly measured. Source: Stevenson, Persuasive definitions (1938).
 
 **Why it works:** Equivocation, Metalinguistic negotiation, Framing effect.
-
-*Projected from legacy annotations: 161 of 527 scripts.*
 
 
 ### Inevitability *(unit)*
@@ -8149,8 +7667,6 @@ Open assertion that the response will happen whatever the listener does. It remo
 
 **Consent:** Inevitability language aimed at outcomes after the session should be balanced by a stated way to stop or undo them.
 
-*Projected from legacy annotations: 266 of 527 scripts.*
-
 
 ### As-if frame *(unit)*
 
@@ -8164,7 +7680,7 @@ An invitation to imagine a hypothetical as real and to elaborate it from the ins
 
 > What would it be like if your mind were quiet right now? How would your breathing change?
 
-**Spot it by:** suppose; what would it be like if; imagine that you already; just for a moment, pretend that you; act as though you already; a hypothetical followed by a question about what the listener notices.
+**Spot it by:** suppose the outcome had already happened; what would it be like if; imagine that you already; just for a moment, pretend that you; act as though you already; a hypothetical outcome followed by a question about what the listener notices.
 
 **Not to be confused with:** Fiction frame (the fiction frame declares the whole content to be play); Mental rehearsal (mental rehearsal walks through a specific future behavior); Pretend / as-if induction (the pretend induction asks the listener to act hypnotized as the route into trance).
 
@@ -8193,8 +7709,6 @@ Framing carried in the material around the script rather than in it: the file na
 
 **Why it works:** Response expectancy theory, Priming, Pre-suasion.
 
-*Projected from legacy annotations: 19 of 527 scripts.*
-
 
 ## Convincers and tests
 
@@ -8219,11 +7733,11 @@ A convincer is a suggested effect staged to be checked: the script names an effe
 
 **How:** Place it after induction and some deepening, when the listener is settled. Build the effect first with several sentences of direct suggestion, then give a short, permissive test ('try, and notice'), then stop the test quickly and release the effect explicitly. Ratify the outcome either way: a pass is proof, a partial pass is 'already beginning'. Do not run a long test, which gives effort time to win.
 
-> Your right arm is so heavy now that it will not lift from your lap. Try to lift it, and notice.
+> Your right arm is so heavy it will not lift from your lap; try lifting it, then notice how that shows the suggestion took hold.
 
-> Stop trying. The arm is light and normal again, and you drift deeper.
+> That word has slipped from your mind; try saying it now, and notice how the gap shows something has changed.
 
-> That is how you know something has changed.
+> Feel your left hand grow lighter than your right; lift both and compare them, then notice the difference as proof that you responded.
 
 **Spot it by:** 'try to ...' after a run of suggestions about the same body part; 'and you can't', 'it won't', 'the harder you try the more'; 'stop trying', 'let it go now', 'back to normal' right after the test; 'that's how you know', 'proof', 'see how deep you are'.
 
@@ -8235,14 +7749,12 @@ A convincer is a suggested effect staged to be checked: the script names an effe
 
 **Consent:** A convincer persuades by producing an experience the listener did not choose; release every inability explicitly before the session ends.
 
-*Projected from legacy annotations: 178 of 527 scripts.*
-
 
 #### Eyelid lock *(variant)*
 
 Also called: eye catalepsy, eyes glued shut, eye lock, eyelid catalepsy.
 
-The eyelid form of the convincer. Practitioners treat it as the easiest challenge, on the reasoning that the muscles involved are small and easy to relax, and it is the conventional first test. It differs from eye closure, which only asks the eyes to close, by the added test of trying to open them.
+The eyelid form of the convincer: suggest that the eyes cannot open and invite the listener to try opening them. Practitioners often use it as an early challenge. It differs from eye closure, which asks only that the eyes close, by the added attempt to open them.
 
 **How:** Use it once the eyes are closed and the listener has relaxed the small muscles around them. Frame the lock as relaxation ('so relaxed they won't work') rather than force, which makes trying feel like breaking the relaxation. Keep the test to a second or two, then tell them to stop trying and relax further. In self-hypnosis or recordings, phrase it so trying is optional.
 
@@ -8257,8 +7769,6 @@ The eyelid form of the convincer. Practitioners treat it as the easiest challeng
 **Evidence:** clinical-tradition. Eye catalepsy is an item on standard group and individual scales and is passed by roughly half of participants in normative samples; its use as a gateway to deeper trance is clinical convention.
 
 **Why it works:** Response expectancy theory, Ideomotor effect.
-
-*Projected from legacy annotations: 20 of 527 scripts.*
 
 
 #### Rigid arm *(variant)*
@@ -8331,8 +7841,6 @@ A convincer that tests memory instead of muscle: one well-known item is suggeste
 
 **Consent:** Always restore the item explicitly and check it before the session ends.
 
-*Projected from legacy annotations: 28 of 527 scripts.*
-
 
 #### Speech lock *(variant)*
 
@@ -8357,8 +7865,6 @@ A convincer that blocks or narrows speech. The listener keeps knowing what they 
 **Why it works:** Response expectancy theory, Sociocognitive theory of hypnosis, Cold control theory.
 
 **Consent:** A speech lock can stop a listener using a safeword; keep it short, never cover the safeword, and release it explicitly.
-
-*Projected from legacy annotations: 11 of 527 scripts.*
 
 
 #### Freeze *(variant)*
@@ -8385,8 +7891,6 @@ The whole-body form of the convincer: every limb stops at once. Scripts use it a
 
 **Consent:** A freeze implies the listener cannot act; keep it short, leave breathing and safewords free, and release it clearly.
 
-*Projected from legacy annotations: 129 of 527 scripts.*
-
 
 ### Ideomotor signal *(unit)*
 
@@ -8396,11 +7900,11 @@ A small movement assigned a meaning (yes, no, ready) and requested from 'the unc
 
 **How:** Set the signals first: name which finger means yes and which means no, and ask for them to be tested. Then ask questions and wait, describing the finger as lifting 'by itself'. Accept any movement, even a twitch. In recorded scripts, where no one can see the answer, use the signal as a self-check ('when you are ready, your finger lifts') rather than as a question needing a reply.
 
-> Let your unconscious choose a finger for yes. You don't need to lift it; just notice which one wants to move.
+> Let your unconscious answer yes by lifting your index finger; is this the right time to continue? Wait for that finger to move.
 
-> Is it all right to go deeper now? Let the yes finger or the no finger answer.
+> Let one finger mean yes and another mean no; ask whether you are ready to go deeper, and allow one finger to answer.
 
-> There it is. Let it rest again.
+> Let a small nod mean yes; ask your unconscious whether it wants to pause, and notice whether the nod comes.
 
 **Spot it by:** 'yes finger', 'no finger', 'I don't know finger'; a movement assigned a meaning: 'this finger means yes', 'a nod for yes'; 'let your unconscious answer', 'let the finger answer'; a yes/no question followed by a pause or a wait for movement; 'lift on its own', 'by itself' said of the assigned finger or the head.
 
@@ -8411,8 +7915,6 @@ A small movement assigned a meaning (yes, no, ready) and requested from 'the unc
 **Why it works:** Ideomotor effect, Dissociated control theory, Cold control theory.
 
 **Consent:** Do not treat finger answers as revealing hidden facts, especially about memories; they follow expectation.
-
-*Projected from legacy annotations: 76 of 527 scripts.*
 
 
 ### Suggested sensation *(unit)*
@@ -8436,8 +7938,6 @@ A suggestion for something felt in the body that nothing outside is causing. It 
 **Evidence:** clinical-tradition. Suggested warmth and tingling are routine in clinical scripts and autogenic training; attention alone produces mild versions, so success says little about trance.
 
 **Why it works:** Response expectancy theory, Placebo effect, Hypnotic suggestibility.
-
-*Projected from legacy annotations: 194 of 527 scripts.*
 
 
 #### Numbness *(variant)*
@@ -8473,23 +7973,21 @@ A variant that moves an existing suggested sensation instead of building a new o
 
 **How:** Only use it after the first sensation has been tested and ratified. Give a physical carrier: touching the target area, stroking, or imagery of the feeling flowing. Say the source area returns to normal as the feeling leaves, so nothing is left behind. Test the new area the same way as the old one, then restore it.
 
-> Now place that numb hand on your cheek, and let the numbness flow from your hand into your face.
+> Now place that numb hand on your cheek, and let the numbness pass from your hand into your cheek.
 
-> As it moves, your hand comes back to normal feeling.
+> Press your warm palm against your other hand and feel the warmth move from the palm into the other hand.
 
 > Touch your knee with the warm hand, and feel the warmth pass into the knee as the hand cools to normal.
 
 **Spot it by:** 'let the feeling flow into', 'transfer', 'move the numbness to'; 'place your hand on' after a sensation in that hand; 'as it leaves your hand, your hand returns to normal'; earlier established sensation named again with a new location.
 
-**Not to be confused with:** Travelling sensation (a travelling sensation sweeps through the body region by region and stays wherever it has been; a transfer moves an established sensation from one named area to another, usually by touch, and the source returns to normal); Numbness (numbness creates the feeling; transfer moves one that exists); Everything deepens (linkage ties any stimulus to going deeper; transfer moves one sensation to a new place).
+**Not to be confused with:** Travelling sensation (a travelling sensation is described moving through successive body regions; transfer moves an established sensation from one named area to another); Numbness (numbness suggests a loss of feeling; transfer moves an established feeling from one area to another); Everything deepens (linkage ties a stimulus or response to going deeper; transfer moves an established sensation to a new place).
 
 **Evidence:** clinical-tradition. Glove anesthesia transfer is standard in clinical pain-control scripts; the transfer step itself has not been studied apart from hypnotic analgesia in general.
 
 **Why it works:** Response expectancy theory, Hypnotic suggestibility.
 
 **Consent:** Restore normal feeling to every area that received the transfer before the session ends.
-
-*Projected from legacy annotations: 5 of 527 scripts.*
 
 
 #### Travelling sensation *(variant)*
@@ -8513,8 +8011,6 @@ The form of suggested sensation in which a single feeling (warmth, heaviness, ti
 **Evidence:** clinical-tradition. Spreading warmth and waves of relaxation are routine in clinical relaxation scripts; attention to a body part produces mild sensation in most people, and no study separates the travelling form from plain region-by-region relaxation.
 
 **Why it works:** Response expectancy theory, Attentional tunneling, Absorption (trait), Hypnotic suggestibility.
-
-*Projected from legacy annotations: 52 of 527 scripts.*
 
 
 ### Positive hallucination *(unit)*
@@ -8564,8 +8060,6 @@ A suggestion to not perceive a real object, sound or person. It is one of the ha
 
 **Consent:** Do not suggest that a person or something the listener needs to see for safety is invisible, and restore perception before waking.
 
-*Projected from legacy annotations: 3 of 527 scripts.*
-
 
 ### Suggestibility test *(unit)*
 
@@ -8589,8 +8083,6 @@ A brief exercise done awake, before formal trance, to show the listener they res
 
 **Why it works:** Nonhypnotic suggestibility, Ideomotor effect, Response expectancy theory, Hypnotizability.
 
-*Projected from legacy annotations: 2 of 527 scripts.*
-
 
 #### Book and balloon *(variant)*
 
@@ -8608,7 +8100,7 @@ A convincer built from two opposite imagined sensations at once, ending with the
 
 **Spot it by:** 'one arm' / 'the other arm' with 'heavy' and 'light' in alternation; 'book', 'bucket', 'dictionary', 'weight' paired with 'balloon', 'helium'; 'open your eyes and look at your hands'; 'notice the distance between them'.
 
-**Not to be confused with:** Apposition of opposites (apposition is the sentence form that pairs two opposite experiences; book and balloon is the whole two-arm exercise ending in a look. Label the exercise as this and any 'as one sinks, the other rises' sentence inside it as apposition too); Heaviness / floating (heaviness-lightness is a whole-body deepener with no visible check; this one sets two arms against each other and ends in a look); Arm levitation (levitation lifts one arm and ties trance to its rise; here two arms diverge and the gap is shown as a test); Suggestibility test (the general category of waking exercises; label this narrower form whenever the two-arm weight and balloon exercise is used, before or after induction).
+**Not to be confused with:** Apposition of opposites (apposition pairs opposite experiences in a sentence; book and balloon is the two-arm exercise ending with a visible comparison, and both labels may apply to their respective spans); Heaviness / floating (heaviness-lightness suggests a weight feeling as a depth cue; book and balloon contrasts the two arms and asks the listener to see the gap); Arm levitation (levitation ties one arm's rise to induction or depth; here the two arms diverge and the gap is shown as a test); Suggestibility test (suggestibility test is the general waking exercise before induction; use book and balloon for this named two-arm form, whether it occurs before or after induction).
 
 **Evidence:** practitioner-lore. Widely used in stage and clinical pre-talks; the related hand-lowering and hands-moving items are validated scale items, but this particular test has not been studied on its own.
 
@@ -8627,7 +8119,7 @@ A suggestion that the speaker directs specific movements (a hand lifts, the head
 
 > Now I turn your head slowly to the left. You are only watching it happen.
 
-> And now control returns to you, fully, and your hand rests.
+> I draw your hand toward your shoulder with my words; when I release it, control returns to you.
 
 **Spot it by:** first-person verb with the listener's body part as object: 'I lift your', 'I'm moving your', 'I turn your'; 'puppet', 'pulling the strings', 'my strings', 'remote control'; 'my words move you', 'your body follows my voice, not you'; 'just watch it move' paired with the speaker as the cause; 'control returns to you', 'I give your body back'.
 
@@ -8638,8 +8130,6 @@ A suggestion that the speaker directs specific movements (a hand lifts, the head
 **Why it works:** Ideomotor effect, Cold control theory, Response expectancy theory.
 
 **Consent:** Framing the body as controlled by the speaker works by the listener not owning the action; agree to it beforehand and return control explicitly.
-
-*Projected from legacy annotations: 46 of 527 scripts.*
 
 
 ### Suggested arousal / orgasm *(unit)*
@@ -8665,8 +8155,6 @@ A suggested bodily response of arousal and release, built in steps and tied to a
 **Why it works:** Response expectancy theory, Misattribution of arousal, Classical conditioning.
 
 **Consent:** Sexual content needs explicit adult consent before the session; a release cue meant to work after the session is a persistent trigger and must be disclosed.
-
-*Projected from legacy annotations: 28 of 527 scripts.*
 
 
 ### After-the-fact proof *(unit)*
@@ -8731,8 +8219,6 @@ A suggestion whose content is forgetting: of the whole session, of one section, 
 
 **Consent:** Forgetting removes the listener's ability to review what was suggested; tell them beforehand what kind of material will be forgotten and keep it reversible.
 
-*Projected from legacy annotations: 283 of 527 scripts.*
-
 
 #### Amnesia on waking *(variant)*
 
@@ -8758,8 +8244,6 @@ An amnesia suggestion delivered at the exit and tied to the moment of waking: th
 
 **Consent:** It works against the listener's later ability to review what was suggested, so it must be disclosed beforehand and paired with a way to recover the memory.
 
-*Projected from legacy annotations: 17 of 527 scripts.*
-
 
 #### Structured amnesia *(variant)*
 
@@ -8783,8 +8267,6 @@ An amnesia move done by structure, not by instruction. The speaker stops mid-sen
 
 **Consent:** Works without the listener noticing; disclose in advance if the script uses it.
 
-*Projected from legacy annotations: 24 of 527 scripts.*
-
 
 #### Forgetting where it came from *(variant)*
 
@@ -8800,17 +8282,15 @@ A suggestion about where a suggested idea will seem to have come from. The conte
 
 > Later, the thought will arrive on its own, as if you'd always meant to think it.
 
-**Spot it by:** 'feel like your own idea', 'your own choice', 'your own thought' said of a suggestion just given; 'you won't remember where it came from', 'you won't know why'; 'as if you decided it yourself', 'something you just decided'; 'it will simply be yours'; future tense about how a suggested thought or act will seem when it occurs ('it will just seem natural', 'it will arrive on its own').
+**Spot it by:** 'feel like your own idea', 'your own choice', 'your own thought' said of a suggestion just given; 'you won't remember where the idea came from', 'you won't remember being told it'; 'as if you decided it yourself' said of a decision the script has just suggested; a prediction that the listener will later attribute the suggested thought or action to themselves rather than to the speaker.
 
 **Not to be confused with:** It was always so (says the trait was always there; source amnesia says a newly suggested idea will lose its origin or seem self-made); Amnesia suggestion (removes the content itself, not only its source); It's what you want (claims the listener wants the response now or already; source amnesia predicts how a suggested idea will be experienced later); You chose this (cites a choice the listener has already made as proof of wanting; source amnesia makes no appeal to a past choice); Inner-voice suggestion (suggests the speaker's voice becomes the listener's thinking voice from now on; source amnesia concerns the origin of one suggested idea).
 
-**Evidence:** practitioner-lore. Spontaneous source amnesia after hypnosis is a laboratory finding (facts learned in hypnosis recalled without memory of learning them, in a minority of highly responsive subjects). The scripted device, suggesting that an idea will feel like the listener's own, has not been tested. Source: Evans & Thorn, Two types of posthypnotic amnesia: recall amnesia and source amnesia (1966).
+**Evidence:** practitioner-lore. Posthypnotic source amnesia for facts learned during hypnosis has been demonstrated experimentally. That does not establish that a scripted suggestion can make a newly suggested idea feel self-generated. Source: Evans & Thorn, Two types of posthypnotic amnesia: recall amnesia and source amnesia (1966).
 
 **Why it works:** Source-monitoring error, Hypnotic amnesia, Sleeper effect.
 
 **Consent:** Designed to hide its own influence; the listener should know beforehand that suggestions may later feel self-generated.
-
-*Projected from legacy annotations: 67 of 527 scripts.*
 
 
 #### Distraction amnesia *(variant)*
@@ -8827,7 +8307,7 @@ Amnesia produced by denying rehearsal: the speaker moves attention away immediat
 
 **Spot it by:** unrelated question or task immediately after emergence; abrupt topic change after a key suggestion; quick question / by the way (right after waking); no recap or reference to the session after waking.
 
-**Not to be confused with:** Structured amnesia (returns to the pre-trance topic rather than a new one); Reorientation check (restores body feeling and awareness of the room on purpose and may refer back to the session; distraction amnesia turns to an unrelated topic and never looks back); Attention call (a change placed before key material to gather attention for it; distraction amnesia places the change after key material to pull attention off it); Pattern interrupt (breaks an ongoing sequence midway; not placed to block recall of preceding content).
+**Not to be confused with:** Structured amnesia (returns to the pre-trance topic rather than switching to a new one); Reorientation check (directs attention to body feeling, the room, or alertness after trance; distraction amnesia switches to unrelated content to draw attention away from the preceding material); Attention call (uses a change of sound, voice, or topic to capture attention; distraction amnesia uses a topic switch after material to reduce rehearsal of it); Pattern interrupt (breaks an ongoing sequence rather than shifting away from material after it has ended).
 
 **Evidence:** clinical-tradition. Used in Ericksonian practice; consistent with research showing interference after encoding reduces later recall, but the scripted technique itself is not separately tested. Source: Erickson & Rossi, Varieties of hypnotic amnesia, American Journal of Clinical Hypnosis (1974).
 
@@ -8860,8 +8340,6 @@ A suggestion that moves the listener's sense of self to an earlier age, often by
 
 **Consent:** Can surface distressing material and produce confident but inaccurate memories; tell the listener beforehand, give a clear return path and do not treat what emerges as fact.
 
-*Projected from legacy annotations: 5 of 527 scripts.*
-
 
 ### Revivification *(unit)*
 
@@ -8885,8 +8363,6 @@ A recall device aimed at re-entering a state: the listener picks or is led to a 
 
 **Why it works:** State-dependent memory, Utilization, Priming.
 
-*Projected from legacy annotations: 50 of 527 scripts.*
-
 
 ### Future progression *(unit)*
 
@@ -8904,13 +8380,11 @@ A time-orientation suggestion: the listener is told it is now a later date, the 
 
 **Spot it by:** a later date asserted as now: 'it's a year from now', 'it is next spring'; 'look back on', 'looking back from here'; past tense about events that are still in the future; 'you remember how it changed', 'remember the day it got easier'; questions about the path from the future side: 'what did you do differently?'; return passage: 'come back to today'.
 
-**Not to be confused with:** Future pacing (rehearses one future cue moment in which the suggestion fires, narrated as it happens; progression stands after the change and uses past tense for it); Mental rehearsal (runs through the future behavior itself step by step; progression skips the doing and looks back on it as done); As-if frame (marks the scene as hypothetical ('suppose', 'what would it be like if'); progression asserts the later date as the present ('it is a year from now')); It was always so (places the trait in the past; progression places the listener in the future); Already-happened framing (a grammatical presupposition of finished change, with no move to a future time).
+**Not to be confused with:** Future pacing (rehearses a future cue or response as it happens; progression places the listener after the change and looks back on it); Mental rehearsal (runs through the future behavior itself; progression looks back on it as completed); As-if frame (asks the listener to suppose an outcome is true; a hypothetical future scene can also be future progression when it places them at a later time looking back on a completed change); It was always so (places a new trait in the listener's past; progression places the listener at a future time); Already-happened framing (presupposes finished change without moving the listener to a later time).
 
 **Evidence:** clinical-tradition. A standard clinical technique since Erickson; no controlled studies show it beats ordinary goal imagery. Source: Erickson, Pseudo-orientation in time as a hypnotherapeutic procedure (1954).
 
 **Why it works:** Presupposition, Response expectancy theory, Imagination inflation.
-
-*Projected from legacy annotations: 3 of 527 scripts.*
 
 
 ### It was always so *(unit)*
@@ -8937,8 +8411,6 @@ A framing move that backdates the suggestion: instead of 'you will become calm',
 
 **Consent:** Rewrites how the listener understands their own past and can persist after the session; the listener should know the script presents new traits as always present.
 
-*Projected from legacy annotations: 171 of 527 scripts.*
-
 
 ### Suggested memory *(unit)*
 
@@ -8954,17 +8426,15 @@ A suggestion that supplies the content of a memory: an event, a conversation, a 
 
 > And you can recall what you said that evening on the porch, the exact words, and how easy they were to say.
 
-**Spot it by:** 'you remember the time when' + an event not established earlier in the script or by the listener; 'remember when you ...' followed by a specific scene supplied by the speaker; a dated or located past scene the script could not know ('years ago', 'that summer', 'the first time we met'); vividness instructions attached to the supplied scene ('it gets clearer, more real'); detailed past-tense scene presented as the listener's own recollection.
+**Spot it by:** 'you remember the time when' followed by a specific event the speaker introduces as the listener's memory; 'remember when you ...' followed by a specific scene supplied by the speaker; past time or place details introduced as the listener's own recollection, without an established memory to elaborate; vividness instructions attached to a scene supplied as the listener's past experience; detailed past-tense scene presented as the listener's own recollection.
 
-**Not to be confused with:** Revivification (recalls a real memory the listener chooses; here the speaker supplies the event); It was always so (backdates a trait, with no specific event); Gaslighting (disputes something the listener already remembers; suggested memory adds an event without contradicting one); Memory enhancement (suggests clearer recall of material that exists; suggested memory supplies the material); Positive hallucination (suggests perceiving something now, not remembering something past).
+**Not to be confused with:** Revivification (invites recall of an experience the listener supplies; suggested memory supplies the event); It was always so (backdates a trait without supplying a specific event); Gaslighting (denies or rewrites a memory or perception the listener already has; a supplied past event can carry both labels if it also contradicts the listener's account); Memory enhancement (suggests clearer recall of established material; suggested memory supplies the event to be recalled); Positive hallucination (suggests perceiving something now rather than remembering a past event).
 
 **Evidence:** experimental. False memories can be created by suggestion and imagination in a minority of participants, with or without hypnosis; hypnosis raises confidence more than accuracy. Source: Laurence & Perry, Hypnotically created memory among highly hypnotizable subjects, Science (1983).
 
 **Why it works:** Misinformation effect, Imagination inflation, Source-monitoring error, Illusory truth effect.
 
 **Consent:** Can produce memories the listener later believes are real; frame it as fiction, mark it at the end and never use it on real personal history.
-
-*Projected from legacy annotations: 56 of 527 scripts.*
 
 
 ### Dream suggestion *(unit)*
@@ -8991,8 +8461,6 @@ A posthypnotic suggestion whose target is sleep: that a dream will occur, what i
 
 **Consent:** Acts during sleep after the session ends; say in the pretalk that dream suggestions are included.
 
-*Projected from legacy annotations: 24 of 527 scripts.*
-
 
 ### Memory enhancement *(unit)*
 
@@ -9008,7 +8476,7 @@ A suggestion of improved recall of named material: a past event, study material,
 
 > You'll remember this feeling exactly, whenever you choose to.
 
-**Spot it by:** 'you'll remember every word', 'remember everything I say'; 'it will come back to you', 'it all comes back'; 'recall' or 'remember' + named material + 'clearly', 'perfectly', 'in detail'; a retrieval moment: 'when you need it', 'when you sit the exam', 'whenever you choose'; 'nothing is forgotten', 'every detail'.
+**Spot it by:** 'you'll remember every word', 'remember everything I say'; 'it will come back to you' when 'it' refers to named material; 'recall' or 'remember' + named material + 'clearly', 'perfectly', or 'in detail'; a retrieval moment tied to named material: 'when you sit the exam, what you studied will come back'; 'every detail' of a specified event or passage will be remembered.
 
 **Not to be confused with:** Sealing suggestions before waking (says the suggestions stay in effect after waking; memory enhancement says named material will be recalled); Capacity suggestion (claims memory as an ability improves in general; memory enhancement names what will be recalled); Revivification (re-experiences a memory's state rather than suggesting clearer recall); Amnesia suggestion (the opposite direction: suggests forgetting).
 
@@ -9016,9 +8484,7 @@ A suggestion of improved recall of named material: a past event, study material,
 
 **Why it works:** Response expectancy theory, Placebo effect, Posthypnotic suggestion.
 
-**Consent:** Suggested recall raises confidence more than accuracy; say beforehand if the script suggests clearer memory, and do not treat anything recalled this way as verified.
-
-*Projected from legacy annotations: 3 of 527 scripts.*
+**Consent:** Hypnotic memory enhancement can increase confidence in inaccurate recollections; say beforehand if the script suggests clearer recall, and do not treat recalled material as verified.
 
 
 ## Identity and belief
@@ -9058,8 +8524,6 @@ A direct suggestion whose predicate is a standing trait or a kind of person: "yo
 
 **Why it works:** Direct verbal suggestion, Labeling effect, Self-reference effect, Illusory truth effect.
 
-*Projected from legacy annotations: 104 of 527 scripts.*
-
 
 ### Renaming *(unit)*
 
@@ -9084,8 +8548,6 @@ The act of assigning a name, designation or title to the listener, usually with 
 **Why it works:** Labeling effect, Commitment and consistency.
 
 **Consent:** A name meant to persist after the session should be agreed in advance and should come with a way to drop it.
-
-*Projected from legacy annotations: 8 of 527 scripts.*
 
 
 ### Role assignment *(unit)*
@@ -9112,8 +8574,6 @@ The listener is told they occupy a role in relation to the speaker or the scene,
 
 **Consent:** When the role is one of submission or service, the listener should have agreed to it before the session.
 
-*Projected from legacy annotations: 36 of 527 scripts.*
-
 
 ### Old self / new self *(unit)*
 
@@ -9136,8 +8596,6 @@ The script splits the listener's identity in time: an old self with the unwanted
 **Evidence:** practitioner-lore. A staple of change-work scripts with no direct study of the contrast as a device.
 
 **Why it works:** Contrast effect, Self-reference effect.
-
-*Projected from legacy annotations: 71 of 527 scripts.*
 
 
 ### Pronoun shift *(unit)*
@@ -9164,8 +8622,6 @@ A deliberate change in how the listener is referred to inside the script: from "
 
 **Consent:** A shift to 'it' or a merged 'we' works below notice for many listeners and should be within what they agreed to.
 
-*Projected from legacy annotations: 109 of 527 scripts.*
-
 
 #### Third-person self-reference *(variant)*
 
@@ -9190,8 +8646,6 @@ A pronoun shift carried into the listener's own speech: they say 'this one is ca
 **Why it works:** Self-reference effect, Labeling effect.
 
 **Consent:** Removing 'I' targets self-concept and should be agreed and limited to the session.
-
-*Projected from legacy annotations: 46 of 527 scripts.*
 
 
 ### Inner-voice suggestion *(unit)*
@@ -9218,8 +8672,6 @@ A suggestion about the source of the listener's thoughts: the speaker's voice mo
 
 **Consent:** This device aims to make suggested content feel self-generated, so it should only be used where the listener has agreed to that blurring and it is bounded to the session or a scope.
 
-*Projected from legacy annotations: 181 of 527 scripts.*
-
 
 ### Linking to values *(unit)*
 
@@ -9237,13 +8689,11 @@ The suggestion is justified by a value the listener holds (health, family, freed
 
 **Spot it by:** 'because you care about ...' + suggestion; 'you value ...' / 'what matters to you' / '... matters to you'; 'as someone who values/believes in ...' + suggestion; value word (health, family, freedom, honesty) + 'and that means ...' / 'which is why ...' + suggestion.
 
-**Not to be confused with:** Giving a reason (giving a reason uses any 'because', including 'for your own good' and 'you deserve it'; this names a value the listener holds and derives the suggestion from it); Reframing (reframing changes the meaning of an experience; this ties a request to an existing value); It's what you want (it's-what-you-want attributes a wish for the response; this appeals to a value the response would serve).
+**Not to be confused with:** Giving a reason (giving a reason supplies a justification for the suggestion, including 'for your own good' or 'you deserve it'; linking to values names a value the listener holds and derives the suggestion from it); Reframing (reframing changes the meaning of an experience; this ties a request to an existing value); It's what you want (it's-what-you-want attributes a wish for the response; this appeals to a value the response would serve).
 
 **Evidence:** experimental. Messages framed in the audience's own values persuade better in controlled studies; this has not been tested within hypnosis.
 
 **Why it works:** Moral reframing, Commitment and consistency, Self-reference effect.
-
-*Projected from legacy annotations: 24 of 527 scripts.*
 
 
 ### It's what you want *(unit)*
@@ -9270,8 +8720,6 @@ The script claims the listener already wants the response, often 'deep down' or 
 
 **Consent:** Telling someone they secretly want something is a known coercive move, so in consensual use it should match what the listener has said they want.
 
-*Projected from legacy annotations: 291 of 527 scripts.*
-
 
 ### Ownership language *(unit)*
 
@@ -9296,8 +8744,6 @@ Possessives applied to the listener ('my', 'mine', 'belongs to me') that frame t
 **Why it works:** Labeling effect.
 
 **Consent:** Ownership framing belongs inside an agreed fiction; outside one it is a coercive-control pattern.
-
-*Projected from legacy annotations: 206 of 527 scripts.*
 
 
 ### Object / it language *(unit)*
@@ -9324,8 +8770,6 @@ Nouns, verbs and pronouns that cast the listener as a non-person: a doll, a devi
 
 **Consent:** Dehumanizing language should be agreed in advance and closed with an explicit return to personhood; used without agreement it is abuse.
 
-*Projected from legacy annotations: 99 of 527 scripts.*
-
 
 ### Belief statement *(unit)*
 
@@ -9343,15 +8787,13 @@ A declarative sentence about how things are or must be, offered for the listener
 
 **Spot it by:** 'this is true' / 'the truth is' / 'that is simply how it is' + a general statement; 'the rule is' / 'the law is' / 'remember this:' + a general statement; a short general statement whose subject is not 'you', repeated verbatim; 'you know now that ...' / 'you believe ...' / 'you understand that ...' + general proposition; instruction to recite or hold a stated proposition.
 
-**Not to be confused with:** Identity statement (an identity statement is about the listener; a belief statement is about how things are); Lost performative (a lost performative is the judge-less evaluation form used in passing; label a belief statement only when the proposition is marked for adoption (flagged as true or as a rule, repeated verbatim, or to be recited). A marked evaluative sentence takes both labels); Truism (a truism is something the listener already accepts, used to build agreement; a belief statement is a new proposition they are asked to hold); Redefinition (redefinition changes a word's meaning; this asserts a proposition); Thought-terminating cliche (a cliche is placed at a point of doubt to shut questioning down; a belief statement installs content wherever it appears).
+**Not to be confused with:** Identity statement (an identity statement is about the listener; a belief statement is about how things are); Lost performative (a lost performative is the judge-less evaluation form used in passing; label a belief statement only when the proposition is marked for adoption (flagged as true or as a rule, repeated verbatim, or to be recited). A marked evaluative sentence takes both labels); Truism (a truism is a readily accepted statement used to build agreement; a belief statement marks a proposition for the listener to hold, and an accepted proposition explicitly marked for adoption can take both labels); Redefinition (redefinition changes a word's meaning; this asserts a proposition); Thought-terminating cliche (a cliche is placed at a point of doubt to shut questioning down; a belief statement installs content wherever it appears).
 
 **Evidence:** practitioner-lore. Repeated statements are rated more believable (illusory truth), but whether hypnotic belief statements change lasting beliefs is not established.
 
 **Why it works:** Illusory truth effect, Direct verbal suggestion, Belief perseverance.
 
 **Consent:** A belief meant to be held after the session should be one the listener asked for or agreed to beforehand.
-
-*Projected from legacy annotations: 247 of 527 scripts.*
 
 
 #### Numbered rules *(variant)*
@@ -9378,8 +8820,6 @@ A belief statement given as an ordered, numbered set ('Rule one... Rule two...')
 
 **Consent:** A code of rules meant to be followed after the session should be agreed in advance and come with a stated way to retire it.
 
-*Projected from legacy annotations: 16 of 527 scripts.*
-
 
 ### Permanence claim *(unit)*
 
@@ -9405,8 +8845,6 @@ A statement about the duration of an effect: it lasts forever, cannot fade, cann
 
 **Consent:** Claims of irreversibility can frighten listeners and should be agreed in advance and accompanied by a real way to remove the suggestion.
 
-*Projected from legacy annotations: 181 of 527 scripts.*
-
 
 ### Piece-by-piece transformation *(unit)*
 
@@ -9429,8 +8867,6 @@ The change is narrated as a sequence over parts of the listener: one habit, then
 **Evidence:** practitioner-lore. A common transformation-script structure; not independently studied.
 
 **Why it works:** Commitment and consistency, Response expectancy theory.
-
-*Projected from legacy annotations: 72 of 527 scripts.*
 
 
 ### Capacity suggestion *(unit)*
@@ -9456,8 +8892,6 @@ A suggestion targeting what the listener can do (think, calculate, concentrate, 
 **Why it works:** Direct verbal suggestion, Response expectancy theory, Placebo effect.
 
 **Consent:** Suggested reductions in ability should be scoped to the session and explicitly reversed at emergence.
-
-*Projected from legacy annotations: 164 of 527 scripts.*
 
 
 ## Resistance handling
@@ -9497,8 +8931,6 @@ A direct instruction that points away from the wanted response, aimed at a liste
 
 **Why it works:** Psychological reactance, Ironic process theory.
 
-*Projected from legacy annotations: 6 of 527 scripts.*
-
 
 ### Permission to resist *(unit)*
 
@@ -9524,8 +8956,6 @@ The writer tells the listener they may, or should, resist. Once invited, resista
 
 **Consent:** In resistance play the permission is part of an agreed scene; it should not be used to make real refusal sound like a game.
 
-*Projected from legacy annotations: 27 of 527 scripts.*
-
 
 ### Setting doubt aside *(unit)*
 
@@ -9548,8 +8978,6 @@ The writer does not argue with doubt or remove it; they postpone it. Doubts are 
 **Evidence:** practitioner-lore. Container and set-aside exercises are common in therapy and meditation instruction; their effect on resistance in hypnosis has not been tested.
 
 **Why it works:** Cognitive load, Ironic process theory.
-
-*Projected from legacy annotations: 19 of 527 scripts.*
 
 
 ### Bypassing the critic *(unit)*
@@ -9576,8 +9004,6 @@ A direct statement that the evaluating part of the mind is off duty: it can rest
 
 **Consent:** It works by asking the listener to stop evaluating; pair it with clear scope limits so what passes the lowered guard was agreed in advance.
 
-*Projected from legacy annotations: 148 of 527 scripts.*
-
 
 ### Wearing down *(unit)*
 
@@ -9602,8 +9028,6 @@ The writer extends the induction or a demand, and states or implies that the lis
 **Why it works:** Persuasion resistance, Cognitive load.
 
 **Consent:** Wearing someone down overrides refusal by fatigue; outside an agreed scene with a working safeword it is a coercive pattern.
-
-*Projected from legacy annotations: 5 of 527 scripts.*
 
 
 ### Advance agreement *(unit)*
@@ -9630,8 +9054,6 @@ The listener commits to the suggestions as a class, before their content is know
 
 **Consent:** Agreement to content not yet heard is not informed consent; a script that relies on it should still let the listener refuse specific suggestions.
 
-*Projected from legacy annotations: 93 of 527 scripts.*
-
 
 ### Protected core *(unit)*
 
@@ -9656,8 +9078,6 @@ A reassurance that a part of the listener will filter out anything harmful or un
 **Why it works:** Epistemic vigilance, Persuasion Knowledge Model, Trust calibration.
 
 **Consent:** Used to relax vigilance while the script pushes against the listener's interests, it is a false safety promise.
-
-*Projected from legacy annotations: 111 of 527 scripts.*
 
 
 ## Motivation and emotion
@@ -9691,15 +9111,13 @@ The writer repeatedly raises desire for a release, reward or experience and then
 
 **Spot it by:** 'not yet', 'stop', 'almost', 'so close' at the end of a build-up toward a named release; rising description that halts, fades or backs off just before the release arrives; 'edge', 'on the edge', 'right up to the edge', 'hold it there'; 'again', 'once more', 'a little higher this time' restarting the build after a stop; the wanting described as stronger after each stop ('still wanting', 'wanting it more').
 
-**Not to be confused with:** Deprivation (withholds a known reward to raise its value, with no build toward it; label tease and denial only when the text first raises the desire toward release and then stops short); Anticipation (announces a coming event, delays it and then delivers it as promised; tease and denial brings a desire to the brink and takes it away, usually more than once); Pleasure gated on compliance (the variant: use it when the text states what response or permission opens the release; plain tease and denial states no condition); Suggested arousal / orgasm (builds a suggested arousal and delivers the peak on a cue; tease and denial stops short and withholds it. A hold at the edge that ends in a cued release is that entry; one that ends in 'not yet' is this one).
+**Not to be confused with:** Deprivation (withholds a known reward to raise its value, with no build toward it; label tease and denial only when the text first raises the desire toward release and then stops short); Anticipation (announces a named coming event and stretches the wait for it; tease and denial brings desire to the brink and pulls it back); Pleasure gated on compliance (the variant: use it when the text states what response or permission opens the release; plain tease and denial states no condition); Suggested arousal / orgasm (builds a suggested arousal and delivers the peak on a cue; tease and denial stops short and withholds it. A hold at the edge that ends in a cued release is that entry; one that ends in 'not yet' is this one).
 
 **Evidence:** practitioner-lore. Deprivation raising the value of a reward is well supported in behavior analysis, but the in-script tease cycle has no independent study.
 
 **Why it works:** Motivating operations, Zeigarnik effect, Operant conditioning.
 
 **Consent:** Prolonged or post-session denial persists after the recording ends; state it up front and give a clear end condition.
-
-*Projected from legacy annotations: 233 of 527 scripts.*
 
 
 #### Pleasure gated on compliance *(variant)*
@@ -9712,7 +9130,7 @@ A form of tease and denial in which the withheld release is opened only by a sta
 
 > That feeling you've been holding at the edge: you can let it go only when you've gone all the way down. Not before.
 
-> When you say the words, and only then, the relief you've been waiting for is yours.
+> You've been held just short of that relief. Say the words, and only then can you let it arrive.
 
 > Hold it there. You'll have it when I say. Now. Let go.
 
@@ -9725,8 +9143,6 @@ A form of tease and denial in which the withheld release is opened only by a sta
 **Why it works:** Operant conditioning, Motivating operations.
 
 **Consent:** Permission rules that extend past the session are posthypnotic control; agree on them in advance and include an end condition.
-
-*Projected from legacy annotations: 207 of 527 scripts.*
 
 
 ### Fear then relief *(unit)*
@@ -9753,8 +9169,6 @@ A short burst of worry or tension is created and then removed, and the target re
 
 **Consent:** Works because the listener does not notice the request arrives in a lowered moment; avoid real distress and do not use for consequential asks.
 
-*Projected from legacy annotations: 16 of 527 scripts.*
-
 
 ### Craving frame *(unit)*
 
@@ -9780,8 +9194,6 @@ The writer names the listener's wish to return as a need that grows, aches when 
 
 **Consent:** Aims at behavior after the session; disclose it in the description and pair with a way to switch it off.
 
-*Projected from legacy annotations: 301 of 527 scripts.*
-
 
 ### Safety and comfort *(unit)*
 
@@ -9805,8 +9217,6 @@ Plain reassurance of safety and ease: no danger, no threat, no judgment, the bod
 
 **Why it works:** Epistemic trust, Response expectancy theory, Psychological reactance.
 
-*Projected from legacy annotations: 117 of 527 scripts.*
-
 
 ### Timing to the peak *(unit)*
 
@@ -9824,15 +9234,13 @@ A placement choice: the key suggestion is given at the climax of a built state, 
 
 **Spot it by:** 'right now', 'in this moment', 'at the very top', 'at the peak', 'at its strongest' followed by one short suggestion; a build-up of a named feeling or sensation ending in a single statement; the last number of a count that has been raising a feeling, used to deliver one key line; 'as the wave breaks', 'as it peaks', 'as it crests' followed by a suggestion.
 
-**Not to be confused with:** Anchoring (applies a cue to be reused later (a word, touch or gesture) at the peak; timing to the peak places a suggestion's content there, and a line that does both takes both labels); Pleasure pairing (pairs a target with pleasure repeatedly rather than placing one suggestion at a single peak); Countdown finale (the session shape that ends on a counted release; timing to the peak is the placing of a suggestion at that or any other peak); Fear then relief (places a request in the relief after a removed alarm, not at the height of a state).
+**Not to be confused with:** Anchoring (applies a cue to be reused later (a word, touch or gesture) at the peak; timing to the peak places a suggestion's content there, and a line that does both takes both labels); Pleasure pairing (pairs a target with pleasure so the target feels good; timing to the peak places a suggestion at the height of a named feeling or sensation); Countdown finale (the session shape that ends on a counted release; timing to the peak is the placing of a suggestion at that or any other peak); Fear then relief (places a request in the relief after a removed alarm, not at the height of a state).
 
 **Evidence:** practitioner-lore. Follows from NLP anchoring practice and the idea that high arousal strengthens memory, but placement at the peak has not been tested in scripts.
 
 **Why it works:** Anchoring (NLP), Classical conditioning, State-dependent memory.
 
 **Consent:** Suggestions placed at a peak are given when evaluation is lowest; place only what the listener agreed to.
-
-*Projected from legacy annotations: 120 of 527 scripts.*
 
 
 ### Humiliation *(unit)*
@@ -9858,8 +9266,6 @@ The writer names or creates a moment of embarrassment, exposure or lowered statu
 **Why it works:** Misattribution of arousal, Evaluative conditioning.
 
 **Consent:** Shame can persist after the session and touch real insecurities; use only with explicit agreement on limits and follow with aftercare.
-
-*Projected from legacy annotations: 6 of 527 scripts.*
 
 
 ### Thanking *(unit)*
@@ -9901,15 +9307,13 @@ The writer names a coming experience, sensation or event and holds it off with '
 
 > It's getting nearer now, that deep rest I promised you. Just a few more breaths, and then it's yours.
 
-**Spot it by:** 'soon', 'in a moment', 'in just a few seconds', 'wait for it', 'almost time'; a named experience or event announced before it happens ('in a moment you will feel...'); a count announced toward that named event; references back to the promised experience before it arrives ('it's getting nearer'); the promised event then delivered once, as announced.
+**Spot it by:** 'soon', 'in a moment', 'in just a few seconds', 'wait for it', 'almost time'; a named experience or event announced before it happens ('in a moment you will feel...'); a count announced toward that named event; references back to the promised experience before it arrives ('it's getting nearer').
 
-**Not to be confused with:** Tease and denial (builds a desire to the brink and pulls it back, usually more than once; anticipation announces, delays once and delivers); Curiosity hook (withholds what is coming or what the answer is; anticipation says what is coming and delays only its arrival); Expectation setting (states what will be experienced as a plain forecast; anticipation marks and stretches the wait for it).
+**Not to be confused with:** Tease and denial (builds desire to the brink and pulls it back, usually more than once; anticipation names a coming event and stretches the wait for it); Curiosity hook (withholds what is coming or what the answer is; anticipation says what is coming and delays only its arrival); Expectation setting (states what will be experienced as a plain forecast; anticipation marks and stretches the wait for it).
 
 **Evidence:** practitioner-lore. Expectancy shaping experience is well supported, but deliberate delay as a script device has not been studied directly.
 
 **Why it works:** Response expectancy theory, Zeigarnik effect, Prediction error.
-
-*Projected from legacy annotations: 39 of 527 scripts.*
 
 
 ## Rhetoric, rhythm and sound
@@ -9945,8 +9349,6 @@ Anaphora repeats the same words at the beginning of successive clauses, lines or
 
 **Why it works:** Processing fluency, Illusory truth effect.
 
-*Projected from legacy annotations: 78 of 527 scripts.*
-
 
 ### Epistrophe *(unit)*
 
@@ -9968,8 +9370,6 @@ Epistrophe repeats the same words at the end of successive clauses or sentences,
 
 **Why it works:** Processing fluency, Illusory truth effect.
 
-*Projected from legacy annotations: 47 of 527 scripts.*
-
 
 ### Immediate repetition *(unit)*
 
@@ -9985,7 +9385,7 @@ Epizeuxis is repetition of a single word or short phrase back to back, with no i
 
 **Spot it by:** the same word two to four times consecutively, separated only by commas or ellipses; 'deeper, deeper' / 'down, down' / 'sleep, sleep'; a line made only of one repeated word.
 
-**Not to be confused with:** Deeper and deeper (that is repetition of depth words spread across a passage, not back-to-back doubling); Mantra (a mantra is a fixed phrase repeated at high count as the activity itself; epizeuxis is one word or short phrase said two to four times for emphasis inside ordinary prose); Semantic satiation (satiation repeats one word so many times that it loses meaning; epizeuxis stops at a handful and the word keeps its sense); Anaphora (anaphora repeats an opening across separate clauses).
+**Not to be confused with:** Deeper and deeper (that repeats depth words across a passage, rather than immediately repeating the same word or phrase); Mantra (a mantra repeats a fixed word or phrase as a sustained activity; epizeuxis is an immediate burst within ordinary prose); Semantic satiation (semantic satiation repeats a word until its meaning fades; epizeuxis repeats it for emphasis while its meaning remains clear); Anaphora (anaphora repeats an opening across separate clauses).
 
 **Evidence:** rhetorical-tradition. Standard in hypnotic patter by convention; no study isolates its effect.
 
@@ -10011,8 +9411,6 @@ Parallelism repeats a grammatical pattern across clauses or sentences while the 
 **Evidence:** rhetorical-tradition. A classical figure; parallel structure eases comprehension, but no study ties it to hypnotic response.
 
 **Why it works:** Processing fluency.
-
-*Projected from legacy annotations: 17 of 527 scripts.*
 
 
 #### Rule of three *(variant)*
@@ -10056,8 +9454,6 @@ Polysyndeton uses a conjunction, usually 'and', before every item or clause inst
 
 **Why it works:** Cognitive load.
 
-*Projected from legacy annotations: 1 of 527 scripts.*
-
 
 ### Gradatio *(unit)*
 
@@ -10078,8 +9474,6 @@ Gradatio is a chain of anadiplosis: each clause picks up the last word or phrase
 **Evidence:** rhetorical-tradition. A classical figure; no study of its effect in hypnosis.
 
 **Why it works:** Processing fluency.
-
-*Projected from legacy annotations: 127 of 527 scripts.*
 
 
 ### Antithesis *(unit)*
@@ -10102,8 +9496,6 @@ Antithesis places contrasting ideas in parallel clauses so the contrast is sharp
 
 **Why it works:** Contrast effect, Processing fluency.
 
-*Projected from legacy annotations: 4 of 527 scripts.*
-
 
 ### Chiasmus *(unit)*
 
@@ -10124,8 +9516,6 @@ Chiasmus repeats key words or ideas in mirrored order, so the second clause turn
 **Evidence:** rhetorical-tradition. A classical figure; its memorability is widely claimed but untested in hypnotic scripts.
 
 **Why it works:** Processing fluency.
-
-*Projected from legacy annotations: 12 of 527 scripts.*
 
 
 ### Rhyme *(unit)*
@@ -10148,8 +9538,6 @@ Rhyme matches the final stressed vowel and following sounds of two or more words
 
 **Why it works:** Cognitive fluency of rhyme (rhyme-as-reason), Processing fluency.
 
-*Projected from legacy annotations: 37 of 527 scripts.*
-
 
 ### Rhythm and meter *(unit)*
 
@@ -10170,8 +9558,6 @@ Meter is a regular beat built into the wording itself, through syllable count an
 **Evidence:** rhetorical-tradition. Rhythm aids fluency and memory in general; claims that metrical language entrains trance are practitioner belief.
 
 **Why it works:** Processing fluency, Habituation.
-
-*Projected from legacy annotations: 40 of 527 scripts.*
 
 
 ### Alliteration and sibilance *(unit)*
@@ -10238,8 +9624,6 @@ Hypophora raises a question and immediately supplies the answer. It lets the wri
 
 **Why it works:** Conversational framing.
 
-*Projected from legacy annotations: 61 of 527 scripts.*
-
 
 ### Refrain *(unit)*
 
@@ -10260,8 +9644,6 @@ A refrain is a fixed line that recurs across a script, separated by other materi
 **Evidence:** rhetorical-tradition. A poetic and musical form; spaced repetition aids memory in general, but its hypnotic effect is untested.
 
 **Why it works:** Spacing effect, Illusory truth effect, Mere-exposure effect.
-
-*Projected from legacy annotations: 45 of 527 scripts.*
 
 
 ### Written pause *(unit)*
@@ -10307,8 +9689,6 @@ This is a trend across a passage or script: sentences start ordinary and become 
 
 **Why it works:** Cognitive load.
 
-*Projected from legacy annotations: 1 of 527 scripts.*
-
 
 ### Shortening sentences *(unit)*
 
@@ -10339,7 +9719,7 @@ A euphemism substitutes a gentle term for a harsh, explicit or alarming one ('le
 
 > In a moment you'll take a little rest, and when you come back you won't mind what you missed.
 
-**Spot it by:** a mild or pleasant term where the script's own context shows a blunter one applies ('a little rest' for a suggested blackout, 'help you decide' for deciding in the listener's place); the same effect named plainly in one place (title, content note, another section) and softly in another; stock softeners for bodily, sexual or control content ('down there', 'take care of you', 'look after the thinking'); minimizers attached to a large effect ('just a little', 'only for a while').
+**Spot it by:** a mild expression in place of a blunter referent recoverable from the script's context; the same act or effect named plainly in one place and softly in another; an indirect phrase for bodily, sexual or control content whose direct referent is clear in context.
 
 **Not to be confused with:** Unspecified verb (a vague process verb ('let go', 'allow', 'drift') leaves out how; it is a euphemism only when the script shows a blunter thing it is standing in for); Surrender as freedom (that reframe claims that giving up control is a gain; euphemism makes no claim and only substitutes a gentler word); Redefinition (redefinition openly assigns a new meaning to a word); Loaded language (loaded language is a standing vocabulary that carries a group's judgment; euphemism softens one expression); Nominalization (nominalization turns a process into an abstract noun; euphemism swaps a harsh word for a soft one).
 
@@ -10348,8 +9728,6 @@ A euphemism substitutes a gentle term for a harsh, explicit or alarming one ('le
 **Why it works:** Framing effect.
 
 **Consent:** When a euphemism disguises what a suggestion actually changes, the listener cannot consent to it; content notes should state effects plainly.
-
-*Projected from legacy annotations: 7 of 527 scripts.*
 
 
 ### Hyperbole *(unit)*
@@ -10360,13 +9738,13 @@ Hyperbole is deliberate exaggeration ('a thousand times deeper', 'heavier than s
 
 **How:** Exaggerate the felt quality, not a checkable fact. Keep it occasional so ordinary statements stay believable. It fails when it sounds like hype or when the listener's experience is obviously smaller.
 
-> Your arms feel heavier than they have ever felt.
+> Your arms feel as heavy as mountains.
 
 > So relaxed you could melt straight through the chair.
 
 **Spot it by:** large round multipliers ('a thousand times', 'a million miles'); superlatives about felt states ('the deepest you've ever been'); impossible comparisons ('heavier than stone').
 
-**Not to be confused with:** Stepwise doubling (a multiplier or increment attached to each count, breath or repetition ('twice as deep with every number') is stepwise doubling, however large the figure); Reference point (a reference point is a figure on a usable scale that later judgments are measured against ('on a scale where ten is deepest'); hyperbole is a figure or comparison nobody is meant to measure ('a million miles away', 'heavier than stone')); Comparative deletion (a bare comparative with no standard ('deeper', 'more relaxed') is not overstated; hyperbole names an impossible or extreme standard); Potency claim (potency claims are about the file or technique, made in advance).
+**Not to be confused with:** Stepwise doubling (a multiplier or increment tied to each count, breath or repetition is stepwise doubling, even when the number is exaggerated); Reference point (a number offered as a reference point for later depth or judgment is anchoring; hyperbole is an obvious overstatement for emphasis, and a numeric phrase may do both); Comparative deletion (a bare comparative with no stated standard ('deeper', 'more relaxed') is not itself an overstatement); Potency claim (a potency claim describes the recording or technique in advance; hyperbole overstates a sensation, depth or effect).
 
 **Evidence:** rhetorical-tradition. A classical figure; its effect on suggestion response is unstudied.
 
@@ -10391,8 +9769,6 @@ Sense crossing describes a perception in one modality using words from another (
 
 **Why it works:** Absorption (trait).
 
-*Projected from legacy annotations: 98 of 527 scripts.*
-
 
 ### Present tense and progressive *(unit)*
 
@@ -10413,8 +9789,6 @@ Present-tense and progressive phrasing ('you are relaxing', 'your arm is lifting
 **Evidence:** clinical-tradition. Present-tense phrasing is standard advice in clinical suggestion writing; its advantage over other tenses is not experimentally shown.
 
 **Why it works:** Response expectancy theory.
-
-*Projected from legacy annotations: 12 of 527 scripts.*
 
 
 ### Counted passage *(unit)*
@@ -10437,8 +9811,6 @@ A counted passage uses numbers as a scaffold: each count marks a beat, and mater
 
 **Why it works:** Response expectancy theory.
 
-*Projected from legacy annotations: 203 of 527 scripts.*
-
 
 ## Coercive-control patterns
 
@@ -10457,7 +9829,7 @@ Devices named by researchers of thought reform, high-control groups and coercive
 
 ### Affection flooding *(unit)*
 
-Also called: affection flooding, overwhelming warmth, approval flooding.
+Also called: love bombing, overwhelming warmth, approval flooding.
 
 A dense, unearned stream of warmth, praise and closeness at the start of a session or relationship. Its effect comes from volume and timing: the listener receives much more approval than the situation warrants. It differs from praise, which rewards a specific response, and from liking, which builds affection gradually through similarity and warmth.
 
@@ -10471,7 +9843,7 @@ A dense, unearned stream of warmth, praise and closeness at the start of a sessi
 
 **Spot it by:** several affection or praise statements in close succession with no linked response; superlatives about the listener: 'perfect', 'special', 'no one else', 'everything'; declared closeness early in the script, before rapport is built; 'I adore', 'I love how you', 'so precious'.
 
-**Not to be confused with:** Praise (rewards a specific response right after it; flooding is unearned and continuous); Exclusivity (exclusivity is one claim that the listener was selected or is one of few; label flooding only for a run of several affection statements); Liking (builds affection gradually; flooding overwhelms at once); Hot and cold (alternates warmth and coldness; flooding is the warm phase alone).
+**Not to be confused with:** Praise (rewards a specific response right after it; flooding is unearned and continuous); Exclusivity (claims the listener was selected or has access others lack; flooding gives a dense stream of affection and approval, and the two can occur together); Liking (builds affection gradually; flooding overwhelms at once); Hot and cold (alternates warmth and coldness; flooding is the warm phase alone).
 
 **Evidence:** contested. Described in accounts of cult recruitment and abusive relationships; controlled evidence that the flood itself increases compliance is thin.
 
@@ -10504,8 +9876,6 @@ A direct contradiction of the listener's own perception, memory or judgment, off
 
 **Consent:** Undermining someone's trust in their own perception is a core abuse tactic; use only inside agreed fantasy about trance events, never about real-world facts.
 
-*Projected from legacy annotations: 15 of 527 scripts.*
-
 
 ### Isolation *(unit)*
 
@@ -10530,8 +9900,6 @@ Lines that devalue, exclude or replace the listener's other relationships and so
 **Why it works:** Attachment theory, Epistemic trust, Normative social influence, Investment model of commitment.
 
 **Consent:** Encouraging real withdrawal from friends or family is abuse; keep 'others' fictional and never suggest it persists after the session.
-
-*Projected from legacy annotations: 24 of 527 scripts.*
 
 
 ### Loaded language *(unit)*
@@ -10558,8 +9926,6 @@ A private vocabulary in which words come pre-loaded with approval or condemnatio
 
 **Consent:** A loaded vocabulary can outlast the session and shape how the listener judges themselves; keep it inside agreed fantasy and let the listener drop it.
 
-*Projected from legacy annotations: 17 of 527 scripts.*
-
 
 ### Thought-terminating cliche *(unit)*
 
@@ -10584,8 +9950,6 @@ A brief, memorable, repeatable phrase deployed at the moment of doubt to end inq
 **Why it works:** Processing fluency, Cognitive ease, Epistemic vigilance.
 
 **Consent:** Training the listener to shut down their own questions works by the listener not noticing; keep real doubts answerable outside the fantasy.
-
-*Projected from legacy annotations: 10 of 527 scripts.*
 
 
 ### Confession *(unit)*
@@ -10612,8 +9976,6 @@ A demand or invitation to reveal something the listener would normally keep priv
 
 **Consent:** Disclosed material creates leverage; never request identifying or recordable personal information, and keep any disclosure private to the listener.
 
-*Projected from legacy annotations: 40 of 527 scripts.*
-
 
 ### Sole-source claim *(unit)*
 
@@ -10638,8 +10000,6 @@ Claims that place the speaker as the sole source of something the listener wants
 **Why it works:** Motivating operations, Attachment theory, Response expectancy theory, Epistemic trust.
 
 **Consent:** Dependency claims are meant to persist after the session; state them only inside agreed fantasy and never undermine the listener's own ways of coping.
-
-*Projected from legacy annotations: 162 of 527 scripts.*
 
 
 ### Create the need, sell the cure *(unit)*
@@ -10666,8 +10026,6 @@ A two-beat move: first the script asserts or amplifies a deficit the listener ha
 
 **Consent:** Inventing a deficit to sell a remedy is manipulation when the listener has not agreed to the fantasy; never apply it to real health, body or self-worth.
 
-*Projected from legacy annotations: 123 of 527 scripts.*
-
 
 ### Fear of leaving *(unit)*
 
@@ -10692,8 +10050,6 @@ Suggestions that make the act of quitting feel dangerous or unbearable: the list
 **Why it works:** Classical conditioning, Sunk-cost effect, Investment model of commitment, Framing effect.
 
 **Consent:** Dread attached to stopping is designed to outlast the session; never use it outside explicit fantasy, and always keep a penalty-free real exit.
-
-*Projected from legacy annotations: 19 of 527 scripts.*
 
 
 ### Blame reversal *(unit)*
@@ -10720,8 +10076,6 @@ A response to a complaint, objection or failure that denies the speaker's part a
 
 **Consent:** Blaming the listener for discomfort or failure can suppress real safety concerns; never apply it to unease, pain or a request to stop.
 
-*Projected from legacy annotations: 5 of 527 scripts.*
-
 
 ### Hot and cold *(unit)*
 
@@ -10739,7 +10093,7 @@ A pattern in which the speaker's affection, approval or attention is given and t
 
 **Spot it by:** abrupt shift from praise or affection to distance without a stated cause; 'maybe I will, maybe I won't', 'you'll have to wait and see'; warmth returned on the speaker's whim, not for anything the listener did ('because I felt like it'); speaker approval described as unpredictable or revocable.
 
-**Not to be confused with:** Intermittent reinforcement (intermittent reinforcement schedules rewards for a behavior; hot and cold switches the speaker's warmth regardless of behavior); Deprivation (deprivation announces that a known reward is held back so it is worth more later; hot and cold turns the speaker's warmth off and on with no reason given and no reward promised); Affection flooding (love bombing floods warmth; hot and cold alternates it with withdrawal); Tease and denial (tease and denial withholds pleasure or release; hot and cold withholds the speaker's affection).
+**Not to be confused with:** Intermittent reinforcement (intermittent reinforcement schedules rewards for a behavior; hot and cold switches the speaker's warmth regardless of behavior); Deprivation (deprivation withholds a known reward in advance to raise its value; hot and cold alternates the speaker's warmth without tying the shifts to the listener's behavior); Affection flooding (love bombing floods warmth; hot and cold alternates it with withdrawal); Tease and denial (tease and denial withholds pleasure or release; hot and cold withholds the speaker's affection).
 
 **Evidence:** contested. Intermittent reinforcement is experimental and traumatic bonding has observational support in abusive relationships, but scripted hot-and-cold alternation has no direct study. Source: Donald Dutton and Susan Painter, Traumatic bonding, Victimology (1981).
 
@@ -10772,8 +10126,6 @@ Instructions or suggestions that narrow what else the listener reads, hears or c
 
 **Consent:** Restricting what else a listener hears cuts them off from correction and safety information; never extend it beyond the session.
 
-*Projected from legacy annotations: 19 of 527 scripts.*
-
 
 ### Impossible standard *(unit)*
 
@@ -10799,8 +10151,6 @@ A goal stated as total (perfectly empty, completely obedient, never doubting) an
 
 **Consent:** A standard built to be failed produces guilt that can persist; keep it about the fiction and never about the listener's real worth.
 
-*Projected from legacy annotations: 34 of 527 scripts.*
-
 
 ### Self-policing *(unit)*
 
@@ -10825,8 +10175,6 @@ An instruction to install an internal monitor that checks the listener against r
 **Why it works:** Operant conditioning, Ironic process theory, Self-perception theory, Posthypnotic suggestion.
 
 **Consent:** An internal monitor is meant to run after the session ends; scope it in time, give it an off switch, and keep it out of the listener's real life without agreement.
-
-*Projected from legacy annotations: 10 of 527 scripts.*
 
 
 ## Safety and consent
@@ -10861,8 +10209,6 @@ A scope limit bounds the whole session's suggestions to stated contexts: only wh
 **Evidence:** clinical-tradition. Limiting posthypnotic suggestions to intended contexts is standard clinical advice; whether a spoken limit reliably confines effects has little direct study.
 
 **Why it works:** Posthypnotic suggestion.
-
-*Projected from legacy annotations: 20 of 527 scripts.*
 
 
 ### Emergency wake *(unit)*
@@ -10912,8 +10258,6 @@ A consent check is an explicit opt-in point: the script names what is about to h
 
 **Consent:** An opt-in asked during trance is weaker than one asked before the induction. Everything a later check covers should already be in the content note; the in-trance check is an extra exit, not the consent itself.
 
-*Projected from legacy annotations: 5 of 527 scripts.*
-
 
 ### Content note *(unit)*
 
@@ -10960,8 +10304,6 @@ Aftercare is the passage that follows intense, humiliating, dominant or emotiona
 
 **Why it works:** Attachment theory.
 
-*Projected from legacy annotations: 43 of 527 scripts.*
-
 
 ### Safeword *(unit)*
 
@@ -10984,8 +10326,6 @@ A safeword is a listener-controlled stop: a named word or signal that, when the 
 **Evidence:** practitioner-lore. Borrowed from BDSM practice; whether a recorded safeword works better than simply stopping the file has not been studied.
 
 **Why it works:** Posthypnotic suggestion.
-
-*Projected from legacy annotations: 12 of 527 scripts.*
 
 
 ### Fantasy boundary *(unit)*
@@ -11010,8 +10350,6 @@ A fantasy boundary marks the claims made inside a scene (ownership, identity, ru
 
 **Why it works:** Cognitive decoupling, Suspension of disbelief.
 
-*Projected from legacy annotations: 8 of 527 scripts.*
-
 
 ### Listening conditions *(unit)*
 
@@ -11032,8 +10370,6 @@ Listening conditions are practical instructions about the setting: never while d
 **Not to be confused with:** Content note (describes what the file contains rather than the setting to listen in); Scope limits (bounds where suggestions apply after the session, not where to listen).
 
 **Evidence:** clinical-tradition. A standard disclaimer on recorded hypnosis and relaxation audio; it is common sense rather than a tested effect.
-
-*Projected from legacy annotations: 12 of 527 scripts.*
 
 
 ## Session structure
@@ -11144,8 +10480,6 @@ The suggestion section is the part of a script, after deepening and before emerg
 
 **Consent:** This is where anything that persists after the session is installed; the listener should have been told what it contains before the file started.
 
-*Projected from legacy annotations: 3 of 527 scripts.*
-
 
 ### Convincer section *(structure)*
 
@@ -11219,8 +10553,6 @@ A loop is a whole-file shape: the script has no wake, and its last lines lead in
 
 **Consent:** A loop has no built-in end or wake; listeners should be told how long it is meant to run and how to stop it.
 
-*Projected from legacy annotations: 3 of 527 scripts.*
-
 
 ### Series / curriculum *(structure)*
 
@@ -11245,8 +10577,6 @@ A series is a multi-file shape: each file is a complete session, but the set is 
 **Why it works:** Spacing effect, Foot-in-the-door, Commitment and consistency.
 
 **Consent:** Effects build across files, so the listener should be told where the series ends up before starting it, and how to undo it.
-
-*Projected from legacy annotations: 30 of 527 scripts.*
 
 
 ### Story frame *(structure)*
@@ -11273,8 +10603,6 @@ A story frame is a whole-file shape in which the session is narrated as a scene:
 
 **Consent:** Suggestions delivered as plot can persist outside the story; say in the description what is meant to stay after the fiction ends.
 
-*Projected from legacy annotations: 25 of 527 scripts.*
-
 
 ### Call and response *(structure)*
 
@@ -11292,13 +10620,11 @@ Call and response is a whole-session shape in which the speaker's lines are inte
 
 **Spot it by:** regular reply prompts: 'repeat after me', 'say it', 'answer me', 'say yes'; short quoted first-person lines followed by marked pauses; stage directions such as [pause], [listener repeats] at regular intervals; an opening instruction explaining how the listener should respond.
 
-**Not to be confused with:** Repeat after me (label the unit on each prompt to say a line; add this label to the file only when reply prompts recur on a regular pattern through most of the session and the listener is told at the start how to answer); Asking for a yes (one requested yes at a chosen moment); Instructional / practice session (practice rounds of a skill, not continuous verbal exchange).
+**Not to be confused with:** Repeat after me (label the unit on each prompt to say supplied words; add this structure label when listener replies recur in a regular pattern through most of the session); Asking for a yes (one requested yes at a chosen moment does not make listener replies the session rhythm); Instructional / practice session (practice rounds teach a skill; call and response uses recurring listener replies as the session rhythm).
 
 **Evidence:** practitioner-lore. Self-generated and spoken statements are remembered better and can shift attitudes in lab studies; call-and-response hypnosis sessions themselves have not been studied.
 
 **Why it works:** Generation effect, Self-perception theory, Commitment and consistency.
-
-*Projected from legacy annotations: 1 of 527 scripts.*
 
 
 ### Countdown finale *(structure)*
@@ -11342,7 +10668,7 @@ A multi-drop session uses fractionation as its skeleton: the file repeatedly bri
 
 **Spot it by:** repeated partial wakes ('eyes opening', 'coming up a little') followed by 'drop', 'sleep', 'down'; 'deeper than last time', 'each time deeper' across several cycles; a re-induction trigger fired several times in one file; three or more induction-like passages in one session.
 
-**Not to be confused with:** Fractionation (label the unit on each passage of up-down cycles; add this label to the file only when the cycles recur across the session, with other material between them, and not inside one deepener); Partial wake (one wake that holds the listener up while still in trance, with no drop back and no repeated cycle); Drill (repeated firing of one trigger as drill for speed, with no claim that each cycle goes deeper).
+**Not to be confused with:** Fractionation (label the unit on each passage of repeated up-and-down cycles; add this structure label when those cycles organize the session rather than forming one bounded deepener, whether or not other material comes between them); Partial wake (a partial wake restores some faculties while declaring trance ongoing; it does not itself include a return to deeper trance); Drill (repeated firing and resetting of a specific response trains fluency; multi-drop cycles repeatedly interrupt and resume trance with a suggested increase in depth).
 
 **Evidence:** practitioner-lore. Fractionation is a long-standing clinical and stage technique attributed to Vogt; claims that each cycle measurably deepens trance lack controlled support.
 
@@ -11365,13 +10691,11 @@ An instructional session presents its content as a skill being taught: the speak
 
 **Spot it by:** an opening statement of the skill to be learned: 'today you'll learn', 'this lesson', 'in this session you'll practice'; an explanation or demonstration of the step before the listener is asked to do it: 'here is how it works', 'first I'll show you'; practice rounds separated by feedback on progress: 'good, that was quicker', 'better than the last one'; a closing summary of the skill and how to practice it alone: 'now you know how to', 'practice this each day'; teacher and student wording throughout: 'lesson', 'exercise', 'you're learning', 'well done'.
 
-**Not to be confused with:** Drill (label drill on the block of fire-and-reset rounds; add this label to the file only when the rounds sit inside a stated lesson, with the skill named at the start, explained before practice, and summarized at the end); Series / curriculum (several files in order; a lesson is one file); Call and response (continuous verbal exchange, not practice rounds of a skill).
+**Not to be confused with:** Drill (label drill on a block of repeated cue-response-reset rounds; add this structure label when a teaching frame explains a skill and uses practice with feedback across the session, even if the skill is not named at the start or summarized at the end); Series / curriculum (a series orders several files; a lesson is a shape within one file); Call and response (recurring listener replies set the session rhythm there; this structure teaches and practices a skill).
 
 **Evidence:** clinical-tradition. Teaching self-hypnosis and skills through practice rounds is standard clinical practice and practice with feedback improves learning generally; lesson-framed hypnosis files are not separately studied.
 
 **Why it works:** Operant conditioning, Automaticity.
-
-*Projected from legacy annotations: 1 of 527 scripts.*
 
 
 ### Recap *(structure)*
@@ -11459,32 +10783,28 @@ Analog marking is a consistent non-verbal signal applied to selected words: a dr
 
 **Consent:** It is meant to pass unnoticed, so the listener should know in advance that the session contains suggestions.
 
-*Projected from legacy annotations: 5 of 527 scripts.*
-
 
 ### Matching *(delivery)*
 
 Also called: mirroring, rapport matching, breath matching, matching and mirroring, predicate matching, nonverbal pacing.
 
-Matching is copying a feature of how the listener is behaving: speech rate, breathing rhythm, posture, or register (formality, sentence length, energy). It is pacing done through form instead of through statements, and it borrows no content; reusing the listener's own words or topics is using the listener's own material. In live work it is mostly nonverbal. In a script it shows only in stage directions: lines to be timed to the listener's observed breathing, or an opening delivered at an alert conversational tempo before slowing.
+Matching is copying a feature of how this listener is behaving: speech rate, breathing rhythm, posture, or register (formality, sentence length, energy). It is pacing done through form instead of statements. Reusing the listener's words or topics is using their material, not matching. In live work it is mostly nonverbal. In a written script it is visible in stage directions that tell the speaker to follow the listener's observed breathing, tempo, posture, or way of speaking.
 
 **How:** Begin at the listener's likely state, not the target state: a first line delivered at ordinary speaking pace and energy, then slow gradually. Time phrases to a natural breath cycle, with the downward or releasing words on the out-breath. Use the audience's own register and terms. Once matched, change your tempo a little and let the listener follow; that is the lead. Do not rely on choosing visual, auditory or feeling words to fit a listener 'type'; that claim has not held up.
 
-> [spoken at normal pace] So you've sat down, you've got your headphones on, and you're probably still thinking about the day. [slower] That's fine. We can start from there.
+> [listener is speaking quickly; begin at that rate] We can start right where you are. [as their speech slows, slow with them] And take a little more time.
 
 > [watch the listener's breathing; speak only on their out-breath] ...and letting go... [wait for the next out-breath] ...a little more.
 
 > [listener has been answering in short, flat sentences; match that] Long day. Lots in your head. Fine. We start there.
 
-**Spot it by:** stage directions that refer to the listener's observed behavior: '[match their breathing]', '[at their pace]', '[mirror posture]'; tempo directions that start at conversational speed and then slow: '[normal pace, then slow]'; opening lines in a brisk everyday register that loosens over the first section; a direction to copy the listener's register or sentence length, without reusing their words; live-session notes about mirroring posture or speech rate.
+**Spot it by:** stage directions that refer to the listener's observed behavior: '[match their breathing]', '[at their pace]', '[mirror posture]'; a direction to change tempo as the listener's observed tempo changes; a direction to copy the listener's register or sentence length, without reusing their words; live-session notes that link the speaker's posture or speech rate to the listener's.
 
 **Not to be confused with:** Pacing (pacing states what is true of the listener; matching copies how the listener is behaving without stating it); Breath-synced pacing (phrases timed to a fixed or typical breathing rhythm, as in any recording, are breath-synced delivery; label matching only when the direction is to follow this listener's observed breathing, tempo or posture); Using the listener's own material (repeating the listener's own words, interests or complaint is that variant; matching copies only how they speak and move (rate, rhythm, register), never what they said); Slowing pace (slowing pace is the delivery choice of getting slower through the session; matching starts at the listener's tempo, whatever it is).
 
 **Evidence:** contested. Behavioral mimicry has experimental support for increasing liking (Chartrand & Bargh 1999), but NLP claims about matching sensory predicates to a preferred representational system failed controlled tests, and no study shows matching raises hypnotic response.
 
 **Why it works:** Rapport matching, Liking principle, Pacing and leading, Processing fluency.
-
-*Projected from legacy annotations: 2 of 527 scripts.*
 
 
 ### Rapid delivery *(delivery)*
@@ -11503,15 +10823,13 @@ Overload by rate: a single stream delivered so quickly that the listener can fol
 
 **Spot it by:** stage directions: [fast], [rapid], [no pauses], [quickly]; run of five or more clauses of one to three words; commas or nothing where full stops would normally go; 'don't think, just', 'quickly now', 'keep up'; marked slowdown or pause directly after the run.
 
-**Not to be confused with:** Small physical tasks (a run of trivial bodily instructions is micro-compliance whatever its speed; add this label only when a stage direction calls for speed or the run is written without stops); Shortening sentences (short fragments set apart by full stops, ellipses or line breaks for slow, sparse delivery; label rapid delivery when the short clauses are run together with commas or no punctuation, or carry a speed direction); And... and... and (a figure of repeated conjunctions; it can be delivered at any speed); Cognitive overload (overload asks the listener to track several things at once; this is one stream that is merely fast).
+**Not to be confused with:** Small physical tasks (trivial bodily instructions mark micro-compliance; add rapid delivery only when speed is heard or explicitly directed); Shortening sentences (shortening sentences changes their length; rapid delivery requires audible speed or an explicit speed direction); And... and... and (repeated conjunctions can be delivered at any speed); Cognitive overload (overload presents multiple things to track; rapid delivery names the speed of one stream, though both may occur together).
 
 **Evidence:** contested. Faster speech raised persuasion and perceived credibility in some studies (Miller et al. 1976) and later work found it mainly cuts scrutiny, helping weak arguments and hurting strong ones; there is no controlled evidence for its use in hypnosis.
 
 **Why it works:** Cognitive load, Counterarguing, Elaboration likelihood model, Distraction-induced persuasion.
 
 **Consent:** Speed removes the time to refuse, so restrict fast passages to simple acts the listener has agreed to.
-
-*Projected from legacy annotations: 17 of 527 scripts.*
 
 
 ### Slowing pace *(delivery)*
@@ -11551,18 +10869,16 @@ A change of vocal register held over a passage or section: the voice turns lower
 
 **Spot it by:** a voice direction at the start of a section or paragraph: '[lower voice]', '[firm]', '[command voice]', '[soft]', '[flat]'; directions that give a duration: 'from here on', 'for this section', 'until the count'; a direction to return: '[back to normal voice]', '[brighter]' at the wake; production notes assigning a named voice to each section ('trance voice', 'command voice').
 
-**Not to be confused with:** Analog marking (label by scope: a voice direction that covers a few words inside a sentence is analog marking; one that covers a whole sentence, paragraph or section is tone shift); Whisper (when the direction names a whisper or close-mic voice, label whisper; tone shift covers every other change of register); Attention call (the orienting cue is the scripted job of pulling attention back just before a key line; tone shift is the voice change, which may or may not be used for that); Slowing pace (slowing pace changes tempo only; tone shift changes pitch, firmness or quality of the voice).
+**Not to be confused with:** Analog marking (analog marking changes the voice on selected words or phrases to set them apart; tone shift holds a changed register across a passage or section); Whisper (when the direction names a whisper or close-mic voice, label whisper; tone shift covers other sustained changes of register); Attention call (an orienting cue is a change used to pull attention back just before a key line; tone shift is a sustained change of voice, which may also serve that purpose); Slowing pace (slowing pace changes tempo; tone shift changes pitch, firmness or quality of the voice).
 
 **Evidence:** practitioner-lore. Using a distinct lower or firmer voice for trance and for commands is widely taught; no controlled studies isolate the effect of the change of voice on hypnotic response.
 
-**Why it works:** Orienting response, Authority principle.
-
-*Projected from legacy annotations: 10 of 527 scripts.*
+**Why it works:** Orienting response.
 
 
 ### Whisper *(delivery)*
 
-Also called: ASMR, close-mic, soft voice, whispered delivery.
+Also called: close-mic, whispered delivery, whispering.
 
 Whispered or close-miked delivery held over a passage or a whole track. It creates a sense of physical closeness and, for some listeners, an ASMR response. It is one specific register: where a direction names a whisper or a close microphone, label whisper, and use tone shift for any other change of voice. Layered voices may use whispers as one of several tracks; a whisper alone is a single track.
 
@@ -11603,8 +10919,6 @@ Several recorded voice tracks overlap: a main voice with background whispers, tw
 
 **Consent:** Secondary tracks are designed to be heard but not followed; the listener should be able to read what they say.
 
-*Projected from legacy annotations: 9 of 527 scripts.*
-
 
 ### Subliminal track *(delivery)*
 
@@ -11627,8 +10941,6 @@ Speech recorded at very low volume, sped up, masked by noise or music, or otherw
 **Why it works:** Placebo effect, Response expectancy theory, Priming.
 
 **Consent:** Works only if unnoticed by design; always disclose that a hidden track exists and publish what it says.
-
-*Projected from legacy annotations: 3 of 527 scripts.*
 
 
 ### Binaural / isochronic tones *(delivery)*
@@ -11687,13 +10999,11 @@ An audible regular beat beneath speech: a clock tick, metronome or soft pulse. T
 
 **Spot it by:** stage directions: '[metronome]', '[tick]', 'bpm'; phrases like 'with each tick', 'every beat', 'the clock'; notes on beat tempo changes.
 
-**Not to be confused with:** Binaural / isochronic tones (tones are a carrier for entrainment, pulsing too fast to count; a metronome is a slow countable beat); Sound effects (an effect is a single sound placed at one moment; a tick or pulse that runs on at a regular rate under the voice is a metronome); Rhythm and meter (meter is rhythm in the wording; a metronome is a separate sound); Countdown deepener (a countdown deepens by counted numbers; a beat runs without numbers).
+**Not to be confused with:** Binaural / isochronic tones (binaural, monaural or isochronic tones are specified for a target beat frequency and proposed brainwave entrainment; a metronome supplies a regular tick or pulse for audible pacing); Sound effects (an effect is a sound placed at one moment; a tick or pulse that runs on at a regular rate under the voice is a metronome); Rhythm and meter (meter is rhythm in the wording; a metronome is a separate sound); Countdown deepener (a countdown deepens by spoken numbers; a beat runs without numbers).
 
 **Evidence:** practitioner-lore. Metronome sounds have been used in hypnosis and relaxation settings; there is no clear evidence of an effect beyond focus and monotony.
 
 **Why it works:** Habituation, Pacing and leading.
-
-*Projected from legacy annotations: 4 of 527 scripts.*
 
 
 ### Music bed *(delivery)*
@@ -11771,9 +11081,7 @@ The speaker times phrases to breathing: live to the listener's breath in person,
 
 > (one phrase per breath, on the exhale only) The chair holds you. (breath) Your hands are still. (breath) Nothing to do.
 
-> (recording: leave about five seconds between phrases so each lands on an out-breath) Softer. ... Slower. ... Down.
-
-**Spot it by:** timing directions tied to breath: '(on the exhale)', '(on the out-breath)', '(wait for the inhale)'; '(inhale)' / '(exhale)' marks placed before lines whose words are not about breathing; notes on breath timing: 'one phrase per breath', 'match their breathing', 'leave a breath between lines'; evenly spaced gap marks between short phrases with a stated interval of a few seconds.
+**Spot it by:** timing directions tied to breath: '(on the exhale)', '(on the out-breath)', '(wait for the inhale)'; '(inhale)' / '(exhale)' marks placed before lines whose words are not about breathing; notes on breath timing: 'one phrase per breath', 'match their breathing', 'leave a breath between lines'.
 
 **Not to be confused with:** Breathe in, breathe out (that entry is in the words: the inhale and exhale are each given content; breath-sync is a timing direction and the words can be about anything); Breath-focus induction (the induction tells the listener to attend to or change their breathing; this entry times the voice to breath without mentioning it); Matching (matching is the rapport move of copying any feature of the listener; use this label when the direction is specifically about timing phrases to the breath); Pacing (pacing states the listener's experience in words; breath-sync times delivery to it).
 
@@ -11804,8 +11112,6 @@ A video or visual track that runs with the session. Common forms are rotating sp
 
 **Consent:** Text flashed too fast to read works unnoticed and should be disclosed; flashing visuals need a photosensitivity warning.
 
-*Projected from legacy annotations: 1 of 527 scripts.*
-
 
 ### Silence *(delivery)*
 
@@ -11819,15 +11125,13 @@ A planned gap in the audio: no voice, and often no added sound. Short silences g
 
 > Just let that settle. (pause, 5 seconds) Good.
 
-**Spot it by:** a gap direction with a duration: '[silence, 20 seconds]', '(pause, 5 seconds)', '[30s]'; directions for an extended gap: '[long pause]', '[long silence]', '[no voice, music only]'; a task handed over just before the gap: 'take a moment to...', 'in your own time'; timed gaps listed in production notes.
+**Spot it by:** a gap direction with a duration: '[silence, 20 seconds]', '(pause, 5 seconds)', '[30s]'; directions for an extended gap: '[long pause]', '[long silence]', '[no voice, music only]'; timed gaps listed in production notes.
 
 **Not to be confused with:** Silence / pause deepener (if the words before the gap say that depth grows during the quiet, label the silence deepener; a gap with any other job, or none stated, is silence); Written pause (an ellipsis, dash, line break or untimed '[pause]' or '[beat]' inside running speech is a written pause; label silence when the direction gives a duration or calls for a long gap); Slowing pace (slowing pace is a tempo held across many lines; silence is one discrete gap).
 
 **Evidence:** clinical-tradition. Pauses for processing are standard clinical practice; their effect has not been measured separately.
 
 **Why it works:** Cognitive load, Hypnotic induction.
-
-*Projected from legacy annotations: 3 of 527 scripts.*
 
 
 ## Theory
@@ -11855,7 +11159,7 @@ A planned gap in the audio: no voice, and often no added sound. Short silences g
 
 **Projective content** (empirical). Presuppositions and some implications 'project': 'you don't have to go deeper just yet' still implies that you will. This makes such content resistant to the listener's usual ways of declining a suggestion. How strongly content projects varies by trigger and by what the speaker is taken to be addressing. A well-documented phenomenon with active experimental research; the projection strength of different triggers is still being mapped. *For writers:* Phrase permissive or negated lines so the suggestion projects through them; the negation softens the tone without removing the content.
 
-**Loaded question** (empirical). 'How deep have you already gone?' cannot be answered directly without granting that you have gone deep. The listener can reject the premise only by refusing the question. Argumentation theory classes this as the fallacy of many questions; eyewitness research shows question wording shifts what people report. The logical point is uncontroversial. Experimental work on leading questions shows wording effects on answers and memory reports, with effect sizes that vary across studies. *For writers:* This construct duplicates the canon device of the same name; use the device where the presupposed content is something the listener has agreed to.
+**Loaded question** (empirical). 'How deep have you already gone?' cannot be answered directly without granting that you have gone deep. The listener can reject the premise only by refusing the question. Argumentation theory classes this as the fallacy of many questions; eyewitness research shows question wording shifts what people report. The logical point is uncontroversial. Experimental work on leading questions shows wording effects on answers and memory reports, with effect sizes that vary across studies. *For writers:* This construct duplicates the device of the same name; use the device where the presupposed content is something the listener has agreed to.
 
 **Conversational framing** (theoretical). People interpret utterances through a shared definition of what kind of activity is going on. The same words mean different things under 'this is a game' and 'this is serious'. Cues that set or shift the frame change how everything after them is heard. An influential sociological framework that is descriptive and interpretive rather than a tested model; frame effects on interpretation are widely observed. *For writers:* Set the frame explicitly near the start (fiction, practice, play) and signal clearly when it changes, including on the way out.
 
@@ -11870,13 +11174,13 @@ A planned gap in the audio: no voice, and often no added sound. Short silences g
 
 **Begging the question** (empirical). The conclusion appears, usually reworded, as a premise: 'you are going deep because your mind is sinking deeper'. The reasoning looks complete but adds no support. Circularity is easy to miss when the restatement uses different words. A long-recognized fallacy and uncontroversial as a logical point. Experimental work on circular reasoning is limited; it suggests that how acceptable a circular argument seems depends on the dialogue context and on whether the repeated claim has already been granted, not simply on rewording. *For writers:* A circular 'because' can make a suggestion feel justified at no cost, but it is fragile under scrutiny; it works best when the listener is absorbed rather than evaluating.
 
-**Enthymeme** (empirical). Classical rhetoric's enthymeme omits a premise the audience is expected to fill in: 'you're relaxing, so you're ready'. Because the listener supplies the missing step, they rarely examine it. The step they supply is usually one they already believe. A classical concept accepted in modern argumentation theory, though what exactly counts as an enthymeme is debated. *For writers:* This construct duplicates the canon device 'Unstated premise'; leave out a premise only when the listener will reliably supply the one you intend.
+**Enthymeme** (empirical). Classical rhetoric's enthymeme omits a premise the audience is expected to fill in: 'you're relaxing, so you're ready'. Because the listener supplies the missing step, they rarely examine it. The step they supply is usually one they already believe. A classical concept accepted in modern argumentation theory, though what exactly counts as an enthymeme is debated. *For writers:* This construct duplicates the device 'Unstated premise'; leave out a premise only when the listener will reliably supply the one you intend.
 
 **Enthymematic persuasion** (theoretical). When people supply a missing premise, the conclusion feels partly self-generated, and people counterargue less against their own contributions. This links the classical enthymeme to research on self-generated arguments and self-persuasion. The idea is plausible but the persuasion research does not favor it in general: reviews of studies comparing stated and unstated conclusions mostly find the stated conclusion at least as persuasive. Any advantage for leaving the step out appears limited to engaged listeners who actually draw the inference, and it fails when they do not. *For writers:* Leave gaps only where the listener will fill them the way you intend; otherwise state the conclusion outright.
 
 **Argument from consensus** (empirical). 'Everyone who listens to this goes deeper' offers numbers as evidence. As a logical argument it is weak, but as a heuristic it often works because consensus correlates with truth. People lean on it most when they are uncertain. Uncontroversial as a fallacy. The underlying social-proof effect is well supported, though some classic demonstrations are smaller than popular accounts suggest. *For writers:* Consensus claims work best when the listener is unsure; specifics that make the claimed group feel real make them land harder.
 
-**False dilemma** (empirical). A false dilemma narrows the choice so both offered options serve the speaker. It is a classic informal fallacy. In hypnotic language the same structure appears as the double bind and the illusion of choice. Uncontroversial as a logical point; research on choice sets supports that which options are presented shapes what people choose. *For writers:* This construct duplicates the canon device of the same name; make both offered options acceptable outcomes and leave the constraint unspoken.
+**False dilemma** (empirical). A false dilemma narrows the choice so both offered options serve the speaker. It is a classic informal fallacy. In hypnotic language the same structure appears as the double bind and the illusion of choice. Uncontroversial as a logical point; research on choice sets supports that which options are presented shapes what people choose. *For writers:* This construct duplicates the device of the same name; make both offered options acceptable outcomes and leave the constraint unspoken.
 
 **Motte-and-bailey** (theoretical). The speaker holds an ambitious position (the bailey) and, when pressed, substitutes a modest, defensible version (the motte). Once the challenge passes, the ambitious claim returns. Both versions share a name, which hides the switch. A named pattern from philosophy, popularized online; it is an analytic tool rather than an experimentally studied effect. *For writers:* Recognize the pattern in material that alternates 'this is just relaxation' with strong transformation claims; keep what you claim consistent across the pre-talk and the body.
 
@@ -11886,7 +11190,7 @@ A planned gap in the audio: no voice, and often no added sound. Short silences g
 
 **Moralization** (empirical). Once something is a moral matter, people resist compromise, react to violations with anger or disgust, and expect others to share the view. Moralization can be driven by harm arguments and by emotional association. An established construct in moral psychology with experimental and longitudinal support; the mechanisms of change are still debated. *For writers:* Framing a behavior as right versus wrong makes it stick harder and makes lapses feel like violations; that rigidity is the cost, so use it sparingly and only with consent.
 
-**Scope neglect** (empirical). People's concern or willingness to pay changes little whether a problem affects two thousand or two hundred thousand. The response tracks the image or feeling the description evokes, not the quantity. Magnitude is processed coarsely unless amounts are compared side by side. Insensitivity to quantity is replicated in valuation and judgment research, though its size depends on how responses are elicited and it shrinks when quantities are compared directly. The related claim that a single identified case moves people more than statistics is a separate effect, and reviews find it small and dependent on conditions. *For writers:* Do not expect bigger numbers to add force: 'a hundred times deeper' lands about the same as 'ten times deeper'. Spend the words on one concrete image of the result instead.
+**Scope neglect** (empirical). People's concern or willingness to pay changes little whether a problem affects two thousand or two hundred thousand. The response tracks the image or feeling the description evokes, not the quantity. Magnitude is processed coarsely unless amounts are compared side by side. Insensitivity to quantity is replicated in valuation and judgment research, though its size depends on how responses are elicited and it shrinks when quantities are compared directly. The related claim that a single identified case moves people more than statistics is a separate effect, and reviews find it small and dependent on conditions. *For writers:* Do not assume that a larger multiplier will make a suggestion more compelling; describe the intended change concretely.
 
 **Framing effect** (empirical). Describing outcomes as gains or losses, or as amounts kept versus lost, shifts decisions. Loss frames tend to promote risk-taking and gain frames caution. The effect depends on listeners not translating between frames. Risky-choice framing (the original gain/loss decision problems) is robust and widely replicated, though smaller in within-person designs and among deliberating or expert decision makers. Framing a persuasive appeal around what is gained versus what is lost is a different case: reviews of that work find differences that are small or negligible. *For writers:* Choose the frame on purpose, what the listener gains by going along or what they lose by holding back, but treat it as a matter of tone and fit; the evidence that either frame persuades better is weak.
 
@@ -11896,12 +11200,12 @@ A planned gap in the audio: no voice, and often no added sound. Short silences g
 
 **False balance** (theoretical). Giving equal time to a fringe view signals that the question is open. Audiences infer uncertainty from the structure of the presentation, not just its content. This can make weak claims seem credible. Supported by content analyses of news coverage and some experimental work on how balance affects perceived consensus. *For writers:* 'Some say, others say' structure creates the impression of open debate; use it only where you mean the question to be open.
 
-**Manufactured consensus** (theoretical). A source can simulate agreement with repeated voices, staged testimonials or selective quotation. Listeners infer a real consensus and adjust their own view. The appearance works through the same channel as genuine social proof. The component effects (social proof, the illusory-truth effect of repetition) are well supported in laboratory work, including findings that one source repeating a claim can raise its perceived prevalence. Whether staged or coordinated fake consensus shifts beliefs outside the lab is less clear; studies of real campaigns report mixed and often small effects. *For writers:* This construct duplicates the canon variant of the same name; layered voices and 'so many others' framing simulate a crowd.
+**Manufactured consensus** (theoretical). A source can simulate agreement with repeated voices, staged testimonials or selective quotation. Listeners infer a real consensus and adjust their own view. The appearance works through the same channel as genuine social proof. The component effects (social proof, the illusory-truth effect of repetition) are well supported in laboratory work, including findings that one source repeating a claim can raise its perceived prevalence. Whether staged or coordinated fake consensus shifts beliefs outside the lab is less clear; studies of real campaigns report mixed and often small effects. *For writers:* This construct duplicates the variant of the same name; layered voices and 'so many others' framing simulate a crowd.
 
 
 ### Narrative
 
-**Narrative transportation** (empirical). Transported readers lose track of their surroundings, form vivid images and feel for the characters. Transportation is associated with story-consistent beliefs and less counterarguing. It depends on story quality and on the reader's general tendency to become absorbed. Well supported by experiments and meta-analysis; effects on beliefs are modest to moderate and depend on how they are measured. *For writers:* This construct underlies the canon device 'Story absorption'; vivid, coherent, concrete stories absorb more than abstract ones.
+**Narrative transportation** (empirical). Transported readers lose track of their surroundings, form vivid images and feel for the characters. Transportation is associated with story-consistent beliefs and less counterarguing. It depends on story quality and on the reader's general tendency to become absorbed. Well supported by experiments and meta-analysis; effects on beliefs are modest to moderate and depend on how they are measured. *For writers:* This construct underlies the device 'Story absorption'; vivid, coherent, concrete stories absorb more than abstract ones.
 
 **Narrative persuasion** (empirical). Narratives influence beliefs through absorption, identification and lowered resistance rather than through evidence. They can shift attitudes on matters the story only implies. Some studies find effects that persist or grow over time. Meta-analyses show small to moderate effects; delayed or growing effects are less consistent. *For writers:* When direct suggestion meets resistance, carry the message in a story and let a character's change make the point.
 
@@ -11909,7 +11213,7 @@ A planned gap in the audio: no voice, and often no added sound. Short silences g
 
 **Entertainment Overcoming Resistance Model** (theoretical). Engagement with characters and plot weakens the defenses people use against persuasion: feeling pushed, arguing back, and dismissing the message as irrelevant. Identification, liking and parasocial bonds are named mechanisms. A synthesis framework with some supporting experiments; individual pathways are inconsistently supported. *For writers:* Give the listener a character to like and identify with, so the message arrives as that character's experience rather than your demand.
 
-**Character identification** (empirical). Identification involves empathy, sharing the character's goals and a temporary loss of self-awareness. Readers who identify adopt the character's view more readily. Similarity helps but is not required. Supported by survey and experimental work; its measures overlap with transportation, and effects vary across studies. *For writers:* This construct duplicates the canon device of the same name; give the character the listener's situation so stepping into them is easy.
+**Character identification** (empirical). Identification involves empathy, sharing the character's goals and a temporary loss of self-awareness. Readers who identify adopt the character's view more readily. Similarity helps but is not required. Supported by survey and experimental work; its measures overlap with transportation, and effects vary across studies. *For writers:* This construct duplicates the device of the same name; give the character the listener's situation so stepping into them is easy.
 
 **Parasocial interaction** (empirical). Audiences respond to performers who address them directly as if in a real interaction, and over time this can become a felt relationship. Direct address, personal disclosure and a consistent voice strengthen it. A long-standing concept with a large empirical literature; definitions and measures vary between studies. *For writers:* Direct address, disclosure and a consistent voice across files build a felt relationship; that bond adds influence, so do not use it to foster dependency.
 
@@ -11960,9 +11264,9 @@ A planned gap in the audio: no voice, and often no added sound. Short silences g
 
 **Attentional tunneling** (empirical). Attentional tunneling is the narrowing of attention onto a single source or task, with neglect of other cues. High arousal, high workload and compelling displays promote it. People in it often fail to notice even salient events outside the focus. Well documented in applied attention research such as aviation, and related to older findings that arousal narrows the range of cues used. *For writers:* Narrow focus on the voice or one sensation crowds out the room; describe the narrowing as it happens rather than demanding it.
 
-**Task-set inertia** (empirical). Switching between tasks has a cost: the previous task set persists for a time and interferes with the new one. Responses right after a switch are slower and more error-prone. Preparation time reduces this switch cost but does not remove it. Task-switch costs are robust, but they are measured as fractions of a second of slowing on simple laboratory tasks, and the inertia account competes with other explanations of those costs. No study shows that a switch opens a window of heightened suggestibility; that link is an analogy. *For writers:* Right after an abrupt shift of task or topic the listener is briefly slower to reorganize. If you place an instruction there, keep it short and clear, and do not count on the moment making it more persuasive.
+**Task-set inertia** (empirical). Switching between tasks has a cost: the previous task set persists for a time and interferes with the new one. Responses right after a switch are slower and more error-prone. Preparation time reduces this switch cost but does not remove it. Task-switch costs are robust, but they are measured as brief slowing on simple laboratory tasks, and the inertia account competes with other explanations of those costs. Whether a switch creates a window of heightened suggestibility has not been established. *For writers:* An abrupt switch can interrupt an expected response; if you put an instruction after it, keep the instruction short and clear. Any added persuasive effect from the timing is untested.
 
-**Pattern interruption** (practitioner). In hypnosis and NLP practice, interrupting an over-learned sequence such as a handshake is said to leave the person briefly without a next step and open to direction. This duplicates the canon device pattern interrupt and its rapid-induction variants. The research analogues are task-switch costs and the orienting response. Supported mainly by demonstration; the underlying switch-cost and orienting effects are real, but the size of any window of heightened suggestibility has not been measured. *For writers:* Use the device entries; deliver the instruction immediately and keep it to one or two words.
+**Pattern interruption** (practitioner). In hypnosis and NLP practice, interrupting an over-learned sequence such as a handshake is said to leave the person briefly without a next step and open to direction. This duplicates the device pattern interrupt and its rapid-induction variants. The research analogues are task-switch costs and the orienting response. Supported mainly by demonstration; the underlying switch-cost and orienting effects are real, but the size of any window of heightened suggestibility has not been measured. *For writers:* Use the device entries; deliver the instruction immediately and keep it to one or two words.
 
 
 ### Hypnosis science
@@ -12000,31 +11304,31 @@ A planned gap in the audio: no voice, and often no added sound. Short silences g
 
 ### Erickson / NLP vocabulary
 
-**Ericksonian confusion technique** (practitioner). Erickson described piling up ambiguous, contradictory or irrelevant statements until the listener wants clarity, then giving a simple suggestion that resolves the confusion. This duplicates the canon device confusion technique and its variants. The proposed mechanism is the drive to escape uncertainty. Supported mainly by case reports and practice; laboratory work on the related disrupt-then-reframe effect gives indirect support. *For writers:* Use the device entries; the relief only works if the closing instruction is truly simple.
+**Ericksonian confusion technique** (practitioner). Erickson described piling up ambiguous, contradictory or irrelevant statements until the listener wants clarity, then giving a simple suggestion that resolves the confusion. This duplicates the device confusion technique and its variants. The proposed mechanism is the drive to escape uncertainty. Supported mainly by case reports and practice; laboratory work on the related disrupt-then-reframe effect gives indirect support. *For writers:* Use the device entries; the relief only works if the closing instruction is truly simple.
 
-**Confusion-restructuring** (practitioner). Confusion-restructuring pairs a disruption of understanding with an immediate new interpretation. The listener, wanting coherence, takes the offered frame. It overlaps with disrupt-then-reframe in persuasion research and with the canon's confusion technique. Disrupt-then-reframe has laboratory and field support, almost all of it from brief sales and donation requests; whether it carries over to a hypnotic script has not been tested. The practitioner version is unmeasured. *For writers:* Treat it as confusion technique or disrupt then reframe; the new frame must come immediately after the disruption.
+**Confusion-restructuring** (practitioner). Confusion-restructuring pairs a disruption of understanding with an immediate new interpretation. The listener, wanting coherence, takes the offered frame. It overlaps with disrupt-then-reframe in persuasion research and with the confusion technique. Disrupt-then-reframe has laboratory and field support, almost all of it from brief sales and donation requests; whether it carries over to a hypnotic script has not been tested. The practitioner version is unmeasured. *For writers:* Treat it as confusion technique or disrupt then reframe; the new frame must come immediately after the disruption.
 
-**Milton Model** (practitioner). The Milton Model collects language patterns observed in Erickson's work: nominalizations, unspecified verbs, presuppositions, embedded commands, binds and ambiguities. Vagueness lets the listener fill in content from their own experience. In the canon it is a collection, not a device; each pattern has its own entry. The patterns are real linguistic forms; claims that the set is especially hypnotic have little controlled evidence. *For writers:* Use the individual device entries; vagueness should leave room for the listener, not hide what is being suggested.
+**Milton Model** (practitioner). The Milton Model collects language patterns observed in Erickson's work: nominalizations, unspecified verbs, presuppositions, embedded commands, binds and ambiguities. Vagueness lets the listener fill in content from their own experience. Here it is a collection, not a device; each pattern has its own entry. The patterns are real linguistic forms; claims that the set is especially hypnotic have little controlled evidence. *For writers:* Use the individual device entries; vagueness should leave room for the listener, not hide what is being suggested.
 
-**Meta Model** (practitioner). The Meta Model sorts vague language into deletions, generalizations and distortions and pairs each form with a question that recovers the specifics. It was built as a therapy tool, loosely on transformational grammar, and came first; the Milton Model was later presented as its inverse, using the same forms deliberately. It names the forms the canon lists under artful vagueness. Its categories are drawn from linguistics; the therapeutic claims are not well tested. *For writers:* Use it as an editing checklist: each vague form you keep should be kept on purpose.
+**Meta Model** (practitioner). The Meta Model sorts vague language into deletions, generalizations and distortions and pairs each form with a question that recovers the specifics. It was built as a therapy tool, loosely on transformational grammar, and came first; the Milton Model was later presented as its inverse, using the same forms deliberately. It names the forms listed here under artful vagueness. Its categories are drawn from linguistics; the therapeutic claims are not well tested. *For writers:* Use it as an editing checklist: each vague form you keep should be kept on purpose.
 
-**Pacing and leading** (practitioner). Pacing and leading means matching the listener's current experience with true statements before introducing a new one. The accepted statements are said to build momentum that carries the suggestion. This duplicates the canon devices pacing and pacing and leading. Plausibly related to fluency and consistency effects; the specific sequence has not been well tested in controlled research. *For writers:* Use the device entries; paced statements must actually be true for the listener or they cost credibility.
+**Pacing and leading** (practitioner). Pacing and leading means matching the listener's current experience with true statements before introducing a new one. The accepted statements are said to build momentum that carries the suggestion. This duplicates the devices pacing and pacing and leading. Plausibly related to fluency and consistency effects; the specific sequence has not been well tested in controlled research. *For writers:* Use the device entries; paced statements must actually be true for the listener or they cost credibility.
 
-**Embedded commands** (practitioner). Embedded commands are imperative phrases placed inside a longer sentence, often marked by tone. Practitioners claim they bypass conscious evaluation. This duplicates the canon devices embedded command and analog marking. Controlled evidence that embedded commands act outside awareness is weak; any effect is likely through ordinary suggestion and repetition. *For writers:* Use the device entries; do not expect a hidden command to work where an open one would not.
+**Embedded commands** (practitioner). Embedded commands are imperative phrases placed inside a longer sentence, often marked by tone. Practitioners claim they bypass conscious evaluation. This duplicates the devices embedded command and analog marking. Controlled evidence that embedded commands act outside awareness is weak; any effect is likely through ordinary suggestion and repetition. *For writers:* Use the device entries; do not expect a hidden command to work where an open one would not.
 
-**Conversational hypnosis** (practitioner). Conversational hypnosis refers to using Ericksonian language patterns in everyday conversation to produce absorption and responsiveness. It duplicates the canon's conversational and unannounced induction devices. Commercial courses often overstate its power to influence unwilling people. Research on nonhypnotic suggestibility shows suggestion can work without the label; claims of covert control over others are not supported. *For writers:* Use the induction device entries; absorption still depends on the listener's engagement.
+**Conversational hypnosis** (practitioner). Conversational hypnosis refers to using Ericksonian language patterns in everyday conversation to produce absorption and responsiveness. It duplicates the conversational and unannounced induction devices. Commercial courses often overstate its power to influence unwilling people. Research on nonhypnotic suggestibility shows suggestion can work without the label; claims of covert control over others are not supported. *For writers:* Use the induction device entries; absorption still depends on the listener's engagement.
 
-**Utilization** (practitioner). Erickson's utilization principle treats the listener's behavior, beliefs, resistance and surroundings as material for the process rather than obstacles. Distractions become deepeners and resistance becomes participation. It duplicates the canon device utilization and its variants. A practice principle supported by clinical reports rather than controlled tests. *For writers:* Use the device entries; name likely distractions in advance and give each one a role.
+**Utilization** (practitioner). Erickson's utilization principle treats the listener's behavior, beliefs, resistance and surroundings as material for the process rather than obstacles. Distractions become deepeners and resistance becomes participation. It duplicates the device utilization and its variants. A practice principle supported by clinical reports rather than controlled tests. *For writers:* Use the device entries; name likely distractions in advance and give each one a role.
 
-**Therapeutic double bind** (practitioner). The therapeutic double bind gives alternatives that all lead to the intended outcome, such as going into trance now or in a moment. It borrows the term from family-systems theory, where a double bind was a harmful contradictory demand. The canon lists it as double bind with variants. The clinical form is practitioner-reported and has not been tested in controlled studies. Research showing that being given a choice, even a minor one, raises motivation and commitment is indirect support at most. *For writers:* Use the device entries; a bind is easy to see through when the options are obviously equivalent.
+**Therapeutic double bind** (practitioner). The therapeutic double bind gives alternatives that all lead to the intended outcome, such as going into trance now or in a moment. It borrows the term from family-systems theory, where a double bind was a harmful contradictory demand. It is listed here as double bind with variants. The clinical form is practitioner-reported; controlled evidence that these constrained choices improve hypnotic responding is lacking. Studies of choice in other contexts offer indirect support at most. *For writers:* Use the device entries; a bind is easy to see through when the options are obviously equivalent.
 
-**Interspersal technique** (practitioner). Interspersal places suggestion words or phrases within a narrative on another topic, often marked by voice. Erickson described it for pain relief. It duplicates the canon devices interspersal and analog marking. Clinical reports only; any effect is likely through repetition and priming rather than concealment. *For writers:* Use the device entry; scattered words work best when they also make sense in the surrounding story.
+**Interspersal technique** (practitioner). Interspersal places suggestion words or phrases within a narrative on another topic, often marked by voice. Erickson described it for pain relief. It duplicates the devices interspersal and analog marking. Clinical reports only; any effect is likely through repetition and priming rather than concealment. *For writers:* Use the device entry; scattered words work best when they also make sense in the surrounding story.
 
-**Metaphorical suggestion** (practitioner). Metaphorical suggestion delivers the target response through a story or image that parallels it, leaving the listener to draw the connection. It is said to avoid resistance and engage imagination. The canon lists it as metaphor and its variants. Research on narrative transportation supports story-based persuasion in general; the specific therapeutic claims rest on practice. *For writers:* Use the device entries; the parallel should be close enough that the listener feels it without being told.
+**Metaphorical suggestion** (practitioner). Metaphorical suggestion delivers the target response through a story or image that parallels it, leaving the listener to draw the connection. It is said to avoid resistance and engage imagination. It is listed here as metaphor and its variants. Research on narrative transportation supports story-based persuasion in general; the specific therapeutic claims rest on practice. *For writers:* Use the device entries; the parallel should be close enough that the listener feels it without being told.
 
-**Analog marking** (practitioner). Analog marking uses nonverbal cues such as tone, pause or volume to set particular words apart. The marked words are said to be processed as a separate message. The canon lists this as analog marking. Marking clearly draws attention to words; claims that the second message works outside awareness lack controlled support. *For writers:* Use the device entry; in a written script, mark the words with stage directions so the performer knows to set them apart.
+**Analog marking** (practitioner). Analog marking uses nonverbal cues such as tone, pause or volume to set particular words apart. The marked words are said to be processed as a separate message. It is listed here as analog marking. Marking clearly draws attention to words; claims that the second message works outside awareness lack controlled support. *For writers:* Use the device entry; in a written script, mark the words with stage directions so the performer knows to set them apart.
 
-**Anchoring (NLP)** (practitioner). NLP anchoring captures an intense state and associates it with a touch, word or image, so the cue later recalls the state. Practitioners claim a single pairing can be enough. It is a form of classical conditioning and duplicates the canon devices anchoring and trigger installation. Conditioning itself is well established; NLP's claims of reliable one-trial anchors are not supported by controlled research. *For writers:* Use the device entries; rehearse the cue several times rather than relying on one pairing.
+**Anchoring (NLP)** (practitioner). NLP anchoring captures an intense state and associates it with a touch, word or image, so the cue later recalls the state. Practitioners claim a single pairing can be enough. It is a form of classical conditioning and duplicates the devices anchoring and trigger installation. Conditioning itself is well established; NLP's claims of reliable one-trial anchors are not supported by controlled research. *For writers:* Use the device entries; rehearse the cue several times rather than relying on one pairing.
 
 **Reframing** (empirical). Reframing places the same facts in a different frame of meaning or context. A sensation, behavior or event judged one way can be judged differently under a new frame. Related research on cognitive reappraisal shows that reinterpreting a situation alters the emotional response. Reappraisal is well supported in emotion research; therapy-specific reframing techniques have less direct evidence. *For writers:* Offer the new meaning as a natural reading of what the listener already feels, not as a correction.
 
@@ -12107,7 +11411,7 @@ A planned gap in the audio: no voice, and often no added sound. Short silences g
 
 **Persuasion Knowledge Model** (theoretical). When people recognize a message as a persuasion attempt, they reinterpret it and may resist. This knowledge builds over a lifetime of exposure to tactics. Influential framework with good support in consumer research. *For writers:* Experienced listeners recognize techniques; naming a technique openly can build trust or invite resistance depending on how it is framed.
 
-**Persuasion resistance** (empirical). Resistance includes reactance, distrust, scrutiny and inertia. Persuaders can either lower these sources of resistance or increase the pull of the message, and the two approaches work differently. A synthesis built on well-supported components rather than one tested effect. *For writers:* Plan for resistance directly: lower its sources instead of only adding pressure.
+**Persuasion resistance** (theoretical). Resistance includes reactance, distrust, scrutiny and inertia. Persuaders can either lower these sources of resistance or increase the pull of the message, and the two approaches work differently. A synthesis built on well-supported components rather than one tested effect. *For writers:* Plan for resistance directly: lower its sources instead of only adding pressure.
 
 **Inoculation theory** (theoretical). Like a vaccine, a mild attack on a belief together with its refutation prepares people to resist stronger attacks later. Well supported, including recent work on prebunking misinformation. *For writers:* Raise likely doubts early in a mild form and resolve them, so that later doubts feel already answered.
 
@@ -12121,20 +11425,20 @@ A planned gap in the audio: no voice, and often no added sound. Short silences g
 
 **Belief perseverance** (empirical). Once people have explained a belief to themselves, the explanation keeps it alive after the original evidence is withdrawn. Well replicated; asking people to explain the opposite reduces it. *For writers:* Have the listener produce their own reasons for a belief; self-generated explanations make it last.
 
-**Attitude bolstering** (theoretical). When challenged, people bring supporting thoughts to mind instead of rebutting the challenge directly. Identified as a common resistance strategy in self-report studies; less studied than counterarguing. *For writers:* Expect a directly challenged listener to start rehearsing their own reasons for the belief instead of weighing yours, so the challenge mostly gets ignored. Attach the suggestion to a belief they already hold instead of attacking one.
+**Attitude bolstering** (theoretical). When challenged, people bring supporting thoughts to mind instead of rebutting the challenge directly. Identified as a common resistance strategy in self-report studies; less studied than counterarguing. *For writers:* A direct challenge may prompt listeners to rehearse reasons for their existing belief. Link the suggestion to a belief they already hold.
 
 **Source derogation** (empirical). Instead of engaging with the content, people question the credibility or motives of the speaker. Supported as a common resistance strategy in self-report research. *For writers:* Protect the speaker's credibility: avoid claims that make the voice seem uninformed or plainly manipulative.
 
-**Metacognitive monitoring** (empirical). People track their own mental states, such as confidence and ease of processing, and use those signals to make judgments about what is true or known. Well established in memory and learning research. *For writers:* Listeners decide whether it is working by reading their own signals: how easy, how effortful, how automatic a response felt. Tell them which signals to notice and what those signals mean, and they will use your reading when they judge the session.
+**Metacognitive monitoring** (empirical). People track their own mental states, such as confidence and ease of processing, and use those signals to make judgments about what is true or known. Well established in memory and learning research. *For writers:* Point out signs of a response that listeners can notice, then offer an interpretation of what those signs mean; that interpretation can shape how they judge the experience.
 
-**Cognitive decoupling** (theoretical). Hypothetical thinking and engagement with fiction require holding a representation apart from one's model of reality, so it can be explored without being accepted as fact. A theoretical construct, introduced to explain pretend play and later adopted in dual-process accounts of reasoning; it is measured only indirectly through reasoning tasks. The separation is not complete: research on narrative persuasion shows that content met inside fiction can still shift real-world beliefs. *For writers:* Fiction and as-if frames rely on decoupling: listeners will engage with content they would reject as a factual claim.
+**Cognitive decoupling** (theoretical). Hypothetical thinking and engagement with fiction require holding a representation apart from one's model of reality, so it can be explored without being accepted as fact. A theoretical construct introduced to explain pretend play and later adopted in dual-process accounts of reasoning; its operation is inferred from behavior in pretense and reasoning tasks. The separation is not complete: content encountered in fiction can still shift real-world beliefs. *For writers:* Fiction and as-if frames rely on decoupling: listeners will engage with content they would reject as a factual claim.
 
 
 ### Relational
 
 **Conditional regard** (empirical). When a parent, partner or authority gives warmth only after compliance and withdraws it after failure, the recipient learns that their worth is contingent. This tends to produce compliance driven by internal pressure (guilt, anxiety to earn approval) rather than by choice. The pattern produces short-term conformity alongside resentment and fragile self-esteem. Supported by a body of developmental studies on parental conditional regard, mostly self-report and correlational; the link to introjected (pressured) motivation replicates fairly consistently across cultures. *For writers:* Praise that is explicitly tied to obedience works as leverage but carries pressure, not warmth; know which you are writing. In consensual scripts, pair contingent approval with unconditional reassurance in aftercare so the contingency stays inside the fiction.
 
-**Attachment theory** (theoretical). Humans have an attachment system that seeks proximity to a protective figure under threat. Repeated experience with caregivers produces working models (secure, anxious, avoidant) that carry into adult relationships. Threat activates the system, so distress tends to increase clinging to whoever is available as a source of safety. Core claims about infant attachment and adult attachment styles are well supported, though styles measured by self-report are less stable than popular accounts suggest, and attachment-style typing is heavily over-popularized. *For writers:* Distress makes people seek whoever offers safety, which is one plausible reason comfort following tension binds; whether a recorded voice can become an attachment figure in the technical sense is untested. Use the secure-base pattern for wellbeing scripts and treat its use for dependency as a coercive move.
+**Attachment theory** (theoretical). Humans have an attachment system that seeks proximity to a protective figure under threat. Repeated experience with caregivers produces working models (secure, anxious, avoidant) that carry into adult relationships. Threat activates the system, so distress tends to increase clinging to whoever is available as a source of safety. Core claims about infant attachment and adult attachment styles are well supported, though styles measured by self-report are less stable than popular accounts suggest, and attachment-style typing is heavily over-popularized. *For writers:* Distress can prompt people to seek comfort from trusted others; this may help explain why comfort following tension can strengthen a bond. Whether a recorded voice can become an attachment figure in the technical sense is untested. Use the secure-base pattern for wellbeing scripts and treat its use to cultivate dependency as a coercive move.
 
 **Rejection sensitivity** (empirical). Rejection sensitivity is a disposition to anxiously expect, readily perceive and overreact to rejection. Highly sensitive people may accommodate others more to avoid disapproval, or respond with hostility. The trait varies between people and is shaped by past experiences of rejection. Measured with a standard questionnaire and supported by many correlational and some experimental studies; effects are moderate and depend on context. *For writers:* Threats of withdrawn approval or abandonment land much harder on some listeners than others; a writer cannot see who is listening. Keep such threats clearly inside the fiction and close with explicit reassurance.
 
@@ -12146,7 +11450,7 @@ A planned gap in the audio: no voice, and often no added sound. Short silences g
 
 **Self-determination theory** (theoretical). The theory holds that three basic needs, autonomy, competence and relatedness, support self-motivated behavior and wellbeing. It distinguishes controlled motivation (pressure, guilt, contingent reward) from autonomous motivation (choice, value, interest). Controlling rewards can undermine interest in an activity that was already enjoyed. A large, broadly supportive literature across education, health and work; the undermining effect of rewards on intrinsic motivation is debated and depends on reward type. *For writers:* Framing a response as the listener's choice and showing them they are capable increases follow-through after the session. Heavy pressure produces compliance in the moment but less lasting change.
 
-**Epistemic trust** (theoretical). People learn much of what they know by accepting what trusted others tell them. Cues such as being addressed by name, eye contact and being shown care (ostensive cues) are proposed to open epistemic trust, so information is taken as relevant and generalizable. The concept has been used to explain both learning in therapy and vulnerability to manipulation. Grounded in developmental research on how children learn from informants. The claim that ostensive cues (eye contact, being addressed by name) open a special channel for learning comes from infant studies and is itself debated; that the same cues open trust in adults is assumed, not shown. The clinical extension (Fonagy and colleagues) is theoretical and only beginning to be tested. *For writers:* On this account, direct address, the listener's name and visible care are what mark statements as personally relevant knowledge and not just words; treat that as a reasonable working assumption, not a measured effect. Whatever openness a listener gives is exactly what makes an unreliable source dangerous, so do not spend it on false claims about the real world.
+**Epistemic trust** (theoretical). People learn much of what they know by accepting what trusted others tell them. Cues such as being addressed by name, eye contact and being shown care (ostensive cues) are proposed to open epistemic trust, so information is taken as relevant and generalizable. The concept has been used to explain both learning in therapy and vulnerability to manipulation. Developmental studies show that children use cues about informants when deciding whom to learn from. The claim that ostensive cues such as eye contact and being addressed by name open a special channel for learning comes mainly from infant research and remains debated. Adult epistemic trust has been studied, but the specific claim that these cues make an adult listener accept a recorded voice's statements has not been established. Clinical extensions associated with Fonagy and colleagues remain under test. *For writers:* On this account, direct address, the listener's name and visible care are what mark statements as personally relevant knowledge and not just words; treat that as a reasonable working assumption, not a measured effect. Whatever openness a listener gives is exactly what makes an unreliable source dangerous, so do not spend it on false claims about the real world.
 
 **Trust calibration** (theoretical). People adjust trust in a source according to its track record and signals of competence. Trust is calibrated when it tracks actual reliability. Early accurate statements raise trust, which then carries over to later statements that cannot be checked. Developed mainly in research on trust in automation and in advice-taking; well supported in those settings, extended here by analogy. *For writers:* Several checkable true statements build trust that the next unverifiable one may borrow; this is the usual rationale offered for pacing and leading, by analogy and without direct test. A writer who overstates potency spends trust that later suggestions need.
 
@@ -12166,7 +11470,7 @@ A planned gap in the audio: no voice, and often no added sound. Short silences g
 **Construct validity** (empirical). A test can be consistent yet measure something other than its label. Measures of hypnotizability, for example, mostly score responses to suggestions, which overlaps with but is not identical to any proposed trance state. Mislabeling a measure leads to wrong conclusions about what changed. A basic methodological concept; its application to the trance-state debate is long-standing and unresolved. *For writers:* A suggestibility test shows that a listener responds to suggestions; it does not prove a special state. Use such tests as convincers, but do not mistake them for a depth gauge.
 
 
-### Additions (not in the owner's map; needed to explain canon devices)
+### Conditioning, automaticity and self-perception
 
 **Classical conditioning** (empirical). When a neutral stimulus reliably predicts a meaningful one, the neutral stimulus comes to evoke a response on its own. Learning depends on the cue predicting the outcome, not on mere co-occurrence, and the response weakens if the cue is repeatedly presented alone. Many claims about hypnotic triggers assume this mechanism without testing it. One of the best established findings in psychology. Whether verbal-only pairing in a recording produces true conditioning, as opposed to suggestion and expectation, is largely untested. *For writers:* Present the cue just before the state, repeatedly, and keep firing it with the state afterward, or it extinguishes. Expect that much of what scripts call conditioning also runs on expectation.
 
@@ -12210,7 +11514,7 @@ A planned gap in the audio: no voice, and often no added sound. Short silences g
 
 **Variable-ratio schedules** (empirical). On a variable-ratio schedule, reward comes after a varying number of responses around an average. This produces high, steady rates with few pauses and strong resistance to extinction. It is the schedule of slot machines and is linked to compulsive behavior. Schedule effects are very well established in laboratory work; their direct role in gambling disorder is supported but combined with other factors. *For writers:* Unpredictable rewards keep a listener responding and returning more than predictable ones. That is effective and also the core of compulsion, so name it when it is used.
 
-**Sunk-cost effect** (empirical). Prior investment of money, time or effort increases willingness to continue, though past costs cannot be recovered and should not affect the decision. Explanations include wanting to avoid waste and to justify past choices. The effect is stronger when the person made the original decision. Well replicated in hypothetical and real decisions, though its size varies with how the prior investment is described and with the kind of resource (money more reliably than time). An early claim that children and animals do not show the effect has been challenged by later studies. *For writers:* Reminding the listener how far they have come makes stopping feel like waste. It is a legitimate motivator for a series, and coercive when used to block leaving.
+**Sunk-cost effect** (empirical). Prior investment of money, time or effort increases willingness to continue, though past costs cannot be recovered and should not affect the decision. Explanations include wanting to avoid waste and to justify past choices. The effect is stronger when the person made the original decision. The sunk-cost effect appears in hypothetical and real decisions, but its size varies with the task and how prior investment is framed. Early claims that children and animals do not show it have been challenged by later studies, with mixed results across tasks and ages. *For writers:* Reminding the listener how far they have come makes stopping feel like waste. It is a legitimate motivator for a series, and coercive when used to block leaving.
 
 **Contrast effect** (empirical). Perception and judgment are relative: warm water feels hot after cold water, and a moderate request seems small after a large one. The preceding item sets a standard that the next one is compared against. Contrast operates for sensations, prices, requests and emotional states. Perceptual contrast is robust; social and request contrast effects are supported but depend on the comparison being salient and relevant. *For writers:* Place a suggestion right after its opposite: tension before relaxation, a big ask before a smaller one, alarm before relief. The contrast does part of the work.
 
@@ -12220,7 +11524,7 @@ A planned gap in the audio: no voice, and often no added sound. Short silences g
 
 **Self-reference effect** (empirical). Judging whether a word describes oneself produces better recall than judging its meaning or sound. Self-relevant material gets richer encoding and connects to an organized body of self-knowledge. The effect extends to material framed as about 'you'. Robust and confirmed by meta-analysis. *For writers:* Frame suggestions as about the listener and in their own voice; first- and second-person phrasing is remembered better than general statements.
 
-**Generation effect** (empirical). Generating a word or answer, even from a simple cue, leads to better memory than reading it. The finding is about memory. The further idea that people believe and own what they produce themselves comes from separate research on self-persuasion and is not part of this effect. Well replicated in memory research with moderate effects; it depends on the generation task being meaningful. *For writers:* Leave gaps the listener fills: unfinished sentences, open questions, unstated conclusions. What they supply is remembered better than what they are told; that it also feels more like their own idea is plausible but is a different claim.
+**Generation effect** (empirical). Generating a word or answer, even from a simple cue, leads to better memory than reading it. The finding is about memory. The further idea that people believe and own what they produce themselves comes from separate research on self-persuasion and is not part of this effect. Well replicated in memory research with moderate effects; it depends on the generation task being meaningful. *For writers:* Invite the listener to supply an answer or missing word. When they actually generate it, they may remember it better than if they had only heard it; whether it feels more like their own idea is a separate claim.
 
 **Spacing effect** (empirical). Learning distributed across sessions is retained much better than learning crammed into one session. Gaps between repetitions force retrieval and strengthen memory. The optimal gap grows with how long the material must be retained. One of the most robust findings in memory research, replicated for over a century. *For writers:* A key suggestion repeated across several sessions and spaced through a script outlasts the same suggestion repeated many times in a row. Prescribe repeat listening rather than relying on one long file.
 

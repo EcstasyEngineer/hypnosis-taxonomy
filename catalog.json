@@ -241,8 +241,8 @@
   "parent": "induction",
   "name": "Progressive relaxation",
   "aliases": [
-   "PMR",
    "progressive muscle relaxation",
+   "PMR",
    "Jacobson relaxation",
    "body relaxation induction"
   ],
@@ -430,11 +430,11 @@
   "not_this": [
    {
     "id": "countdown-deepener",
-    "why": "same form; label the deepener when a trance claim or another induction comes before the count, and this entry when the count is what takes the listener from waking attention to the first trance claim"
+    "why": "label the deepener when the count builds depth after trance is established; label this entry when the count brings the listener from waking attention into trance, even if other opening instructions precede it"
    },
    {
     "id": "countdown-structure",
-    "why": "there the numbers only pace unrelated content; here each number is tied to going further in and the last number is named as arrival"
+    "why": "there the numbers pace other content without linking each number to trance depth or naming the last as arrival; here the count itself carries the induction"
    },
    {
     "id": "losing-numbers",
@@ -1596,7 +1596,7 @@
    },
    {
     "id": "anchoring-number",
-    "why": "a one-off magnitude with no scale ('ten times deeper'); choose this entry when a scale is named with end points or levels and the listener is given a current reading that then moves, whoever moves it"
+    "why": "offers a value before asking the listener to estimate a quantity; this entry names a depth scale and moves its current reading, whoever moves it"
    },
    {
     "id": "control-device-imagery",
@@ -1952,9 +1952,7 @@
   "name": "Partial wake",
   "aliases": [
    "eyes open still under",
-   "eyes-open trance",
-   "wake but stay under",
-   "open-eyed trance"
+   "wake but stay under"
   ],
   "summary": "Bring back the eyes, body or speech while stating that the trance, or the responsiveness to suggestion, continues.",
   "cues": [
@@ -2198,7 +2196,7 @@
   "not_this": [
    {
     "id": "posthypnotic-suggestion",
-    "why": "specifies one later response, usually tied to a cue and to the session's topic; wellbeing suggestions are general, uncued and unrelated to the topic"
+    "why": "specifies a particular response to occur after the session, with or without a cue; wellbeing suggestions give general wishes for calm, rest or confidence after waking"
    },
    {
     "id": "suggestion-sealing",
@@ -2534,7 +2532,7 @@
    },
    {
     "id": "embedded-question",
-    "why": "an embedded question hides a question in a statement; when an 'I wonder' or 'I don't know' carrier also holds an imperative-shaped phrase, label the sentence as embedded question and add this label only if the phrase is set off (italics, capitals, a pause, a trailing 'now')"
+    "why": "an embedded question folds a question into a statement; an embedded command contains a phrase that reads as an imperative when lifted out, and a question carrier can contain both only when that separate imperative phrase is present"
    },
    {
     "id": "direct-suggestion",
@@ -2956,7 +2954,6 @@
   "name": "My friend John",
   "aliases": [
    "My Friend John technique",
-   "My-Friend-John",
    "third-person induction",
    "surrogate subject"
   ],
@@ -2996,10 +2993,8 @@
   "aliases": [
    "try and fail",
    "try to open your eyes",
-   "law of reversed effect",
    "challenge item",
-   "test suggestion",
-   "law of reversed effort"
+   "test suggestion"
   ],
   "summary": "Suggest that something cannot be done, then invite the listener to try, so the failed attempt proves the suggestion.",
   "cues": [
@@ -3157,7 +3152,6 @@
   "aliases": [
    "that's right",
    "good",
-   "micro-ratification",
    "ratifying the response",
    "confirmation"
   ],
@@ -3211,19 +3205,19 @@
   "not_this": [
    {
     "id": "ratification",
-    "why": "ratification is the brief confirmation of any response as it occurs ('that's right'); this entry describes trance indicators and asserts their meaning"
+    "why": "ratification briefly confirms a response as it occurs ('that's right'); this entry names a sign of settling and presents it as evidence of trance"
    },
    {
     "id": "complex-equivalence",
-    "why": "complex equivalence is any 'X means Y' claim; when X is an ordinary sign of settling (breathing, stillness, swallowing, eyelids) and Y is trance, label this entry, and add complex equivalence only if the 'means' clause is being tracked separately"
+    "why": "complex equivalence is the general claim that X means Y; when an ordinary bodily or behavioral sign of settling is presented as evidence of trance, use this narrower entry"
    },
    {
     "id": "sensation-relabeling",
-    "why": "relabeling takes one felt sensation (a tingle, warmth, a quick heartbeat) and gives it a new cause or meaning; this entry cites the visible signs of settling as evidence that trance is under way"
+    "why": "sensation relabeling gives a felt sensation a new cause or meaning; when the meaning is simply that trance or relaxation is occurring, use this entry"
    },
    {
     "id": "convincer",
-    "why": "a convincer stages a suggested phenomenon and a test of it; this points at ordinary changes that would happen anyway"
+    "why": "a convincer stages a suggested phenomenon as proof; this entry interprets an ordinary sign of settling as evidence of trance"
    }
   ],
   "text_detectable": "yes"
@@ -3377,7 +3371,7 @@
    },
    {
     "id": "comparative-deletion",
-    "why": "labels a single 'deeper' with no standard; use this entry only when depth words recur three or more times across a passage with no count, scene or contingency carrying them"
+    "why": "labels 'deeper' when its comparison standard is omitted, even once; use this entry when depth words recur across a passage with no count, scene or contingency carrying them"
    },
    {
     "id": "epizeuxis",
@@ -3916,7 +3910,7 @@
   "not_this": [
    {
     "id": "suggestion-by-question",
-    "why": "label that when the question sends attention to a present sensation or response ('which hand feels warmer?'); label this when it assumes a wish, motive, history or trait"
+    "why": "label that when the question directs attention to a present sensation or response ('which hand feels warmer?'); label this when it assumes a wish, motive, history or trait"
    },
    {
     "id": "presupposition-unit",
@@ -3928,15 +3922,15 @@
    },
    {
     "id": "double-bind",
-    "why": "'X or Y?' with listed alternatives is a bind or the or-variant; loaded question covers assumptions carried without listed alternatives"
+    "why": "a direct 'X or Y?' that offers two versions of the response is a bind, or a time bind when only timing differs; the or-presupposition variant covers alternatives inside a statement"
    },
    {
     "id": "tag-question",
-    "why": "a tag asks for agreement with a stated claim; a loaded question never states the claim"
+    "why": "a tag asks for agreement with a stated claim; a loaded question leaves the assumed claim unstated"
    },
    {
     "id": "rhetorical-question",
-    "why": "a rhetorical question makes a point the speaker treats as obvious and wants no answer; a loaded question wants an answer and the answer concedes the assumption"
+    "why": "a rhetorical question makes a point without seeking an answer; a loaded question solicits an answer that concedes its assumption"
    }
   ],
   "text_detectable": "yes"
@@ -4077,10 +4071,10 @@
   "cues": [
    "'as you know', 'as you already know', 'as we both know', 'we both know'",
    "'of course', 'obviously', 'naturally', 'clearly', 'needless to say'",
-   "'you know perfectly well', 'you and I know', 'you know as well as I do'",
+   "'between us', 'as we agreed', 'you and I both know' presenting a claim as shared",
    "'remember, ...' introducing something not said earlier in the script",
    "'after all', 'as always', 'as we agreed' with no earlier agreement in the text",
-   "marker is an aside or sentence opener; the claim itself is stated in full, then the script moves on"
+   "marker is an aside or sentence opener, or invokes shared agreement; the claim itself is stated in full"
   ],
   "not_this": [
    {
@@ -4419,6 +4413,10 @@
    {
     "id": "truism",
     "why": "a truism with 'everyone' is offered as plain fact to be agreed with; the quantifier label is for a suggestion made exceptionless"
+   },
+   {
+    "id": "deepening-by-linkage",
+    "why": "that specifically says any stimulus deepens trance; label that narrower device when the quantifier ranges over stimuli linked to deepening"
    }
   ],
   "text_detectable": "yes"
@@ -4814,8 +4812,7 @@
   "aliases": [
    "noise incorporation",
    "incorporating sounds",
-   "utilizing distractions",
-   "any sounds you hear"
+   "utilizing distractions"
   ],
   "summary": "Name likely interruptions in advance and make them part of the trance.",
   "cues": [
@@ -4924,10 +4921,10 @@
   ],
   "summary": "Describe the response as ordinary, natural and expected.",
   "cues": [
-   "verdict words: 'normal', 'natural', 'perfectly normal', 'ordinary', 'common', 'to be expected'",
-   "generic statements about how minds and bodies behave: 'minds wander', 'bodies do that', 'that happens'",
+   "verdict words applied to a response: 'normal', 'natural', 'perfectly normal', 'ordinary', 'common', 'to be expected'",
    "reassurance clause: 'it doesn't mean anything is wrong', 'it doesn't mean this isn't working', 'nothing unusual'",
    "'it's natural to' or 'it's only natural that' followed by a response",
+   "a generic statement such as 'minds wander' followed by reassurance that this is ordinary or harmless",
    "range statements ('some people ..., others ...') closed by a verdict that all of them are fine or ordinary"
   ],
   "not_this": [
@@ -5001,8 +4998,8 @@
   "cues": [
    "'it's okay to', 'it's all right to', 'it's fine to'",
    "'you're allowed to', 'you have permission to', 'I give you permission', 'give yourself permission'",
-   "the permitted thing is a release or a non-effort: let go, stop trying, rest, feel, not listen",
-   "the licence wording is what counts: a 'you don't have to' clause with no 'okay' or 'allowed' beside it is not-doing-not-knowing, not permission",
+   "an explicit option to release, rest, feel, move, or stop listening without disapproval",
+   "'you don't have to' when it grants a specific choice ('you don't have to keep your eyes closed; you can open them'); generic instructions to stop trying or doing belong to not-doing-not-knowing",
    "often follows a normalizing statement"
   ],
   "not_this": [
@@ -5048,7 +5045,7 @@
   "not_this": [
    {
     "id": "false-dilemma",
-    "why": "a false dilemma offers two different outcomes and hides the others; a double bind offers one outcome under two descriptions"
+    "why": "a false dilemma offers two different outcomes and hides the others; a double bind offers alternatives that share the target outcome"
    },
    {
     "id": "covering-all-possibilities",
@@ -5056,7 +5053,7 @@
    },
    {
     "id": "forced-choice",
-    "why": "forced choice demands an explicit pick between options that differ in substance; in a double bind the options share the outcome and no answer is required"
+    "why": "forced choice requires a pick from substantively different options; a double bind offers alternatives that share the target outcome, whether or not the listener is asked to pick one"
    }
   ],
   "text_detectable": "yes"
@@ -5109,11 +5106,11 @@
   ],
   "summary": "Split the listener into conscious and unconscious mind and give each a job, so the response happens whatever the conscious mind does.",
   "cues": [
-   "two or more options for the conscious mind joined by 'or' ('can listen, or wander') followed by a fixed statement about the unconscious",
-   "'whether or not you consciously ...', 'whether your conscious mind ... or ...'",
-   "'you may or may not consciously notice/remember' + what the unconscious does regardless",
-   "paired conditionals with a response in both branches: 'if your unconscious ..., the right hand ...; if not, the left ...'",
-   "'it doesn't matter what your conscious mind does'"
+   "two or more options for the conscious mind joined by 'or' ('can listen, or wander') followed by a fixed statement about what the unconscious does",
+   "'whether or not you consciously ...' followed by a response assigned to the unconscious in either case",
+   "'you may or may not consciously notice/remember' followed by what the unconscious does regardless",
+   "paired 'if' branches in which the unconscious produces or directs a response in both branches",
+   "'it doesn't matter whether your conscious mind X or Y' followed by a fixed unconscious response"
   ],
   "not_this": [
    {
@@ -5212,24 +5209,24 @@
   ],
   "summary": "Phrase the bind so that a listener who does the opposite of what is said ends up giving the wanted response.",
   "cues": [
-   "'you won't ... until ...', 'not until you ...' with the wanted response in the main clause",
-   "a negated or doubted wanted response followed by a clause accepting either outcome: 'and that's fine', 'either way', 'or it happens anyway'",
-   "a run of three or more flat negative statements the listener is likely to contradict, ending with the wanted response in negated form",
-   "'I doubt you can ...', 'you probably can't ... yet' about the wanted response, with 'yet' or 'until' keeping the obedient reading in play",
-   "elsewhere the script names the listener's habit of opposing ('you like to do the opposite')"
+   "'you won't ... until ...' where the text also offers a route to the wanted response after the wait",
+   "a negated or doubted wanted response paired with explicit alternatives that both lead toward it: 'stay open and grow heavier, or close anyway'",
+   "'either way' after the two reactions, followed by the shared wanted response",
+   "a run of negative statements that visibly establishes the listener's contradiction before the wanted response is stated in reverse form",
+   "'I doubt you can ... yet' followed by an explicit account of what happens if the listener waits and if they prove the speaker wrong"
   ],
   "not_this": [
    {
     "id": "reverse-psychology",
-    "why": "reverse psychology is a single opposite instruction that pays off only if defied ('don't go under yet'); label the bind only when the span itself makes both reactions serve the outcome (an 'until', 'or' or 'either way' clause) or when a run of statements first builds the habit of contradicting. For one bare negative line, label reverse psychology"
+    "why": "a bare opposite instruction pays off if defied; label a reverse-set bind when the text establishes a pattern of the listener contradicting the speaker and then reverses the wanted response, or when it explicitly gives both compliance and defiance paths to the wanted response. An 'until' clause alone only postpones it"
    },
    {
     "id": "negative-suggestion",
-    "why": "that is the sentence form of naming the response under a negation and relies on the listener having to represent it; it can co-occur, and is the only label when no opposition is being used"
+    "why": "that names the response under a negation; it can co-occur, but negation alone does not establish opposition or a bind"
    },
    {
     "id": "challenge-suggestion",
-    "why": "a challenge invites an attempt that is suggested to fail as proof; this invites opposition that produces the response"
+    "why": "a challenge invites an attempt expected to fail as proof; this uses established opposition or explicitly covers both reactions"
    }
   ],
   "text_detectable": "partial"
@@ -5291,7 +5288,7 @@
   "not_this": [
    {
     "id": "illusion-of-choice",
-    "why": "there the options are equivalent and the choice is a courtesy; here the options differ and the pick is used as commitment"
+    "why": "there the options are equivalent ways to do the same thing; here they differ in substance and the listener is required to select one"
    },
    {
     "id": "choice-as-ownership",
@@ -5609,19 +5606,19 @@
   "not_this": [
    {
     "id": "pattern-interrupt",
-    "why": "an interrupt breaks an established sequence (a count, a refrain, a stock phrase) before its next step; if no sequence was under way, label shock"
+    "why": "an interrupt breaks an established sequence before its next step; shock needs no sequence under way"
    },
    {
     "id": "novelty-orienting",
-    "why": "an orienting cue re-gathers attention and the script then carries on with its content ('Now. Listen carefully'); label shock when a command or suggestion lands in the next clause or sentence, or when a stage direction calls for a loud or sharp event"
+    "why": "an orienting cue pulls attention back before the script continues; shock places a suggestion immediately after the unexpected word, sound or claim"
    },
    {
     "id": "non-sequitur",
-    "why": "a non sequitur is delivered flat, in the same tone as its neighbours, and only fails to connect; shock is marked by suddenness, bluntness or volume"
+    "why": "a non sequitur is an irrelevant or illogical statement in the flow; label shock when its sudden delivery is marked and a suggestion follows immediately"
    },
    {
     "id": "fear-then-relief",
-    "why": "that raises and then removes real alarm as a two-step emotional move"
+    "why": "that raises and then removes alarm as a two-step emotional move"
    }
   ],
   "text_detectable": "partial"
@@ -5729,23 +5726,23 @@
   "not_this": [
    {
     "id": "repetition-induction",
-    "why": "repeats one suggestion or mantra to absorb the listener; here the content is deliberately empty"
+    "why": "repeats one suggestion or mantra to absorb the listener; here the content is deliberately uneventful"
    },
    {
     "id": "deepening-by-repetition",
-    "why": "repeats depth words to push depth, not to bore"
+    "why": "repeats depth words to deepen trance, rather than keeping the delivery uneventful"
    },
    {
     "id": "semantic-satiation",
-    "why": "one word repeated back to back until it stops meaning anything; monotony keeps whole sentences meaningful and merely uneventful"
+    "why": "repeats one word until it loses meaning; monotony uses sustained, uneventful phrasing or delivery"
    },
    {
     "id": "parallelism",
-    "why": "same sentence shape with new content in each; label monotony only when the content also stays the same for five or more sentences"
+    "why": "repeats a sentence shape while varying the content; monotony requires sustained sameness of content or delivery as well"
    },
    {
     "id": "exhausting-resistance",
-    "why": "outlasts active resistance by length; monotony removes anything to resist"
+    "why": "outlasts active resistance by length; monotony keeps the material uneventful"
    }
   ],
   "text_detectable": "partial"
@@ -5918,11 +5915,11 @@
   "not_this": [
    {
     "id": "voice-focus",
-    "why": "that entry names the voice as the object; this one removes everything else and can leave any object"
+    "why": "voice focus names the speaker's voice as the object; narrowing attention describes other things fading and can leave any object"
    },
    {
     "id": "cognitive-quieting",
-    "why": "that entry slows or stops thinking itself and leaves nothing to attend to; narrowing may send thoughts to the edge along with the room, but it names one thing that remains"
+    "why": "mind-blanking suggests thoughts slowing or stopping; narrowing attention sends competing things, including thoughts, to the edge while naming what remains"
    },
    {
     "id": "incorporation",
@@ -5930,7 +5927,7 @@
    },
    {
     "id": "resistance-container",
-    "why": "that entry gives doubts or worries a stated place to wait until later; narrowing only lets them recede with everything else"
+    "why": "setting doubt aside gives doubts or worries a stated place to wait until later; narrowing lets them recede with everything else"
    }
   ],
   "text_detectable": "yes"
@@ -5992,19 +5989,19 @@
   "not_this": [
    {
     "id": "sensory-specific-language",
-    "why": "that is the phrasing choice at the level of a single suggestion; this is a dense passage of three or more senses whose job is absorption"
+    "why": "sensory language is a concrete phrasing choice within a suggestion; immersion is a dense passage engaging several senses"
    },
    {
     "id": "sensory-overlap",
-    "why": "overlap starts in one sense and leads from it into another through a shared feature; immersion sets several senses side by side with no lead between them"
+    "why": "sensory overlap leads from an active sense into another through a shared feature; immersion is a dense multi-sense passage, which may also contain that transition"
    },
    {
     "id": "guided-imagery",
-    "why": "guided imagery leads through a scene step by step; immersion is the descriptive density, with or without movement"
+    "why": "guided imagery leads through an imagined scene step by step; immersion is the density of sensory description, with or without movement"
    },
    {
     "id": "narrative-transportation",
-    "why": "transportation depends on story events and characters; immersion needs no plot"
+    "why": "story absorption depends on story events and characters; immersion needs no plot"
    }
   ],
   "text_detectable": "yes"
@@ -6093,20 +6090,20 @@
   ],
   "summary": "Address the listener by their name, a pet name or a title, placed where attention should sharpen.",
   "cues": [
-   "a proper name or term of address set off by commas",
-   "a name template slot such as [NAME] or {name}",
-   "recurring endearments or titles used as address: dear, love, pet, my friend",
-   "'good girl' or 'good boy' only when attached by a comma to an instruction or statement, not as a sentence of its own",
+   "a proper name or term of address used as a vocative, often set off by commas",
+   "a name template slot such as [NAME] or {name} in a position of address",
+   "endearments or titles used to address the listener: dear, love, pet, my friend",
+   "'good girl' or 'good boy' used to call or address the listener within another utterance, rather than to evaluate a response",
    "a vocative placed directly next to an instruction or praise"
   ],
   "not_this": [
    {
     "id": "renaming",
-    "why": "renaming announces a new name or says who the listener now is; name-use only addresses them by a term"
+    "why": "renaming gives the listener a new name or identity; name-use addresses them by a term"
    },
    {
     "id": "praise",
-    "why": "'Good girl.' standing alone, or right after a response, is praise; the same words attached by a comma to another clause as a form of address ('listen, good girl') are name-use"
+    "why": "'good girl' or 'good boy' evaluates a response when offered as approval; it is name-use when used as a vocative to call or address the listener, regardless of punctuation"
    },
    {
     "id": "role-assignment",
@@ -6138,19 +6135,19 @@
   "not_this": [
    {
     "id": "time-in-trance",
-    "why": "that gives a stated clock interval, a longer felt interval and a use for it; this is the general suggestion that time feels different"
+    "why": "trance time expansion gives a stated clock interval, a longer suggested felt interval and a use for it; time distortion is the broader suggestion that time feels different"
    },
    {
     "id": "post-session-proof",
-    "why": "that asks the listener, after waking, to check the clock as evidence; anything said about time before the emergence is time-distortion"
+    "why": "after-the-fact proof asks the listener to check elapsed time after waking as evidence, even if the instruction is given before emergence; time distortion suggests a change in felt time"
    },
    {
     "id": "time-confusion",
-    "why": "that tangles tense and date words to confuse; this makes a plain claim about how time feels"
+    "why": "time confusion tangles tense and date words; time distortion makes a plain claim about how time feels"
    },
    {
     "id": "time-progression",
-    "why": "that moves the listener to a future point; this changes the felt rate of time, not the date"
+    "why": "future progression moves the listener to a future point; time distortion changes felt duration or the sense of time passing"
    }
   ],
   "text_detectable": "yes"
@@ -6249,19 +6246,19 @@
   "not_this": [
    {
     "id": "shock-surprise",
-    "why": "label by what surrounds it: an orienting cue announces that something important follows or continues at the same quiet level; shock is a loud or contrary item (capitals, [snap], [loud]) with a command placed directly after it"
+    "why": "shock or surprise presents a startling sound, word or claim; an orienting cue makes a mild change or explicitly calls for attention to the next line, though a startling cue can do both"
    },
    {
     "id": "pattern-interrupt",
-    "why": "an interrupt breaks an automatic sequence midway; this adds a change to a steady stream"
+    "why": "a pattern interrupt breaks an automatic sequence midway; an orienting cue changes a steady stream to regain attention"
    },
    {
     "id": "tone-shift",
-    "why": "tone shift is the delivery choice; this is the scripted function, which a tone shift is one way to perform"
+    "why": "tone shift is the marked delivery change; an orienting cue uses a change to draw attention back to the script"
    },
    {
     "id": "voice-focus",
-    "why": "a recall that names the voice as where attention goes ('come back to my voice') is voice focus; an orienting cue calls for attention without naming an object"
+    "why": "voice focus makes the speaker's voice the object of attention; an orienting cue calls attention to what follows without making the voice itself the focus"
    }
   ],
   "text_detectable": "partial"
@@ -7021,19 +7018,19 @@
   "not_this": [
    {
     "id": "protected-core",
-    "why": "there a part filters, protects or rejects what is unwanted, so vigilance can drop; label observer-self only when the part's stated job is to watch or stay aware, and label both when it watches and filters"
+    "why": "there a part filters or rejects unwanted suggestions; the observer only watches, and both labels apply when it also filters"
    },
    {
     "id": "parts-work",
-    "why": "parts are addressed, thanked, given jobs or set against each other; the observer only watches"
+    "why": "parts-work can address or negotiate with any functional part; observer-self specifically keeps a watching part aware while the rest responds"
    },
    {
     "id": "conscious-unconscious-split",
-    "why": "there the unconscious is addressed as the listener that matters; here a conscious watcher is kept on duty"
+    "why": "there the unconscious is addressed as a separate listener; here a watcher remains aware"
    },
    {
     "id": "distraction-of-conscious-mind",
-    "why": "that gives the analytical mind a decoy job so it stops monitoring; the observer keeps monitoring"
+    "why": "that gives the analytical mind a decoy task so it stops monitoring; the observer continues to watch"
    }
   ],
   "text_detectable": "yes"
@@ -7062,19 +7059,19 @@
   "not_this": [
    {
     "id": "not-doing-not-knowing",
-    "why": "that tells the listener they need not try or know ('you don't have to do anything'); this asserts of a named response that it has no doer ('the hand lifts by itself')"
+    "why": "that tells the listener they need not try or know; this frames a particular response as happening without their effort"
    },
    {
     "id": "body-control",
-    "why": "label puppeteering only where the speaker or the speaker's device is named as the mover ('I lift', 'as if I pull a string'); a sentence with no mover named is this entry, even inside a puppeteering passage"
+    "why": "puppeteering presents the speaker or the speaker's device as moving the body, even when a later sentence leaves that agent unstated; automaticity-framing presents the response as happening on its own"
    },
    {
     "id": "personification",
-    "why": "personification gives the body part or state a will ('your eyelids want to close', 'let the breath decide'); here it only moves or changes, with no wanting, knowing or deciding"
+    "why": "personification gives a body part or state wants, knowledge or a voice; here it moves or changes without a will of its own"
    },
    {
     "id": "ideomotor-induction",
-    "why": "that is a route into trance built on a movement; this is the wording that makes any response feel unwilled"
+    "why": "that uses a movement as the route into trance; this is wording that presents a response as unwilled"
    }
   ],
   "text_detectable": "yes"
@@ -7143,19 +7140,23 @@
   "not_this": [
    {
     "id": "conscious-unconscious-split",
-    "why": "that is the one generic pair of minds; parts are specific and open-ended in number"
+    "why": "that addresses the unconscious as the one generic second mind; parts are picked out by specific functions and can be numerous"
    },
    {
     "id": "alter-persona",
-    "why": "a persona has a name and traits of its own; a part is only a function"
+    "why": "a persona has a name and traits of its own; a part is picked out by its function"
    },
    {
     "id": "critical-faculty-bypass",
-    "why": "when the only part mentioned is the analysing or checking part and all that is said is that it rests or steps aside, label the bypass; parts work speaks to a part, thanks it, gives it a job or sets it beside another part"
+    "why": "when an analysing or checking part is only told to rest or step aside, label the bypass; parts-work addresses or negotiates with a functional part"
+   },
+   {
+    "id": "distraction-of-conscious-mind",
+    "why": "that assigns the analytical mind a decoy task to occupy it; parts-work addresses or negotiates with a function-specific part"
    },
    {
     "id": "personification",
-    "why": "personification gives will to a body part, state or object; a part is a division of the self"
+    "why": "personification gives a body part, state or object a will; a part is a division of the self"
    }
   ],
   "text_detectable": "yes"
@@ -7283,11 +7284,11 @@
   "summary": "Take a thought, feeling or the listener's will and place it outside them as an object or agent.",
   "cues": [
    "'outside you', 'out of you', 'in front of you' said of a thought or feeling",
-   "'give it a shape', 'a colour', 'a weight'",
-   "'set it down', 'put it down', 'hand it over', 'leave it there'",
-   "'it is not you', 'something you have been carrying'",
-   "an inner noun (worry, doubt, control) followed by 'as a' or 'like a' plus a physical object",
-   "'watch it drift away', 'watch it shrink' said of the object once it has a form (thoughts simply fading or passing are cognitive-quieting)"
+   "'give it a shape', 'a colour', 'a weight' followed by a location outside the listener",
+   "'set it down', 'put it down', 'hand it over', 'leave it there' said of an inner thing given physical form",
+   "'it is not you', 'something you have been carrying' when followed by placing it outside",
+   "an inner noun (worry, doubt, control) made into a physical object and placed outside the listener",
+   "'watch it drift away', 'watch it shrink' said of the object once it has a form outside the listener"
   ],
   "not_this": [
    {
@@ -7358,8 +7359,7 @@
   ],
   "summary": "Tell the listener how often and for how long to listen or practice.",
   "cues": [
-   "frequency phrases: 'once a day', 'every night', 'twice a week', 'for the next N days'",
-   "imperatives to replay: 'listen again', 'come back tomorrow', 'play this daily'",
+   "frequency or timing phrases: 'once a day', 'every night', 'twice a week', 'come back tomorrow'",
    "a stated course length or end point: 'for two weeks', 'until it feels automatic', 'then as needed'",
    "a missed-day or review clause: 'if you miss a day', 'after a week, decide whether to continue'",
    "appears in the description, pre-talk or the last lines before the wake-up"
@@ -7428,7 +7428,6 @@
   "aliases": [
    "overlearning",
    "rehearsal drill",
-   "trigger training loop",
    "practice rounds",
    "reps"
   ],
@@ -7444,15 +7443,15 @@
   "not_this": [
    {
     "id": "trigger-test",
-    "why": "one or two firings staged as proof ('let's test that'); three or more identical cycles, counted rounds or 'again' make it a drill"
+    "why": "fires a cue once or twice as proof ('let's test that'); a drill is an extended block of cue-response-reset practice, often with counted rounds or 'again'"
    },
    {
     "id": "fractionation",
-    "why": "wake-and-drop cycles with a depth comparison ('deeper than before'); a drill names one cue and its response and remarks on speed, not depth. A drilled re-induction cue with depth comparisons takes both labels"
+    "why": "cycles between partial waking and renewed trance; a drill repeatedly fires and resets a named cue-response link. If both patterns are present, both labels can apply"
    },
    {
     "id": "repetition-of-suggestion",
-    "why": "the suggestion's wording is repeated but the response is not fired and reset each time"
+    "why": "repeats the suggestion's wording without firing and resetting the response each time"
    }
   ],
   "text_detectable": "yes"
@@ -7470,8 +7469,8 @@
   ],
   "summary": "Repeat one short fixed phrase many times, spoken by the voice, by the listener, or by both.",
   "cues": [
-   "the same phrase of two or more words, four or more times in immediate succession",
-   "one identical line recurring five or more times within a passage",
+   "the same short fixed phrase repeated as a sustained block, typically five or more times",
+   "one identical line recurring densely within a passage",
    "'your mantra', 'chant', 'keep repeating', 'over and over'",
    "repeated lines set as their own block or list",
    "stage directions such as [mantra loops under voice] or [x10]"
@@ -7479,11 +7478,11 @@
   "not_this": [
    {
     "id": "repetition-induction",
-    "why": "the repeated loop opens the session and is the only induction present, with content limited to listening or relaxing; label mantra when the phrase carries a suggestion meant to last or comes after trance is established"
+    "why": "uses sustained repetition to lead into trance; label mantra as well when the same short fixed phrase forms a sustained repeated block"
    },
    {
     "id": "epizeuxis",
-    "why": "one word or a two-word phrase said two to four times inside a line; a mantra is a whole phrase repeated four or more times, usually as its own lines"
+    "why": "immediately repeats a word or short phrase, often just for emphasis; a mantra sustains a fixed phrase as a block, so a span can exhibit both"
    },
    {
     "id": "refrain",
@@ -7491,11 +7490,11 @@
    },
    {
     "id": "repetition-of-suggestion",
-    "why": "a suggestion restated a few times, often reworded; a mantra is fixed wording at high count"
+    "why": "repeats a suggestion a few times, often reworded; a mantra sustains fixed wording as a phrase"
    },
    {
     "id": "repeat-after-me",
-    "why": "the instruction that makes the listener say something; a mantra is the repeated phrase, whoever voices it"
+    "why": "instructs the listener to say supplied words, even once; a mantra is the repeated phrase, whoever voices it, and both labels can apply"
    }
   ],
   "text_detectable": "yes"
@@ -7523,23 +7522,23 @@
   "not_this": [
    {
     "id": "first-person-scripting",
-    "why": "the suggestion is written as 'I' but there is no instruction to say it"
+    "why": "writes the suggestion as 'I' without instructing the listener to say it"
    },
    {
     "id": "public-commitment",
-    "why": "the supplied line is a promise about future conduct ('I will...', 'I promise...'); repeat after me has the listener voice a suggestion or description"
+    "why": "has the listener state, write or sign a commitment to future conduct; if the writer supplies a promise to repeat, both labels can apply"
    },
    {
     "id": "self-persuasion",
-    "why": "the listener is asked to supply the words or reasons themselves ('tell me why'); here the writer supplies the exact words"
+    "why": "asks the listener to supply the words or reasons themselves ('tell me why'); repeat after me supplies the words"
    },
    {
     "id": "agreement-harvest",
-    "why": "asks only for a yes or a nod, not for the listener to voice the content"
+    "why": "asks only for a yes or a nod, not for the listener to voice the supplied content"
    },
    {
     "id": "mantra",
-    "why": "a phrase repeated many times by anyone; repeat after me is the instruction that the listener says it, even once"
+    "why": "repeats a fixed phrase many times by any voice; repeat after me is the instruction to voice supplied words, even once, and both labels can apply"
    }
   ],
   "text_detectable": "yes"
@@ -7833,24 +7832,24 @@
    "'just a word', 'just a sound', 'an ordinary word again'",
    "'fades', 'weaker each time', 'loses its pull', 'less and less'",
    "the cue presented while alertness is stressed ('wide awake', 'eyes open')",
-   "a cue that earlier in the script or series was followed by a state, now presented three or more times with none"
+   "a cue earlier followed by a state, now repeatedly presented while the passage marks its old response as absent"
   ],
   "not_this": [
    {
     "id": "trigger-removal",
-    "why": "removal cancels the cue by declaration, and one firing afterwards to show nothing happens is still removal; label extinction when the cue is presented three or more times with stated non-response and no cancelling statement does the work"
+    "why": "removal cancels the cue by declaration, and one later demonstration of non-response is still removal; label extinction when repeated presentations of the cue without its old response do the work"
    },
    {
     "id": "counterconditioning",
-    "why": "that pairs the cue with a new incompatible response; extinction pairs it with nothing"
+    "why": "that pairs the cue with a new incompatible response; extinction presents it without its old outcome"
    },
    {
     "id": "semantic-satiation",
-    "why": "satiation repeats any word in a rapid run until its meaning blurs; extinction presents an installed cue, spaced, and says each time that its response does not come"
+    "why": "satiation repeats a word until its meaning blurs; extinction repeatedly presents a previously effective cue without its old response"
    },
    {
     "id": "trigger-expiry",
-    "why": "expiry sets a date in advance; extinction is the unpaired exposure itself"
+    "why": "expiry sets an end time in advance; extinction is the repeated unpaired presentation itself"
    }
   ],
   "text_detectable": "partial"
@@ -7907,11 +7906,10 @@
   ],
   "summary": "Say a short word of approval the moment the listener does the wanted thing.",
   "cues": [
-   "evaluation of the listener: 'well done', 'good boy/girl', 'you did that perfectly', 'you're doing so well'",
-   "the speaker's approval stated: 'I'm proud of you', 'I'm pleased', 'that's exactly what I wanted'",
+   "evaluation of a completed response: 'well done', 'you did that perfectly', 'you're doing so well'",
+   "approval of the listener: 'good boy/girl', 'I'm proud of you', 'I'm pleased'",
    "'good' or 'very good' extended with what was done well: 'good, just like that breath'",
-   "placed in the beat right after an instruction or a pause",
-   "bare 'good' or 'that's right' alone is ratification, not praise"
+   "approval placed immediately after the wanted response"
   ],
   "not_this": [
    {
@@ -7978,11 +7976,11 @@
   ],
   "summary": "Use one brief, distinct sound or word to mark the exact moment the listener gets it right, with the reward to follow.",
   "cues": [
-   "stage directions: [click], [chime], [snap] placed right after a response",
+   "stage directions: [click], [chime], [snap] placed immediately after a response",
    "explanation of the signal: 'that sound means you did it right'",
-   "one fixed short word repeated at response moments, where the script has earlier said what that word signals",
+   "one fixed short word repeated after response moments, where the script has earlier defined it as a signal",
    "an early passage pairing the signal with reward before it is used",
-   "signal followed, not preceded, by the response it marks"
+   "the marked response precedes the signal; the reward may follow the signal"
   ],
   "not_this": [
    {
@@ -8291,11 +8289,11 @@
    },
    {
     "id": "habit-cue",
-    "why": "habit stacking attaches one new behavior to one existing daily cue; a chain has three or more acts, each cueing the next"
+    "why": "habit stacking attaches a new behavior to an existing daily routine; behavior chaining links distinct acts so completion of each cues the next"
    },
    {
     "id": "contingent-suggestion",
-    "why": "a contingent suggestion ties one response to one ongoing event in a sentence; a chain is a trained sequence of several acts"
+    "why": "a contingent suggestion ties one response to an ongoing or certain event; a behavior chain links successive acts"
    },
    {
     "id": "shaping",
@@ -8390,11 +8388,11 @@
   ],
   "summary": "Hold back something the listener wants for a while, so it is worth more when you offer it as a reward.",
   "cues": [
-   "'I'm not going to give you ... for now', 'none of that for a while'",
-   "'save it', 'go without', 'until I say', 'until next time'",
-   "'the longer you wait, the better/stronger'",
-   "a named reward the listener has already had, explicitly withheld before a task or contingency",
-   "no rising description of the wanted thing coming closer (that is tease and denial) and no promised arrival time (that is anticipation)"
+   "a named, previously available reward withheld for a period: 'I'm not going to give you that praise for a while'",
+   "'save it' or 'go without' tied to a specific reward the listener has already had",
+   "wording that says the withheld reward will become more wanted or effective after the wait",
+   "the reward is withheld before a task or contingency, rather than removed after a lapse",
+   "absence of language actively heightening desire for the approaching reward"
   ],
   "not_this": [
    {
@@ -8434,7 +8432,7 @@
   "not_this": [
    {
     "id": "reverse-psychology",
-    "why": "reverse psychology instructs the opposite and expects the listener not to do it; satiation expects them to do it, in full, until it stops being wanted, and says 'until'"
+    "why": "reverse psychology instructs the opposite of the desired response in expectation of resistance; satiation calls for engaging in a behavior until its pull fades"
    },
    {
     "id": "semantic-satiation",
@@ -8442,7 +8440,7 @@
    },
    {
     "id": "extinction",
-    "why": "extinction withholds the outcome until the response fades; satiation supplies the outcome until it loses value"
+    "why": "extinction withholds what used to follow a response; satiation supplies an outcome until it loses value"
    },
    {
     "id": "exhausting-resistance",
@@ -8647,7 +8645,7 @@
   "name": "Sound trigger",
   "aliases": [
    "snap trigger",
-   "finger snap",
+   "finger-snap trigger",
    "bell trigger",
    "chime trigger",
    "click trigger",
@@ -8722,15 +8720,14 @@
    "image trigger",
    "symbol trigger",
    "color trigger",
-   "sigil",
-   "object trigger"
+   "sigil"
   ],
   "summary": "Install a seen image, color, symbol or shown object as the cue.",
   "cues": [
    "'whenever you see', 'when you look at', 'each time I show you' followed by a specific image, symbol or object and a response",
    "named colors, shapes, symbols or pictures inside a when-then rule",
    "'on your screen', 'this image', 'this symbol', 'the picture of'",
-   "'when I show you', 'when I hold up', 'when it appears': the image is presented by someone, not met by chance"
+   "'when I show you', 'when I hold up', 'when you display': someone deliberately presents the image"
   ],
   "not_this": [
    {
@@ -8863,7 +8860,6 @@
   "aliases": [
    "firing the trigger",
    "trigger rehearsal",
-   "live trigger proof",
    "testing the anchor"
   ],
   "summary": "Fire the trigger during the session so the listener feels it work.",
@@ -9073,7 +9069,7 @@
   "not_this": [
    {
     "id": "stimulus-discrimination",
-    "why": "both are passages that narrow a response; label this when the clause sets conditions on a named installed trigger, and discrimination when a response with no named trigger is narrowed or the cue is drilled against look-alikes"
+    "why": "a stated condition on a named installed trigger is trigger conditions; discrimination presents a look-alike cue with no response and then the true cue with its response"
    },
    {
     "id": "scope-limits",
@@ -9255,7 +9251,7 @@
   "not_this": [
    {
     "id": "pacing-and-leading",
-    "why": "pace and lead is built from statements about present, observable experience (sitting, hearing, breathing); label yes set when any item is a question or tag question, or when the items are opinions, wishes or history the listener agrees with instead of observing"
+    "why": "a yes set strings together easy-to-agree items to build assent to a target, including plain statements; pacing and leading uses verifiable present experience to lend credibility to a suggested state, and a span may fit both"
    },
    {
     "id": "truism",
@@ -9371,7 +9367,7 @@
    },
    {
     "id": "exhausting-resistance",
-    "why": "that persists at the same ask until refusal tires; escalation moves on only after acceptance"
+    "why": "that persists at the same ask until refusal tires; escalation increases the ask across sections or sessions"
    }
   ],
   "text_detectable": "partial"
@@ -9388,11 +9384,11 @@
   ],
   "summary": "Ask for something large that will be refused, then retreat to the smaller request you actually wanted.",
   "cues": [
-   "a large request followed directly by a smaller one of the same kind",
+   "a large request followed by a smaller one of the same kind",
    "scripted refusal or reluctance between the two requests ('No?', 'too much?', 'you'd rather not?')",
    "retreat markers after the refusal: 'all right, then just', 'fair enough', 'at least', 'how about only'",
    "explicit framing of the second request as a concession ('I'll settle for', 'that's all I'll ask')",
-   "both requests from the same voice, with no other content between them"
+   "the first request is actually made before the speaker retreats to the smaller one"
   ],
   "not_this": [
    {
@@ -9505,7 +9501,7 @@
    },
    {
     "id": "low-ball",
-    "why": "low-ball attaches a new cost or condition to the agreed request; this asks only for what the commitment already covered"
+    "why": "low-ball adds a previously undisclosed cost or condition to an agreed request; this cites a prior commitment to support matching behavior"
    },
    {
     "id": "sunk-cost",
@@ -9605,7 +9601,7 @@
    "'you're still listening', 'you haven't stopped', 'you did that the moment I asked', 'you followed every word'",
    "'that means', 'that shows', 'that proves', 'which tells you' after a described act",
    "past or present action of the listener in one clause, a present want, readiness or state in the next",
-   "'if you didn't want this, you would have stopped'",
+   "'you followed that instruction' paired with 'that shows you're ready'",
    "no stress on the act having been freely chosen (if 'you chose', 'nobody made you' or 'you could have stopped' appears, label the variant you-chose-this)"
   ],
   "not_this": [
@@ -9723,7 +9719,7 @@
    },
    {
     "id": "habit-cue",
-    "why": "that binds a behavior to a recurring cue with no end date, to form a habit; a task is a bounded assignment with a count, a deadline or a report"
+    "why": "that attaches a behavior to an existing recurring cue; a task explicitly assigns an action, often with a count, deadline or report, and one line can use both"
    },
    {
     "id": "practice-schedule",
@@ -10119,7 +10115,7 @@
   "not_this": [
    {
     "id": "modeling",
-    "why": "a model is shown in the act, with what the response earned them; a testimonial is the person's own report of a finished result, offered as evidence"
+    "why": "modeling shows someone performing a response and its consequence; a testimonial reports an earlier person's completed experience as evidence, whether quoted or described by the speaker"
    },
    {
     "id": "my-friend-john",
@@ -10618,11 +10614,11 @@
   "not_this": [
    {
     "id": "door-in-the-face",
-    "why": "label door in the face only when the large request is actually put to the listener and declined or withdrawn as too much ('No? Too much?', 'that's a lot to ask'); when the speaker merely mentions a larger thing and sets it aside in the same breath ('I could ask... I won't. Just...'), it is contrast"
+    "why": "door in the face puts a large request to the listener, voices refusal or reluctance, then retreats to a smaller request; contrast may merely mention and set aside the larger option"
    },
    {
     "id": "anchoring-number",
-    "why": "if the comparison point is a numeral or multiplier ('ten times', 'twice as'), label the reference point; contrast sets two experiences or requests side by side without a number"
+    "why": "a reference point supplies a number before inviting a judgment of the same quantity; contrast compares experiences or requests to change how one is judged, even when their descriptions include numbers"
    },
    {
     "id": "antithesis",
@@ -10634,7 +10630,7 @@
    },
    {
     "id": "thats-not-all",
-    "why": "that's-not-all compares an offer with its own earlier, worse version by adding to it; contrast compares the target with something else"
+    "why": "that's-not-all improves an offer before the listener answers; contrast compares the target with a separate, more extreme option or experience"
    }
   ],
   "text_detectable": "partial"
@@ -10900,12 +10896,12 @@
   ],
   "summary": "Present letting go of control, or following instructions, as relief and liberation rather than loss.",
   "cues": [
-   "the freedom of",
+   "the freedom of following along",
    "such a relief to let go",
-   "letting go is",
-   "nothing left to carry",
-   "free from deciding",
-   "a relief or freedom word (free, relief, release, rest, lighter) predicated of yielding, following or obeying"
+   "letting go feels like relief",
+   "free from having to decide",
+   "handing over control means you can rest",
+   "a relief or freedom word predicated of yielding, following or obeying"
   ],
   "not_this": [
    {
@@ -11107,8 +11103,7 @@
    "you might think",
    "answering the objection first",
    "prolepsis",
-   "procatalepsis",
-   "refutational two-sided message"
+   "procatalepsis"
   ],
   "summary": "Name the listener's likely objection before they raise it, and answer it.",
   "cues": [
@@ -11326,12 +11321,12 @@
   ],
   "summary": "Ask the listener to suppose the outcome is already true and explore what that is like.",
   "cues": [
-   "suppose",
+   "suppose the outcome had already happened",
    "what would it be like if",
    "imagine that you already",
    "just for a moment, pretend that you",
    "act as though you already",
-   "a hypothetical followed by a question about what the listener notices"
+   "a hypothetical outcome followed by a question about what the listener notices"
   ],
   "not_this": [
    {
@@ -11770,15 +11765,15 @@
   "not_this": [
    {
     "id": "travelling-sensation",
-    "why": "a travelling sensation sweeps through the body region by region and stays wherever it has been; a transfer moves an established sensation from one named area to another, usually by touch, and the source returns to normal"
+    "why": "a travelling sensation is described moving through successive body regions; transfer moves an established sensation from one named area to another"
    },
    {
     "id": "suggested-anesthesia",
-    "why": "numbness creates the feeling; transfer moves one that exists"
+    "why": "numbness suggests a loss of feeling; transfer moves an established feeling from one area to another"
    },
    {
     "id": "deepening-by-linkage",
-    "why": "linkage ties any stimulus to going deeper; transfer moves one sensation to a new place"
+    "why": "linkage ties a stimulus or response to going deeper; transfer moves an established sensation to a new place"
    }
   ],
   "text_detectable": "yes"
@@ -11951,19 +11946,19 @@
   "not_this": [
    {
     "id": "apposition-of-opposites",
-    "why": "apposition is the sentence form that pairs two opposite experiences; book and balloon is the whole two-arm exercise ending in a look. Label the exercise as this and any 'as one sinks, the other rises' sentence inside it as apposition too"
+    "why": "apposition pairs opposite experiences in a sentence; book and balloon is the two-arm exercise ending with a visible comparison, and both labels may apply to their respective spans"
    },
    {
     "id": "heaviness-lightness",
-    "why": "heaviness-lightness is a whole-body deepener with no visible check; this one sets two arms against each other and ends in a look"
+    "why": "heaviness-lightness suggests a weight feeling as a depth cue; book and balloon contrasts the two arms and asks the listener to see the gap"
    },
    {
     "id": "arm-levitation",
-    "why": "levitation lifts one arm and ties trance to its rise; here two arms diverge and the gap is shown as a test"
+    "why": "levitation ties one arm's rise to induction or depth; here the two arms diverge and the gap is shown as a test"
    },
    {
     "id": "suggestibility-test",
-    "why": "the general category of waking exercises; label this narrower form whenever the two-arm weight and balloon exercise is used, before or after induction"
+    "why": "suggestibility test is the general waking exercise before induction; use book and balloon for this named two-arm form, whether it occurs before or after induction"
    }
   ],
   "text_detectable": "yes"
@@ -12211,10 +12206,9 @@
   "summary": "Suggest the listener keeps the idea or change but forgets that it was suggested, so it feels self-generated.",
   "cues": [
    "'feel like your own idea', 'your own choice', 'your own thought' said of a suggestion just given",
-   "'you won't remember where it came from', 'you won't know why'",
-   "'as if you decided it yourself', 'something you just decided'",
-   "'it will simply be yours'",
-   "future tense about how a suggested thought or act will seem when it occurs ('it will just seem natural', 'it will arrive on its own')"
+   "'you won't remember where the idea came from', 'you won't remember being told it'",
+   "'as if you decided it yourself' said of a decision the script has just suggested",
+   "a prediction that the listener will later attribute the suggested thought or action to themselves rather than to the speaker"
   ],
   "not_this": [
    {
@@ -12259,19 +12253,19 @@
   "not_this": [
    {
     "id": "structured-amnesia",
-    "why": "returns to the pre-trance topic rather than a new one"
+    "why": "returns to the pre-trance topic rather than switching to a new one"
    },
    {
     "id": "gentle-reorientation",
-    "why": "restores body feeling and awareness of the room on purpose and may refer back to the session; distraction amnesia turns to an unrelated topic and never looks back"
+    "why": "directs attention to body feeling, the room, or alertness after trance; distraction amnesia switches to unrelated content to draw attention away from the preceding material"
    },
    {
     "id": "novelty-orienting",
-    "why": "a change placed before key material to gather attention for it; distraction amnesia places the change after key material to pull attention off it"
+    "why": "uses a change of sound, voice, or topic to capture attention; distraction amnesia uses a topic switch after material to reduce rehearsal of it"
    },
    {
     "id": "pattern-interrupt",
-    "why": "breaks an ongoing sequence midway; not placed to block recall of preceding content"
+    "why": "breaks an ongoing sequence rather than shifting away from material after it has ended"
    }
   ],
   "text_detectable": "partial"
@@ -12371,23 +12365,23 @@
   "not_this": [
    {
     "id": "future-pacing",
-    "why": "rehearses one future cue moment in which the suggestion fires, narrated as it happens; progression stands after the change and uses past tense for it"
+    "why": "rehearses a future cue or response as it happens; progression places the listener after the change and looks back on it"
    },
    {
     "id": "rehearsal-imagery",
-    "why": "runs through the future behavior itself step by step; progression skips the doing and looks back on it as done"
+    "why": "runs through the future behavior itself; progression looks back on it as completed"
    },
    {
     "id": "as-if-frame",
-    "why": "marks the scene as hypothetical ('suppose', 'what would it be like if'); progression asserts the later date as the present ('it is a year from now')"
+    "why": "asks the listener to suppose an outcome is true; a hypothetical future scene can also be future progression when it places them at a later time looking back on a completed change"
    },
    {
     "id": "retroactive-framing",
-    "why": "places the trait in the past; progression places the listener in the future"
+    "why": "places a new trait in the listener's past; progression places the listener at a future time"
    },
    {
     "id": "presupposed-completion",
-    "why": "a grammatical presupposition of finished change, with no move to a future time"
+    "why": "presupposes finished change without moving the listener to a later time"
    }
   ],
   "text_detectable": "yes"
@@ -12448,32 +12442,32 @@
   ],
   "summary": "Suggest that the listener remembers a specific event that did not happen.",
   "cues": [
-   "'you remember the time when' + an event not established earlier in the script or by the listener",
+   "'you remember the time when' followed by a specific event the speaker introduces as the listener's memory",
    "'remember when you ...' followed by a specific scene supplied by the speaker",
-   "a dated or located past scene the script could not know ('years ago', 'that summer', 'the first time we met')",
-   "vividness instructions attached to the supplied scene ('it gets clearer, more real')",
+   "past time or place details introduced as the listener's own recollection, without an established memory to elaborate",
+   "vividness instructions attached to a scene supplied as the listener's past experience",
    "detailed past-tense scene presented as the listener's own recollection"
   ],
   "not_this": [
    {
     "id": "revivification",
-    "why": "recalls a real memory the listener chooses; here the speaker supplies the event"
+    "why": "invites recall of an experience the listener supplies; suggested memory supplies the event"
    },
    {
     "id": "retroactive-framing",
-    "why": "backdates a trait, with no specific event"
+    "why": "backdates a trait without supplying a specific event"
    },
    {
     "id": "gaslighting",
-    "why": "disputes something the listener already remembers; suggested memory adds an event without contradicting one"
+    "why": "denies or rewrites a memory or perception the listener already has; a supplied past event can carry both labels if it also contradicts the listener's account"
    },
    {
     "id": "hypermnesia",
-    "why": "suggests clearer recall of material that exists; suggested memory supplies the material"
+    "why": "suggests clearer recall of established material; suggested memory supplies the event to be recalled"
    },
    {
     "id": "positive-hallucination",
-    "why": "suggests perceiving something now, not remembering something past"
+    "why": "suggests perceiving something now rather than remembering a past event"
    }
   ],
   "text_detectable": "partial"
@@ -12526,10 +12520,10 @@
   "summary": "Suggest that the listener will recall something unusually clearly, either from the past or from this session.",
   "cues": [
    "'you'll remember every word', 'remember everything I say'",
-   "'it will come back to you', 'it all comes back'",
-   "'recall' or 'remember' + named material + 'clearly', 'perfectly', 'in detail'",
-   "a retrieval moment: 'when you need it', 'when you sit the exam', 'whenever you choose'",
-   "'nothing is forgotten', 'every detail'"
+   "'it will come back to you' when 'it' refers to named material",
+   "'recall' or 'remember' + named material + 'clearly', 'perfectly', or 'in detail'",
+   "a retrieval moment tied to named material: 'when you sit the exam, what you studied will come back'",
+   "'every detail' of a specified event or passage will be remembered"
   ],
   "not_this": [
    {
@@ -12817,7 +12811,7 @@
   "not_this": [
    {
     "id": "reason-giving",
-    "why": "giving a reason uses any 'because', including 'for your own good' and 'you deserve it'; this names a value the listener holds and derives the suggestion from it"
+    "why": "giving a reason supplies a justification for the suggestion, including 'for your own good' or 'you deserve it'; linking to values names a value the listener holds and derives the suggestion from it"
    },
    {
     "id": "reframing",
@@ -12967,7 +12961,7 @@
    },
    {
     "id": "truism",
-    "why": "a truism is something the listener already accepts, used to build agreement; a belief statement is a new proposition they are asked to hold"
+    "why": "a truism is a readily accepted statement used to build agreement; a belief statement marks a proposition for the listener to hold, and an accepted proposition explicitly marked for adoption can take both labels"
    },
    {
     "id": "redefinition",
@@ -13137,7 +13131,7 @@
    "don't go under yet",
    "prescribing the symptom"
   ],
-  "summary": "Flatly forbid the wanted response, or order its opposite, so the listener's opposition produces it.",
+  "summary": "Instruct the listener to do the opposite of the wanted response, so opposing the instruction produces it.",
   "cues": [
    "'don't ... yet', 'not yet'",
    "'whatever you do, don't...'",
@@ -13394,7 +13388,7 @@
    },
    {
     "id": "anticipation-building",
-    "why": "announces a coming event, delays it and then delivers it as promised; tease and denial brings a desire to the brink and takes it away, usually more than once"
+    "why": "announces a named coming event and stretches the wait for it; tease and denial brings desire to the brink and pulls it back"
    },
    {
     "id": "reward-contingent-on-depth",
@@ -13589,7 +13583,7 @@
    },
    {
     "id": "pleasure-pairing",
-    "why": "pairs a target with pleasure repeatedly rather than placing one suggestion at a single peak"
+    "why": "pairs a target with pleasure so the target feels good; timing to the peak places a suggestion at the height of a named feeling or sensation"
    },
    {
     "id": "countdown-finale",
@@ -13684,13 +13678,12 @@
    "'soon', 'in a moment', 'in just a few seconds', 'wait for it', 'almost time'",
    "a named experience or event announced before it happens ('in a moment you will feel...')",
    "a count announced toward that named event",
-   "references back to the promised experience before it arrives ('it's getting nearer')",
-   "the promised event then delivered once, as announced"
+   "references back to the promised experience before it arrives ('it's getting nearer')"
   ],
   "not_this": [
    {
     "id": "tease-and-denial",
-    "why": "builds a desire to the brink and pulls it back, usually more than once; anticipation announces, delays once and delivers"
+    "why": "builds desire to the brink and pulls it back, usually more than once; anticipation names a coming event and stretches the wait for it"
    },
    {
     "id": "curiosity-hook",
@@ -13780,15 +13773,15 @@
   "not_this": [
    {
     "id": "deepening-by-repetition",
-    "why": "that is repetition of depth words spread across a passage, not back-to-back doubling"
+    "why": "that repeats depth words across a passage, rather than immediately repeating the same word or phrase"
    },
    {
     "id": "mantra",
-    "why": "a mantra is a fixed phrase repeated at high count as the activity itself; epizeuxis is one word or short phrase said two to four times for emphasis inside ordinary prose"
+    "why": "a mantra repeats a fixed word or phrase as a sustained activity; epizeuxis is an immediate burst within ordinary prose"
    },
    {
     "id": "semantic-satiation",
-    "why": "satiation repeats one word so many times that it loses meaning; epizeuxis stops at a handful and the word keeps its sense"
+    "why": "semantic satiation repeats a word until its meaning fades; epizeuxis repeats it for emphasis while its meaning remains clear"
    },
    {
     "id": "anaphora",
@@ -14289,10 +14282,9 @@
   ],
   "summary": "Use a mild or pleasant word in place of a blunt one for the same thing.",
   "cues": [
-   "a mild or pleasant term where the script's own context shows a blunter one applies ('a little rest' for a suggested blackout, 'help you decide' for deciding in the listener's place)",
-   "the same effect named plainly in one place (title, content note, another section) and softly in another",
-   "stock softeners for bodily, sexual or control content ('down there', 'take care of you', 'look after the thinking')",
-   "minimizers attached to a large effect ('just a little', 'only for a while')"
+   "a mild expression in place of a blunter referent recoverable from the script's context",
+   "the same act or effect named plainly in one place and softly in another",
+   "an indirect phrase for bodily, sexual or control content whose direct referent is clear in context"
   ],
   "not_this": [
    {
@@ -14336,19 +14328,19 @@
   "not_this": [
    {
     "id": "stepwise-doubling",
-    "why": "a multiplier or increment attached to each count, breath or repetition ('twice as deep with every number') is stepwise doubling, however large the figure"
+    "why": "a multiplier or increment tied to each count, breath or repetition is stepwise doubling, even when the number is exaggerated"
    },
    {
     "id": "anchoring-number",
-    "why": "a reference point is a figure on a usable scale that later judgments are measured against ('on a scale where ten is deepest'); hyperbole is a figure or comparison nobody is meant to measure ('a million miles away', 'heavier than stone')"
+    "why": "a number offered as a reference point for later depth or judgment is anchoring; hyperbole is an obvious overstatement for emphasis, and a numeric phrase may do both"
    },
    {
     "id": "comparative-deletion",
-    "why": "a bare comparative with no standard ('deeper', 'more relaxed') is not overstated; hyperbole names an impossible or extreme standard"
+    "why": "a bare comparative with no stated standard ('deeper', 'more relaxed') is not itself an overstatement"
    },
    {
     "id": "prestige-framing",
-    "why": "potency claims are about the file or technique, made in advance"
+    "why": "a potency claim describes the recording or technique in advance; hyperbole overstates a sensation, depth or effect"
    }
   ],
   "text_detectable": "partial"
@@ -14471,7 +14463,7 @@
   "parent": "coercive",
   "name": "Affection flooding",
   "aliases": [
-   "affection flooding",
+   "love bombing",
    "overwhelming warmth",
    "approval flooding"
   ],
@@ -14489,7 +14481,7 @@
    },
    {
     "id": "exclusivity",
-    "why": "exclusivity is one claim that the listener was selected or is one of few; label flooding only for a run of several affection statements"
+    "why": "claims the listener was selected or has access others lack; flooding gives a dense stream of affection and approval, and the two can occur together"
    },
    {
     "id": "liking",
@@ -14844,7 +14836,7 @@
    },
    {
     "id": "deprivation",
-    "why": "deprivation announces that a known reward is held back so it is worth more later; hot and cold turns the speaker's warmth off and on with no reason given and no reward promised"
+    "why": "deprivation withholds a known reward in advance to raise its value; hot and cold alternates the speaker's warmth without tying the shifts to the listener's behavior"
    },
    {
     "id": "love-bombing",
@@ -15581,15 +15573,15 @@
   "not_this": [
    {
     "id": "repeat-after-me",
-    "why": "label the unit on each prompt to say a line; add this label to the file only when reply prompts recur on a regular pattern through most of the session and the listener is told at the start how to answer"
+    "why": "label the unit on each prompt to say supplied words; add this structure label when listener replies recur in a regular pattern through most of the session"
    },
    {
     "id": "agreement-harvest",
-    "why": "one requested yes at a chosen moment"
+    "why": "one requested yes at a chosen moment does not make listener replies the session rhythm"
    },
    {
     "id": "instructional-structure",
-    "why": "practice rounds of a skill, not continuous verbal exchange"
+    "why": "practice rounds teach a skill; call and response uses recurring listener replies as the session rhythm"
    }
   ],
   "text_detectable": "yes"
@@ -15649,15 +15641,15 @@
   "not_this": [
    {
     "id": "fractionation",
-    "why": "label the unit on each passage of up-down cycles; add this label to the file only when the cycles recur across the session, with other material between them, and not inside one deepener"
+    "why": "label the unit on each passage of repeated up-and-down cycles; add this structure label when those cycles organize the session rather than forming one bounded deepener, whether or not other material comes between them"
    },
    {
     "id": "partial-emergence",
-    "why": "one wake that holds the listener up while still in trance, with no drop back and no repeated cycle"
+    "why": "a partial wake restores some faculties while declaring trance ongoing; it does not itself include a return to deeper trance"
    },
    {
     "id": "overlearning",
-    "why": "repeated firing of one trigger as drill for speed, with no claim that each cycle goes deeper"
+    "why": "repeated firing and resetting of a specific response trains fluency; multi-drop cycles repeatedly interrupt and resume trance with a suggested increase in depth"
    }
   ],
   "text_detectable": "yes"
@@ -15684,15 +15676,15 @@
   "not_this": [
    {
     "id": "overlearning",
-    "why": "label drill on the block of fire-and-reset rounds; add this label to the file only when the rounds sit inside a stated lesson, with the skill named at the start, explained before practice, and summarized at the end"
+    "why": "label drill on a block of repeated cue-response-reset rounds; add this structure label when a teaching frame explains a skill and uses practice with feedback across the session, even if the skill is not named at the start or summarized at the end"
    },
    {
     "id": "series-structure",
-    "why": "several files in order; a lesson is one file"
+    "why": "a series orders several files; a lesson is a shape within one file"
    },
    {
     "id": "call-and-response-structure",
-    "why": "continuous verbal exchange, not practice rounds of a skill"
+    "why": "recurring listener replies set the session rhythm there; this structure teaches and practices a skill"
    }
   ],
   "text_detectable": "yes"
@@ -15816,10 +15808,9 @@
   "summary": "Match the listener's tempo, breathing or way of speaking, so the script moves with them before it moves them.",
   "cues": [
    "stage directions that refer to the listener's observed behavior: '[match their breathing]', '[at their pace]', '[mirror posture]'",
-   "tempo directions that start at conversational speed and then slow: '[normal pace, then slow]'",
-   "opening lines in a brisk everyday register that loosens over the first section",
+   "a direction to change tempo as the listener's observed tempo changes",
    "a direction to copy the listener's register or sentence length, without reusing their words",
-   "live-session notes about mirroring posture or speech rate"
+   "live-session notes that link the speaker's posture or speech rate to the listener's"
   ],
   "not_this": [
    {
@@ -15863,19 +15854,19 @@
   "not_this": [
    {
     "id": "micro-compliance",
-    "why": "a run of trivial bodily instructions is micro-compliance whatever its speed; add this label only when a stage direction calls for speed or the run is written without stops"
+    "why": "trivial bodily instructions mark micro-compliance; add rapid delivery only when speed is heard or explicitly directed"
    },
    {
     "id": "sentence-shortening",
-    "why": "short fragments set apart by full stops, ellipses or line breaks for slow, sparse delivery; label rapid delivery when the short clauses are run together with commas or no punctuation, or carry a speed direction"
+    "why": "shortening sentences changes their length; rapid delivery requires audible speed or an explicit speed direction"
    },
    {
     "id": "polysyndeton",
-    "why": "a figure of repeated conjunctions; it can be delivered at any speed"
+    "why": "repeated conjunctions can be delivered at any speed"
    },
    {
     "id": "cognitive-overload",
-    "why": "overload asks the listener to track several things at once; this is one stream that is merely fast"
+    "why": "overload presents multiple things to track; rapid delivery names the speed of one stream, though both may occur together"
    }
   ],
   "text_detectable": "partial"
@@ -15934,19 +15925,19 @@
   "not_this": [
    {
     "id": "analog-marking",
-    "why": "label by scope: a voice direction that covers a few words inside a sentence is analog marking; one that covers a whole sentence, paragraph or section is tone shift"
+    "why": "analog marking changes the voice on selected words or phrases to set them apart; tone shift holds a changed register across a passage or section"
    },
    {
     "id": "whisper",
-    "why": "when the direction names a whisper or close-mic voice, label whisper; tone shift covers every other change of register"
+    "why": "when the direction names a whisper or close-mic voice, label whisper; tone shift covers other sustained changes of register"
    },
    {
     "id": "novelty-orienting",
-    "why": "the orienting cue is the scripted job of pulling attention back just before a key line; tone shift is the voice change, which may or may not be used for that"
+    "why": "an orienting cue is a change used to pull attention back just before a key line; tone shift is a sustained change of voice, which may also serve that purpose"
    },
    {
     "id": "slow-pacing",
-    "why": "slowing pace changes tempo only; tone shift changes pitch, firmness or quality of the voice"
+    "why": "slowing pace changes tempo; tone shift changes pitch, firmness or quality of the voice"
    }
   ],
   "text_detectable": "partial"
@@ -15957,10 +15948,9 @@
   "parent": "delivery",
   "name": "Whisper",
   "aliases": [
-   "ASMR",
    "close-mic",
-   "soft voice",
-   "whispered delivery"
+   "whispered delivery",
+   "whispering"
   ],
   "summary": "Deliver lines in a whisper or very close to the microphone so the voice feels near and private.",
   "cues": [
@@ -16132,11 +16122,11 @@
   "not_this": [
    {
     "id": "binaural-beats",
-    "why": "tones are a carrier for entrainment, pulsing too fast to count; a metronome is a slow countable beat"
+    "why": "binaural, monaural or isochronic tones are specified for a target beat frequency and proposed brainwave entrainment; a metronome supplies a regular tick or pulse for audible pacing"
    },
    {
     "id": "sound-effects",
-    "why": "an effect is a single sound placed at one moment; a tick or pulse that runs on at a regular rate under the voice is a metronome"
+    "why": "an effect is a sound placed at one moment; a tick or pulse that runs on at a regular rate under the voice is a metronome"
    },
    {
     "id": "meter",
@@ -16144,7 +16134,7 @@
    },
    {
     "id": "countdown-deepener",
-    "why": "a countdown deepens by counted numbers; a beat runs without numbers"
+    "why": "a countdown deepens by spoken numbers; a beat runs without numbers"
    }
   ],
   "text_detectable": "partial"
@@ -16263,8 +16253,7 @@
   "cues": [
    "timing directions tied to breath: '(on the exhale)', '(on the out-breath)', '(wait for the inhale)'",
    "'(inhale)' / '(exhale)' marks placed before lines whose words are not about breathing",
-   "notes on breath timing: 'one phrase per breath', 'match their breathing', 'leave a breath between lines'",
-   "evenly spaced gap marks between short phrases with a stated interval of a few seconds"
+   "notes on breath timing: 'one phrase per breath', 'match their breathing', 'leave a breath between lines'"
   ],
   "not_this": [
    {
@@ -16337,7 +16326,6 @@
   "cues": [
    "a gap direction with a duration: '[silence, 20 seconds]', '(pause, 5 seconds)', '[30s]'",
    "directions for an extended gap: '[long pause]', '[long silence]', '[no voice, music only]'",
-   "a task handed over just before the gap: 'take a moment to...', 'in your own time'",
    "timed gaps listed in production notes"
   ],
   "not_this": [
