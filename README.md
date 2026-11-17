@@ -1,35 +1,73 @@
-# Hypnosis Taxonomy
+# Hypnotic Devices
 
 [Browse the reference](https://ecstasyengineer.github.io/hypnosis-taxonomy/)
 
-An encyclopedia of hypnosis techniques: what each one does, how to do it, and why it works. Every "why" carries an honest evidence grade and, where one exists, a link to the real research finding behind it.
+An encyclopedia of hypnotic and rhetorical devices: the things a writer can do in a script.
+Each entry says what the device is, how to write it, how to recognize it in a text, what
+it is most often confused with, and how well supported it is.
 
-## Ways in
+It is built for three readers:
 
-- **What are you training?** Nine goals, from triggers and pleasure control to identity play and trance skills. Each goal page lists recipes first, then levers.
-- **Where in the session?** Eight stages in session order: prepare, induce, deepen, get it accepted, install, convince, make it stick, emerge.
-- **Recipes:** named step-by-step routines such as the yes set or fractionation. Each step links to the lever it uses.
-- **Search** works the way people write terms: "yes set", "yes-set" and "Yes Set" find the same entry, and name matches rank first.
-- **Browse & compare / Workspace:** filter every entry by kind and risk, pin up to four, and see what tends to go with them.
-- **Network:** related entries, entries used in the same scripts, and entries used one after another, colored by goal or stage.
+- **Script writers** who want to know what their options are at each point in a session.
+- **Hypnosis practitioners** who want plain names and honest evidence notes.
+- **Agents** that label a script against the catalog, or draft copy using named devices.
 
-## Kinds of entry
+## What counts as an entry
 
-- **Lever:** one move.
-- **Recipe:** a named, ordered run of levers.
-- **Session structure:** the shape of a whole session or a large part of one.
-- **Principle:** background that explains why other entries work.
+A device is listed only if it is one move, has a plain name (the one already used in
+hypnosis, behavior analysis, persuasion research or rhetoric, where there is one), works
+whatever the theme, and can be pointed at in the wording. Combinations of devices, scenes,
+storylines and themes are deliberately left out.
+
+| kind | meaning |
+|---|---|
+| Family | An umbrella such as Conditioning or Presupposition. Families nest. |
+| Device | One thing a writer does. |
+| Variant | A named, narrower form of one device. A yes set is a variant of the compliance ladder. |
+| Recipe | A named, ordered combination of devices, such as the Elman induction. |
+| Structure | A session-scale part or shape: pre-talk, loop, series. |
+| Delivery | A voice or audio choice. Heard, not read. |
+| Theory | Why devices work. Background, not something to label. |
 
 ## Evidence grades
 
-Established, supported, plausible, speculative, folk. Every grade rates the research behind the explanation (the effect the "why" relies on), usually done outside hypnosis; a grade does not mean the move itself was tested in a session. When in doubt the lower grade applies. Every entry page has a "How we grade" panel with the full scale. Counts from the annotated scripts ("seen in N scripts", "often followed by") describe what writers do. They do not show that something works.
+`experimental` (the effect has controlled studies), `clinical-tradition` (standard in
+clinical hypnosis texts), `practitioner-lore` (taught in NLP, stage or community practice
+without independent validation), `rhetorical-tradition` (a classical figure of style),
+`contested` (studied, with mixed or failed replication). A grade describes what is known
+about the device. It does not promise that a line will work on a given listener.
 
-## Data
+## Files
 
-`graph.json` (schema 3) is the static data file the page reads: entries (`nodes`), hand-made links (`edges`: `see_also`, `contrasts_with`), `goals`, `stages`, and the script patterns `next` and `prev` (`[entry, count]`, top 6 per entry) and `cooc` (`[entry, count, lift]`, top 8 per entry). It is generated, together with this page and `v8_book.md`, from a private working repository. A publish gate scans every artifact before it is written here. Private source material is not part of this repository.
+| file | what it is |
+|---|---|
+| `index.html` | The site. No build step, no CDN. |
+| `canon.json` | Everything: entries, theory, corpus counts. Schema 4. |
+| `catalog.md`, `catalog.json` | Compact catalog for labeling: id, summary, cues, nearest confusions. |
+| `book.md` | The whole reference as one long document. |
+| `legacy/` | Earlier editions, including the v8 graph browser. |
+
+## Labeling a script
+
+Give an agent `catalog.md` and a script. For each span it returns the line range, the
+exact quote, the device id, a confidence and the cue it matched. Variant labels also count
+as their parent, and spans may overlap. Themes and plot are not devices and stay unlabeled.
+
+## Corpus counts
+
+"Seen in N scripts" figures are projected from an older set of labels over a private
+script collection. They show what writers do, not what works. No script text is published
+here.
+
+## Consent
+
+This is a reference for consensual hypnosis and for recognizing influence. Entries that
+depend on the listener not noticing, that persist after a session, or that come from
+coercive-control research carry a consent note. Used on someone who has not agreed, those
+are abuse.
 
 ## Local preview
 
-Run `python3 -m http.server 8000` in this folder and open `http://localhost:8000/`. There is no build step and no CDN. `v8_book.md` is the long-form reference, and `legacy/` keeps earlier editions.
+Run `python3 -m http.server 8000` in this folder and open `http://localhost:8000/`.
 
 Content: CC BY-SA 4.0; see [LICENSE](LICENSE).
