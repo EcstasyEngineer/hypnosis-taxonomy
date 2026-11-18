@@ -52,12 +52,6 @@ Give an agent `catalog.md` and a script. For each span it returns the line range
 exact quote, the device id, a confidence and the cue it matched. Variant labels also count
 as their parent, and spans may overlap. Themes and plot are not devices and stay unlabeled.
 
-## Counts
-
-Where an entry says "seen in N scripts", the figure comes from labeling a private script
-collection against this catalog. It shows what writers do, not what works. No script text
-is published here.
-
 ## Consent
 
 This is a reference for consensual hypnosis and for recognizing influence. Entries that

@@ -163,7 +163,6 @@ function crumbs(e) { const out = []; let c = by[e.parent]; while (c) { out.unshi
 
 function entryPage(e) {
   const ch = kids[e.id] || [];
-  const u = e.usage, n = D.meta.n_scripts;
   const chList = ch.length ? `<ul class="plain">${ch.map(c => `<li><a href="#/e/${c.id}"><b>${esc(c.name)}</b></a> <span class="badge">${KIND[c.kind]}</span><small>${esc(c.summary)}</small></li>`).join("")}</ul>` : "";
   const ev = e.evidence || {}, src = (e.origin || {}).source, srcUrl = /^https?:\/\//.test((e.origin || {}).url || "") ? e.origin.url : null;
   let h = crumbs(e) + `<h1>${esc(e.name)}</h1><div><span class="badge k">${KIND[e.kind]}</span>` +
@@ -183,9 +182,6 @@ function entryPage(e) {
     h += sec("Evidence", `<div class="ev"><b>${esc((ev.grade || "").replace("-", " "))}.</b> ${esc(ev.note || "")}${src ? `<br><span class="aka">Source: ${srcUrl ? `<a href="${esc(srcUrl)}" rel="noopener">${esc(src)}</a>` : esc(src)}</span>` : ""}<br><span class="aka">${esc(GRADE[ev.grade] || "")}</span></div>`);
     h += sec("Why it works", (e.why || []).length ? `<div class="chips">${e.why.filter(w => tby[w]).map(w => `<a href="#/t/${w}">${esc(tby[w].name)}</a>`).join("")}</div>` : "");
     if (e.consent_note) h += sec("Consent", `<div class="note">${esc(e.consent_note)}</div>`);
-    if (u) h += sec("In the script corpus", `<p>Seen in about ${u.scripts} of ${n} annotated scripts (${Math.round(100 * u.scripts / n)}%). Counts come from labeling a private script collection against this catalog. They show what writers do, not what works.</p>` +
-      (u.with && u.with.length ? `<p class="aka">Tends to appear with: ${u.with.map(w => link(w[0])).join(", ")}</p>` : "") +
-      (u.next && u.next.length ? `<p class="aka">Often followed by: ${u.next.map(w => link(w[0])).join(", ")}</p>` : ""));
   }
   h += `<details class="fold"><summary>Label id</summary><p><code>${esc(e.id)}</code></p></details>`;
   return h;
