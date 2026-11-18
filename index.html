@@ -112,13 +112,13 @@ let D, by = {}, kids = {}, tby = {}, idx = [];
 // Published, the data sits next to this page. In the working repo it is in ../dist/.
 let BASE = "";
 const load = base => fetch(base + "devices.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => { BASE = base; return d; });
-load("").catch(() => load("../dist/")).then(d => { D = d; init(); }).catch(e => { $("#view").textContent = "Could not load devices.json (" + e.message + "). Run python build.py, then serve the repo root and open /site/."; });
+load("").catch(() => load("../dist/")).then(d => { D = d; init(); }).catch(e => { $("#view").textContent = "Could not load devices.json (" + e.message + "). Reload the page to try again."; });
 
 function init() {
   for (const e of D.entries) { by[e.id] = e; (kids[e.parent || ""] = kids[e.parent || ""] || []).push(e); }
   for (const t of D.theory) tby[t.id] = t;
-  for (const e of D.entries) idx.push({e, name: norm(e.name), id: norm(e.id), aka: (e.aliases || []).map(norm), text: norm(e.summary + " " + (e.cues || []).join(" "))});
-  for (const t of D.theory) idx.push({t, name: norm(t.name), id: norm(t.id), aka: [], text: norm(t.summary)});
+  for (const e of D.entries) idx.push({e, name: norm(e.name), id: norm(e.id), aka: (e.aliases || []).map(norm), text: norm(e.summary + " " + (e.cues || []).join(" ")), more: norm([e.definition, e.how_to, e.why, (e.evidence || {}).note, ...(e.not_this || []).map(n => n.why)].filter(Boolean).join(" "))});
+  for (const t of D.theory) idx.push({t, name: norm(t.name), id: norm(t.id), aka: [], text: norm(t.summary), more: norm([t.claim, t.evidence_note, t.writer_takeaway].filter(Boolean).join(" "))});
   $("#topnav").innerHTML = [["#/","Devices"],["#/stages","By stage"],["#/theory","Theory"],["#/label","Label a script"],["#/about","About"]].map(([h, l]) => `<a href="${h}">${l}</a>`).join("");
   buildTree();
   $("#q").addEventListener("input", search);
@@ -142,6 +142,7 @@ function search() {
     if (r.name === q || r.id === q) s = 100; else if (r.aka.includes(q)) s = 90;
     else if (r.name.startsWith(q)) s = 80; else if (r.name.includes(q)) s = 70;
     else if (r.aka.some(a => a.includes(q))) s = 60; else if (words.every(w => (r.name + " " + r.aka.join(" ") + " " + r.text).includes(w))) s = 20;
+    else if (words.every(w => (r.name + " " + r.aka.join(" ") + " " + r.text + " " + r.more).includes(w))) s = 10;
     if (s) hits.push([s, r]);
   }
   hits.sort((a, b) => b[0] - a[0] || a[1].name.localeCompare(b[1].name));
@@ -200,10 +201,12 @@ function home() {
   <div class="cards">${(kids[""] || []).map(f => `<a class="card" href="#/e/${f.id}"><b>${esc(f.name)}</b><small>${esc(f.summary)}</small><span class="n">${count(f)} entries</span></a>`).join("")}</div>`;
 }
 // A device tagged for most stages belongs to none in particular; list it only where it is specific.
-const atStage = (e, s) => e.kind !== "family" && (e.stages || []).includes(s) && (e.stages || []).length <= 2;
+const wide = e => (e.stages || []).length > 2 || (e.stages || []).includes("any");
+const atStage = (e, s) => e.kind !== "family" && (s === "throughout" ? wide(e) : (e.stages || []).includes(s) && !wide(e));
+const STAGE_PAGES = STAGES.concat([["throughout","Throughout the session"]]);
 function stagesPage(s) {
-  if (!s) return `<h1>By stage</h1><p class="lead">Devices that belong to one or two stages of a session. Devices used throughout are left out here.</p><div class="cards">${STAGES.map(([id, l]) => `<a class="card" href="#/stages/${id}"><b>${l}</b><span class="n">${D.entries.filter(e => atStage(e, id)).length} entries</span></a>`).join("")}</div>`;
-  const lab = (STAGES.find(x => x[0] === s) || [s, s])[1];
+  if (!s) return `<h1>By stage</h1><p class="lead">Devices that belong to one or two stages of a session are listed under those stages. Devices that work at most points are listed under Throughout the session.</p><div class="cards">${STAGE_PAGES.map(([id, l]) => `<a class="card" href="#/stages/${id}"><b>${l}</b><span class="n">${D.entries.filter(e => atStage(e, id)).length} entries</span></a>`).join("")}</div>`;
+  const lab = (STAGE_PAGES.find(x => x[0] === s) || [s, s])[1];
   const list = D.entries.filter(e => atStage(e, s));
   const g = {}; for (const e of list) (g[e.family] = g[e.family] || []).push(e);
   return `<div class="crumb"><a href="#/stages">By stage</a></div><h1>${esc(lab)}</h1>` + Object.keys(g).map(f => `<h2>${esc(by[f].name)}</h2><ul class="plain">${g[f].map(e => `<li>${link(e.id)} <span class="badge">${KIND[e.kind]}</span><small>${esc(e.summary)}</small></li>`).join("")}</ul>`).join("");

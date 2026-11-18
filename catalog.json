@@ -685,7 +685,7 @@
  },
  {
   "id": "conversational-induction",
-  "kind": "unit",
+  "kind": "recipe",
   "parent": "induction",
   "name": "Conversational induction",
   "aliases": [
@@ -8210,7 +8210,7 @@
     "why": "deprivation withholds in advance to raise a reward's value; time-out withholds afterwards as a consequence"
    },
    {
-    "id": "trauma-bonding",
+    "id": "hot-and-cold",
     "why": "hot-and-cold withdraws warmth unpredictably to tighten attachment; time-out follows a stated rule, has a stated length and ends on schedule"
    }
   ],
@@ -8273,7 +8273,7 @@
   ],
   "not_this": [
    {
-    "id": "trauma-bonding",
+    "id": "hot-and-cold",
     "why": "hot-and-cold alternates warmth with coldness or hostility in a relationship; an intermittent schedule only omits some rewards"
    },
    {
@@ -12184,6 +12184,10 @@
    {
     "id": "skill-capacity-suggestion",
     "why": "changes the ability to remember in general ('your memory gets foggy'); amnesia names particular material to be forgotten"
+   },
+   {
+    "id": "structured-amnesia",
+    "why": "gets forgetting from how the session is arranged; no forgetting is stated in the text"
    }
   ],
   "text_detectable": "yes"
@@ -12222,43 +12226,6 @@
    }
   ],
   "text_detectable": "yes"
- },
- {
-  "id": "structured-amnesia",
-  "kind": "variant",
-  "parent": "amnesia-suggestion",
-  "name": "Structured amnesia",
-  "aliases": [
-   "bracketing",
-   "resume the earlier topic",
-   "bracketed amnesia"
-  ],
-  "summary": "After trance, pick up exactly where the conversation stopped before trance, so the middle drops out of memory.",
-  "cues": [
-   "a sentence broken off just before the induction and resumed word for word after emergence",
-   "as I was saying (directly after emergence)",
-   "same topic in the last pretalk line and the first post-emergence line",
-   "no mention of the trance between the resumed lines"
-  ],
-  "not_this": [
-   {
-    "id": "amnesia-by-distraction",
-    "why": "changes to a new subject after the material; structured amnesia returns to the old one"
-   },
-   {
-    "id": "amnesia-on-waking",
-    "why": "states the forgetting aloud; structured amnesia never mentions it"
-   },
-   {
-    "id": "nested-loops",
-    "why": "opens and closes stories inside the session around the suggestions; structured amnesia brackets the whole trance with one piece of ordinary talk begun before the induction and resumed after the wake"
-   },
-   {
-    "id": "incomplete-sentence",
-    "why": "breaks a sentence off and never resumes it; here the same sentence is picked up again after emergence"
-   }
-  ],
-  "text_detectable": "partial"
  },
  {
   "id": "source-amnesia",
@@ -12302,9 +12269,46 @@
   "text_detectable": "yes"
  },
  {
+  "id": "structured-amnesia",
+  "kind": "unit",
+  "parent": "memory-time",
+  "name": "Structured amnesia",
+  "aliases": [
+   "bracketing",
+   "resume the earlier topic",
+   "bracketed amnesia"
+  ],
+  "summary": "After trance, pick up exactly where the conversation stopped before trance, so the middle drops out of memory.",
+  "cues": [
+   "a sentence broken off just before the induction and resumed word for word after emergence",
+   "as I was saying (directly after emergence)",
+   "same topic in the last pretalk line and the first post-emergence line",
+   "no mention of the trance between the resumed lines"
+  ],
+  "not_this": [
+   {
+    "id": "amnesia-by-distraction",
+    "why": "changes to a new subject after the material; structured amnesia returns to the old one"
+   },
+   {
+    "id": "amnesia-on-waking",
+    "why": "states the forgetting aloud; structured amnesia never mentions it"
+   },
+   {
+    "id": "nested-loops",
+    "why": "opens and closes stories inside the session around the suggestions; structured amnesia brackets the whole trance with one piece of ordinary talk begun before the induction and resumed after the wake"
+   },
+   {
+    "id": "incomplete-sentence",
+    "why": "breaks a sentence off and never resumes it; here the same sentence is picked up again after emergence"
+   }
+  ],
+  "text_detectable": "partial"
+ },
+ {
   "id": "amnesia-by-distraction",
-  "kind": "variant",
-  "parent": "amnesia-suggestion",
+  "kind": "unit",
+  "parent": "memory-time",
   "name": "Distraction amnesia",
   "aliases": [
    "change the subject on waking",
@@ -14492,7 +14496,7 @@
     "why": "builds affection gradually; flooding overwhelms at once"
    },
    {
-    "id": "trauma-bonding",
+    "id": "hot-and-cold",
     "why": "alternates warmth and coldness; flooding is the warm phase alone"
    }
   ],
@@ -14816,15 +14820,13 @@
   "text_detectable": "yes"
  },
  {
-  "id": "trauma-bonding",
+  "id": "hot-and-cold",
   "kind": "unit",
   "parent": "coercive",
   "name": "Hot and cold",
   "aliases": [
-   "trauma bonding",
    "push-pull",
-   "intermittent warmth",
-   "traumatic bonding"
+   "intermittent warmth"
   ],
   "summary": "Alternate warmth and coldness from the speaker, unpredictably, so the listener works harder for the warmth and attaches more tightly.",
   "cues": [

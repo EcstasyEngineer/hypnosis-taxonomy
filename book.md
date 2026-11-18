@@ -484,13 +484,18 @@ A rapid induction in which the operator holds the listener's hand or wrist, fixe
 **Consent:** Physical risk and surprise touch: explicit prior agreement and injury screening are required.
 
 
-### Conversational induction *(unit)*
+### Conversational induction *(recipe)*
 
 Also called: naturalistic induction, Ericksonian induction, indirect induction.
 
-There is no 'close your eyes' and no count. The writer talks, apparently about something else, while pacing the listener's present experience, telling absorbing stories and scattering indirect suggestions of comfort and inward attention. Trance is allowed to develop and is ratified when signs appear. The listener may know hypnosis is intended; the form, not the secrecy, defines it.
+There is no 'close your eyes' and no count. The writer talks, apparently about something else, while pacing the listener's present experience, telling absorbing stories and scattering indirect suggestions of comfort and inward attention. Trance is allowed to develop and is ratified when signs appear. The listener may know hypnosis is intended; the form, not the secrecy, defines it. The order is loose: the steps overlap and repeat, but pacing comes first and ratification comes once there is something to ratify.
 
 **How:** Open with plain verifiable statements about what the listener is doing now. Slide into a topic that absorbs: a memory of learning something, a drive, a story about someone else. Thread in permissive suggestions and embedded commands, slow down gradually, and comment on changes as they show. It needs feedback, so it is strongest live; in a recording, write the pacing statements to be true of anyone listening.
+
+1. Talk in an ordinary register and describe what the listener can verify right now. (Pacing)
+1. Tell a story or anecdote about someone else settling, drifting or becoming absorbed. (Metaphor)
+1. Scatter permissive suggestions of comfort and inward attention through the talk. (Indirect suggestion)
+1. When signs of trance appear, name them as evidence and slow down into suggestion. (Pacing trance signs)
 
 > You're sitting there, listening to me, and you've probably had the experience of reading a book and not hearing someone say your name.
 
@@ -8249,7 +8254,7 @@ Devices that act on memory or on the listener's sense of when they are: forgetti
 
 Also called: forgetting suggestion, posthypnotic amnesia, suggested amnesia, forget.
 
-A suggestion whose content is forgetting: of the whole session, of one section, or of a word, number or event. It is often permissive ('you may find it easy to forget') so that remembering does not count as failure. Label this unit itself only where forgetting is stated in the text. Its variants narrow it: amnesia on waking ties the forgetting to the exit, source amnesia keeps the content and removes its origin, and structured and distraction amnesia aim at the same result by arrangement, with no forgetting stated. It differs from name amnesia, a short in-trance convincer with a built-in test, and from losing the numbers, where the fading of a count is the route to depth.
+A suggestion whose content is forgetting: of the whole session, of one section, or of a word, number or event. It is often permissive ('you may find it easy to forget') so that remembering does not count as failure. Label this unit itself only where forgetting is stated in the text. Its variants narrow it: amnesia on waking ties the forgetting to the exit, and source amnesia keeps the content and removes its origin. Structured amnesia and amnesia by distraction aim at forgetting by arrangement, with nothing about forgetting said; they are separate devices, not forms of this one. It differs from name amnesia, a short in-trance convincer with a built-in test, and from losing the numbers, where the fading of a count is the route to depth.
 
 **How:** Say what will be forgotten and when, ideally tied to emergence or to a cue. Permissive or ambiguous wording ('you might remember, or you might simply let it drift away') lands better than a flat command, because partial recall still fits the suggestion. Pair it with a reason (it is not needed, the unconscious keeps it) and avoid asking the listener to check whether they remember, which brings the material back. It fails when it is stated once with no frame and the listener is invited to recall right after.
 
@@ -8261,7 +8266,7 @@ A suggestion whose content is forgetting: of the whole session, of one section, 
 
 **Spot it by:** forget / forgetting / forgotten; you don't need to remember; drift away / fade like a dream; remember to forget; whether you remember or forget; the harder you try to remember.
 
-**Not to be confused with:** Name / number amnesia (a brief in-trance convincer: one familiar item is suggested away and tested at once so the listener notices the gap); Losing the numbers (the listener's own count is relaxed away as a deepener; the fading is the route to depth, not a suggestion about recalling the session); Negative hallucination (suppresses perception of something present, not memory of something past); Capacity suggestion (changes the ability to remember in general ('your memory gets foggy'); amnesia names particular material to be forgotten).
+**Not to be confused with:** Name / number amnesia (a brief in-trance convincer: one familiar item is suggested away and tested at once so the listener notices the gap); Losing the numbers (the listener's own count is relaxed away as a deepener; the fading is the route to depth, not a suggestion about recalling the session); Negative hallucination (suppresses perception of something present, not memory of something past); Capacity suggestion (changes the ability to remember in general ('your memory gets foggy'); amnesia names particular material to be forgotten); Structured amnesia (gets forgetting from how the session is arranged; no forgetting is stated in the text).
 
 **Evidence:** experimental. Posthypnotic amnesia is a standard item on hypnotic susceptibility scales and is reliably produced in highly suggestible people, but it is usually partial and reversible on a cue.
 
@@ -8295,29 +8300,6 @@ An amnesia suggestion delivered at the exit and tied to the moment of waking: th
 **Consent:** It works against the listener's later ability to review what was suggested, so it must be disclosed beforehand and paired with a way to recover the memory.
 
 
-#### Structured amnesia *(variant)*
-
-Also called: bracketing, resume the earlier topic, bracketed amnesia.
-
-An amnesia move done by structure, not by instruction. The speaker stops mid-sentence or mid-topic before the induction and resumes that same sentence or topic immediately after emergence, so the trance sits between two halves of one continuous thread and tends to be skipped in recall. No forgetting is suggested aloud.
-
-**How:** Before the induction, start a concrete, mundane sentence or topic and break off at a clear point. After emergence, resume with the exact words or the same topic, as if nothing happened. Keep the resumed line identical or close to identical; any comment on the trance ('how was that?') breaks the bracket. In audio scripts it works best when the opening topic is distinctive and the emergence is short.
-
-> [Pretalk] ...and the thing about rainy afternoons is that the light goes soft and grey and— well, let's begin. [Emergence] ...the light goes soft and grey, and everything slows down.
-
-> [Before induction] So, as I was saying about the train timetable— [After waking] —about the train timetable, the 8:15 is always late.
-
-**Spot it by:** a sentence broken off just before the induction and resumed word for word after emergence; as I was saying (directly after emergence); same topic in the last pretalk line and the first post-emergence line; no mention of the trance between the resumed lines.
-
-**Not to be confused with:** Distraction amnesia (changes to a new subject after the material; structured amnesia returns to the old one); Amnesia on waking (states the forgetting aloud; structured amnesia never mentions it); Nested loops (opens and closes stories inside the session around the suggestions; structured amnesia brackets the whole trance with one piece of ordinary talk begun before the induction and resumed after the wake); Unfinished sentence (breaks a sentence off and never resumes it; here the same sentence is picked up again after emergence).
-
-**Evidence:** clinical-tradition. Described in Ericksonian clinical literature and consistent with event-boundary effects on memory; no controlled test of the scripted form. Source: Erickson & Rossi, Varieties of hypnotic amnesia, American Journal of Clinical Hypnosis (1974).
-
-**Why it works:** Hypnotic amnesia, Event segmentation theory, Indirect suggestion.
-
-**Consent:** Works without the listener noticing; disclose in advance if the script uses it.
-
-
 #### Forgetting where it came from *(variant)*
 
 Also called: source amnesia, it feels like your own idea, own-idea framing.
@@ -8343,7 +8325,30 @@ A suggestion about where a suggested idea will seem to have come from. The conte
 **Consent:** Designed to hide its own influence; the listener should know beforehand that suggestions may later feel self-generated.
 
 
-#### Distraction amnesia *(variant)*
+### Structured amnesia *(unit)*
+
+Also called: bracketing, resume the earlier topic, bracketed amnesia.
+
+An amnesia move done by structure, not by instruction. The speaker stops mid-sentence or mid-topic before the induction and resumes that same sentence or topic immediately after emergence, so the trance sits between two halves of one continuous thread and tends to be skipped in recall. No forgetting is suggested aloud.
+
+**How:** Before the induction, start a concrete, mundane sentence or topic and break off at a clear point. After emergence, resume with the exact words or the same topic, as if nothing happened. Keep the resumed line identical or close to identical; any comment on the trance ('how was that?') breaks the bracket. In audio scripts it works best when the opening topic is distinctive and the emergence is short.
+
+> [Pretalk] ...and the thing about rainy afternoons is that the light goes soft and grey and— well, let's begin. [Emergence] ...the light goes soft and grey, and everything slows down.
+
+> [Before induction] So, as I was saying about the train timetable— [After waking] —about the train timetable, the 8:15 is always late.
+
+**Spot it by:** a sentence broken off just before the induction and resumed word for word after emergence; as I was saying (directly after emergence); same topic in the last pretalk line and the first post-emergence line; no mention of the trance between the resumed lines.
+
+**Not to be confused with:** Distraction amnesia (changes to a new subject after the material; structured amnesia returns to the old one); Amnesia on waking (states the forgetting aloud; structured amnesia never mentions it); Nested loops (opens and closes stories inside the session around the suggestions; structured amnesia brackets the whole trance with one piece of ordinary talk begun before the induction and resumed after the wake); Unfinished sentence (breaks a sentence off and never resumes it; here the same sentence is picked up again after emergence).
+
+**Evidence:** clinical-tradition. Described in Ericksonian clinical literature and consistent with event-boundary effects on memory; no controlled test of the scripted form. Source: Erickson & Rossi, Varieties of hypnotic amnesia, American Journal of Clinical Hypnosis (1974).
+
+**Why it works:** Hypnotic amnesia, Event segmentation theory, Indirect suggestion.
+
+**Consent:** Works without the listener noticing; disclose in advance if the script uses it.
+
+
+### Distraction amnesia *(unit)*
 
 Also called: change the subject on waking, amnesia by distraction.
 
@@ -10079,9 +10084,9 @@ A response to a complaint, objection or failure that denies the speaker's part a
 
 ### Hot and cold *(unit)*
 
-Also called: trauma bonding, push-pull, intermittent warmth, traumatic bonding.
+Also called: push-pull, intermittent warmth.
 
-A pattern in which the speaker's affection, approval or attention is given and then withdrawn, with the switches not tied to anything the listener did. Dutton and Painter described the bond it produces in abusive relationships as traumatic bonding. It differs from intermittent reinforcement, which rewards a behavior on a schedule; hot and cold varies the relationship itself. Love bombing is a single flood of warmth; hot and cold is the alternation.
+A pattern in which the speaker's affection, approval or attention is given and then withdrawn, with the switches not tied to anything the listener did. Dutton and Painter called the attachment that can form under this pattern in abusive relationships traumatic bonding; that names a possible outcome, not the pattern. It differs from intermittent reinforcement, which rewards a behavior on a schedule; hot and cold varies the relationship itself. Love bombing is a single flood of warmth; hot and cold is the alternation.
 
 **How:** Write passages of open warmth and praise, then a sudden cool or distant passage with no stated reason, then return to warmth as relief. Keep the timing irregular. The cold phase must be withdrawal of the speaker, not punishment for an act, or it becomes ordinary punishment. It fails if the cold phases are too long or harsh, which provokes leaving. In consensual play, keep the coldness theatrical and close the session warm.
 
