@@ -42,6 +42,8 @@ about the device. It does not promise that a line will work on a given listener.
 | file | what it is |
 |---|---|
 | `index.html` | The site. No build step, no CDN. |
+
+Every file here is generated from a separate source and overwritten on each release, so changes made directly to this repository do not last. Open an issue instead.
 | `devices.json` | Everything: entries and theory. |
 | `catalog.md`, `catalog.json` | Compact catalog for labeling: id, summary, cues, nearest confusions. |
 | `book.md` | The whole reference as one long document. |

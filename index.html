@@ -168,21 +168,23 @@ function entryPage(e) {
   const ev = e.evidence || {}, src = (e.origin || {}).source, srcUrl = /^https?:\/\//.test((e.origin || {}).url || "") ? e.origin.url : null;
   let h = crumbs(e) + `<h1>${esc(e.name)}</h1><div><span class="badge k">${KIND[e.kind]}</span>` +
     (e.text_detectable && e.text_detectable !== "yes" ? `<span class="badge">${e.text_detectable === "no" ? "heard, not read" : "partly visible in text"}</span>` : "") +
-    (e.stages || []).filter(s => s !== "any").map(s => `<span class="badge">${esc(s)}</span>`).join("") + `</div>`;
+    (e.stages || []).filter(s => s !== "any").map(s => `<span class="badge">${esc((STAGES.find(x => x[0] === s) || [s, s])[1])}</span>`).join("") + `</div>`;
   if ((e.aliases || []).length) h += `<p class="aka">Also called: ${e.aliases.map(esc).join(", ")}</p>`;
   h += `<p class="lead">${esc(e.summary)}</p><p>${esc(e.definition)}</p>`;
-  if (e.kind === "family") h += sec("Choosing among them", `<p>${esc(e.how_to)}</p>`) + sec("In this family", chList);
+  const notThis = sec("Not to be confused with", (e.not_this || []).length ? `<ul class="plain">${e.not_this.map(x => `<li>${link(x.id)}<small>${esc(x.why)}</small></li>`).join("")}</ul>` : "");
+  const whyIt = sec("Why it works", (e.why || []).length ? `<div class="chips">${e.why.filter(w => tby[w]).map(w => `<a href="#/t/${w}">${esc(tby[w].name)}</a>`).join("")}</div>` : "");
+  const consent = e.consent_note ? sec("Consent", `<div class="note">${esc(e.consent_note)}</div>`) : "";
+  if (e.kind === "family") h += sec("Choosing among them", `<p>${esc(e.how_to)}</p>`) + sec("In this family", chList) + notThis + whyIt + consent;
   else {
     h += sec("How to write it", `<p>${esc(e.how_to)}</p>`);
     if ((e.steps || []).length) h += sec("Steps", `<ol class="steps">${e.steps.map(s => `<li>${esc(s.text)}${by[s.device] ? ` <span class="aka">(${link(s.device)})</span>` : ""}</li>`).join("")}</ol>`);
     h += sec("Examples", (e.examples || []).map(x => `<blockquote>${esc(x)}</blockquote>`).join(""));
     h += sec("Spot it by", (e.cues || []).length ? `<div class="chips">${e.cues.map(c => `<span>${esc(c)}</span>`).join("")}</div>` : "");
-    h += sec("Not to be confused with", (e.not_this || []).length ? `<ul class="plain">${e.not_this.map(x => `<li>${link(x.id)}<small>${esc(x.why)}</small></li>`).join("")}</ul>` : "");
+    h += notThis;
     h += sec("Named variants", chList);
     h += sec("Often used with", (e.related || []).length ? `<div class="chips">${e.related.map(r => `<a href="#/e/${r}">${esc(by[r] ? by[r].name : r)}</a>`).join("")}</div>` : "");
     h += sec("Evidence", `<div class="ev"><b>${esc((ev.grade || "").replace("-", " "))}.</b> ${esc(ev.note || "")}${src ? `<br><span class="aka">Source: ${srcUrl ? `<a href="${esc(srcUrl)}" rel="noopener">${esc(src)}</a>` : esc(src)}</span>` : ""}<br><span class="aka">${esc(GRADE[ev.grade] || "")}</span></div>`);
-    h += sec("Why it works", (e.why || []).length ? `<div class="chips">${e.why.filter(w => tby[w]).map(w => `<a href="#/t/${w}">${esc(tby[w].name)}</a>`).join("")}</div>` : "");
-    if (e.consent_note) h += sec("Consent", `<div class="note">${esc(e.consent_note)}</div>`);
+    h += whyIt + consent;
   }
   h += `<details class="fold"><summary>Label id</summary><p><code>${esc(e.id)}</code></p></details>`;
   return h;
@@ -201,11 +203,10 @@ function home() {
   <div class="cards">${(kids[""] || []).map(f => `<a class="card" href="#/e/${f.id}"><b>${esc(f.name)}</b><small>${esc(f.summary)}</small><span class="n">${count(f)} entries</span></a>`).join("")}</div>`;
 }
 // A device tagged for most stages belongs to none in particular; list it only where it is specific.
-const wide = e => (e.stages || []).length > 2 || (e.stages || []).includes("any");
-const atStage = (e, s) => e.kind !== "family" && (s === "throughout" ? wide(e) : (e.stages || []).includes(s) && !wide(e));
+const atStage = (e, s) => e.kind !== "family" && (e.stages || []).includes(s === "throughout" ? "any" : s);
 const STAGE_PAGES = STAGES.concat([["throughout","Throughout the session"]]);
 function stagesPage(s) {
-  if (!s) return `<h1>By stage</h1><p class="lead">Devices that belong to one or two stages of a session are listed under those stages. Devices that work at most points are listed under Throughout the session.</p><div class="cards">${STAGE_PAGES.map(([id, l]) => `<a class="card" href="#/stages/${id}"><b>${l}</b><span class="n">${D.entries.filter(e => atStage(e, id)).length} entries</span></a>`).join("")}</div>`;
+  if (!s) return `<h1>By stage</h1><p class="lead">Each device is listed under every stage it is used in. Devices that work at any point are under Throughout the session.</p><div class="cards">${STAGE_PAGES.map(([id, l]) => `<a class="card" href="#/stages/${id}"><b>${l}</b><span class="n">${D.entries.filter(e => atStage(e, id)).length} entries</span></a>`).join("")}</div>`;
   const lab = (STAGE_PAGES.find(x => x[0] === s) || [s, s])[1];
   const list = D.entries.filter(e => atStage(e, s));
   const g = {}; for (const e of list) (g[e.family] = g[e.family] || []).push(e);
@@ -234,11 +235,10 @@ function route() {
   let h, id = null;
   if (p[0] === "e" && by[p[1]]) { h = entryPage(by[p[1]]); id = p[1]; document.title = by[p[1]].name + " - Hypnotic Devices"; }
   else if (p[0] === "t" && tby[p[1]]) { h = theoryPage(tby[p[1]]); document.title = tby[p[1]].name + " - Hypnotic Devices"; }
-  else if (p[0] === "theory") h = theoryIndex();
-  else if (p[0] === "stages") h = stagesPage(p[1]);
-  else if (p[0] === "about") h = about();
-  else if (p[0] === "label") h = labelPage();
-  else { h = home(); document.title = "Hypnotic Devices"; }
+  else {
+    h = p[0] === "theory" ? theoryIndex() : p[0] === "stages" ? stagesPage(p[1]) : p[0] === "about" ? about() : p[0] === "label" ? labelPage() : home();
+    document.title = ({theory: "Theory - ", stages: "By stage - ", about: "About - ", label: "Label a script - "}[p[0]] || "") + "Hypnotic Devices";
+  }
   $("#view").innerHTML = h;
   document.querySelectorAll("#topnav a").forEach(a => a.classList.toggle("on", a.getAttribute("href") === "#/" + (["theory", "stages", "about", "label"].includes(p[0]) ? p[0] : "")));
   if (!$("#q").value) mark(id);

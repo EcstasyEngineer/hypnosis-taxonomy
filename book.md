@@ -7,13 +7,13 @@ A reference of things a writer can do in a script. Families group devices; varia
 
 Also called: trance induction, hypnotic induction.
 
-An induction is the opening procedure that marks the shift from ordinary talk to hypnosis and gets the listener absorbed and responding. The family groups inductions by their route in: the eyes, the body, the breath, numbers, imagery, confusion or overload, surprise, ordinary conversation, memory of an earlier trance, pretending, repetition, involuntary movement, an installed cue, arousal, or the act of reading. Waking hypnosis is the eyes-open route that uses no relaxation or sleep language. The family also holds four named recipes (Elman, Betty Erickson 5-4-3-2-1, double induction, Gateway). Work done after trance has started belongs to the deepening family; the confusion-overload and triggers-anchors families hold the general devices that several inductions apply.
+An induction is the opening procedure that marks the shift from ordinary talk to hypnosis and gets the listener absorbed and responding. The family groups inductions by their route in: the eyes, the body, the breath, numbers, imagery, confusion or overload, surprise, ordinary conversation, memory of an earlier trance, pretending, repetition, involuntary movement, an installed cue, arousal, or the act of reading. Waking hypnosis is the eyes-open route that uses no relaxation or sleep language. The family also holds five named recipes (Elman, Betty Erickson 5-4-3-2-1, double induction, Gateway, conversational induction). Work done after trance has started belongs to the deepening family; the confusion-overload and triggers-anchors families hold the general devices that several inductions apply.
 
 **Choosing:** Choose by medium, listener and time. Recorded audio and text cannot see the listener or touch them, so use progressive relaxation, breath, counting, visualization, eye closure or sensation focus, and avoid the in-person rapid variants. For analytical or restless listeners, give the mind work (confusion, overload, 5-4-3-2-1, a concurrent task) or use tense-and-release. For experienced listeners, use revivification or a re-induction trigger and spend the saved time on suggestions. Most scripts combine two or three: a fixation or breath opening, an eye closure, then a count that hands over to a deepener.
 
 **Not to be confused with:** Deepening (deepening intensifies a trance that has already been started; induction starts it); Induction section (the section is the place in the script; the family is the devices that fill it); Suggestibility test (a test shows responsiveness before induction and does not itself claim to start trance).
 
-**Why it works:** Hypnotic induction, Response expectancy theory, Sociocognitive theory of hypnosis, Hypnotizability, Absorption (trait).
+**Why it works:** Absorption (trait), Hypnotic induction, Hypnotizability, Response expectancy theory, Sociocognitive theory of hypnosis.
 
 **Consent:** An induction should be announced and agreed to; the unannounced variants need consent negotiated beforehand.
 
@@ -38,7 +38,7 @@ The listener stares at a single spot, usually slightly above eye level, while th
 
 **Evidence:** clinical-tradition. The oldest standard induction and the opening of the Stanford scales; no good evidence it works better than other inductions, and Braid's physiological explanation is not accepted. Source: Braid, Neurypnology (1843).
 
-**Why it works:** Hypnotic induction, Attentional tunneling, Habituation, Response expectancy theory.
+**Why it works:** Attentional tunneling, Habituation, Hypnotic induction, Response expectancy theory.
 
 
 #### Pendulum / pocket watch *(variant)*
@@ -61,7 +61,7 @@ Eye fixation where the target moves in a slow, regular arc. Tracking the swing g
 
 **Evidence:** practitioner-lore. A stage and popular-culture staple; no studies show a moving target works better than a still one, and its effect is probably mostly expectation.
 
-**Why it works:** Attentional capture, Response expectancy theory, Habituation.
+**Why it works:** Attentional capture, Habituation, Response expectancy theory.
 
 
 #### Spiral fixation *(variant)*
@@ -130,7 +130,7 @@ A brief induction taken from the Spiegels' procedure: look up as far as possible
 
 **Evidence:** clinical-tradition. The induction is part of the Spiegels' published Hypnotic Induction Profile and is widely taught for self-hypnosis; it has not been shown to work better than other brief inductions. The separate claim that the degree of eye roll measures hypnotizability has largely failed independent replication. Source: Spiegel & Spiegel, Trance and Treatment (1978).
 
-**Why it works:** Hypnotic induction, Response expectancy theory, Hypnotizability.
+**Why it works:** Hypnotic induction, Hypnotizability, Response expectancy theory.
 
 
 #### Peripheral vision *(variant)*
@@ -153,7 +153,7 @@ The eyes stay on one point while attention spreads outward to take in everything
 
 **Evidence:** practitioner-lore. Taught in NLP circles as 'hakalau' with claims about the parasympathetic nervous system that have not been tested; the calming effect is plausible but unverified.
 
-**Why it works:** Attentional capture, Working-memory interference, Response expectancy theory.
+**Why it works:** Attentional capture, Response expectancy theory, Working-memory interference.
 
 
 ### Eye-closure suggestion *(unit)*
@@ -176,7 +176,7 @@ A suggestion aimed at one response: the lids become heavy and shut. The closing 
 
 **Evidence:** experimental. Eye closure is a standardized item on hypnotizability scales and most people pass it; that it marks entry to a distinct state is a convention, not a finding.
 
-**Why it works:** Hypnotic induction, Response expectancy theory, Direct verbal suggestion.
+**Why it works:** Direct verbal suggestion, Hypnotic induction, Response expectancy theory.
 
 
 ### Progressive relaxation *(unit)*
@@ -199,7 +199,7 @@ The writer names body regions in sequence, usually feet to head or head to feet,
 
 **Evidence:** experimental. Muscle relaxation training is well studied for anxiety and tension; as a hypnotic induction it works about as well as others, and relaxation is not required for hypnotic responding. Source: Jacobson, Progressive Relaxation (1929).
 
-**Why it works:** Hypnotic induction, Response expectancy theory, Habituation.
+**Why it works:** Habituation, Hypnotic induction, Response expectancy theory.
 
 
 #### Tense-and-release *(variant)*
@@ -245,7 +245,7 @@ A fixed set of first-person, present-tense formulae ('my right arm is heavy') re
 
 **Evidence:** experimental. Autogenic training has controlled trials showing moderate effects on stress-related complaints; the studies vary in quality and concern weeks of practice, not a single use as an induction. Source: Schultz, Das autogene Training (1932).
 
-**Why it works:** Self-reference effect, Response expectancy theory, Generation effect.
+**Why it works:** Generation effect, Response expectancy theory, Self-reference effect.
 
 
 ### Body scan *(unit)*
@@ -291,7 +291,7 @@ The breath is made the object of attention, either observed as it is or guided i
 
 **Evidence:** clinical-tradition. Slow paced breathing has measurable calming effects; its use as a hypnotic induction is standard practice and has not been tested against other inductions in any decisive way.
 
-**Why it works:** Hypnotic induction, Attentional tunneling, Pacing and leading.
+**Why it works:** Attentional tunneling, Hypnotic induction, Pacing and leading.
 
 
 ### Counting induction *(unit)*
@@ -314,7 +314,7 @@ A count is the spine of the induction: the writer announces what will happen by 
 
 **Evidence:** clinical-tradition. Counting is part of standardized induction texts; nothing shows the numbers themselves do anything beyond pacing the passage and setting an expectation of arrival.
 
-**Why it works:** Response expectancy theory, Hypnotic induction.
+**Why it works:** Hypnotic induction, Response expectancy theory.
 
 
 ### Visualization induction *(unit)*
@@ -337,7 +337,7 @@ Guided imagery used as the entry procedure. The listener is walked into a place,
 
 **Evidence:** clinical-tradition. Imagery inductions are standard in clinical texts and perform like other inductions; response depends on the listener's imagery ability and absorption, and a minority report no visual imagery at all.
 
-**Why it works:** Absorption (trait), Narrative transportation, Hypnotic induction.
+**Why it works:** Absorption (trait), Hypnotic induction, Narrative transportation.
 
 
 ### Confusion induction *(unit)*
@@ -360,7 +360,7 @@ The confusion technique used as the whole induction. The writer keeps up a run o
 
 **Evidence:** practitioner-lore. Rests on Erickson's case reports; the related disrupt-then-reframe effect has experimental support for compliance, but the confusion induction itself has no controlled test. Source: Erickson, 'The confusion technique in hypnosis', American Journal of Clinical Hypnosis (1964).
 
-**Why it works:** Ericksonian confusion technique, Confusion-restructuring, Cognitive load, Distraction-induced persuasion.
+**Why it works:** Cognitive load, Confusion-restructuring, Distraction-induced persuasion, Ericksonian confusion technique.
 
 **Consent:** It works by wearing down the listener's evaluation, so use it only where the listener has agreed to be hypnotized.
 
@@ -385,7 +385,7 @@ Cognitive overload used as the induction. The writer stacks simultaneous demands
 
 **Evidence:** practitioner-lore. Working-memory limits are well established and distraction can reduce counter-arguing, but the claim that overflowing '7 plus or minus 2' items produces trance is an NLP teaching, not a tested result.
 
-**Why it works:** Cognitive load, Working-memory interference, Distraction-induced persuasion.
+**Why it works:** Cognitive load, Distraction-induced persuasion, Working-memory interference.
 
 **Consent:** It works by crowding out evaluation, so use it only where the listener has agreed to be hypnotized.
 
@@ -410,7 +410,7 @@ An induction that takes a few seconds. It has three parts: a setup that fixes at
 
 **Evidence:** practitioner-lore. Widely used in stage and street hypnosis; a few small studies suggest brief inductions do about as well as long ones on suggestibility scores, but the startle-gap explanation is untested and subjects are usually preselected.
 
-**Why it works:** Pattern interruption, Expectation violation, Orienting response, Response expectancy theory, Demand characteristics.
+**Why it works:** Demand characteristics, Expectation violation, Orienting response, Pattern interruption, Response expectancy theory, Task-set inertia.
 
 **Consent:** Involves surprise and usually touch; get agreement to both beforehand and screen for injury risk.
 
@@ -433,7 +433,7 @@ A rapid induction built on the handshake, which runs automatically once begun. T
 
 **Evidence:** practitioner-lore. Known from Erickson's own descriptions and NLP demonstrations; no controlled study, and reports come from settings where the subject expected hypnosis. Source: Erickson, Rossi & Rossi, Hypnotic Realities (1976).
 
-**Why it works:** Pattern interruption, Automaticity, Expectation violation, Demand characteristics.
+**Why it works:** Automaticity, Demand characteristics, Expectation violation, Pattern interruption, Task-set inertia.
 
 **Consent:** Done without warning it is touch and hypnosis without consent; use only with someone who has agreed to be hypnotized by you.
 
@@ -456,7 +456,7 @@ A rapid induction in which the listener pushes down on the operator's upturned p
 
 **Evidence:** practitioner-lore. A stage and street-hypnosis standard with no controlled testing; it is usually shown on volunteers already selected for responsiveness.
 
-**Why it works:** Expectation violation, Orienting response, Response expectancy theory, Demand characteristics.
+**Why it works:** Demand characteristics, Expectation violation, Orienting response, Pattern interruption, Response expectancy theory.
 
 **Consent:** Involves touch, startle and a risk of slumping; agree it beforehand and support the listener.
 
@@ -479,7 +479,7 @@ A rapid induction in which the operator holds the listener's hand or wrist, fixe
 
 **Evidence:** practitioner-lore. Stage practice with no controlled testing; hypnosis trainers themselves warn about neck and shoulder injury.
 
-**Why it works:** Expectation violation, Orienting response, Demand characteristics, Response expectancy theory.
+**Why it works:** Demand characteristics, Expectation violation, Orienting response, Pattern interruption, Response expectancy theory.
 
 **Consent:** Physical risk and surprise touch: explicit prior agreement and injury screening are required.
 
@@ -509,7 +509,7 @@ There is no 'close your eyes' and no count. The writer talks, apparently about s
 
 **Evidence:** practitioner-lore. Central to Ericksonian practice, but controlled studies have not found indirect or naturalistic approaches more effective than direct ones, and what counts as trance here is poorly defined. Source: Erickson, Rossi & Rossi, Hypnotic Realities (1976).
 
-**Why it works:** Conversational hypnosis, Pacing and leading, Utilization, Indirect suggestion, Absorption (trait).
+**Why it works:** Absorption (trait), Conversational hypnosis, Indirect suggestion, Nonhypnotic suggestibility, Pacing and leading, Persuasion Knowledge Model, Utilization.
 
 **Consent:** Because nothing marks the start, make sure the listener has agreed to hypnosis before the conversation begins.
 
@@ -534,7 +534,7 @@ The listener is not told that an induction is taking place. The procedure is giv
 
 **Evidence:** practitioner-lore. Claims that people can be hypnotized without knowing are sold widely and supported poorly; hypnotic responding depends heavily on the listener expecting and accepting hypnosis.
 
-**Why it works:** Persuasion Knowledge Model, Epistemic vigilance, Narrative transportation, Conversational hypnosis.
+**Why it works:** Conversational hypnosis, Epistemic vigilance, Forewarning effect, Narrative transportation, Nonhypnotic suggestibility, Persuasion Knowledge Model.
 
 **Consent:** Works by the listener not knowing; legitimate only under prior, specific agreement to surprise inductions, and never on someone who has not consented to hypnosis.
 
@@ -559,7 +559,7 @@ Revivification used to induce. The listener is asked to remember the last time t
 
 **Evidence:** practitioner-lore. Taught in Ericksonian and NLP training; recalling a state does partly reinstate it, but this induction has not been tested against others.
 
-**Why it works:** State-dependent memory, Response expectancy theory, Absorption (trait).
+**Why it works:** Absorption (trait), Familiarity heuristic, Response expectancy theory, State-dependent memory.
 
 
 ### Pretend / as-if induction *(unit)*
@@ -582,7 +582,7 @@ The listener is asked to behave as a deeply hypnotized person would: go limp, cl
 
 **Evidence:** experimental. Task-motivated and imagination instructions produce much of the response that hypnotic inductions do, which supports the method; whether pretending 'becomes' real trance depends on what trance is taken to be.
 
-**Why it works:** Sociocognitive theory of hypnosis, Response expectancy theory, Self-perception theory, Demand characteristics.
+**Why it works:** Cognitive decoupling, Demand characteristics, Response expectancy theory, Self-perception theory, Sociocognitive theory of hypnosis, Suspension of disbelief.
 
 
 ### Repetition induction *(unit)*
@@ -605,7 +605,7 @@ The induction is sustained repetition and little else. One line, or a loop of th
 
 **Evidence:** practitioner-lore. Repetitive focus is common to meditation and hypnosis and plausibly reduces vigilance through habituation; as a named induction it has not been tested.
 
-**Why it works:** Habituation, Attentional tunneling, Processing fluency, Mere-exposure effect.
+**Why it works:** Attentional tunneling, Habituation, Mere-exposure effect, Orienting response, Processing fluency.
 
 
 ### Ideomotor induction *(unit)*
@@ -628,7 +628,7 @@ The listener holds a posture and attends to it while the writer suggests a movem
 
 **Evidence:** experimental. The ideomotor effect is well demonstrated and motor suggestions are the easiest items on hypnotizability scales; their advantage as an induction over other methods is not established.
 
-**Why it works:** Ideomotor effect, Cold control theory, Response expectancy theory, Automaticity.
+**Why it works:** Automaticity, Cold control theory, Ideomotor effect, Response expectancy theory.
 
 
 #### Arm levitation *(variant)*
@@ -651,7 +651,7 @@ An ideomotor induction in which one hand, resting on the thigh, is suggested to 
 
 **Evidence:** clinical-tradition. A standard clinical induction and a scale item; a substantial minority do not respond, and no study shows it gives a better trance than simpler methods. Source: Milton H. Erickson, Historical Note on the Hand Levitation and Other Ideomotor Techniques, American Journal of Clinical Hypnosis (1961).
 
-**Why it works:** Ideomotor effect, Cold control theory, Response expectancy theory.
+**Why it works:** Cold control theory, Ideomotor effect, Response expectancy theory.
 
 
 #### Magnetic hands *(variant)*
@@ -704,7 +704,7 @@ A fixed sequence of about three to four minutes devised by Dave Elman for medica
 
 **Evidence:** clinical-tradition. Among the most widely taught inductions in lay and clinical training; Elman's claims about reaching defined depths such as 'somnambulism' are his own framework and are not validated. Source: Elman, Hypnotherapy (1964).
 
-**Why it works:** Critical faculty (Elman), Response expectancy theory, Self-perception theory, Hypnotic induction.
+**Why it works:** Critical faculty (Elman), Hypnotic induction, Response expectancy theory, Self-perception theory.
 
 
 ### Betty Erickson 5-4-3-2-1 *(recipe)*
@@ -733,7 +733,7 @@ A self-hypnosis induction attributed to Elizabeth (Betty) Erickson. The listener
 
 **Evidence:** practitioner-lore. Passed down through NLP and Ericksonian teaching and credited to Betty Erickson; no controlled study, though a similar 5-4-3-2-1 exercise is widely used informally as an anxiety grounding technique.
 
-**Why it works:** Pacing and leading, Working-memory interference, Attentional tunneling.
+**Why it works:** Attentional tunneling, Pacing and leading, Working-memory interference.
 
 
 ### Double induction *(recipe)*
@@ -762,7 +762,7 @@ Two speakers, or two recorded tracks, deliver different induction text simultane
 
 **Evidence:** practitioner-lore. Listeners cannot follow two speech streams at once, which is well established; claims that the unattended voice 'reaches the unconscious' or that the two ears address separate brain hemispheres are not supported.
 
-**Why it works:** Cognitive load, Working-memory interference, Distraction-induced persuasion.
+**Why it works:** Cognitive load, Distraction-induced persuasion, Working-memory interference.
 
 **Consent:** The listener cannot fully monitor either track, so describe the content of both in the file description.
 
@@ -787,7 +787,7 @@ One real sensation is chosen: the weight of a hand, warmth in the palms, a tingl
 
 **Evidence:** clinical-tradition. Focusing on a body sensation is a common element of clinical inductions and of autogenic and mindfulness practice; it has not been evaluated as a distinct induction.
 
-**Why it works:** Attentional tunneling, Absorption (trait), Response expectancy theory.
+**Why it works:** Absorption (trait), Attentional tunneling, Response expectancy theory.
 
 
 #### Arousal-focus induction *(variant)*
@@ -810,7 +810,7 @@ A sensation-focus induction in which the chosen sensation is arousal. The writer
 
 **Evidence:** practitioner-lore. Common in erotic hypnosis recordings with no formal study; sexual arousal is known to narrow attention and weaken risk judgement, which fits the practice and is also the reason for care.
 
-**Why it works:** Attentional tunneling, Absorption (trait).
+**Why it works:** Absorption (trait), Attentional tunneling, Misattribution of arousal.
 
 **Consent:** Arousal lowers judgement, so agree the content and its limits beforehand, not once the listener is aroused.
 
@@ -835,7 +835,7 @@ The firing, as an induction, of a posthypnotic cue for trance: a word, phrase, s
 
 **Evidence:** clinical-tradition. Cued re-induction is a standard clinical convenience and responsive subjects do respond quickly; this is best explained by expectation and practice, and there is no evidence a cue can force trance on an unwilling person.
 
-**Why it works:** Posthypnotic suggestion, Response expectancy theory, Classical conditioning, Automaticity.
+**Why it works:** Automaticity, Classical conditioning, Posthypnotic suggestion, Response expectancy theory, State-dependent memory.
 
 **Consent:** The cue persists after the session; agree who may use it and under what conditions, and never fire it on someone who has not agreed in the present moment.
 
@@ -862,7 +862,7 @@ A little harder to look away from.
 
 **Evidence:** practitioner-lore. A convention of online text hypnosis with no formal study; absorption in reading is real and well described, but whether it amounts to hypnosis has not been tested.
 
-**Why it works:** Pacing and leading, Absorption (trait), Narrative transportation, Self-reference effect.
+**Why it works:** Absorption (trait), Narrative transportation, Pacing and leading, Self-reference effect.
 
 
 ### Waking hypnosis *(unit)*
@@ -885,7 +885,7 @@ An induction that narrows attention and builds responsiveness while the listener
 
 **Evidence:** experimental. Controlled comparisons, beginning with Banyai and Hilgard's active-alert induction in 1976, find alert eyes-open inductions raise suggestibility about as much as relaxation inductions, so relaxation is not required; whether 'waking hypnosis' is a state or simply suggestion given to an attentive person is unsettled. Source: Wesley R. Wells, Experiments in Waking Suggestion for Instructional Purposes, Journal of Abnormal and Social Psychology (1924).
 
-**Why it works:** Hypnotic induction, Nonhypnotic suggestibility, Response expectancy theory, Sociocognitive theory of hypnosis, Attentional tunneling.
+**Why it works:** Attentional tunneling, Conversational hypnosis, Hypnotic induction, Nonhypnotic suggestibility, Response expectancy theory, Sociocognitive theory of hypnosis.
 
 **Consent:** Nothing looks or feels like the usual trance, so the listener can miss that hypnosis has begun; announce it, and cancel tested suggestions before ending.
 
@@ -918,7 +918,7 @@ A fixed opening used in the Monroe Institute's Gateway audio course. The listene
 
 **Evidence:** practitioner-lore. The relaxation and breathing steps are ordinary and reliable; studies of the Hemi-Sync tones are mixed, and the program's claims about expanded or out-of-body states are not supported by controlled evidence. Source: The Monroe Institute, The Gateway Experience: Wave I—Discovery, audio course (1989).
 
-**Why it works:** Response expectancy theory, Placebo effect, Hypnotic induction, Absorption (trait).
+**Why it works:** Absorption (trait), Hypnotic induction, Placebo effect, Response expectancy theory.
 
 
 ## Deepening
@@ -931,7 +931,7 @@ Deepening is anything said after the first signs of trance that asks the listene
 
 **Not to be confused with:** Induction (induction starts trance from ordinary attention; deepening presupposes it has started); Deepener section (that is the section of the script; this family is the devices used inside it); Convincers and tests (a convincer proves the state to the listener; a deepener asks for more of it).
 
-**Why it works:** Response expectancy theory, Hypnotic induction, Absorption (trait), Sociocognitive theory of hypnosis.
+**Why it works:** Absorption (trait), Hypnotic induction, Response expectancy theory, Sociocognitive theory of hypnosis.
 
 
 ### Countdown deepener *(unit)*
@@ -954,7 +954,7 @@ A count in which every number is tied to an increase in depth, with a stated end
 
 **Evidence:** clinical-tradition. Found in nearly every clinical and stage script; no controlled study shows counting deepens more than any other credible instruction, and its effect is best explained by expectancy.
 
-**Why it works:** Response expectancy theory, Demand characteristics.
+**Why it works:** Demand characteristics, Response expectancy theory.
 
 
 ### Descent imagery *(unit)*
@@ -977,7 +977,7 @@ An imagined downward movement in which distance travelled stands for depth of tr
 
 **Evidence:** clinical-tradition. A stock deepener in clinical texts; imagery raises reported depth in people who absorb easily, but nothing shows descent imagery beats other deepeners.
 
-**Why it works:** Response expectancy theory, Absorption (trait), Narrative transportation.
+**Why it works:** Absorption (trait), Event segmentation theory, Narrative transportation, Response expectancy theory, Situation-model updating.
 
 
 #### False bottom *(variant)*
@@ -1000,7 +1000,7 @@ A turn applied to descent imagery or a countdown: the end point the listener was
 
 **Evidence:** practitioner-lore. A stock move in stage, recorded and erotic hypnosis scripts with no controlled test; that judgments of depth shift against a just-set reference point is plausible from contrast research, but untested here.
 
-**Why it works:** Contrast effect, Expectation violation, Response expectancy theory, Anchoring effect (judgment).
+**Why it works:** Anchoring effect (judgment), Contrast effect, Expectation violation, Response expectancy theory.
 
 **Consent:** It works by breaking a stated end point, so it should not be used on a limit the listener agreed to in advance (session length, how far the content goes); keep it to the depth image.
 
@@ -1025,7 +1025,7 @@ Repeated interruption and resumption of trance, with each re-entry suggested to 
 
 **Evidence:** clinical-tradition. Taught as one of the most reliable deepeners. No controlled study isolates fractionation as raising suggestibility more than the same time spent on another deepener; quicker re-entry with repeated cycles is a practitioner observation.
 
-**Why it works:** Contrast effect, Response expectancy theory, Classical conditioning, Self-perception theory.
+**Why it works:** Classical conditioning, Contrast effect, Response expectancy theory, Self-perception theory.
 
 
 ### Breath-linked deepening *(unit)*
@@ -1048,7 +1048,7 @@ A contingent suggestion whose trigger is the breath: each exhale, which is certa
 
 **Evidence:** clinical-tradition. Slow exhalation does lower arousal, which is well studied; that tying 'deeper' to it increases hypnotic responding has not been tested separately.
 
-**Why it works:** Response expectancy theory, Pacing and leading, Classical conditioning.
+**Why it works:** Classical conditioning, Pacing and leading, Response expectancy theory.
 
 
 ### Everything deepens *(unit)*
@@ -1071,7 +1071,7 @@ A blanket contingent suggestion: an open class of stimuli (the voice, each word,
 
 **Evidence:** clinical-tradition. Standard practice with a clear rationale (it removes reasons to judge the session as failing); its separate effect has not been measured.
 
-**Why it works:** Utilization, Response expectancy theory, Classical conditioning.
+**Why it works:** Classical conditioning, Response expectancy theory, Utilization.
 
 **Consent:** Exclude genuine emergencies from 'everything': a listener told that every sound deepens should also be told that anything needing attention will rouse them.
 
@@ -1096,7 +1096,7 @@ A marked gap in the speech, framed in advance as time in which the listener goes
 
 **Evidence:** clinical-tradition. Common in clinical and recorded work; no controlled comparison exists, and unframed silence is known to bring some listeners up.
 
-**Why it works:** Response expectancy theory, Absorption (trait).
+**Why it works:** Absorption (trait), Response expectancy theory.
 
 
 ### Losing the numbers *(unit)*
@@ -1119,7 +1119,7 @@ The listener does the counting, aloud in person or inwardly on a recording, and 
 
 **Evidence:** practitioner-lore. Central to the Elman method and widely taught; suggested amnesia is real and studied, but the claim that losing the numbers marks 'somnambulism' has no independent support. Source: Elman, Hypnotherapy (1964).
 
-**Why it works:** Hypnotic amnesia, Response expectancy theory, Critical faculty (Elman), Cold control theory.
+**Why it works:** Cold control theory, Critical faculty (Elman), Hypnotic amnesia, Response expectancy theory, Working-memory interference.
 
 
 ### Depth scale *(unit)*
@@ -1142,7 +1142,7 @@ Depth is turned into a quantity on a named scale: one to ten, zero to a hundred,
 
 **Evidence:** clinical-tradition. Self-reported depth numbers were studied as a measure and track responsiveness moderately; using the scale as a control that the listener turns is clinical practice without controlled tests. Source: Charles T. Tart, Self-report scales of hypnotic depth, International Journal of Clinical and Experimental Hypnosis (1970).
 
-**Why it works:** Anchoring effect (judgment), Response expectancy theory, Self-perception theory, Demand characteristics.
+**Why it works:** Anchoring effect (judgment), Construct validity, Demand characteristics, Response expectancy theory, Self-perception theory.
 
 
 ### Mind-blanking *(unit)*
@@ -1165,7 +1165,7 @@ A suggestion aimed at thinking itself: inner talk gets slower, fainter, further 
 
 **Evidence:** clinical-tradition. Reduced spontaneous thought is a commonly reported feature of hypnosis in responsive people; direct commands to suppress thoughts are experimentally shown to backfire, so phrasing matters.
 
-**Why it works:** Ironic process theory, Response expectancy theory, Absorption (trait), Metacognitive monitoring.
+**Why it works:** Absorption (trait), Ironic process theory, Metacognitive monitoring, Response expectancy theory.
 
 **Consent:** State that the blankness lasts only for the session unless the listener has agreed to more, and restore clear thinking at emergence.
 
@@ -1190,7 +1190,7 @@ A suggested change in felt body weight, used as both a deepener and a marker. He
 
 **Evidence:** clinical-tradition. Limb heaviness is a standard item in autogenic training and suggestibility scales and most people can produce it; its value as a deepener rests on practice, not controlled tests.
 
-**Why it works:** Response expectancy theory, Ideomotor effect, Self-perception theory.
+**Why it works:** Ideomotor effect, Response expectancy theory, Self-perception theory.
 
 
 ### Physical drop deepener *(unit)*
@@ -1213,7 +1213,7 @@ A deepener in which a real physical event, a limb falling limp into the lap, is 
 
 **Evidence:** practitioner-lore. A staple of stage and Elman-style practice; no controlled work, and the effect is plausibly the same expectancy and timing as any contingent suggestion.
 
-**Why it works:** Response expectancy theory, Classical conditioning.
+**Why it works:** Classical conditioning, Response expectancy theory.
 
 **Consent:** In-person versions involve touch; agree on it in the pre-talk.
 
@@ -1238,7 +1238,7 @@ A deepener in which pleasure, comfort, or in erotic scripts arousal, is linked t
 
 **Evidence:** practitioner-lore. Near-universal in recreational and erotic scripts and consistent with reinforcement principles; never tested as a deepener.
 
-**Why it works:** Operant conditioning, Classical conditioning, Response expectancy theory, Misattribution of arousal.
+**Why it works:** Classical conditioning, Misattribution of arousal, Operant conditioning, Response expectancy theory.
 
 **Consent:** It makes trance itself rewarding and so encourages repeat listening; erotic versions need the listener's agreement to that content beforehand.
 
@@ -1263,7 +1263,7 @@ The trance signs and deepening suggestions are attached to a third party: a char
 
 **Evidence:** practitioner-lore. Watching a responsive model does raise hypnotic responding in controlled studies; the scripted, narrated version in recordings has not been tested.
 
-**Why it works:** Social learning theory, Character identification, Narrative transportation, Response expectancy theory, Indirect suggestion.
+**Why it works:** Character identification, Indirect suggestion, Informational social influence, Moral exemplification, Narrative transportation, Response expectancy theory, Social learning theory, Social proof.
 
 **Consent:** The listener is deepened without being addressed, so they may not notice it happening; when the passage sits inside a story, say in the description that the piece is hypnotic.
 
@@ -1288,7 +1288,7 @@ A second induction carried out within the imagery of the first: the imagined sel
 
 **Evidence:** practitioner-lore. Used by clinicians and popular in recreational scripts, with good subjective reports from people who absorb easily; no controlled evidence that layers add depth.
 
-**Why it works:** Absorption (trait), Narrative transportation, Response expectancy theory, Cognitive decoupling.
+**Why it works:** Absorption (trait), Cognitive decoupling, Narrative transportation, Response expectancy theory.
 
 **Consent:** Bring the listener out through every layer and finish with a full reorientation; a skipped layer can leave them feeling not quite awake.
 
@@ -1313,7 +1313,7 @@ A deepener in which the listener stays still and something else moves toward the
 
 **Evidence:** practitioner-lore. Common in recorded and erotic hypnosis scripts and absent as a named technique from clinical texts; nothing shows it deepens more than any other credible instruction, and its effect is best explained by expectancy and absorption in the image.
 
-**Why it works:** Response expectancy theory, Absorption (trait), Attentional capture, Narrative closure.
+**Why it works:** Absorption (trait), Attentional capture, Narrative closure, Response expectancy theory.
 
 
 ## Emergence
@@ -1326,7 +1326,7 @@ Emergence groups devices that end a session or govern its ending. Its exits incl
 
 **Not to be confused with:** Emergence section (the section is the place in the script; the family is the set of devices used there); Fractionation (a wake that exists only to be followed by another drop is deepening, not an ending); Emergency wake (an emergency wake is a standing instruction given early, not the planned exit).
 
-**Why it works:** Response expectancy theory, Sociocognitive theory of hypnosis, Event segmentation theory.
+**Why it works:** Event segmentation theory, Response expectancy theory, Sociocognitive theory of hypnosis.
 
 **Consent:** The ending decides what the listener leaves with; any exit that leaves trance, suggestions or forgetting in place should be disclosed before the session starts.
 
@@ -1399,7 +1399,7 @@ A wake that is explicitly incomplete: some faculties are restored (eyes open, ab
 
 **Evidence:** clinical-tradition. Hypnotized subjects respond to suggestion with eyes open and moving about, and waking suggestion without any induction also works; whether a declared 'continuing trance' is a distinct state is not established.
 
-**Why it works:** Response expectancy theory, Sociocognitive theory of hypnosis, Nonhypnotic suggestibility, Posthypnotic suggestion.
+**Why it works:** Nonhypnotic suggestibility, Posthypnotic suggestion, Response expectancy theory, Sociocognitive theory of hypnosis.
 
 **Consent:** The listener goes on acting while told they are still suggestible, so this needs prior agreement, a stated end condition, and a full wake available on demand.
 
@@ -1424,7 +1424,7 @@ An ending for bedtime files in which the script hands the listener to natural sl
 
 **Evidence:** clinical-tradition. Hypnosis and relaxation recordings for sleep have some controlled support; whether unterminated suggestions behave differently after sleep than after a formal wake has not been tested.
 
-**Why it works:** Response expectancy theory, Hypnotic induction.
+**Why it works:** Hypnotic induction, Response expectancy theory.
 
 **Consent:** The session is never formally closed, so nothing that should be cancelled may be left running, and the description must say the file ends in sleep.
 
@@ -1449,7 +1449,7 @@ An ending that is a join: the final passage matches the opening in wording, stat
 
 **Evidence:** practitioner-lore. Repetition increases familiarity and recall of the repeated lines; no study has compared looped files with terminated ones, and nothing shows looping adds effect beyond the extra exposure.
 
-**Why it works:** Mere-exposure effect, Illusory truth effect, Habituation.
+**Why it works:** Habituation, Illusory truth effect, Mere-exposure effect.
 
 **Consent:** A loop has no built-in exit, so the listener must be told how to stop and should have an emergency wake inside the loop.
 
@@ -1474,7 +1474,7 @@ A posthypnotic suggestion about future trance itself: its speed, depth and ease.
 
 **Evidence:** clinical-tradition. Routine in clinical scripts, and practitioners report that returning subjects go under more quickly; this has not been measured with the suggestion separated from simple familiarity, and hypnotizability scores are fairly stable, so the promise of ever-greater depth outruns the evidence.
 
-**Why it works:** Posthypnotic suggestion, Response expectancy theory, Hypnotizability.
+**Why it works:** Hypnotizability, Posthypnotic suggestion, Response expectancy theory.
 
 **Consent:** It shapes future sessions, so it should be limited to occasions the listener chooses and to the intended voice or series.
 
@@ -1499,7 +1499,7 @@ A permissive exit in which the writer gives the instruction to return and leaves
 
 **Evidence:** clinical-tradition. Common in permissive and Ericksonian practice; no controlled comparison with counted wakes exists, and claims that it integrates the work better are untested.
 
-**Why it works:** Self-determination theory, Psychological reactance, Response expectancy theory.
+**Why it works:** Psychological reactance, Response expectancy theory, Self-determination theory.
 
 
 ### Reorientation check *(unit)*
@@ -1522,7 +1522,7 @@ An itemized return to baseline: the script names what goes back to normal (weigh
 
 **Evidence:** clinical-tradition. Clinical texts require cancelling suggested effects before ending, and surveys report transient after-effects such as drowsiness or headache in a minority of subjects; whether explicit reorientation reduces them has not been tested directly.
 
-**Why it works:** Response expectancy theory, Posthypnotic suggestion.
+**Why it works:** Abreaction, Posthypnotic suggestion, Response expectancy theory.
 
 
 ### Wellbeing suggestions *(unit)*
@@ -1545,7 +1545,7 @@ Wellbeing suggestions are general, non-specific positive suggestions for rest, c
 
 **Evidence:** clinical-tradition. Ego strengthening is standard in clinical texts; its specific added benefit over the rest of a session has little controlled evidence. Source: John Hartland, The Value of ‘Ego-Strengthening’ Procedures Prior to Direct Symptom-Removal under Hypnosis, American Journal of Clinical Hypnosis (1965).
 
-**Why it works:** Response expectancy theory, Placebo effect.
+**Why it works:** Placebo effect, Response expectancy theory.
 
 **Consent:** These suggestions are meant to last past the session, so the content note should say the file includes them. Keep them general; tying the good feeling to the speaker or to listening again turns them into dependency.
 
@@ -1570,7 +1570,7 @@ A suggestion about the exit, given before the exit: waking is made to depend on 
 
 **Evidence:** practitioner-lore. Common in recreational and stage scripts; there is no evidence that anyone can be held in hypnosis against their wish, and in research where the hypnotist stopped without ending the session, subjects came out on their own within minutes.
 
-**Why it works:** Response expectancy theory, Sociocognitive theory of hypnosis, Demand characteristics, Cold control theory.
+**Why it works:** Cold control theory, Demand characteristics, Response expectancy theory, Sociocognitive theory of hypnosis.
 
 **Consent:** It tells the listener they cannot stop, so it needs agreement beforehand, an emergency wake that overrides it, and a condition the script actually delivers; never leave it unresolved at the end of a file.
 
@@ -1585,7 +1585,7 @@ This family covers the sentence-level shape of one suggestion, independent of wh
 
 **Not to be confused with:** Presupposition and implication (nested family for claims carried in a sentence's background, not its main assertion); Artful vagueness (nested family for patterns that work by leaving content unspecified); Rhetoric, rhythm and sound (figures of repetition and sound shape the texture of a passage, not the form of one suggestion).
 
-**Why it works:** Direct verbal suggestion, Indirect suggestion, Response expectancy theory, Hypnotic suggestibility.
+**Why it works:** Direct verbal suggestion, Hypnotic suggestibility, Indirect suggestion, Response expectancy theory.
 
 
 ### Direct suggestion *(unit)*
@@ -1608,7 +1608,7 @@ A direct suggestion names the response openly and tells the listener to produce 
 
 **Evidence:** experimental. Direct verbal suggestions are the items on the standard hypnotizability scales and reliably produce responses in a proportion of people; response depends far more on the listener's suggestibility and expectancy than on wording.
 
-**Why it works:** Direct verbal suggestion, Hypnotic suggestibility, Response expectancy theory, Authority principle.
+**Why it works:** Authority principle, Direct verbal suggestion, Hypnotic suggestibility, Illocutionary force, Indirect suggestion, Response expectancy theory.
 
 
 ### Indirect suggestion *(unit)*
@@ -1631,7 +1631,7 @@ An indirect suggestion points at the response without commanding it and often wi
 
 **Evidence:** contested. The claim that indirect wording works better or gets past resistance is not supported; controlled comparisons generally find direct and indirect suggestions about equally effective, though indirect ones may feel less effortful. Source: Erickson, Rossi & Rossi, Hypnotic Realities (1976).
 
-**Why it works:** Indirect suggestion, Psychological reactance, Conversational implicature, Pragmatic enrichment, Milton Model.
+**Why it works:** Conversational implicature, Counterarguing, Illocutionary force, Indirect suggestion, Milton Model, Pragmatic enrichment, Psychological reactance.
 
 **Consent:** Because the listener may not register that a suggestion was made, tell them beforehand what the session is for.
 
@@ -1656,7 +1656,7 @@ A permissive suggestion names the response openly but frames it as an ability or
 
 **Evidence:** clinical-tradition. Standard in clinical texts; studies comparing permissive and authoritarian wording find little overall difference in response, with some listeners preferring one style.
 
-**Why it works:** Psychological reactance, Self-determination theory, Response expectancy theory.
+**Why it works:** Illocutionary force, Indirect suggestion, Psychological reactance, Response expectancy theory, Self-determination theory.
 
 
 ### Contingent suggestion *(unit)*
@@ -1679,7 +1679,7 @@ A contingent suggestion makes the response depend on an ongoing or inevitable ev
 
 **Evidence:** clinical-tradition. A standard clinical form; the linking has not been tested in isolation, though tying a response to a cue is well supported in other fields. Source: Erickson & Rossi, Hypnotherapy: An Exploratory Casebook (1979).
 
-**Why it works:** Pacing and leading, Response expectancy theory, Classical conditioning, Implementation intentions.
+**Why it works:** Classical conditioning, Implementation intentions, Pacing and leading, Response expectancy theory.
 
 
 #### Stepwise doubling *(variant)*
@@ -1702,7 +1702,7 @@ A contingent suggestion whose second half is a quantified increase of a state th
 
 **Evidence:** practitioner-lore. Standard wording in stage and Elman-style scripts; no study tests the multiplier, listeners cannot verify a doubling, and any effect is best explained by expectancy and by numeric anchoring of reported depth.
 
-**Why it works:** Response expectancy theory, Anchoring effect (judgment), Demand characteristics, Contrast effect.
+**Why it works:** Anchoring effect (judgment), Contrast effect, Demand characteristics, Response expectancy theory, Scope neglect.
 
 
 ### Compound suggestion *(unit)*
@@ -1725,7 +1725,7 @@ A compound suggestion is one sentence with two halves joined by a plain conjunct
 
 **Evidence:** clinical-tradition. Described in Ericksonian texts; whether the conjunction itself transfers acceptance has not been tested. Source: Erickson & Rossi, Hypnotherapy: An Exploratory Casebook (1979).
 
-**Why it works:** Pacing and leading, Mere-agreement effect / acquiescence, Processing fluency.
+**Why it works:** Mere-agreement effect / acquiescence, Pacing and leading, Processing fluency.
 
 
 ### Truism *(unit)*
@@ -1748,7 +1748,7 @@ A truism is a general statement the listener cannot reasonably dispute: about ho
 
 **Evidence:** clinical-tradition. Standard in Ericksonian texts; acquiescence after agreement has some experimental support, but truisms as a hypnotic form have not been tested alone. Source: Erickson & Rossi, Hypnotherapy: An Exploratory Casebook (1979).
 
-**Why it works:** Mere-agreement effect / acquiescence, Common ground, Processing fluency, Priming.
+**Why it works:** Cognitive ease, Common ground, Counter-attitudinal processing, Counterarguing, Epistemic vigilance, Familiarity heuristic, Mere-agreement effect / acquiescence, Pacing and leading, Priming, Processing fluency, Trust calibration.
 
 
 ### Embedded command *(unit)*
@@ -1771,7 +1771,7 @@ An embedded command is a string of words that would be an imperative if lifted o
 
 **Evidence:** practitioner-lore. Widely taught, but there is no controlled evidence that an embedded phrase is processed as a separate command or works outside awareness. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Vol. 1 (1975).
 
-**Why it works:** Embedded commands, Milton Model, Analog marking, Priming.
+**Why it works:** Analog marking, Embedded commands, Illocutionary force, Indirect suggestion, Interspersal technique, Milton Model, Priming.
 
 **Consent:** It is meant to work without the listener noticing a command, so use it only where the listener has agreed to receive suggestions of that kind.
 
@@ -1796,7 +1796,7 @@ Interspersal threads suggestion words (comfort, ease, resting, letting go) at in
 
 **Evidence:** clinical-tradition. Rests on Erickson's case reports; semantic priming is real but small and short-lived, and interspersal has not been shown in controlled work to produce the clinical effects claimed. Source: Erickson, 'The interspersal hypnotic technique for symptom correction and pain control', American Journal of Clinical Hypnosis (1966).
 
-**Why it works:** Interspersal technique, Priming, Spreading activation, Narrative transportation.
+**Why it works:** Analog marking, Distraction-induced persuasion, Embedded commands, Extended Elaboration Likelihood Model, Interspersal technique, Narrative transportation, Priming, Spreading activation, Transportation-induced counterarguing reduction.
 
 **Consent:** It is designed to be missed, so the listener should have agreed beforehand to what is being suggested.
 
@@ -1821,7 +1821,7 @@ An embedded question is grammatically a statement ('I wonder how soon your eyes 
 
 **Evidence:** practitioner-lore. Indirect questions do carry their presuppositions, which is well studied; that the embedded form prompts a stronger or less guarded inner search than a plain question is untested. Source: Richard Bandler and John Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume I, Meta Publications (1975).
 
-**Why it works:** Presupposition, Presupposition accommodation, Illocutionary force, Milton Model.
+**Why it works:** Conversational implicature, Enthymematic persuasion, Generation effect, Illocutionary force, Milton Model, Presupposition, Presupposition accommodation.
 
 
 ### Conversational postulate *(unit)*
@@ -1844,7 +1844,7 @@ A conversational postulate is a question that literally asks whether the listene
 
 **Evidence:** practitioner-lore. Indirect requests are thoroughly studied in pragmatics and are simply understood as polite requests; no evidence shows they get more compliance in hypnosis than a plain instruction. Source: Richard Bandler and John Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume I, Meta Publications (1975).
 
-**Why it works:** Illocutionary force, Speech-act theory, Conversational implicature, Psychological reactance.
+**Why it works:** Conversational implicature, Illocutionary force, Psychological reactance, Speech-act theory.
 
 
 ### Tag question *(unit)*
@@ -1867,7 +1867,7 @@ A tag question is a two- or three-word question appended to a statement, usually
 
 **Evidence:** practitioner-lore. The hypnotic claim (it displaces resistance) is untested; persuasion research on tag questions is mixed, and they can make a speaker sound less certain. Source: Richard Bandler and John Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume I, Meta Publications (1975).
 
-**Why it works:** Mere-agreement effect / acquiescence, Milton Model, Common ground, Psychological reactance.
+**Why it works:** Common ground, Mere-agreement effect / acquiescence, Milton Model, Psychological reactance.
 
 
 ### Negative suggestion *(unit)*
@@ -1890,7 +1890,7 @@ A negative suggestion states the wanted response under 'don't', 'not', 'no need 
 
 **Evidence:** contested. Trying to suppress a thought can make it more frequent (ironic process research), but the popular claim that the unconscious cannot process negatives is false, and no study shows 'don't X' works as a suggestion to X.
 
-**Why it works:** Ironic process theory, Presupposition, Psychological reactance, Embedded commands.
+**Why it works:** Embedded commands, Ironic process theory, Presupposition, Psychological reactance.
 
 **Consent:** It asks for one thing while seeming to ask for its opposite, so the listener should know the session uses indirect wording.
 
@@ -1915,7 +1915,7 @@ This form removes the listener's job: they do not have to make anything happen, 
 
 **Evidence:** clinical-tradition. Standard clinical form; research supports that hypnotic responses are experienced as involuntary and that expectancy shapes this, but the wording itself has not been tested alone. Source: Erickson & Rossi, Hypnotherapy: An Exploratory Casebook (1979).
 
-**Why it works:** Response expectancy theory, Cold control theory, Automaticity, Dissociated control theory.
+**Why it works:** Automaticity, Cold control theory, Dissociated control theory, Response expectancy theory.
 
 
 ### Open-ended suggestion *(unit)*
@@ -1938,7 +1938,7 @@ An open-ended suggestion leaves the content of the response to the listener: som
 
 **Evidence:** clinical-tradition. Standard Ericksonian form; its value is avoiding visible failure, and it has not been tested against specific suggestions for effect. Source: Erickson & Rossi, Hypnotherapy: An Exploratory Casebook (1979).
 
-**Why it works:** Response expectancy theory, Indirect suggestion, Pragmatic enrichment, Milton Model.
+**Why it works:** Hypnotizability, Indirect suggestion, Milton Model, Pragmatic enrichment, Response expectancy theory.
 
 
 #### Covering all possibilities *(variant)*
@@ -1961,7 +1961,7 @@ The writer names the full range of responses within one class (lift, press down,
 
 **Evidence:** clinical-tradition. Described in Ericksonian texts as a way to make any response count; not tested separately. Source: Erickson & Rossi, Hypnotherapy: An Exploratory Casebook (1979).
 
-**Why it works:** Response expectancy theory, Indirect suggestion, Confirmation bias.
+**Why it works:** Confirmation bias, Hypnotizability, Indirect suggestion, Response expectancy theory.
 
 
 ### Implied directive *(unit)*
@@ -1984,7 +1984,7 @@ The implied directive has three parts: a time-binding opening ('as soon as', 'wh
 
 **Evidence:** clinical-tradition. A named Ericksonian form; ideomotor movement is real, but a signal shows only that the listener responded, not that the inner work described took place. Source: Erickson & Rossi, Hypnotherapy: An Exploratory Casebook (1979).
 
-**Why it works:** Ideomotor effect, Presupposition, Response expectancy theory, Demand characteristics.
+**Why it works:** Conversational implicature, Demand characteristics, Ideomotor effect, Illocutionary force, Presupposition, Response expectancy theory.
 
 
 ### Posthypnotic suggestion *(unit)*
@@ -2007,7 +2007,7 @@ A posthypnotic suggestion is defined by timing: it is given in trance and aimed 
 
 **Evidence:** experimental. Posthypnotic responding is documented in the laboratory, mainly in highly hypnotizable people; it depends on context and expectation, usually fades over days to weeks, and is not irresistible.
 
-**Why it works:** Posthypnotic suggestion, Implementation intentions, Response expectancy theory, Hypnotizability.
+**Why it works:** Automaticity, Hypnotizability, Implementation intentions, Posthypnotic suggestion, Response expectancy theory.
 
 **Consent:** The effect is meant to persist after the session, so the listener must know before starting what is being set, and the script should state its limits and how it ends.
 
@@ -2032,7 +2032,7 @@ The suggestion sits inside quotation: the speaker reports what someone else said
 
 **Evidence:** practitioner-lore. An NLP pattern without controlled tests; narrative research shows that content met inside a story draws less counterarguing, which is consistent with it but does not establish it. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Vol. 1 (1975).
 
-**Why it works:** Milton Model, Narrative persuasion, Counterarguing, Cognitive decoupling, Source-monitoring error.
+**Why it works:** Cognitive decoupling, Counterarguing, Milton Model, Narrative persuasion, Sleeper effect, Source-monitoring error.
 
 **Consent:** It lets a direct suggestion pass as storytelling, so use it only where the listener has agreed to be given suggestions.
 
@@ -2057,7 +2057,7 @@ The speaker directs a full induction or set of suggestions at someone else: an i
 
 **Evidence:** clinical-tradition. Rests on Erickson's own demonstrations and case descriptions; observational learning and modeling are well supported, but the technique has not been tested in controlled work. Source: Milton H. Erickson, The ‘Surprise’ and ‘My-Friend-John’ Techniques of Hypnosis: Minimal Cues and Natural Field Experimentation, American Journal of Clinical Hypnosis (1964).
 
-**Why it works:** Social learning theory, Character identification, Response expectancy theory, Ideomotor effect, Narrative transportation.
+**Why it works:** Character identification, Entertainment Overcoming Resistance Model, Ideomotor effect, Moral exemplification, Narrative persuasion, Narrative transportation, Response expectancy theory, Social learning theory, Social proof.
 
 **Consent:** The listener may not realize the session is aimed at them, so agree beforehand that hypnosis is what is taking place.
 
@@ -2082,7 +2082,7 @@ A challenge suggestion pairs a suggested inability (eyes will not open, arm will
 
 **Evidence:** experimental. Challenge items are part of the standard hypnotizability scales and are passed by a minority to about half of people depending on the item; the 'law of reversed effect' is a slogan, not an established law.
 
-**Why it works:** Hypnotic suggestibility, Response expectancy theory, Cold control theory, Self-perception theory, Ironic process theory.
+**Why it works:** Cold control theory, Hypnotic suggestibility, Ironic process theory, Response expectancy theory, Self-perception theory.
 
 **Consent:** It stages a loss of control, so the listener should have agreed to that kind of demonstration and the effect must be released explicitly.
 
@@ -2107,7 +2107,7 @@ This form yokes two quantities with a correlative comparative: 'the more you lis
 
 **Evidence:** practitioner-lore. A common form in Ericksonian and NLP scripts; not tested as a form.
 
-**Why it works:** Milton Model, Pacing and leading, Response expectancy theory.
+**Why it works:** Elaboration likelihood model, Milton Model, Misattribution of arousal, Pacing and leading, Response expectancy theory.
 
 
 #### Self-reinforcing loop *(variant)*
@@ -2130,7 +2130,7 @@ Two the-more-the-more links joined end to end so the second term feeds back into
 
 **Evidence:** practitioner-lore. A common pattern with an obvious logic; no study tests whether a stated loop keeps deepening going after it is said.
 
-**Why it works:** Response expectancy theory, Processing fluency, Milton Model.
+**Why it works:** Milton Model, Processing fluency, Response expectancy theory.
 
 **Consent:** Harmless for relaxation; when the looped terms are need, arousal or obedience, the loop is meant to be hard to exit and should be disclosed and bounded.
 
@@ -2178,7 +2178,7 @@ Ratification is a short acknowledgment placed directly after a response: 'that's
 
 **Evidence:** clinical-tradition. Standard practice; consistent with research on expectancy and on feedback raising response to later suggestions, but not tested as a wording. Source: Erickson, Rossi & Rossi, Hypnotic Realities (1976).
 
-**Why it works:** Response expectancy theory, Operant conditioning, Self-perception theory, Utilization.
+**Why it works:** Epistemic vigilance, Metacognitive monitoring, Misinformation effect, Operant conditioning, Response expectancy theory, Self-perception theory, Speech-act theory, Utilization.
 
 
 #### Pacing trance signs *(variant)*
@@ -2201,7 +2201,7 @@ The writer names small bodily changes that occur whenever someone sits quietly w
 
 **Evidence:** clinical-tradition. Standard in clinical texts; the signs named are those of ordinary relaxation and are not specific markers of hypnosis, though telling people they are responding does raise expectancy, which predicts response. Source: Erickson, Rossi & Rossi, Hypnotic Realities (1976).
 
-**Why it works:** Response expectancy theory, Self-perception theory, Pacing and leading, Sociocognitive theory of hypnosis, Demand characteristics.
+**Why it works:** Demand characteristics, Diagnosticity, Metacognitive monitoring, Pacing and leading, Response expectancy theory, Self-perception theory, Sociocognitive theory of hypnosis.
 
 **Consent:** It presents normal relaxation as proof of trance; this is fair inside an agreed session, but should not be used to persuade someone they are more affected than they are.
 
@@ -2226,7 +2226,7 @@ Two opposed states are suggested together and tied to each other: one hand light
 
 **Evidence:** clinical-tradition. A named Ericksonian form; perceptual contrast is well established, but this use of it has not been tested. Source: Erickson & Rossi, Hypnotherapy: An Exploratory Casebook (1979).
 
-**Why it works:** Contrast effect, Response expectancy theory, Indirect suggestion.
+**Why it works:** Contrast effect, Indirect suggestion, Response expectancy theory.
 
 
 ### Question as suggestion *(unit)*
@@ -2249,7 +2249,7 @@ A question is put to the listener whose answer requires turning attention to the
 
 **Evidence:** clinical-tradition. Clinical use is standard; research on leading questions shows that question wording can shape reports and memory, but effects on hypnotic response specifically are not measured. Source: Erickson & Rossi, Hypnotherapy: An Exploratory Casebook (1979).
 
-**Why it works:** Presupposition, Presupposition accommodation, Misinformation effect, Attentional capture, Indirect suggestion.
+**Why it works:** Attentional capture, Indirect suggestion, Loaded question, Misinformation effect, Presupposition, Presupposition accommodation.
 
 
 ### Suggestion repetition *(unit)*
@@ -2272,7 +2272,7 @@ The writer returns to one suggestion more than once within the session, either v
 
 **Evidence:** experimental. Repeated statements are judged more true and more familiar (illusory truth, mere exposure), and practice strengthens responses; the 'law of concentrated attention' is a teaching slogan, and how many repeats a hypnotic suggestion needs is not established.
 
-**Why it works:** Illusory truth effect, Mere-exposure effect, Processing fluency, Familiarity heuristic.
+**Why it works:** Agenda-setting, Cognitive ease, Cognitive fluency of rhyme (rhyme-as-reason), Elaboration likelihood model, Familiarity heuristic, Illusory truth effect, Manufactured consensus, Mere-exposure effect, Processing fluency.
 
 
 #### Deeper and deeper *(variant)*
@@ -2291,11 +2291,11 @@ Deepening by saturation: the direct suggestion 'deeper' is restated over and ove
 
 **Spot it by:** 'deeper and deeper', 'down and down', 'further and further'; high density of depth words (deeper, down, sink, drop, further) with no count or scene; 'deeper still', 'even deeper', 'deeper now'; short sentences or fragments ending in a depth word.
 
-**Not to be confused with:** Suggestion repetition (the general device of repeating any suggestion; this is its depth-word case, and takes both labels); Comparative deletion (labels 'deeper' when its comparison standard is omitted, even once; use this entry when depth words recur across a passage with no count, scene or contingency carrying them); Immediate repetition (a word repeated back to back as a figure; this is repetition spread across a passage); Repetition induction (a repeated phrase or loop used to start trance).
+**Not to be confused with:** Suggestion repetition (the general device of repeating any suggestion; this is its depth-word case, so label this one alone); Comparative deletion (labels 'deeper' when its comparison standard is omitted, even once; use this entry when depth words recur across a passage with no count, scene or contingency carrying them); Immediate repetition (a word repeated back to back as a figure; this is repetition spread across a passage); Repetition induction (a repeated phrase or loop used to start trance).
 
 **Evidence:** clinical-tradition. Repetition of suggestions is standard and repeated statements are experimentally rated as more true; whether repeating 'deeper' changes responsiveness has not been tested.
 
-**Why it works:** Illusory truth effect, Processing fluency, Response expectancy theory, Direct verbal suggestion.
+**Why it works:** Direct verbal suggestion, Illusory truth effect, Processing fluency, Response expectancy theory.
 
 
 ### Compounding *(unit)*
@@ -2318,7 +2318,7 @@ Compounding is a stated rule about the suggestions themselves: every one that ta
 
 **Evidence:** practitioner-lore. Elman's principle is taught widely; success on early suggestions does raise expectancy and later responding, but the stated rule has not been tested as a suggestion. Source: Dave Elman, Findings in Hypnosis, Westwood Publishing (1964).
 
-**Why it works:** Response expectancy theory, Commitment and consistency, Self-perception theory, Critical faculty (Elman).
+**Why it works:** Commitment and consistency, Critical faculty (Elman), Response expectancy theory, Self-perception theory.
 
 
 ### Giving a reason *(unit)*
@@ -2341,7 +2341,7 @@ The suggestion is followed, or preceded, by a stated reason. The form of a justi
 
 **Evidence:** experimental. In the original study an empty reason raised compliance only for a small request; with a larger request only a real reason helped, so the popular claim that 'because' works on anything overstates the finding. Source: Langer, Blank & Chanowitz, 'The mindlessness of ostensibly thoughtful action', Journal of Personality and Social Psychology (1978).
 
-**Why it works:** Elaboration likelihood model, Dual-process theory, Processing fluency, Automaticity.
+**Why it works:** Automaticity, Begging the question, Dual-process theory, Elaboration likelihood model, Processing fluency.
 
 
 ### Sensory language *(unit)*
@@ -2364,7 +2364,7 @@ The suggestion is phrased in specific sensory terms instead of abstract ones: 'a
 
 **Evidence:** clinical-tradition. Imagery-rich suggestions are standard and concrete language is easier to imagine and remember; the NLP claim that people have a preferred representational system to be matched has failed controlled tests.
 
-**Why it works:** Imagination inflation, Absorption (trait), Processing fluency, Narrative transportation.
+**Why it works:** Absorption (trait), Availability heuristic, Imagination inflation, Narrative transportation, Processing fluency.
 
 
 ### First-person suggestion *(unit)*
@@ -2387,7 +2387,7 @@ The suggestion is phrased in the listener's own grammatical person: 'I am calm',
 
 **Evidence:** practitioner-lore. Self-generated and self-referent material is better remembered, but studies of positive self-statements show mixed results, and they can backfire in people who do not believe them.
 
-**Why it works:** Self-reference effect, Generation effect, Self-perception theory, Cognitive dissonance.
+**Why it works:** Cognitive dissonance, Generation effect, Self-perception theory, Self-reference effect, Source-monitoring error.
 
 **Consent:** Lines written as the listener's own thoughts can blur whose idea they were, so the listener should know the script uses this form.
 
@@ -2412,7 +2412,7 @@ Affirmations are first-person statements the listener is asked to repeat, or tha
 
 **Evidence:** contested. Popular claims outrun the evidence: studies of repeating positive self-statements show mixed results, including worse mood in people with low self-esteem, and the better-supported 'self-affirmation' research concerns writing about one's values, which is a different procedure. Source: Coue, Self Mastery Through Conscious Autosuggestion (1922).
 
-**Why it works:** Self-reference effect, Generation effect, Illusory truth effect, Counterarguing, Response expectancy theory.
+**Why it works:** Counterarguing, Generation effect, Illusory truth effect, Response expectancy theory, Self-reference effect.
 
 
 ### Breathe in, breathe out *(unit)*
@@ -2435,7 +2435,7 @@ A two-part suggestion laid over one breath cycle: the inhale brings in a wanted 
 
 **Evidence:** clinical-tradition. Routine in relaxation, meditation and clinical hypnosis scripts; slow breathing itself lowers arousal, but whether attaching paired contents to the two halves of the breath adds anything has not been tested.
 
-**Why it works:** Pacing and leading, Response expectancy theory, Classical conditioning.
+**Why it works:** Classical conditioning, Pacing and leading, Response expectancy theory.
 
 
 ### Presupposition and implication
@@ -2448,7 +2448,7 @@ Every sentence has a main point and things it takes for granted. Listeners weigh
 
 **Not to be confused with:** Direct suggestion (asserts the response as the main point instead of taking it for granted); Artful vagueness (leaves content unspecified for the listener to fill; this family slips specific content in); Binds and choices (binds are about the choice offered; the presupposition is the grammar that makes every option assume the outcome).
 
-**Why it works:** Presupposition, Presupposition accommodation, Common ground, Projective content, Conversational implicature, Counterarguing.
+**Why it works:** Common ground, Conversational implicature, Counterarguing, Milton Model, Presupposition, Presupposition accommodation, Projective content.
 
 **Consent:** The whole family works by keeping a claim out of the listener's direct view, so use it only for outcomes the listener has already agreed to pursue.
 
@@ -2473,7 +2473,7 @@ A presupposition is what a sentence takes for granted in order to mean anything.
 
 **Evidence:** experimental. Experiments on question wording and memory show presupposed content is accepted and later recalled as fact; no controlled work shows it raises hypnotic responding over plain suggestion. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
 
-**Why it works:** Presupposition, Presupposition accommodation, Projective content, Common ground, Misinformation effect, Counterarguing.
+**Why it works:** Common ground, Common-ground manipulation, Conventional implicature, Counterarguing, Factive presupposition, Loaded question, Misinformation effect, Presupposition, Presupposition accommodation, Presuppositional framing, Projective content.
 
 **Consent:** It works because the listener does not stop to evaluate the assumed claim, so presuppose only responses the listener has agreed to.
 
@@ -2548,7 +2548,7 @@ Awareness verbs such as notice, realize, discover and be aware are factive: they
 
 **Evidence:** clinical-tradition. Factive presupposition is well established in linguistics and the pattern is standard in clinical scripts; its effect on hypnotic response has not been isolated experimentally. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
 
-**Why it works:** Factive presupposition, Presupposition accommodation, Response expectancy theory, Confirmation bias.
+**Why it works:** Confirmation bias, Factive presupposition, Presupposition, Presupposition accommodation, Projective content, Response expectancy theory.
 
 **Consent:** The listener is led to search for and confirm a state without being asked whether it exists, so use it for agreed outcomes only.
 
@@ -2573,7 +2573,7 @@ A sentence that asks or comments on how a response happens takes for granted tha
 
 **Evidence:** practitioner-lore. Phase words (already, still) and commentary adverbs are recognized triggers in linguistics. Manner and degree adverbs background the verb only when they are the open element of a question or 'how' clause; in a plain statement the verb is asserted. The claim that any of these improves hypnotic response is NLP teaching without independent tests. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
 
-**Why it works:** Presupposition, Presupposition accommodation, Conventional implicature.
+**Why it works:** Conventional implicature, Presupposition, Presupposition accommodation.
 
 **Consent:** The response is assumed while attention goes to its quality, so use it only for responses the listener has agreed to.
 
@@ -2598,7 +2598,7 @@ Verbs of starting, continuing and stopping take a prior state for granted. 'Cont
 
 **Evidence:** clinical-tradition. Phase verbs are textbook presupposition triggers and routine in clinical scripts; no study isolates their effect on hypnotic response. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
 
-**Why it works:** Presupposition, Presupposition accommodation, Projective content.
+**Why it works:** Conventional implicature, Presupposition, Presupposition accommodation, Projective content.
 
 **Consent:** The prior state is assumed, not offered for agreement, so keep it to responses the listener has consented to.
 
@@ -2623,7 +2623,7 @@ The writer uses past or perfect tense, 'already', or a result state to report th
 
 **Evidence:** clinical-tradition. Common in Ericksonian and clinical scripts and consistent with expectancy research, but not tested as a separate technique.
 
-**Why it works:** Presupposition accommodation, Response expectancy theory, Self-perception theory, Confirmation bias.
+**Why it works:** Confirmation bias, Factive presupposition, Imagination inflation, Presupposition, Presupposition accommodation, Presuppositional framing, Response expectancy theory, Self-perception theory.
 
 **Consent:** It removes the moment at which the listener could decline, so use it only for effects agreed before the session.
 
@@ -2648,7 +2648,7 @@ A loaded question carries a claim the listener has not agreed to, and every dire
 
 **Evidence:** experimental. Studies of leading questions show that wording which presupposes a detail changes answers and later memory; whether an inward answer during trance commits the listener the same way is untested.
 
-**Why it works:** Loaded question, Presupposition accommodation, Misinformation effect, Commitment and consistency, Begging the question.
+**Why it works:** Begging the question, Commitment and consistency, Loaded question, Misinformation effect, Presupposition, Presupposition accommodation, Projective content.
 
 **Consent:** Answering concedes something the listener was never asked to agree to, and can alter what they later remember wanting, so load only what they have told you is true.
 
@@ -2673,7 +2673,7 @@ An implication is content a sentence does not state or grammatically require, bu
 
 **Evidence:** clinical-tradition. Memory research shows listeners often recall pragmatic inferences as if they had been stated; studies comparing indirect with direct hypnotic suggestion have found no reliable advantage for indirect wording. Source: Erickson, Rossi & Rossi, Hypnotic Realities (1976).
 
-**Why it works:** Conversational implicature, Pragmatic enrichment, Generation effect, Psychological reactance, Indirect suggestion.
+**Why it works:** Conversational implicature, Enthymematic persuasion, Enthymeme, Generation effect, Indirect suggestion, Pragmatic enrichment, Psychological reactance.
 
 **Consent:** The listener experiences the conclusion as their own and the writer keeps deniability, so imply only what you would be willing to say outright.
 
@@ -2698,7 +2698,7 @@ The writer ties a response to a simple voluntary act with 'if ... then'. The con
 
 **Evidence:** clinical-tradition. Described in Ericksonian texts and consistent with commitment research, but not tested as a distinct technique. Source: Erickson, Rossi & Rossi, Hypnotic Realities (1976).
 
-**Why it works:** Conversational implicature, Commitment and consistency, Self-perception theory, Response expectancy theory.
+**Why it works:** Commitment and consistency, Conversational implicature, Enthymeme, Response expectancy theory, Self-perception theory.
 
 **Consent:** It converts an ordinary act into consent without asking for consent, so do not treat the act as agreement to anything the listener has not been told about.
 
@@ -2723,7 +2723,7 @@ An enthymeme is an argument in which a premise or the conclusion is not stated. 
 
 **Evidence:** rhetorical-tradition. A classical figure. Persuasion studies comparing stated and unstated conclusions do not establish an advantage for leaving the conclusion unsaid; the result varies with the message and audience. Source: Aristotle, Rhetoric.
 
-**Why it works:** Enthymeme, Enthymematic persuasion, Generation effect, Pragmatic enrichment.
+**Why it works:** Conversational implicature, Enthymematic persuasion, Enthymeme, Generation effect, Pragmatic enrichment.
 
 **Consent:** The listener adopts a premise they never heard stated, so leave out only premises you could state and defend.
 
@@ -2748,7 +2748,7 @@ The writer attaches a marker of shared knowledge ('of course', 'as you know', 'w
 
 **Evidence:** rhetorical-tradition. Common ground and accommodation are well described in pragmatics, and discourse studies document these markers in persuasive talk; their effect on acceptance has little direct experimental testing.
 
-**Why it works:** Common ground, Common-ground manipulation, Presupposition accommodation, Epistemic vigilance, Illusory truth effect.
+**Why it works:** Common ground, Common-ground manipulation, Epistemic vigilance, Familiarity heuristic, Illusory truth effect, Presupposition, Presupposition accommodation, Presuppositional framing.
 
 **Consent:** It tells the listener they already agreed to something they did not, which shades into rewriting their history; use it only for things actually established with them.
 
@@ -2763,7 +2763,7 @@ A group of sentence-level patterns, catalogued by Bandler and Grinder from Erick
 
 **Not to be confused with:** Presupposition and implication (presupposition builds in a specific claim; vagueness leaves the content open for the listener to fill); Indirect suggestion (indirect suggestion is the broader stance of not commanding; these are the specific wording patterns often used to do it); Confusion technique (confusion makes the sentence hard to process on purpose; vague language is easy to process and simply under-specified).
 
-**Why it works:** Milton Model, Meta Model, Pragmatic enrichment, Self-reference effect, Generation effect.
+**Why it works:** Conversational hypnosis, Generation effect, Meta Model, Milton Model, Pragmatic enrichment, Self-reference effect.
 
 **Consent:** Vague wording makes statements hard to disagree with; do not use it to blur what a session will do or what the listener is agreeing to.
 
@@ -2788,7 +2788,7 @@ A verb or adjective turned into a noun: relaxing becomes relaxation, learning be
 
 **Evidence:** practitioner-lore. Nominalization is a standard linguistic category, but no controlled study shows that abstract nouns produce stronger hypnotic response than concrete wording. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
 
-**Why it works:** Milton Model, Meta Model, Pragmatic enrichment, Self-reference effect.
+**Why it works:** Meta Model, Milton Model, Pragmatic enrichment, Self-reference effect.
 
 
 #### Unspecified verb *(unit)*
@@ -2811,7 +2811,7 @@ A verb that names an internal process but gives no manner or mechanism: change, 
 
 **Evidence:** practitioner-lore. Listed in every Milton-model catalogue; its specific contribution to response has not been tested apart from permissive wording in general. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
 
-**Why it works:** Milton Model, Meta Model, Pragmatic enrichment.
+**Why it works:** Meta Model, Milton Model, Pragmatic enrichment.
 
 
 #### Unspecified referent *(unit)*
@@ -2834,7 +2834,7 @@ A noun phrase that does not pick out a specific person or thing: people, someone
 
 **Evidence:** practitioner-lore. That listeners apply generic statements to themselves is plausible and consistent with self-reference research, but the pattern itself has not been tested as a hypnotic device. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
 
-**Why it works:** Milton Model, Self-reference effect, Pragmatic enrichment, Indirect suggestion.
+**Why it works:** Indirect suggestion, Milton Model, Pragmatic enrichment, Self-reference effect.
 
 
 #### Comparative deletion *(unit)*
@@ -2857,7 +2857,7 @@ A comparative or superlative word with no stated standard. 'Deeper' does not say
 
 **Evidence:** practitioner-lore. Ubiquitous in hypnotic scripts and plainly unfalsifiable by design; no study isolates its effect. Source: Bandler & Grinder, The Structure of Magic, Volume 1 (1975).
 
-**Why it works:** Milton Model, Meta Model, Pragmatic enrichment.
+**Why it works:** Meta Model, Milton Model, Pragmatic enrichment.
 
 
 #### Lost performative *(unit)*
@@ -2880,7 +2880,7 @@ An evaluation with the evaluator removed: 'it's good to let go' instead of 'I th
 
 **Evidence:** practitioner-lore. The pattern is a real grammatical form; whether dropping the judge makes a value more readily accepted has not been tested in hypnosis. Source: Bandler & Grinder, The Structure of Magic, Volume 1 (1975).
 
-**Why it works:** Milton Model, Meta Model, Common ground.
+**Why it works:** Authority principle, Common ground, Common-ground manipulation, Meta Model, Milton Model.
 
 **Consent:** Because the judge is hidden, the listener may take the writer's values as general fact; keep such judgments to ones the listener would endorse awake.
 
@@ -2905,7 +2905,7 @@ A claim about the listener's inner experience with no stated basis: 'I know you'
 
 **Evidence:** practitioner-lore. People do rate general statements about themselves as accurate, which explains why it seems to work, but its effect on hypnotic response is untested. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
 
-**Why it works:** Milton Model, Meta Model, Response expectancy theory, Rapport matching.
+**Why it works:** Common-ground manipulation, Meta Model, Milton Model, Rapport matching, Response expectancy theory.
 
 **Consent:** Telling a listener what they think or want can replace their own report of it; do not use it to override a stated limit or doubt.
 
@@ -2930,7 +2930,7 @@ An unsupported assertion that X produces Y: 'the sound of my voice makes you rel
 
 **Evidence:** practitioner-lore. Stated causal expectations do shape response (expectancy research), but the specific NLP grading of weak to strong linkage is untested. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
 
-**Why it works:** Milton Model, Meta Model, Response expectancy theory.
+**Why it works:** Begging the question, Confounding variable, Enthymeme, Meta Model, Milton Model, Narrative coherence, Response expectancy theory.
 
 
 #### Complex equivalence *(unit)*
@@ -2953,7 +2953,7 @@ An assertion that two different things are the same or that one is evidence of t
 
 **Evidence:** practitioner-lore. Interpreting ambiguous sensations as evidence of hypnosis is consistent with expectancy and misattribution research; the NLP pattern as such has no direct tests.
 
-**Why it works:** Milton Model, Meta Model, Response expectancy theory, Misattribution of arousal, Self-perception theory.
+**Why it works:** Begging the question, Diagnosticity, Meta Model, Metalinguistic negotiation, Milton Model, Misattribution of arousal, Response expectancy theory, Self-perception theory.
 
 **Consent:** The listener is handed a meaning for their own reactions; avoid equivalences that turn hesitation or discomfort into agreement.
 
@@ -2978,7 +2978,7 @@ A word that generalizes a statement to all instances, times or things: every bre
 
 **Evidence:** practitioner-lore. A basic feature of language used throughout hypnotic scripts; no study isolates the effect of universal wording on response. Source: Bandler & Grinder, The Structure of Magic, Volume 1 (1975).
 
-**Why it works:** Milton Model, Meta Model.
+**Why it works:** Argument from consensus, Meta Model, Milton Model.
 
 **Consent:** Words like always, never and everywhere extend a suggestion beyond the session; bound them with scope limits when the effect is meant to last.
 
@@ -3003,7 +3003,7 @@ A modal verb or equivalent that sets the status of an action: possibility (can, 
 
 **Evidence:** contested. Permissive versus authoritarian wording has been compared in controlled studies with generally small or no differences in response; the NLP claims for particular modals go beyond that. Source: Bandler & Grinder, The Structure of Magic, Volume 1 (1975).
 
-**Why it works:** Milton Model, Meta Model, Psychological reactance, Illocutionary force.
+**Why it works:** Illocutionary force, Meta Model, Milton Model, Psychological reactance.
 
 
 #### Deletion *(unit)*
@@ -3026,7 +3026,7 @@ A sentence with a required piece of information missing, usually the object of a
 
 **Evidence:** practitioner-lore. Listeners routinely fill missing arguments from context (a well-studied pragmatic fact); no evidence shows the deletion itself increases suggestibility. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
 
-**Why it works:** Milton Model, Meta Model, Pragmatic enrichment, Generation effect.
+**Why it works:** Generation effect, Meta Model, Milton Model, Pragmatic enrichment.
 
 
 #### Sound-alike ambiguity *(unit)*
@@ -3049,7 +3049,7 @@ A homophone or near-homophone placed so that the spoken sentence carries a secon
 
 **Evidence:** practitioner-lore. Both senses of an ambiguous word are briefly activated in comprehension, but there is no evidence that the unintended sense acts as an instruction. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
 
-**Why it works:** Milton Model, Equivocation, Spreading activation, Priming.
+**Why it works:** Equivocation, Milton Model, Priming, Spreading activation.
 
 **Consent:** It is meant to pass unnoticed; the hidden reading should say nothing the listener has not agreed to hear openly.
 
@@ -3074,7 +3074,7 @@ A phrase with two possible grammatical structures, classically an -ing word plus
 
 **Evidence:** practitioner-lore. Structural ambiguity is well studied in psycholinguistics as a processing cost; no evidence supports a hypnotic effect. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
 
-**Why it works:** Milton Model, Equivocation, Cognitive load.
+**Why it works:** Cognitive load, Equivocation, Milton Model.
 
 
 #### Scope ambiguity *(unit)*
@@ -3097,7 +3097,7 @@ A sentence in which an adjective, adverb or verb could apply to only the next it
 
 **Evidence:** practitioner-lore. A recognized linguistic phenomenon; its use as a hypnotic device is untested and it is the least used of the Milton-model ambiguities. Source: Richard Bandler and John Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume I, Meta Publications (1975).
 
-**Why it works:** Milton Model, Equivocation.
+**Why it works:** Equivocation, Milton Model.
 
 
 #### Run-on ambiguity *(unit)*
@@ -3120,7 +3120,7 @@ Two sentences fused on a shared word or phrase with no break between them: 'you 
 
 **Evidence:** practitioner-lore. Bandler and Grinder describe this overlapping-sentence technique in Erickson's speech; evidence that it makes the second clause more acceptable is lacking. Source: Richard Bandler and John Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume I, Meta Publications (1975).
 
-**Why it works:** Milton Model, Prediction error, Cognitive load, Expectation violation.
+**Why it works:** Cognitive load, Expectation violation, Milton Model, Prediction error.
 
 
 #### Attributing feeling to things *(unit)*
@@ -3143,7 +3143,7 @@ A sentence that gives an inanimate thing a human experience: 'the chair can rela
 
 **Evidence:** practitioner-lore. Derived from Erickson's indirect work (for example speaking about a plant's comfort); the claimed mapping onto the self is plausible but untested. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Volume 1 (1975).
 
-**Why it works:** Milton Model, Metaphorical suggestion, Indirect suggestion, Pragmatic enrichment.
+**Why it works:** Indirect suggestion, Metaphorical suggestion, Milton Model, Pragmatic enrichment.
 
 
 #### Double meaning *(unit)*
@@ -3166,7 +3166,7 @@ A single word or phrase that has two established meanings, placed so each fits: 
 
 **Evidence:** rhetorical-tradition. Both senses of an ambiguous word are briefly active during comprehension, which is well established; that the second sense works as a suggestion is not.
 
-**Why it works:** Equivocation, Spreading activation, Priming.
+**Why it works:** Equivocation, Motte-and-bailey, Priming, Spreading activation.
 
 **Consent:** The second sense is meant to pass without comment; it should carry nothing the listener has not agreed to hear said plainly.
 
@@ -3181,7 +3181,7 @@ This family groups devices that work by agreement with the listener's present re
 
 **Not to be confused with:** Suggestion forms (that family is about how one suggestion is phrased; this one is about anchoring the script to the listener's actual situation); Resistance handling (resistance handling deals with opposition specifically; utilization takes anything the listener brings, opposition included).
 
-**Why it works:** Pacing and leading, Utilization, Response expectancy theory, Common ground, Psychological reactance.
+**Why it works:** Common ground, Pacing and leading, Psychological reactance, Response expectancy theory, Utilization.
 
 
 ### Pacing *(unit)*
@@ -3204,7 +3204,7 @@ Pacing is describing the listener's present experience in terms they can check a
 
 **Evidence:** clinical-tradition. Taught in most clinical and Ericksonian texts; that accurate statements build agreement is plausible and consistent with acquiescence research, but pacing as a hypnotic device has not been isolated in controlled studies. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Vol. 1 (1975).
 
-**Why it works:** Pacing and leading, Common ground, Mere-agreement effect / acquiescence, Processing fluency, Epistemic trust.
+**Why it works:** Attitude bolstering, Cognitive ease, Common ground, Counter-attitudinal processing, Epistemic trust, Epistemic vigilance, Familiarity heuristic, Mere-agreement effect / acquiescence, Pacing and leading, Processing fluency, Rapport matching, Trust calibration.
 
 
 ### Pacing and leading *(unit)*
@@ -3227,7 +3227,7 @@ A run of pacing statements is followed, in the same tone and grammar, by a state
 
 **Evidence:** practitioner-lore. The pattern is taught everywhere and is plausible on acquiescence and fluency grounds, but the specific claims (ratios, that accepted paces transfer to the lead) have not been tested in controlled hypnosis studies. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Vol. 1 (1975).
 
-**Why it works:** Pacing and leading, Mere-agreement effect / acquiescence, Processing fluency, Common ground, Counterarguing.
+**Why it works:** Common ground, Counter-attitudinal processing, Counterarguing, Mere-agreement effect / acquiescence, Moral reframing, Pacing and leading, Processing fluency, Trust calibration.
 
 **Consent:** The lead is meant to pass as one more observation; use it for responses the listener has agreed to pursue.
 
@@ -3252,7 +3252,7 @@ Utilization treats any behavior, feeling, belief or event as usable: it is accep
 
 **Evidence:** clinical-tradition. A core principle of Ericksonian practice supported by case reports; there are no controlled comparisons showing that utilization raises responsiveness beyond standard procedures. Source: Erickson, Further clinical techniques of hypnosis: Utilization techniques (1959).
 
-**Why it works:** Utilization, Psychological reactance, Reframing, Response expectancy theory, Sociocognitive theory of hypnosis.
+**Why it works:** Psychological reactance, Reframing, Response expectancy theory, Sociocognitive theory of hypnosis, Utilization.
 
 
 #### Incorporation of distractions *(variant)*
@@ -3275,7 +3275,7 @@ Incorporation is utilization applied to events in the environment: traffic, voic
 
 **Evidence:** clinical-tradition. Routine in clinical and recorded scripts; no controlled study isolates whether naming distractions in advance protects the state better than saying nothing.
 
-**Why it works:** Utilization, Response expectancy theory, Habituation, Orienting response.
+**Why it works:** Habituation, Orienting response, Response expectancy theory, Utilization.
 
 
 #### Using the listener's own material *(variant)*
@@ -3298,7 +3298,7 @@ This is utilization applied to content the listener supplied: their vocabulary f
 
 **Evidence:** clinical-tradition. Rests on Erickson's case reports and later clinical teaching; tailored messages and self-relevant material are better remembered in general research, but this hypnotic use has not been tested directly. Source: Erickson & Rossi, Hypnotherapy: An Exploratory Casebook (1979).
 
-**Why it works:** Utilization, Self-reference effect, Generation effect, Processing fluency, Rapport matching.
+**Why it works:** Generation effect, Processing fluency, Rapport matching, Self-reference effect, Utilization.
 
 
 #### Using resistance *(variant)*
@@ -3321,7 +3321,7 @@ The writer accepts the resistance and assigns it a role whose performance is the
 
 **Evidence:** clinical-tradition. Standard in Ericksonian clinical teaching; there are no controlled studies of resistance utilization as a separate technique. Source: Erickson & Rossi, Hypnotherapy: An Exploratory Casebook (1979).
 
-**Why it works:** Utilization, Psychological reactance, Therapeutic double bind, Ironic process theory.
+**Why it works:** Ironic process theory, Persuasion resistance, Psychological reactance, Therapeutic double bind, Utilization.
 
 
 ### Normalizing *(unit)*
@@ -3344,7 +3344,7 @@ Normalizing tells the listener that what they are experiencing, or are about to 
 
 **Evidence:** clinical-tradition. Standard in clinical pretalks; reducing fear and raising positive expectancy are known to improve response, and descriptive norms influence behavior, but normalizing phrases themselves have not been tested alone.
 
-**Why it works:** Response expectancy theory, Descriptive norms, Informational social influence, Sociocognitive theory of hypnosis, Metacognitive monitoring.
+**Why it works:** Argument from consensus, Demand characteristics, Descriptive norms, Informational social influence, Metacognitive monitoring, Response expectancy theory, Social proof, Sociocognitive theory of hypnosis.
 
 
 #### Everyday trance *(variant)*
@@ -3367,7 +3367,7 @@ The writer names familiar absorbed states (driving a known route without remembe
 
 **Evidence:** clinical-tradition. A standard pretalk move; trait absorption correlates modestly with hypnotizability, but whether everyday absorption is the same state as hypnosis is disputed, and the comparison works mainly by lowering fear and raising expectancy. Source: Erickson, Rossi & Rossi, Hypnotic Realities (1976).
 
-**Why it works:** Absorption (trait), Response expectancy theory, Familiarity heuristic, Sociocognitive theory of hypnosis.
+**Why it works:** Absorption (trait), Descriptive norms, Familiarity heuristic, Response expectancy theory, Sociocognitive theory of hypnosis.
 
 
 ### Permission *(unit)*
@@ -3390,7 +3390,7 @@ Permission addresses a response that is already available but inhibited by polit
 
 **Evidence:** clinical-tradition. Common in clinical and permissive-style scripts; it fits findings that autonomy-supportive wording reduces reactance, but explicit permission statements have not been tested as a separate hypnotic device.
 
-**Why it works:** Psychological reactance, Self-determination theory, Response expectancy theory, Illocutionary force.
+**Why it works:** Illocutionary force, Psychological reactance, Response expectancy theory, Self-determination theory.
 
 **Consent:** Permission can release things the listener was holding back for good reason; permit only what falls inside what they agreed to.
 
@@ -3405,7 +3405,7 @@ Devices in this family work on the listener's sense of choosing. Either the writ
 
 **Not to be confused with:** Presupposition and implication (presupposition builds a claim into any sentence; binds do it specifically through an offered or cited choice); Compliance and commitment (compliance devices build agreement over a series of steps; a bind works within one offer).
 
-**Why it works:** Therapeutic double bind, Presupposition, Psychological reactance, Self-determination theory.
+**Why it works:** Presupposition, Psychological reactance, Self-determination theory, Therapeutic double bind.
 
 **Consent:** Binds give the feeling of choice without the substance, so the real choice (to take part at all, and to stop) must be offered plainly somewhere outside the bind.
 
@@ -3430,7 +3430,7 @@ A double bind is an offer of alternatives in which the target response is common
 
 **Evidence:** clinical-tradition. Standard in Ericksonian clinical texts; the presupposition it rests on is well studied, but the claim that binds outperform direct suggestion has no controlled support. Source: Erickson & Rossi, Varieties of Double Bind (1975).
 
-**Why it works:** Therapeutic double bind, Presupposition accommodation, Presupposition, Psychological reactance, Indirect suggestion.
+**Why it works:** False dilemma, Indirect suggestion, Loaded question, Milton Model, Presupposition, Presupposition accommodation, Psychological reactance, Therapeutic double bind.
 
 **Consent:** The listener is not offered the option of not responding, so use it only for responses they have already agreed to seek.
 
@@ -3455,7 +3455,7 @@ The plainest bind: the listener really does choose, and can say which they chose
 
 **Evidence:** clinical-tradition. Providing even trivial choice raises motivation and lowers reactance in experiments; that the hypnotic form increases response to the underlying suggestion is untested. Source: Erickson & Rossi, Varieties of Double Bind (1975).
 
-**Why it works:** Presupposition accommodation, Psychological reactance, Self-determination theory, Commitment and consistency.
+**Why it works:** Commitment and consistency, False dilemma, Presupposition accommodation, Psychological reactance, Self-determination theory, Therapeutic double bind.
 
 **Consent:** The choice offered is real but small; it does not stand in for asking whether the listener wants the session.
 
@@ -3480,7 +3480,7 @@ A double bind whose alternatives are assigned to two parts of the mind. Whatever
 
 **Evidence:** clinical-tradition. A staple of Ericksonian texts; the 'unconscious mind' it addresses is a working metaphor, and no controlled study shows the bind itself adds to response beyond the expectancy it sets. Source: Erickson & Rossi, Varieties of Double Bind (1975).
 
-**Why it works:** Therapeutic double bind, Neodissociation theory, Response expectancy theory, Cold control theory, Automaticity.
+**Why it works:** Automaticity, Cold control theory, Neodissociation theory, Response expectancy theory, Therapeutic double bind.
 
 **Consent:** It tells the listener the response is outside their conscious say, so pair it with a clear statement elsewhere that they can stop at any time.
 
@@ -3505,7 +3505,7 @@ A double bind whose alternatives are points or spans of time. Every option is a 
 
 **Evidence:** clinical-tradition. Described in Ericksonian texts and widely used; no controlled comparison with a plain timed suggestion exists. Source: Milton H. Erickson and Ernest L. Rossi, Varieties of Double Bind, American Journal of Clinical Hypnosis (1975).
 
-**Why it works:** Therapeutic double bind, Presupposition accommodation, Response expectancy theory.
+**Why it works:** Presupposition accommodation, Response expectancy theory, Therapeutic double bind.
 
 **Consent:** When the response is one that lasts past the session, the bind removes 'never' as an option, so the listener should have agreed to that response beforehand.
 
@@ -3530,7 +3530,7 @@ A double bind in which the options sound alike in content but do not follow from
 
 **Evidence:** practitioner-lore. Named and illustrated by Erickson and Rossi from case material; it has not been studied on its own, and its effect cannot be separated from ordinary confusion. Source: Milton H. Erickson and Ernest L. Rossi, Varieties of Double Bind, American Journal of Clinical Hypnosis (1975).
 
-**Why it works:** Therapeutic double bind, Ericksonian confusion technique, Cognitive load, Expectation violation.
+**Why it works:** Cognitive load, Ericksonian confusion technique, Expectation violation, Therapeutic double bind.
 
 **Consent:** It works by the listener failing to track the logic, so it belongs only in sessions where confusion methods were agreed to or are expected.
 
@@ -3555,7 +3555,7 @@ A double bind built for a listener who is in the habit of opposing. The writer f
 
 **Evidence:** practitioner-lore. Rests on Erickson's case reports; reactance, the tendency it exploits, is well established, but the bind itself has not been tested and depends on correctly judging that the listener is opposing. Source: Milton H. Erickson and Ernest L. Rossi, Varieties of Double Bind, American Journal of Clinical Hypnosis (1975).
 
-**Why it works:** Psychological reactance, Therapeutic double bind, Ironic process theory, Utilization.
+**Why it works:** Ironic process theory, Psychological reactance, Therapeutic double bind, Utilization.
 
 **Consent:** It turns the listener's refusal into the response, so it must not be used to override an actual wish to stop; a real 'no' ends the session.
 
@@ -3580,7 +3580,7 @@ A false dilemma narrows a situation to two outcomes that really are different, a
 
 **Evidence:** rhetorical-tradition. A long-catalogued informal fallacy; framing research shows that restricting the options offered shapes choices, but the figure as such is described, not measured.
 
-**Why it works:** False dilemma, Framing effect, Agenda-setting, Contrast effect.
+**Why it works:** Agenda-setting, Contrast effect, False dilemma, Framing effect, Therapeutic double bind.
 
 **Consent:** It works by the listener not noticing the omitted options; do not use it to frame stopping or leaving as one of two bad choices.
 
@@ -3605,7 +3605,7 @@ A forced choice is a demand to select one of a closed set of options, with a pau
 
 **Evidence:** experimental. Choosing among options reliably raises liking for and commitment to the chosen one in laboratory studies; whether a silent choice made while listening to a script has the same effect has not been tested.
 
-**Why it works:** Commitment and consistency, Cognitive dissonance, Self-perception theory, Generation effect, Agenda-setting.
+**Why it works:** Agenda-setting, Cognitive dissonance, Commitment and consistency, False dilemma, Generation effect, Self-perception theory.
 
 **Consent:** If none of the listed options is acceptable the listener has no stated way out, so a session using it should offer a real exit elsewhere and must not treat a forced pick as consent.
 
@@ -3620,7 +3620,7 @@ A family of devices that interfere with the listener's running evaluation of wha
 
 **Not to be confused with:** Artful vagueness (vagueness leaves content open for the listener to fill in; this family blocks or overworks the filling-in); Resistance handling (resistance handling addresses doubt by naming or using it; this family goes around evaluation without addressing it); Attention and absorption (absorption narrows attention onto one thing; this family splits, jams or drains it).
 
-**Why it works:** Cognitive load, Working-memory interference, Distraction-induced persuasion, Counterarguing, Ericksonian confusion technique, Pattern interruption.
+**Why it works:** Cognitive load, Counterarguing, Distraction-induced persuasion, Ericksonian confusion technique, Pattern interruption, Working-memory interference.
 
 **Consent:** These devices work by reducing the listener's ability to evaluate what follows, so what follows should be something the listener agreed to beforehand.
 
@@ -3645,7 +3645,7 @@ Wording that sounds as if it should make sense but resists being worked out, fol
 
 **Evidence:** clinical-tradition. Standard in Ericksonian texts and supported by case reports; controlled comparisons with plain inductions are few and do not show an advantage. Source: Erickson, 'The Confusion Technique in Hypnosis', American Journal of Clinical Hypnosis (1964).
 
-**Why it works:** Ericksonian confusion technique, Confusion-restructuring, Cognitive load, Processing fluency, Counterarguing.
+**Why it works:** Cognitive load, Confusion-restructuring, Counterarguing, Critical faculty (Elman), Ericksonian confusion technique, Expectation violation, Processing fluency.
 
 **Consent:** It works by making the following suggestion harder to weigh, so use it only to deliver what the listener came for.
 
@@ -3670,7 +3670,7 @@ A confusion passage built from time words: days, tenses and before/after relatio
 
 **Evidence:** clinical-tradition. Described by Erickson as a lead-in to regression; known from case reports, not controlled tests. Source: Milton H. Erickson, The Confusion Technique in Hypnosis, American Journal of Clinical Hypnosis (1964).
 
-**Why it works:** Ericksonian confusion technique, Cognitive load, Working-memory interference.
+**Why it works:** Cognitive load, Ericksonian confusion technique, Working-memory interference.
 
 
 #### Left-right confusion *(variant)*
@@ -3693,7 +3693,7 @@ A confusion passage built from direction and pointing words. It leans on the two
 
 **Evidence:** clinical-tradition. A common worked example in Ericksonian and NLP training; no controlled tests of the variant itself.
 
-**Why it works:** Ericksonian confusion technique, Cognitive load, Working-memory interference, Equivocation.
+**Why it works:** Cognitive load, Equivocation, Ericksonian confusion technique, Working-memory interference.
 
 
 #### Stacked negation *(variant)*
@@ -3716,7 +3716,7 @@ A sentence with two, three or more negatives whose net meaning takes effort to c
 
 **Evidence:** clinical-tradition. Negated sentences are reliably slower to process and more error-prone; that this helps a suggestion land is practitioner claim.
 
-**Why it works:** Cognitive load, Processing fluency, Ironic process theory, Ericksonian confusion technique.
+**Why it works:** Cognitive load, Ericksonian confusion technique, Ironic process theory, Processing fluency.
 
 
 #### Non sequitur *(variant)*
@@ -3739,7 +3739,7 @@ A statement that has no connection to what came before, or that draws a conclusi
 
 **Evidence:** clinical-tradition. Erickson described out-of-context remarks as a core of his confusion method; the nearest controlled work is on disrupt-then-reframe, a sales setting. Source: Milton H. Erickson, The Confusion Technique in Hypnosis, American Journal of Clinical Hypnosis (1964).
 
-**Why it works:** Expectation violation, Prediction error, Ericksonian confusion technique, Narrative coherence.
+**Why it works:** Confusion-restructuring, Ericksonian confusion technique, Expectation violation, Narrative coherence, Prediction error, Task-set inertia.
 
 
 #### Circular wordplay *(variant)*
@@ -3762,7 +3762,7 @@ A confusion passage built by repeating one word, its other senses and its homoph
 
 **Evidence:** practitioner-lore. Widely taught in Ericksonian and NLP training; no independent test of its effect.
 
-**Why it works:** Equivocation, Cognitive load, Ericksonian confusion technique.
+**Why it works:** Cognitive load, Equivocation, Ericksonian confusion technique.
 
 
 ### Pattern interrupt *(unit)*
@@ -3785,7 +3785,7 @@ A familiar, automatic sequence (a handshake, a count, a stock phrase, a breathin
 
 **Evidence:** practitioner-lore. Unexpected events do capture attention and briefly halt ongoing action; that this opens a window of raised suggestibility is practitioner claim, not an established finding.
 
-**Why it works:** Pattern interruption, Prediction error, Orienting response, Expectation violation, Automaticity.
+**Why it works:** Automaticity, Event segmentation theory, Expectation violation, Orienting response, Pattern interruption, Prediction error, Task-set inertia.
 
 **Consent:** It is built to land an instruction before the listener can weigh it, so the instruction should be one they have already agreed to receive.
 
@@ -3810,7 +3810,7 @@ Several simultaneous demands on attention: multiple sensations to monitor, a tas
 
 **Evidence:** practitioner-lore. Working-memory limits and reduced counterarguing under load are well established; overload as a way to produce hypnotic response has not been independently tested, and Miller's 'seven plus or minus two' is routinely over-applied.
 
-**Why it works:** Cognitive load, Working-memory interference, Distraction-induced persuasion, Counterarguing, Dual-process theory.
+**Why it works:** Cognitive load, Counterarguing, Distraction-induced persuasion, Dual-process theory, Elaboration likelihood model, Working-memory interference.
 
 **Consent:** Suggestions given under load are harder for the listener to assess, so keep them within what was agreed.
 
@@ -3835,7 +3835,7 @@ A single unexpected event: a sharp sound, a sudden change of volume, or a statem
 
 **Evidence:** clinical-tradition. Startle and orienting responses are well documented; the claim that the moment after a surprise is more suggestible comes from clinical and stage practice. Source: Erickson, Rossi & Rossi, Hypnotic Realities (1976).
 
-**Why it works:** Orienting response, Prediction error, Expectation violation, Attentional capture.
+**Why it works:** Attentional capture, Expectation violation, Habituation, Orienting response, Pattern interruption, Prediction error.
 
 **Consent:** Loud or startling events can distress some listeners and are unsafe for anyone doing something else while listening; warn about them in the content note.
 
@@ -3860,7 +3860,7 @@ A single statement or instruction that contradicts itself, or cannot be obeyed w
 
 **Evidence:** clinical-tradition. Paradoxical interventions are an established therapy tradition with some outcome research; a paradoxical sentence as a trance device is untested.
 
-**Why it works:** Processing fluency, Cognitive load, Trance logic, Ericksonian confusion technique.
+**Why it works:** Cognitive load, Ericksonian confusion technique, Processing fluency, Trance logic.
 
 
 ### Unfinished sentence *(unit)*
@@ -3883,7 +3883,7 @@ A sentence that stops before its expected final word or clause. If the missing p
 
 **Evidence:** rhetorical-tradition. A classical figure; self-generated material is better remembered than supplied material, but the hypnotic use is untested and the Zeigarnik effect it is often credited to has a mixed replication record.
 
-**Why it works:** Generation effect, Zeigarnik effect, Narrative closure, Prediction error.
+**Why it works:** Generation effect, Narrative closure, Prediction error, Zeigarnik effect.
 
 
 ### Monotony *(unit)*
@@ -3906,7 +3906,7 @@ A sustained stretch in which nothing new happens: same rhythm, same sentence sha
 
 **Evidence:** clinical-tradition. Monotonous stimulation reliably lowers alertness and induces drowsiness; drowsiness is not the same as hypnotic responsiveness, and research finds relaxation is not required for hypnosis.
 
-**Why it works:** Habituation, Cognitive ease, Processing fluency, Epistemic vigilance.
+**Why it works:** Cognitive ease, Epistemic vigilance, Habituation, Orienting response, Processing fluency.
 
 
 ### Occupying the conscious mind *(unit)*
@@ -3929,7 +3929,7 @@ An explicit assignment of something for the 'conscious mind' to attend to or thi
 
 **Evidence:** clinical-tradition. Distraction reduces counterarguing in persuasion experiments; the picture of a conscious mind kept busy while an unconscious mind receives suggestions is a clinical metaphor, not a demonstrated mechanism. Source: Erickson, Rossi & Rossi, Hypnotic Realities (1976).
 
-**Why it works:** Distraction-induced persuasion, Counterarguing, Critical faculty (Elman), Metacognitive monitoring, Cognitive load.
+**Why it works:** Cognitive load, Counterarguing, Critical faculty (Elman), Distraction-induced persuasion, Elaboration likelihood model, Metacognitive monitoring, Transportation-induced counterarguing reduction.
 
 **Consent:** Its stated aim is that the listener stops monitoring what is suggested, so the content of the session should be disclosed and agreed before it starts.
 
@@ -3954,7 +3954,7 @@ Overload with exactly two streams: one explicit task the listener performs (coun
 
 **Evidence:** experimental. A secondary task reduces counterarguing and raises acceptance of weak arguments in persuasion studies; whether it raises response to hypnotic suggestions is not established, and it lowers acceptance of strong arguments. Source: Festinger & Maccoby, 'On resistance to persuasive communications', Journal of Abnormal and Social Psychology (1964).
 
-**Why it works:** Distraction-induced persuasion, Cognitive load, Working-memory interference, Counterarguing, Elaboration likelihood model.
+**Why it works:** Cognitive load, Counterarguing, Distraction-induced persuasion, Elaboration likelihood model, Working-memory interference.
 
 **Consent:** The task exists so that suggestions get less scrutiny; tell the listener beforehand what kind of suggestions the session contains.
 
@@ -3979,7 +3979,7 @@ A single word is said, or given to the listener to say, in an unbroken run long 
 
 **Evidence:** experimental. The brief loss of a word's felt meaning after rapid repetition is a replicated laboratory effect that fades within seconds to minutes; its use to open a gap for suggestion or to weaken a troubling word for good is practitioner claim with little direct testing. Source: Wallace E. Lambert and Leon A. Jakobovits, Verbal Satiation and Changes in the Intensity of Meaning, Journal of Experimental Psychology (1960).
 
-**Why it works:** Habituation, Spreading activation, Processing fluency, Cognitive load.
+**Why it works:** Cognitive load, Habituation, Processing fluency, Spreading activation.
 
 
 ## Attention and absorption
@@ -4015,7 +4015,7 @@ The speaker names their own voice as the object of attention. The voice becomes 
 
 **Evidence:** clinical-tradition. A standard element of scripted inductions, including research scales; its separate contribution has not been isolated.
 
-**Why it works:** Attentional capture, Attentional tunneling, Hypnotic induction, Absorption (trait).
+**Why it works:** Absorption (trait), Attentional capture, Attentional tunneling, Hypnotic induction.
 
 
 ### Narrowing attention *(unit)*
@@ -4038,7 +4038,7 @@ The writer describes the field of awareness shrinking: the room, sounds, thought
 
 **Evidence:** clinical-tradition. Narrowed attention is part of standard definitions of hypnosis, but suggesting the narrowing has not been tested as a separate ingredient.
 
-**Why it works:** Attentional tunneling, Attentional capture, Absorption (trait), Response expectancy theory.
+**Why it works:** Absorption (trait), Attentional capture, Attentional tunneling, Response expectancy theory.
 
 
 ### Turning attention inward *(unit)*
@@ -4061,7 +4061,7 @@ A change of direction: from what is seen and heard in the room to what is felt, 
 
 **Evidence:** clinical-tradition. Standard in clinical and Ericksonian texts as a step in induction; no controlled test of the turn as a separate device.
 
-**Why it works:** Absorption (trait), Hypnotic induction, Attentional capture.
+**Why it works:** Absorption (trait), Attentional capture, Attentional tunneling, Hypnotic induction.
 
 
 ### Sensory immersion *(unit)*
@@ -4084,7 +4084,7 @@ A passage of concentrated description that engages sight, sound, touch and often
 
 **Evidence:** clinical-tradition. Vivid multi-sense imagery is standard in clinical scripts and imagery vividness relates to absorption; the claim that more detail is always better is not supported, and over-specified detail can clash with the listener's own image.
 
-**Why it works:** Absorption (trait), Narrative transportation, Attentional capture, Cognitive load.
+**Why it works:** Absorption (trait), Attentional capture, Cognitive load, Narrative transportation, Situation-model updating.
 
 
 ### Curiosity hook *(unit)*
@@ -4107,7 +4107,7 @@ The writer points at a piece of information the listener does not yet have and w
 
 **Evidence:** experimental. Information gaps reliably raise the wish to know and the effort spent to find out; the claim that unfinished items are remembered better (Zeigarnik) has a mixed replication record, and nothing shows a hook raises suggestibility. Source: Loewenstein, The Psychology of Curiosity: A Review and Reinterpretation (1994).
 
-**Why it works:** Zeigarnik effect, Narrative closure, Prediction error, Attentional capture.
+**Why it works:** Attentional capture, Narrative closure, Prediction error, Zeigarnik effect.
 
 
 ### Direct address *(unit)*
@@ -4130,7 +4130,7 @@ The speaker addresses the listener as 'you' and makes a point of it. Second pers
 
 **Evidence:** experimental. Self-relevant and second-person wording improves attention and recall in memory and message research; whether it adds anything to hypnotic response is untested, since almost every script uses it.
 
-**Why it works:** Self-reference effect, Attentional capture, Parasocial interaction.
+**Why it works:** Attentional capture, Epistemic trust, Parasocial interaction, Self-reference effect.
 
 
 #### Using the listener's name *(variant)*
@@ -4153,7 +4153,7 @@ A vocative: a name or term of address inserted into the sentence. In live work i
 
 **Evidence:** experimental. In an early dichotic-listening experiment, about a third of listeners noticed their own name in an unattended channel. This does not establish that using a name increases hypnotic suggestibility or that pet names and titles have the same effect.
 
-**Why it works:** Attentional capture, Self-reference effect, Orienting response, Parasocial interaction, Liking principle.
+**Why it works:** Attentional capture, Epistemic trust, Liking principle, Orienting response, Parasocial interaction, Self-reference effect.
 
 **Consent:** Pet names and titles that imply a relationship or rank should match what the listener agreed to; a repeated assigned title shades into renaming, which can persist.
 
@@ -4178,7 +4178,7 @@ A suggestion about the felt passage of time: minutes that feel like hours, an ho
 
 **Evidence:** experimental. People commonly misjudge, usually underestimate, how long a hypnosis session lasted; whether suggested time expansion gives real extra thinking or practice time, as early reports claimed, is not established. Source: Cooper & Erickson, Time Distortion in Hypnosis (1954).
 
-**Why it works:** Absorption (trait), Response expectancy theory, Attentional tunneling, Hypnotic suggestibility.
+**Why it works:** Absorption (trait), Anchoring effect (judgment), Attentional tunneling, Hypnotic suggestibility, Response expectancy theory.
 
 **Consent:** Altered time sense can outlast the session briefly; restore normal time orientation before the listener returns to anything time-critical.
 
@@ -4203,7 +4203,7 @@ A specific application of time distortion: a stated clock interval (a minute, th
 
 **Evidence:** contested. People in hypnosis do misjudge elapsed time and suggestions can shift the estimate, but the original claim that useful extra mental work gets done in the expanded time was not supported by later controlled studies. Source: Cooper & Erickson, Time Distortion in Hypnosis (1954).
 
-**Why it works:** Response expectancy theory, Absorption (trait), Demand characteristics.
+**Why it works:** Absorption (trait), Demand characteristics, Response expectancy theory.
 
 
 ### Gaze capture *(unit)*
@@ -4226,7 +4226,7 @@ The fixation object is another person's gaze. In audio and text it is imagined; 
 
 **Evidence:** practitioner-lore. Direct gaze does capture attention in perception research, and gaze methods are old in stage and mesmeric practice; no evidence shows an imagined gaze induces better than any other fixation point.
 
-**Why it works:** Attentional capture, Authority principle, Response expectancy theory, Parasocial interaction.
+**Why it works:** Attentional capture, Authority principle, Observer effect, Parasocial interaction, Response expectancy theory.
 
 
 ### Attention call *(unit)*
@@ -4249,7 +4249,7 @@ A deliberate change in the stream (a new sound, a shift of voice or topic, a pau
 
 **Evidence:** experimental. The orienting response to novel or changed stimuli, and its habituation with repetition, are well established; its use to strengthen the suggestion that follows is practitioner practice without direct tests.
 
-**Why it works:** Orienting response, Habituation, Attentional capture, Prediction error, Expectation violation.
+**Why it works:** Attentional capture, Expectation violation, Habituation, Orienting response, Prediction error.
 
 
 ## Imagery, metaphor and story
@@ -4262,7 +4262,7 @@ This family groups the ways a script makes the listener simulate something: a sc
 
 **Not to be confused with:** Visualization induction (that is imagery used specifically to start trance; this family covers imagery wherever it appears); Sensory immersion (that is density of description used to hold attention, not a picture or story carrying a suggestion); Story frame (that is the session-scale choice to set the whole script inside a scene, not a device within it).
 
-**Why it works:** Narrative transportation, Narrative persuasion, Metaphorical suggestion, Absorption (trait), Response expectancy theory.
+**Why it works:** Absorption (trait), Metaphorical suggestion, Narrative persuasion, Narrative transportation, Response expectancy theory.
 
 
 ### Guided imagery *(unit)*
@@ -4285,7 +4285,7 @@ The writer narrates a scene in the second person and the listener builds it in i
 
 **Evidence:** experimental. Guided imagery has controlled trials for relaxation, pain and anxiety, with modest effects and variable study quality; vividness of imagery differs a great deal between people.
 
-**Why it works:** Absorption (trait), Response expectancy theory, Hypnotic suggestibility, Attentional tunneling.
+**Why it works:** Absorption (trait), Attentional tunneling, Availability heuristic, Hypnotic suggestibility, Narrative transportation, Response expectancy theory, Situation-model updating.
 
 
 #### Safe place *(variant)*
@@ -4308,7 +4308,7 @@ A guided-imagery scene whose defining feature is safety and whose content is cho
 
 **Evidence:** clinical-tradition. A standard stabilisation exercise in clinical hypnosis and trauma therapy; evidence comes mostly from treatment packages that include it, not from tests of it alone.
 
-**Why it works:** Response expectancy theory, Absorption (trait), Epistemic trust.
+**Why it works:** Absorption (trait), Attachment theory, Epistemic trust, Response expectancy theory.
 
 **Consent:** The way back in is a cue that outlasts the session. It should be the listener's own to use, and a later script should not bring anyone or anything into the place without their invitation.
 
@@ -4333,7 +4333,7 @@ A metaphor describes something other than the listener (a garden, a river, a per
 
 **Evidence:** clinical-tradition. Standard in Ericksonian and clinical hypnosis texts; controlled comparisons have not shown metaphorical suggestions to outperform direct ones, and the claim that the unconscious decodes them is untested. Source: Gordon, Therapeutic Metaphors (1978).
 
-**Why it works:** Metaphorical suggestion, Indirect suggestion, Narrative persuasion, Pragmatic enrichment, Counterarguing, Generation effect.
+**Why it works:** Counterarguing, Extended Elaboration Likelihood Model, Generation effect, Indirect suggestion, Metaphorical suggestion, Narrative coherence, Narrative persuasion, Pragmatic enrichment, Spreading activation.
 
 **Consent:** The suggestion is meant to pass without being recognised as one; the listener should have agreed beforehand to the goal the metaphor serves.
 
@@ -4358,7 +4358,7 @@ A single metaphor is set up near the start and then carried through the whole sc
 
 **Evidence:** rhetorical-tradition. The extended metaphor or conceit is a classical figure and a common way to organize a hypnosis script; no study tests whether one sustained image works better than several separate ones.
 
-**Why it works:** Metaphorical suggestion, Processing fluency, Priming, Narrative coherence.
+**Why it works:** Metaphorical suggestion, Narrative coherence, Priming, Processing fluency.
 
 
 ### State-as-substance *(unit)*
@@ -4381,7 +4381,7 @@ An abstract state (relaxation, blankness, calm, focus) is described as a materia
 
 **Evidence:** clinical-tradition. Common in clinical relaxation and pain scripts; no studies isolate the substance image from the relaxation suggestion it accompanies.
 
-**Why it works:** Response expectancy theory, Absorption (trait), Processing fluency.
+**Why it works:** Absorption (trait), Metaphorical suggestion, Processing fluency, Response expectancy theory, Spreading activation.
 
 
 ### Container imagery *(unit)*
@@ -4429,7 +4429,7 @@ An inner quantity (discomfort, mental chatter, energy, confidence) is given an i
 
 **Evidence:** clinical-tradition. Dial and control-room imagery is common in clinical pain and anxiety scripts, and hypnotic analgesia itself is well supported; the dial image has not been tested against plain suggestion.
 
-**Why it works:** Response expectancy theory, Cold control theory, Dissociated control theory.
+**Why it works:** Cold control theory, Dissociated control theory, Response expectancy theory.
 
 **Consent:** When the speaker is given the controls, or a control is left in place after the session, that should be agreed beforehand and a way to reset it stated.
 
@@ -4460,7 +4460,7 @@ Story A is begun and broken off, story B is begun and broken off, sometimes a th
 
 **Evidence:** practitioner-lore. Taught in Ericksonian and NLP training as multiple embedded metaphor; the claims of amnesia for the centre and of heightened suggestibility there have no independent tests.
 
-**Why it works:** Zeigarnik effect, Narrative closure, Working-memory interference, Metaphorical suggestion.
+**Why it works:** Metaphorical suggestion, Narrative closure, Narrative persuasion, Transportation-induced counterarguing reduction, Working-memory interference, Zeigarnik effect.
 
 **Consent:** The form is meant to make the central suggestions hard to notice or recall; use it only for goals the listener has already agreed to.
 
@@ -4485,7 +4485,7 @@ The writer uses narrative craft (a character who wants something, a sequence of 
 
 **Evidence:** experimental. Transportation reliably predicts story-consistent belief change in experiments and meta-analyses; effects are modest, and it has not been studied as a hypnotic procedure. Source: Green & Brock, The role of transportation in the persuasiveness of public narratives (2000).
 
-**Why it works:** Narrative transportation, Narrative persuasion, Transportation-induced counterarguing reduction, Entertainment Overcoming Resistance Model, Suspension of disbelief, Absorption (trait).
+**Why it works:** Absorption (trait), Entertainment Overcoming Resistance Model, Extended Elaboration Likelihood Model, Metaphorical suggestion, Narrative persuasion, Narrative transportation, Suspension of disbelief, Transportation-induced counterarguing reduction.
 
 **Consent:** It works by reducing scrutiny of what the story implies; the listener should know the session uses story to carry suggestions.
 
@@ -4510,7 +4510,7 @@ The script supplies a character and invites the listener to take that character'
 
 **Evidence:** experimental. Identification with story characters predicts attitude and self-concept shifts in media experiments; its use as a carrier for hypnotic suggestion is practice, not tested. Source: Cohen, Defining identification: a theoretical look at the identification of audiences with media characters (2001).
 
-**Why it works:** Character identification, Narrative persuasion, Social learning theory, Self-reference effect, Entertainment Overcoming Resistance Model.
+**Why it works:** Character identification, Entertainment Overcoming Resistance Model, Extended Elaboration Likelihood Model, Narrative persuasion, Narrative transportation, Self-reference effect, Social learning theory.
 
 **Consent:** Responses given to the character are meant to transfer to the listener; say so, and do not use the character to carry suggestions the listener would refuse if asked directly.
 
@@ -4535,7 +4535,7 @@ The story's main character is addressed as 'you', so there is no separate charac
 
 **Evidence:** practitioner-lore. Self-referent wording aids memory and second-person text can raise reported immersion in reading studies, but results are mixed and nothing tests it against third-person stories in hypnosis.
 
-**Why it works:** Self-reference effect, Character identification, Narrative transportation, Presupposition accommodation.
+**Why it works:** Character identification, Narrative transportation, Presupposition accommodation, Self-reference effect.
 
 
 ### Imagined ritual *(unit)*
@@ -4558,7 +4558,7 @@ The listener imagines a discrete act with a clear before and after (signing a pa
 
 **Evidence:** clinical-tradition. Symbolic letting-go and commitment imagery is common in clinical scripts, and real commitments and rituals have experimental support; imagined ones have little direct testing.
 
-**Why it works:** Commitment and consistency, Self-perception theory, Imagination inflation, Event segmentation theory.
+**Why it works:** Commitment and consistency, Event segmentation theory, Imagination inflation, Self-perception theory.
 
 **Consent:** An imagined vow or signing is meant to feel binding after the session; state its scope, and do not treat it as consent to anything not agreed while awake.
 
@@ -4583,7 +4583,7 @@ The listener runs through the actual future behaviour in imagination: the settin
 
 **Evidence:** experimental. Mental practice improves performance in meta-analyses, more for cognitive than for strength tasks and less than physical practice; imagining the process helps more than imagining only the outcome.
 
-**Why it works:** Imagination inflation, Implementation intentions, Response expectancy theory, Availability heuristic, Priming.
+**Why it works:** Availability heuristic, Imagination inflation, Implementation intentions, Priming, Response expectancy theory.
 
 **Consent:** It is meant to change behaviour after the session; rehearse only behaviour the listener has asked for.
 
@@ -4608,7 +4608,7 @@ A short rehearsal aimed at one named future situation: the listener imagines the
 
 **Evidence:** practitioner-lore. The NLP procedure itself is untested, but it resembles mental simulation and implementation intentions, both of which have experimental support for cue-linked behaviour. Source: Bandler & Grinder, Frogs into Princes (1979).
 
-**Why it works:** Implementation intentions, Posthypnotic suggestion, Imagination inflation, Response expectancy theory, Anchoring (NLP).
+**Why it works:** Anchoring (NLP), Availability heuristic, Imagination inflation, Implementation intentions, Posthypnotic suggestion, Response expectancy theory.
 
 **Consent:** It exists to make a response occur after the session; the listener should know which situations it has been attached to.
 
@@ -4633,7 +4633,7 @@ An explicit comparison between the target experience and a familiar one, with a 
 
 **Evidence:** experimental. Analogies aid comprehension and can shift judgments in learning and persuasion experiments; whether they strengthen hypnotic response beyond aiding understanding is not established. Source: Aristotle, Rhetoric.
 
-**Why it works:** Processing fluency, Familiarity heuristic, Spreading activation, Response expectancy theory.
+**Why it works:** Familiarity heuristic, Metaphorical suggestion, Processing fluency, Response expectancy theory, Spreading activation.
 
 
 ### Personification *(unit)*
@@ -4656,7 +4656,7 @@ A non-person (the eyelids, the breath, sleep, the chair, the trance itself) is m
 
 **Evidence:** rhetorical-tradition. A classical figure; its use to make responses feel involuntary is standard practice but has not been tested on its own.
 
-**Why it works:** Cold control theory, Dissociated control theory, Response expectancy theory, Automaticity.
+**Why it works:** Automaticity, Cold control theory, Dissociated control theory, Response expectancy theory.
 
 
 ### Imagined substance *(unit)*
@@ -4679,7 +4679,7 @@ The writer has the listener imagine taking in an agent: swallowing a drink, brea
 
 **Evidence:** clinical-tradition. Imagined anaesthetic and imagined medicine are long-standing clinical suggestions, and expectancy and placebo effects on felt states are well established; no study isolates the imagined substance from the plain suggestion it carries.
 
-**Why it works:** Placebo effect, Response expectancy theory, Absorption (trait), Classical conditioning.
+**Why it works:** Absorption (trait), Classical conditioning, Placebo effect, Predictive processing, Response expectancy theory.
 
 **Consent:** Say that the substance is imaginary and that its effect ends with the session; do not use drug or intoxication imagery with listeners in recovery from substance use unless they have asked for it.
 
@@ -4704,7 +4704,7 @@ The writer describes the scene first in the sense that comes easily to the liste
 
 **Evidence:** practitioner-lore. Taught in NLP as overlapping representational systems; the claim that people have a preferred sense system has failed controlled tests, and the lead itself has not been studied, though people do differ in how vivid their imagery is in each sense.
 
-**Why it works:** Pacing and leading, Spreading activation, Absorption (trait).
+**Why it works:** Absorption (trait), Pacing and leading, Spreading activation.
 
 
 ## Dissociation and parts
@@ -4717,7 +4717,7 @@ This family covers suggestions that split experience: the watcher from the watch
 
 **Not to be confused with:** Imagery, metaphor and story (imagery adds a scene; this family divides the listener's own experience); Identity and belief (identity entries rename or redefine the whole self; these split it); Conscious-unconscious double bind (the bind uses the split to make every option succeed; it is filed under binds).
 
-**Why it works:** Neodissociation theory, Dissociated control theory, Cold control theory, Sociocognitive theory of hypnosis.
+**Why it works:** Cold control theory, Dissociated control theory, Neodissociation theory, Sociocognitive theory of hypnosis.
 
 **Consent:** Splits can outlast the session; close them explicitly, and avoid them with listeners who report unwanted dissociation in daily life.
 
@@ -4742,7 +4742,7 @@ The writer moves the listener's point of view away from what they are experienci
 
 **Evidence:** clinical-tradition. Standard in clinical hypnosis for pain and distress; distancing from a feeling has experimental support outside hypnosis, but the specific out-of-body wording has not been tested against alternatives.
 
-**Why it works:** Neodissociation theory, Cognitive decoupling, Response expectancy theory.
+**Why it works:** Cognitive decoupling, Dissociated control theory, Neodissociation theory, Response expectancy theory.
 
 **Consent:** Can be unpleasant for listeners prone to depersonalization; state the content in advance and return the listener to the body before the end.
 
@@ -4767,7 +4767,7 @@ A form of dissociation in which the outside view is given to a lasting part: a w
 
 **Evidence:** contested. Hilgard's hidden-observer reports were replicated, but later work showed their content follows the instructions given, so the observer may be a product of the suggestion and not a pre-existing part. Source: Hilgard, Divided Consciousness (1977).
 
-**Why it works:** Neodissociation theory, Sociocognitive theory of hypnosis, Demand characteristics, Metacognitive monitoring.
+**Why it works:** Demand characteristics, Metacognitive monitoring, Neodissociation theory, Sociocognitive theory of hypnosis.
 
 **Consent:** A promised watcher lowers the listener's guard; the promise that it keeps them safe should be true of the script.
 
@@ -4792,7 +4792,7 @@ The writer words a response so that the listener is not its agent: the hand lift
 
 **Evidence:** experimental. Felt involuntariness is a measured feature of hypnotic responding, and passive wording has been shown to raise involuntariness ratings; whether control is really altered or only its report is disputed.
 
-**Why it works:** Cold control theory, Dissociated control theory, Ideomotor effect, Response expectancy theory, Automaticity, Sociocognitive theory of hypnosis.
+**Why it works:** Automaticity, Cold control theory, Direct verbal suggestion, Dissociated control theory, Higher-order thought theory, Ideomotor effect, Metacognitive monitoring, Neodissociation theory, Response expectancy theory, Sociocognitive theory of hypnosis.
 
 **Consent:** It lowers the listener's sense of authorship over what they do; it should not be used to carry responses the listener has not agreed to.
 
@@ -4817,7 +4817,7 @@ The writer treats 'your unconscious' (or 'subconscious') as a second listener wi
 
 **Evidence:** clinical-tradition. A standard Ericksonian teaching device; there is no evidence for an unconscious mind that hears and acts as a separate listener, and the wording has not been shown to beat direct suggestion. Source: Erickson, Rossi & Rossi, Hypnotic Realities (1976).
 
-**Why it works:** Neodissociation theory, Response expectancy theory, Sociocognitive theory of hypnosis, Milton Model.
+**Why it works:** Dissociated control theory, Higher-order thought theory, Milton Model, Neodissociation theory, Response expectancy theory, Sociocognitive theory of hypnosis.
 
 **Consent:** It tells the listener their conscious attention is not needed, so say beforehand what the suggestions will cover.
 
@@ -4842,7 +4842,7 @@ The writer picks out one function, wish or habit and speaks of it as a part with
 
 **Evidence:** clinical-tradition. Ego-state and related parts therapies are widely practised and have some outcome studies; the claim that parts are real separate entities is not established, and the wording itself is untested. Source: Watkins & Watkins, Ego States: Theory and Therapy (1997).
 
-**Why it works:** Neodissociation theory, Sociocognitive theory of hypnosis, Psychological reactance.
+**Why it works:** Neodissociation theory, Psychological reactance, Sociocognitive theory of hypnosis.
 
 **Consent:** Do not use to sideline a part that is objecting to the session; reunite the parts before the end.
 
@@ -4867,7 +4867,7 @@ A way of addressing a part: the writer separates what the part does (the worry, 
 
 **Evidence:** practitioner-lore. A core NLP presupposition, shared in different words by ego-state and other parts therapies; the claim that every behaviour has a positive intention is an operating assumption, not a finding, and the wording has not been tested by itself. Source: Bandler & Grinder, Reframing: Neuro-Linguistic Programming and the Transformation of Meaning (1982).
 
-**Why it works:** Reframing, Psychological reactance, Neodissociation theory, Self-determination theory.
+**Why it works:** Neodissociation theory, Psychological reactance, Reframing, Self-determination theory.
 
 **Consent:** An objecting part may be right; do not use the good-intention framing to argue the listener past a real reservation about the session.
 
@@ -4892,7 +4892,7 @@ The writer separates awareness from the body: the body sleeps while the mind sta
 
 **Evidence:** clinical-tradition. Hypnotic analgesia has good controlled evidence and dissociative wording is one standard way to suggest it; 'body asleep, mind awake' as a distinct state is practitioner usage and unverified.
 
-**Why it works:** Neodissociation theory, Dissociated control theory, Response expectancy theory, Absorption (trait).
+**Why it works:** Absorption (trait), Dissociated control theory, Neodissociation theory, Response expectancy theory.
 
 **Consent:** Lingering numbness or unreality is an unwanted after-effect; restore normal feeling explicitly, and do not mask pain that needs attention.
 
@@ -4917,7 +4917,7 @@ The writer defines a second self: a name and a short list of traits and behaviou
 
 **Evidence:** practitioner-lore. Suggested alternate identities can be role-enacted on cue, as sociocognitive studies of hypnosis show; durable separate personas are claimed by the community without independent validation.
 
-**Why it works:** Sociocognitive theory of hypnosis, Character identification, Labeling effect, Posthypnotic suggestion, Neodissociation theory.
+**Why it works:** Character identification, Labeling effect, Neodissociation theory, Posthypnotic suggestion, Sociocognitive theory of hypnosis.
 
 **Consent:** It persists after the session and can be fired by cue; agree it in advance, state who may use the cue, and provide a switch-out and a removal.
 
@@ -4974,7 +4974,7 @@ A fixed NLP procedure for an unwanted habit or symptom. The behavior is attribut
 
 **Evidence:** practitioner-lore. Widely taught in NLP training with no controlled trials of the procedure; the signals are real ideomotor or attentional effects, but nothing shows they report the views of separate inner parts. Source: Richard Bandler and John Grinder, Frogs into Princes: Neuro Linguistic Programming, Real People Press (1979).
 
-**Why it works:** Reframing, Ideomotor effect, Response expectancy theory, Neodissociation theory.
+**Why it works:** Ideomotor effect, Neodissociation theory, Reframing, Response expectancy theory.
 
 **Consent:** The change is meant to persist after the session and may be negotiated without the listener consciously knowing its content, so agree beforehand which behavior is being worked on.
 
@@ -5024,7 +5024,7 @@ A pronoun shift carried into the listener's own speech: they say 'this one is ca
 
 **Evidence:** practitioner-lore. Third-person self-talk is studied as a self-distancing tool that lowers emotional reactivity, but its community use for identity change is untested.
 
-**Why it works:** Self-reference effect, Labeling effect.
+**Why it works:** Labeling effect, Self-reference effect.
 
 **Consent:** Removing 'I' targets self-concept and should be agreed and limited to the session.
 
@@ -5039,7 +5039,7 @@ Conditioning covers every device that works by learning over repetitions, not by
 
 **Not to be confused with:** Posthypnotic suggestion (a single suggestion for a later response; conditioning is the repeated pairing or practice that builds it); Suggestion repetition (repeating a suggestion's wording for emphasis, with no cue-response trials or schedule); Compliance ladder (works by commitment and consistency across escalating asks, not by association or consequence).
 
-**Why it works:** Classical conditioning, Operant conditioning, Automaticity, Response expectancy theory.
+**Why it works:** Automaticity, Classical conditioning, Operant conditioning, Response expectancy theory.
 
 **Consent:** Conditioning is meant to outlast the session, so the listener should know beforehand what is being trained, where it applies, and how it can be undone.
 
@@ -5064,7 +5064,7 @@ The script, or its description, prescribes repetition across sessions: a frequen
 
 **Evidence:** clinical-tradition. Daily self-hypnosis or recording practice is standard clinical advice and the spacing effect on learning is well replicated, but the best schedule for hypnotic suggestions has not been established.
 
-**Why it works:** Spacing effect, Mere-exposure effect, Illusory truth effect, Response expectancy theory.
+**Why it works:** Automaticity, Illusory truth effect, Mere-exposure effect, Response expectancy theory, Spacing effect.
 
 **Consent:** A schedule multiplies exposure to everything else in the file, so say what repeated listening is expected to do and give an end point or review point.
 
@@ -5089,7 +5089,7 @@ The writer names a specific existing routine or situation and binds the new beha
 
 **Evidence:** experimental. If-then plans have a large experimental literature showing better goal follow-through; 'habit stacking' is a self-help name for the special case of using an existing habit as the cue, and delivery under hypnosis has not been shown to add to the effect. Source: James Clear, Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones, Avery (2018).
 
-**Why it works:** Implementation intentions, Automaticity.
+**Why it works:** Automaticity, Implementation intentions.
 
 **Consent:** The behavior is meant to recur in daily life after the session, so the cue and the behavior should be ones the listener has chosen or agreed to.
 
@@ -5114,7 +5114,7 @@ A drill is a block of repeated cue-response-reset cycles inside a single session
 
 **Evidence:** experimental. Practice continued past first success improves retention and speed in skill and verbal learning, with gains that fade without later practice; drilling hypnotic triggers specifically has not been tested in controlled studies.
 
-**Why it works:** Automaticity, Classical conditioning, Operant conditioning, Response expectancy theory.
+**Why it works:** Automaticity, Classical conditioning, Operant conditioning, Response expectancy theory, Spacing effect.
 
 **Consent:** A drilled response is built to fire quickly and to last, so pair the drill with stated trigger conditions and a way to remove the response.
 
@@ -5139,7 +5139,7 @@ A mantra is a short phrase with fixed wording, or a fixed set of two to four sho
 
 **Evidence:** practitioner-lore. Repetition reliably raises familiarity and judged truth of a statement, and repeated-phrase meditation has relaxation studies, but lasting change in belief or behavior from a mantra inside a hypnosis script has not been shown.
 
-**Why it works:** Illusory truth effect, Mere-exposure effect, Processing fluency, Habituation, Cognitive load.
+**Why it works:** Cognitive fluency of rhyme (rhyme-as-reason), Cognitive load, Habituation, Illusory truth effect, Mere-exposure effect, Processing fluency.
 
 
 ### Repeat after me *(unit)*
@@ -5162,7 +5162,7 @@ The writer gives the exact words and instructs the listener to produce them, so 
 
 **Evidence:** practitioner-lore. Laboratory work shows that self-generated material is remembered better and that stating a position can shift attitude toward it, but the script device itself has no controlled studies and the size of any lasting effect is unknown.
 
-**Why it works:** Generation effect, Self-reference effect, Self-perception theory, Commitment and consistency, Cognitive dissonance.
+**Why it works:** Cognitive dissonance, Commitment and consistency, Generation effect, Illusory truth effect, Self-perception theory, Self-reference effect.
 
 **Consent:** Words the listener says can later be cited back as their own commitment, so do not treat a line repeated on instruction as consent to anything.
 
@@ -5202,7 +5202,7 @@ Pairing is the basic operation of classical conditioning: a neutral cue (a word,
 
 **Evidence:** experimental. Cue-outcome pairing is well established in animals and humans, but it is strongest when the cue comes just before the outcome; the usual script order, state first and cue delivered into it, is simultaneous or backward pairing, which conditions weakly in the laboratory. Whether pairing a word with a suggested (not physically produced) state yields a true conditioned response, as opposed to an expectancy-driven one, has not been separated in controlled work. Source: Pavlov, Conditioned Reflexes (1927).
 
-**Why it works:** Classical conditioning, Response expectancy theory, Automaticity.
+**Why it works:** Anchoring (NLP), Automaticity, Classical conditioning, Evaluative conditioning, Prediction error, Response expectancy theory.
 
 **Consent:** The association is meant to persist after the session; tell the listener which cue is being paired with what.
 
@@ -5227,7 +5227,7 @@ Pleasure pairing is pairing in which the state is pleasure, comfort or arousal a
 
 **Evidence:** practitioner-lore. Appetitive and sexual conditioning are shown in laboratory studies with real stimuli, but the script practice of pairing a concept with suggested pleasure has no independent validation; community claims of durable rewiring outrun the evidence.
 
-**Why it works:** Classical conditioning, Evaluative conditioning, Misattribution of arousal, Response expectancy theory.
+**Why it works:** Affective priming, Classical conditioning, Evaluative conditioning, Misattribution of arousal, Response expectancy theory.
 
 **Consent:** It aims to change what the listener finds pleasant beyond the session; name the target in the description and avoid pairing pleasure with things the listener has not agreed to want.
 
@@ -5252,7 +5252,7 @@ Evaluative conditioning changes how much something is liked by pairing it with p
 
 **Evidence:** experimental. The Hofmann et al. (2010) meta-analysis finds a reliable medium-sized effect on liking, larger when people notice the pairing; effects without awareness of the pairing are disputed, and durability outside the laboratory is less certain. Source: Levey & Martin, Classical conditioning of human 'evaluative' responses (1975).
 
-**Why it works:** Evaluative conditioning, Affective priming, Classical conditioning, Mere-exposure effect.
+**Why it works:** Affective priming, Classical conditioning, Evaluative conditioning, Mere-exposure effect.
 
 **Consent:** It is usually not announced and shifts attitudes that last beyond the session; the listener should know which likes or dislikes the script is built to move.
 
@@ -5277,7 +5277,7 @@ Second-order conditioning builds a new cue from an old one. The established cue 
 
 **Evidence:** experimental. Second-order conditioning is established in the laboratory but is weaker and less durable than first-order conditioning; its use to transfer hypnotic triggers is practitioner practice without direct study. Source: Pavlov, Conditioned Reflexes (1927).
 
-**Why it works:** Classical conditioning, Response expectancy theory.
+**Why it works:** Classical conditioning, Evaluative conditioning, Response expectancy theory.
 
 **Consent:** It adds cues that work after the session, sometimes everyday ones; state the new cue plainly and give it the same limits and removal as the original.
 
@@ -5302,7 +5302,7 @@ Counterconditioning pairs a cue that already evokes one response, usually anxiet
 
 **Evidence:** experimental. Systematic desensitization has controlled trials for phobias and anxiety; later work suggests graded exposure does much of the work and that the relaxation component is not always necessary. Aversive counterconditioning has a poorer record and a history of harmful use. Source: Wolpe, Psychotherapy by Reciprocal Inhibition (1958).
 
-**Why it works:** Classical conditioning, Habituation, Response expectancy theory.
+**Why it works:** Classical conditioning, Evaluative conditioning, Habituation, Response expectancy theory.
 
 **Consent:** It deliberately evokes distressing material and aims at lasting change; the listener should have chosen the target, be able to stop at any step, and aversive forms need explicit agreement.
 
@@ -5352,7 +5352,7 @@ Discrimination trains a response to occur to one cue and not to others that rese
 
 **Evidence:** experimental. Discrimination learning through differential pairing is well established; in scripts the boundary is usually only stated, and how well a stated boundary holds has not been tested. Source: Pavlov, Conditioned Reflexes (1927).
 
-**Why it works:** Classical conditioning, Response expectancy theory.
+**Why it works:** Classical conditioning, Response expectancy theory, State-dependent memory.
 
 **Consent:** Usually protective, since it keeps a persistent response from firing on everyday look-alikes; tell the listener which cue is being kept and which are being trained out, and do not rely on it alone to keep a response out of unsafe settings.
 
@@ -5377,7 +5377,7 @@ Extinction weakens a conditioned response by presenting its cue without the stat
 
 **Evidence:** experimental. Extinction is well established, as are spontaneous recovery, renewal in the original context and rapid reacquisition, so a faded response should not be assumed gone; its use to retire hypnotic triggers has not been studied directly. Source: Pavlov, Conditioned Reflexes (1927).
 
-**Why it works:** Classical conditioning, Habituation, Response expectancy theory.
+**Why it works:** Classical conditioning, Habituation, Prediction error, Response expectancy theory.
 
 **Consent:** Tell the listener an extinguished response can return after a break or a new pairing, so they do not treat it as permanently removed.
 
@@ -5392,7 +5392,7 @@ The operant family covers every device built on a contingency: if the listener d
 
 **Not to be confused with:** Classical conditioning (pairs a cue with a state regardless of what the listener does; no if-you-do-X contingency); Triggers and anchors (installs a cue that evokes a response; the operant family manages what follows the response); Compliance and commitment (builds agreement through commitment and consistency, not through consequences).
 
-**Why it works:** Operant conditioning, Motivating operations, Variable-ratio schedules.
+**Why it works:** Motivating operations, Operant conditioning, Variable-ratio schedules.
 
 **Consent:** Contingencies meant to keep running after the session (points, penalties, earned permissions, denial) should be described up front and given an end condition.
 
@@ -5417,7 +5417,7 @@ Positive reinforcement is adding something wanted immediately after a response, 
 
 **Evidence:** experimental. Reinforcement of observed behavior is very well established; a recorded reward that cannot be made contingent on what the listener actually did is an approximation that has not been tested. Source: Skinner, Science and Human Behavior (1953).
 
-**Why it works:** Operant conditioning, Response expectancy theory.
+**Why it works:** Conditional regard, Intermittent reinforcement, Operant conditioning, Prediction error, Response expectancy theory, Variable-ratio schedules.
 
 
 ##### Praise *(variant)*
@@ -5440,7 +5440,7 @@ Praise is positive reinforcement delivered as verbal approval immediately after 
 
 **Evidence:** experimental. Contingent praise raises rates of praised behavior in classroom and clinical studies; its effect depends on the listener valuing the source, and recorded praise for unobserved responses is untested.
 
-**Why it works:** Operant conditioning, Conditional regard, Liking principle.
+**Why it works:** Conditional regard, Injunctive norms, Liking principle, Normative social influence, Operant conditioning.
 
 
 ##### Pleasure as reward *(variant)*
@@ -5463,7 +5463,7 @@ Pleasure as reward is positive reinforcement where the reward is a suggested bod
 
 **Evidence:** practitioner-lore. Suggested sensations are a documented hypnotic response, but no controlled work shows that a suggested pleasure acts as a reinforcer for the behavior it follows.
 
-**Why it works:** Operant conditioning, Response expectancy theory, Evaluative conditioning.
+**Why it works:** Evaluative conditioning, Operant conditioning, Response expectancy theory.
 
 **Consent:** When the reward is attached to obedience in general and suggested to continue after the session, say so in the description and give it a scope.
 
@@ -5488,7 +5488,7 @@ A marker is a short, unmistakable signal that has first been paired with reward 
 
 **Evidence:** experimental. Conditioned reinforcement is well established; animal studies comparing a clicker with prompt primary reward alone are mixed, and marker use in recorded hypnosis is practitioner lore. Source: Karen Pryor, Don't Shoot the Dog!: The Art of Teaching and Training, Sunshine Books (1984).
 
-**Why it works:** Operant conditioning, Classical conditioning.
+**Why it works:** Classical conditioning, Operant conditioning.
 
 
 #### Negative reinforcement *(unit)*
@@ -5511,7 +5511,7 @@ Negative reinforcement strengthens a response by removing or preventing somethin
 
 **Evidence:** experimental. Escape and avoidance learning are well established; relief that is only suggested in a recording has not been studied as a reinforcer. Source: Skinner, Science and Human Behavior (1953).
 
-**Why it works:** Operant conditioning, Motivating operations, Contrast effect.
+**Why it works:** Contrast effect, Motivating operations, Operant conditioning.
 
 **Consent:** If the script creates the discomfort it then relieves, the listener should have agreed to that in advance; a speaker who is the only source of relief is the dependency pattern.
 
@@ -5536,7 +5536,7 @@ Punishment is a consequence that reduces the response it follows. In its plain f
 
 **Evidence:** experimental. Punishment suppresses behavior in controlled studies, but with known side effects (avoidance, emotional responding, recovery when it stops); suggested or self-applied punishment from a script is unstudied. Source: Azrin & Holz, Punishment, in Honig (ed.), Operant Behavior: Areas of Research and Application (1966).
 
-**Why it works:** Operant conditioning, Conditional regard, Psychological reactance.
+**Why it works:** Conditional regard, Operant conditioning, Psychological reactance.
 
 **Consent:** Punishment should be agreed in advance, limited in scope and removable; rules that tell the listener to punish themselves after the session need an explicit end condition.
 
@@ -5586,7 +5586,7 @@ Punishment by a fixed interval in which nothing good can be earned or received: 
 
 **Evidence:** experimental. Time-out from positive reinforcement reduces target behavior in controlled studies, mostly with children and when the surrounding setting is rewarding; a self-applied or scripted time-out in a recording is unstudied.
 
-**Why it works:** Operant conditioning, Contrast effect, Conditional regard, Rejection sensitivity.
+**Why it works:** Conditional regard, Contrast effect, Operant conditioning, Rejection sensitivity.
 
 **Consent:** Agree it in advance, state its length, and end it on time; withdrawal of contact with no stated end, or carried into daily life, is the coercive hot-and-cold pattern and not a time-out.
 
@@ -5636,7 +5636,7 @@ Intermittent reinforcement delivers the reward after some occurrences of the res
 
 **Evidence:** experimental. Schedule effects and resistance to extinction are robust in laboratory work; in a fixed recording the 'random' schedule is the same on every listen, and its effect there is untested. Source: Ferster & Skinner, Schedules of Reinforcement (1957).
 
-**Why it works:** Variable-ratio schedules, Intermittent reinforcement, Operant conditioning, Prediction error.
+**Why it works:** Intermittent reinforcement, Operant conditioning, Prediction error, Variable-ratio schedules.
 
 **Consent:** This is the schedule behind gambling persistence and it makes a habit harder to drop; tell the listener it is in use, and do not combine it with relisten or dependency suggestions without agreement.
 
@@ -5684,7 +5684,7 @@ A behavior chain is a sequence of distinct responses in which each completed ste
 
 **Evidence:** experimental. Forward and backward chaining are established teaching procedures for observed behavior; chains installed by spoken description alone have not been studied.
 
-**Why it works:** Operant conditioning, Automaticity, Implementation intentions.
+**Why it works:** Automaticity, Implementation intentions, Operant conditioning.
 
 **Consent:** A chain meant to run by itself after the session is a posthypnotic routine; describe it up front and say how to drop it.
 
@@ -5709,7 +5709,7 @@ The earn-it contingency uses an activity as the reward: access to a preferred ac
 
 **Evidence:** experimental. Activity reinforcement is well supported, though later work (response deprivation) shows what matters is restricting access below baseline, not simply which activity is preferred. Source: David Premack, Toward Empirical Behavior Laws: I. Positive Reinforcement, Psychological Review (1959).
 
-**Why it works:** Operant conditioning, Motivating operations, Effort justification.
+**Why it works:** Effort justification, Motivating operations, Operant conditioning.
 
 **Consent:** Rules that gate everyday activities on tasks outside the session should be agreed in advance and time-limited.
 
@@ -5734,7 +5734,7 @@ A token is a symbol given right after the response that has value only because i
 
 **Evidence:** experimental. Token economies change behavior reliably in supervised settings; effects often fade when the system is withdrawn, and self-counted points from a recording are untested. Source: Ayllon & Azrin, The Token Economy (1968).
 
-**Why it works:** Operant conditioning, Sunk-cost effect, Commitment and consistency, Self-determination theory.
+**Why it works:** Commitment and consistency, Operant conditioning, Self-determination theory, Sunk-cost effect, Variable-ratio schedules.
 
 **Consent:** A points system runs between sessions; explain it before trance, and never tie points to money or to real-world obligations without separate agreement.
 
@@ -5784,7 +5784,7 @@ Satiation is the opposite motivating operation to deprivation: free or repeated 
 
 **Evidence:** experimental. Satiation lowering reinforcer value is well established, and stimulus satiation and negative practice have clinical reports of mixed quality; deliberate satiation delivered by script is untested. Source: Skinner, Science and Human Behavior (1953).
 
-**Why it works:** Motivating operations, Habituation, Operant conditioning.
+**Why it works:** Habituation, Motivating operations, Operant conditioning.
 
 
 #### Self-administered reinforcement *(unit)*
@@ -5807,7 +5807,7 @@ Self-administered reinforcement hands delivery of the reward to the listener: th
 
 **Evidence:** experimental. Self-reward is a studied component of self-management programs with positive results, though behavior analysts dispute whether it is true reinforcement or works through self-monitoring and commitment.
 
-**Why it works:** Operant conditioning, Self-determination theory, Implementation intentions.
+**Why it works:** Implementation intentions, Operant conditioning, Self-determination theory.
 
 **Consent:** This is designed to keep a behavior going after the session without the speaker; the behavior being maintained should be one the listener asked for.
 
@@ -5832,7 +5832,7 @@ A contingency in which the consequence for one person is set by the behavior of 
 
 **Evidence:** experimental. Group contingencies change behavior reliably in supervised classrooms and similar settings; their use in recordings or online communities, where nobody verifies the count, is untested. Source: Barrish, Saunders & Wolf, Good behavior game: Effects of individual contingencies for group consequences on disruptive behavior in a classroom (1969).
 
-**Why it works:** Operant conditioning, Normative social influence, Injunctive norms, Unity principle.
+**Why it works:** Injunctive norms, Normative social influence, Operant conditioning, Unity principle.
 
 **Consent:** It recruits peers as enforcers and keeps running between sessions, so every member should agree to the rule beforehand and be able to leave the group without penalty to themselves or the others.
 
@@ -5847,7 +5847,7 @@ This family covers the life of a cue: making it (anchoring, trigger installation
 
 **Not to be confused with:** Classical conditioning (that family is about pairing as a learning process; this one is about the named cue a script sets up and manages); Posthypnotic suggestion (a suggestion form for any after-session response; a trigger is the cue-bound case with its own install, test and removal steps).
 
-**Why it works:** Posthypnotic suggestion, Classical conditioning, Anchoring (NLP), Response expectancy theory, Implementation intentions.
+**Why it works:** Anchoring (NLP), Classical conditioning, Implementation intentions, Posthypnotic suggestion, Response expectancy theory.
 
 **Consent:** Everything in this family is meant to work after the session, so the listener should know before listening what cue is installed, what it does, who can fire it and how it ends.
 
@@ -5872,7 +5872,7 @@ Anchoring ties a cue to a state the listener is having right now. The state come
 
 **Evidence:** practitioner-lore. Cue-state association is real conditioning, but NLP's claim that one or a few peak-timed pairings give a reliable, lasting state switch has not been shown in controlled studies. Source: Richard Bandler and John Grinder, Frogs into Princes: Neuro Linguistic Programming, Real People Press (1979).
 
-**Why it works:** Anchoring (NLP), Classical conditioning, State-dependent memory, Response expectancy theory.
+**Why it works:** Anchoring (NLP), Classical conditioning, Response expectancy theory, State-dependent memory.
 
 **Consent:** The anchor is meant to work after the session, so say plainly what state is being tied to what cue.
 
@@ -5897,7 +5897,7 @@ Trigger installation is a posthypnotic suggestion in rule form: it names one cue
 
 **Evidence:** clinical-tradition. Cued posthypnotic responding is documented in laboratory and clinical work, mainly in highly hypnotizable subjects; how long it lasts and how well it works from recordings for ordinary listeners is not established.
 
-**Why it works:** Posthypnotic suggestion, Response expectancy theory, Implementation intentions, Hypnotizability, Direct verbal suggestion.
+**Why it works:** Anchoring (NLP), Classical conditioning, Direct verbal suggestion, Hypnotizability, Implementation intentions, Posthypnotic suggestion, Response expectancy theory.
 
 **Consent:** It persists after the session; the listener should agree to the cue and response beforehand and be told how it is limited and removed.
 
@@ -5922,7 +5922,7 @@ A trigger whose cue is language: a single word or a fixed short phrase. It is th
 
 **Evidence:** clinical-tradition. Verbal cues for posthypnotic responses are standard in the clinical and experimental literature; reliability outside highly responsive, practiced listeners is unmeasured.
 
-**Why it works:** Posthypnotic suggestion, Response expectancy theory, Classical conditioning.
+**Why it works:** Classical conditioning, Mere-exposure effect, Posthypnotic suggestion, Response expectancy theory.
 
 **Consent:** Pick a word that will not fire by accident in daily life, and tell the listener what it is before the session.
 
@@ -5947,7 +5947,7 @@ A trigger whose cue is a sound with no words. Because the sound carries no meani
 
 **Evidence:** practitioner-lore. Sound cues are ordinary conditioned stimuli and a stage and recording staple, but no controlled work shows a snap or bell does more than a spoken cue.
 
-**Why it works:** Classical conditioning, Posthypnotic suggestion, Orienting response, Response expectancy theory.
+**Why it works:** Classical conditioning, Orienting response, Posthypnotic suggestion, Response expectancy theory.
 
 **Consent:** Common sounds occur outside the session, so limit the trigger to the recording or the speaker and say so.
 
@@ -5997,7 +5997,7 @@ A trigger whose cue is recognized by its look, not its wording: a symbol, a colo
 
 **Evidence:** practitioner-lore. Visual stimuli condition like any other cue, and visual posthypnotic cues appear in experiments, but the image and text triggers used in online practice have not been studied.
 
-**Why it works:** Classical conditioning, Posthypnotic suggestion, Attentional capture, Response expectancy theory.
+**Why it works:** Attentional capture, Classical conditioning, Posthypnotic suggestion, Response expectancy theory.
 
 **Consent:** Images and colors turn up uninvited, so tie the trigger to a specific image and sender and tell the listener what it is.
 
@@ -6022,7 +6022,7 @@ A trigger whose cue is something that will happen anyway: a door opening, a phon
 
 **Evidence:** clinical-tradition. Tying a planned response to an everyday situation has solid support from implementation-intention research for deliberate actions; whether suggested automatic states fire this way from a recording is not tested.
 
-**Why it works:** Implementation intentions, Posthypnotic suggestion, Classical conditioning, Automaticity.
+**Why it works:** Automaticity, Classical conditioning, Implementation intentions, Posthypnotic suggestion.
 
 **Consent:** It fires in daily life with no one choosing the moment, so keep the response harmless in any setting and give it a stated limit and end.
 
@@ -6047,7 +6047,7 @@ A trigger whose cue happens inside the listener: a thought, an emotion, a body f
 
 **Evidence:** clinical-tradition. Cueing a coping response to an internal signal is standard in clinical hypnosis and supported for deliberate plans by implementation-intention research; automatic firing from a recording is assumed, not shown.
 
-**Why it works:** Implementation intentions, Posthypnotic suggestion, Automaticity, Metacognitive monitoring.
+**Why it works:** Automaticity, Implementation intentions, Metacognitive monitoring, Posthypnotic suggestion.
 
 **Consent:** The listener's own thoughts fire it and no one else can see it happen, so they should know exactly which thought or feeling is being linked to what.
 
@@ -6072,7 +6072,7 @@ A conditional suggestion whose cue is the listener's own thought and whose respo
 
 **Evidence:** contested. Thought stopping was a behavior-therapy technique, but suppression research shows trying to stop a thought can make it return more often; replacement with an alternative fares better than stopping alone.
 
-**Why it works:** Ironic process theory, Implementation intentions, Posthypnotic suggestion.
+**Why it works:** Continued influence effect, Implementation intentions, Ironic process theory, Posthypnotic suggestion.
 
 **Consent:** Swaps that persist after the session should target thoughts the listener asked to change.
 
@@ -6097,7 +6097,7 @@ A trigger test delivers the installed cue right after installation and describes
 
 **Evidence:** practitioner-lore. Rehearsing and demonstrating a cued response is universal practice and consistent with expectancy research, but the added effect of an in-session test has not been isolated.
 
-**Why it works:** Response expectancy theory, Self-perception theory, Classical conditioning, Demand characteristics.
+**Why it works:** Automaticity, Classical conditioning, Demand characteristics, Posthypnotic suggestion, Response expectancy theory, Self-perception theory.
 
 
 #### Stacking anchors *(unit)*
@@ -6145,7 +6145,7 @@ Chaining anchors links several cue-response pairs in a fixed order, so firing th
 
 **Evidence:** practitioner-lore. Response chains are well established in behavior analysis for trained actions; the NLP procedure of chaining suggested states has no independent test.
 
-**Why it works:** Anchoring (NLP), Classical conditioning, Operant conditioning, Automaticity.
+**Why it works:** Anchoring (NLP), Automaticity, Classical conditioning, Operant conditioning.
 
 **Consent:** The listener should know where the chain ends, since firing the first cue commits them to the whole sequence.
 
@@ -6195,7 +6195,7 @@ A suggestion about the trigger itself: that each firing increases its effect. It
 
 **Evidence:** practitioner-lore. Repeated practice does strengthen cued responses and expectancy shapes them, but nothing shows that telling a listener the trigger strengthens itself adds to that.
 
-**Why it works:** Response expectancy theory, Classical conditioning, Illusory truth effect.
+**Why it works:** Classical conditioning, Illusory truth effect, Posthypnotic suggestion, Response expectancy theory.
 
 **Consent:** It tells the listener the effect will grow beyond what they have felt so far, so they should have agreed to a trigger that escalates.
 
@@ -6220,7 +6220,7 @@ A clause attached to a trigger that sets its conditions of use: which person or 
 
 **Evidence:** clinical-tradition. Limiting a posthypnotic cue to stated persons and settings is standard safe practice, and posthypnotic responses are known to be context-sensitive; how reliably a written condition holds is not measured.
 
-**Why it works:** Posthypnotic suggestion, Classical conditioning, Response expectancy theory, Self-determination theory.
+**Why it works:** Classical conditioning, Posthypnotic suggestion, Response expectancy theory, Self-determination theory.
 
 **Consent:** This is the clause that keeps a persistent trigger within what was agreed; leaving it out is a safety gap, and widening it later needs fresh agreement.
 
@@ -6270,7 +6270,7 @@ Removal is the explicit cancellation of something installed earlier: the cue is 
 
 **Evidence:** clinical-tradition. Cancelling suggestions before the end of a session is standard procedure in clinical practice and in standardized hypnosis scales; it is assumed to work as other direct suggestions do and is rarely tested on its own.
 
-**Why it works:** Posthypnotic suggestion, Direct verbal suggestion, Response expectancy theory.
+**Why it works:** Direct verbal suggestion, Posthypnotic suggestion, Response expectancy theory.
 
 **Consent:** A listener can ask for removal at any time and should be told beforehand how it is done; a script that says a trigger can never be removed is making a permanence claim, not stating a fact.
 
@@ -6310,7 +6310,7 @@ This family covers devices that work through the order of requests and through t
 
 **Not to be confused with:** Social influence (appeals to what other people do or say, not to the listener's own prior agreement); Binds and choices (works through the shape of an offered choice, not through a sequence of agreements); Operant conditioning (changes behavior by what follows it, not by consistency with what came before).
 
-**Why it works:** Commitment and consistency, Self-perception theory, Foot-in-the-door, Cognitive dissonance.
+**Why it works:** Cognitive dissonance, Commitment and consistency, Foot-in-the-door, Self-perception theory.
 
 **Consent:** Several members work best when the listener does not notice the sequence; state the destination up front when the content is consequential.
 
@@ -6335,7 +6335,7 @@ A graded sequence of requests in which the early ones are almost impossible to r
 
 **Evidence:** clinical-tradition. Ordering suggestions from easy to hard is standard in clinical texts and in suggestibility scales, and the foot-in-the-door effect is experimentally supported, but long multi-step ladders in scripts have not been tested as such.
 
-**Why it works:** Foot-in-the-door, Commitment and consistency, Self-perception theory, Response expectancy theory, Task-set inertia.
+**Why it works:** Cognitive dissonance, Commitment and consistency, Foot-in-the-door, Mere-agreement effect / acquiescence, Response expectancy theory, Self-perception theory, Task-set inertia.
 
 **Consent:** The listener should know where the ladder leads before the first rung; a ladder toward an undisclosed end is manipulation.
 
@@ -6360,7 +6360,7 @@ A compliance ladder whose rungs are agreements, spoken or inward. Three or more 
 
 **Evidence:** clinical-tradition. Standard in Ericksonian and sales teaching; a few experiments on agreement momentum support a small effect, but the claim that three yeses reliably carry a fourth is not established. Source: Erickson, Rossi & Rossi, Hypnotic Realities (1976).
 
-**Why it works:** Mere-agreement effect / acquiescence, Commitment and consistency, Pacing and leading, Processing fluency.
+**Why it works:** Commitment and consistency, Counter-attitudinal processing, Foot-in-the-door, Mere-agreement effect / acquiescence, Pacing and leading, Processing fluency.
 
 
 #### Foot in the door *(variant)*
@@ -6383,7 +6383,7 @@ The two-step form of the compliance ladder: one small request that is granted an
 
 **Evidence:** experimental. Replicated many times; meta-analyses find a real but small average effect that depends on the first request being performed, unpaid and related to the second. Source: Freedman & Fraser, Compliance without pressure: The foot-in-the-door technique (1966).
 
-**Why it works:** Foot-in-the-door, Self-perception theory, Commitment and consistency.
+**Why it works:** Commitment and consistency, Foot-in-the-door, Self-perception theory.
 
 **Consent:** Used honestly when the larger request is foreseeable; used to draw someone toward a request they would have refused outright, it works by their not noticing.
 
@@ -6408,7 +6408,7 @@ A compliance ladder whose rungs are small bodily acts with no stake. Each act is
 
 **Evidence:** practitioner-lore. Common in stage, street and recorded erotic hypnosis; it is consistent with foot-in-the-door research but has not been tested as a separate technique.
 
-**Why it works:** Foot-in-the-door, Self-perception theory, Task-set inertia, Automaticity.
+**Why it works:** Automaticity, Foot-in-the-door, Self-perception theory, Task-set inertia.
 
 
 #### Graded escalation *(variant)*
@@ -6431,7 +6431,7 @@ A compliance ladder stretched over sections of one script or over a series of fi
 
 **Evidence:** practitioner-lore. Gradual commitment is well documented in social psychology as a phenomenon, but stepwise escalation across recorded sessions is community practice without direct tests.
 
-**Why it works:** Foot-in-the-door, Commitment and consistency, Habituation, Investment model of commitment.
+**Why it works:** Commitment and consistency, Foot-in-the-door, Habituation, Investment model of commitment, Sunk-cost effect.
 
 **Consent:** Because each step looks small, the listener may never weigh the total; disclose the end point of a series before it begins.
 
@@ -6456,7 +6456,7 @@ A two-step request running large to small. The first request is big enough to be
 
 **Evidence:** experimental. Replicated with a small-to-moderate average effect in live requests; whether a scripted, one-sided version with an imagined refusal works is untested. Source: Cialdini et al., Reciprocal concessions procedure for inducing compliance: The door-in-the-face technique (1975).
 
-**Why it works:** Door-in-the-face, Reciprocity principle, Contrast effect, Anchoring effect (judgment).
+**Why it works:** Anchoring effect (judgment), Contrast effect, Door-in-the-face, Reciprocity principle.
 
 
 ### Low-ball *(unit)*
@@ -6479,7 +6479,7 @@ Agreement is secured on incomplete terms; the full cost is disclosed only after 
 
 **Evidence:** experimental. Supported by controlled studies and meta-analysis for live requests; no studies cover its use in hypnosis scripts. Source: Cialdini, Cacioppo, Bassett & Miller, Low-ball procedure for producing compliance: Commitment then cost (1978).
 
-**Why it works:** Low-ball, Commitment and consistency, Cognitive dissonance.
+**Why it works:** Cognitive dissonance, Commitment and consistency, Low-ball.
 
 **Consent:** It works by withholding the terms until after agreement, which defeats informed consent; use only as agreed fantasy with the real terms disclosed beforehand.
 
@@ -6504,7 +6504,7 @@ An offer is made and, without a pause for a reply, made better: something is add
 
 **Evidence:** experimental. Supported in sales-style experiments; the effect weakens or reverses when the first offer is too large, and it has not been studied for suggestions. Source: Burger, Increasing compliance by improving the deal: The that's-not-all technique (1986).
 
-**Why it works:** Reciprocity principle, Contrast effect, Anchoring effect (judgment).
+**Why it works:** Anchoring effect (judgment), Contrast effect, Reciprocity principle.
 
 
 ### Commitment and consistency *(unit)*
@@ -6527,7 +6527,7 @@ The writer cites the listener's earlier commitment, in the session or before it,
 
 **Evidence:** experimental. The pull toward consistency with active, freely made commitments is well supported; its strength varies between people and it is weaker for commitments felt as coerced. Source: Cialdini, Influence (1984).
 
-**Why it works:** Commitment and consistency, Cognitive dissonance, Self-perception theory.
+**Why it works:** Cognitive dissonance, Commitment and consistency, Investment model of commitment, Low-ball, Self-perception theory, Sunk-cost effect.
 
 **Consent:** Cite only commitments the listener actually made; attributing an agreement they never gave shades into gaslighting.
 
@@ -6552,7 +6552,7 @@ The form of commitment and consistency in which the commitment is created on the
 
 **Evidence:** experimental. Public and written commitments raise follow-through in many field studies, with effects that vary by setting; nothing shows that an imagined or solitary spoken pledge matches a witnessed one. Source: Cialdini, Influence (1984).
 
-**Why it works:** Commitment and consistency, Cognitive dissonance, Generation effect, Implementation intentions.
+**Why it works:** Cognitive dissonance, Commitment and consistency, Generation effect, Implementation intentions, Speech-act theory.
 
 **Consent:** The commitment is meant to bind after the session; say so, keep it within what was agreed beforehand, and do not take pledges in deep trance that the listener did not expect to make.
 
@@ -6577,7 +6577,7 @@ The writer assigns a trait ('you're someone who responds easily') and then makes
 
 **Evidence:** experimental. Trait labels have raised label-consistent behavior in several experiments, mostly short-term; durable identity change from a spoken label is not shown. Source: Richard L. Miller, Philip Brickman and Diana Bolen, Attribution versus Persuasion as a Means for Modifying Behavior, Journal of Personality and Social Psychology (1975).
 
-**Why it works:** Labeling effect, Self-perception theory, Commitment and consistency, Self-reference effect.
+**Why it works:** Commitment and consistency, Labeling effect, Self-perception theory, Self-reference effect.
 
 **Consent:** A label can outlast the session; keep to labels the listener would accept when alert, and avoid demeaning ones outside agreed play.
 
@@ -6602,7 +6602,7 @@ The writer names an observable act (still listening, eyes closed, came back agai
 
 **Evidence:** practitioner-lore. Self-perception theory has experimental support, but telling a listener what their behavior proves is a script convention that has not been tested as a device. Source: Bem, Self-perception theory (1972).
 
-**Why it works:** Self-perception theory, Commitment and consistency, Cognitive dissonance, Diagnosticity.
+**Why it works:** Belief perseverance, Cognitive dissonance, Commitment and consistency, Confirmation bias, Diagnosticity, Foot-in-the-door, Self-perception theory.
 
 **Consent:** The inference is the writer's, not the listener's; do not use continued listening as proof of consent to content that was not disclosed.
 
@@ -6627,7 +6627,7 @@ The writer names a real, observable choice and draws a conclusion from it about 
 
 **Evidence:** practitioner-lore. People do infer their attitudes from choices they believe were free, and perceived choice strengthens that inference in laboratory studies, but the scripted line itself is untested and can backfire when the listener notices the inference is larger than the choice.
 
-**Why it works:** Self-perception theory, Cognitive dissonance, Commitment and consistency, Effort justification.
+**Why it works:** Cognitive dissonance, Commitment and consistency, Effort justification, Psychological reactance, Self-determination theory, Self-perception theory.
 
 **Consent:** Choosing to start is not agreement to everything that follows; never use this line to argue that the listener has given up the right to stop or has consented to content they were not told about.
 
@@ -6652,7 +6652,7 @@ The script points at a single act and states the trait it supposedly reveals: 'y
 
 **Evidence:** experimental. Attributing a trait to someone after a behavior increases later trait-consistent behavior in controlled studies; its effect inside hypnosis is untested.
 
-**Why it works:** Self-perception theory, Labeling effect, Commitment and consistency.
+**Why it works:** Commitment and consistency, Confirmation bias, Labeling effect, Self-perception theory.
 
 
 ### Task assignment *(unit)*
@@ -6675,7 +6675,7 @@ An instruction to perform a concrete, checkable action that has its own purpose:
 
 **Evidence:** clinical-tradition. Between-session assignments are standard in clinical hypnosis and behavior therapy, and homework completion is linked to better therapy outcomes; tasks given as obedience exercises have not been studied.
 
-**Why it works:** Commitment and consistency, Self-perception theory, Effort justification, Implementation intentions.
+**Why it works:** Commitment and consistency, Effort justification, Implementation intentions, Self-perception theory.
 
 **Consent:** Tasks carry the session into daily life; keep them safe, bounded in time, within agreed limits, and free of money, disclosure or other people's involvement unless negotiated.
 
@@ -6700,7 +6700,7 @@ A direct instruction or suggestion to spend money on the speaker, often framed a
 
 **Evidence:** practitioner-lore. Common in commercial erotic hypnosis and financial-domination content and documented in cult finance; there is no study of scripted money asks.
 
-**Why it works:** Reciprocity principle, Commitment and consistency, Effort justification, Posthypnotic suggestion.
+**Why it works:** Commitment and consistency, Effort justification, Equity theory, Posthypnotic suggestion, Reciprocity principle.
 
 **Consent:** A money instruction inside trance or tied to a trigger bypasses ordinary financial judgment; it requires the listener's explicit prior agreement and should never persist past the session.
 
@@ -6725,7 +6725,7 @@ A direct instruction to recruit: share, recommend, play the file for someone, or
 
 **Evidence:** practitioner-lore. Recruitment duties are documented in high-control groups and multi-level marketing, and public advocacy is known to strengthen commitment, but scripted recruitment asks have not been studied.
 
-**Why it works:** Commitment and consistency, Self-perception theory, Effort justification.
+**Why it works:** Commitment and consistency, Effort justification, Self-perception theory.
 
 **Consent:** Recruitment instructions extend influence to people who never agreed; never instruct listeners to expose others without their informed consent.
 
@@ -6750,7 +6750,7 @@ The script makes the listener the one who requests: to go deeper, to rest, to re
 
 **Evidence:** practitioner-lore. A convention of dominance-themed scripts; it plausibly draws on commitment and self-perception effects, but it has not been studied.
 
-**Why it works:** Self-perception theory, Commitment and consistency, Generation effect.
+**Why it works:** Commitment and consistency, Generation effect, Self-perception theory.
 
 **Consent:** A scripted 'please' inside trance is part of the scene, not evidence of consent to the content; consent is settled before the session.
 
@@ -6775,7 +6775,7 @@ A request with a statement of the listener's freedom attached: 'but you are free
 
 **Evidence:** experimental. Meta-analysis of dozens of studies finds a reliable effect for face-to-face requests acted on at once; it is weaker when the request is remote or the response is delayed, which is the situation of a recording. Source: Nicolas Guéguen and Alexandre Pascual, Evocation of Freedom and Compliance: The ‘But You Are Free of...’ Technique, Current Research in Social Psychology (2000).
 
-**Why it works:** Psychological reactance, Self-determination theory, Commitment and consistency.
+**Why it works:** Cognitive dissonance, Commitment and consistency, Psychological reactance, Self-determination theory.
 
 **Consent:** Only say it when it is true: the listener must really be able to stop, and nothing later in the script should deny it.
 
@@ -6800,7 +6800,7 @@ A small, harmless oddity in the wording of a request (an unusual unit, a reverse
 
 **Evidence:** experimental. Supported by the original studies and a later meta-analysis, mainly in sales and donation requests; untested in hypnosis scripts. Source: Davis & Knowles, A disrupt-then-reframe technique of social influence (1999).
 
-**Why it works:** Counterarguing, Expectation violation, Pattern interruption, Ericksonian confusion technique, Distraction-induced persuasion.
+**Why it works:** Confusion-restructuring, Counterarguing, Distraction-induced persuasion, Ericksonian confusion technique, Expectation violation, Pattern interruption.
 
 **Consent:** It works by interrupting evaluation of the request; do not use it on the points where the listener's considered agreement is needed.
 
@@ -6825,7 +6825,7 @@ The writer points to what has already been spent (minutes, sessions, effort) and
 
 **Evidence:** experimental. The sunk-cost effect on decisions is well replicated; whether reminding someone of their investment increases persistence in a session has not been tested. Source: Arkes & Blumer, The psychology of sunk cost (1985).
 
-**Why it works:** Sunk-cost effect, Effort justification, Investment model of commitment, Commitment and consistency, Framing effect.
+**Why it works:** Cognitive dissonance, Commitment and consistency, Effort justification, Framing effect, Investment model of commitment, Low-ball, Sunk-cost effect.
 
 **Consent:** It discourages stopping by appeal to a known bias; never place it against a consent check, a safeword or the listener's stated wish to end.
 
@@ -6850,7 +6850,7 @@ A direct prompt for an overt yes: spoken, whispered, thought or nodded. The yes 
 
 **Evidence:** practitioner-lore. Common in live and recorded hypnosis and in sales; active commitment effects are documented, but a prompted yes inside a script has not been tested for added effect.
 
-**Why it works:** Commitment and consistency, Mere-agreement effect / acquiescence, Self-perception theory, Generation effect.
+**Why it works:** Commitment and consistency, Generation effect, Mere-agreement effect / acquiescence, Self-perception theory.
 
 **Consent:** A prompted yes in trance is a compliance device, not consent; the alias 'consent harvest' should not be read as meaning it secures consent.
 
@@ -6875,7 +6875,7 @@ The writer supplies a prompt and a gap, and the listener supplies the argument: 
 
 **Evidence:** experimental. Arguments people generate themselves change their attitudes more, and for longer, than the same arguments heard from someone else; this is shown for live role-play and writing tasks, not for a silent pause in a recording. Source: Elliot Aronson, The Power of Self-Persuasion, American Psychologist (1999).
 
-**Why it works:** Generation effect, Self-reference effect, Self-perception theory, Cognitive dissonance, Commitment and consistency, Psychological reactance, Counterarguing.
+**Why it works:** Belief perseverance, Cognitive dissonance, Commitment and consistency, Counterarguing, Elaboration likelihood model, Enthymematic persuasion, Generation effect, Motivated reasoning, Psychological reactance, Self-determination theory, Self-perception theory, Self-reference effect.
 
 **Consent:** The listener will experience the conclusion as wholly their own, so the question should be one they would recognize as leading somewhere; do not later cite reasons produced on request in trance as proof of what they want.
 
@@ -6900,7 +6900,7 @@ The request is cut down in time and in finality: do it for a stated period, then
 
 **Evidence:** practitioner-lore. A standard sales close; research on defaults, ownership and commitment suggests people tend to keep what they have started using, but the trial offer as a script device has not been tested in hypnosis.
 
-**Why it works:** Psychological reactance, Foot-in-the-door, Commitment and consistency, Self-perception theory, Sunk-cost effect, Mere-exposure effect.
+**Why it works:** Commitment and consistency, Foot-in-the-door, Mere-exposure effect, Psychological reactance, Self-perception theory, Sunk-cost effect.
 
 **Consent:** The promise of reversal must be true: the trial has to end when stated, stopping must cost nothing, and extending it requires a fresh yes; a 'trial' that later turns out to be permanent is a low-ball.
 
@@ -6915,7 +6915,7 @@ This family groups appeals based on what other people do, the speaker's standing
 
 **Not to be confused with:** Compliance and commitment (compliance devices work from the listener's own earlier acts and agreements, not from other people); Expectation and framing (framing sets how the experience is interpreted without appealing to people or relationships); Coercive-control patterns (coercive patterns cut off alternatives and exits; these appeals leave the listener free to weigh them).
 
-**Why it works:** Social proof, Authority principle, Liking principle, Reciprocity principle, Scarcity principle, Unity principle, Contrast effect.
+**Why it works:** Authority principle, Contrast effect, Liking principle, Reciprocity principle, Scarcity principle, Social proof, Unity principle.
 
 **Consent:** These appeals are honest only when the claims behind them are true; invented crowds, credentials or shortages are deception.
 
@@ -6940,7 +6940,7 @@ Social proof cites the behavior or experience of other people as a guide to what
 
 **Evidence:** experimental. Conformity and descriptive-norm effects are well replicated; whether a line of social proof inside a recording changes hypnotic response has not been tested directly. Source: Cialdini, Influence (1984).
 
-**Why it works:** Social proof, Informational social influence, Descriptive norms, Normative social influence, Argument from consensus, Response expectancy theory.
+**Why it works:** Argument from consensus, Descriptive norms, Dual-process theory, Informational social influence, Injunctive norms, Manufactured consensus, Normative social influence, Response expectancy theory, Social proof.
 
 **Consent:** Claims about what others do should be true or clearly generic; invented numbers are deception.
 
@@ -6965,7 +6965,7 @@ A testimonial is social proof carried by one specific case instead of a count. I
 
 **Evidence:** experimental. Single cases can shift judgment, and base rates are often underused, but studies comparing narrative with statistical evidence give mixed results; no controlled work shows testimonials inside a script raise hypnotic response.
 
-**Why it works:** Social proof, Narrative persuasion, Availability heuristic, Social learning theory, Response expectancy theory, Character identification.
+**Why it works:** Argument from consensus, Availability heuristic, Character identification, Informational social influence, Manufactured consensus, Moral exemplification, Narrative persuasion, Response expectancy theory, Social learning theory, Social proof.
 
 **Consent:** Invented testimonials presented as real are deception; composite or illustrative cases should be worded as such.
 
@@ -6990,7 +6990,7 @@ Manufactured consensus is social proof that is shown instead of claimed. The scr
 
 **Evidence:** experimental. Conformity to a unanimous group and effects of staged audience reactions are established in the lab; their use in recorded hypnosis is untested practice.
 
-**Why it works:** Manufactured consensus, Social proof, Normative social influence, Informational social influence, Argument from consensus.
+**Why it works:** Argument from consensus, Descriptive norms, Informational social influence, Manufactured consensus, Normative social influence, Social proof.
 
 **Consent:** Outside an acknowledged fiction frame the crowd is fake evidence; do not present staged voices or invented agreement as real listeners.
 
@@ -7015,7 +7015,7 @@ Authority is any statement or stance that sets up the speaker's standing: traini
 
 **Evidence:** experimental. Obedience to authority and source-credibility effects are well documented; perceived prestige of the hypnotist raises expectancy, but its separate effect on hypnotic response is modest and mixed. Source: Cialdini, Influence (1984).
 
-**Why it works:** Authority principle, Response expectancy theory, Epistemic trust, Sociocognitive theory of hypnosis, Demand characteristics.
+**Why it works:** Authority principle, Demand characteristics, Dual-process theory, Elaboration likelihood model, Epistemic trust, Epistemic vigilance, Response expectancy theory, Sociocognitive theory of hypnosis, Source derogation.
 
 **Consent:** False credentials are deception, and claimed clinical authority carries a duty of care the script must be able to meet.
 
@@ -7040,7 +7040,7 @@ Borrowed authority supports a claim by pointing to a source outside the speaker:
 
 **Evidence:** experimental. Credible sources raise acceptance of a message in persuasion research; many 'science says' lines in hypnosis scripts cite findings that do not exist or do not say what is claimed.
 
-**Why it works:** Authority principle, Epistemic trust, Response expectancy theory, Placebo effect, Elaboration likelihood model.
+**Why it works:** Authority principle, Elaboration likelihood model, Epistemic trust, Placebo effect, Response expectancy theory, Trust calibration.
 
 **Consent:** Citing science or experts that do not support the claim is deception; cite only what is true.
 
@@ -7065,7 +7065,7 @@ Liking covers what the speaker says to be liked: friendliness, stated similarity
 
 **Evidence:** experimental. Similarity, compliments and familiarity reliably raise liking and compliance; rapport is held essential in clinical hypnosis but its measured contribution to hypnotic response is small. Source: Cialdini, Influence (1984).
 
-**Why it works:** Liking principle, Rapport matching, Epistemic trust, Mere-exposure effect, Source derogation.
+**Why it works:** Entertainment Overcoming Resistance Model, Epistemic trust, Liking principle, Mere-exposure effect, Parasocial interaction, Rapport matching, Source derogation.
 
 
 #### Parasocial intimacy *(variant)*
@@ -7088,7 +7088,7 @@ Parasocial intimacy simulates a personal relationship in a one-way medium. The s
 
 **Evidence:** experimental. Parasocial relationships are well documented and can raise a source's persuasive pull; nothing shows they raise hypnotic response, and effects on lonely listeners are a known concern. Source: Donald Horton and R. Richard Wohl, Mass Communication and Para-Social Interaction: Observations on Intimacy at a Distance, Psychiatry (1956).
 
-**Why it works:** Parasocial interaction, Liking principle, Attachment theory, Epistemic trust, Self-reference effect.
+**Why it works:** Attachment theory, Entertainment Overcoming Resistance Model, Epistemic trust, Liking principle, Parasocial interaction, Self-reference effect, Unity principle.
 
 **Consent:** The closeness is simulated and one-way; say so outside the session, and do not use it to build dependency or to press for money or more listening.
 
@@ -7113,7 +7113,7 @@ A first-person statement about the speaker's own inner life or imperfection that
 
 **Evidence:** experimental. Disclosure raises liking for the discloser and invites disclosure in return in controlled studies, and a small blunder can make a competent person more likeable; the scripted, one-way version in a recording has not been tested. Source: Collins & Miller, 'Self-disclosure and liking: a meta-analytic review' (1994).
 
-**Why it works:** Liking principle, Reciprocity principle, Parasocial interaction, Epistemic trust, Persuasion Knowledge Model.
+**Why it works:** Epistemic trust, Liking principle, Parasocial interaction, Persuasion Knowledge Model, Reciprocity principle, Source derogation.
 
 **Consent:** A disclosure invented to win trust works only while the listener takes it as real; do not fabricate vulnerability, and do not use a real one to draw a matching disclosure the listener would not otherwise give.
 
@@ -7138,7 +7138,7 @@ Reciprocity uses the felt obligation to repay. The script provides a benefit (re
 
 **Evidence:** experimental. An unrequested favor raises later compliance in controlled studies; the effect of a 'gift' that is itself only suggested has not been tested. Source: Cialdini, Influence (1984).
 
-**Why it works:** Reciprocity principle, Equity theory, Injunctive norms.
+**Why it works:** Door-in-the-face, Equity theory, Injunctive norms, Reciprocity principle.
 
 **Consent:** Using a felt debt to extract money, escalation or continued listening the listener did not sign up for is manipulative; keep the ask proportionate and refusable.
 
@@ -7163,7 +7163,7 @@ Scarcity states that the opportunity is rare, short-lived or about to be lost. T
 
 **Evidence:** experimental. Scarce items are rated more valuable in controlled studies, with effect size depending on context; no evidence shows scarcity wording changes hypnotic response. Source: Cialdini, Influence (1984).
 
-**Why it works:** Scarcity principle, Psychological reactance, Framing effect.
+**Why it works:** Framing effect, Psychological reactance, Scarcity principle.
 
 **Consent:** Invented deadlines or shortages are deception and pressure the listener to skip their own judgment.
 
@@ -7188,7 +7188,7 @@ Exclusivity is scarcity of access: what is limited is who may have it. The liste
 
 **Evidence:** practitioner-lore. It follows from scarcity research and is standard in sales copy, but being 'chosen' by a mass recording has no direct test.
 
-**Why it works:** Scarcity principle, Self-reference effect, Labeling effect.
+**Why it works:** Labeling effect, Normative social influence, Scarcity principle, Self-reference effect, Unity principle.
 
 **Consent:** Telling every listener they alone were chosen is a false claim; tie it to a condition the listener really met.
 
@@ -7213,7 +7213,7 @@ Unity invokes a shared identity: speaker and listener, or listener and a communi
 
 **Evidence:** experimental. In-group favoritism and greater influence from in-group sources are well established; unity as a distinct principle is Cialdini's later synthesis and is untested in hypnosis. Source: Cialdini, Pre-Suasion (2016).
 
-**Why it works:** Unity principle, Normative social influence, Injunctive norms, Epistemic trust.
+**Why it works:** Epistemic trust, Injunctive norms, Normative social influence, Unity principle.
 
 **Consent:** Belonging offered on condition of compliance, or set against outsiders, shades into the coercive family.
 
@@ -7238,7 +7238,7 @@ In-group language is unity carried by vocabulary. The script uses terms of art, 
 
 **Evidence:** practitioner-lore. Shared vocabulary as a marker of group membership is documented in sociolinguistics; its effect on acceptance of suggestions has not been tested.
 
-**Why it works:** Unity principle, Common ground, Processing fluency.
+**Why it works:** Common ground, Injunctive norms, Normative social influence, Processing fluency, Unity principle.
 
 **Consent:** A private vocabulary that outsiders cannot follow can make the listener harder to reach for people outside the group; keep terms explainable in plain words.
 
@@ -7263,7 +7263,7 @@ The script presents a model: one person who performs the response, and what they
 
 **Evidence:** experimental. Observational learning and vicarious reinforcement are well established, and watching a responsive model raises hypnotic responding in controlled studies; a model who is only described in a recording has not been tested separately. Source: Bandura, Social Learning Theory (1977).
 
-**Why it works:** Social learning theory, Character identification, Response expectancy theory, Descriptive norms.
+**Why it works:** Character identification, Descriptive norms, Moral exemplification, Response expectancy theory, Social learning theory, Social proof.
 
 **Consent:** The listener is not told that the model is there to be copied; a model presented as a real past listener should be one.
 
@@ -7278,7 +7278,7 @@ Framing devices do not ask for a response directly; they shape the expectation o
 
 **Not to be confused with:** Presupposition and implication (presupposition hides the claim inside sentence grammar; framing states or shapes the interpretation openly); Suggestion forms (suggestion forms phrase the request itself; framing sets how the request and its result are read).
 
-**Why it works:** Response expectancy theory, Framing effect, Conversational framing.
+**Why it works:** Conversational framing, Framing effect, Response expectancy theory.
 
 
 ### Contrast *(unit)*
@@ -7301,7 +7301,7 @@ Contrast sets up a comparison whose only job is to shift how the next item is ju
 
 **Evidence:** experimental. Contrast effects in perception and judgment are well established; their size in spoken persuasion varies and is unmeasured in hypnosis. Source: Cialdini, Influence (1984).
 
-**Why it works:** Contrast effect, Anchoring effect (judgment), Framing effect.
+**Why it works:** Anchoring effect (judgment), Contrast effect, Door-in-the-face, Framing effect.
 
 
 ### Expectation setting *(unit)*
@@ -7324,7 +7324,7 @@ A plain forward-looking statement of what the session will feel like or do. It w
 
 **Evidence:** experimental. Expectancy reliably predicts hypnotic response in controlled studies, though it explains only part of the variance in suggestibility.
 
-**Why it works:** Response expectancy theory, Placebo effect, Sociocognitive theory of hypnosis.
+**Why it works:** Attribute salience, Conversational framing, Demand characteristics, Engagement-based selection bias, Forewarning effect, Hypnotic induction, Hypnotic suggestibility, Informational social influence, Placebo effect, Pre-suasion, Predictive processing, Presuppositional framing, Response expectancy theory, Sociocognitive theory of hypnosis.
 
 
 #### Potency claim *(variant)*
@@ -7345,7 +7345,7 @@ Expectation setting aimed at magnitude rather than content: the listener is told
 
 **Evidence:** experimental. Labelling a procedure as hypnosis or as powerful raises response in studies of expectancy, but the gain is modest and depends on the claim being believed.
 
-**Why it works:** Response expectancy theory, Placebo effect.
+**Why it works:** Attribute salience, Authority principle, Confounding variable, Engagement-based selection bias, Placebo effect, Response expectancy theory, Trust calibration.
 
 
 #### Warning as lure *(variant)*
@@ -7366,7 +7366,7 @@ A caution phrased to raise curiosity and appeal rather than to inform. It combin
 
 **Evidence:** practitioner-lore. Forbidden-content labels can raise interest in some studies of reactance, but there is no direct study of this device in hypnosis audio.
 
-**Why it works:** Psychological reactance, Scarcity principle.
+**Why it works:** Engagement-based selection bias, Forewarning effect, Placebo effect, Psychological reactance, Scarcity principle.
 
 **Consent:** Because it is built to look like a warning while discouraging refusal, it should not replace an honest content note.
 
@@ -7391,7 +7391,7 @@ An early, low-key reference to a later target response, made without asking for 
 
 **Evidence:** practitioner-lore. Semantic priming is well established in the lab, but whether a seed made minutes earlier measurably raises response to a later hypnotic suggestion is untested.
 
-**Why it works:** Priming, Spreading activation, Pre-suasion, Processing fluency.
+**Why it works:** Interspersal technique, Pre-suasion, Priming, Processing fluency, Spacing effect, Spreading activation.
 
 **Consent:** A seed is meant to pass unnoticed, so seed only responses the listener has already agreed to in the description or pre-talk.
 
@@ -7416,7 +7416,7 @@ The facts stay the same; what they mean is changed. A meaning reframe says what 
 
 **Evidence:** clinical-tradition. Reframing is standard in family therapy and clinical hypnosis, and cognitive reappraisal has experimental support; the NLP six-step form is not independently validated. Source: Watzlawick, Weakland & Fisch, Change: Principles of Problem Formation and Problem Resolution (1974).
 
-**Why it works:** Reframing, Framing effect, Moral reframing.
+**Why it works:** Confusion-restructuring, Continued influence effect, Framing effect, Metalinguistic negotiation, Misattribution of arousal, Moral reframing, Reframing.
 
 
 #### Relabeling sensation *(variant)*
@@ -7439,7 +7439,7 @@ A reframe applied to a physical sensation the listener already has: a tingle, wa
 
 **Evidence:** experimental. Misattribution of arousal and reappraisal of bodily arousal have experimental support, though some classic misattribution findings replicate weakly.
 
-**Why it works:** Misattribution of arousal, Reframing.
+**Why it works:** Attribute salience, Misattribution of arousal, Predictive processing, Reframing.
 
 
 #### No-fail framing *(variant)*
@@ -7460,7 +7460,7 @@ A reframe that removes failure as a category: not going deep, staying alert or n
 
 **Evidence:** clinical-tradition. Common in clinical and Ericksonian practice for reducing performance anxiety; no controlled study isolates its effect.
 
-**Why it works:** Response expectancy theory, Reframing.
+**Why it works:** Hypnotizability, Reframing, Response expectancy theory.
 
 
 #### Surrender as freedom *(variant)*
@@ -7481,7 +7481,7 @@ A reframe of yielding: what might be read as giving something up is described as
 
 **Evidence:** practitioner-lore. No direct study; the general effect of reframing is supported, this specific frame is not.
 
-**Why it works:** Reframing, Framing effect.
+**Why it works:** Framing effect, Metalinguistic negotiation, Moral reframing, Reframing.
 
 **Consent:** Because it makes yielding feel like a benefit, it should sit inside a session that also states the listener can stop.
 
@@ -7504,7 +7504,7 @@ A reframe that removes the opposition between resisting and responding: the act 
 
 **Evidence:** practitioner-lore. Part of Ericksonian handling of resistance; not independently tested.
 
-**Why it works:** Reframing, Utilization, Psychological reactance.
+**Why it works:** Persuasion resistance, Psychological reactance, Reframing, Utilization.
 
 
 #### Doubt as a sign *(variant)*
@@ -7527,7 +7527,7 @@ A reframe applied to doubt: the listener's 'this isn't working' becomes evidence
 
 **Evidence:** practitioner-lore. Widely used by hypnotists to handle 'I wasn't hypnotized'; it has not been tested separately, though expectancy effects on hypnotic response are well documented.
 
-**Why it works:** Reframing, Response expectancy theory, Misattribution of arousal.
+**Why it works:** Confirmation bias, Diagnosticity, Inoculation theory, Metacognitive monitoring, Metalinguistic negotiation, Misattribution of arousal, Reframing, Response expectancy theory.
 
 
 ### Fiction frame *(unit)*
@@ -7548,7 +7548,7 @@ An explicit statement that what follows is a story, game or roleplay. It lowers 
 
 **Evidence:** contested. In transportation studies, labelling a narrative fiction or fact made little difference to how much it shifted beliefs, so fiction-framed content still persuades, but there is no clear evidence that the label itself lowers scrutiny. Source: Bateson, A Theory of Play and Fantasy (1955).
 
-**Why it works:** Suspension of disbelief, Narrative transportation, Entertainment Overcoming Resistance Model, Cognitive decoupling.
+**Why it works:** Cognitive decoupling, Conversational framing, Entertainment Overcoming Resistance Model, Narrative transportation, Persuasion Knowledge Model, Sleeper effect, Sociocognitive theory of hypnosis, Suspension of disbelief.
 
 **Consent:** If suggestions inside a fiction frame are meant to persist after the session, say so plainly, since the frame implies they will not.
 
@@ -7571,7 +7571,7 @@ The speaker names or explains the device while using it (notice I keep saying 'd
 
 **Evidence:** practitioner-lore. Forewarning of persuasive intent usually reduces persuasion in the lab, so the claim that disclosure raises response is unsupported in general; it may help through trust and play.
 
-**Why it works:** Persuasion Knowledge Model, Forewarning effect, Psychological reactance.
+**Why it works:** Conversational framing, Forewarning effect, Persuasion Knowledge Model, Psychological reactance, Source derogation.
 
 
 ### Myth correction *(unit)*
@@ -7592,7 +7592,7 @@ A pre-talk move that names common misconceptions (you will be unconscious, you c
 
 **Evidence:** experimental. Favourable pre-hypnotic information raises responsiveness in controlled studies, but the gain from information alone is modest; the larger effects come from programmes that add attitude change and practice.
 
-**Why it works:** Response expectancy theory, Sociocognitive theory of hypnosis.
+**Why it works:** Authority principle, Continued influence effect, Demand characteristics, False balance, Inoculation theory, Motte-and-bailey, Response expectancy theory, Sociocognitive theory of hypnosis.
 
 
 ### Preempting objections *(unit)*
@@ -7613,7 +7613,7 @@ The speaker voices the doubt or counterargument the listener is likely to have, 
 
 **Evidence:** experimental. Two-sided messages that refute counterarguments and inoculation by weakened counterarguments both have experimental support in persuasion research.
 
-**Why it works:** Inoculation theory, Counterarguing, Forewarning effect.
+**Why it works:** Counterarguing, False balance, Forewarning effect, Inoculation theory, Motte-and-bailey.
 
 
 ### Naming the state *(unit)*
@@ -7634,7 +7634,7 @@ A label applied to the listener's present experience (this is trance, this is wh
 
 **Evidence:** practitioner-lore. Labelling ambiguous states shapes how they are experienced in emotion research, but naming trance has not been tested on its own.
 
-**Why it works:** Labeling effect, Misattribution of arousal, Sociocognitive theory of hypnosis.
+**Why it works:** Attribute salience, Demand characteristics, Hypnotic induction, Labeling effect, Metacognitive monitoring, Misattribution of arousal, Sociocognitive theory of hypnosis, Speech-act theory.
 
 
 ### Gain / loss framing *(unit)*
@@ -7655,7 +7655,7 @@ The outcome is fixed; only its description changes, as a benefit gained by actin
 
 **Evidence:** experimental. Framing effects on choice are robust; effects of gain versus loss frames on persuasion are smaller and depend on topic. Source: Tversky & Kahneman, The framing of decisions and the psychology of choice (1981).
 
-**Why it works:** Framing effect, Attribute salience.
+**Why it works:** Attribute salience, Framing effect, Scarcity principle.
 
 
 ### Reference point *(unit)*
@@ -7697,7 +7697,7 @@ The speaker declares what a word truly means (real strength is letting go; relax
 
 **Evidence:** rhetorical-tradition. Persuasive definition is a long-recognized rhetorical and argumentation figure; its persuasive effect is not directly measured. Source: Stevenson, Persuasive definitions (1938).
 
-**Why it works:** Equivocation, Metalinguistic negotiation, Framing effect.
+**Why it works:** Continued influence effect, Equivocation, Framing effect, Metalinguistic negotiation, Motte-and-bailey.
 
 
 ### Inevitability *(unit)*
@@ -7718,7 +7718,7 @@ Open assertion that the response will happen whatever the listener does. It remo
 
 **Evidence:** practitioner-lore. Confident framing raises expectancy, which predicts response, but strong inevitability language can also trigger reactance; no direct study.
 
-**Why it works:** Response expectancy theory, Psychological reactance.
+**Why it works:** Presuppositional framing, Psychological reactance, Response expectancy theory.
 
 **Consent:** Inevitability language aimed at outcomes after the session should be balanced by a stated way to stop or undo them.
 
@@ -7741,7 +7741,7 @@ An invitation to imagine a hypothetical as real and to elaborate it from the ins
 
 **Evidence:** experimental. Imagining an outcome raises its judged likelihood and can inflate belief that it happened; the NLP 'as if frame' itself is not independently tested.
 
-**Why it works:** Imagination inflation, Generation effect, Self-perception theory.
+**Why it works:** Cognitive decoupling, Conversational framing, Generation effect, Imagination inflation, Presuppositional framing, Self-perception theory, Suspension of disbelief.
 
 
 ### Title and description priming *(unit)*
@@ -7762,7 +7762,7 @@ Framing carried in the material around the script rather than in it: the file na
 
 **Evidence:** practitioner-lore. Prior labels shape expectancy and experience in placebo and expectancy studies; the effect of file paratext on hypnosis audio is untested.
 
-**Why it works:** Response expectancy theory, Priming, Pre-suasion.
+**Why it works:** Algorithmic amplification, Demand characteristics, Placebo effect, Pre-suasion, Priming, Response expectancy theory.
 
 
 ## Convincers and tests
@@ -7775,7 +7775,7 @@ This family holds the phenomena a script suggests in order to be noticed: locked
 
 **Not to be confused with:** Convincer section (the section is the place in the script; the family is the set of devices used there); Ratification (ratification interprets a response as proof; a convincer is the suggestion that produces the response); Challenge suggestion (the challenge is the 'try and you can't' wording; convincers are the phenomena it is often attached to).
 
-**Why it works:** Response expectancy theory, Self-perception theory, Hypnotic suggestibility, Ideomotor effect.
+**Why it works:** Hypnotic suggestibility, Ideomotor effect, Response expectancy theory, Self-perception theory.
 
 **Consent:** Convincers can be used to persuade a listener they are under more control than they are; a script should not use them to imply the listener cannot stop or leave.
 
@@ -7800,7 +7800,7 @@ A convincer is a suggested effect staged to be checked: the script names an effe
 
 **Evidence:** clinical-tradition. Challenge items behave reliably on susceptibility scales, but the clinical claim that a passed convincer deepens trance or improves outcomes has not been tested directly.
 
-**Why it works:** Response expectancy theory, Self-perception theory, Ideomotor effect, Sociocognitive theory of hypnosis.
+**Why it works:** Construct validity, Diagnosticity, Epistemic vigilance, Ideomotor effect, Metacognitive monitoring, Response expectancy theory, Self-perception theory, Sociocognitive theory of hypnosis, Trust calibration.
 
 **Consent:** A convincer persuades by producing an experience the listener did not choose; release every inability explicitly before the session ends.
 
@@ -7823,7 +7823,7 @@ The eyelid form of the convincer: suggest that the eyes cannot open and invite t
 
 **Evidence:** clinical-tradition. Eye catalepsy is an item on standard group and individual scales and is passed by roughly half of participants in normative samples; its use as a gateway to deeper trance is clinical convention.
 
-**Why it works:** Response expectancy theory, Ideomotor effect.
+**Why it works:** Ideomotor effect, Response expectancy theory.
 
 
 #### Rigid arm *(variant)*
@@ -7917,7 +7917,7 @@ A convincer that blocks or narrows speech. The listener keeps knowing what they 
 
 **Evidence:** clinical-tradition. Verbal inhibition is a recognized challenge item in hypnosis testing and stage work; it has not been studied as a separate effect.
 
-**Why it works:** Response expectancy theory, Sociocognitive theory of hypnosis, Cold control theory.
+**Why it works:** Cold control theory, Response expectancy theory, Sociocognitive theory of hypnosis.
 
 **Consent:** A speech lock can stop a listener using a safeword; keep it short, never cover the safeword, and release it explicitly.
 
@@ -7942,7 +7942,7 @@ The whole-body form of the convincer: every limb stops at once. Scripts use it a
 
 **Evidence:** practitioner-lore. A stage and community staple; full-body immobility is not a standard scale item and has not been studied apart from single-limb challenges.
 
-**Why it works:** Response expectancy theory, Ideomotor effect.
+**Why it works:** Ideomotor effect, Response expectancy theory.
 
 **Consent:** A freeze implies the listener cannot act; keep it short, leave breathing and safewords free, and release it clearly.
 
@@ -7967,7 +7967,7 @@ A small movement assigned a meaning (yes, no, ready) and requested from 'the unc
 
 **Evidence:** contested. The ideomotor effect itself is well established; the clinical claim that finger signals give reliable access to unconscious knowledge is not supported and risks producing false answers. Source: Cheek & LeCron, Clinical Hypnotherapy (1968).
 
-**Why it works:** Ideomotor effect, Dissociated control theory, Cold control theory.
+**Why it works:** Cold control theory, Dissociated control theory, Ideomotor effect.
 
 **Consent:** Do not treat finger answers as revealing hidden facts, especially about memories; they follow expectation.
 
@@ -7992,7 +7992,7 @@ A suggestion for something felt in the body that nothing outside is causing. It 
 
 **Evidence:** clinical-tradition. Suggested warmth and tingling are routine in clinical scripts and autogenic training; attention alone produces mild versions, so success says little about trance.
 
-**Why it works:** Response expectancy theory, Placebo effect, Hypnotic suggestibility.
+**Why it works:** Direct verbal suggestion, Hypnotic suggestibility, Placebo effect, Predictive processing, Response expectancy theory.
 
 
 #### Numbness *(variant)*
@@ -8015,7 +8015,7 @@ A suggested loss of feeling in a named area. Glove anesthesia, the classic form,
 
 **Evidence:** experimental. Suggested analgesia reliably reduces reported pain in controlled laboratory and clinical studies, more so in high scorers. That evidence concerns pain relief; the use of a numb hand as proof of trance has not been studied separately. Source: Hilgard & Hilgard, Hypnosis in the Relief of Pain (1975).
 
-**Why it works:** Hypnotic suggestibility, Neodissociation theory, Response expectancy theory, Placebo effect.
+**Why it works:** Direct verbal suggestion, Hypnotic suggestibility, Neodissociation theory, Placebo effect, Response expectancy theory.
 
 **Consent:** Restore normal feeling explicitly unless pain relief is the agreed goal; numbness can hide injury.
 
@@ -8040,7 +8040,7 @@ A variant that moves an existing suggested sensation instead of building a new o
 
 **Evidence:** clinical-tradition. Glove anesthesia transfer is standard in clinical pain-control scripts; the transfer step itself has not been studied apart from hypnotic analgesia in general.
 
-**Why it works:** Response expectancy theory, Hypnotic suggestibility.
+**Why it works:** Hypnotic suggestibility, Response expectancy theory.
 
 **Consent:** Restore normal feeling to every area that received the transfer before the session ends.
 
@@ -8065,7 +8065,7 @@ The form of suggested sensation in which a single feeling (warmth, heaviness, ti
 
 **Evidence:** clinical-tradition. Spreading warmth and waves of relaxation are routine in clinical relaxation scripts; attention to a body part produces mild sensation in most people, and no study separates the travelling form from plain region-by-region relaxation.
 
-**Why it works:** Response expectancy theory, Attentional tunneling, Absorption (trait), Hypnotic suggestibility.
+**Why it works:** Absorption (trait), Attentional tunneling, Hypnotic suggestibility, Response expectancy theory.
 
 
 ### Positive hallucination *(unit)*
@@ -8088,7 +8088,7 @@ A suggestion to perceive an absent thing with the outer senses: a sound in the r
 
 **Evidence:** experimental. Hallucination items are on standard scales and pass mainly in high scorers; imaging studies show suggested colour changes alter brain activity, but most listeners report vivid imagery rather than true perception. Source: Weitzenhoffer & Hilgard, Stanford Hypnotic Susceptibility Scale, Form C (1962).
 
-**Why it works:** Hypnotic suggestibility, Response expectancy theory, Absorption (trait).
+**Why it works:** Absorption (trait), Direct verbal suggestion, Hypnotic suggestibility, Predictive processing, Response expectancy theory, Trance logic.
 
 
 ### Negative hallucination *(unit)*
@@ -8111,7 +8111,7 @@ A suggestion to not perceive a real object, sound or person. It is one of the ha
 
 **Evidence:** experimental. Negative hallucination items are among the hardest on standard scales and pass in a minority of participants; studies show changes in report and some brain response, not true blindness. Source: Weitzenhoffer & Hilgard, Stanford Hypnotic Susceptibility Scale, Form C (1962).
 
-**Why it works:** Hypnotic suggestibility, Neodissociation theory, Response expectancy theory.
+**Why it works:** Hypnotic suggestibility, Neodissociation theory, Response expectancy theory, Trance logic.
 
 **Consent:** Do not suggest that a person or something the listener needs to see for safety is invisible, and restore perception before waking.
 
@@ -8136,7 +8136,7 @@ A brief exercise done awake, before formal trance, to show the listener they res
 
 **Evidence:** experimental. Responses to such tests correlate with formal hypnotizability scores, and the waking items share much with nonhypnotic suggestibility; that a pass improves later trance is assumed rather than shown.
 
-**Why it works:** Nonhypnotic suggestibility, Ideomotor effect, Response expectancy theory, Hypnotizability.
+**Why it works:** Construct validity, Hypnotic suggestibility, Hypnotizability, Ideomotor effect, Nonhypnotic suggestibility, Response expectancy theory.
 
 
 #### Book and balloon *(variant)*
@@ -8159,7 +8159,7 @@ A convincer built from two opposite imagined sensations at once, ending with the
 
 **Evidence:** practitioner-lore. Widely used in stage and clinical pre-talks; the related hand-lowering and hands-moving items are validated scale items, but this particular test has not been studied on its own.
 
-**Why it works:** Ideomotor effect, Response expectancy theory, Nonhypnotic suggestibility.
+**Why it works:** Ideomotor effect, Nonhypnotic suggestibility, Response expectancy theory.
 
 
 ### Puppeteering *(unit)*
@@ -8182,7 +8182,7 @@ A suggestion that the speaker directs specific movements (a hand lifts, the head
 
 **Evidence:** practitioner-lore. Built on the established ideomotor effect; as a named device it comes from stage and community practice and has no separate study.
 
-**Why it works:** Ideomotor effect, Cold control theory, Response expectancy theory.
+**Why it works:** Cold control theory, Dissociated control theory, Ideomotor effect, Response expectancy theory.
 
 **Consent:** Framing the body as controlled by the speaker works by the listener not owning the action; agree to it beforehand and return control explicitly.
 
@@ -8207,7 +8207,7 @@ A suggested bodily response of arousal and release, built in steps and tied to a
 
 **Evidence:** practitioner-lore. Orgasm from imagery alone, without touch, has been recorded physiologically in a small laboratory sample of women (Whipple, Ogden & Komisaruk, 1992). No controlled study of the suggested, cue-released form used in hypnosis is known, and success rates claimed online are anecdotal.
 
-**Why it works:** Response expectancy theory, Misattribution of arousal, Classical conditioning.
+**Why it works:** Classical conditioning, Misattribution of arousal, Response expectancy theory.
 
 **Consent:** Sexual content needs explicit adult consent before the session; a release cue meant to work after the session is a persistent trigger and must be disclosed.
 
@@ -8232,7 +8232,7 @@ A convincer placed after emergence. The script asks the listener to check someth
 
 **Evidence:** practitioner-lore. Time underestimation after hypnosis is commonly reported and was observed in early studies, but expectation explains much of it; as a deliberate script device it is practitioner convention.
 
-**Why it works:** Self-perception theory, Response expectancy theory, Confirmation bias.
+**Why it works:** Confirmation bias, Confounding variable, Diagnosticity, Misinformation effect, Response expectancy theory, Self-perception theory, Trust calibration.
 
 
 ## Memory and time
@@ -8245,7 +8245,7 @@ Devices that act on memory or on the listener's sense of when they are: forgetti
 
 **Not to be confused with:** Time distortion (changes felt duration of the session, not which time the listener is in or what they remember).
 
-**Why it works:** Hypnotic amnesia, Posthypnotic suggestion, Source-monitoring error, Misinformation effect, State-dependent memory.
+**Why it works:** Hypnotic amnesia, Misinformation effect, Posthypnotic suggestion, Source-monitoring error, State-dependent memory.
 
 **Consent:** Devices in this family can leave effects the listener does not notice or that persist after the session; say in the pretalk what will be forgotten, revisited or suggested about the past.
 
@@ -8270,7 +8270,7 @@ A suggestion whose content is forgetting: of the whole session, of one section, 
 
 **Evidence:** experimental. Posthypnotic amnesia is a standard item on hypnotic susceptibility scales and is reliably produced in highly suggestible people, but it is usually partial and reversible on a cue.
 
-**Why it works:** Hypnotic amnesia, Posthypnotic suggestion, Hypnotic suggestibility, Ironic process theory.
+**Why it works:** Hypnotic amnesia, Hypnotic suggestibility, Ironic process theory, Posthypnotic suggestion, State-dependent memory.
 
 **Consent:** Forgetting removes the listener's ability to review what was suggested; tell them beforehand what kind of material will be forgotten and keep it reversible.
 
@@ -8295,7 +8295,7 @@ An amnesia suggestion delivered at the exit and tied to the moment of waking: th
 
 **Evidence:** experimental. Suggested posthypnotic amnesia is a standard, measured scale item: it is a temporary recall failure that reverses on a cue, occurs fully in a minority of highly responsive people, and does not erase the memory. Source: Weitzenhoffer & Hilgard, Stanford Hypnotic Susceptibility Scale, Form C (1962).
 
-**Why it works:** Hypnotic amnesia, Response expectancy theory, Demand characteristics, Source-monitoring error, State-dependent memory.
+**Why it works:** Demand characteristics, Hypnotic amnesia, Response expectancy theory, Source-monitoring error, State-dependent memory.
 
 **Consent:** It works against the listener's later ability to review what was suggested, so it must be disclosed beforehand and paired with a way to recover the memory.
 
@@ -8320,7 +8320,7 @@ A suggestion about where a suggested idea will seem to have come from. The conte
 
 **Evidence:** practitioner-lore. Posthypnotic source amnesia for facts learned during hypnosis has been demonstrated experimentally. That does not establish that a scripted suggestion can make a newly suggested idea feel self-generated. Source: Frederick J. Evans and William A. Thorn, Two Types of Posthypnotic Amnesia: Recall Amnesia and Source Amnesia, International Journal of Clinical and Experimental Hypnosis (1966).
 
-**Why it works:** Source-monitoring error, Hypnotic amnesia, Sleeper effect.
+**Why it works:** Hypnotic amnesia, Sleeper effect, Source-monitoring error.
 
 **Consent:** Designed to hide its own influence; the listener should know beforehand that suggestions may later feel self-generated.
 
@@ -8343,7 +8343,7 @@ An amnesia move done by structure, not by instruction. The speaker stops mid-sen
 
 **Evidence:** clinical-tradition. Described in Ericksonian clinical literature and consistent with event-boundary effects on memory; no controlled test of the scripted form. Source: Erickson & Rossi, Varieties of hypnotic amnesia, American Journal of Clinical Hypnosis (1974).
 
-**Why it works:** Hypnotic amnesia, Event segmentation theory, Indirect suggestion.
+**Why it works:** Event segmentation theory, Hypnotic amnesia, Indirect suggestion.
 
 **Consent:** Works without the listener noticing; disclose in advance if the script uses it.
 
@@ -8366,7 +8366,7 @@ Amnesia produced by denying rehearsal: the speaker moves attention away immediat
 
 **Evidence:** clinical-tradition. Used in Ericksonian practice; consistent with research showing interference after encoding reduces later recall, but the scripted technique itself is not separately tested. Source: Milton H. Erickson and Ernest L. Rossi, Varieties of Hypnotic Amnesia, American Journal of Clinical Hypnosis (1974).
 
-**Why it works:** Working-memory interference, Hypnotic amnesia, Attentional capture.
+**Why it works:** Attentional capture, Event segmentation theory, Hypnotic amnesia, Working-memory interference.
 
 **Consent:** Works without the listener noticing; disclose in advance if the script uses it.
 
@@ -8391,7 +8391,7 @@ A suggestion that moves the listener's sense of self to an earlier age, often by
 
 **Evidence:** contested. Listeners report vivid regression, but controlled studies find adult, not child-like, cognition and no special accuracy of recovered details. Source: Nash, What, if anything, is regressed about hypnotic age regression? (1987).
 
-**Why it works:** Sociocognitive theory of hypnosis, Trance logic, Imagination inflation, Abreaction, State-dependent memory.
+**Why it works:** Abreaction, Imagination inflation, Sociocognitive theory of hypnosis, State-dependent memory, Trance logic.
 
 **Consent:** Can surface distressing material and produce confident but inaccurate memories; tell the listener beforehand, give a clear return path and do not treat what emerges as fact.
 
@@ -8416,7 +8416,7 @@ A recall device aimed at re-entering a state: the listener picks or is led to a 
 
 **Evidence:** clinical-tradition. Standard in clinical hypnosis for accessing resource states; affect returns with vivid recall in ordinary memory research, but the hypnotic version is not separately validated.
 
-**Why it works:** State-dependent memory, Utilization, Priming.
+**Why it works:** Abreaction, Priming, State-dependent memory, Utilization.
 
 
 ### Future progression *(unit)*
@@ -8439,7 +8439,7 @@ A time-orientation suggestion: the listener is told it is now a later date, the 
 
 **Evidence:** clinical-tradition. A standard clinical technique since Erickson; no controlled studies show it beats ordinary goal imagery. Source: Erickson, Pseudo-orientation in time as a hypnotherapeutic procedure (1954).
 
-**Why it works:** Presupposition, Response expectancy theory, Imagination inflation.
+**Why it works:** Imagination inflation, Presupposition, Response expectancy theory.
 
 
 ### It was always so *(unit)*
@@ -8462,7 +8462,7 @@ A framing move that backdates the suggestion: instead of 'you will become calm',
 
 **Evidence:** practitioner-lore. Common in practitioner and community scripts; it relies on presupposition and self-perception, which are studied, but the device itself is not.
 
-**Why it works:** Presupposition, Self-perception theory, Labeling effect, Belief perseverance.
+**Why it works:** Belief perseverance, Common-ground manipulation, Imagination inflation, Labeling effect, Misinformation effect, Presupposition, Self-perception theory, Source-monitoring error.
 
 **Consent:** Rewrites how the listener understands their own past and can persist after the session; the listener should know the script presents new traits as always present.
 
@@ -8487,7 +8487,7 @@ A suggestion that supplies the content of a memory: an event, a conversation, a 
 
 **Evidence:** experimental. False memories can be created by suggestion and imagination in a minority of participants, with or without hypnosis; hypnosis raises confidence more than accuracy. Source: Laurence & Perry, Hypnotically created memory among highly hypnotizable subjects, Science (1983).
 
-**Why it works:** Misinformation effect, Imagination inflation, Source-monitoring error, Illusory truth effect.
+**Why it works:** Illusory truth effect, Imagination inflation, Misinformation effect, Source-monitoring error.
 
 **Consent:** Can produce memories the listener later believes are real; frame it as fiction, mark it at the end and never use it on real personal history.
 
@@ -8537,7 +8537,7 @@ A suggestion of improved recall of named material: a past event, study material,
 
 **Evidence:** contested. Hypnotic recall enhancement produces more recalled items but also more errors, with confidence rising faster than accuracy; the popular claim of better memory outruns the evidence. Source: Jane Dywan and Kenneth S. Bowers, The Use of Hypnosis to Enhance Recall, Science (1983).
 
-**Why it works:** Response expectancy theory, Placebo effect, Posthypnotic suggestion.
+**Why it works:** Imagination inflation, Placebo effect, Posthypnotic suggestion, Response expectancy theory.
 
 **Consent:** Hypnotic memory enhancement can increase confidence in inaccurate recollections; say beforehand if the script suggests clearer recall, and do not treat recalled material as verified.
 
@@ -8552,7 +8552,7 @@ This family groups moves aimed at the listener's self-description and standing b
 
 **Not to be confused with:** Labeling (labeling assigns a trait in order to ask for matching behavior; this family changes the self-description itself); Persona / alter (a persona is a separate switchable self; identity devices change the listener's one ongoing self).
 
-**Why it works:** Labeling effect, Self-perception theory, Commitment and consistency, Self-reference effect.
+**Why it works:** Commitment and consistency, Labeling effect, Self-perception theory, Self-reference effect.
 
 **Consent:** Identity changes are meant to outlast the session, so the listener should know in advance what self-description is being installed and how to reverse it.
 
@@ -8577,7 +8577,7 @@ A direct suggestion whose predicate is a standing trait or a kind of person: "yo
 
 **Evidence:** clinical-tradition. Ego-strengthening identity statements are standard in clinical hypnosis texts; their specific contribution beyond the session as a whole is not well measured.
 
-**Why it works:** Direct verbal suggestion, Labeling effect, Self-reference effect, Illusory truth effect.
+**Why it works:** Direct verbal suggestion, Illusory truth effect, Labeling effect, Self-reference effect, Speech-act theory.
 
 
 ### Renaming *(unit)*
@@ -8600,7 +8600,7 @@ The act of assigning a name, designation or title to the listener, usually with 
 
 **Evidence:** practitioner-lore. Common in community and ritual practice; there is no controlled work on renaming within hypnosis.
 
-**Why it works:** Labeling effect, Commitment and consistency.
+**Why it works:** Commitment and consistency, Labeling effect, Speech-act theory.
 
 **Consent:** A name meant to persist after the session should be agreed in advance and should come with a way to drop it.
 
@@ -8625,7 +8625,7 @@ The listener is told they occupy a role in relation to the speaker or the scene,
 
 **Evidence:** practitioner-lore. Role-taking is known to shape behavior in social psychology, but scripted role assignment in hypnosis has no independent study.
 
-**Why it works:** Sociocognitive theory of hypnosis, Labeling effect, Self-perception theory.
+**Why it works:** Labeling effect, Self-perception theory, Sociocognitive theory of hypnosis, Speech-act theory.
 
 **Consent:** When the role is one of submission or service, the listener should have agreed to it before the session.
 
@@ -8673,7 +8673,7 @@ A suggestion about the source of the listener's thoughts: the speaker's voice mo
 
 **Evidence:** practitioner-lore. Source-monitoring errors are real in memory research, but there is no study of suggestions that a speaker's voice becomes one's thoughts.
 
-**Why it works:** Source-monitoring error, Self-reference effect.
+**Why it works:** Self-reference effect, Source-monitoring error.
 
 **Consent:** This device aims to make suggested content feel self-generated, so it should only be used where the listener has agreed to that blurring and it is bounded to the session or a scope.
 
@@ -8698,7 +8698,7 @@ The suggestion is justified by a value the listener holds (health, family, freed
 
 **Evidence:** experimental. Messages framed in the audience's own values persuade better in controlled studies; this has not been tested within hypnosis.
 
-**Why it works:** Moral reframing, Commitment and consistency, Self-reference effect.
+**Why it works:** Attitude bolstering, Commitment and consistency, Moral reframing, Moralization, Motivated reasoning, Self-determination theory, Self-reference effect.
 
 
 ### It's what you want *(unit)*
@@ -8721,7 +8721,7 @@ The script claims the listener already wants the response, often 'deep down' or 
 
 **Evidence:** practitioner-lore. Common in community and sales copy; no study isolates attributed desire as a hypnotic device.
 
-**Why it works:** Self-perception theory, Commitment and consistency.
+**Why it works:** Commitment and consistency, Motivated reasoning, Self-determination theory, Self-perception theory.
 
 **Consent:** Telling someone they secretly want something is a known coercive move, so in consensual use it should match what the listener has said they want.
 
@@ -8796,7 +8796,7 @@ A declarative sentence about how things are or must be, offered for the listener
 
 **Evidence:** practitioner-lore. Repeated statements are rated more believable (illusory truth), but whether hypnotic belief statements change lasting beliefs is not established.
 
-**Why it works:** Illusory truth effect, Direct verbal suggestion, Belief perseverance.
+**Why it works:** Belief perseverance, Direct verbal suggestion, Illusory truth effect, Moralization.
 
 **Consent:** A belief meant to be held after the session should be one the listener asked for or agreed to beforehand.
 
@@ -8821,7 +8821,7 @@ A belief statement given as an ordered, numbered set ('Rule one... Rule two...')
 
 **Evidence:** practitioner-lore. Numbered lists aid recall in general, but no study tests numbered rules as a hypnotic device.
 
-**Why it works:** Illusory truth effect, Generation effect, Commitment and consistency.
+**Why it works:** Commitment and consistency, Generation effect, Illusory truth effect.
 
 **Consent:** A code of rules meant to be followed after the session should be agreed in advance and come with a stated way to retire it.
 
@@ -8846,7 +8846,7 @@ A statement about the duration of an effect: it lasts forever, cannot fade, cann
 
 **Evidence:** practitioner-lore. Posthypnotic responses generally weaken over time without reinforcement, and there is no evidence that asserting permanence makes an effect last.
 
-**Why it works:** Response expectancy theory, Posthypnotic suggestion.
+**Why it works:** Posthypnotic suggestion, Response expectancy theory.
 
 **Consent:** Claims of irreversibility can frighten listeners and should be agreed in advance and accompanied by a real way to remove the suggestion.
 
@@ -8894,7 +8894,7 @@ A suggestion targeting what the listener can do (think, calculate, concentrate, 
 
 **Evidence:** experimental. Suggestion can measurably shift performance on some tasks in highly suggestible people, but claims of large or lasting changes in intelligence have no support.
 
-**Why it works:** Direct verbal suggestion, Response expectancy theory, Placebo effect.
+**Why it works:** Direct verbal suggestion, Placebo effect, Response expectancy theory.
 
 **Consent:** Suggested reductions in ability should be scoped to the session and explicitly reversed at emergence.
 
@@ -8909,7 +8909,7 @@ Devices whose target is the listener's resistance itself rather than the suggest
 
 **Not to be confused with:** Expectation and framing (framing sets how any experience is read; this family targets only doubt, objection and holding back); Binds and choices (binds limit the choices offered; resistance devices act on the listener's opposition itself).
 
-**Why it works:** Psychological reactance, Counterarguing, Persuasion resistance, Utilization.
+**Why it works:** Counterarguing, Persuasion resistance, Psychological reactance, Utilization.
 
 **Consent:** Several members work by lowering the listener's guard; in consensual play they belong to an agreed scene, and used without that agreement they override the listener's own judgment.
 
@@ -8934,7 +8934,7 @@ A direct instruction that points away from the wanted response, aimed at a liste
 
 **Evidence:** contested. Reactance is well established experimentally, and paradoxical interventions have clinical studies with mixed results; whether reversed instructions reliably produce the wanted response in hypnosis is not established.
 
-**Why it works:** Psychological reactance, Ironic process theory.
+**Why it works:** Ironic process theory, Psychological reactance.
 
 
 ### Permission to resist *(unit)*
@@ -8957,7 +8957,7 @@ The writer tells the listener they may, or should, resist. Once invited, resista
 
 **Evidence:** practitioner-lore. Common in community practice; the nearby 'but you are free' effect has experimental support, but inviting resistance as a device has not been studied.
 
-**Why it works:** Psychological reactance, Utilization.
+**Why it works:** Persuasion resistance, Psychological reactance, Utilization.
 
 **Consent:** In resistance play the permission is part of an agreed scene; it should not be used to make real refusal sound like a game.
 
@@ -8982,7 +8982,7 @@ The writer does not argue with doubt or remove it; they postpone it. Doubts are 
 
 **Evidence:** practitioner-lore. Container and set-aside exercises are common in therapy and meditation instruction; their effect on resistance in hypnosis has not been tested.
 
-**Why it works:** Cognitive load, Ironic process theory.
+**Why it works:** Cognitive load, Ironic process theory, Persuasion resistance.
 
 
 ### Bypassing the critic *(unit)*
@@ -9005,7 +9005,7 @@ A direct statement that the evaluating part of the mind is off duty: it can rest
 
 **Evidence:** clinical-tradition. Elman's definition of hypnosis as bypass of the critical faculty is standard in hypnotherapy training; the 'critical faculty' is a teaching model, not an established brain structure. Source: Dave Elman, Findings in Hypnosis, Westwood Publishing (1964).
 
-**Why it works:** Critical faculty (Elman), Epistemic vigilance, Dual-process theory.
+**Why it works:** Counterarguing, Critical faculty (Elman), Dual-process theory, Epistemic vigilance, Transportation-induced counterarguing reduction.
 
 **Consent:** It works by asking the listener to stop evaluating; pair it with clear scope limits so what passes the lowered guard was agreed in advance.
 
@@ -9030,7 +9030,7 @@ The writer extends the induction or a demand, and states or implies that the lis
 
 **Evidence:** practitioner-lore. Used in stage and erotic hypnosis; the idea of resistance as a depletable resource draws on ego-depletion research, which has failed large replications.
 
-**Why it works:** Persuasion resistance, Cognitive load.
+**Why it works:** Cognitive load, Persuasion resistance.
 
 **Consent:** Wearing someone down overrides refusal by fatigue; outside an agreed scene with a working safeword it is a coercive pattern.
 
@@ -9055,7 +9055,7 @@ The listener commits to the suggestions as a class, before their content is know
 
 **Evidence:** practitioner-lore. Commitment and consistency effects are experimental, but content-blind advance agreement as a resistance tool has not been studied.
 
-**Why it works:** Commitment and consistency, Foot-in-the-door, Cognitive dissonance.
+**Why it works:** Cognitive dissonance, Commitment and consistency, Foot-in-the-door, Inoculation theory.
 
 **Consent:** Agreement to content not yet heard is not informed consent; a script that relies on it should still let the listener refuse specific suggestions.
 
@@ -9080,7 +9080,7 @@ A reassurance that a part of the listener will filter out anything harmful or un
 
 **Evidence:** clinical-tradition. A standard clinical pre-talk assurance; whether hypnotized people reliably reject suggestions against their values is itself debated, so the statement is a reassurance, not an established fact.
 
-**Why it works:** Epistemic vigilance, Persuasion Knowledge Model, Trust calibration.
+**Why it works:** Attitude bolstering, Critical faculty (Elman), Epistemic vigilance, Persuasion Knowledge Model, Persuasion resistance, Trust calibration.
 
 **Consent:** Used to relax vigilance while the script pushes against the listener's interests, it is a false safety promise.
 
@@ -9095,7 +9095,7 @@ This family covers devices whose lever is a feeling or a drive: desire, fear, re
 
 **Not to be confused with:** Operant conditioning (shapes behavior by what follows it; this family changes the drive or feeling present while the suggestion is given); Expectation and framing (sets how an experience is interpreted, not how strongly it is felt or wanted); Coercive-control patterns (covers the same levers used to create dependency or prevent leaving, from abuse research).
 
-**Why it works:** Motivating operations, Misattribution of arousal, Elaboration likelihood model, Dual-process theory.
+**Why it works:** Dual-process theory, Elaboration likelihood model, Misattribution of arousal, Motivating operations.
 
 **Consent:** Several members work by raising a feeling that lowers judgment or by building need for the speaker; keep them to content the listener has agreed to in advance.
 
@@ -9120,7 +9120,7 @@ The writer repeatedly raises desire for a release, reward or experience and then
 
 **Evidence:** practitioner-lore. Deprivation raising the value of a reward is well supported in behavior analysis, but the in-script tease cycle has no independent study.
 
-**Why it works:** Motivating operations, Zeigarnik effect, Operant conditioning.
+**Why it works:** Effort justification, Intermittent reinforcement, Motivating operations, Operant conditioning, Scarcity principle, Variable-ratio schedules, Zeigarnik effect.
 
 **Consent:** Prolonged or post-session denial persists after the recording ends; state it up front and give a clear end condition.
 
@@ -9145,7 +9145,7 @@ A form of tease and denial in which the withheld release is opened only by a sta
 
 **Evidence:** practitioner-lore. Contingent reward is well supported in operant research, but this specific gating in scripts has no independent study.
 
-**Why it works:** Operant conditioning, Motivating operations.
+**Why it works:** Motivating operations, Operant conditioning.
 
 **Consent:** Permission rules that extend past the session are posthypnotic control; agree on them in advance and include an end condition.
 
@@ -9170,7 +9170,7 @@ A short burst of worry or tension is created and then removed, and the target re
 
 **Evidence:** experimental. Field and lab studies found higher compliance after a removed scare, mostly from one research group; it has not been tested in hypnosis scripts. Source: Dariusz Doliński and Richard Nawrat, ‘Fear-Then-Relief’ Procedure for Producing Compliance: Beware When the Danger Is Over, Journal of Experimental Social Psychology (1998).
 
-**Why it works:** Dual-process theory, Cognitive load, Contrast effect.
+**Why it works:** Attachment theory, Cognitive load, Contrast effect, Dual-process theory, Misattribution of arousal.
 
 **Consent:** Works because the listener does not notice the request arrives in a lowered moment; avoid real distress and do not use for consequential asks.
 
@@ -9195,7 +9195,7 @@ The writer names the listener's wish to return as a need that grows, aches when 
 
 **Evidence:** practitioner-lore. Common in community scripts; whether labeling an urge as craving increases relistening has not been studied.
 
-**Why it works:** Labeling effect, Self-perception theory, Response expectancy theory.
+**Why it works:** Labeling effect, Motivated reasoning, Response expectancy theory, Self-perception theory, Variable-ratio schedules.
 
 **Consent:** Aims at behavior after the session; disclose it in the description and pair with a way to switch it off.
 
@@ -9220,7 +9220,7 @@ Plain reassurance of safety and ease: no danger, no threat, no judgment, the bod
 
 **Evidence:** clinical-tradition. Reassurance and a sense of safety are standard in clinical induction texts; their separate contribution to response has not been isolated.
 
-**Why it works:** Epistemic trust, Response expectancy theory, Psychological reactance.
+**Why it works:** Affective priming, Attachment theory, Cognitive ease, Epistemic trust, Psychological reactance, Response expectancy theory.
 
 
 ### Timing to the peak *(unit)*
@@ -9268,7 +9268,7 @@ The writer names or creates a moment of embarrassment, exposure or lowered statu
 
 **Evidence:** practitioner-lore. Community practice; there is no study of embarrassment as an intensifier of hypnotic response.
 
-**Why it works:** Misattribution of arousal, Evaluative conditioning.
+**Why it works:** Evaluative conditioning, Misattribution of arousal, Rejection sensitivity.
 
 **Consent:** Shame can persist after the session and touch real insecurities; use only with explicit agreement on limits and follow with aftercare.
 
@@ -9293,7 +9293,7 @@ The listener is instructed to thank the speaker, aloud or inwardly, for the sess
 
 **Evidence:** practitioner-lore. Expressing gratitude is studied for wellbeing and helping, but not as a way to strengthen acceptance in scripts.
 
-**Why it works:** Self-perception theory, Cognitive dissonance, Commitment and consistency.
+**Why it works:** Cognitive dissonance, Commitment and consistency, Equity theory, Reciprocity principle, Self-perception theory.
 
 **Consent:** Thanking for something unwanted reframes it as wanted; keep it to experiences the listener agreed to.
 
@@ -9318,7 +9318,7 @@ The writer names a coming experience, sensation or event and holds it off with '
 
 **Evidence:** practitioner-lore. Expectancy shaping experience is well supported, but deliberate delay as a script device has not been studied directly.
 
-**Why it works:** Response expectancy theory, Zeigarnik effect, Prediction error.
+**Why it works:** Intermittent reinforcement, Motivating operations, Narrative closure, Prediction error, Response expectancy theory, Zeigarnik effect.
 
 
 ## Rhetoric, rhythm and sound
@@ -9331,7 +9331,7 @@ This family holds the stylistic figures of rhetoric and poetics as they appear i
 
 **Not to be confused with:** Delivery and production (delivery entries are heard in the voice or audio, not read in the wording); Suggestion forms (suggestion forms phrase what is suggested; these figures shape how it sounds).
 
-**Why it works:** Processing fluency, Illusory truth effect.
+**Why it works:** Illusory truth effect, Processing fluency.
 
 
 ### Anaphora *(unit)*
@@ -9352,7 +9352,7 @@ Anaphora repeats the same words at the beginning of successive clauses, lines or
 
 **Evidence:** rhetorical-tradition. A classical figure; repetition in general raises perceived truth and fluency, but anaphora itself has no hypnosis-specific study.
 
-**Why it works:** Processing fluency, Illusory truth effect.
+**Why it works:** Illusory truth effect, Processing fluency.
 
 
 ### Epistrophe *(unit)*
@@ -9373,7 +9373,7 @@ Epistrophe repeats the same words at the end of successive clauses or sentences,
 
 **Evidence:** rhetorical-tradition. A classical figure with no direct study in hypnosis; its emphasis effect is inferred from general work on repetition and end-focus.
 
-**Why it works:** Processing fluency, Illusory truth effect.
+**Why it works:** Illusory truth effect, Processing fluency.
 
 
 ### Immediate repetition *(unit)*
@@ -9415,7 +9415,7 @@ Parallelism repeats a grammatical pattern across clauses or sentences while the 
 
 **Evidence:** rhetorical-tradition. A classical figure; parallel structure eases comprehension, but no study ties it to hypnotic response.
 
-**Why it works:** Processing fluency.
+**Why it works:** Cognitive fluency of rhyme (rhyme-as-reason), Processing fluency.
 
 
 #### Rule of three *(variant)*
@@ -9520,7 +9520,7 @@ Chiasmus repeats key words or ideas in mirrored order, so the second clause turn
 
 **Evidence:** rhetorical-tradition. A classical figure; its memorability is widely claimed but untested in hypnotic scripts.
 
-**Why it works:** Processing fluency.
+**Why it works:** Cognitive fluency of rhyme (rhyme-as-reason), Processing fluency.
 
 
 ### Rhyme *(unit)*
@@ -9562,7 +9562,7 @@ Meter is a regular beat built into the wording itself, through syllable count an
 
 **Evidence:** rhetorical-tradition. Rhythm aids fluency and memory in general; claims that metrical language entrains trance are practitioner belief.
 
-**Why it works:** Processing fluency, Habituation.
+**Why it works:** Cognitive ease, Cognitive fluency of rhyme (rhyme-as-reason), Habituation, Processing fluency.
 
 
 ### Alliteration and sibilance *(unit)*
@@ -9585,7 +9585,7 @@ Alliteration repeats a consonant sound at the start of nearby words; sibilance f
 
 **Evidence:** rhetorical-tradition. A classical sound figure; sound symbolism is studied in linguistics, but the claim that soft consonants relax listeners is untested.
 
-**Why it works:** Processing fluency.
+**Why it works:** Cognitive fluency of rhyme (rhyme-as-reason), Processing fluency.
 
 
 ### Rhetorical question *(unit)*
@@ -9606,7 +9606,7 @@ A rhetorical question is phrased as a question but works as an assertion: the an
 
 **Evidence:** contested. Experiments find rhetorical questions can raise or lower persuasion depending on argument strength and listener involvement; there is no simple boost. Source: Petty, Cacioppo & Heesacker, Effects of rhetorical questions on persuasion: a cognitive response analysis (1981).
 
-**Why it works:** Elaboration likelihood model, Conversational implicature.
+**Why it works:** Conversational implicature, Elaboration likelihood model.
 
 
 ### Ask and answer *(unit)*
@@ -9648,7 +9648,7 @@ A refrain is a fixed line that recurs across a script, separated by other materi
 
 **Evidence:** rhetorical-tradition. A poetic and musical form; spaced repetition aids memory in general, but its hypnotic effect is untested.
 
-**Why it works:** Spacing effect, Illusory truth effect, Mere-exposure effect.
+**Why it works:** Agenda-setting, Cognitive fluency of rhyme (rhyme-as-reason), Illusory truth effect, Mere-exposure effect, Processing fluency, Spacing effect.
 
 
 ### Written pause *(unit)*
@@ -9793,7 +9793,7 @@ Present-tense and progressive phrasing ('you are relaxing', 'your arm is lifting
 
 **Evidence:** clinical-tradition. Present-tense phrasing is standard advice in clinical suggestion writing; its advantage over other tenses is not experimentally shown.
 
-**Why it works:** Response expectancy theory.
+**Why it works:** Response expectancy theory, Situation-model updating.
 
 
 ### Counted passage *(unit)*
@@ -9827,7 +9827,7 @@ Devices named by researchers of thought reform, high-control groups and coercive
 
 **Not to be confused with:** Operant conditioning (conditioning shapes behavior with consequences; coercive patterns target the listener's perception, ties, money or exit); Motivation and emotion (emotion levers raise or release feeling; coercive patterns use feeling to narrow the listener's options).
 
-**Why it works:** Conditional regard, Intermittent reinforcement, Epistemic trust, Cognitive dissonance, Commitment and consistency.
+**Why it works:** Cognitive dissonance, Commitment and consistency, Conditional regard, Epistemic trust, Intermittent reinforcement.
 
 **Consent:** Every device in this family is abuse when used on someone who has not agreed to it as fantasy, and should never be aimed at real money, relationships or self-trust outside an explicit, revocable agreement.
 
@@ -9852,7 +9852,7 @@ A dense, unearned stream of warmth, praise and closeness at the start of a sessi
 
 **Evidence:** contested. Described in accounts of cult recruitment and abusive relationships; controlled evidence that the flood itself increases compliance is thin.
 
-**Why it works:** Liking principle, Reciprocity principle, Attachment theory.
+**Why it works:** Attachment theory, Conditional regard, Liking principle, Reciprocity principle.
 
 **Consent:** Known as a recruitment and abuse tactic; in a script it belongs only in agreed fantasy and never paired with later withdrawal.
 
@@ -9877,7 +9877,7 @@ A direct contradiction of the listener's own perception, memory or judgment, off
 
 **Evidence:** contested. Gaslighting is well described in clinical and sociological accounts of abusive relationships, and the misinformation effect shows memory can be altered by outside claims, but scripted reality denial has no direct study.
 
-**Why it works:** Misinformation effect, Source-monitoring error, Epistemic trust, Authority principle.
+**Why it works:** Authority principle, Common-ground manipulation, Epistemic trust, Misinformation effect, Source-monitoring error.
 
 **Consent:** Undermining someone's trust in their own perception is a core abuse tactic; use only inside agreed fantasy about trance events, never about real-world facts.
 
@@ -9902,7 +9902,7 @@ Lines that devalue, exclude or replace the listener's other relationships and so
 
 **Evidence:** contested. Isolation is a consistently reported feature of coercive relationships and high-control groups, but the effect of scripted isolation talk on a listener's real relationships is unstudied. Source: Evan Stark, Coercive Control (2007).
 
-**Why it works:** Attachment theory, Epistemic trust, Normative social influence, Investment model of commitment.
+**Why it works:** Attachment theory, Epistemic trust, Investment model of commitment, Normative social influence, Rejection sensitivity.
 
 **Consent:** Encouraging real withdrawal from friends or family is abuse; keep 'others' fictional and never suggest it persists after the session.
 
@@ -9927,7 +9927,7 @@ A private vocabulary in which words come pre-loaded with approval or condemnatio
 
 **Evidence:** contested. Framing effects of word choice are experimental, but Lifton's claim that loaded vocabulary constricts thought rests on interviews and case material. Source: Robert Jay Lifton, Thought Reform and the Psychology of Totalism (1961).
 
-**Why it works:** Framing effect, Labeling effect, Moralization, Illusory truth effect.
+**Why it works:** Affective priming, Framing effect, Illusory truth effect, Injunctive norms, Labeling effect, Metalinguistic negotiation, Moralization.
 
 **Consent:** A loaded vocabulary can outlast the session and shape how the listener judges themselves; keep it inside agreed fantasy and let the listener drop it.
 
@@ -9952,7 +9952,7 @@ A brief, memorable, repeatable phrase deployed at the moment of doubt to end inq
 
 **Evidence:** contested. Widely cited from Lifton's interviews and cult-recovery literature; the stopping effect of the phrases themselves has not been tested. Source: Robert Jay Lifton, Thought Reform and the Psychology of Totalism (1961).
 
-**Why it works:** Processing fluency, Cognitive ease, Epistemic vigilance.
+**Why it works:** Cognitive ease, Epistemic vigilance, Processing fluency.
 
 **Consent:** Training the listener to shut down their own questions works by the listener not noticing; keep real doubts answerable outside the fantasy.
 
@@ -9977,7 +9977,7 @@ A demand or invitation to reveal something the listener would normally keep priv
 
 **Evidence:** contested. Disclosure is known to increase closeness, and coerced confession is well documented in thought-reform settings, but the effect of scripted confession prompts is unstudied. Source: Robert Jay Lifton, Thought Reform and the Psychology of Totalism (1961).
 
-**Why it works:** Commitment and consistency, Self-perception theory, Investment model of commitment.
+**Why it works:** Commitment and consistency, Investment model of commitment, Observer effect, Self-perception theory.
 
 **Consent:** Disclosed material creates leverage; never request identifying or recordable personal information, and keep any disclosure private to the listener.
 
@@ -10002,7 +10002,7 @@ Claims that place the speaker as the sole source of something the listener wants
 
 **Evidence:** contested. Dependency is a common theme in coercive-control and cult accounts, but whether scripted monopoly claims create real dependence is unstudied.
 
-**Why it works:** Motivating operations, Attachment theory, Response expectancy theory, Epistemic trust.
+**Why it works:** Attachment theory, Epistemic trust, Investment model of commitment, Motivating operations, Parasocial interaction, Response expectancy theory.
 
 **Consent:** Dependency claims are meant to persist after the session; state them only inside agreed fantasy and never undermine the listener's own ways of coping.
 
@@ -10027,7 +10027,7 @@ A two-beat move: first the script asserts or amplifies a deficit the listener ha
 
 **Evidence:** practitioner-lore. Problem-agitate-solve is standard copywriting practice and appears in accounts of cult recruitment, but its effect has not been tested as such.
 
-**Why it works:** Motivating operations, Framing effect, Contrast effect.
+**Why it works:** Contrast effect, Framing effect, Motivating operations.
 
 **Consent:** Inventing a deficit to sell a remedy is manipulation when the listener has not agreed to the fantasy; never apply it to real health, body or self-worth.
 
@@ -10052,7 +10052,7 @@ Suggestions that make the act of quitting feel dangerous or unbearable: the list
 
 **Evidence:** contested. Fear of leaving is consistently reported by former members of high-control groups, but whether scripted exit fear produces it is unstudied. Source: Steven Hassan, Combating Cult Mind Control (1988).
 
-**Why it works:** Classical conditioning, Sunk-cost effect, Investment model of commitment, Framing effect.
+**Why it works:** Classical conditioning, Framing effect, Investment model of commitment, Rejection sensitivity, Sunk-cost effect.
 
 **Consent:** Dread attached to stopping is designed to outlast the session; never use it outside explicit fantasy, and always keep a penalty-free real exit.
 
@@ -10077,7 +10077,7 @@ A response to a complaint, objection or failure that denies the speaker's part a
 
 **Evidence:** contested. DARVO has survey support as a pattern abusers use and as a factor in victim self-blame; scripted blame reversal has not been studied. Source: Sarah Harsey, Eileen L. Zurbriggen and Jennifer J. Freyd, Perpetrator Responses to Victim Confrontation: DARVO and Victim Self-Blame, Journal of Aggression, Maltreatment & Trauma (2017).
 
-**Why it works:** Conditional regard, Cognitive dissonance, Moralization.
+**Why it works:** Cognitive dissonance, Conditional regard, Moralization.
 
 **Consent:** Blaming the listener for discomfort or failure can suppress real safety concerns; never apply it to unease, pain or a request to stop.
 
@@ -10102,7 +10102,7 @@ A pattern in which the speaker's affection, approval or attention is given and t
 
 **Evidence:** contested. Intermittent reinforcement is experimental and traumatic bonding has observational support in abusive relationships, but scripted hot-and-cold alternation has no direct study. Source: Donald G. Dutton and Susan L. Painter, Traumatic Bonding: The Development of Emotional Attachments in Battered Women and Other Relationships of Intermittent Abuse, Victimology (1981).
 
-**Why it works:** Intermittent reinforcement, Variable-ratio schedules, Attachment theory, Conditional regard, Rejection sensitivity.
+**Why it works:** Attachment theory, Conditional regard, Contrast effect, Intermittent reinforcement, Rejection sensitivity, Variable-ratio schedules.
 
 **Consent:** Unpredictable withdrawal of affection is a core abuse pattern and works on attachment; use only in clearly agreed role-play and end warm.
 
@@ -10127,7 +10127,7 @@ Instructions or suggestions that narrow what else the listener reads, hears or c
 
 **Evidence:** contested. Information control is central to accounts of thought reform and cult membership, but scripted input restriction has not been studied. Source: Robert Jay Lifton, Thought Reform and the Psychology of Totalism (1961).
 
-**Why it works:** Agenda-setting, Mere-exposure effect, Confirmation bias, Epistemic trust.
+**Why it works:** Agenda-setting, Confirmation bias, Epistemic trust, Investment model of commitment, Mere-exposure effect.
 
 **Consent:** Restricting what else a listener hears cuts them off from correction and safety information; never extend it beyond the session.
 
@@ -10152,7 +10152,7 @@ A goal stated as total (perfectly empty, completely obedient, never doubting) an
 
 **Evidence:** contested. Conditional regard and unmeetable standards are linked to guilt and compliance in developmental research, but the scripted form has not been studied. Source: Robert Jay Lifton, Thought Reform and the Psychology of Totalism (1961).
 
-**Why it works:** Conditional regard, Cognitive dissonance, Effort justification, Zeigarnik effect.
+**Why it works:** Cognitive dissonance, Conditional regard, Effort justification, Injunctive norms, Moralization, Zeigarnik effect.
 
 **Consent:** A standard built to be failed produces guilt that can persist; keep it about the fiction and never about the listener's real worth.
 
@@ -10177,7 +10177,7 @@ An instruction to install an internal monitor that checks the listener against r
 
 **Evidence:** contested. Self-monitoring changes behavior in behavioral studies, and self-surveillance is described in thought-reform accounts, but scripted self-policing has not been studied.
 
-**Why it works:** Operant conditioning, Ironic process theory, Self-perception theory, Posthypnotic suggestion.
+**Why it works:** Ironic process theory, Moralization, Observer effect, Operant conditioning, Posthypnotic suggestion, Self-perception theory.
 
 **Consent:** An internal monitor is meant to run after the session ends; scope it in time, give it an off switch, and keep it out of the listener's real life without agreement.
 
@@ -10236,7 +10236,7 @@ An emergency wake is a standing suggestion that real-world need overrides the se
 
 **Evidence:** clinical-tradition. Standard in clinical and recorded hypnosis practice; hypnotized people retain the ability to respond to real events, so the clause mainly reassures rather than creates the ability.
 
-**Why it works:** Posthypnotic suggestion, Response expectancy theory.
+**Why it works:** Abreaction, Posthypnotic suggestion, Response expectancy theory.
 
 
 ### Consent check *(unit)*
@@ -10259,7 +10259,7 @@ A consent check is an explicit opt-in point: the script names what is about to h
 
 **Evidence:** practitioner-lore. Informed consent is an ethical standard in clinical hypnosis; in-recording opt-in points are community practice with no study of how often listeners actually use them.
 
-**Why it works:** Self-determination theory, Psychological reactance.
+**Why it works:** Psychological reactance, Self-determination theory.
 
 **Consent:** An opt-in asked during trance is weaker than one asked before the induction. Everything a later check covers should already be in the content note; the in-trance check is an extra exit, not the consent itself.
 
@@ -10307,7 +10307,7 @@ Aftercare is the passage that follows intense, humiliating, dominant or emotiona
 
 **Evidence:** practitioner-lore. Borrowed from BDSM practice and widely recommended; there is no controlled study of scripted aftercare in recordings.
 
-**Why it works:** Attachment theory.
+**Why it works:** Abreaction, Attachment theory, Rejection sensitivity.
 
 
 ### Safeword *(unit)*
@@ -10353,7 +10353,7 @@ A fantasy boundary marks the claims made inside a scene (ownership, identity, ru
 
 **Evidence:** practitioner-lore. Common community practice; no study shows whether an end-of-session disclaimer reduces carryover of identity suggestions.
 
-**Why it works:** Cognitive decoupling, Suspension of disbelief.
+**Why it works:** Cognitive decoupling, Conversational framing, Suspension of disbelief.
 
 
 ### Listening conditions *(unit)*
@@ -10410,7 +10410,7 @@ The pre-talk is the span of the script that comes before any attempt to start tr
 
 **Evidence:** clinical-tradition. Preparatory information that corrects misconceptions is standard clinical practice and studies of pre-hypnotic information suggest it can raise responsiveness modestly; the best content and length are not settled.
 
-**Why it works:** Response expectancy theory, Sociocognitive theory of hypnosis, Forewarning effect.
+**Why it works:** Conversational framing, Forewarning effect, Pre-suasion, Response expectancy theory, Sociocognitive theory of hypnosis.
 
 **Consent:** The pre-talk is the natural place to state what the file installs and how to stop; leaving that out removes the listener's chance to decline.
 
@@ -10435,7 +10435,7 @@ The induction section is the part of a script that moves the listener from ordin
 
 **Evidence:** clinical-tradition. Research scales and clinical texts treat the induction as a distinct phase; studies find the specific induction method matters less than expectation and the listener's hypnotizability.
 
-**Why it works:** Hypnotic induction, Response expectancy theory, Hypnotizability.
+**Why it works:** Hypnotic induction, Hypnotizability, Response expectancy theory.
 
 
 ### Deepener section *(structure)*
@@ -10481,7 +10481,7 @@ The suggestion section is the part of a script, after deepening and before emerg
 
 **Evidence:** clinical-tradition. Clinical scripts and research scales place the targeted suggestions after the induction, though suggestions also work with no induction; the ordering and number of suggestions within the section is convention, not tested.
 
-**Why it works:** Direct verbal suggestion, Posthypnotic suggestion, Hypnotic suggestibility.
+**Why it works:** Direct verbal suggestion, Hypnotic suggestibility, Posthypnotic suggestion.
 
 **Consent:** This is where anything that persists after the session is installed; the listener should have been told what it contains before the file started.
 
@@ -10506,7 +10506,7 @@ The convincer section is a bounded part of a script given over to suggested phen
 
 **Evidence:** clinical-tradition. Challenge items are standard in research scales and stage practice; that passing one raises later responsiveness is widely taught but not well tested.
 
-**Why it works:** Response expectancy theory, Self-perception theory, Ideomotor effect.
+**Why it works:** Ideomotor effect, Response expectancy theory, Self-perception theory.
 
 
 ### Emergence section *(structure)*
@@ -10554,7 +10554,7 @@ A loop is a stretch of script built to repeat: its last lines lead into its firs
 
 **Evidence:** practitioner-lore. Loop files are common in online audio communities; that repeated exposure raises familiarity and acceptance is supported in general, but no study has examined looped hypnosis files.
 
-**Why it works:** Mere-exposure effect, Illusory truth effect, Habituation.
+**Why it works:** Habituation, Illusory truth effect, Mere-exposure effect, Spacing effect.
 
 **Consent:** A loop has no built-in end or wake; listeners should be told how long it is meant to run and how to stop it.
 
@@ -10579,7 +10579,7 @@ A series is a multi-file shape: each file is a complete session, but the set is 
 
 **Evidence:** clinical-tradition. Multi-session protocols are standard in clinical hypnosis and spaced practice improves learning in general; no study compares series designs for hypnosis files.
 
-**Why it works:** Spacing effect, Foot-in-the-door, Commitment and consistency.
+**Why it works:** Commitment and consistency, Effort justification, Foot-in-the-door, Spacing effect, Sunk-cost effect.
 
 **Consent:** Effects build across files, so the listener should be told where the series ends up before starting it, and how to undo it.
 
@@ -10604,7 +10604,7 @@ A story frame is a whole-file shape in which the session is narrated as a scene:
 
 **Evidence:** practitioner-lore. In persuasion research, readers absorbed in a story tend to counterargue less, though results vary across studies; whether framing a whole hypnosis session as a story changes outcomes has not been studied.
 
-**Why it works:** Narrative transportation, Transportation-induced counterarguing reduction, Character identification.
+**Why it works:** Character identification, Narrative coherence, Narrative persuasion, Narrative transportation, Transportation-induced counterarguing reduction.
 
 **Consent:** Suggestions delivered as plot can persist outside the story; say in the description what is meant to stay after the fiction ends.
 
@@ -10629,7 +10629,7 @@ Call and response is a whole-session shape in which the speaker's lines are inte
 
 **Evidence:** practitioner-lore. Self-generated and spoken statements are remembered better and can shift attitudes in lab studies; call-and-response hypnosis sessions themselves have not been studied.
 
-**Why it works:** Generation effect, Self-perception theory, Commitment and consistency.
+**Why it works:** Commitment and consistency, Generation effect, Self-perception theory.
 
 
 ### Countdown finale *(structure)*
@@ -10652,7 +10652,7 @@ A countdown finale is a session shape in which the main build of the file resolv
 
 **Evidence:** practitioner-lore. A community convention from erotic audio; anticipation and delayed release raise arousal in general, but no study has examined counted finales.
 
-**Why it works:** Prediction error, Motivating operations.
+**Why it works:** Motivating operations, Prediction error.
 
 **Consent:** If the finale ends in sexual release or fires a trigger installed earlier, that should be in the file's content note.
 
@@ -10677,7 +10677,7 @@ A multi-drop session uses fractionation as its skeleton: the file repeatedly bri
 
 **Evidence:** practitioner-lore. Fractionation is a long-standing clinical and stage technique attributed to Vogt; claims that each cycle measurably deepens trance lack controlled support.
 
-**Why it works:** Response expectancy theory, Habituation.
+**Why it works:** Habituation, Response expectancy theory.
 
 
 ### Instructional / practice session *(structure)*
@@ -10700,7 +10700,7 @@ An instructional session presents its content as a skill being taught: the speak
 
 **Evidence:** clinical-tradition. Teaching self-hypnosis and skills through practice rounds is standard clinical practice and practice with feedback improves learning generally; lesson-framed hypnosis files are not separately studied.
 
-**Why it works:** Operant conditioning, Automaticity.
+**Why it works:** Automaticity, Operant conditioning.
 
 
 ### Recap *(structure)*
@@ -10746,7 +10746,7 @@ A branching session offers the listener real choices that select different conti
 
 **Evidence:** practitioner-lore. Perceived choice can raise engagement and commitment in general; branching hypnosis files have not been studied.
 
-**Why it works:** Self-determination theory, Commitment and consistency.
+**Why it works:** Commitment and consistency, Self-determination theory.
 
 
 ## Delivery and production
@@ -10784,7 +10784,7 @@ Analog marking is a consistent non-verbal signal applied to selected words: a dr
 
 **Evidence:** practitioner-lore. Vocal emphasis plainly changes what listeners attend to and remember, but the claim that marked words act as a separate message outside awareness is untested. Source: Bandler & Grinder, Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Vol. 1 (1975).
 
-**Why it works:** Analog marking, Attentional capture, Milton Model, Embedded commands.
+**Why it works:** Analog marking, Attentional capture, Embedded commands, Interspersal technique, Milton Model.
 
 **Consent:** It is meant to pass unnoticed, so the listener should know in advance that the session contains suggestions.
 
@@ -10809,7 +10809,7 @@ Matching is copying a feature of how this listener is behaving: speech rate, bre
 
 **Evidence:** contested. Behavioral mimicry has experimental support for increasing liking (Chartrand & Bargh 1999), but NLP claims about matching sensory predicates to a preferred representational system failed controlled tests, and no study shows matching raises hypnotic response.
 
-**Why it works:** Rapport matching, Liking principle, Pacing and leading, Processing fluency.
+**Why it works:** Liking principle, Pacing and leading, Processing fluency, Rapport matching.
 
 
 ### Rapid delivery *(delivery)*
@@ -10832,7 +10832,7 @@ Overload by rate: a single stream delivered so quickly that the listener can fol
 
 **Evidence:** contested. Faster speech raised persuasion and perceived credibility in some studies (Miller et al. 1976) and later work found it mainly cuts scrutiny, helping weak arguments and hurting strong ones; there is no controlled evidence for its use in hypnosis.
 
-**Why it works:** Cognitive load, Counterarguing, Elaboration likelihood model, Distraction-induced persuasion.
+**Why it works:** Cognitive load, Counterarguing, Distraction-induced persuasion, Elaboration likelihood model.
 
 **Consent:** Speed removes the time to refuse, so restrict fast passages to simple acts the listener has agreed to.
 
@@ -10855,7 +10855,7 @@ Speech that is slower than conversation, usually slowing further by degrees acro
 
 **Evidence:** clinical-tradition. Slowed, paced delivery is standard in clinical hypnosis teaching; its separate contribution to depth has not been isolated in controlled work.
 
-**Why it works:** Pacing and leading, Habituation.
+**Why it works:** Habituation, Pacing and leading, Rapport matching.
 
 
 ### Tone shift *(delivery)*
@@ -10878,7 +10878,7 @@ A change of vocal register held over a passage or section: the voice turns lower
 
 **Evidence:** practitioner-lore. Using a distinct lower or firmer voice for trance and for commands is widely taught; no controlled studies isolate the effect of the change of voice on hypnotic response.
 
-**Why it works:** Orienting response.
+**Why it works:** Analog marking, Attentional capture, Habituation, Orienting response.
 
 
 ### Whisper *(delivery)*
@@ -10920,7 +10920,7 @@ Several recorded voice tracks overlap: a main voice with background whispers, tw
 
 **Evidence:** practitioner-lore. Overlapping speech raises cognitive load, which is well studied; its effect on hypnotic depth or suggestion uptake in recordings is untested.
 
-**Why it works:** Cognitive load, Working-memory interference.
+**Why it works:** Cognitive load, Distraction-induced persuasion, Manufactured consensus, Working-memory interference.
 
 **Consent:** Secondary tracks are designed to be heard but not followed; the listener should be able to read what they say.
 
@@ -10943,7 +10943,7 @@ Speech recorded at very low volume, sped up, masked by noise or music, or otherw
 
 **Evidence:** contested. A double-blind test of commercial subliminal self-help tapes (Greenwald, Spangenberg, Pratkanis & Eskenazi, Psychological Science, 1991) found no effect of the hidden content; listeners improved according to what the label told them the tape was for. The popular claim far outruns the evidence.
 
-**Why it works:** Placebo effect, Response expectancy theory, Priming.
+**Why it works:** Placebo effect, Priming, Response expectancy theory.
 
 **Consent:** Works only if unnoticed by design; always disclose that a hidden track exists and publish what it says.
 
@@ -11050,7 +11050,7 @@ Discrete non-speech sounds placed at points in the recording to mark events: a s
 
 **Evidence:** practitioner-lore. Sounds can be conditioned as cues, which is well established in general; their use in recorded hypnosis is untested.
 
-**Why it works:** Classical conditioning, Orienting response.
+**Why it works:** Attentional capture, Classical conditioning, Orienting response.
 
 
 ### Echo *(delivery)*
