@@ -3322,10 +3322,9 @@
   "summary": "Give the same suggestion several times, word for word or in fresh words.",
   "cues": [
    "the same suggestion content appearing three or more times in a script",
-   "a key phrase recurring verbatim at intervals",
+   "the same words two to four times, not as a block and not at regular points",
    "paraphrase runs: 'in other words', 'again', 'once more'",
-   "restatement immediately after a pause or a ratification",
-   "the suggestion returning in the closing passage"
+   "restatement immediately after a pause or a ratification"
   ],
   "not_this": [
    {
@@ -3334,15 +3333,27 @@
    },
    {
     "id": "mantra",
-    "why": "a mantra is one short phrase repeated many times in a row as the activity itself"
+    "why": "one fixed line, or a fixed set of two to four, repeated five or more times as a block; that block is a mantra and does not take this label as well"
    },
    {
     "id": "refrain",
-    "why": "a refrain is a fixed line returning for structure; label refrain when the line is identical and placed at regular points"
+    "why": "one fixed line returning three or more times with other text between; label the refrain alone"
    },
    {
     "id": "epizeuxis",
     "why": "epizeuxis is a single word repeated with nothing between"
+   },
+   {
+    "id": "overlearning",
+    "why": "rounds of cue, response and reset; that is a drill, whatever words are repeated"
+   },
+   {
+    "id": "recap-structure",
+    "why": "a listing near the end of what the session already suggested"
+   },
+   {
+    "id": "anaphora",
+    "why": "consecutive lines sharing only their opening words; this entry is for a suggestion's content coming back"
    }
   ],
   "text_detectable": "yes"
@@ -7518,6 +7529,10 @@
    {
     "id": "repetition-of-suggestion",
     "why": "repeats the suggestion's wording without firing and resetting the response each time"
+   },
+   {
+    "id": "mantra",
+    "why": "repeats a fixed line with no cue fired and no reset between; a drill is rounds of cue, response and reset, and takes this label alone even when the wording of each round is identical"
    }
   ],
   "text_detectable": "yes"
@@ -7548,19 +7563,31 @@
    },
    {
     "id": "epizeuxis",
-    "why": "immediately repeats a word or short phrase, often just for emphasis; a mantra sustains a fixed phrase as a block, so a span can exhibit both"
+    "why": "one word or short phrase said back to back inside ordinary prose; a mantra is a whole line, or a fixed set of two to four, repeated five or more times as a block. A passage takes one of the two"
    },
    {
     "id": "refrain",
-    "why": "a line that returns at intervals through the script, not in a dense repeated block"
+    "why": "one fixed line that comes back three or more times with other text between; a mantra is a dense block with nothing between"
    },
    {
     "id": "repetition-of-suggestion",
-    "why": "repeats a suggestion a few times, often reworded; a mantra sustains fixed wording as a phrase"
+    "why": "the same idea in different words, or the same words only two to four times; a block of five or more identical lines is a mantra and does not take that label as well"
    },
    {
     "id": "repeat-after-me",
     "why": "instructs the listener to say supplied words, even once; a mantra is the repeated phrase, whoever voices it, and both labels can apply"
+   },
+   {
+    "id": "overlearning",
+    "why": "a drill fires a cue, gets the response and resets, round after round; when the repeated lines are those rounds, label the drill and not a mantra"
+   },
+   {
+    "id": "anaphora",
+    "why": "lines that share an opening and then differ; identical whole lines are a mantra"
+   },
+   {
+    "id": "rhyme",
+    "why": "a line repeated word for word is not rhyme, alliteration or meter; label a sound device only when it is inside the phrase itself"
    }
   ],
   "text_detectable": "yes"
@@ -13715,7 +13742,7 @@
   ],
   "summary": "Start several successive clauses or sentences with the same word or phrase.",
   "cues": [
-   "two or more consecutive sentences or clauses beginning with the same two-plus words",
+   "two or more consecutive sentences or clauses beginning with the same two-plus words and continuing differently",
    "repeated 'And you can...' / 'With every...' / 'Now...' line openings",
    "line-initial repetition in a stanza-like block"
   ],
@@ -13726,11 +13753,15 @@
    },
    {
     "id": "refrain",
-    "why": "a refrain is a whole line returning at intervals across the script, not a consecutive run"
+    "why": "a whole line returning at intervals across the script, not a consecutive run of lines that differ after the opening"
    },
    {
     "id": "parallelism",
     "why": "parallelism repeats grammatical shape; anaphora repeats the actual words"
+   },
+   {
+    "id": "mantra",
+    "why": "identical whole lines in a block; anaphora needs lines that share an opening and then differ"
    }
   ],
   "text_detectable": "yes"
@@ -13746,7 +13777,7 @@
   ],
   "summary": "End several successive clauses or sentences with the same word or phrase.",
   "cues": [
-   "two or more consecutive clauses or sentences ending with the same word or phrase",
+   "two or more consecutive clauses or sentences that begin differently and end with the same word or phrase",
    "a repeated depth or state word in sentence-final position",
    "line-final repetition in a block of short lines"
   ],
@@ -13758,6 +13789,10 @@
    {
     "id": "refrain",
     "why": "a refrain returns as a full line at intervals, not as the tail of consecutive clauses"
+   },
+   {
+    "id": "mantra",
+    "why": "identical whole lines in a block; epistrophe needs lines that differ before the shared ending"
    }
   ],
   "text_detectable": "yes"
@@ -13785,7 +13820,7 @@
    },
    {
     "id": "mantra",
-    "why": "a mantra repeats a fixed word or phrase as a sustained activity; epizeuxis is an immediate burst within ordinary prose"
+    "why": "a whole line, or a fixed set of two to four, repeated five or more times as a block; epizeuxis is one word or short phrase said back to back inside ordinary prose. A passage takes one of the two"
    },
    {
     "id": "semantic-satiation",
@@ -13825,6 +13860,10 @@
    {
     "id": "antithesis",
     "why": "antithesis is parallel form used to set opposed ideas against each other"
+   },
+   {
+    "id": "mantra",
+    "why": "identical lines repeat the words, not only the shape; parallelism needs lines with the same grammar and different words"
    }
   ],
   "text_detectable": "yes"
@@ -14019,6 +14058,10 @@
    {
     "id": "meter",
     "why": "meter is a regular beat, which can exist without rhyme"
+   },
+   {
+    "id": "mantra",
+    "why": "a line repeated word for word is not rhyme; label rhyme only when different words rhyme"
    }
   ],
   "text_detectable": "yes"
@@ -14081,6 +14124,10 @@
    {
     "id": "whisper",
     "why": "whisper is a voice choice; sibilance is written into the words"
+   },
+   {
+    "id": "mantra",
+    "why": "a line repeated word for word is not alliteration; label it only when the sounds recur inside the phrase"
    }
   ],
   "text_detectable": "yes"
@@ -14164,7 +14211,7 @@
   "not_this": [
    {
     "id": "mantra",
-    "why": "a mantra is repeated many times in a row; a refrain returns at intervals"
+    "why": "five or more repetitions in a dense block with nothing between; a refrain returns three or more times with other text between"
    },
    {
     "id": "anaphora",
@@ -14172,7 +14219,11 @@
    },
    {
     "id": "repetition-of-suggestion",
-    "why": "that repeats the suggestion, possibly varied; a refrain is one fixed line"
+    "why": "the same idea in different words, or the same words only twice; a refrain is one fixed line and takes this label alone"
+   },
+   {
+    "id": "recap-structure",
+    "why": "a listing near the end of what the session already suggested, not one line returning throughout"
    }
   ],
   "text_detectable": "yes"
@@ -15725,7 +15776,7 @@
    },
    {
     "id": "repetition-of-suggestion",
-    "why": "repeating a suggestion where it is given, not summarizing them all at the end"
+    "why": "a suggestion coming back where it is given or later in the body; a recap is the listing near the end and takes this label alone"
    }
   ],
   "text_detectable": "yes"

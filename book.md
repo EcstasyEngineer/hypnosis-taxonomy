@@ -2266,9 +2266,9 @@ The writer returns to one suggestion more than once within the session, either v
 
 > You speak calmly. Calm in your voice. Calm in every word you say.
 
-**Spot it by:** the same suggestion content appearing three or more times in a script; a key phrase recurring verbatim at intervals; paraphrase runs: 'in other words', 'again', 'once more'; restatement immediately after a pause or a ratification; the suggestion returning in the closing passage.
+**Spot it by:** the same suggestion content appearing three or more times in a script; the same words two to four times, not as a block and not at regular points; paraphrase runs: 'in other words', 'again', 'once more'; restatement immediately after a pause or a ratification.
 
-**Not to be confused with:** Deeper and deeper (that repeats depth words to deepen trance; this repeats a content suggestion); Mantra (a mantra is one short phrase repeated many times in a row as the activity itself); Refrain (a refrain is a fixed line returning for structure; label refrain when the line is identical and placed at regular points); Immediate repetition (epizeuxis is a single word repeated with nothing between).
+**Not to be confused with:** Deeper and deeper (that repeats depth words to deepen trance; this repeats a content suggestion); Mantra (one fixed line, or a fixed set of two to four, repeated five or more times as a block; that block is a mantra and does not take this label as well); Refrain (one fixed line returning three or more times with other text between; label the refrain alone); Immediate repetition (epizeuxis is a single word repeated with nothing between); Drill (rounds of cue, response and reset; that is a drill, whatever words are repeated); Recap (a listing near the end of what the session already suggested); Anaphora (consecutive lines sharing only their opening words; this entry is for a suggestion's content coming back).
 
 **Evidence:** experimental. Repeated statements are judged more true and more familiar (illusory truth, mere exposure), and practice strengthens responses; the 'law of concentrated attention' is a teaching slogan, and how many repeats a hypnotic suggestion needs is not established.
 
@@ -5110,7 +5110,7 @@ A drill is a block of repeated cue-response-reset cycles inside a single session
 
 **Spot it by:** 'again', 'once more', 'one more time', 'and again' repeated across a passage; three or more consecutive cue-response-reset cycles with near-identical wording; explicit practice language: 'let's practice', 'we'll do this ten times', 'another round'; numbered rounds: 'that was one', 'round three'; a reset instruction between firings: 'and come back up', 'open your eyes', 'let it go'; speed-up remarks: 'faster this time', 'quicker each time'.
 
-**Not to be confused with:** Trigger test (fires a cue once or twice as proof ('let's test that'); a drill is an extended block of cue-response-reset practice, often with counted rounds or 'again'); Fractionation (cycles between partial waking and renewed trance; a drill repeatedly fires and resets a named cue-response link. If both patterns are present, both labels can apply); Suggestion repetition (repeats the suggestion's wording without firing and resetting the response each time).
+**Not to be confused with:** Trigger test (fires a cue once or twice as proof ('let's test that'); a drill is an extended block of cue-response-reset practice, often with counted rounds or 'again'); Fractionation (cycles between partial waking and renewed trance; a drill repeatedly fires and resets a named cue-response link. If both patterns are present, both labels can apply); Suggestion repetition (repeats the suggestion's wording without firing and resetting the response each time); Mantra (repeats a fixed line with no cue fired and no reset between; a drill is rounds of cue, response and reset, and takes this label alone even when the wording of each round is identical).
 
 **Evidence:** experimental. Practice continued past first success improves retention and speed in skill and verbal learning, with gains that fade without later practice; drilling hypnotic triggers specifically has not been tested in controlled studies.
 
@@ -5135,7 +5135,7 @@ A mantra is a short phrase with fixed wording, or a fixed set of two to four sho
 
 **Spot it by:** the same short fixed phrase, or the same few short lines in the same order, repeated as a sustained block, typically five or more times; one identical line recurring densely within a passage; 'your mantra', 'chant', 'keep repeating', 'over and over'; repeated lines set as their own block or list; stage directions such as [mantra loops under voice] or [x10].
 
-**Not to be confused with:** Repetition induction (uses sustained repetition to lead into trance; label mantra as well when the same short fixed phrase forms a sustained repeated block); Immediate repetition (immediately repeats a word or short phrase, often just for emphasis; a mantra sustains a fixed phrase as a block, so a span can exhibit both); Refrain (a line that returns at intervals through the script, not in a dense repeated block); Suggestion repetition (repeats a suggestion a few times, often reworded; a mantra sustains fixed wording as a phrase); Repeat after me (instructs the listener to say supplied words, even once; a mantra is the repeated phrase, whoever voices it, and both labels can apply).
+**Not to be confused with:** Repetition induction (uses sustained repetition to lead into trance; label mantra as well when the same short fixed phrase forms a sustained repeated block); Immediate repetition (one word or short phrase said back to back inside ordinary prose; a mantra is a whole line, or a fixed set of two to four, repeated five or more times as a block. A passage takes one of the two); Refrain (one fixed line that comes back three or more times with other text between; a mantra is a dense block with nothing between); Suggestion repetition (the same idea in different words, or the same words only two to four times; a block of five or more identical lines is a mantra and does not take that label as well); Repeat after me (instructs the listener to say supplied words, even once; a mantra is the repeated phrase, whoever voices it, and both labels can apply); Drill (a drill fires a cue, gets the response and resets, round after round; when the repeated lines are those rounds, label the drill and not a mantra); Anaphora (lines that share an opening and then differ; identical whole lines are a mantra); Rhyme (a line repeated word for word is not rhyme, alliteration or meter; label a sound device only when it is inside the phrase itself).
 
 **Evidence:** practitioner-lore. Repetition reliably raises familiarity and judged truth of a statement, and repeated-phrase meditation has relaxation studies, but lasting change in belief or behavior from a mantra inside a hypnosis script has not been shown.
 
@@ -9346,9 +9346,9 @@ Anaphora repeats the same words at the beginning of successive clauses, lines or
 
 > You can let your shoulders rest. You can let your jaw go loose. You can let the day fall away.
 
-**Spot it by:** two or more consecutive sentences or clauses beginning with the same two-plus words; repeated 'And you can...' / 'With every...' / 'Now...' line openings; line-initial repetition in a stanza-like block.
+**Spot it by:** two or more consecutive sentences or clauses beginning with the same two-plus words and continuing differently; repeated 'And you can...' / 'With every...' / 'Now...' line openings; line-initial repetition in a stanza-like block.
 
-**Not to be confused with:** Epistrophe (epistrophe repeats the ending, not the opening); Refrain (a refrain is a whole line returning at intervals across the script, not a consecutive run); Parallelism (parallelism repeats grammatical shape; anaphora repeats the actual words).
+**Not to be confused with:** Epistrophe (epistrophe repeats the ending, not the opening); Refrain (a whole line returning at intervals across the script, not a consecutive run of lines that differ after the opening); Parallelism (parallelism repeats grammatical shape; anaphora repeats the actual words); Mantra (identical whole lines in a block; anaphora needs lines that share an opening and then differ).
 
 **Evidence:** rhetorical-tradition. A classical figure; repetition in general raises perceived truth and fluency, but anaphora itself has no hypnosis-specific study.
 
@@ -9367,9 +9367,9 @@ Epistrophe repeats the same words at the end of successive clauses or sentences,
 
 > The room goes quiet. Your breathing goes quiet. Somewhere inside, the last of the chatter goes quiet.
 
-**Spot it by:** two or more consecutive clauses or sentences ending with the same word or phrase; a repeated depth or state word in sentence-final position; line-final repetition in a block of short lines.
+**Spot it by:** two or more consecutive clauses or sentences that begin differently and end with the same word or phrase; a repeated depth or state word in sentence-final position; line-final repetition in a block of short lines.
 
-**Not to be confused with:** Anaphora (anaphora repeats the opening words); Refrain (a refrain returns as a full line at intervals, not as the tail of consecutive clauses).
+**Not to be confused with:** Anaphora (anaphora repeats the opening words); Refrain (a refrain returns as a full line at intervals, not as the tail of consecutive clauses); Mantra (identical whole lines in a block; epistrophe needs lines that differ before the shared ending).
 
 **Evidence:** rhetorical-tradition. A classical figure with no direct study in hypnosis; its emphasis effect is inferred from general work on repetition and end-focus.
 
@@ -9390,7 +9390,7 @@ Epizeuxis is repetition of a single word or short phrase back to back, with no i
 
 **Spot it by:** the same word two to four times consecutively, separated only by commas or ellipses; 'deeper, deeper' / 'down, down' / 'sleep, sleep'; a line made only of one repeated word.
 
-**Not to be confused with:** Deeper and deeper (that repeats depth words across a passage, rather than immediately repeating the same word or phrase); Mantra (a mantra repeats a fixed word or phrase as a sustained activity; epizeuxis is an immediate burst within ordinary prose); Semantic satiation (semantic satiation repeats a word until its meaning fades; epizeuxis repeats it for emphasis while its meaning remains clear); Anaphora (anaphora repeats an opening across separate clauses).
+**Not to be confused with:** Deeper and deeper (that repeats depth words across a passage, rather than immediately repeating the same word or phrase); Mantra (a whole line, or a fixed set of two to four, repeated five or more times as a block; epizeuxis is one word or short phrase said back to back inside ordinary prose. A passage takes one of the two); Semantic satiation (semantic satiation repeats a word until its meaning fades; epizeuxis repeats it for emphasis while its meaning remains clear); Anaphora (anaphora repeats an opening across separate clauses).
 
 **Evidence:** rhetorical-tradition. Standard in hypnotic patter by convention; no study isolates its effect.
 
@@ -9411,7 +9411,7 @@ Parallelism repeats a grammatical pattern across clauses or sentences while the 
 
 **Spot it by:** consecutive clauses with matching word order and part-of-speech sequence; repeated 'As X, Y' or 'The X verbs your Y' templates; balanced clauses of similar length joined by semicolons.
 
-**Not to be confused with:** Anaphora (anaphora repeats the same opening words, not only the shape); Rule of three (a tricolon is parallelism fixed at three members); Antithesis (antithesis is parallel form used to set opposed ideas against each other).
+**Not to be confused with:** Anaphora (anaphora repeats the same opening words, not only the shape); Rule of three (a tricolon is parallelism fixed at three members); Antithesis (antithesis is parallel form used to set opposed ideas against each other); Mantra (identical lines repeat the words, not only the shape; parallelism needs lines with the same grammar and different words).
 
 **Evidence:** rhetorical-tradition. A classical figure; parallel structure eases comprehension, but no study ties it to hypnotic response.
 
@@ -9537,7 +9537,7 @@ Rhyme matches the final stressed vowel and following sounds of two or more words
 
 **Spot it by:** line-final or phrase-final words sharing end sounds; short couplets; rhyming pairs inside one sentence ('slow... go', 'deep... sleep').
 
-**Not to be confused with:** Alliteration and sibilance (alliteration repeats initial consonants, not end sounds); Rhythm and meter (meter is a regular beat, which can exist without rhyme).
+**Not to be confused with:** Alliteration and sibilance (alliteration repeats initial consonants, not end sounds); Rhythm and meter (meter is a regular beat, which can exist without rhyme); Mantra (a line repeated word for word is not rhyme; label rhyme only when different words rhyme).
 
 **Evidence:** experimental. Rhymed aphorisms were rated more accurate than unrhymed equivalents in controlled studies; that this deepens trance or strengthens suggestions is not tested. Source: McGlone & Tofighbakhsh, Birds of a feather flock conjointly (?): Rhyme as reason in aphorisms (2000).
 
@@ -9581,7 +9581,7 @@ Alliteration repeats a consonant sound at the start of nearby words; sibilance f
 
 **Spot it by:** three or more nearby words starting with the same consonant; dense s / sh / z sounds in a short span; repeated m or l sounds in a soothing phrase.
 
-**Not to be confused with:** Rhyme (rhyme repeats end sounds); Whisper (whisper is a voice choice; sibilance is written into the words).
+**Not to be confused with:** Rhyme (rhyme repeats end sounds); Whisper (whisper is a voice choice; sibilance is written into the words); Mantra (a line repeated word for word is not alliteration; label it only when the sounds recur inside the phrase).
 
 **Evidence:** rhetorical-tradition. A classical sound figure; sound symbolism is studied in linguistics, but the claim that soft consonants relax listeners is untested.
 
@@ -9644,7 +9644,7 @@ A refrain is a fixed line that recurs across a script, separated by other materi
 
 **Spot it by:** the same full sentence appearing three or more times, separated by other text; a line repeated at section boundaries; verbatim return of an earlier line after a gap.
 
-**Not to be confused with:** Mantra (a mantra is repeated many times in a row; a refrain returns at intervals); Anaphora (anaphora repeats an opening across consecutive clauses); Suggestion repetition (that repeats the suggestion, possibly varied; a refrain is one fixed line).
+**Not to be confused with:** Mantra (five or more repetitions in a dense block with nothing between; a refrain returns three or more times with other text between); Anaphora (anaphora repeats an opening across consecutive clauses); Suggestion repetition (the same idea in different words, or the same words only twice; a refrain is one fixed line and takes this label alone); Recap (a listing near the end of what the session already suggested, not one line returning throughout).
 
 **Evidence:** rhetorical-tradition. A poetic and musical form; spaced repetition aids memory in general, but its hypnotic effect is untested.
 
@@ -10719,7 +10719,7 @@ A recap is a section near the end of a script that restates, compactly, the sugg
 
 **Spot it by:** 'before you come back', 'so remember', 'to summarize', 'everything you've learned'; a block of short lines repeating key words from earlier suggestions; position directly before the count-up or sealing passage; no new suggestions introduced.
 
-**Not to be confused with:** Sealing suggestions before waking (states that suggestions stay, without listing them); Refrain (one line repeated at intervals through the file); Suggestion repetition (repeating a suggestion where it is given, not summarizing them all at the end).
+**Not to be confused with:** Sealing suggestions before waking (states that suggestions stay, without listing them); Refrain (one line repeated at intervals through the file); Suggestion repetition (a suggestion coming back where it is given or later in the body; a recap is the listing near the end and takes this label alone).
 
 **Evidence:** practitioner-lore. Repetition aids recall and raises perceived truth in general; there is no specific evidence that a recap before waking improves hypnotic outcomes.
 
